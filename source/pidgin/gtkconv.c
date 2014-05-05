@@ -9558,7 +9558,7 @@ pidgin_conv_tab_pack(PidginWindow *win, PidginConversation *gtkconv)
 	if (tabs_side) {
 		gtk_label_set_width_chars(
 			GTK_LABEL(gtkconv->tab_label),
-			MIN(g_utf8_strlen(gtk_label_get_text(GTK_LABEL(gtkconv->tab_label)), -1), 12)
+			MIN(g_utf8_strlen(gtk_label_get_text(GTK_LABEL(gtkconv->tab_label)), -1), 30) + 4
 		);
 	}
 
