@@ -70,18 +70,22 @@ purple_imgstore_add(gpointer data, size_t size, const char *filename)
 PurpleStoredImage *
 purple_imgstore_new_from_file(const char *path)
 {
+	const gchar *prof = g_build_filename(purple_user_dir(), path, NULL);
 	gchar *data = NULL;
 	size_t len;
 	GError *err = NULL;
 
 	g_return_val_if_fail(path != NULL && *path != '\0', NULL);
 
-	if (!g_file_get_contents(path, &data, &len, &err)) {
+	if (!g_file_get_contents(path, &data, &len, &err) &&
+		!g_file_get_contents(prof, &data, &len, &err)) {
 		purple_debug_error("imgstore", "Error reading %s: %s\n",
-				path, err->message);
+				prof, err->message);
+		g_free(prof);
 		g_error_free(err);
 		return NULL;
 	}
+	g_free(prof);
 	return purple_imgstore_add(data, len, path);
 }
 
