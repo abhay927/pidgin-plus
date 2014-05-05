@@ -23,7 +23,7 @@ ZIP_FILE="$PIDGIN_BASE/pidgin/win32/nsis/gtk-runtime-$BUNDLE_VERSION.zip"
 #Download the existing file (so that we distribute the exact same file for all releases with the same bundle version)
 FILE="$ZIP_FILE"
 if [ ! -e "$FILE" ]; then
-	wget "https://pidgin.im/win32/download_redir.php?version=$PIDGIN_VERSION&gtk_version=$BUNDLE_VERSION&dl_pkg=gtk" -O "$FILE"
+	wget "https://www.pidgin.im/win32/download_redir.php?version=$PIDGIN_VERSION&gtk_version=$BUNDLE_VERSION&dl_pkg=gtk" -O "$FILE"
 fi
 CHECK_SHA1SUM=`sha1sum $FILE`
 CHECK_SHA1SUM=${CHECK_SHA1SUM%%\ *}
