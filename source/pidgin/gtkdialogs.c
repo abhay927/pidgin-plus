@@ -500,9 +500,10 @@ void pidgin_dialogs_about(void)
 	str = g_string_sized_new(4096);
 
 	g_string_append_printf(str,
-		"<CENTER><FONT SIZE=\"4\"><B>%s %s</B></FONT></CENTER> (libpurple %s)"
-		"<BR>%s<BR><BR>", PIDGIN_NAME, DISPLAY_VERSION,
-		purple_core_get_version(), REVISION);
+		_("<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package "
+		"revision %s</i><br><br><font color='red'>Modified version with no "
+		"support from the official team.</font><br><br>"), PIDGIN_NAME,
+		DISPLAY_VERSION, purple_core_get_version(), REVISION);
 
 	g_string_append_printf(str,
 		_("%s is a messaging client based on libpurple which is capable of "
@@ -514,7 +515,7 @@ void pidgin_dialogs_about(void)
 		  "There is no warranty for %s.<BR><BR>"), PIDGIN_NAME, PIDGIN_NAME,
 		PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME);
 
-	g_string_append_printf(str,
+	/* g_string_append_printf(str,
 			_("<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A "
 			  "HREF=\"%s\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked "
 			  "Questions</A><BR>\tIRC Channel: #pidgin on irc.freenode.net<BR>"
@@ -537,7 +538,7 @@ void pidgin_dialogs_about(void)
 			  "We can't help with third-party protocols or plugins!<br/>"
 			  "This list's primary language is <b>English</b>.  You are "
 			  "welcome to post in another language, but the responses may "
-			  "be less helpful.<br/>"));
+			  "be less helpful.<br/>")); */
 
 	tmp = g_strdup_printf(_("About %s"), PIDGIN_NAME);
 	about = pidgin_build_help_dialog(tmp, "about", str);

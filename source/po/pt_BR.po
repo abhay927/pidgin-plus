@@ -19,6 +19,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+msgid "See applied changes"
+msgstr "Consultar modificações aplicadas"
+
+msgid "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package "
+"revision %s</i><br><br><font color='red'>Modified version with no support "
+"from the official team.</font><br><br>"
+msgstr "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, revisão de "
+"pacote %s</i><br><br><font color='red'>Versão modificada sem nenhum suporte "
+"do time oficial.</font><br><br>"
+
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
 msgid "Finch"

@@ -122,11 +122,15 @@ ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
   ;!define MUI_FINISHPAGE_RUN_NOTCHECKED
   !define MUI_FINISHPAGE_LINK			$(PIDGINFINISHVISITWEBSITE)
   !define MUI_FINISHPAGE_LINK_LOCATION		"http://pidgin.im"
+  !define MUI_FINISHPAGE_SHOWREADME		"$INSTDIR\CHANGES.html"
+  !define MUI_FINISHPAGE_SHOWREADME_TEXT	$(PIDGINREADCHANGES)
+  !define MUI_FINISHPAGE_SHOWREADME_CHECKED
 
 ;--------------------------------
 ;Pages
 
   !define MUI_PAGE_CUSTOMFUNCTION_PRE		preWelcomePage
+  !define MUI_WELCOMEPAGE_TITLE_3LINES
   !insertmacro MUI_PAGE_WELCOME
   !insertmacro MUI_PAGE_LICENSE			"../../../COPYING"
   !insertmacro MUI_PAGE_COMPONENTS
@@ -135,11 +139,14 @@ ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
   !insertmacro MUI_PAGE_DIRECTORY
 
   !insertmacro MUI_PAGE_INSTFILES
+  !define MUI_FINISHPAGE_TITLE_3LINES
   !insertmacro MUI_PAGE_FINISH
 
+  !define MUI_WELCOMEPAGE_TITLE_3LINES
   !insertmacro MUI_UNPAGE_WELCOME
   !insertmacro MUI_UNPAGE_CONFIRM
   !insertmacro MUI_UNPAGE_INSTFILES
+  !define MUI_FINISHPAGE_TITLE_3LINES
   !insertmacro MUI_UNPAGE_FINISH
 
 ;--------------------------------
@@ -654,6 +661,7 @@ Section Uninstall
     Delete "$INSTDIR\${PIDGIN_UNINST_EXE}"
     Delete "$INSTDIR\exchndl.dll"
     Delete "$INSTDIR\install.log"
+    Delete "$INSTDIR\CHANGES.html"
 
     ; Remove the debug symbols
     RMDir /r "$INSTDIR\pidgin-${PIDGIN_VERSION}-dbgsym"
