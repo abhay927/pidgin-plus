@@ -189,6 +189,8 @@ void irc_msg_default(struct irc_conn *irc, const char *name, const char *from, c
 	/* We then print "numeric: remainder". */
 	clean = purple_utf8_salvage(end);
 	tmp = g_strdup_printf("%.3s: %s", numeric, clean);
+	if (purple_str_has_prefix(tmp, "328:")) /* Skip channel URL. */
+		return;
 	g_free(clean);
 	purple_conversation_write(convo, "", tmp,
 				  PURPLE_MESSAGE_SYSTEM|PURPLE_MESSAGE_NO_LOG
