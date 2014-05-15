@@ -1,8 +1,9 @@
-<changelog>
-    <change bug="15347" description="Wider non-ellipsized labels for side-aligned conversation tabs"/>
-    <change bug="15348" description="Load account icon from config dir for relative paths"/>
-    <change bug="15248" description="Avoid printing IRC channel URLs"/>
-    <change description="New status icons">
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns:en="default" xmlns:pt-br="pt_BR">
+    <change bug="15347" en:description="Wider non-ellipsized labels for side-aligned conversation tabs" pt-br:description="Títulos maiores, sem reticências, nas abas de conversa laterais"/>
+    <change bug="15348" en:description="Load account icon from config dir for relative paths" pt-br:description="Suporte a caminhos relativos para os ícones de conta"/>
+    <change bug="15248" en:description="Avoid printing IRC channel URLs" pt-br:description="Supressão do endereço do canal IRC na janela de conversa"/>
+    <change en:description="New status icons" pt-br:description="Novo tema para ícones de status">
         <screenshot>pixmaps/pidgin/status/48/invisible.png</screenshot>
         <screenshot>pixmaps/pidgin/status/48/available.png</screenshot>
         <screenshot>pixmaps/pidgin/status/48/away.png</screenshot>
@@ -11,7 +12,7 @@
         <screenshot>pixmaps/pidgin/status/48/person.png</screenshot>
         <screenshot>pixmaps/pidgin/status/48/chat.png</screenshot>
     </change>
-    <change description="New tray icons">
+    <change en:description="New tray icons" pt-br:description="Novo tema para ícones da bandeja">
         <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-invisible.png</screenshot>
         <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-available.png</screenshot>
         <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-away.png</screenshot>

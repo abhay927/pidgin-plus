@@ -122,9 +122,11 @@ ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
   ;!define MUI_FINISHPAGE_RUN_NOTCHECKED
   !define MUI_FINISHPAGE_LINK			$(PIDGINFINISHVISITWEBSITE)
   !define MUI_FINISHPAGE_LINK_LOCATION		"http://pidgin.im"
-  !define MUI_FINISHPAGE_SHOWREADME		"$INSTDIR\CHANGES.html"
+  !define MUI_FINISHPAGE_SHOWREADME
+  !define MUI_FINISHPAGE_SHOWREADME_FUNCTION	"ShowChanges"
   !define MUI_FINISHPAGE_SHOWREADME_TEXT	$(PIDGINREADCHANGES)
   !define MUI_FINISHPAGE_SHOWREADME_CHECKED
+  !define CHANGELOG				"$INSTDIR\CHANGES.html"
 
 ;--------------------------------
 ;Pages
@@ -661,7 +663,7 @@ Section Uninstall
     Delete "$INSTDIR\${PIDGIN_UNINST_EXE}"
     Delete "$INSTDIR\exchndl.dll"
     Delete "$INSTDIR\install.log"
-    Delete "$INSTDIR\CHANGES.html"
+    Delete "${CHANGELOG}"
 
     ; Remove the debug symbols
     RMDir /r "$INSTDIR\pidgin-${PIDGIN_VERSION}-dbgsym"
@@ -1349,3 +1351,15 @@ Function CheckSHA1Sum
 FunctionEnd
 !endif
 
+Function ShowChanges
+  System::Call "Shell32::FindExecutable(t '${CHANGELOG}', i 0, t .r1) i .r2"
+  ${If} $2 > 32
+    !define LOCALE_SISO639LANGNAME "0x59"
+    !define LOCALE_SISO3166CTRYNAME "0x5A"
+    System::Call "kernel32::GetLocaleInfoA(i $LANGUAGE, i ${LOCALE_SISO639LANGNAME},  t .R0, i ${NSIS_MAX_STRLEN})"
+    System::Call "kernel32::GetLocaleInfoA(i $LANGUAGE, i ${LOCALE_SISO3166CTRYNAME}, t .R1,  i ${NSIS_MAX_STRLEN})"
+    Exec '"$1" "file:///${CHANGELOG}?$R0_$R1"'
+  ${Else}
+    ExecShell "open" "${CHANGELOG}"
+  ${EndIf}
+FunctionEnd
