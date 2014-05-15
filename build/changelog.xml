@@ -11,4 +11,14 @@
         <screenshot>pixmaps/pidgin/status/48/person.png</screenshot>
         <screenshot>pixmaps/pidgin/status/48/chat.png</screenshot>
     </change>
+    <change description="New tray icons">
+        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-invisible.png</screenshot>
+        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-available.png</screenshot>
+        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-away.png</screenshot>
+        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-busy.png</screenshot>
+        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-offline.png</screenshot>
+        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-pending.png</screenshot>
+        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-email.png</screenshot>
+        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-connect.png</screenshot>
+    </change>
 </changelog>
