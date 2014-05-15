@@ -10,6 +10,7 @@
             <meta charset="UTF-8"/>
             <title><xsl:copy-of select="$title"/></title>
             <style type="text/css">
+                img { margin: 10px; }
                 body { font-family: "Segoe UI", "Ubuntu", "Open Sans"; font-size: 1.1em; color: #777; margin: 20px; max-width: 650px; }
             </style>
         </head><body>
@@ -22,6 +23,10 @@
                     (<a><xsl:attribute name="href"><xsl:value-of select="$bugs.url"/>/<xsl:value-of select="@bug"/></xsl:attribute>
                     #<xsl:value-of select="@bug"/></a>)
                 </xsl:if>
+
+                <div><xsl:for-each select="screenshot">
+                <img><xsl:attribute name="src"><xsl:value-of select="."/></xsl:attribute></img>
+                </xsl:for-each></div>
             </li></xsl:for-each></ul>
         </body>
         </html>

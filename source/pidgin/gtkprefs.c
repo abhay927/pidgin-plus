@@ -548,7 +548,7 @@ prefs_themes_refresh(void)
 	/* status icon themes */
 	gtk_list_store_clear(prefs_status_icon_themes);
 	gtk_list_store_append(prefs_status_icon_themes, &iter);
-	tmp = get_theme_markup(_("Default"), FALSE, _("Penguin Pimps"),
+	tmp = get_theme_markup(_("Default"), FALSE, "Renato Silva",
 		_("The default Pidgin status icon theme"));
 	gtk_list_store_set(prefs_status_icon_themes, &iter, 0, pixbuf, 1, tmp, 2, "", -1);
 	g_free(tmp);
