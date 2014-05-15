@@ -1,0 +1,5 @@
+<changelog>
+    <change bug="15347" description="Wider non-ellipsized labels for side-aligned conversation tabs"/>
+    <change bug="15348" description="Load account icon from config dir for relative paths"/>
+    <change bug="15248" description="Avoid printing IRC channel URLs"/>
+</changelog>

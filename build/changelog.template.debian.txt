@@ -1,5 +1,0 @@
-pidgin (VERSION+$version) DISTRIBUTION; urgency=low
-
-  <csv:row>* $3. ($2)</csv:row>
-
- -- $maintainer  $date
