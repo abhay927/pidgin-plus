@@ -3,6 +3,7 @@
     <change bug="15347" en:description="Wider non-ellipsized labels for side-aligned conversation tabs" pt-br:description="Títulos maiores, sem reticências, nas abas de conversa laterais"/>
     <change bug="15348" en:description="Load account icon from config dir for relative paths" pt-br:description="Suporte a caminhos relativos para os ícones de conta"/>
     <change bug="15248" en:description="Avoid printing IRC channel URLs" pt-br:description="Supressão do endereço do canal IRC na janela de conversa"/>
+    <change en:description="Refined GTK+ Windows theme" pt-br:description="Tema Windows do GTK+ aprimorado"/>
     <change en:description="New status icons" pt-br:description="Novo tema para ícones de status">
         <screenshot>pixmaps/pidgin/status/48/invisible.png</screenshot>
         <screenshot>pixmaps/pidgin/status/48/available.png</screenshot>
