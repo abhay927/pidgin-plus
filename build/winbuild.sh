@@ -1,13 +1,15 @@
 #!/bin/bash
 
 if [[ -z "$1" ]]; then
-    echo "Usage: $(basename "$0") DEVELOPMENT_ROOT"
+    echo "Usage: $(basename "$0") DEVELOPMENT_ROOT [--reset]"
     exit
 fi
 
 devroot="$1"
 pidgin="$devroot/pidgin.build"
-[[ -e "$pidgin" ]] || bzr export --directory ../source "$pidgin"
+[[ "$2" = "--reset" ]] && rm -rf "$pidgin"
+mkdir -p "$pidgin"
+cp -r ../source/* "$pidgin"
 changelog.sh && mv -v changelog.html "$pidgin/CHANGES.html"
 eval $(../../windev/pidgin-windev.sh "$devroot" --path)
 cd "$pidgin"
