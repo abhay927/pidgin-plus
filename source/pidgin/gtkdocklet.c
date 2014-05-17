@@ -776,7 +776,7 @@ pidgin_docklet_clicked(int button_type)
 					g_list_free(l);
 				}
 			} else {
-				pidgin_blist_toggle_visibility();
+				pidgin_blist_force_visibility();
 			}
 			break;
 		case 3:

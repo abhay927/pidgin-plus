@@ -70,6 +70,9 @@
 #include <gtk/gtk.h>
 #include <gdk/gdk.h>
 
+#include <windows.h>
+#include <gdk/gdkwin32.h>
+
 typedef struct
 {
 	PurpleAccount *account;
@@ -7340,6 +7343,45 @@ pidgin_blist_toggle_visibility()
 		} else {
 			purple_blist_set_visible(TRUE);
 		}
+	}
+}
+
+gboolean 
+is_blist_visible(void)
+{
+	GList *visited = NULL;
+	RECT thisRect, testRect, intersection;
+	HWND windowHandel = (HWND)gdk_win32_drawable_get_handle(gtkblist->window->window);
+
+	if (windowHandel == NULL)
+		purple_debug(PURPLE_DEBUG_INFO, "HiddenCheck", "Check aborted...\n");
+
+	GetWindowRect(windowHandel, &thisRect);
+	purple_debug(PURPLE_DEBUG_INFO, "HiddenCheck", "Check started...\n");
+
+	while ((windowHandel = GetWindow(windowHandel, GW_HWNDPREV)) != NULL && g_list_find(visited, windowHandel) == NULL)
+	{
+		if (IsWindowVisible(windowHandel) && GetWindowRect(windowHandel, &testRect) && IntersectRect(&intersection, &thisRect, &testRect))
+		{
+			purple_debug(PURPLE_DEBUG_INFO, "HiddenCheck", "Hidden\n");
+			return FALSE;
+		}
+	}
+
+	g_list_free (visited);
+	purple_debug(PURPLE_DEBUG_INFO, "HiddenCheck", "TOP\n");
+	return TRUE;
+}
+
+void
+pidgin_blist_force_visibility()
+{
+	if (gtkblist && gtkblist->window)
+	{
+		if (GTK_WIDGET_VISIBLE(gtkblist->window) && is_blist_visible())
+			purple_blist_set_visible(FALSE);
+		else
+			purple_blist_set_visible(TRUE);
 	}
 }
 

@@ -53,9 +53,16 @@ static GtkWidget *dummy_button = NULL;
 static GtkWidget *dummy_window = NULL;
 static NOTIFYICONDATAW _nicon_data;
 
+static guint dblclick_timer = 0;
+
 static gboolean dummy_button_cb(GtkWidget *widget, GdkEventButton *event, gpointer user_data) {
 	pidgin_docklet_clicked(event->button);
 	return TRUE;
+}
+
+static gboolean dblclick_timer_cb(gpointer data) {
+	dblclick_timer = 0;
+	return FALSE;
 }
 
 static LRESULT CALLBACK systray_mainmsg_handler(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam) {
@@ -81,9 +88,13 @@ static LRESULT CALLBACK systray_mainmsg_handler(HWND hwnd, UINT msg, WPARAM wpar
 		GdkEvent *event;
 		GdkEventButton *event_btn;
 
-		/* We'll use Double Click - Single click over on linux */
-		if(lparam == WM_LBUTTONDBLCLK)
+		if (lparam == WM_LBUTTONUP)
+		{
+			if (dblclick_timer)
+				break;
 			type = 1;
+			dblclick_timer = g_timeout_add((guint)GetDoubleClickTime(), (GSourceFunc)dblclick_timer_cb, NULL);
+		}
 		else if(lparam == WM_MBUTTONUP)
 			type = 2;
 		else if(lparam == WM_RBUTTONUP)

@@ -2954,6 +2954,10 @@ pidgin_conv_present_conversation(PurpleConversation *conv)
 	 * a button or hitting a key. */
 	if (gtk_get_current_event_state(&state))
 		pidgin_conv_window_switch_gtkconv(gtkconv->win, gtkconv);
+
+	if (PIDGIN_WINDOW_ICONIFIED(gtkconv->win->window))
+		gtk_window_deiconify(GTK_WINDOW(gtkconv->win->window));
+
 	gtk_window_present(GTK_WINDOW(gtkconv->win->window));
 }
 
