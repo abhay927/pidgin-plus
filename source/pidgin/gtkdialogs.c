@@ -515,31 +515,6 @@ void pidgin_dialogs_about(void)
 		  "There is no warranty for %s.<BR><BR>"), PIDGIN_NAME, PIDGIN_NAME,
 		PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME);
 
-	/* g_string_append_printf(str,
-			_("<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A "
-			  "HREF=\"%s\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked "
-			  "Questions</A><BR>\tIRC Channel: #pidgin on irc.freenode.net<BR>"
-			  "\tXMPP MUC: devel@conference.pidgin.im<BR><BR>"), PURPLE_WEBSITE,
-			"http://developer.pidgin.im/wiki/FAQ");
-
-	g_string_append(str,
-			"<font size=\"4\"><b>Help for Oracle Employees</b></font> is "
-			"available from your normal internal helpdesk or IT department.  "
-			"The Pidgin developer and user communities cannot assist you in "
-			"the configuration or use of Pidgin within Oracle, as we know "
-			"nothing of Oracle's infrastructure.<br/><br/>");
-
-	g_string_append(str,
-			_("<font size=\"4\"><b>Help from other Pidgin users</b></font> is "
-			  "available by e-mailing <a "
-			  "href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/>"
-			  "This is a <b>public</b> mailing list! "
-			  "(<a href=\"http://pidgin.im/pipermail/support/\">archive</a>)<br/>"
-			  "We can't help with third-party protocols or plugins!<br/>"
-			  "This list's primary language is <b>English</b>.  You are "
-			  "welcome to post in another language, but the responses may "
-			  "be less helpful.<br/>")); */
-
 	tmp = g_strdup_printf(_("About %s"), PIDGIN_NAME);
 	about = pidgin_build_help_dialog(tmp, "about", str);
 	g_signal_connect(G_OBJECT(about), "destroy", G_CALLBACK(gtk_widget_destroyed), &about);
