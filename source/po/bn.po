@@ -1,14 +1,14 @@
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Pidgin package.
-# INDRANIL DAS GUPTA (ইন্দ্রনীল দাশগুপ্ত) <indradg@l2c2.org>, 2005.
-# Samia Nimatullah <mailsamia2001@yahoo.com>, 2005.
-# Tisa Nafisa <tisa_nafisa@yahoo.com>, 2007.
-# Jamil Ahmed <jamil@bengalinux.org>, 2007.
-# Samia Niamatullah <samia@ankur.org.bd>, 2009.
-# Sadia Afroz <sadia@ankur.org.bd>, 2010.
-# Ummey Salma <snigdha@ankur.org.bd>, 2010.
-# Israt Jahan <israt@ankur.org.bd>, 2008-2009, 2010, 2011.
-#
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the Pidgin package.
+## INDRANIL DAS GUPTA (ইন্দ্রনীল দাশগুপ্ত) <indradg@l2c2.org>, 2005.
+## Samia Nimatullah <mailsamia2001@yahoo.com>, 2005.
+## Tisa Nafisa <tisa_nafisa@yahoo.com>, 2007.
+## Jamil Ahmed <jamil@bengalinux.org>, 2007.
+## Samia Niamatullah <samia@ankur.org.bd>, 2009.
+## Sadia Afroz <sadia@ankur.org.bd>, 2010.
+## Ummey Salma <snigdha@ankur.org.bd>, 2010.
+## Israt Jahan <israt@ankur.org.bd>, 2008-2009, 2010, 2011.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"

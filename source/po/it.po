@@ -1,9 +1,9 @@
-# Pidgin Italian translation
-# Copyright (C) 2002, Salvatore di Maggio <titanicus@libero.it>
-# Copyright (C) 2003-2011, Claudio Satriano <satriano@gmail.com>
-#
-# This file is distributed under the same license as the Pidgin package.
-#
+## Pidgin Italian translation
+## Copyright (C) 2002, Salvatore di Maggio <titanicus@libero.it>
+## Copyright (C) 2003-2011, Claudio Satriano <satriano@gmail.com>
+##
+## This file is distributed under the same license as the Pidgin package.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

@@ -1,8 +1,8 @@
-# Biełaruski pierakład Pidgin
-# Copyright (C) 2007 THE pidgin'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the pidgin package.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007, 2008.
-#
+## Biełaruski pierakład Pidgin
+## Copyright (C) 2007 THE pidgin'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the pidgin package.
+## Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007, 2008.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: pidgin 2.1.0\n"

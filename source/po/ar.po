@@ -1,12 +1,12 @@
-# translation of ar.po to Arabic
-# translation of Pidgin to Arabic
-#
-# Mohamed Magdy <alnokta@yahoo.com>, 2006.
-# Youssef Chahibi <chahibi@gmail.com>, 2007.
-# Afief Halumi <Afief.h@gmail.com>, 2007.
-# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
-# Khaled Hosny <khaledhosny@eglug.org>, 2007, 2008.
-# Ahmad Gharbeia أحمد غربية <gharbeia@gmail.com>, 2008.
+## translation of ar.po to Arabic
+## translation of Pidgin to Arabic
+##
+## Mohamed Magdy <alnokta@yahoo.com>, 2006.
+## Youssef Chahibi <chahibi@gmail.com>, 2007.
+## Afief Halumi <Afief.h@gmail.com>, 2007.
+## AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+## Khaled Hosny <khaledhosny@eglug.org>, 2007, 2008.
+## Ahmad Gharbeia أحمد غربية <gharbeia@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: ar\n"

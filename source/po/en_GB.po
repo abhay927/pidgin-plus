@@ -1,8 +1,8 @@
-# Pidgin British English (en_GB) translations
-# Copyright (C) 2003-2005 Luke Ross <lukeross@sys3175.co.uk>
-#
-# Translators:
-# Phil Hannent <phil@hannent.co.uk>, 2014
+## Pidgin British English (en_GB) translations
+## Copyright (C) 2003-2005 Luke Ross <lukeross@sys3175.co.uk>
+##
+## Translators:
+## Phil Hannent <phil@hannent.co.uk>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

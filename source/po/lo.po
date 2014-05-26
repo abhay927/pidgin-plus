@@ -1,8 +1,8 @@
-# translation of lo.po to Lao
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Anousak Souphavanh <anousak@gmail.com>, 2007, 2009.
+## translation of lo.po to Lao
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Anousak Souphavanh <anousak@gmail.com>, 2007, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: lo\n"

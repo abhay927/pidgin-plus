@@ -1,9 +1,9 @@
-# translation of eo.po to Esperanto
-#
-# Copyright (C) 2006, Stéphane Fillod <fillods@users.sourceforge.net>
-#
-# Stéphane Fillod <fillods@users.sourceforge.net>, 2006, 2007, 2008, 2009.
-# This file is distributed under the same license as the Pidgin package.
+## translation of eo.po to Esperanto
+##
+## Copyright (C) 2006, Stéphane Fillod <fillods@users.sourceforge.net>
+##
+## Stéphane Fillod <fillods@users.sourceforge.net>, 2006, 2007, 2008, 2009.
+## This file is distributed under the same license as the Pidgin package.
 msgid ""
 msgstr ""
 "Project-Id-Version: eo\n"

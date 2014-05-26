@@ -1,9 +1,9 @@
-# English translation of Pidgin.
-# Copyright (C) 2004 THE Pidgin'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Pidgin package.
-# Bleeter Yaluser <trans@six-by-nine.com.au>, 2004.
-#
-#
+## English translation of Pidgin.
+## Copyright (C) 2004 THE Pidgin'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the Pidgin package.
+## Bleeter Yaluser <trans@six-by-nine.com.au>, 2004.
+##
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 1.0.0\n"

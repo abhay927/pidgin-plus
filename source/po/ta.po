@@ -1,12 +1,12 @@
-# translation of Pidginta.po to tamil
-# translation of 20060218-ta.po to
-# translation of 20060201-ta.po to
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# Viveka Nathan K <vivekanathan@gmail.com>, 2006.
-# drtvasudevan <agnihot3@gmail.com>, 2006, 2009, 2010.
-# I Felix <ifelix@redhat.com>, 2010.
+## translation of Pidginta.po to tamil
+## translation of 20060218-ta.po to
+## translation of 20060201-ta.po to
+## This file is distributed under the same license as the PACKAGE package.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+##
+## Viveka Nathan K <vivekanathan@gmail.com>, 2006.
+## drtvasudevan <agnihot3@gmail.com>, 2006, 2009, 2010.
+## I Felix <ifelix@redhat.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: ta\n"

@@ -1,8 +1,8 @@
-# translation of Pidgin.po to Azerbaijani
-# This file is distributed under the same license as the Pidgin package.
-# Copyright (C) 2005 THE Metin Amiroff.
-# Metin Amiroff <metin@karegen.com>, 2004.
-#
+## translation of Pidgin.po to Azerbaijani
+## This file is distributed under the same license as the Pidgin package.
+## Copyright (C) 2005 THE Metin Amiroff.
+## Metin Amiroff <metin@karegen.com>, 2004.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

@@ -1,14 +1,14 @@
-# translation of tr.new.po to
-# translation of pidgin-new.po to
-# translation of pidgin.po to
-# translation of tr.po to
-# Pidgin - Turkish Translation.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Pidgin package.
-#
-# Ahmet Alp Balkan ahmet4@gmail.com, 2006.
-# Onur Küçüktunç onurcc@gmail.com, 2004.
-# Serdar Soytetir <tulliana@gmail.com>, 2007.
+## translation of tr.new.po to
+## translation of pidgin-new.po to
+## translation of pidgin.po to
+## translation of tr.po to
+## Pidgin - Turkish Translation.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the Pidgin package.
+##
+## Ahmet Alp Balkan ahmet4@gmail.com, 2006.
+## Onur Küçüktunç onurcc@gmail.com, 2004.
+## Serdar Soytetir <tulliana@gmail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: tr\n"

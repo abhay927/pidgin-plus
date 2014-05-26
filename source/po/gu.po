@@ -1,7 +1,7 @@
-# translation of pidgin.gu.po to Gujarati
-# Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
-# Kartik Mistry <kartik.mistry@gmail.com>, 2006.
-# Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
+## translation of pidgin.gu.po to Gujarati
+## Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+## Kartik Mistry <kartik.mistry@gmail.com>, 2006.
+## Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: pidgin.gu\n"

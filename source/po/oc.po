@@ -1,19 +1,19 @@
-# Pidgin Occitan translation
-#
-# Copyright (C) 2008, Yannig Marchegay <yannig@marchegay.org>
-#
-# This file is distributed under the same license as the Pidgin package.
-#
-# Avant de soumettre des changements ou des conseils de traduction,
-# consultez lo document des règles de traduction en français de Mozilla.
-# Ces règles servent de base pour ce fichièr.
-# http://frenchmozilla.sourceforge.net/pages/regles.html
-#
-# D'autres documents utiles peuvent être consultés sur lo projet de
-# traduction de GNOME.
-# http://wiki.traduc.org/gnomefr/
-# Éric Boumaour <zongo_fr@users.sourceforge.net>, 2011.
-#
+## Pidgin Occitan translation
+##
+## Copyright (C) 2008, Yannig Marchegay <yannig@marchegay.org>
+##
+## This file is distributed under the same license as the Pidgin package.
+##
+## Avant de soumettre des changements ou des conseils de traduction,
+## consultez lo document des règles de traduction en français de Mozilla.
+## Ces règles servent de base pour ce fichièr.
+## http://frenchmozilla.sourceforge.net/pages/regles.html
+##
+## D'autres documents utiles peuvent être consultés sur lo projet de
+## traduction de GNOME.
+## http://wiki.traduc.org/gnomefr/
+## Éric Boumaour <zongo_fr@users.sourceforge.net>, 2011.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

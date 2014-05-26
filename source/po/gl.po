@@ -1,11 +1,11 @@
-# translation of gl.po to Galician
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Frco. Javier Rial Rodríguez <fjrial@cesga.es>, 2008,2009
-# Antón Méixome <meixome@mancomun.org>, 2009.
-# Previously translators:
-# Mar Castro <mmcastro@cesga.es> 2007.
+## translation of gl.po to Galician
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Frco. Javier Rial Rodríguez <fjrial@cesga.es>, 2008,2009
+## Antón Méixome <meixome@mancomun.org>, 2009.
+## Previously translators:
+## Mar Castro <mmcastro@cesga.es> 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"

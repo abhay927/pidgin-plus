@@ -1,12 +1,12 @@
-# Chinese (China) translation of Pidgin.
-# Pidgin 软件包的简体中文翻译。
-# Copyright (C) 2009, 2010, 2011 Free Software Foundation, Inc.
-# This file is distributed under the same license as the pidgin package.
-# Funda Wang <fundawang@linux.net.cn>, 2003, 2004.
-# fujianwzh <fujianwzh@gmail.com>, 2009.
-# liyuekui <liyuekui@gmail.com>, 2009.
-# Aron Xu <happyaron.xu@gmail.com>, 2009, 2010, 2011.
-#
+## Chinese (China) translation of Pidgin.
+## Pidgin 软件包的简体中文翻译。
+## Copyright (C) 2009, 2010, 2011 Free Software Foundation, Inc.
+## This file is distributed under the same license as the pidgin package.
+## Funda Wang <fundawang@linux.net.cn>, 2003, 2004.
+## fujianwzh <fujianwzh@gmail.com>, 2009.
+## liyuekui <liyuekui@gmail.com>, 2009.
+## Aron Xu <happyaron.xu@gmail.com>, 2009, 2010, 2011.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: pidgin HEAD\n"

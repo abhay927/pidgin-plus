@@ -1,10 +1,10 @@
-# Ukrainian translation to Pidgin.
-# Copyright (C) 2004 Free Software Foundation, Inc.
-# This file is distributed under the same license as the Pidgin package.
-#
-# Maxim V. Dziumanenko <mvd@mylinux.com.ua>, 2004-2005.
-# Oleksandr Kovalenko <alx.kovalenko@gmail.com>, 2009-2011.
-#
+## Ukrainian translation to Pidgin.
+## Copyright (C) 2004 Free Software Foundation, Inc.
+## This file is distributed under the same license as the Pidgin package.
+##
+## Maxim V. Dziumanenko <mvd@mylinux.com.ua>, 2004-2005.
+## Oleksandr Kovalenko <alx.kovalenko@gmail.com>, 2009-2011.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

@@ -1,12 +1,12 @@
-# pidgin ja.po.
-# Copyright (C) 2002, Ryosuke Kutsuna <ryosuke@cool.email.ne.jp>
-# Copyright (C) 2002, Taku YASUI <tach@debian.or.jp>
-# Copyright (C) 2003, Junichi Uekawa <dancer@debian.org>
-# Copyright (C) 2003-2007, Takeshi AIHANA <takeshi.aihana@gmail.com>
-# Copyright (C) 2011, Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>
-#
-# This file is distributed under the same license as the 'pidgin' package.
-#
+## pidgin ja.po.
+## Copyright (C) 2002, Ryosuke Kutsuna <ryosuke@cool.email.ne.jp>
+## Copyright (C) 2002, Taku YASUI <tach@debian.or.jp>
+## Copyright (C) 2003, Junichi Uekawa <dancer@debian.org>
+## Copyright (C) 2003-2007, Takeshi AIHANA <takeshi.aihana@gmail.com>
+## Copyright (C) 2011, Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>
+##
+## This file is distributed under the same license as the 'pidgin' package.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: pidgin trunk\n"

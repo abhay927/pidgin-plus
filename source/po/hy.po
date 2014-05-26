@@ -1,8 +1,8 @@
-# translation of am.po to Armenian
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# David Avsharyan <avsharyan@gmail.com>, 2009.
-#
+## translation of am.po to Armenian
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+## David Avsharyan <avsharyan@gmail.com>, 2009.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: am\n"

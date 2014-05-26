@@ -1,9 +1,9 @@
-# Translation of Pidgin.
-# Copyright (C) 2007 Kashif Masood
-# This file is distributed under GNU GPL v2.0.
-# Kashif Masood <masudmails@yahoo.com>, 2007.
-#
-#
+## Translation of Pidgin.
+## Copyright (C) 2007 Kashif Masood
+## This file is distributed under GNU GPL v2.0.
+## Kashif Masood <masudmails@yahoo.com>, 2007.
+##
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.0beta6\n"

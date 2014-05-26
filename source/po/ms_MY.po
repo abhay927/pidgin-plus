@@ -1,8 +1,8 @@
-# translation of pidgin.po to Malay
-# Copyright (C) 2011
-# This file is distributed under the same license as the pidgin package.
-#
-# Muhammad Najmi bin Ahmad Zabidi <najmi.zabidi@gmail.com>, 2011.
+## translation of pidgin.po to Malay
+## Copyright (C) 2011
+## This file is distributed under the same license as the pidgin package.
+##
+## Muhammad Najmi bin Ahmad Zabidi <najmi.zabidi@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"

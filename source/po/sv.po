@@ -1,10 +1,10 @@
-# Pidgin Swedish translation
-# Copyright (C) 2001, Christian Rose <menthos@menthos.com>
-# Copyright (C) 2003-2004, Tore Lundqvist
-# Copyright (C) 2004-2007, Peter Hjalmarsson <xake@rymdraket.net>
-#
-# This file is distributed under the same license as the Pidgin package.
-#
+## Pidgin Swedish translation
+## Copyright (C) 2001, Christian Rose <menthos@menthos.com>
+## Copyright (C) 2003-2004, Tore Lundqvist
+## Copyright (C) 2004-2007, Peter Hjalmarsson <xake@rymdraket.net>
+##
+## This file is distributed under the same license as the Pidgin package.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

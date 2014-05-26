@@ -1,9 +1,9 @@
-# Pidgin translation to Dzongkha
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2006.
-#
-# This file is distributed under the same license as the Pidgin package.
-#
+## Pidgin translation to Dzongkha
+## This file is distributed under the same license as the PACKAGE package.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2006.
+##
+## This file is distributed under the same license as the Pidgin package.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

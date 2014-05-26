@@ -1,8 +1,8 @@
-# Afrikaans translations for pidgin
-# Copyright (C) 2006-2010
-# This file is distributed under the same license as the pidgin package.
-# Samuel Murray <afrikaans BY gmail.com>, 2007
-# F Wolff <friedel@translate.org.za>, 2006-2009, 2010, 2011.
+## Afrikaans translations for pidgin
+## Copyright (C) 2006-2010
+## This file is distributed under the same license as the pidgin package.
+## Samuel Murray <afrikaans BY gmail.com>, 2007
+## F Wolff <friedel@translate.org.za>, 2006-2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.7.0\n"

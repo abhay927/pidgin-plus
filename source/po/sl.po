@@ -1,11 +1,11 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Jure Cuhalev <gandalf@owca.info>, 2003
-# Martin Srebotnjak <miles@filmsi.net>, 2006,2013
-# Matjaž Horvat <matjaz@owca.info>, 2004
+## SOME DESCRIPTIVE TITLE.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Translators:
+## Jure Cuhalev <gandalf@owca.info>, 2003
+## Martin Srebotnjak <miles@filmsi.net>, 2006,2013
+## Matjaž Horvat <matjaz@owca.info>, 2004
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

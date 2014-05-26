@@ -1,22 +1,22 @@
-# Pidgin French translation
-#
-# Copyright (C) 2001-2002, Sébastien François <sebfrance@ifrance.com>
-# Copyright (C) 2002, Stéphane Pontier <stephane.pontier@free.fr>
-# Copyright (C) 2002, Stéphane Wirtel <stephane.wirtel@belgacom.net>
-# Copyright (C) 2002, Loïc Jeannin <loic.jeannin@free.fr>
-# Copyright (C) 2002-2011, Éric Boumaour <zongo_fr@users.sourceforge.net>
-#
-# This file is distributed under the same license as the Pidgin package.
-#
-# Avant de soumettre des changements ou des conseils de traduction,
-# consultez le document des règles de traduction en français de Mozilla.
-# Ces règles servent de base pour ce fichier.
-# http://frenchmozilla.sourceforge.net/pages/regles.html
-#
-# D'autres documents utiles peuvent être consultés sur le projet de
-# traduction de GNOME.
-# http://wiki.traduc.org/gnomefr/
-#
+## Pidgin French translation
+##
+## Copyright (C) 2001-2002, Sébastien François <sebfrance@ifrance.com>
+## Copyright (C) 2002, Stéphane Pontier <stephane.pontier@free.fr>
+## Copyright (C) 2002, Stéphane Wirtel <stephane.wirtel@belgacom.net>
+## Copyright (C) 2002, Loïc Jeannin <loic.jeannin@free.fr>
+## Copyright (C) 2002-2011, Éric Boumaour <zongo_fr@users.sourceforge.net>
+##
+## This file is distributed under the same license as the Pidgin package.
+##
+## Avant de soumettre des changements ou des conseils de traduction,
+## consultez le document des règles de traduction en français de Mozilla.
+## Ces règles servent de base pour ce fichier.
+## http://frenchmozilla.sourceforge.net/pages/regles.html
+##
+## D'autres documents utiles peuvent être consultés sur le projet de
+## traduction de GNOME.
+## http://wiki.traduc.org/gnomefr/
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

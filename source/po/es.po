@@ -1,55 +1,55 @@
-# Pidgin (formerly known as Gaim) Spanish translation
-# Copyright (C) March 2002, Amaya Rodrigo <amaya@debian.org>
-# Copyright (C) April 2002, Alejandro G Villar <alx5000@terra.es>
-# Copyright (C) November 2002-January 2003, Nicolás Lichtmaier <nick@technisys.com.ar>
-# Copyright (C) April 2003, JM Pérez Cáncer <jm@cocoloco.dyn.dhs.org>
-# Copyright (c) December 2003, Francisco Javier F. Serrador
-#               <franciscojavier.fernandez.serrador@hispalinux.es>, 2003.
-# Copyright (C) February 2010, Francisco Javier F. Serrador <fserrador@gmail.com>
-# Copyright (C) June 2002, April 2003, January 2004, March 2004, September 2004,
-# 	      January 2005, 2006-2008, July 2009, July 2010, August 2010, January 2011
-#             February 2012, January 2014
-# 		Javier Fernández-Sanguino Peña  <jfs@debian.org>
-#
-# Agradecemos la ayuda de revisión realizada por:
-# Nathaniel Case, Santiago Erquicia, Francisco Javier F. Serrador,
-# Rafael Bermudez, Eduardo Pérez
-#
-# This file is distributed under the same license as the Pidgin package.
-#
-# Nota para los traductores:
-# - Un chat no es una conversación, es un chat. La analogía de "conversación"
-#   no permite traducir las metáforas de "chat room". Sólo debería utilizarse
-#   conversación con el hecho en sí de conversar, sino dificulta la comprensión
-#   de qué es un chat (un servidor al que la gente se conecta y abre "salas"
-#   o zonas distintas de discusión).
-#
-# - Buddy = Amigo, no se debe cambiar por "amigos" (como en otros programas
-#   de mensajería) porque los desarrolladores lo llaman así.
-#
-# - IM = MI (Mensaje Instantáneo, o Mensajería Instantánea) si se pone
-#   en siglas al traducir se preservan las siglas
-#
-# - Al traducir frases con mayúsculas en todas las letras, mantener sólo
-#   la primera mayúscula (no capitalizarlas todas)
-#
-# Otros términos comunes y sus traducciones:
-#
-# - Away: Ausente
-# - Idle: Inactivo
-# - Nickname o Nick: Apodo
-# - Smileys: emoticonos (no «caras gráficas»)
-# - Screenname: Nombre de usuario
-# - System Tray: Área de notificación del sistema
-# - Screen Name: Nombre de usuario (en pantalla)
-# - Plugin: Complemento
-# - Key Exchange: Intercambio de claves
-# - Key Agreement: Acuerdo de claves
-# - Plain text: «En claro» (refiriéndose a una autenticación que no está cifrada)
-# - Pounce: Aviso
-# - Smiley: Emoticono
-# - Tab: solapa (pestaña está descartado por los traductores de
-#        GNOME desde la versión 2.6)
+## Pidgin (formerly known as Gaim) Spanish translation
+## Copyright (C) March 2002, Amaya Rodrigo <amaya@debian.org>
+## Copyright (C) April 2002, Alejandro G Villar <alx5000@terra.es>
+## Copyright (C) November 2002-January 2003, Nicolás Lichtmaier <nick@technisys.com.ar>
+## Copyright (C) April 2003, JM Pérez Cáncer <jm@cocoloco.dyn.dhs.org>
+## Copyright (c) December 2003, Francisco Javier F. Serrador
+##               <franciscojavier.fernandez.serrador@hispalinux.es>, 2003.
+## Copyright (C) February 2010, Francisco Javier F. Serrador <fserrador@gmail.com>
+## Copyright (C) June 2002, April 2003, January 2004, March 2004, September 2004,
+## 	      January 2005, 2006-2008, July 2009, July 2010, August 2010, January 2011
+##             February 2012, January 2014
+## 		Javier Fernández-Sanguino Peña  <jfs@debian.org>
+##
+## Agradecemos la ayuda de revisión realizada por:
+## Nathaniel Case, Santiago Erquicia, Francisco Javier F. Serrador,
+## Rafael Bermudez, Eduardo Pérez
+##
+## This file is distributed under the same license as the Pidgin package.
+##
+## Nota para los traductores:
+## - Un chat no es una conversación, es un chat. La analogía de "conversación"
+##   no permite traducir las metáforas de "chat room". Sólo debería utilizarse
+##   conversación con el hecho en sí de conversar, sino dificulta la comprensión
+##   de qué es un chat (un servidor al que la gente se conecta y abre "salas"
+##   o zonas distintas de discusión).
+##
+## - Buddy = Amigo, no se debe cambiar por "amigos" (como en otros programas
+##   de mensajería) porque los desarrolladores lo llaman así.
+##
+## - IM = MI (Mensaje Instantáneo, o Mensajería Instantánea) si se pone
+##   en siglas al traducir se preservan las siglas
+##
+## - Al traducir frases con mayúsculas en todas las letras, mantener sólo
+##   la primera mayúscula (no capitalizarlas todas)
+##
+## Otros términos comunes y sus traducciones:
+##
+## - Away: Ausente
+## - Idle: Inactivo
+## - Nickname o Nick: Apodo
+## - Smileys: emoticonos (no «caras gráficas»)
+## - Screenname: Nombre de usuario
+## - System Tray: Área de notificación del sistema
+## - Screen Name: Nombre de usuario (en pantalla)
+## - Plugin: Complemento
+## - Key Exchange: Intercambio de claves
+## - Key Agreement: Acuerdo de claves
+## - Plain text: «En claro» (refiriéndose a una autenticación que no está cifrada)
+## - Pounce: Aviso
+## - Smiley: Emoticono
+## - Tab: solapa (pestaña está descartado por los traductores de
+##        GNOME desde la versión 2.6)
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

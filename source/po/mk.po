@@ -1,12 +1,12 @@
-# translation of mk.po to Macedonian
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# Tomislav Markovski <tome@set.com.mk>, 2004.
-# Arangel Angov <ufo@linux.net.mk>, 2006, 2007, 2008.
-# Jovan Naumovski <jovan@lugola.net>, 2006, 2007.
-# Arangel Angov <arangel@linux.net.mk>, 2007.
-# Goce Mitevski <goce.mitevski@gmail.com>, 2008.
+## translation of mk.po to Macedonian
+## This file is distributed under the same license as the PACKAGE package.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+##
+## Tomislav Markovski <tome@set.com.mk>, 2004.
+## Arangel Angov <ufo@linux.net.mk>, 2006, 2007, 2008.
+## Jovan Naumovski <jovan@lugola.net>, 2006, 2007.
+## Arangel Angov <arangel@linux.net.mk>, 2007.
+## Goce Mitevski <goce.mitevski@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"

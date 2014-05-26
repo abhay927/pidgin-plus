@@ -1,14 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Werewolf <alvar@raamat.polva.ee>, 2013
-# boamaod <boamaod@gmail.com>, 2011
-# Ivar Smolin <okul@linux.ee>, 2011
-# Mattias Põldaru <mahfiaz@gmail.com>, 2011
-# Maemees <olav.magi@hotmail.com>, 2011
-# Richard Laager <rlaager@wiktel.com>, 2011
+## SOME DESCRIPTIVE TITLE.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Translators:
+## Werewolf <alvar@raamat.polva.ee>, 2013
+## boamaod <boamaod@gmail.com>, 2011
+## Ivar Smolin <okul@linux.ee>, 2011
+## Mattias Põldaru <mahfiaz@gmail.com>, 2011
+## Maemees <olav.magi@hotmail.com>, 2011
+## Richard Laager <rlaager@wiktel.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

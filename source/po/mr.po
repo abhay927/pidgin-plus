@@ -1,9 +1,9 @@
-# translation of mr.po to Marathi
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Sandeep Shedmake <sshedmak@redhat.com>, 2010.
-# http://downloads.bosslinux.in/Translated_Po_files/GNOME-Translations/po%20files/Marathi%20mr/Extra%20files/pidgin.po
+## translation of mr.po to Marathi
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Sandeep Shedmake <sshedmak@redhat.com>, 2010.
+## http://downloads.bosslinux.in/Translated_Po_files/GNOME-Translations/po%20files/Marathi%20mr/Extra%20files/pidgin.po
 msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"

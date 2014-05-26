@@ -1,11 +1,11 @@
-# Canadian English translation of Pidgin
-# Copyright (C) 2004-2005 Adam Weinberger and the Pidgin project
-# Copyright (C) 2011 Elliott Sales de Andrade and the Pidgin project
-# This file is distributed under the same licence as the Pidgin package.
-# Adam Weinberger <adamw@gnome.org>, 2004, 2005.
-# Elliott Sales de Andrade <qulogic@pidgin.im> 2011.
-#
-#
+## Canadian English translation of Pidgin
+## Copyright (C) 2004-2005 Adam Weinberger and the Pidgin project
+## Copyright (C) 2011 Elliott Sales de Andrade and the Pidgin project
+## This file is distributed under the same licence as the Pidgin package.
+## Adam Weinberger <adamw@gnome.org>, 2004, 2005.
+## Elliott Sales de Andrade <qulogic@pidgin.im> 2011.
+##
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

@@ -1,10 +1,10 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# elnaaz <elnaz.s@gmail.com>, 2013
-# Richard Laager <rlaager@wiktel.com>, 2011
+## SOME DESCRIPTIVE TITLE.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Translators:
+## elnaaz <elnaz.s@gmail.com>, 2013
+## Richard Laager <rlaager@wiktel.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

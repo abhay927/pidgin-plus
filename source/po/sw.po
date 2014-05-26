@@ -1,6 +1,6 @@
-# Copyright (C) 2009
-# This file is distributed under the same license as the Pidgin package.
-# , 2009.
+## Copyright (C) 2009
+## This file is distributed under the same license as the Pidgin package.
+## , 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"

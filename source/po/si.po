@@ -1,9 +1,9 @@
-# translation of si.po to Sinhala
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Danishka Navin <snavin@redhat.com>, 2007.
-# Yajith Ajantha Dayarathna <yajith@gmail.com>, 2008.
+## translation of si.po to Sinhala
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Danishka Navin <snavin@redhat.com>, 2007.
+## Yajith Ajantha Dayarathna <yajith@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: si\n"

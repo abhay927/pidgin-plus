@@ -1,32 +1,32 @@
-# Pidgin Catalan translation
-# Copyright (C) 2003, JM Pérez Cáncer <jm@cocoloco.dyn.dhs.org>
-# Copyright (C) unknown, Robert Millan <zeratul2@wanadoo.es>
-# Copyright (C) December 2003 (from 2003-12-12 until 2003-12-18),
-#               January (2004-01-07,12), Xan <dxpublica@telefonica.net>
-# Copyright (c) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011
-#               Josep Puigdemont i Casamajó <josep.puigdemont@gmail.com>
-#
-# This file is distributed under the same license as the Pidgin package.
-#
-# There were translation notes here by Xan, (look in older CVS revisions),
-# those notes have been replaced by the guidelines [1] and the list of
-# computer related terms [2] of Softcatalà. We also use the officialy
-# accepted neologisms from Termcat [3].
-#
-# En Xan havia escrit uns apunts quant a la traducció (mireu versions antigues
-# al CVS), els apunts s'han substituït per la guia d'estil [1] i el recull de
-# termes [2] de Softcatalà, així com les resolucions del Termcat [3] quant als
-# neologismes (que tenen preferència en cas de contradicció amb el recull de
-# Softcatalà).
-#
-# NOTE: adjectives in catalan go [almost] always to the end, for instance:
-# NOTA: els adjectius en català acostumen a anar al final, per exemple:
-#  "New file" --> "Fitxer nou"
-#
-# [1] http://www.softcatala.org/wiki/Guia_d'estil/Guia_2010
-# [2] http://www.softcatala.org/recull.html
-# [3] http://www.termcat.net/cercaterm/
-#
+## Pidgin Catalan translation
+## Copyright (C) 2003, JM Pérez Cáncer <jm@cocoloco.dyn.dhs.org>
+## Copyright (C) unknown, Robert Millan <zeratul2@wanadoo.es>
+## Copyright (C) December 2003 (from 2003-12-12 until 2003-12-18),
+##               January (2004-01-07,12), Xan <dxpublica@telefonica.net>
+## Copyright (c) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011
+##               Josep Puigdemont i Casamajó <josep.puigdemont@gmail.com>
+##
+## This file is distributed under the same license as the Pidgin package.
+##
+## There were translation notes here by Xan, (look in older CVS revisions),
+## those notes have been replaced by the guidelines [1] and the list of
+## computer related terms [2] of Softcatalà. We also use the officialy
+## accepted neologisms from Termcat [3].
+##
+## En Xan havia escrit uns apunts quant a la traducció (mireu versions antigues
+## al CVS), els apunts s'han substituït per la guia d'estil [1] i el recull de
+## termes [2] de Softcatalà, així com les resolucions del Termcat [3] quant als
+## neologismes (que tenen preferència en cas de contradicció amb el recull de
+## Softcatalà).
+##
+## NOTE: adjectives in catalan go [almost] always to the end, for instance:
+## NOTA: els adjectius en català acostumen a anar al final, per exemple:
+##  "New file" --> "Fitxer nou"
+##
+## [1] http://www.softcatala.org/wiki/Guia_d'estil/Guia_2010
+## [2] http://www.softcatala.org/recull.html
+## [3] http://www.termcat.net/cercaterm/
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"

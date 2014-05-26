@@ -1,11 +1,11 @@
-# translation of ru.po to Russian
-# Copyright (C) 2001, 2003-2008 Free Software Foundation, Inc.
-# Sergey Volozhanin <svo@asplinux.ru>, 2001.
-# Alexandre Prokoudine <avp@altlinux.ru>, 2003, 2004.
-# Dmitry Beloglazov <dmaa@users.sf.net>, 2004-2008.
-# Антон Самохвалов <samant.ua@mail.ru>, 2008-2012.
-#
-#
+## translation of ru.po to Russian
+## Copyright (C) 2001, 2003-2008 Free Software Foundation, Inc.
+## Sergey Volozhanin <svo@asplinux.ru>, 2001.
+## Alexandre Prokoudine <avp@altlinux.ru>, 2003, 2004.
+## Dmitry Beloglazov <dmaa@users.sf.net>, 2004-2008.
+## Антон Самохвалов <samant.ua@mail.ru>, 2008-2012.
+##
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"

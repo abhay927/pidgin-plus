@@ -1,43 +1,43 @@
-# Pidgin Danish translation.
-# Copyright (C) 2003-2009, 2011-2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as the Pidgin package.
-# Morten Brix Pedersen <morten@wtf.dk>, 2003-2006
-# Peter Bach <bach.peter@gmail.com>, 2007-2009
-# Nicky Thomassen <nicky@aptget.dk>, 2011-2013
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2012
-#
-#  Konventioner:
-#   Buddy list, Contact list = venneliste
-#   Buddy pounce  =  logind-praj
-#   Away          =  fravær eller fraværende
-#   Online        =  tilkoblet
-#   Offline       =  (almindeligvis) afkoblet
-#   Offline message = offline-besked
-#     (Ikke særlig pænt, men f.eks. "afkoblet besked" lyder som om det er
-#      beskeden, der er afkoblet, og er derfor svært at forstå)
-#   Join          =  tilslutte
-#   IM / IMs      =  besked / beskeder
-#   Mouse Gesture =  Musebevægelse
-#   Friendly Name =  synligt navn
-#   Tray Icon     =  Statusikon
-#   Ban           =  Udvis
-#   Signature     =  underskrift
-#   Link          =  henvisning
-#   web           =  internet
-#   token         =  nøgle (netværkstermologi)
-#   webcam        =  webkamera
-#   mood          =  humør
-#   smiley        =  humørikon
-#   memo          =  huskeseddel
-#   chat          =  samtale
-#   alias         =  alias
-#   nickname/nick =  alias
-#   display name  =  kaldenavn
-#   buzz          =  bip
-#   nudge         =  puf
-#   idle          =  inaktiv
-#   pager         =  personsøger
-#
+## Pidgin Danish translation.
+## Copyright (C) 2003-2009, 2011-2012 Free Software Foundation, Inc.
+## This file is distributed under the same license as the Pidgin package.
+## Morten Brix Pedersen <morten@wtf.dk>, 2003-2006
+## Peter Bach <bach.peter@gmail.com>, 2007-2009
+## Nicky Thomassen <nicky@aptget.dk>, 2011-2013
+## Ask Hjorth Larsen <asklarsen@gmail.com>, 2012
+##
+##  Konventioner:
+##   Buddy list, Contact list = venneliste
+##   Buddy pounce  =  logind-praj
+##   Away          =  fravær eller fraværende
+##   Online        =  tilkoblet
+##   Offline       =  (almindeligvis) afkoblet
+##   Offline message = offline-besked
+##     (Ikke særlig pænt, men f.eks. "afkoblet besked" lyder som om det er
+##      beskeden, der er afkoblet, og er derfor svært at forstå)
+##   Join          =  tilslutte
+##   IM / IMs      =  besked / beskeder
+##   Mouse Gesture =  Musebevægelse
+##   Friendly Name =  synligt navn
+##   Tray Icon     =  Statusikon
+##   Ban           =  Udvis
+##   Signature     =  underskrift
+##   Link          =  henvisning
+##   web           =  internet
+##   token         =  nøgle (netværkstermologi)
+##   webcam        =  webkamera
+##   mood          =  humør
+##   smiley        =  humørikon
+##   memo          =  huskeseddel
+##   chat          =  samtale
+##   alias         =  alias
+##   nickname/nick =  alias
+##   display name  =  kaldenavn
+##   buzz          =  bip
+##   nudge         =  puf
+##   idle          =  inaktiv
+##   pager         =  personsøger
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.5.5\n"

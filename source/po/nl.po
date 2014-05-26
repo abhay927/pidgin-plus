@@ -1,12 +1,12 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Daniël Heres <danielheres@gmail.com>, 2008
-# Gideon van Melle <translations@gvmelle.com>, 2011-2014
-# Vincent van Adrighem <adrighem@gnome.org>, 2004, 2005, 2006
-# Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2004
+## SOME DESCRIPTIVE TITLE.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Translators:
+## Daniël Heres <danielheres@gmail.com>, 2008
+## Gideon van Melle <translations@gvmelle.com>, 2011-2014
+## Vincent van Adrighem <adrighem@gnome.org>, 2004, 2005, 2006
+## Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2004
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
