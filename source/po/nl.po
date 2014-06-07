@@ -1,26 +1,28 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Daniël Heres <danielheres@gmail.com>, 2008
-# Gideon van Melle <translations@gvmelle.com>, 2011-2014
-# Vincent van Adrighem <adrighem@gnome.org>, 2004, 2005, 2006
-# Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2004
+## SOME DESCRIPTIVE TITLE.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Translators:
+## Daniël Heres <danielheres@gmail.com>, 2008
+## Gideon van Melle <translations@gvmelle.com>, 2011-2014
+## Vincent van Adrighem <adrighem@gnome.org>, 2004, 2005, 2006
+## Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2004
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 10:38-0800\n"
-"PO-Revision-Date: 2014-01-29 09:24+0000\n"
-"Last-Translator: Gideon van Melle <translations@gvmelle.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/pidgin/language/"
-"nl/)\n"
-"Language: nl\n"
+"POT-Creation-Date: 2014-05-22 14:13-0200\n"
+"PO-Revision-Date: 2014-05-26 11:07+0000\n"
+"Last-Translator: Dingoe <Unknown>\n"
+"Language-Team: Dutch "
+"(http://www.transifex.com/projects/p/pidgin/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:44+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
+"Language: nl\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
@@ -58,8 +60,8 @@ msgid ""
 "http://developer.pidgin.im"
 msgstr ""
 "%s zorgde voor fouten tijdens het verplaatsen van uw instellingen van %s "
-"naar %s. Verplaats het handmatig. Rapporteer deze fout alstublieft op http://"
-"developer.pidgin.im"
+"naar %s. Verplaats het handmatig. Rapporteer deze fout alstublieft op "
+"http://developer.pidgin.im"
 
 #. the user did not fill in the captcha
 msgid "Error"
@@ -111,7 +113,7 @@ msgid "Username:"
 msgstr "Gebruikersnaam:"
 
 msgid "Password:"
-msgstr "Wachtwoord: "
+msgstr "Wachtwoord:"
 
 msgid "Alias:"
 msgstr "Alias:"
@@ -320,7 +322,8 @@ msgstr ""
 "contactpersoon"
 
 msgid "Removing this group will also remove all the buddies in the group"
-msgstr "Verwijderen van deze groep verwijdert ook alle vrienden in deze groep"
+msgstr ""
+"Verwijderen van deze groep verwijdert ook alle vrienden in deze groep"
 
 #, c-format
 msgid "Are you sure you want to remove %s?"
@@ -377,11 +380,11 @@ msgid "Unblock"
 msgstr "Deblokkeren"
 
 msgid ""
-"Please enter the username or alias of the person you would like to Block/"
-"Unblock."
+"Please enter the username or alias of the person you would like to "
+"Block/Unblock."
 msgstr ""
-"Geef de gebruikersnaam of bijnaam van de persoon wie u wilt Blokkeren/"
-"deblokkeren."
+"Geef de gebruikersnaam of bijnaam van de persoon wie u wilt "
+"Blokkeren/deblokkeren."
 
 #. Not multiline
 #. Not masked?
@@ -392,7 +395,8 @@ msgstr "OK"
 msgid "New Instant Message"
 msgstr "Nieuw bericht"
 
-msgid "Please enter the username or alias of the person you would like to IM."
+msgid ""
+"Please enter the username or alias of the person you would like to IM."
 msgstr ""
 "Geef de gebruikersnaam van de persoon aan wie u een IM-bericht zou willen "
 "sturen."
@@ -507,7 +511,7 @@ msgid "X.509 certificate export failed"
 msgstr "Export X.509-certificaat mislukt"
 
 msgid "PEM X.509 Certificate Export"
-msgstr "Export van PEM-X.509-certificaat "
+msgstr "Export van PEM-X.509-certificaat"
 
 #, c-format
 msgid "Certificate for %s"
@@ -574,7 +578,8 @@ msgstr "Account opnieuw inschakelen"
 msgid "No such command."
 msgstr "Opdracht bestaat niet."
 
-msgid "Syntax Error:  You typed the wrong number of arguments to that command."
+msgid ""
+"Syntax Error:  You typed the wrong number of arguments to that command."
 msgstr ""
 "Syntax Fout:  U gaf de verkeerde hoeveelheid argumenten bij die opdracht."
 
@@ -655,7 +660,7 @@ msgid "You are not connected."
 msgstr "U heeft geen verbinding."
 
 msgid "<AUTO-REPLY> "
-msgstr "<AUTO-ANTWOORD>"
+msgstr "<AUTO-ANTWOORD> "
 
 #, c-format
 msgid "List of %d user:\n"
@@ -734,14 +739,15 @@ msgstr "statussen: Venster met opgeslagen statussen weergeven."
 
 msgid ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Set the color "
-"for different classes of messages in the conversation window.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"for different classes of messages in the conversation window.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 msgstr ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Stel de kleur "
-"in voor verschillende soorten berichten in het gespreksvenster.<br>    &lt;"
-"class&gt;: ontvang, verzend, benadruk, activeer, geef een tijdstempel "
+"in voor verschillende soorten berichten in het gespreksvenster.<br>    "
+"&lt;class&gt;: ontvang, verzend, benadruk, activeer, geef een tijdstempel "
 "mee<br>    &lt;foreground/background&gt;: zwart, rood, groen, blauw, wit, "
 "grijs, donkergrijs, magenta, turkoois, standaard<br><br>VOORBEELD:<br>    "
 "msgcolor verzend turkoois standaard"
@@ -755,7 +761,7 @@ msgstr "Debugvenster"
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
-#.
+#. 
 msgid "Clear"
 msgstr "Wissen"
 
@@ -1065,7 +1071,7 @@ msgid "Goes away"
 msgstr "Weggaat"
 
 msgid "Returns from away"
-msgstr "Van afwezigheid terugkeert "
+msgstr "Van afwezigheid terugkeert"
 
 msgid "Becomes idle"
 msgstr "Inactief wordt"
@@ -1209,7 +1215,7 @@ msgid "Minutes before changing status"
 msgstr "Minuten alvorens wijziging van status"
 
 msgid "Change status to"
-msgstr "Status veranderen in "
+msgstr "Status veranderen in"
 
 msgid "Conversations"
 msgstr "Gesprekken"
@@ -1312,7 +1318,7 @@ msgid "Sound Method"
 msgstr "Geluidsmethode"
 
 msgid "Method: "
-msgstr "Methode:"
+msgstr "Methode: "
 
 #, c-format
 msgid ""
@@ -1441,7 +1447,8 @@ msgstr "Kan X display niet vinden"
 msgid "Couldn't find window"
 msgstr "Kan venster niet vinden"
 
-msgid "This plugin cannot be loaded because it was not built with X11 support."
+msgid ""
+"This plugin cannot be loaded because it was not built with X11 support."
 msgstr ""
 "De plug-in kan niet worden geladen omdat het niet gemaakt is met X11-"
 "ondersteuning."
@@ -1574,7 +1581,7 @@ msgstr "Online"
 
 #. primitive,						no,							id,			name
 msgid "Offline"
-msgstr "Offline "
+msgstr "Offline"
 
 msgid "Online Buddies"
 msgstr "Online Vrienden"
@@ -1904,7 +1911,7 @@ msgid "No name"
 msgstr "Geen naam"
 
 msgid "Unable to create new resolver process\n"
-msgstr "Kan geen nieuw oplossingsproces aanmaken \n"
+msgstr "Kan geen nieuw oplossingsproces aanmaken\n"
 
 msgid "Unable to send request to resolver process\n"
 msgstr "Niet mogelijk om verzoek om oplossingsproces te versturen\n"
@@ -2059,8 +2066,64 @@ msgstr "Bestandsoverdracht naar %s mislukt."
 msgid "File transfer from %s failed."
 msgstr "Bestandsoverdracht van %s mislukt."
 
-msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr "Of de opdracht \"aim\" URL's moet afhandelen"
+msgid "Run the command in a terminal"
+msgstr "Voer het commando uit in een terminal venster"
+
+msgid "The command used to handle \"aim\" URLs, if enabled."
+msgstr ""
+"Het commando gebruikt om \"aim\" URLs af te handelen, indien ingeschakeld."
+
+msgid "The command used to handle \"gg\" URLs, if enabled."
+msgstr ""
+"Het commando gebruikt om \"gg\" URLs af te handelen, indien ingeschakeld."
+
+msgid "The command used to handle \"icq\" URLs, if enabled."
+msgstr ""
+"Het commando gebruikt om \"icq\" URLs af te handelen, indien ingeschakeld."
+
+msgid "The command used to handle \"irc\" URLs, if enabled."
+msgstr ""
+"Het commando gebruikt om \"irc\" URLs af te handelen, indien ingeschakeld."
+
+msgid "The command used to handle \"msnim\" URLs, if enabled."
+msgstr ""
+"Het commando gebruikt om \"msnim\" URLs af te handelen, indien ingeschakeld."
+
+msgid "The command used to handle \"sip\" URLs, if enabled."
+msgstr ""
+"Het commando gebruikt om \"sip\" URLs af te handelen, indien ingeschakeld."
+
+msgid "The command used to handle \"xmpp\" URLs, if enabled."
+msgstr ""
+"Het commando gebruikt om \"xmpp\" URLs af te handelen, indien ingeschakeld."
+
+msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgstr ""
+"Het commando gebruikt om \"ymsgr\" URL's af te handelen, indien ingeschakeld."
+
+msgid "The handler for \"aim\" URLs"
+msgstr "De handler voor \"aim\" URL's"
+
+msgid "The handler for \"gg\" URLs"
+msgstr "De handler voor \"gg\" URL's"
+
+msgid "The handler for \"icq\" URLs"
+msgstr "De handler voor \"icq\" URL's"
+
+msgid "The handler for \"irc\" URLs"
+msgstr "De handler voor \"irc\" URL's"
+
+msgid "The handler for \"msnim\" URLs"
+msgstr "De handler voor \"msnim\" URL's"
+
+msgid "The handler for \"sip\" URLs"
+msgstr "De handler voor \"sip\" URL's"
+
+msgid "The handler for \"xmpp\" URLs"
+msgstr "De handler voor \"xmpp\" URL's"
+
+msgid "The handler for \"ymsgr\" URLs"
+msgstr "De handler voor \"ymsgr\" URL's"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
@@ -2069,42 +2132,12 @@ msgstr ""
 "Waar indien de opdracht in de \"command\" sleutel \"aim\" URL's moet "
 "afhandelen."
 
-msgid "The handler for \"aim\" URLs"
-msgstr "De handler voor \"aim\" URL's"
-
-msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr ""
-"Het commando gebruikt om \"aim\" URLs af te handelen, indien ingeschakeld."
-
-msgid "Run the command in a terminal"
-msgstr "Voer het commando uit in een terminal venster"
-
-msgid ""
-"True if the command used to handle this type of URL should be run in a "
-"terminal."
-msgstr ""
-"Waar indien de opdracht die gebruikt wordt om dit type URL's af te handelen "
-"moet uitgevoerd worden in een terminal."
-
-msgid "Whether the specified command should handle \"gg\" URLs"
-msgstr "Of de opdracht \"gg\" URL's moet afhandelen"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"gg\" "
 "URLs."
 msgstr ""
 "Waar indien de opdracht in de \"command\" sleutel \"gg\" URL's moet "
 "afhandelen."
-
-msgid "The handler for \"gg\" URLs"
-msgstr "De handler voor \"gg\" URL's"
-
-msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr ""
-"Het commando gebruikt om \"gg\" URLs af te handelen, indien ingeschakeld."
-
-msgid "Whether the specified command should handle \"icq\" URLs"
-msgstr "Of de opdracht \"icq\" URL's moet afhandelen"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"icq\" "
@@ -2113,32 +2146,12 @@ msgstr ""
 "Waar indien de opdracht in de \"command\" sleutel \"icq\" URL's moet "
 "afhandelen."
 
-msgid "The handler for \"icq\" URLs"
-msgstr "De handler voor \"icq\" URL's"
-
-msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr ""
-"Het commando gebruikt om \"icq\" URLs af te handelen, indien ingeschakeld."
-
-msgid "Whether the specified command should handle \"irc\" URLs"
-msgstr "Of de opdracht \"irc\" URL's moet afhandelen"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"irc\" "
 "URLs."
 msgstr ""
 "Waar indien de opdracht in de \"command\" sleutel \"irc\" URL's moet "
 "afhandelen."
-
-msgid "The handler for \"irc\" URLs"
-msgstr "De handler voor \"irc\" URL's"
-
-msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr ""
-"Het commando gebruikt om \"irc\" URLs af te handelen, indien ingeschakeld."
-
-msgid "Whether the specified command should handle \"msnim\" URLs"
-msgstr "Of de opdracht \"msnim\" URL's moet afhandelen"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"msnim\" "
@@ -2147,32 +2160,12 @@ msgstr ""
 "Waar indien de opdracht in de \"command\" sleutel \"msnim\" URL's moet "
 "afhandelen."
 
-msgid "The handler for \"msnim\" URLs"
-msgstr "De handler voor \"msnim\" URL's"
-
-msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr ""
-"Het commando gebruikt om \"msnim\" URLs af te handelen, indien ingeschakeld."
-
-msgid "Whether the specified command should handle \"sip\" URLs"
-msgstr "Of de opdracht \"sip\" URL's moet afhandelen"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"sip\" "
 "URLs."
 msgstr ""
 "Waar indien de opdracht in de \"command\" sleutel \"sip\" URL's moet "
 "afhandelen."
-
-msgid "The handler for \"sip\" URLs"
-msgstr "De handler voor \"sip\" URL's"
-
-msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr ""
-"Het commando gebruikt om \"sip\" URLs af te handelen, indien ingeschakeld."
-
-msgid "Whether the specified command should handle \"xmpp\" URLs"
-msgstr "Of de opdracht \"xmpp\" URL's moet afhandelen"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"xmpp\" "
@@ -2181,16 +2174,6 @@ msgstr ""
 "Waar indien de opdracht in de \"command\" sleutel \"xmpp\" URL's moet "
 "afhandelen."
 
-msgid "The handler for \"xmpp\" URLs"
-msgstr "De handler voor \"xmpp\" URL's"
-
-msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr ""
-"Het commando gebruikt om \"xmpp\" URLs af te handelen, indien ingeschakeld."
-
-msgid "Whether the specified command should handle \"ymsgr\" URLs"
-msgstr "Of de opdracht \"ymsgr\" URL's moet afhandelen"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ymsgr\" "
 "URLs."
@@ -2198,12 +2181,36 @@ msgstr ""
 "Waar indien de opdracht in de \"command\" sleutel \"ymsgr\" URL's moet "
 "afhandelen."
 
-msgid "The handler for \"ymsgr\" URLs"
-msgstr "De handler voor \"ymsgr\" URL's"
-
-msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
 msgstr ""
-"Het commando gebruikt om \"ymsgr\" URL's af te handelen, indien ingeschakeld."
+"Waar indien de opdracht die gebruikt wordt om dit type URL's af te handelen "
+"moet uitgevoerd worden in een terminal."
+
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr "Of de opdracht \"aim\" URL's moet afhandelen"
+
+msgid "Whether the specified command should handle \"gg\" URLs"
+msgstr "Of de opdracht \"gg\" URL's moet afhandelen"
+
+msgid "Whether the specified command should handle \"icq\" URLs"
+msgstr "Of de opdracht \"icq\" URL's moet afhandelen"
+
+msgid "Whether the specified command should handle \"irc\" URLs"
+msgstr "Of de opdracht \"irc\" URL's moet afhandelen"
+
+msgid "Whether the specified command should handle \"msnim\" URLs"
+msgstr "Of de opdracht \"msnim\" URL's moet afhandelen"
+
+msgid "Whether the specified command should handle \"sip\" URLs"
+msgstr "Of de opdracht \"sip\" URL's moet afhandelen"
+
+msgid "Whether the specified command should handle \"xmpp\" URLs"
+msgstr "Of de opdracht \"xmpp\" URL's moet afhandelen"
+
+msgid "Whether the specified command should handle \"ymsgr\" URLs"
+msgstr "Of de opdracht \"ymsgr\" URL's moet afhandelen"
 
 msgid "<b><font color=\"red\">The logger has no read function</font></b>"
 msgstr "<b><font color=\"red\">De logger heeft geen leesfunctie</font></b>"
@@ -2260,7 +2267,7 @@ msgstr ""
 msgid ""
 "No codecs left. Your codec preferences in fs-codecs.conf are too strict."
 msgstr ""
-"Geen codecs over. Uw codec voorkeuren in fs.codecs.conf zijn te strikt. "
+"Geen codecs over. Uw codec voorkeuren in fs.codecs.conf zijn te strikt."
 
 msgid "A non-recoverable Farsight2 error has occurred."
 msgstr "een onherstelbare Farsight2 fout is opgetreden."
@@ -2543,7 +2550,8 @@ msgid "Test plugin IPC support, as a server."
 msgstr "Test plug-in IPC ondersteuning, als een server."
 
 #. *  description
-msgid "Test plugin IPC support, as a server. This registers the IPC commands."
+msgid ""
+"Test plugin IPC support, as a server. This registers the IPC commands."
 msgstr ""
 "Test plug-in PIC ondersteuning, als een server. Deze registreert de IPC "
 "opdrachten."
@@ -2798,7 +2806,7 @@ msgstr "Ondersteuning eenmalig wachtwoord"
 #. *< version
 #. *  summary
 msgid "Enforce that passwords are used only once."
-msgstr "Inschakelen dat wachtwoorden slechts eenmaal gebruikt kunnen worden. "
+msgstr "Inschakelen dat wachtwoorden slechts eenmaal gebruikt kunnen worden."
 
 #. *  description
 msgid ""
@@ -3001,12 +3009,12 @@ msgid ""
 "install ActiveTCL from http://www.activestate.com\n"
 msgstr ""
 "Niet mogelijk om ActiveTCL installatie te detecteren. Als u wenst gebruik te "
-"maken van TCL plug-ins, installeer ActiveTCL vanaf http://www.activestate."
-"com\n"
+"maken van TCL plug-ins, installeer ActiveTCL vanaf "
+"http://www.activestate.com\n"
 
 msgid ""
-"Unable to find Apple's \"Bonjour for Windows\" toolkit, see http://d.pidgin."
-"im/BonjourWindows for more information."
+"Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
+"http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 "Niet in staat  de Apple's \"Bonjour voor Windows\" toolkit te vinden, zie "
 "http://d.pidgin.im/BonjourWindows voor meer informatie."
@@ -3134,7 +3142,7 @@ msgid "Please, enter your search criteria below"
 msgstr "Geef hieronder uw zoekcriteria"
 
 msgid "Show status to:"
-msgstr "Toon Status aan: "
+msgstr "Toon Status aan:"
 
 msgid "All people"
 msgstr "Iedereen"
@@ -3310,11 +3318,11 @@ msgstr "Er is geen MOTD geassocieerd met deze verbinding."
 msgid "MOTD for %s"
 msgstr "MOTD voor %s"
 
-#.
+#. 
 #. * TODO: Handle this better. Probably requires a PurpleBOSHConnection
 #. * buffer that stores what is "being sent" until the
 #. * PurpleHTTPConnection reports it is fully sent.
-#.
+#. 
 #. TODO: do we really want to disconnect on a failure to write?
 #, c-format
 msgid "Lost connection with server: %s"
@@ -3387,10 +3395,10 @@ msgstr "Ident naam"
 msgid "Real name"
 msgstr "Echte naam"
 
-#.
+#. 
 #. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
 #. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
+#. 
 msgid "Use SSL"
 msgstr "SSL gebruiken"
 
@@ -3399,8 +3407,7 @@ msgstr "Authenticatie met SASL"
 
 msgid "Allow plaintext SASL auth over unencrypted connection"
 msgstr ""
-"Toestaan van SASL auth met platte tekst over een niet-versleutelde "
-"verbinding "
+"Toestaan van SASL auth met platte tekst over een niet-versleutelde verbinding"
 
 msgid "Bad mode"
 msgstr "Slechte modus"
@@ -3436,13 +3443,11 @@ msgstr " <i>(geïdentificeerd)</i>"
 msgid "Nick"
 msgstr "Nick"
 
-#, fuzzy
 msgid "Login name"
-msgstr "Geen naam"
+msgstr ""
 
-#, fuzzy
 msgid "Host name"
-msgstr "Computernaam"
+msgstr ""
 
 msgid "Currently on"
 msgstr "Nu aanwezig"
@@ -3591,9 +3596,10 @@ msgstr "Wallops van %s"
 
 #, c-format
 msgid "Failed to initialize SASL authentication: %s"
-msgstr "Het initialiseren van SASL authenticatie is mislukt: %s "
+msgstr "Het initialiseren van SASL authenticatie is mislukt: %s"
 
-msgid "SASL authentication failed: No worthy authentication mechanisms found."
+msgid ""
+"SASL authentication failed: No worthy authentication mechanisms found."
 msgstr ""
 "SASL authenticatie mislukt: geen waardig authenticatiesysteem gevonden."
 
@@ -3755,7 +3761,8 @@ msgid ""
 msgstr ""
 "query &lt;nick&gt; &lt;message&gt;:  Informatie opvragen van een gebruiker."
 
-msgid "quit [message]:  Disconnect from the server, with an optional message."
+msgid ""
+"quit [message]:  Disconnect from the server, with an optional message."
 msgstr ""
 "quit [bericht]:  Verbinding met de server verbreken met een optioneel "
 "afscheidsbericht."
@@ -3834,7 +3841,7 @@ msgstr ""
 #. This happens when the server sends back jibberish
 #. * in the "additional data with success" case.
 #. * Seen with Wildfire 3.0.1.
-#.
+#. 
 msgid "Invalid response from server"
 msgstr "Ongeldig antwoord van server"
 
@@ -3862,7 +3869,8 @@ msgid "Server thinks authentication is complete, but client does not"
 msgstr ""
 "De server denkt dat de waarmerking compleet is, maar de cliënt denkt van niet"
 
-msgid "Server may require plaintext authentication over an unencrypted stream"
+msgid ""
+"Server may require plaintext authentication over an unencrypted stream"
 msgstr ""
 "Server kan een platte tekst waarmerking via een ongecodeerde datastroom "
 "verlangen"
@@ -3896,8 +3904,8 @@ msgstr ""
 "duiden"
 
 msgid ""
-"The server does support channel binding, but did not appear to advertise "
-"it.  This indicates a likely MITM attack"
+"The server does support channel binding, but did not appear to advertise it. "
+" This indicates a likely MITM attack"
 msgstr ""
 "De server ondersteunt geen kanaalbinding, maar waarschuwt daar kennelijk "
 "niet voor. Dit duidt op een mogelijke MITM aanval"
@@ -3963,11 +3971,11 @@ msgstr "URL"
 msgid "Street Address"
 msgstr "Straatadres"
 
-#.
+#. 
 #. * EXTADD is correct, EXTADR is generated by other
 #. * clients. The next time someone reads this, remove
 #. * EXTADR.
-#.
+#. 
 msgid "Extended Address"
 msgstr "Adrestoevoeging"
 
@@ -4128,7 +4136,7 @@ msgid "Email Address"
 msgstr "E-mailadres"
 
 msgid "Search for XMPP users"
-msgstr " XMPP-gebruikers zoeken"
+msgstr "XMPP-gebruikers zoeken"
 
 #. "Search"
 msgid "Search"
@@ -4716,7 +4724,8 @@ msgstr ""
 "chatruimte."
 
 msgid "kick &lt;user&gt; [reason]:  Kick a user from the room."
-msgstr "kick &lt;bijnaam&gt; [ruimte]:  Een gebruiker uit een ruimte schoppen."
+msgstr ""
+"kick &lt;bijnaam&gt; [ruimte]:  Een gebruiker uit een ruimte schoppen."
 
 msgid ""
 "msg &lt;user&gt; &lt;message&gt;:  Send a private message to another user."
@@ -4884,7 +4893,8 @@ msgstr ""
 "aanwezigheid."
 
 #, c-format
-msgid "Please select the resource of %s to which you would like to send a file"
+msgid ""
+"Please select the resource of %s to which you would like to send a file"
 msgstr "Geef de bron van %s naar degene die u een bestand wilt sturen"
 
 msgid "Afraid"
@@ -5571,8 +5581,10 @@ msgstr "Hotmail Inbox openen"
 msgid "Send to Mobile"
 msgstr "Verzenden naar mobiel"
 
-msgid "SSL support is needed for MSN. Please install a supported SSL library."
-msgstr "SSL ondersteuning is vereist voor MSN. Installeer een SSL bibliotheek."
+msgid ""
+"SSL support is needed for MSN. Please install a supported SSL library."
+msgstr ""
+"SSL ondersteuning is vereist voor MSN. Installeer een SSL bibliotheek."
 
 #, c-format
 msgid ""
@@ -5890,7 +5902,8 @@ msgstr "Fout bij ontleden HTTP"
 msgid "You have signed on from another location"
 msgstr "U heeft uzelf aangemeld vanaf een andere locatie."
 
-msgid "The MSN servers are temporarily unavailable. Please wait and try again."
+msgid ""
+"The MSN servers are temporarily unavailable. Please wait and try again."
 msgstr ""
 "De MSN servers zijn tijdelijk niet beschikbaar. Probeer het later nog eens."
 
@@ -5925,7 +5938,8 @@ msgid "Retrieving buddy list"
 msgstr "Opvragen van vriendenlijst"
 
 #, c-format
-msgid "%s requests to view your webcam, but this request is not yet supported."
+msgid ""
+"%s requests to view your webcam, but this request is not yet supported."
 msgstr "%s verzoekt uw webcam te zien, wat nog niet wordt ondersteund."
 
 #, c-format
@@ -5955,7 +5969,8 @@ msgid "Message could not be sent because the user is offline:"
 msgstr "Kan bericht niet versturen omdat de ander offline is:"
 
 msgid "Message could not be sent because a connection error occurred:"
-msgstr "Kan bericht niet versturen omdat er een verbindingsfout is opgetreden:"
+msgstr ""
+"Kan bericht niet versturen omdat er een verbindingsfout is opgetreden:"
 
 msgid "Message could not be sent because we are sending too quickly:"
 msgstr "Kan bericht niet versturen omdat we dit te snel doen:"
@@ -6004,7 +6019,8 @@ msgstr "Fout Bijwerken Profiel"
 msgid "Profile"
 msgstr "Profiel"
 
-msgid "Your profile information is not yet retrieved. Please try again later."
+msgid ""
+"Your profile information is not yet retrieved. Please try again later."
 msgstr ""
 "Uw profiel informatie is nog niet opgehaald. Probeer het later nog eens."
 
@@ -6191,7 +6207,8 @@ msgstr ""
 "De  MXit ID die u invoerde is niet geregistreerd. Eerst graag registreren."
 
 msgid "The MXit ID you entered is already registered. Please choose another."
-msgstr "Deze  MXit ID is al geregistreerd. Kies svp een andere gebruikersnaam."
+msgstr ""
+"Deze  MXit ID is al geregistreerd. Kies svp een andere gebruikersnaam."
 
 msgid "Internal error. Please try again later."
 msgstr "Interen fout. Probeer het later nog eens."
@@ -6356,7 +6373,8 @@ msgstr "Berichtenfout"
 
 #. could not be decrypted
 msgid "An encrypted message was received which could not be decrypted."
-msgstr "Er is een gecodeerd bericht ontvangen dat niet kon worden gedecodeerd."
+msgstr ""
+"Er is een gecodeerd bericht ontvangen dat niet kon worden gedecodeerd."
 
 msgid "Cannot perform redirect using the specified protocol"
 msgstr "Kan geen omleiding maken met het gebruikte protocol"
@@ -6414,26 +6432,32 @@ msgstr "Ongeldig datapakketje ontvangen van MXit."
 
 #. connection error
 msgid "A connection error occurred to MXit. (read stage 0x01)"
-msgstr "Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x01)"
+msgstr ""
+"Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x01)"
 
 #. connection closed
 msgid "A connection error occurred to MXit. (read stage 0x02)"
-msgstr "Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x02)"
+msgstr ""
+"Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x02)"
 
 msgid "A connection error occurred to MXit. (read stage 0x03)"
-msgstr "Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x03)"
+msgstr ""
+"Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x03)"
 
 #. malformed packet length record (too long)
 msgid "A connection error occurred to MXit. (read stage 0x04)"
-msgstr "Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x04)"
+msgstr ""
+"Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x04)"
 
 #. connection error
 msgid "A connection error occurred to MXit. (read stage 0x05)"
-msgstr "Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x05)"
+msgstr ""
+"Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x05)"
 
 #. connection closed
 msgid "A connection error occurred to MXit. (read stage 0x06)"
-msgstr "Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x06)"
+msgstr ""
+"Er is een verbindingsfout opgetreden met MXit. (uitlees stadium 0x06)"
 
 msgid "In Love"
 msgstr "Verliefd"
@@ -6533,13 +6557,14 @@ msgstr "Protocol fout, code %d: %s"
 #, c-format
 msgid ""
 "%s Your password is %zu characters, which is longer than the maximum length "
-"of %d.  Please shorten your password at http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword and try again."
+"of %d.  Please shorten your password at "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword and try again."
 msgstr ""
 "%s Uw wachtwoord heeft %zu lettertekens. Dat is langer dan de toegestane "
-"lengte van %d.  Maak uw wachtwoord spv korter op http://profileedit.myspace."
-"com/index.cfm?fuseaction=accountSettings.changePassword en probeer het nog "
-"eens."
+"lengte van %d.  Maak uw wachtwoord spv korter op "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword en probeer het nog eens."
 
 msgid "Incorrect username or password"
 msgstr "Ongeldige gebruikersnaam of wachtwoord"
@@ -6641,8 +6666,9 @@ msgid ""
 "to set your username."
 msgstr ""
 "Er is een fout opgetreden tijdens het instellen van de gebruikersnaam. "
-"Probeer het nog eens of bezoek http://editprofile.myspace.com/index.cfm?"
-"fuseaction=profile.username om uw gebruikersnaam in te stellen."
+"Probeer het nog eens of bezoek "
+"http://editprofile.myspace.com/index.cfm?fuseaction=profile.username om uw "
+"gebruikersnaam in te stellen."
 
 msgid "MySpaceIM - Username Available"
 msgstr "MySpaceIM - Gebruikersnaam Beschikbaar"
@@ -6997,7 +7023,7 @@ msgstr "Gebruikers-ID"
 #. if (value) {
 #. purple_notify_user_info_add_pair(user_info, tag, value);
 #. }
-#.
+#. 
 msgid "Full name"
 msgstr "Volledige naam"
 
@@ -7068,7 +7094,8 @@ msgid "Server port"
 msgstr "Serverpoort"
 
 msgid "Please authorize me so I can add you to my buddy list."
-msgstr "Geef mij toestemming zodat ik u kan toevoegen aan mijn vriendenlijst."
+msgstr ""
+"Geef mij toestemming zodat ik u kan toevoegen aan mijn vriendenlijst."
 
 msgid "No reason given."
 msgstr "Geen reden gegeven."
@@ -7078,7 +7105,7 @@ msgstr "Tekst van weigeringsbericht:"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
-#.
+#. 
 msgid "_OK"
 msgstr "_OK"
 
@@ -7152,7 +7179,7 @@ msgid "Invalid error"
 msgstr "Ongeldige fout"
 
 msgid "Cannot receive IM due to parental controls"
-msgstr "Kan geen IM ontvangen door ouderlijk toezicht "
+msgstr "Kan geen IM ontvangen door ouderlijk toezicht"
 
 msgid "Cannot send SMS without accepting terms"
 msgstr "Kan geen SMS zenden zonder de voorwaarden te accepteren"
@@ -7169,7 +7196,7 @@ msgid "Cannot send SMS to unknown country"
 msgstr "Kan geen SMS zenden naar onbekend land"
 
 msgid "Bot accounts cannot initiate IMs"
-msgstr "Bot accounts kunnen geen IM's initiëren "
+msgstr "Bot accounts kunnen geen IM's initiëren"
 
 msgid "Bot account cannot IM this user"
 msgstr "Bot account kan geen IM sturen naar deze gebruiker"
@@ -7187,7 +7214,7 @@ msgid "Unable to receive offline messages"
 msgstr "Kan geen offline berichten ontvangen"
 
 msgid "Offline message store full"
-msgstr "offline berichten opslag vol "
+msgstr "offline berichten opslag vol"
 
 #, c-format
 msgid "Unable to send message: %s (%s)"
@@ -7458,7 +7485,7 @@ msgid ""
 "longer."
 msgstr ""
 "Uw gebruikersnaam is te vaak aan- en afgemeld. Wacht 10 minuten en probeer "
-"het nog een keer. Als u door met proberen, moet u nog langer wachten. "
+"het nog een keer. Als u door met proberen, moet u nog langer wachten."
 
 #. client too old
 #, c-format
@@ -7597,7 +7624,8 @@ msgstr[1] ""
 "hoog is."
 
 #, c-format
-msgid "You missed %hu message from %s because your warning level is too high."
+msgid ""
+"You missed %hu message from %s because your warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because your warning level is too high."
 msgstr[0] ""
@@ -7609,7 +7637,8 @@ msgstr[1] ""
 msgid "You missed %hu message from %s for an unknown reason."
 msgid_plural "You missed %hu messages from %s for an unknown reason."
 msgstr[0] "%hu bericht van %s is niet overgekomen om een onbekende reden."
-msgstr[1] "%hu berichten van %s zijn niet overgekomen om een onbekende reden."
+msgstr[1] ""
+"%hu berichten van %s zijn niet overgekomen om een onbekende reden."
 
 msgid "Your AIM connection may be lost."
 msgstr "Uw AIM-verbinding is misschien verbroken."
@@ -7897,7 +7926,7 @@ msgid "ICQ Privacy Options"
 msgstr "ICQ privacy-opties"
 
 msgid "Change Address To:"
-msgstr "Adres veranderen in: "
+msgstr "Adres veranderen in:"
 
 msgid "you are not waiting for authorization"
 msgstr "u wacht niet op autorisatie"
@@ -8214,8 +8243,8 @@ msgstr "U heeft geen vrienden op deze lijst"
 
 #, c-format
 msgid ""
-"You can add a buddy to this list by right-clicking on them and selecting \"%s"
-"\""
+"You can add a buddy to this list by right-clicking on them and selecting "
+"\"%s\""
 msgstr ""
 "U kunt een vriend toevoegen aan deze lijst door rechts op een van hern te "
 "klikken en dan \"%s\" te selecteren"
@@ -8295,7 +8324,7 @@ msgid "Conference Closed"
 msgstr "Conferentie afgesloten"
 
 msgid "Unable to send message: "
-msgstr "Kan bericht niet verzenden:"
+msgstr "Kan bericht niet verzenden: "
 
 #, c-format
 msgid "Unable to send message to %s:"
@@ -8517,7 +8546,8 @@ msgid "No matches"
 msgstr "Geen overeenkomsten"
 
 #, c-format
-msgid "The identifier '%s' did not match any users in your Sametime community."
+msgid ""
+"The identifier '%s' did not match any users in your Sametime community."
 msgstr "De identificatie '%s' gaf geen overeenkomende resultaten."
 
 msgid "No Matches"
@@ -9337,7 +9367,8 @@ msgid "msg &lt;nick&gt; &lt;message&gt;:  Send a private message to a user"
 msgstr ""
 "msg &lt;nick&gt; &lt;message&gt;:  Een privébericht sturen aan een gebruiker"
 
-msgid "query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
+msgid ""
+"query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
 msgstr ""
 "query &lt;nick&gt; [&lt;message&gt;]:  Een privébericht sturen aan een "
 "gebruiker"
@@ -9391,10 +9422,11 @@ msgid ""
 "invite &lt;channel&gt; [-|+]&lt;nick&gt;:  invite nick or add/remove from "
 "channel invite list"
 msgstr ""
-"invite &lt;channel&gt; [-|+]&lt;nick&gt;:  Iemand uitnodigen of toevoegen/"
-"verwijderen van de lijst met genodigden"
+"invite &lt;channel&gt; [-|+]&lt;nick&gt;:  Iemand uitnodigen of "
+"toevoegen/verwijderen van de lijst met genodigden"
 
-msgid "kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
+msgid ""
+"kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
 msgstr ""
 "kick &lt;channel&gt; &lt;nick&gt; [commentaar]:  Iemand uit het kanaal "
 "schoppen"
@@ -9587,7 +9619,8 @@ msgstr ""
 
 #, c-format
 msgid "Failure: Remote does not trust/support your public key"
-msgstr "Mislukt: De andere kant vertrouwt/ondersteunt uw openbare sleutel niet"
+msgstr ""
+"Mislukt: De andere kant vertrouwt/ondersteunt uw openbare sleutel niet"
 
 #, c-format
 msgid "Failure: Remote does not support proposed KE group"
@@ -9690,7 +9723,7 @@ msgid "list: List rooms on the Yahoo network"
 msgstr "list:  Lijst van kanalen op dit netwerk"
 
 msgid "doodle: Request user to start a Doodle session"
-msgstr "Schets: Verzoek gebruiker een Schetssessie te starten "
+msgstr "Schets: Verzoek gebruiker een Schetssessie te starten"
 
 msgid "Yahoo ID..."
 msgstr "Yahoo! ID..."
@@ -9847,7 +9880,7 @@ msgstr ""
 
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr ""
-"Onbekende fout 52. Opnieuw verbinding maken zou dit moeten herstellen. "
+"Onbekende fout 52. Opnieuw verbinding maken zou dit moeten herstellen."
 
 msgid ""
 "Error 1013: The username you have entered is invalid.  The most common cause "
@@ -9858,7 +9891,8 @@ msgstr ""
 "plaats van uw Yahoo! ID."
 
 #, c-format
-msgid "Unknown error number %d. Logging into the Yahoo! website may fix this."
+msgid ""
+"Unknown error number %d. Logging into the Yahoo! website may fix this."
 msgstr ""
 "Onbekende fout %d. Aanmelden via de Yahoo! website zou dit probleem op "
 "kunnen lossen."
@@ -9895,7 +9929,7 @@ msgid ""
 "information"
 msgstr ""
 "Kan geen verbinding maken: de response van de server bevatte niet de "
-"benodigde informatie "
+"benodigde informatie"
 
 msgid "Not at Home"
 msgstr "Niet thuis"
@@ -9962,7 +9996,7 @@ msgstr "Opzoeken mobiele-telefonieaanbieder voor verzenden van de SMS."
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
-#.
+#. 
 msgid "Sent Doodle request."
 msgstr "Verzoek om te schetsen gestuurd"
 
@@ -10162,29 +10196,29 @@ msgstr ""
 msgid ""
 "zi &lt;instance&gt;: Send a message to &lt;message,<i>instance</i>,*&gt;"
 msgstr ""
-"zi  ·&lt;instance&gt;:  ·Een bericht sturen aan  ·&lt;bericht,<i>instance</"
-"i>,*&gt;"
+"zi  ·&lt;instance&gt;:  ·Een bericht sturen aan  "
+"·&lt;bericht,<i>instance</i>,*&gt;"
 
 msgid ""
-"zci &lt;class&gt; &lt;instance&gt;: Send a message to &lt;<i>class</i>,"
-"<i>instance</i>,*&gt;"
+"zci &lt;class&gt; &lt;instance&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,*&gt;"
 msgstr ""
-"zci  ·&lt;class&gt;  ·&lt;instance&gt;:  ·Een bericht sturen aan  ·&lt;"
-"<i>class</i>,<i>instance</i>,*&gt;"
+"zci  ·&lt;class&gt;  ·&lt;instance&gt;:  ·Een bericht sturen aan  "
+"·&lt;<i>class</i>,<i>instance</i>,*&gt;"
 
 msgid ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;"
-"<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 "zcir  ·&lt;class&gt;  ·&lt;instance&gt;  ·&lt;ontvanger&gt;:  ·Een bericht "
 "sturen aan  ·&lt;<i>class</i>,<i>instance</i>,<i>ontvanger</i>&gt;"
 
 msgid ""
-"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;MESSAGE,"
-"<i>instance</i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
-"zir  ·&lt;instance&gt;  ·&lt;recipient&gt;:  ·Een bericht sturen aan  ·&lt;"
-"MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
+"zir  ·&lt;instance&gt;  ·&lt;recipient&gt;:  ·Een bericht sturen aan  "
+"·&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 
 msgid "zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;"
 msgstr ""
@@ -10263,7 +10297,7 @@ msgstr "%s vraagt om uw aandacht!"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c Yes and @c No buttons.
-#.
+#. 
 msgid "_Yes"
 msgstr "_Ja"
 
@@ -10272,17 +10306,17 @@ msgstr "_Nee"
 
 #. *
 #. * A wrapper for purple_request_action() that uses Accept and Cancel buttons.
-#.
+#. 
 #. *
 #. * A wrapper for purple_request_action_with_icon() that uses Accept and Cancel
 #. * buttons.
-#.
+#. 
 msgid "_Accept"
 msgstr "_Accepteren"
 
 #. *
 #. * The default message to use when the user becomes auto-away.
-#.
+#. 
 msgid "I'm not here right now"
 msgstr "Even weg"
 
@@ -10374,12 +10408,12 @@ msgstr "+++ %s is inactief"
 msgid "+++ %s became unidle"
 msgstr "+++ %s is actief"
 
-#.
+#. 
 #. * This string determines how some dates are displayed.  The default
 #. * string "%x %X" shows the date then the time.  Translators can
 #. * change this to "%X %x" if they want the time to be shown first,
 #. * followed by the date.
-#.
+#. 
 #, c-format
 msgid "%x %X"
 msgstr "%x %X"
@@ -10498,16 +10532,16 @@ msgstr ""
 "Er is een fout opgetreden bij lezen van uw %s. Het bestand is niet geladen "
 "en het oude bestand is hernoemd tot %s~."
 
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin Internet Messenger"
-
-msgid "Internet Messenger"
-msgstr "Internet Messenger"
-
 msgid ""
 "Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
 msgstr ""
 "Chat over IM. Ondersteunt AIM, Google Talk, Jabber/XMPP, MSN, Yahoo en meer"
+
+msgid "Internet Messenger"
+msgstr "Internet Messenger"
+
+msgid "Pidgin Internet Messenger"
+msgstr "Pidgin Internet Messenger"
 
 #. Build the login options frame.
 msgid "Login Options"
@@ -10992,7 +11026,7 @@ msgid "/Tools/Pr_ivacy"
 msgstr "/Extra/Pr_ivacy"
 
 msgid "/Tools/Set _Mood"
-msgstr "/Extra/_Stemming instellen "
+msgstr "/Extra/_Stemming instellen"
 
 msgid "/Tools/_File Transfers"
 msgstr "/Extra/_Bestandsoverdrachten"
@@ -11174,9 +11208,10 @@ msgstr "/Accounts"
 msgid ""
 "<span weight='bold' size='larger'>Welcome to %s!</span>\n"
 "\n"
-"You have no accounts enabled. Enable your IM accounts from the <b>Accounts</"
-"b> window at <b>Accounts->Manage Accounts</b>. Once you enable accounts, "
-"you'll be able to sign on, set your status, and talk to your friends."
+"You have no accounts enabled. Enable your IM accounts from the "
+"<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you enable "
+"accounts, you'll be able to sign on, set your status, and talk to your "
+"friends."
 msgstr ""
 "<span weight='bold' size='larger'>Welkom bij %s!</span>\n"
 "\n"
@@ -11187,7 +11222,7 @@ msgstr ""
 
 #. set the Show Offline Buddies option. must be done
 #. * after the treeview or faceprint gets mad. -Robot101
-#.
+#. 
 msgid "/Buddies/Show/Offline Buddies"
 msgstr "/Vrienden/Weergave/Offline Vrienden"
 
@@ -11638,7 +11673,7 @@ msgid "Right click for more options."
 msgstr "Klik met rechter muisknop voor meer opties."
 
 msgid "Level "
-msgstr "Niveau"
+msgstr "Niveau "
 
 msgid "Select the debug filter level."
 msgstr "Selecteer het debug-niveau van het filter"
@@ -11653,7 +11688,7 @@ msgid "Warning"
 msgstr "Waarschuwing"
 
 msgid "Error "
-msgstr "Fout"
+msgstr "Fout "
 
 msgid "Fatal Error"
 msgstr "Fatale fout"
@@ -11969,48 +12004,27 @@ msgstr "T.M.Thanh en het GNOME-Vi team"
 
 #, c-format
 msgid ""
+"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+"%s</i><br><br><font color='red'>Modified version with no support from the "
+"official team.</font><br><br>"
+msgstr ""
+
+#, c-format
+msgid ""
 "%s is a messaging client based on libpurple which is capable of connecting "
 "to multiple messaging services at once.  %s is written in C using GTK+.  %s "
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
-"copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"copyrighted by its contributors, a list of whom is also distributed with %s. "
+" There is no warranty for %s.<BR><BR>"
 msgstr ""
 "%s is een IM cliënt gebaseerd op libpurple, welke verbinding kan maken met "
-"meerdere IM programma's tegelijk.  %s is geschreven in C met behulp van GTK"
-"+.  %s is vrijgegeven en mag gemodificeerd en opnieuw gedistribueerd worden "
-"onder de voorwaarden van de GPL versie 2 (of later).  Een kopie van de GPL "
-"is toegevoegd aan %s.  %s is auteursrechtelijk beschermd door zijn "
+"meerdere IM programma's tegelijk.  %s is geschreven in C met behulp van "
+"GTK+.  %s is vrijgegeven en mag gemodificeerd en opnieuw gedistribueerd "
+"worden onder de voorwaarden van de GPL versie 2 (of later).  Een kopie van "
+"de GPL is toegevoegd aan %s.  %s is auteursrechtelijk beschermd door zijn "
 "bijdragers van welke een lijst toegevoegd is bij %s.  Er bestaat geen "
 "garantie voor %s.<BR><BR>"
-
-#, c-format
-msgid ""
-"<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked Questions</A><BR>\tIRC "
-"Channel: #pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin."
-"im<BR><BR>"
-msgstr ""
-"<FONT SIZE=\"4\"><B>Behulpzame Bronnen</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Veelgestelde Vragen</A><BR>\tIRC kanaal: "
-"#pidgin op irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin.im<BR><BR>"
-
-msgid ""
-"<font size=\"4\"><b>Help from other Pidgin users</b></font> is available by "
-"e-mailing <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">This is a <b>public</b> mailing list! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">archive</a>)<br/>We can't help with third-party protocols or "
-"plugins!<br/>This list's primary language is <b>English</b>.  You are "
-"welcome to post in another language, but the responses may be less helpful."
-"<br/>"
-msgstr ""
-"<font size=\"4\"><b>Hulp van andere Pidgin gebruikers</b></font> is "
-"beschikbaar via e-mail <a href=\"mailto:support@pidgin.im\">support@pidgin."
-"im</a><br/>Dit is een <b>openbare</b> mailing lijst! (<a href=\"http://"
-"pidgin.im/pipermail/support/\">archief</a>)<br/>We kunnen geen hulp verlenen "
-"voor protocols of plug-ins van derden!<br/>De hoofdtaal van deze lijst is "
-"<b>Engels</b>.  U bent welkom in een andere taal te schrijven, maar de "
-"antwoorden kunnen dan minder behulpzaam zijn.<br/>"
 
 #, c-format
 msgid "About %s"
@@ -12303,7 +12317,8 @@ msgstr "De kleur die weergegeven wordt van het bericht dat u ontvangt."
 msgid "\"Attention\" Name Color"
 msgstr "\"Attentie\" kleur Naam"
 
-msgid "Color to draw the name of a message you received containing your name."
+msgid ""
+"Color to draw the name of a message you received containing your name."
 msgstr ""
 "De kleur van de naam van een bericht dat u heeft ontvangen inclusief u naam"
 
@@ -12473,7 +12488,7 @@ msgid "<b>_Bold</b>"
 msgstr "<b>_Vet: </b>"
 
 msgid "<i>_Italic</i>"
-msgstr " <i>_Cursief</i>"
+msgstr "<i>_Cursief</i>"
 
 msgid "<u>_Underline</u>"
 msgstr "<u>Onderstrepen</u>"
@@ -12706,7 +12721,7 @@ msgstr ""
 
 msgid "Unable to open URL: the 'Manual' browser command seems invalid."
 msgstr ""
-"Kan URL niet openen:het 'Handleiding' browser commando lijkt ongeldig. "
+"Kan URL niet openen:het 'Handleiding' browser commando lijkt ongeldig."
 
 msgid "No message"
 msgstr "Geen bericht"
@@ -12768,7 +12783,7 @@ msgid "<b>Written by:</b>"
 msgstr "<b>Geschreven door:</b>"
 
 msgid "<b>Web site:</b>"
-msgstr "<b>Website:</b> "
+msgstr "<b>Website:</b>"
 
 msgid "<b>Filename:</b>"
 msgstr "<b>Bestandsnaam:</b>"
@@ -12965,7 +12980,7 @@ msgid "When away"
 msgstr "Bij afwezigheid"
 
 msgid "Minimi_ze new conversation windows"
-msgstr "Minimaliseer nieuwe gespreksvensters "
+msgstr "Minimaliseer nieuwe gespreksvensters"
 
 #. All the tab options!
 msgid "Tabs"
@@ -13107,7 +13122,7 @@ msgid "Use_rname:"
 msgstr "Gebruike_rsnaam:"
 
 msgid "Pass_word:"
-msgstr "Wacht_woord: "
+msgstr "Wacht_woord:"
 
 msgid "Seamonkey"
 msgstr "Seamonkey"
@@ -13682,11 +13697,11 @@ msgstr "Pidgin-tooltip"
 msgid "Pidgin smileys"
 msgstr "Pidgin emoticons"
 
-msgid "none"
-msgstr "geen"
-
 msgid "Selecting this disables graphical emoticons."
 msgstr "Als u dit selecteert, schakel u graphische emoticons uit."
+
+msgid "none"
+msgstr "geen"
 
 msgid "Small"
 msgstr "Klein"
@@ -13861,7 +13876,7 @@ msgid ""
 "<b>Description:</b> "
 msgstr ""
 "\n"
-"<b>Beschrijving:</b>"
+"<b>Beschrijving:</b> "
 
 #. Create the window.
 msgid "Service Discovery"
@@ -14114,7 +14129,8 @@ msgstr "Minimaliseren bij afwezigheid"
 #. *  summary
 #. *  description
 msgid "Iconifies the buddy list and your conversations when you go away."
-msgstr "Minimaliseert het gespreksvenster en de Vriendenlijst bij afwezigheid."
+msgstr ""
+"Minimaliseert het gespreksvenster en de Vriendenlijst bij afwezigheid."
 
 msgid "Mail Checker"
 msgstr "E-mailcontrole"
@@ -14137,7 +14153,7 @@ msgid "Jump to markerline"
 msgstr "Ga naar markeerlijn"
 
 msgid "Draw Markerline in "
-msgstr "Teken Markeerlijn in:"
+msgstr "Teken Markeerlijn in: "
 
 msgid "_IM windows"
 msgstr "_IM-Berichtvensters"
@@ -14201,7 +14217,7 @@ msgid "Notify For"
 msgstr "Melding geven voor"
 
 msgid "\t_Only when someone says your username"
-msgstr "\t _Alleen wanneer iemand uw gebruikersnaam vermeldt"
+msgstr "\t_Alleen wanneer iemand uw gebruikersnaam vermeldt"
 
 msgid "_Focused windows"
 msgstr "Vensters met de _focus"
@@ -14704,9 +14720,8 @@ msgstr "_Uitschakelen launcher integratie"
 msgid "Show number of unread _messages on launcher icon"
 msgstr "Toon aantal ongelezen _berichten op launcher pictogram"
 
-#, fuzzy
 msgid "Show number of unread co_nversations on launcher icon"
-msgstr "Toon aantal ongelezen _conversaties op launcher pictogram"
+msgstr ""
 
 #. Messaging menu integration
 msgid "Messaging Menu"
@@ -14903,7 +14918,7 @@ msgid "XMPP Console"
 msgstr "XMPP-Console"
 
 msgid "Account: "
-msgstr "Account:"
+msgstr "Account: "
 
 msgid "<font color='#777777'>Not connected to XMPP</font>"
 msgstr "<font color='#777777'>Niet verbonden met XMPP</font>"
@@ -14919,20 +14934,6 @@ msgid "This plugin is useful for debugging XMPP servers or clients."
 msgstr ""
 "Deze plug-in is handig voor het fouten oplossen van XMPP servers of cliënten."
 
-msgid "The installer is already running."
-msgstr "Er is al een installatie actief."
-
-msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
-"again."
-msgstr ""
-"Pidgin wordt op dit moment uitgevoerd. Sluit Pidgin af en start de "
-"installatie opnieuw."
-
-#. "Next >" appears on a button on the License Page of the Installer
-msgid "Next >"
-msgstr "Volgende >"
-
 #. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
 msgid ""
 "$(^Name) is released under the GNU General Public License (GPL). The license "
@@ -14941,110 +14942,36 @@ msgstr ""
 "$(^Naam) is uitgegeven onder de GNU Generale Publieke Licentie (GPL). De "
 "licentie wordt hier slechts gegeven voor informatieve doeleinden. $_CLICK"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin Instant Messaging Cliënt (vereist)"
+#. Installer Subsection Detailed Description
+msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgstr "Een multi-platform gebruikersinterface, gebruikt door Pidgin"
 
-#. Installer Subsection Text
-msgid "GTK+ Runtime (required if not present)"
-msgstr "GTK+ runtime (vereist indien niet aanwezig)"
-
-#. Installer Subsection Text
-msgid "Shortcuts"
-msgstr "Snelkoppelingen"
-
-#. Installer Subsection Text
-msgid "Desktop"
-msgstr "Bureaublad"
-
-#. Installer Subsection Text
-msgid "Start Menu"
-msgstr "Start Menu"
-
-#. Installer Subsection Text
-msgid "Localizations"
-msgstr "Localisaties"
+msgid ""
+"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"again."
+msgstr ""
+"Pidgin wordt op dit moment uitgevoerd. Sluit Pidgin af en start de "
+"installatie opnieuw."
 
 #. Installer Subsection Detailed Description
 msgid "Core Pidgin files and dlls"
 msgstr "Pidgin hoofdbestanden en dll's"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Snelkoppelingen voor Pidgin"
+msgid "Create a Start Menu entry for Pidgin"
+msgstr "Maak een Start Menu item voor Pidgin"
 
 #. Installer Subsection Detailed Description
 msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr "Maak een snelkoppeling naar Pidgin op het bureaublad"
 
-#. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Maak een Start Menu item voor Pidgin"
-
-#. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Een multi-platform gebruikersinterface, gebruikt door Pidgin"
-
 #. Installer Subsection Text
 msgid "Debug Symbols (for reporting crashes)"
 msgstr "Debug Symbolen (voor herhaalde crashes)"
 
-#. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Neem een kijkje op de Pidgin webpagina"
-
-msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
-"version will be installed without removing the currently installed version."
-msgstr ""
-"Kan de huidige geïnstalleerde versie van Pidgin niet de-installeren. De "
-"nieuwe versie zal geïnstalleerd worden zonder de huidige versie te "
-"verwijderen."
-
-msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
-msgstr ""
-"Pidgin vereist een compatibele versie van GTK+ Runtime (die niet aanwezig "
-"lijkt te zijn).$\\rWeet u zeker dat u de installatie van GTK+ Runtime wilt "
-"overslaan?"
-
 #. Installer Subsection Text
-msgid "URI Handlers"
-msgstr "URI Handlers"
-
-#. Installer Subsection Text
-msgid "Spellchecking Support"
-msgstr "Spellingscontrole"
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-msgstr ""
-"Fout bij het installeren van de spellingscontrole ($R3).$\\rIndien een "
-"herhaalde poging mislukt, vindt u instructie voor handmatige installatie op: "
-"http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-
-#. Installer Subsection Detailed Description
-msgid ""
-"Support for Spellchecking.  (Internet connection required for installation)"
-msgstr ""
-"Ondersteuning voor spellingscontrole. (Internetverbinding nodig voor "
-"installatie)"
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
-msgstr ""
-"Fout bij installeren van debug symbolen ($R2).$\\rIndien een herhaalde "
-"poging mislukt, kunt u de  'Offline Installer' van http://pidgin.im/download/"
-"windows/  gebruiken."
+msgid "Desktop"
+msgstr "Bureaublad"
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
@@ -15056,6 +14983,82 @@ msgstr ""
 "functioneren van Pidgin. Indien een herhaalde poging mislukt kunt u de "
 "'Offline Installer' van http://pidgin.im/download/windows/  gebruiken."
 
+#. $R2 will display the URL that the Debug Symbols failed to download from
+msgid ""
+"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
+"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgstr ""
+"Fout bij installeren van debug symbolen ($R2).$\\rIndien een herhaalde "
+"poging mislukt, kunt u de  'Offline Installer' van "
+"http://pidgin.im/download/windows/  gebruiken."
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
+"installation instructions are at: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
+"Fout bij het installeren van de spellingscontrole ($R3).$\\rIndien een "
+"herhaalde poging mislukt, vindt u instructie voor handmatige installatie op: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+
+#. Installer Subsection Text
+msgid "GTK+ Runtime (required if not present)"
+msgstr "GTK+ runtime (vereist indien niet aanwezig)"
+
+#. Installer Subsection Text
+msgid "Localizations"
+msgstr "Localisaties"
+
+#. "Next >" appears on a button on the License Page of the Installer
+msgid "Next >"
+msgstr "Volgende >"
+
+#. Installer Subsection Text
+msgid "Pidgin Instant Messaging Client (required)"
+msgstr "Pidgin Instant Messaging Cliënt (vereist)"
+
+msgid ""
+"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"already present).$\\rAre you sure you want to skip installing the GTK+ "
+"Runtime?"
+msgstr ""
+"Pidgin vereist een compatibele versie van GTK+ Runtime (die niet aanwezig "
+"lijkt te zijn).$\\rWeet u zeker dat u de installatie van GTK+ Runtime wilt "
+"overslaan?"
+
+msgid "See applied changes"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Shortcuts"
+msgstr "Snelkoppelingen"
+
+#. Installer Subsection Detailed Description
+msgid "Shortcuts for starting Pidgin"
+msgstr "Snelkoppelingen voor Pidgin"
+
+#. Installer Subsection Text
+msgid "Spellchecking Support"
+msgstr "Spellingscontrole"
+
+#. Installer Subsection Text
+msgid "Start Menu"
+msgstr "Start Menu"
+
+#. Installer Subsection Detailed Description
+msgid ""
+"Support for Spellchecking.  (Internet connection required for installation)"
+msgstr ""
+"Ondersteuning voor spellingscontrole. (Internetverbinding nodig voor "
+"installatie)"
+
+msgid "The installer is already running."
+msgstr "Er is al een installatie actief."
+
 msgid ""
 "The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
 "that another user installed this application."
@@ -15063,6 +15066,22 @@ msgstr ""
 "Het verwijderingsprogramma voor Pidgin kon geen registervermeldingen voor "
 "Pidgin vinden.$\\rWaarschijnlijk heeft een andere gebruiker het programma "
 "geïnstalleerd."
+
+#. Installer Subsection Text
+msgid "URI Handlers"
+msgstr "URI Handlers"
+
+msgid ""
+"Unable to uninstall the currently installed version of Pidgin. The new "
+"version will be installed without removing the currently installed version."
+msgstr ""
+"Kan de huidige geïnstalleerde versie van Pidgin niet de-installeren. De "
+"nieuwe versie zal geïnstalleerd worden zonder de huidige versie te "
+"verwijderen."
+
+#. Text displayed on Installer Finish Page
+msgid "Visit the Pidgin Web Page"
+msgstr "Neem een kijkje op de Pidgin webpagina"
 
 msgid "You do not have permission to uninstall this application."
 msgstr "U mag dit programma niet verwijderen."

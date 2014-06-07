@@ -1,32 +1,32 @@
-## translation of am.po to Armenian
-## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-## This file is distributed under the same license as the PACKAGE package.
-## David Avsharyan <avsharyan@gmail.com>, 2009.
+## translation of pidgin.po to Malay
+## Copyright (C) 2011
+## This file is distributed under the same license as the pidgin package.
 ##
+## Muhammad Najmi bin Ahmad Zabidi <najmi.zabidi@gmail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: am\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-22 14:13-0200\n"
-"PO-Revision-Date: 2014-05-26 09:16+0000\n"
-"Last-Translator: Davsharyan <Unknown>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2014-05-29 05:54+0000\n"
+"Last-Translator: Najmi <najmi.zabidi@gmail.com>\n"
+"Language-Team: Malay <kedidiemas@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-06-07 06:40+0000\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:54+0000\n"
 "X-Generator: Launchpad (build 17031)\n"
-"Language: \n"
+"Language: ms\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
 msgid "Finch"
-msgstr "Սերինոս"
+msgstr "Finch"
 
 #, c-format
 msgid "%s. Try `%s -h' for more information.\n"
-msgstr "%s. Ավելի շատ ինֆորմացիայի համար հավագեք `%s -h'.\n"
+msgstr "%s. Cuba `%s -h' untuk maklumat lanjut.\n"
 
 #, c-format
 msgid ""
@@ -39,15 +39,6 @@ msgid ""
 "  -n, --nologin       don't automatically login\n"
 "  -v, --version       display the current version and exit\n"
 msgstr ""
-"%s\n"
-"Կիրառում: %s [OPTION]...\n"
-"\n"
-"  -c, --config=DIR    օգտագործել DIR կոնֆիգուրացիոն ֆայլերի համար\n"
-"  -d, --debug         կարգաբերվող հաղորդագրությունները տպել դեպի ստանդարտ "
-"սխալների հոսք\n"
-"  -h, --help          ցույց տալ այս օգնությունը և դուրս գալ\n"
-"  -n, --nologin       ոչ ինքնաբերաբար մուտք\n"
-"  -v, --version       ցույց տալ ընթացիկ տարբերակը և դուրս գալ\n"
 
 #, c-format
 msgid ""
@@ -58,16 +49,16 @@ msgstr ""
 
 #. the user did not fill in the captcha
 msgid "Error"
-msgstr ""
+msgstr "Ralat"
 
 msgid "Account was not modified"
-msgstr ""
+msgstr "Akaun tidak diubah"
 
 msgid "Account was not added"
-msgstr ""
+msgstr "Akaun tidak ditambah"
 
 msgid "Username of an account must be non-empty."
-msgstr "Օգտագործողի անունը  ..."
+msgstr "Nama pengguna akaun tidak boleh dibiarkan kosong."
 
 msgid ""
 "The account's protocol cannot be changed while it is connected to the server."
@@ -78,73 +69,73 @@ msgid ""
 msgstr ""
 
 msgid "New mail notifications"
-msgstr "Նոր նամակի ծանուցումներ"
+msgstr "Pemberitahuan emel baru"
 
 msgid "Remember password"
-msgstr "Հիշել գաղտնաբառը"
+msgstr "Ingat kata-laluan"
 
 msgid "There are no protocol plugins installed."
-msgstr "Այնտեղ տեղադրված չէ պրոտոկոլի ավելացումներ․"
+msgstr "Tiada plugin protokol dipasang."
 
 msgid "(You probably forgot to 'make install'.)"
-msgstr "(Հավանաբար դուք  մոռացել եք անեք 'make install'.)"
+msgstr "(Anda mungkin lupa untuk 'make install'.)"
 
 msgid "Modify Account"
-msgstr "Ձևափոխել Հաշիվը"
+msgstr "Ubah Akaun"
 
 msgid "New Account"
-msgstr "Նոր Հաշիվ"
+msgstr "Akaun Baru"
 
 msgid "Protocol:"
-msgstr "Արձանագրություն։"
+msgstr "Protokol:"
 
 msgid "Username:"
-msgstr "Օգտագործողի անունը։"
+msgstr "Nama pengguna:"
 
 msgid "Password:"
-msgstr "Գաղտնաբառ։"
+msgstr "Kata laluan:"
 
 msgid "Alias:"
-msgstr "Փոխանուն։"
+msgstr "Alias:"
 
 #. Register checkbox
 msgid "Create this account on the server"
-msgstr "Ստեղծել այս հաշիվը սերվերի վրա"
+msgstr "Cipta akaun ini pada pelayan"
 
 #. Cancel button
 #. Cancel
 msgid "Cancel"
-msgstr "Չեղյալ համարել"
+msgstr "Batal"
 
 #. Save button
 #. Save
 msgid "Save"
-msgstr "Պահպանել"
+msgstr ""
 
 #, c-format
 msgid "Are you sure you want to delete %s?"
-msgstr "Դուք համոզված եք, որ ցանկանում եք ջնջել %s?"
+msgstr ""
 
 msgid "Delete Account"
-msgstr "Ջնջել Հաշիվը"
+msgstr ""
 
 #. Delete button
 msgid "Delete"
-msgstr "Ջնջել"
+msgstr ""
 
 msgid "Accounts"
-msgstr "Հաշիվներ"
+msgstr ""
 
 msgid "You can enable/disable accounts from the following list."
-msgstr "Դուք կարող եք միացնել/անջատել հաշիվները հետևյալ ցանկից․"
+msgstr ""
 
 #. Add button
 msgid "Add"
-msgstr "Ավելացնել"
+msgstr ""
 
 #. Modify button
 msgid "Modify"
-msgstr "Փոփոխել"
+msgstr ""
 
 #, c-format
 msgid "%s%s%s%s has made %s his or her buddy%s%s"
@@ -161,30 +152,26 @@ msgid "Authorize buddy?"
 msgstr ""
 
 msgid "Authorize"
-msgstr "Լիազորում"
+msgstr ""
 
 msgid "Deny"
-msgstr "Մերժել"
+msgstr ""
 
 #, c-format
 msgid ""
 "Online: %d\n"
 "Total: %d"
 msgstr ""
-"Կապի մեջ: %d\n"
-"Ընդհանուր: %d"
 
 #, c-format
 msgid "Account: %s (%s)"
-msgstr "Հաշիվ: %s (%s"
+msgstr ""
 
 #, c-format
 msgid ""
 "\n"
 "Last Seen: %s ago"
 msgstr ""
-"\n"
-"Last Seen: %s ago"
 
 msgid "Default"
 msgstr ""
@@ -374,7 +361,7 @@ msgstr ""
 #. Not masked?
 #. No hints?
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 msgid "New Instant Message"
 msgstr ""
@@ -384,16 +371,16 @@ msgid ""
 msgstr ""
 
 msgid "Channel"
-msgstr "Ալիք"
+msgstr ""
 
 msgid "Join a Chat"
-msgstr "Միանալ զրույցին"
+msgstr ""
 
 msgid "Please enter the name of the chat you want to join."
 msgstr ""
 
 msgid "Join"
-msgstr "Միանալ"
+msgstr ""
 
 msgid ""
 "Please enter the username or alias of the person whose log you would like to "
@@ -408,31 +395,31 @@ msgid "Send IM..."
 msgstr ""
 
 msgid "Block/Unblock..."
-msgstr "Փակել/Բացել"
+msgstr ""
 
 msgid "Join Chat..."
-msgstr "Միանալ զրույցին ..."
+msgstr ""
 
 msgid "View Log..."
-msgstr "Նայել գրառումները․․․"
+msgstr ""
 
 msgid "View All Logs"
-msgstr "Նայել մատյանի բոլոր գրառումները"
+msgstr ""
 
 msgid "Show"
-msgstr "Ցույց տալ"
+msgstr ""
 
 msgid "Empty groups"
-msgstr "Դատարկ խմբեր"
+msgstr ""
 
 msgid "Offline buddies"
 msgstr ""
 
 msgid "Sort"
-msgstr "Դասակարգել"
+msgstr ""
 
 msgid "By Status"
-msgstr "Ըստ"
+msgstr ""
 
 msgid "Alphabetically"
 msgstr ""
@@ -444,7 +431,7 @@ msgid "Buddy"
 msgstr ""
 
 msgid "Chat"
-msgstr "Զրույց"
+msgstr ""
 
 msgid "Grouping"
 msgstr ""

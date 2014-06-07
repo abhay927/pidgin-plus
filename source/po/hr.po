@@ -1,22 +1,24 @@
-# Croatian translation for Pidgin
-# Copyright (C) 2011
-# This file is distributed under the same license as the PACKAGE package.
-# Sabina Drempetić <bina91991@googlemail.com>, 2011.
-#
+## Croatian translation for Pidgin
+## Copyright (C) 2011
+## This file is distributed under the same license as the PACKAGE package.
+## Sabina Drempetić <bina91991@googlemail.com>, 2011.
+##
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 10:38-0800\n"
-"PO-Revision-Date: 2011-03-27 15:42+0100\n"
-"Last-Translator: Sabina Drempetić <bina91991@googlemail.com>\n"
+"POT-Creation-Date: 2014-05-22 14:13-0200\n"
+"PO-Revision-Date: 2014-05-26 09:14+0000\n"
+"Last-Translator: Sabina Drempetić <Unknown>\n"
 "Language-Team: Croatian <LL@li.org>\n"
-"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:58+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
+"Language: hr\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
@@ -364,8 +366,8 @@ msgid "Unblock"
 msgstr "Deblokiraj"
 
 msgid ""
-"Please enter the username or alias of the person you would like to Block/"
-"Unblock."
+"Please enter the username or alias of the person you would like to "
+"Block/Unblock."
 msgstr ""
 "Unesite korisničko ime ili nadimak osobe koju elite Blokirati/Deblokirati."
 
@@ -378,7 +380,8 @@ msgstr "U redu"
 msgid "New Instant Message"
 msgstr "Nova Izravna Poruka"
 
-msgid "Please enter the username or alias of the person you would like to IM."
+msgid ""
+"Please enter the username or alias of the person you would like to IM."
 msgstr ""
 "Unesite korisničko ime ili nadimak osobe kojoj elite poslati izravnu poruku."
 
@@ -548,7 +551,8 @@ msgstr "Ponovno uključi Račun"
 msgid "No such command."
 msgstr "Ne postoji takva naredba."
 
-msgid "Syntax Error:  You typed the wrong number of arguments to that command."
+msgid ""
+"Syntax Error:  You typed the wrong number of arguments to that command."
 msgstr ""
 
 msgid "Your command failed for an unknown reason."
@@ -698,10 +702,11 @@ msgstr ""
 
 msgid ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Set the color "
-"for different classes of messages in the conversation window.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"for different classes of messages in the conversation window.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 msgstr ""
 
 msgid "Unable to open file."
@@ -713,7 +718,7 @@ msgstr ""
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
-#.
+#. 
 msgid "Clear"
 msgstr "Izbrii"
 
@@ -1392,7 +1397,8 @@ msgstr ""
 msgid "Couldn't find window"
 msgstr ""
 
-msgid "This plugin cannot be loaded because it was not built with X11 support."
+msgid ""
+"This plugin cannot be loaded because it was not built with X11 support."
 msgstr ""
 
 msgid "GntClipboard"
@@ -1963,7 +1969,55 @@ msgstr ""
 msgid "File transfer from %s failed."
 msgstr ""
 
-msgid "Whether the specified command should handle \"aim\" URLs"
+msgid "Run the command in a terminal"
+msgstr ""
+
+msgid "The command used to handle \"aim\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"gg\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"icq\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"irc\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"msnim\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"sip\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"xmpp\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgstr ""
+
+msgid "The handler for \"aim\" URLs"
+msgstr ""
+
+msgid "The handler for \"gg\" URLs"
+msgstr ""
+
+msgid "The handler for \"icq\" URLs"
+msgstr ""
+
+msgid "The handler for \"irc\" URLs"
+msgstr ""
+
+msgid "The handler for \"msnim\" URLs"
+msgstr ""
+
+msgid "The handler for \"sip\" URLs"
+msgstr ""
+
+msgid "The handler for \"xmpp\" URLs"
+msgstr ""
+
+msgid "The handler for \"ymsgr\" URLs"
 msgstr ""
 
 msgid ""
@@ -1971,35 +2025,9 @@ msgid ""
 "URLs."
 msgstr ""
 
-msgid "The handler for \"aim\" URLs"
-msgstr ""
-
-msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr ""
-
-msgid "Run the command in a terminal"
-msgstr ""
-
-msgid ""
-"True if the command used to handle this type of URL should be run in a "
-"terminal."
-msgstr ""
-
-msgid "Whether the specified command should handle \"gg\" URLs"
-msgstr ""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"gg\" "
 "URLs."
-msgstr ""
-
-msgid "The handler for \"gg\" URLs"
-msgstr ""
-
-msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"icq\" URLs"
 msgstr ""
 
 msgid ""
@@ -2007,27 +2035,9 @@ msgid ""
 "URLs."
 msgstr ""
 
-msgid "The handler for \"icq\" URLs"
-msgstr ""
-
-msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"irc\" URLs"
-msgstr ""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"irc\" "
 "URLs."
-msgstr ""
-
-msgid "The handler for \"irc\" URLs"
-msgstr ""
-
-msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"msnim\" URLs"
 msgstr ""
 
 msgid ""
@@ -2035,27 +2045,9 @@ msgid ""
 "URLs."
 msgstr ""
 
-msgid "The handler for \"msnim\" URLs"
-msgstr ""
-
-msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"sip\" URLs"
-msgstr ""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"sip\" "
 "URLs."
-msgstr ""
-
-msgid "The handler for \"sip\" URLs"
-msgstr ""
-
-msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"xmpp\" URLs"
 msgstr ""
 
 msgid ""
@@ -2063,24 +2055,38 @@ msgid ""
 "URLs."
 msgstr ""
 
-msgid "The handler for \"xmpp\" URLs"
-msgstr ""
-
-msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"ymsgr\" URLs"
-msgstr ""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ymsgr\" "
 "URLs."
 msgstr ""
 
-msgid "The handler for \"ymsgr\" URLs"
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
 msgstr ""
 
-msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"gg\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"icq\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"irc\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"msnim\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"sip\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"xmpp\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"ymsgr\" URLs"
 msgstr ""
 
 msgid "<b><font color=\"red\">The logger has no read function</font></b>"
@@ -2397,7 +2403,8 @@ msgid "Test plugin IPC support, as a server."
 msgstr ""
 
 #. *  description
-msgid "Test plugin IPC support, as a server. This registers the IPC commands."
+msgid ""
+"Test plugin IPC support, as a server. This registers the IPC commands."
 msgstr ""
 
 msgid "Hide Joins/Parts"
@@ -2830,8 +2837,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Unable to find Apple's \"Bonjour for Windows\" toolkit, see http://d.pidgin."
-"im/BonjourWindows for more information."
+"Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
+"http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 
 msgid "Unable to listen for incoming IM connections"
@@ -3132,11 +3139,11 @@ msgstr ""
 msgid "MOTD for %s"
 msgstr ""
 
-#.
+#. 
 #. * TODO: Handle this better. Probably requires a PurpleBOSHConnection
 #. * buffer that stores what is "being sent" until the
 #. * PurpleHTTPConnection reports it is fully sent.
-#.
+#. 
 #. TODO: do we really want to disconnect on a failure to write?
 #, c-format
 msgid "Lost connection with server: %s"
@@ -3203,17 +3210,16 @@ msgstr ""
 msgid "Auto-detect incoming UTF-8"
 msgstr ""
 
-#, fuzzy
 msgid "Ident name"
-msgstr "Preimenuj"
+msgstr ""
 
 msgid "Real name"
 msgstr ""
 
-#.
+#. 
 #. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
 #. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
+#. 
 msgid "Use SSL"
 msgstr ""
 
@@ -3257,13 +3263,11 @@ msgstr ""
 msgid "Nick"
 msgstr ""
 
-#, fuzzy
 msgid "Login name"
-msgstr "Nema imena"
+msgstr ""
 
-#, fuzzy
 msgid "Host name"
-msgstr "Nema imena"
+msgstr ""
 
 msgid "Currently on"
 msgstr ""
@@ -3410,7 +3414,8 @@ msgstr ""
 msgid "Failed to initialize SASL authentication: %s"
 msgstr ""
 
-msgid "SASL authentication failed: No worthy authentication mechanisms found."
+msgid ""
+"SASL authentication failed: No worthy authentication mechanisms found."
 msgstr ""
 
 #, c-format
@@ -3424,9 +3429,8 @@ msgstr ""
 msgid "SASL authentication failed: Initializing SASL failed."
 msgstr ""
 
-#, fuzzy
 msgid "Incorrect Password"
-msgstr "Unesite Lozinku"
+msgstr ""
 
 msgid "SASL authentication failed: No worthy mechanisms found"
 msgstr ""
@@ -3540,7 +3544,8 @@ msgid ""
 "opposed to a channel)."
 msgstr ""
 
-msgid "quit [message]:  Disconnect from the server, with an optional message."
+msgid ""
+"quit [message]:  Disconnect from the server, with an optional message."
 msgstr ""
 
 msgid "quote [...]:  Send a raw command to the server."
@@ -3607,7 +3612,7 @@ msgstr ""
 #. This happens when the server sends back jibberish
 #. * in the "additional data with success" case.
 #. * Seen with Wildfire 3.0.1.
-#.
+#. 
 msgid "Invalid response from server"
 msgstr ""
 
@@ -3632,7 +3637,8 @@ msgstr ""
 msgid "Server thinks authentication is complete, but client does not"
 msgstr ""
 
-msgid "Server may require plaintext authentication over an unencrypted stream"
+msgid ""
+"Server may require plaintext authentication over an unencrypted stream"
 msgstr ""
 
 #, c-format
@@ -3660,8 +3666,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The server does support channel binding, but did not appear to advertise "
-"it.  This indicates a likely MITM attack"
+"The server does support channel binding, but did not appear to advertise it. "
+" This indicates a likely MITM attack"
 msgstr ""
 
 msgid "Server does not support channel binding"
@@ -3725,11 +3731,11 @@ msgstr ""
 msgid "Street Address"
 msgstr ""
 
-#.
+#. 
 #. * EXTADD is correct, EXTADR is generated by other
 #. * clients. The next time someone reads this, remove
 #. * EXTADR.
-#.
+#. 
 msgid "Extended Address"
 msgstr ""
 
@@ -4619,7 +4625,8 @@ msgid "Unable to send file to %s, not subscribed to user presence"
 msgstr ""
 
 #, c-format
-msgid "Please select the resource of %s to which you would like to send a file"
+msgid ""
+"Please select the resource of %s to which you would like to send a file"
 msgstr ""
 
 msgid "Afraid"
@@ -5292,7 +5299,8 @@ msgstr ""
 msgid "Send to Mobile"
 msgstr ""
 
-msgid "SSL support is needed for MSN. Please install a supported SSL library."
+msgid ""
+"SSL support is needed for MSN. Please install a supported SSL library."
 msgstr ""
 
 #, c-format
@@ -5585,7 +5593,8 @@ msgstr ""
 msgid "You have signed on from another location"
 msgstr ""
 
-msgid "The MSN servers are temporarily unavailable. Please wait and try again."
+msgid ""
+"The MSN servers are temporarily unavailable. Please wait and try again."
 msgstr ""
 
 msgid "The MSN servers are going down temporarily"
@@ -5618,7 +5627,8 @@ msgid "Retrieving buddy list"
 msgstr ""
 
 #, c-format
-msgid "%s requests to view your webcam, but this request is not yet supported."
+msgid ""
+"%s requests to view your webcam, but this request is not yet supported."
 msgstr ""
 
 #, c-format
@@ -5686,7 +5696,8 @@ msgstr ""
 msgid "Profile"
 msgstr ""
 
-msgid "Your profile information is not yet retrieved. Please try again later."
+msgid ""
+"Your profile information is not yet retrieved. Please try again later."
 msgstr ""
 
 #. display name
@@ -5703,9 +5714,8 @@ msgid "Where I Live"
 msgstr ""
 
 #. relationship status
-#, fuzzy
 msgid "Relationship Status"
-msgstr "Ukloni Stanje"
+msgstr ""
 
 #. mobile number
 msgid "Mobile Number"
@@ -5769,9 +5779,8 @@ msgstr ""
 msgid "Search for a MXit contact"
 msgstr ""
 
-#, fuzzy
 msgid "Type search information"
-msgstr "Promijeni informacije o korisniku %s"
+msgstr ""
 
 msgid "_Search"
 msgstr ""
@@ -5805,14 +5814,12 @@ msgid "The file you are trying to send is too large!"
 msgstr ""
 
 #. file read error
-#, fuzzy
 msgid "Unable to access the local file"
-msgstr "Neoguće otvaranje datoteke."
+msgstr ""
 
 #. file write error
-#, fuzzy
 msgid "Unable to save the file"
-msgstr "Neoguće otvaranje datoteke."
+msgstr ""
 
 msgid ""
 "Unable to connect to the MXit HTTP server. Please check your server settings."
@@ -5975,9 +5982,8 @@ msgstr ""
 msgid "Last Online"
 msgstr ""
 
-#, fuzzy
 msgid "Invite Message"
-msgstr "Poalji Poruku"
+msgstr ""
 
 msgid "No results"
 msgstr ""
@@ -6203,8 +6209,9 @@ msgstr ""
 #, c-format
 msgid ""
 "%s Your password is %zu characters, which is longer than the maximum length "
-"of %d.  Please shorten your password at http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword and try again."
+"of %d.  Please shorten your password at "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword and try again."
 msgstr ""
 
 msgid "Incorrect username or password"
@@ -6643,7 +6650,7 @@ msgstr ""
 #. if (value) {
 #. purple_notify_user_info_add_pair(user_info, tag, value);
 #. }
-#.
+#. 
 msgid "Full name"
 msgstr ""
 
@@ -6717,7 +6724,7 @@ msgstr ""
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
-#.
+#. 
 msgid "_OK"
 msgstr ""
 
@@ -7181,7 +7188,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #, c-format
-msgid "You missed %hu message from %s because your warning level is too high."
+msgid ""
+"You missed %hu message from %s because your warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because your warning level is too high."
 msgstr[0] ""
@@ -7743,8 +7751,8 @@ msgstr ""
 
 #, c-format
 msgid ""
-"You can add a buddy to this list by right-clicking on them and selecting \"%s"
-"\""
+"You can add a buddy to this list by right-clicking on them and selecting "
+"\"%s\""
 msgstr ""
 
 msgid "Visible List"
@@ -8020,7 +8028,8 @@ msgid "No matches"
 msgstr ""
 
 #, c-format
-msgid "The identifier '%s' did not match any users in your Sametime community."
+msgid ""
+"The identifier '%s' did not match any users in your Sametime community."
 msgstr ""
 
 msgid "No Matches"
@@ -8785,7 +8794,8 @@ msgstr ""
 msgid "msg &lt;nick&gt; &lt;message&gt;:  Send a private message to a user"
 msgstr ""
 
-msgid "query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
+msgid ""
+"query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
 msgstr ""
 
 msgid "motd:  View the server's Message Of The Day"
@@ -8830,7 +8840,8 @@ msgid ""
 "channel invite list"
 msgstr ""
 
-msgid "kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
+msgid ""
+"kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
 msgstr ""
 
 msgid "info [server]:  View server administrative details"
@@ -9255,7 +9266,8 @@ msgid ""
 msgstr ""
 
 #, c-format
-msgid "Unknown error number %d. Logging into the Yahoo! website may fix this."
+msgid ""
+"Unknown error number %d. Logging into the Yahoo! website may fix this."
 msgstr ""
 
 #, c-format
@@ -9353,7 +9365,7 @@ msgstr ""
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
-#.
+#. 
 msgid "Sent Doodle request."
 msgstr ""
 
@@ -9538,18 +9550,18 @@ msgid ""
 msgstr ""
 
 msgid ""
-"zci &lt;class&gt; &lt;instance&gt;: Send a message to &lt;<i>class</i>,"
-"<i>instance</i>,*&gt;"
+"zci &lt;class&gt; &lt;instance&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,*&gt;"
 msgstr ""
 
 msgid ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;"
-"<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 
 msgid ""
-"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;MESSAGE,"
-"<i>instance</i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 
 msgid "zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;"
@@ -9628,7 +9640,7 @@ msgstr ""
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c Yes and @c No buttons.
-#.
+#. 
 msgid "_Yes"
 msgstr ""
 
@@ -9637,17 +9649,17 @@ msgstr ""
 
 #. *
 #. * A wrapper for purple_request_action() that uses Accept and Cancel buttons.
-#.
+#. 
 #. *
 #. * A wrapper for purple_request_action_with_icon() that uses Accept and Cancel
 #. * buttons.
-#.
+#. 
 msgid "_Accept"
 msgstr ""
 
 #. *
 #. * The default message to use when the user becomes auto-away.
-#.
+#. 
 msgid "I'm not here right now"
 msgstr ""
 
@@ -9737,12 +9749,12 @@ msgstr ""
 msgid "+++ %s became unidle"
 msgstr ""
 
-#.
+#. 
 #. * This string determines how some dates are displayed.  The default
 #. * string "%x %X" shows the date then the time.  Translators can
 #. * change this to "%X %x" if they want the time to be shown first,
 #. * followed by the date.
-#.
+#. 
 #, c-format
 msgid "%x %X"
 msgstr ""
@@ -9857,14 +9869,14 @@ msgid ""
 "the old file has been renamed to %s~."
 msgstr ""
 
-msgid "Pidgin Internet Messenger"
+msgid ""
+"Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
 msgstr ""
 
 msgid "Internet Messenger"
 msgstr ""
 
-msgid ""
-"Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
+msgid "Pidgin Internet Messenger"
 msgstr ""
 
 #. Build the login options frame.
@@ -9998,9 +10010,8 @@ msgstr ""
 msgid "%s%s%s%s wants to add you (%s) to his or her buddy list%s%s"
 msgstr ""
 
-#, fuzzy
 msgid "Send Instant Message"
-msgstr "Nova Izravna Poruka"
+msgstr ""
 
 #. Buddy List
 msgid "Background Color"
@@ -10360,9 +10371,8 @@ msgstr ""
 msgid "/Help/De_veloper Information"
 msgstr ""
 
-#, fuzzy
 msgid "/Help/_Plugin Information"
-msgstr "Informacije o Prijatelju"
+msgstr ""
 
 msgid "/Help/_Translator Information"
 msgstr ""
@@ -10505,14 +10515,15 @@ msgstr ""
 msgid ""
 "<span weight='bold' size='larger'>Welcome to %s!</span>\n"
 "\n"
-"You have no accounts enabled. Enable your IM accounts from the <b>Accounts</"
-"b> window at <b>Accounts->Manage Accounts</b>. Once you enable accounts, "
-"you'll be able to sign on, set your status, and talk to your friends."
+"You have no accounts enabled. Enable your IM accounts from the "
+"<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you enable "
+"accounts, you'll be able to sign on, set your status, and talk to your "
+"friends."
 msgstr ""
 
 #. set the Show Offline Buddies option. must be done
 #. * after the treeview or faceprint gets mad. -Robot101
-#.
+#. 
 msgid "/Buddies/Show/Offline Buddies"
 msgstr ""
 
@@ -10877,13 +10888,10 @@ msgstr ""
 msgid "New Event"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "The account has disconnected and you are no longer in this chat. You will "
 "automatically rejoin the chat when the account reconnects."
 msgstr ""
-"Račun je odspojen i vie niste u ovom čavrljanju. Bit ćete aautomatski opet "
-"dodani u čavrljanje kad se račun ponovno spoji."
 
 msgid "clear: Clears all conversation scrollbacks."
 msgstr ""
@@ -11286,30 +11294,19 @@ msgstr ""
 
 #, c-format
 msgid ""
-"%s is a messaging client based on libpurple which is capable of connecting "
-"to multiple messaging services at once.  %s is written in C using GTK+.  %s "
-"is released, and may be modified and redistributed,  under the terms of the "
-"GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
-"copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+"%s</i><br><br><font color='red'>Modified version with no support from the "
+"official team.</font><br><br>"
 msgstr ""
 
 #, c-format
 msgid ""
-"<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked Questions</A><BR>\tIRC "
-"Channel: #pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin."
-"im<BR><BR>"
-msgstr ""
-
-msgid ""
-"<font size=\"4\"><b>Help from other Pidgin users</b></font> is available by "
-"e-mailing <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">This is a <b>public</b> mailing list! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">archive</a>)<br/>We can't help with third-party protocols or "
-"plugins!<br/>This list's primary language is <b>English</b>.  You are "
-"welcome to post in another language, but the responses may be less helpful."
-"<br/>"
+"%s is a messaging client based on libpurple which is capable of connecting "
+"to multiple messaging services at once.  %s is written in C using GTK+.  %s "
+"is released, and may be modified and redistributed,  under the terms of the "
+"GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
+"copyrighted by its contributors, a list of whom is also distributed with %s. "
+" There is no warranty for %s.<BR><BR>"
 msgstr ""
 
 #, c-format
@@ -11350,13 +11347,12 @@ msgstr ""
 msgid "%s Translator Information"
 msgstr ""
 
-#, fuzzy, c-format
+#, c-format
 msgid "%s Plugin Information"
-msgstr "Informacije"
+msgstr ""
 
-#, fuzzy
 msgid "Plugin Information"
-msgstr "Informacije"
+msgstr ""
 
 msgid "_Name"
 msgstr ""
@@ -11590,7 +11586,8 @@ msgstr ""
 msgid "\"Attention\" Name Color"
 msgstr ""
 
-msgid "Color to draw the name of a message you received containing your name."
+msgid ""
+"Color to draw the name of a message you received containing your name."
 msgstr ""
 
 msgid "Action Message Name Color"
@@ -12901,10 +12898,10 @@ msgstr ""
 msgid "Pidgin smileys"
 msgstr ""
 
-msgid "none"
+msgid "Selecting this disables graphical emoticons."
 msgstr ""
 
-msgid "Selecting this disables graphical emoticons."
+msgid "none"
 msgstr ""
 
 msgid "Small"
@@ -13878,9 +13875,8 @@ msgid "Show number of unread co_nversations on launcher icon"
 msgstr ""
 
 #. Messaging menu integration
-#, fuzzy
 msgid "Messaging Menu"
-msgstr "Poruka poslana"
+msgstr ""
 
 msgid "Show number of _unread messages for conversations in messaging menu"
 msgstr ""
@@ -14079,7 +14075,14 @@ msgstr ""
 msgid "This plugin is useful for debugging XMPP servers or clients."
 msgstr ""
 
-msgid "The installer is already running."
+#. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
+msgid ""
+"$(^Name) is released under the GNU General Public License (GPL). The license "
+"is provided here for information purposes only. $_CLICK"
+msgstr ""
+
+#. Installer Subsection Detailed Description
+msgid "A multi-platform GUI toolkit, used by Pidgin"
 msgstr ""
 
 msgid ""
@@ -14087,50 +14090,8 @@ msgid ""
 "again."
 msgstr ""
 
-#. "Next >" appears on a button on the License Page of the Installer
-msgid "Next >"
-msgstr ""
-
-#. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
-msgid ""
-"$(^Name) is released under the GNU General Public License (GPL). The license "
-"is provided here for information purposes only. $_CLICK"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "GTK+ Runtime (required if not present)"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Shortcuts"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Desktop"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Start Menu"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Localizations"
-msgstr ""
-
 #. Installer Subsection Detailed Description
 msgid "Core Pidgin files and dlls"
-msgstr ""
-
-#. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr ""
-
-#. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr ""
 
 #. Installer Subsection Detailed Description
@@ -14138,53 +14099,15 @@ msgid "Create a Start Menu entry for Pidgin"
 msgstr ""
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr ""
 
 #. Installer Subsection Text
 msgid "Debug Symbols (for reporting crashes)"
 msgstr ""
 
-#. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr ""
-
-msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
-"version will be installed without removing the currently installed version."
-msgstr ""
-
-msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
-msgstr ""
-
 #. Installer Subsection Text
-msgid "URI Handlers"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Spellchecking Support"
-msgstr ""
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-msgstr ""
-
-#. Installer Subsection Detailed Description
-msgid ""
-"Support for Spellchecking.  (Internet connection required for installation)"
-msgstr ""
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgid "Desktop"
 msgstr ""
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
@@ -14194,9 +14117,86 @@ msgid ""
 "from http://pidgin.im/download/windows/ ."
 msgstr ""
 
+#. $R2 will display the URL that the Debug Symbols failed to download from
+msgid ""
+"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
+"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgstr ""
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
+"installation instructions are at: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "GTK+ Runtime (required if not present)"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Localizations"
+msgstr ""
+
+#. "Next >" appears on a button on the License Page of the Installer
+msgid "Next >"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Pidgin Instant Messaging Client (required)"
+msgstr ""
+
+msgid ""
+"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"already present).$\\rAre you sure you want to skip installing the GTK+ "
+"Runtime?"
+msgstr ""
+
+msgid "See applied changes"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Shortcuts"
+msgstr ""
+
+#. Installer Subsection Detailed Description
+msgid "Shortcuts for starting Pidgin"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Spellchecking Support"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Start Menu"
+msgstr ""
+
+#. Installer Subsection Detailed Description
+msgid ""
+"Support for Spellchecking.  (Internet connection required for installation)"
+msgstr ""
+
+msgid "The installer is already running."
+msgstr ""
+
 msgid ""
 "The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
 "that another user installed this application."
+msgstr ""
+
+#. Installer Subsection Text
+msgid "URI Handlers"
+msgstr ""
+
+msgid ""
+"Unable to uninstall the currently installed version of Pidgin. The new "
+"version will be installed without removing the currently installed version."
+msgstr ""
+
+#. Text displayed on Installer Finish Page
+msgid "Visit the Pidgin Web Page"
 msgstr ""
 
 msgid "You do not have permission to uninstall this application."

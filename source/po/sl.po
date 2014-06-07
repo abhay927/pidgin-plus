@@ -1,26 +1,28 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Jure Cuhalev <gandalf@owca.info>, 2003
-# Martin Srebotnjak <miles@filmsi.net>, 2006,2013
-# Matjaž Horvat <matjaz@owca.info>, 2004
+## SOME DESCRIPTIVE TITLE.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Translators:
+## Jure Cuhalev <gandalf@owca.info>, 2003
+## Martin Srebotnjak <miles@filmsi.net>, 2006,2013
+## Matjaž Horvat <matjaz@owca.info>, 2004
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 10:38-0800\n"
-"PO-Revision-Date: 2014-01-21 08:26+0000\n"
+"POT-Creation-Date: 2014-05-22 14:13-0200\n"
+"PO-Revision-Date: 2014-05-26 12:31+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
-"Language-Team: Slovenian (http://www.transifex.com/projects/p/pidgin/"
-"language/sl/)\n"
-"Language: sl\n"
+"Language-Team: Slovenian "
+"(http://www.transifex.com/projects/p/pidgin/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:59+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
+"Language: sl\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
@@ -376,11 +378,11 @@ msgid "Unblock"
 msgstr "Prekliči zavrnitev"
 
 msgid ""
-"Please enter the username or alias of the person you would like to Block/"
-"Unblock."
+"Please enter the username or alias of the person you would like to "
+"Block/Unblock."
 msgstr ""
-"Vnesite uporabniško ime ali psevdonim osebe, ki jo želite zavrniti/"
-"preklicati njeno zavrnitev."
+"Vnesite uporabniško ime ali psevdonim osebe, ki jo želite "
+"zavrniti/preklicati njeno zavrnitev."
 
 #. Not multiline
 #. Not masked?
@@ -391,7 +393,8 @@ msgstr "V redu"
 msgid "New Instant Message"
 msgstr "Novo neposredno sporočilo"
 
-msgid "Please enter the username or alias of the person you would like to IM."
+msgid ""
+"Please enter the username or alias of the person you would like to IM."
 msgstr ""
 "Vnesite uporabniško ime ali psevdonim osebe, ki ji želite poslati neposredno "
 "sporočilo."
@@ -572,7 +575,8 @@ msgstr "Ponovno omogoči račun"
 msgid "No such command."
 msgstr "Ta ukaz ne obstaja."
 
-msgid "Syntax Error:  You typed the wrong number of arguments to that command."
+msgid ""
+"Syntax Error:  You typed the wrong number of arguments to that command."
 msgstr ""
 "Skladenjska napaka: vtipkali ste napačno število argumentov za ta ukaz."
 
@@ -656,14 +660,14 @@ msgid "You are not connected."
 msgstr "Niste povezani."
 
 msgid "<AUTO-REPLY> "
-msgstr "<SAMODEJNI ODGOVOR>"
+msgstr "<SAMODEJNI ODGOVOR> "
 
 #, c-format
 msgid "List of %d user:\n"
 msgid_plural "List of %d users:\n"
 msgstr[0] "Seznam %d uporabnikov:\n"
-msgstr[1] "Seznam %d uporabnika:\n"
-msgstr[2] "Seznam %d uporabnikov:\n"
+msgstr[1] "Seznam %d uporabnikov:\n"
+msgstr[2] "Seznam %d uporabnika:\n"
 msgstr[3] "Seznam %d uporabnikov:\n"
 
 msgid "Supported debug options are: plugins version"
@@ -740,10 +744,11 @@ msgstr "statuses: Pokaži okno savedstatuses."
 
 msgid ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Set the color "
-"for different classes of messages in the conversation window.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"for different classes of messages in the conversation window.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 msgstr ""
 "msgcolor &lt;razred&gt; &lt;ospredje&gt; &lt;ozadje&gt;: Nastavite barvo "
 "različnim razredom sporočil v oknu pogovora.<br>    &lt;razred&gt;: receive, "
@@ -760,12 +765,12 @@ msgstr "Razhroščevalno okno"
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
-#.
+#. 
 msgid "Clear"
 msgstr "Počisti"
 
 msgid "Filter:"
-msgstr "Filter: "
+msgstr "Filter:"
 
 msgid "Pause"
 msgstr "Premor"
@@ -774,8 +779,8 @@ msgstr "Premor"
 msgid "File Transfers - %d%% of %d file"
 msgid_plural "File Transfers - %d%% of %d files"
 msgstr[0] "Prenosi datotek - %d%% od %d datotek"
-msgstr[1] "Prenosi datotek - %d%% od %d datoteke"
-msgstr[2] "Prenosi datotek - %d%% od %d datotek"
+msgstr[1] "Prenosi datotek - %d%% od %d datotek"
+msgstr[2] "Prenosi datotek - %d%% od %d datoteke"
 msgstr[3] "Prenosi datotek - %d%% od %d datotek"
 
 #. Create the window.
@@ -882,7 +887,7 @@ msgstr "Skupna velikost dnevnika:"
 
 #. Search box *********
 msgid "Scroll/Search: "
-msgstr "Predrsaj/išči:"
+msgstr "Predrsaj/išči: "
 
 #, c-format
 msgid "Conversations in %s"
@@ -946,10 +951,10 @@ msgstr "Zadeva"
 #, c-format
 msgid "%s (%s) has %d new message."
 msgid_plural "%s (%s) has %d new messages."
-msgstr[0] "%s (%s) ima %d novih sporočil."
-msgstr[1] "%s (%s) ima %d novo sporočilo."
-msgstr[2] "%s (%s) ima %d novi sporočili."
-msgstr[3] "%s (%s) ima %d nova sporočila."
+msgstr[0] "%s (%s) ima %d nova sporočila."
+msgstr[1] "%s (%s) ima %d novih sporočil."
+msgstr[2] "%s (%s) ima %d novo sporočilo."
+msgstr[3] "%s (%s) ima %d novi sporočili."
 
 msgid "New Mail"
 msgstr "Nova e-pošta"
@@ -1322,7 +1327,7 @@ msgid "Sound Method"
 msgstr "Način zvoka"
 
 msgid "Method: "
-msgstr "Način:"
+msgstr "Način: "
 
 #, c-format
 msgid ""
@@ -1451,7 +1456,8 @@ msgstr "Ni mogoče najti zaslona X"
 msgid "Couldn't find window"
 msgstr "Ni mogoče najti okna"
 
-msgid "This plugin cannot be loaded because it was not built with X11 support."
+msgid ""
+"This plugin cannot be loaded because it was not built with X11 support."
 msgstr "Vtičnika ni mogoče naložiti, ker ni bil zgrajen s podporo za X11."
 
 msgid "GntClipboard"
@@ -1573,7 +1579,8 @@ msgid "TinyURL plugin"
 msgstr "Vtičnik TinyURL"
 
 msgid "When receiving a message with URL(s), use TinyURL for easier copying"
-msgstr "Ob prejemu sporočil z URL-ji uporabi TinyURL za enostavnejše kopiranje"
+msgstr ""
+"Ob prejemu sporočil z URL-ji uporabi TinyURL za enostavnejše kopiranje"
 
 msgid "Online"
 msgstr "Prisoten"
@@ -1739,7 +1746,8 @@ msgstr "(SE NE UJEMA)"
 #. Make messages
 #, c-format
 msgid "%s has presented the following certificate for just-this-once use:"
-msgstr "%s je predstavil(a) naslednje digitalno potrdilo za enkratno uporabo:"
+msgstr ""
+"%s je predstavil(a) naslednje digitalno potrdilo za enkratno uporabo:"
 
 #, c-format
 msgid ""
@@ -2063,8 +2071,56 @@ msgstr "Prenos datoteke do %s ni uspel."
 msgid "File transfer from %s failed."
 msgstr "Prenos datoteke od %s ni uspel."
 
-msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"aim\""
+msgid "Run the command in a terminal"
+msgstr "Zaženi ukaz v sistemskem oknu"
+
+msgid "The command used to handle \"aim\" URLs, if enabled."
+msgstr "Ukaz za ravnanje z URL-ji \"aim\", če je to omogočeno."
+
+msgid "The command used to handle \"gg\" URLs, if enabled."
+msgstr "Ukaz za ravnanje z URL-ji \"gg\", če je to omogočeno."
+
+msgid "The command used to handle \"icq\" URLs, if enabled."
+msgstr "Ukaz za ravnanje z URL-ji \"icq\", če je to omogočeno."
+
+msgid "The command used to handle \"irc\" URLs, if enabled."
+msgstr "Ukaz za ravnanje z URL-ji \"irc\", če je to omogočeno."
+
+msgid "The command used to handle \"msnim\" URLs, if enabled."
+msgstr "Ukaz za ravnanje z URL-ji \"msnim\", če je to omogočeno."
+
+msgid "The command used to handle \"sip\" URLs, if enabled."
+msgstr "Ukaz za ravnanje z URL-ji \"sip\", če je to omogočeno."
+
+msgid "The command used to handle \"xmpp\" URLs, if enabled."
+msgstr "Ukaz za ravnanje z URL-ji \"xmpp\", če je to omogočeno."
+
+msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgstr "Ukaz za ravnanje z URL-ji \"ymsgr\", če je to omogočeno."
+
+msgid "The handler for \"aim\" URLs"
+msgstr "Upravljač za URL-je \"aim"
+
+msgid "The handler for \"gg\" URLs"
+msgstr "Upravljač za URL-je \"gg"
+
+msgid "The handler for \"icq\" URLs"
+msgstr "Upravljač za URL-je \"icq"
+
+msgid "The handler for \"irc\" URLs"
+msgstr "Upravljač za URL-je \"irc"
+
+msgid "The handler for \"msnim\" URLs"
+msgstr "Upravljač za URL-je \"msnim"
+
+msgid "The handler for \"sip\" URLs"
+msgstr "Upravljač za URL-je \"sip"
+
+msgid "The handler for \"xmpp\" URLs"
+msgstr "Upravljač za URL-je \"xmpp"
+
+msgid "The handler for \"ymsgr\" URLs"
+msgstr "Upravljač za URL-je \"ymsgr"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
@@ -2073,39 +2129,12 @@ msgstr ""
 "Resnično, če naj navedeni ukaz v polju \"ukaz\" (\"command\") upravlja z URL-"
 "ji \"aim\""
 
-msgid "The handler for \"aim\" URLs"
-msgstr "Upravljač za URL-je \"aim"
-
-msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr "Ukaz za ravnanje z URL-ji \"aim\", če je to omogočeno."
-
-msgid "Run the command in a terminal"
-msgstr "Zaženi ukaz v sistemskem oknu"
-
-msgid ""
-"True if the command used to handle this type of URL should be run in a "
-"terminal."
-msgstr ""
-"Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli."
-
-msgid "Whether the specified command should handle \"gg\" URLs"
-msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"gg\""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"gg\" "
 "URLs."
 msgstr ""
 "Resnično, če naj navedeni ukaz v polju \"ukaz\" (\"command\") upravlja z URL-"
 "ji \"gg\""
-
-msgid "The handler for \"gg\" URLs"
-msgstr "Upravljač za URL-je \"gg"
-
-msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr "Ukaz za ravnanje z URL-ji \"gg\", če je to omogočeno."
-
-msgid "Whether the specified command should handle \"icq\" URLs"
-msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"icq\""
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"icq\" "
@@ -2114,30 +2143,12 @@ msgstr ""
 "Resnično, če naj navedeni ukaz v polju \"ukaz\" (\"command\") upravlja z URL-"
 "ji \"icq\""
 
-msgid "The handler for \"icq\" URLs"
-msgstr "Upravljač za URL-je \"icq"
-
-msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr "Ukaz za ravnanje z URL-ji \"icq\", če je to omogočeno."
-
-msgid "Whether the specified command should handle \"irc\" URLs"
-msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"irc\""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"irc\" "
 "URLs."
 msgstr ""
 "Resnično, če naj navedeni ukaz v polju \"ukaz\" (\"command\") upravlja z URL-"
 "ji \"irc\""
-
-msgid "The handler for \"irc\" URLs"
-msgstr "Upravljač za URL-je \"irc"
-
-msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr "Ukaz za ravnanje z URL-ji \"irc\", če je to omogočeno."
-
-msgid "Whether the specified command should handle \"msnim\" URLs"
-msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"msnim\""
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"msnim\" "
@@ -2146,30 +2157,12 @@ msgstr ""
 "Resnično, če naj navedeni ukaz v polju \"ukaz\" (\"command\") upravlja z URL-"
 "ji \"msnim\""
 
-msgid "The handler for \"msnim\" URLs"
-msgstr "Upravljač za URL-je \"msnim"
-
-msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr "Ukaz za ravnanje z URL-ji \"msnim\", če je to omogočeno."
-
-msgid "Whether the specified command should handle \"sip\" URLs"
-msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"sip\""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"sip\" "
 "URLs."
 msgstr ""
 "Resnično, če naj navedeni ukaz v polju \"ukaz\" (\"command\") upravlja z URL-"
 "ji \"sip\""
-
-msgid "The handler for \"sip\" URLs"
-msgstr "Upravljač za URL-je \"sip"
-
-msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr "Ukaz za ravnanje z URL-ji \"sip\", če je to omogočeno."
-
-msgid "Whether the specified command should handle \"xmpp\" URLs"
-msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"xmpp\""
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"xmpp\" "
@@ -2178,15 +2171,6 @@ msgstr ""
 "Resnično, če naj navedeni ukaz v polju \"ukaz\" (\"command\") upravlja z URL-"
 "ji \"xmpp\""
 
-msgid "The handler for \"xmpp\" URLs"
-msgstr "Upravljač za URL-je \"xmpp"
-
-msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr "Ukaz za ravnanje z URL-ji \"xmpp\", če je to omogočeno."
-
-msgid "Whether the specified command should handle \"ymsgr\" URLs"
-msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"ymsgr\""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ymsgr\" "
 "URLs."
@@ -2194,11 +2178,35 @@ msgstr ""
 "Resnično, če naj navedeni ukaz v polju \"ukaz\" (\"command\") upravlja z URL-"
 "ji \"ymsgr\""
 
-msgid "The handler for \"ymsgr\" URLs"
-msgstr "Upravljač za URL-je \"ymsgr"
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
+msgstr ""
+"Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli."
 
-msgid "The command used to handle \"ymsgr\" URLs, if enabled."
-msgstr "Ukaz za ravnanje z URL-ji \"ymsgr\", če je to omogočeno."
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"aim\""
+
+msgid "Whether the specified command should handle \"gg\" URLs"
+msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"gg\""
+
+msgid "Whether the specified command should handle \"icq\" URLs"
+msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"icq\""
+
+msgid "Whether the specified command should handle \"irc\" URLs"
+msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"irc\""
+
+msgid "Whether the specified command should handle \"msnim\" URLs"
+msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"msnim\""
+
+msgid "Whether the specified command should handle \"sip\" URLs"
+msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"sip\""
+
+msgid "Whether the specified command should handle \"xmpp\" URLs"
+msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"xmpp\""
+
+msgid "Whether the specified command should handle \"ymsgr\" URLs"
+msgstr "Ali naj navedeni ukaz upravlja z URL-ji \"ymsgr\""
 
 msgid "<b><font color=\"red\">The logger has no read function</font></b>"
 msgstr "<b><font color=\"red\">Beleženje nima možnosti branja</font></b>"
@@ -2323,7 +2331,8 @@ msgid "Autoaccept"
 msgstr "Samodejno sprejmi"
 
 msgid "Auto-accept file transfer requests from selected users."
-msgstr "Samodejno sprejmi zahtevo po prenosu datotek od izbranih uporabnikov."
+msgstr ""
+"Samodejno sprejmi zahtevo po prenosu datotek od izbranih uporabnikov."
 
 #, c-format
 msgid "Autoaccepted file transfer of \"%s\" from \"%s\" completed."
@@ -2536,7 +2545,8 @@ msgid "Test plugin IPC support, as a server."
 msgstr "Preskusite vtičnik s podporo IPC, kot strežnik."
 
 #. *  description
-msgid "Test plugin IPC support, as a server. This registers the IPC commands."
+msgid ""
+"Test plugin IPC support, as a server. This registers the IPC commands."
 msgstr ""
 "Preskusite vtičnik s podporo IPC, kot strežnik. Ukazi IPC bodo registrirani."
 
@@ -2747,8 +2757,8 @@ msgid ""
 "The rest of the messages will be saved as pounces. You can edit/delete the "
 "pounce from the `Buddy Pounce' dialog."
 msgstr ""
-"Preostanek sporočil bo shranjen kot opozorila. Opozorilo lahko uredite/"
-"izbrišete s pogovornim oknom `Opozorilo prijatelja'."
+"Preostanek sporočil bo shranjen kot opozorila. Opozorilo lahko "
+"uredite/izbrišete s pogovornim oknom `Opozorilo prijatelja'."
 
 #, c-format
 msgid ""
@@ -2996,8 +3006,8 @@ msgstr ""
 "namestite ActiveTCL z naslova http://www.activestate.com\n"
 
 msgid ""
-"Unable to find Apple's \"Bonjour for Windows\" toolkit, see http://d.pidgin."
-"im/BonjourWindows for more information."
+"Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
+"http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 "Paketa orodij podjetja Apple \"Bonjour for Windows\" ni mogoče najti, "
 "oglejte si zapis na naslovu http://d.pidgin.im/BonjourWindows - kjer najdete "
@@ -3305,11 +3315,11 @@ msgstr "Noben MOTD ni povezan s to povezavo."
 msgid "MOTD for %s"
 msgstr "MOTD za %s"
 
-#.
+#. 
 #. * TODO: Handle this better. Probably requires a PurpleBOSHConnection
 #. * buffer that stores what is "being sent" until the
 #. * PurpleHTTPConnection reports it is fully sent.
-#.
+#. 
 #. TODO: do we really want to disconnect on a failure to write?
 #, c-format
 msgid "Lost connection with server: %s"
@@ -3382,10 +3392,10 @@ msgstr ""
 msgid "Real name"
 msgstr "Resnično ime"
 
-#.
+#. 
 #. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
 #. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
+#. 
 msgid "Use SSL"
 msgstr "Uporabi SSL"
 
@@ -3429,13 +3439,11 @@ msgstr " <i>(identified)</i>"
 msgid "Nick"
 msgstr "Vzdevek"
 
-#, fuzzy
 msgid "Login name"
-msgstr "Brez imena"
+msgstr ""
 
-#, fuzzy
 msgid "Host name"
-msgstr "Ime gostitelja"
+msgstr ""
 
 msgid "Currently on"
 msgstr "Trenutno na"
@@ -3586,7 +3594,8 @@ msgstr "Močni udarci od %s"
 msgid "Failed to initialize SASL authentication: %s"
 msgstr "Overjanja SASL ni mogoče inicializirati: %s"
 
-msgid "SASL authentication failed: No worthy authentication mechanisms found."
+msgid ""
+"SASL authentication failed: No worthy authentication mechanisms found."
 msgstr ""
 "Overjanje SASL je spodletelo: primernih mehanizmov za overjanje ni mogoče "
 "najti."
@@ -3748,7 +3757,8 @@ msgstr ""
 "query &lt;vzdevek&gt; &lt;sporočilo&gt;:  Pošlji zasebno sporočilo "
 "uporabniku (za razliko od kanala)."
 
-msgid "quit [message]:  Disconnect from the server, with an optional message."
+msgid ""
+"quit [message]:  Disconnect from the server, with an optional message."
 msgstr ""
 "quit [sporočilo]:  Prekinitev povezave s strežnikom z možnostjo sporočila."
 
@@ -3825,7 +3835,7 @@ msgstr ""
 #. This happens when the server sends back jibberish
 #. * in the "additional data with success" case.
 #. * Seen with Wildfire 3.0.1.
-#.
+#. 
 msgid "Invalid response from server"
 msgstr "Neveljaven odgovor strežnika"
 
@@ -3852,7 +3862,8 @@ msgstr "Neveljaven izziv strežnika"
 msgid "Server thinks authentication is complete, but client does not"
 msgstr "Strežnik meni, da je overovitev dokončana, odjemalec pa ne"
 
-msgid "Server may require plaintext authentication over an unencrypted stream"
+msgid ""
+"Server may require plaintext authentication over an unencrypted stream"
 msgstr ""
 "Strežnik lahko zahteva overovitev z navadnim besedilom preko nešifriranega "
 "toka"
@@ -3884,8 +3895,8 @@ msgid ""
 msgstr "Nepričakovan odgovor strežnika. To nakazuje možen napad MITM."
 
 msgid ""
-"The server does support channel binding, but did not appear to advertise "
-"it.  This indicates a likely MITM attack"
+"The server does support channel binding, but did not appear to advertise it. "
+" This indicates a likely MITM attack"
 msgstr ""
 "Strežnik podpira spajanje kanalov, vendar se ni zdelo, da ga oglašuje. To "
 "nakazuje možen napad MITM."
@@ -3951,11 +3962,11 @@ msgstr "URL"
 msgid "Street Address"
 msgstr "Naslov"
 
-#.
+#. 
 #. * EXTADD is correct, EXTADR is generated by other
 #. * clients. The next time someone reads this, remove
 #. * EXTADR.
-#.
+#. 
 msgid "Extended Address"
 msgstr "Naslov (dodatno)"
 
@@ -4002,7 +4013,8 @@ msgstr "Uredi vCard za XMPP"
 msgid ""
 "All items below are optional. Enter only the information with which you feel "
 "comfortable."
-msgstr "Vsa spodnja polja so izbirna. Vnesite samo informacije, ki jih želite."
+msgstr ""
+"Vsa spodnja polja so izbirna. Vnesite samo informacije, ki jih želite."
 
 msgid "Client"
 msgstr "Odjemalec"
@@ -4866,7 +4878,8 @@ msgstr ""
 "prisotnosti"
 
 #, c-format
-msgid "Please select the resource of %s to which you would like to send a file"
+msgid ""
+"Please select the resource of %s to which you would like to send a file"
 msgstr "Izberite, kateremu viru %s bi radi poslali datoteko"
 
 msgid "Afraid"
@@ -5551,7 +5564,8 @@ msgstr "Odpri prispelo pošto Hotmail"
 msgid "Send to Mobile"
 msgstr "Pošlji na mobilca"
 
-msgid "SSL support is needed for MSN. Please install a supported SSL library."
+msgid ""
+"SSL support is needed for MSN. Please install a supported SSL library."
 msgstr ""
 "Za MSN potrebujete podporo SSL, zato morate namestiti podprto knjižnico SSL."
 
@@ -5801,12 +5815,12 @@ msgstr[0] ""
 "\n"
 "Po zaključenih vzdrževalnih delih se boste lahko uspešno prijavili."
 msgstr[1] ""
-"Strežnik MSN se bo izključil zaradi vzdrževalnih del v %d minuti. Ob tem "
+"Strežnik MSN se bo izključil zaradi vzdrževalnih del v %d minutah. Ob tem "
 "boste samodejno odjavljeni.  Prosimo zaključite vse pogovore, ki so v teku.\n"
 "\n"
 "Po zaključenih vzdrževalnih delih se boste lahko uspešno prijavili."
 msgstr[2] ""
-"Strežnik MSN se bo izključil zaradi vzdrževalnih del v %d minutah. Ob tem "
+"Strežnik MSN se bo izključil zaradi vzdrževalnih del v %d minuti. Ob tem "
 "boste samodejno odjavljeni.  Prosimo zaključite vse pogovore, ki so v teku.\n"
 "\n"
 "Po zaključenih vzdrževalnih delih se boste lahko uspešno prijavili."
@@ -5827,7 +5841,8 @@ msgid "Message was not sent because messages are being sent too quickly."
 msgstr "Sporočila ni bilo poslano, saj je sporočila pošiljajo prehitro."
 
 msgid "Message was not sent because an unknown encoding error occurred."
-msgstr "Sporočila ni bilo poslano, ker je prišlo do neznane napake kodiranja."
+msgstr ""
+"Sporočila ni bilo poslano, ker je prišlo do neznane napake kodiranja."
 
 msgid "Message was not sent because an unknown error occurred."
 msgstr "Sporočila ni bilo poslano, ker je prišlo do neznane napake."
@@ -5879,7 +5894,8 @@ msgstr "Napaka pri razčlenjevanju HTTP"
 msgid "You have signed on from another location"
 msgstr "Prijavili ste se z drugega mesta"
 
-msgid "The MSN servers are temporarily unavailable. Please wait and try again."
+msgid ""
+"The MSN servers are temporarily unavailable. Please wait and try again."
 msgstr ""
 "Strežniki MSN so trenutno nedostopni. Prosimo počakajte in poskusite znova."
 
@@ -5915,7 +5931,8 @@ msgid "Retrieving buddy list"
 msgstr "Prejemanje seznama prijateljev"
 
 #, c-format
-msgid "%s requests to view your webcam, but this request is not yet supported."
+msgid ""
+"%s requests to view your webcam, but this request is not yet supported."
 msgstr "%s želi gledati vašo spletno kamero, kar še ni podprto."
 
 #, c-format
@@ -5957,7 +5974,8 @@ msgstr ""
 
 msgid ""
 "Message could not be sent because an error with the switchboard occurred:"
-msgstr "Sporočila ni bilo poslano, ker je prišlo do napake v stikalni plošči:"
+msgstr ""
+"Sporočila ni bilo poslano, ker je prišlo do napake v stikalni plošči:"
 
 msgid "Message may have not been sent because an unknown error occurred:"
 msgstr "Sporočila morda ni bilo poslano, ker je prišlo do neznane napake:"
@@ -5987,7 +6005,8 @@ msgstr "Napaka pri posodobitvi profila"
 msgid "Profile"
 msgstr "Profil"
 
-msgid "Your profile information is not yet retrieved. Please try again later."
+msgid ""
+"Your profile information is not yet retrieved. Please try again later."
 msgstr "Podatki o vašem profilu še niso pridobljen. Poskusite znova kasneje."
 
 #. display name
@@ -6297,18 +6316,18 @@ msgstr "Kje živim"
 #, c-format
 msgid "You have %i suggested friend."
 msgid_plural "You have %i suggested friends."
-msgstr[0] "Imate %i predlaganih prijateljev."
-msgstr[1] "Imate %i predlaganega prijatelja."
-msgstr[2] "Imate %i predlagana prijatelja."
-msgstr[3] "Imate %i predlagane prijatelje."
+msgstr[0] "Imate %i predlagane prijatelje."
+msgstr[1] "Imate %i predlaganih prijateljev."
+msgstr[2] "Imate %i predlaganega prijatelja."
+msgstr[3] "Imate %i predlagana prijatelja."
 
 #, c-format
 msgid "We found %i contact that matches your search."
 msgid_plural "We found %i contacts that match your search."
-msgstr[0] "Najdenih %i stikov, ki se ujemajo z vašim iskanjem."
-msgstr[1] "Najden %i stik, ki se ujema z vašim iskanjem."
-msgstr[2] "Najdena %i stika, ki se ujemata z vašim iskanjem."
-msgstr[3] "Najdeni %i stiki, ki se ujemajo z vašim iskanjem."
+msgstr[0] "Najdeni %i stiki, ki se ujemajo z vašim iskanjem."
+msgstr[1] "Najdenih %i stikov, ki se ujemajo z vašim iskanjem."
+msgstr[2] "Najden %i stik, ki se ujema z vašim iskanjem."
+msgstr[3] "Najdena %i stika, ki se ujemata z vašim iskanjem."
 
 #. we must have lost the connection, so terminate it so that we can reconnect
 msgid "We have lost the connection to MXit. Please reconnect."
@@ -6497,16 +6516,16 @@ msgid_plural ""
 "%d buddies were added or updated from the server (including buddies already "
 "on the server-side list)"
 msgstr[0] ""
-"%d prijateljev je bilo dodanih ali posodobljenih s strežnika (vključno s "
+"%d prijatelji so bili dodani ali posodobljeni s strežnika (vključno s "
 "prijatelji, ki so že strežniškem seznamu)"
 msgstr[1] ""
-"%d prijatelj je bil dodan ali posodobljen s strežnika (vključno s "
+"%d prijateljev je bilo dodanih ali posodobljenih s strežnika (vključno s "
 "prijatelji, ki so že strežniškem seznamu)"
 msgstr[2] ""
-"%d prijatelja sta bila dodana ali posodobljena s strežnika (vključno s "
+"%d prijatelj je bil dodan ali posodobljen s strežnika (vključno s "
 "prijatelji, ki so že strežniškem seznamu)"
 msgstr[3] ""
-"%d prijatelji so bili dodani ali posodobljeni s strežnika (vključno s "
+"%d prijatelja sta bila dodana ali posodobljena s strežnika (vključno s "
 "prijatelji, ki so že strežniškem seznamu)"
 
 msgid "Add contacts from server"
@@ -6519,12 +6538,14 @@ msgstr "Napaka protokola, koda %d: %s"
 #, c-format
 msgid ""
 "%s Your password is %zu characters, which is longer than the maximum length "
-"of %d.  Please shorten your password at http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword and try again."
+"of %d.  Please shorten your password at "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword and try again."
 msgstr ""
 "%s Vaše geslo ima %zu znakov, več kot je dovoljenih %d znakov. Skrajšajte "
-"svoje geslo na naslovu http://profileedit.myspace.com/index.cfm?"
-"fuseaction=accountSettings.changePassword in poskusite znova."
+"svoje geslo na naslovu "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword in poskusite znova."
 
 msgid "Incorrect username or password"
 msgstr "Neveljavno uporabniško ime ali geslo"
@@ -6625,8 +6646,9 @@ msgid ""
 "to set your username."
 msgstr ""
 "Pri nastavljanju uporabniškega imena je prišlo do napake. Poskusite znova "
-"ali obiščite http://editprofile.myspace.com/index.cfm?fuseaction=profile."
-"username in nastavite svoje uporabniško ime."
+"ali obiščite "
+"http://editprofile.myspace.com/index.cfm?fuseaction=profile.username in "
+"nastavite svoje uporabniško ime."
 
 msgid "MySpaceIM - Username Available"
 msgstr "MySpaceIM - Uporabniško ime je na voljo"
@@ -6842,7 +6864,8 @@ msgid "Master archive is misconfigured"
 msgstr "Glavni arhiv je narobe nastavljen"
 
 msgid "Could not recognize the host of the username you entered"
-msgstr "Gostitelja uporabniškega imena, ki ste ga vnesli, ni mogoče prepoznati"
+msgstr ""
+"Gostitelja uporabniškega imena, ki ste ga vnesli, ni mogoče prepoznati"
 
 msgid ""
 "Your account has been disabled because too many incorrect passwords were "
@@ -6975,7 +6998,7 @@ msgstr "Uporabniška št."
 #. if (value) {
 #. purple_notify_user_info_add_pair(user_info, tag, value);
 #. }
-#.
+#. 
 msgid "Full name"
 msgstr "Polno ime"
 
@@ -7044,7 +7067,8 @@ msgid "Server port"
 msgstr "Vrata strežnika"
 
 msgid "Please authorize me so I can add you to my buddy list."
-msgstr "Prosim za pooblastilo, da vas smem dodati na svoj seznam prijateljev."
+msgstr ""
+"Prosim za pooblastilo, da vas smem dodati na svoj seznam prijateljev."
 
 msgid "No reason given."
 msgstr "Ni podanega razloga."
@@ -7054,7 +7078,7 @@ msgstr "Sporočilo o neodobrenem pooblastilu:"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
-#.
+#. 
 msgid "_OK"
 msgstr "V _redu"
 
@@ -7538,28 +7562,28 @@ msgstr "_Zavrni"
 #, c-format
 msgid "You missed %hu message from %s because it was invalid."
 msgid_plural "You missed %hu messages from %s because they were invalid."
-msgstr[0] "Spregledali ste %hu sporočil od %s, ker so bila neveljavna."
-msgstr[1] "Spregledali ste %hu sporočilo od %s, ker je bilo neveljavno."
-msgstr[2] "Spregledali ste %hu sporočili od %s, ker sta bili neveljavni."
-msgstr[3] "Spregledali ste %hu sporočila od %s, ker so bila neveljavna."
+msgstr[0] "Spregledali ste %hu sporočila od %s, ker so bila neveljavna."
+msgstr[1] "Spregledali ste %hu sporočil od %s, ker so bila neveljavna."
+msgstr[2] "Spregledali ste %hu sporočilo od %s, ker je bilo neveljavno."
+msgstr[3] "Spregledali ste %hu sporočili od %s, ker sta bili neveljavni."
 
 #, c-format
 msgid "You missed %hu message from %s because it was too large."
 msgid_plural "You missed %hu messages from %s because they were too large."
-msgstr[0] "Spregledali ste %hu sporočil od %s, ker so bila neveljavna."
-msgstr[1] "Spregledali ste %hu sporočilo od %s, ker je bilo neveljavno."
-msgstr[2] "Spregledali ste %hu sporočili od %s, ker sta bili neveljavni."
-msgstr[3] "Spregledali ste %hu sporočila od %s, ker so bila neveljavna."
+msgstr[0] "Spregledali ste %hu sporočila od %s, ker so bila neveljavna."
+msgstr[1] "Spregledali ste %hu sporočil od %s, ker so bila neveljavna."
+msgstr[2] "Spregledali ste %hu sporočilo od %s, ker je bilo neveljavno."
+msgstr[3] "Spregledali ste %hu sporočili od %s, ker sta bili neveljavni."
 
 #, c-format
 msgid ""
 "You missed %hu message from %s because the rate limit has been exceeded."
 msgid_plural ""
 "You missed %hu messages from %s because the rate limit has been exceeded."
-msgstr[0] "Spregledali ste %hu sporočil od %s, ker so bila neveljavna."
-msgstr[1] "Spregledali ste %hu sporočilo od %s, ker je bilo neveljavno."
-msgstr[2] "Spregledali ste %hu sporočili od %s, ker sta bili neveljavni."
-msgstr[3] "Spregledali ste %hu sporočila od %s, ker so bila neveljavna."
+msgstr[0] "Spregledali ste %hu sporočila od %s, ker so bila neveljavna."
+msgstr[1] "Spregledali ste %hu sporočil od %s, ker so bila neveljavna."
+msgstr[2] "Spregledali ste %hu sporočilo od %s, ker je bilo neveljavno."
+msgstr[3] "Spregledali ste %hu sporočili od %s, ker sta bili neveljavni."
 
 #, c-format
 msgid ""
@@ -7567,38 +7591,39 @@ msgid ""
 msgid_plural ""
 "You missed %hu messages from %s because his/her warning level is too high."
 msgstr[0] ""
-"Spregledali ste %hu sporočil od %s, ker je njegova/njena raven opozoril "
+"Spregledali ste %hu sporočila od %s, ker je njegova/njena raven opozoril "
 "previsoka."
 msgstr[1] ""
-"Spregledali ste %hu sporočilo od %s, ker je njegova/njena raven opozoril "
+"Spregledali ste %hu sporočil od %s, ker je njegova/njena raven opozoril "
 "previsoka."
 msgstr[2] ""
-"Spregledali ste %hu sporočili od %s, ker je njegova/njena raven opozoril "
+"Spregledali ste %hu sporočilo od %s, ker je njegova/njena raven opozoril "
 "previsoka."
 msgstr[3] ""
-"Spregledali ste %hu sporočila od %s, ker je njegova/njena raven opozoril "
+"Spregledali ste %hu sporočili od %s, ker je njegova/njena raven opozoril "
 "previsoka."
 
 #, c-format
-msgid "You missed %hu message from %s because your warning level is too high."
+msgid ""
+"You missed %hu message from %s because your warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because your warning level is too high."
 msgstr[0] ""
-"Spregledali ste %hu sporočil od %s, ker je vaša raven opozoril previsoka."
-msgstr[1] ""
-"Spregledali ste %hu sporočilo od %s, ker je vaša raven opozoril previsoka."
-msgstr[2] ""
-"Spregledali ste %hu sporočili od %s, ker je vaša raven opozoril previsoka."
-msgstr[3] ""
 "Spregledali ste %hu sporočila od %s, ker je vaša raven opozoril previsoka."
+msgstr[1] ""
+"Spregledali ste %hu sporočil od %s, ker je vaša raven opozoril previsoka."
+msgstr[2] ""
+"Spregledali ste %hu sporočilo od %s, ker je vaša raven opozoril previsoka."
+msgstr[3] ""
+"Spregledali ste %hu sporočili od %s, ker je vaša raven opozoril previsoka."
 
 #, c-format
 msgid "You missed %hu message from %s for an unknown reason."
 msgid_plural "You missed %hu messages from %s for an unknown reason."
-msgstr[0] "Spregledali ste %hu sporočil od %s, ker so bila neveljavna."
-msgstr[1] "Spregledali ste %hu sporočilo od %s, ker je bilo neveljavno."
-msgstr[2] "Spregledali ste %hu sporočili od %s, ker sta bili neveljavni."
-msgstr[3] "Spregledali ste %hu sporočila od %s, ker so bila neveljavna."
+msgstr[0] "Spregledali ste %hu sporočila od %s, ker so bila neveljavna."
+msgstr[1] "Spregledali ste %hu sporočil od %s, ker so bila neveljavna."
+msgstr[2] "Spregledali ste %hu sporočilo od %s, ker je bilo neveljavno."
+msgstr[3] "Spregledali ste %hu sporočili od %s, ker sta bili neveljavni."
 
 msgid "Your AIM connection may be lost."
 msgstr "Vaša povezava z AIM je morda prekinjena."
@@ -7622,9 +7647,9 @@ msgstr "Pojavno sporočilo"
 msgid "The following username is associated with %s"
 msgid_plural "The following usernames are associated with %s"
 msgstr[0] "Naslednja uporabniška imena so povezana z %s"
-msgstr[1] "Naslednje uporabniško ime je povezano z %s"
-msgstr[2] "Naslednji uporabniški imeni sta povezani z %s"
-msgstr[3] "Naslednja uporabniška imena so povezana z %s"
+msgstr[1] "Naslednja uporabniška imena so povezana z %s"
+msgstr[2] "Naslednje uporabniško ime je povezano z %s"
+msgstr[3] "Naslednji uporabniški imeni sta povezani z %s"
 
 #, c-format
 msgid "No results found for email address %s"
@@ -7632,7 +7657,7 @@ msgstr "Za dani elektronski naslov %s ni zadetkov."
 
 #, c-format
 msgid "You should receive an email asking to confirm %s."
-msgstr "Prejeti bi morali e-pošto, da potrdite %s. "
+msgstr "Prejeti bi morali e-pošto, da potrdite %s."
 
 msgid "Account Confirmation Requested"
 msgstr "Potrditev računa je bila zahtevana"
@@ -7723,13 +7748,13 @@ msgid_plural ""
 "The maximum profile length of %d bytes has been exceeded.  It has been "
 "truncated for you."
 msgstr[0] ""
-"Največja dolžina profila %d bajtov je bila presežena, zato je bil skrajšan."
-msgstr[1] ""
-"Največja dolžina profila %d bajt je bila presežena, zato je bil skrajšan."
-msgstr[2] ""
-"Največja dolžina profila %d bajta je bila presežena, zato je bil skrajšan."
-msgstr[3] ""
 "Največja dolžina profila %d bajte je bila presežena, zato je bil skrajšan."
+msgstr[1] ""
+"Največja dolžina profila %d bajtov je bila presežena, zato je bil skrajšan."
+msgstr[2] ""
+"Največja dolžina profila %d bajt je bila presežena, zato je bil skrajšan."
+msgstr[3] ""
+"Največja dolžina profila %d bajta je bila presežena, zato je bil skrajšan."
 
 msgid "Profile too long."
 msgstr "Profil je predolg."
@@ -7742,16 +7767,16 @@ msgid_plural ""
 "The maximum away message length of %d bytes has been exceeded.  It has been "
 "truncated for you."
 msgstr[0] ""
-"Največja dolžina sporočila odsotnosti %d bajtov je bila presežena, zato je "
+"Največja dolžina sporočila odsotnosti %d bajte je bila presežena, zato je "
 "bilo sporočilo skrajšano."
 msgstr[1] ""
-"Največja dolžina sporočila odsotnosti %d bajt je bila presežena, zato je "
+"Največja dolžina sporočila odsotnosti %d bajtov je bila presežena, zato je "
 "bilo sporočilo skrajšano."
 msgstr[2] ""
-"Največja dolžina sporočila odsotnosti %d bajta je bila presežena, zato je "
+"Največja dolžina sporočila odsotnosti %d bajt je bila presežena, zato je "
 "bilo sporočilo skrajšano."
 msgstr[3] ""
-"Največja dolžina sporočila odsotnosti %d bajte je bila presežena, zato je "
+"Največja dolžina sporočila odsotnosti %d bajta je bila presežena, zato je "
 "bilo sporočilo skrajšano."
 
 msgid "Away message too long."
@@ -7974,7 +7999,8 @@ msgstr "Dovoli več hkratnih prijav"
 
 #, c-format
 msgid "Asking %s to connect to us at %s:%hu for Direct IM."
-msgstr "Spraševanje %s za povezavo z nami pri %s:%hu za neposredno sporočanje."
+msgstr ""
+"Spraševanje %s za povezavo z nami pri %s:%hu za neposredno sporočanje."
 
 #, c-format
 msgid "Attempting to connect to %s:%hu."
@@ -8213,8 +8239,8 @@ msgstr "na tem seznamu nimate prijateljev"
 
 #, c-format
 msgid ""
-"You can add a buddy to this list by right-clicking on them and selecting \"%s"
-"\""
+"You can add a buddy to this list by right-clicking on them and selecting "
+"\"%s\""
 msgstr ""
 "Na ta seznam lahko dodate prijatelja, tako da desno kliknete nanj in "
 "izberete \"%s\""
@@ -8513,7 +8539,8 @@ msgid "No matches"
 msgstr "Ni zadetkov"
 
 #, c-format
-msgid "The identifier '%s' did not match any users in your Sametime community."
+msgid ""
+"The identifier '%s' did not match any users in your Sametime community."
 msgstr ""
 "Imenovalec '%s' se ne ujema z nobenim uporabnikom vaše skupnosti Sametime."
 
@@ -9326,7 +9353,8 @@ msgid "msg &lt;nick&gt; &lt;message&gt;:  Send a private message to a user"
 msgstr ""
 "msg &lt;vzdevek&gt; &lt;sporočilo&gt;:  Pošlji zasebno sporočilo uporabniku"
 
-msgid "query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
+msgid ""
+"query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
 msgstr ""
 "query &lt;vzdevek&gt; [&lt;sporočilo&gt;]:  Pošlji zasebno sporočilo "
 "uporabniku"
@@ -9338,7 +9366,8 @@ msgid "detach:  Detach this session"
 msgstr "odpni:  Odpni to sejo"
 
 msgid "quit [message]:  Disconnect from the server, with an optional message"
-msgstr "quit [sporočilo]:  Prekini povezavo s strežnikom z možnostjo sporočila"
+msgstr ""
+"quit [sporočilo]:  Prekini povezavo s strežnikom z možnostjo sporočila"
 
 msgid "call &lt;command&gt;:  Call any silc client command"
 msgstr "call &lt;ukaz&gt;:  Pomoč o določenem ukazu"
@@ -9377,10 +9406,11 @@ msgid ""
 "invite &lt;channel&gt; [-|+]&lt;nick&gt;:  invite nick or add/remove from "
 "channel invite list"
 msgstr ""
-"invite &lt;kanal&gt; [-|+]&lt;vzdevek&gt;:  povabi vzdevek ali dodaj/"
-"odstrani iz seznama povabljenih na kanal"
+"invite &lt;kanal&gt; [-|+]&lt;vzdevek&gt;:  povabi vzdevek ali "
+"dodaj/odstrani iz seznama povabljenih na kanal"
 
-msgid "kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
+msgid ""
+"kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
 msgstr ""
 "kick &lt;kanal&gt; &lt;vzdevek&gt; [komentar]:  Brcni odjemalca s kanala"
 
@@ -9388,7 +9418,8 @@ msgid "info [server]:  View server administrative details"
 msgstr "info [strežnik]:  Ogled skrbniških podrobnosti strežnika"
 
 msgid "ban [&lt;channel&gt; +|-&lt;nick&gt;]:  Ban client from channel"
-msgstr "ban [&lt;kanal&gt; +|-&lt;vzdevek&gt;]:  Prepovaj odjemalca na kanalu"
+msgstr ""
+"ban [&lt;kanal&gt; +|-&lt;vzdevek&gt;]:  Prepovaj odjemalca na kanalu"
 
 msgid "getkey &lt;nick|server&gt;:  Retrieve client's or server's public key"
 msgstr ""
@@ -9831,7 +9862,8 @@ msgstr ""
 "vzrok za to napako je vnos e-poštnega naslova namesto dejanskega Yahoo! ID."
 
 #, c-format
-msgid "Unknown error number %d. Logging into the Yahoo! website may fix this."
+msgid ""
+"Unknown error number %d. Logging into the Yahoo! website may fix this."
 msgstr ""
 "Neznana številka napake %d. Prijavljanje v spletno stran Yahoo! lahko to "
 "odpravi."
@@ -9934,7 +9966,7 @@ msgstr "Pridobivanje mobilnega operaterja za pošiljanje SMS."
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
-#.
+#. 
 msgid "Sent Doodle request."
 msgstr "Pošlji zahtevo Doodle."
 
@@ -10136,29 +10168,29 @@ msgstr ""
 msgid ""
 "zi &lt;instance&gt;: Send a message to &lt;message,<i>instance</i>,*&gt;"
 msgstr ""
-"zi &lt;instanca&gt;: Pošlji sporočilo uporabniku &lt;sporočilo,<i>instanca</"
-"i>,*&gt;"
+"zi &lt;instanca&gt;: Pošlji sporočilo uporabniku "
+"&lt;sporočilo,<i>instanca</i>,*&gt;"
 
 msgid ""
-"zci &lt;class&gt; &lt;instance&gt;: Send a message to &lt;<i>class</i>,"
-"<i>instance</i>,*&gt;"
+"zci &lt;class&gt; &lt;instance&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,*&gt;"
 msgstr ""
-"zci &lt;razred&gt; &lt;instanca&gt;: Pošlji sporočilo uporabniku &lt;"
-"<i>razred</i>,<i>instanca</i>,*&gt;"
+"zci &lt;razred&gt; &lt;instanca&gt;: Pošlji sporočilo uporabniku "
+"&lt;<i>razred</i>,<i>instanca</i>,*&gt;"
 
 msgid ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;"
-"<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 "zcir &lt;razred&gt; &lt;instanca&gt; &lt;prejemnik&gt;: Pošlji sporočilo "
 "uporabniku &lt;<i>razred</i>,<i>instanca</i>,<i>prejemnik</i>&gt;"
 
 msgid ""
-"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;MESSAGE,"
-"<i>instance</i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
-"zir &lt;instanca&gt; &lt;prejemnikt&gt;: Pošlji sporočilo uporabniku &lt;"
-"SPOROČILO,<i>instanca</i>,<i>prejemnik</i>&gt;"
+"zir &lt;instanca&gt; &lt;prejemnikt&gt;: Pošlji sporočilo uporabniku "
+"&lt;SPOROČILO,<i>instanca</i>,<i>prejemnik</i>&gt;"
 
 msgid "zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;"
 msgstr ""
@@ -10239,7 +10271,7 @@ msgstr "%s želi vaše pozornosti!"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c Yes and @c No buttons.
-#.
+#. 
 msgid "_Yes"
 msgstr "_Da"
 
@@ -10248,17 +10280,17 @@ msgstr "_Ne"
 
 #. *
 #. * A wrapper for purple_request_action() that uses Accept and Cancel buttons.
-#.
+#. 
 #. *
 #. * A wrapper for purple_request_action_with_icon() that uses Accept and Cancel
 #. * buttons.
-#.
+#. 
 msgid "_Accept"
 msgstr "_Sprejmi"
 
 #. *
 #. * The default message to use when the user becomes auto-away.
-#.
+#. 
 msgid "I'm not here right now"
 msgstr "Trenutno nisem tukaj"
 
@@ -10350,12 +10382,12 @@ msgstr "+++ %s je postal nedejaven"
 msgid "+++ %s became unidle"
 msgstr "+++ %s je postal dejaven"
 
-#.
+#. 
 #. * This string determines how some dates are displayed.  The default
 #. * string "%x %X" shows the date then the time.  Translators can
 #. * change this to "%X %x" if they want the time to be shown first,
 #. * followed by the date.
-#.
+#. 
 #, c-format
 msgid "%x %X"
 msgstr "%x %X"
@@ -10369,50 +10401,50 @@ msgstr "Neznano."
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "%d sekund"
-msgstr[1] "%d sekunda"
-msgstr[2] "%d sekundi"
-msgstr[3] "%d sekunde"
+msgstr[0] "%d sekunde"
+msgstr[1] "%d sekund"
+msgstr[2] "%d sekunda"
+msgstr[3] "%d sekundi"
 
 #, c-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d dni"
-msgstr[1] "%d dan"
-msgstr[2] "%d dneva"
-msgstr[3] "%d dni"
+msgstr[1] "%d dni"
+msgstr[2] "%d dan"
+msgstr[3] "%d dneva"
 
 #, c-format
 msgid "%s, %d hour"
 msgid_plural "%s, %d hours"
 msgstr[0] "%s, %d ur"
-msgstr[1] "%s, %d uro"
-msgstr[2] "%s, %d uri"
-msgstr[3] "%s, %d ur"
+msgstr[1] "%s, %d ur"
+msgstr[2] "%s, %d uro"
+msgstr[3] "%s, %d uri"
 
 #, c-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d ur"
-msgstr[1] "%d ura"
-msgstr[2] "%d uri"
-msgstr[3] "%d ure"
+msgstr[0] "%d ure"
+msgstr[1] "%d ur"
+msgstr[2] "%d ura"
+msgstr[3] "%d uri"
 
 #, c-format
 msgid "%s, %d minute"
 msgid_plural "%s, %d minutes"
 msgstr[0] "%s, %d minut"
-msgstr[1] "%s, %d minuta"
-msgstr[2] "%s, %d minuti"
-msgstr[3] "%s, %d minut"
+msgstr[1] "%s, %d minut"
+msgstr[2] "%s, %d minuta"
+msgstr[3] "%s, %d minuti"
 
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minut"
-msgstr[1] "%d minuta"
-msgstr[2] "%d minuti"
-msgstr[3] "%d minut"
+msgstr[1] "%d minut"
+msgstr[2] "%d minuta"
+msgstr[3] "%d minuti"
 
 #, c-format
 msgid "Could not open %s: Redirected too many times"
@@ -10486,17 +10518,17 @@ msgstr ""
 "Pri branju vašega %s je prišlo do napake. Datoteka ni bial naložena, stara "
 "datoteka pa je bila preimenovana v %s~."
 
-msgid "Pidgin Internet Messenger"
-msgstr "Spletni sel Pidgin"
-
-msgid "Internet Messenger"
-msgstr "Spletni sel"
-
 msgid ""
 "Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
 msgstr ""
 "Klepetajte s svetom. Podpira AIM, Google Talk, Jabber/XMPP, MSN, Yahoo in "
 "druge."
+
+msgid "Internet Messenger"
+msgstr "Spletni sel"
+
+msgid "Pidgin Internet Messenger"
+msgstr "Spletni sel Pidgin"
 
 #. Build the login options frame.
 msgid "Login Options"
@@ -10766,10 +10798,10 @@ msgstr "Besedilni podatki o stanju uporabika"
 msgid "You have %d contact named %s. Would you like to merge them?"
 msgid_plural ""
 "You currently have %d contacts named %s. Would you like to merge them?"
-msgstr[0] "Imate %d stikov z imenom %s. Jih želite spojiti v enega?"
-msgstr[1] "Imate %d stik z imenom %s. Ga želite spojiti v enega?"
-msgstr[2] "Imate %d stika z imenom %s. Ju želite spojiti v enega?"
-msgstr[3] "Imate %d stike z imenom %s. Jih želite spojiti v enega?"
+msgstr[0] "Imate %d stike z imenom %s. Jih želite spojiti v enega?"
+msgstr[1] "Imate %d stikov z imenom %s. Jih želite spojiti v enega?"
+msgstr[2] "Imate %d stik z imenom %s. Ga želite spojiti v enega?"
+msgstr[3] "Imate %d stika z imenom %s. Ju želite spojiti v enega?"
 
 msgid ""
 "Merging these contacts will cause them to share a single entry on the buddy "
@@ -10789,7 +10821,8 @@ msgstr "Ra_čun"
 msgid ""
 "Please enter the appropriate information about the chat you would like to "
 "join.\n"
-msgstr "Vnesite ustrezne informacije o pomenku, ki se mu želite pridružiti.\n"
+msgstr ""
+"Vnesite ustrezne informacije o pomenku, ki se mu želite pridružiti.\n"
 
 msgid "Room _List"
 msgstr "Se_znam sob"
@@ -11102,10 +11135,10 @@ msgstr "/Orodja/Seznam sob"
 #, c-format
 msgid "%d unread message from %s\n"
 msgid_plural "%d unread messages from %s\n"
-msgstr[0] "%d neprebranih sporočil od %s\n"
-msgstr[1] "%d neprebrano sporočilo od %s\n"
-msgstr[2] "%d neprebrani sporočili od %s\n"
-msgstr[3] "%d neprebrana sporočila od %s\n"
+msgstr[0] "%d neprebrana sporočila od %s\n"
+msgstr[1] "%d neprebranih sporočil od %s\n"
+msgstr[2] "%d neprebrano sporočilo od %s\n"
+msgstr[3] "%d neprebrani sporočili od %s\n"
 
 msgid "Manually"
 msgstr "ročno"
@@ -11141,12 +11174,13 @@ msgid "%d account was disabled because you signed on from another location:"
 msgid_plural ""
 "%d accounts were disabled because you signed on from another location:"
 msgstr[0] ""
-"Ker ste se prijavili z druge lokacije, je bilo onemogočenih %d računov."
-msgstr[1] "Ker ste se prijavili z druge lokacije, je bil onemogočen %d račun."
-msgstr[2] ""
-"Ker ste se prijavili z druge lokacije, sta bila onemogočena %d računa."
-msgstr[3] ""
 "Ker ste se prijavili z druge lokacije, so bili onemogočeni %d računi."
+msgstr[1] ""
+"Ker ste se prijavili z druge lokacije, je bilo onemogočenih %d računov."
+msgstr[2] ""
+"Ker ste se prijavili z druge lokacije, je bil onemogočen %d račun."
+msgstr[3] ""
+"Ker ste se prijavili z druge lokacije, sta bila onemogočena %d računa."
 
 msgid "<b>Username:</b>"
 msgstr "<b>Uporabniško ime:</b>"
@@ -11165,9 +11199,10 @@ msgstr "/Računi"
 msgid ""
 "<span weight='bold' size='larger'>Welcome to %s!</span>\n"
 "\n"
-"You have no accounts enabled. Enable your IM accounts from the <b>Accounts</"
-"b> window at <b>Accounts->Manage Accounts</b>. Once you enable accounts, "
-"you'll be able to sign on, set your status, and talk to your friends."
+"You have no accounts enabled. Enable your IM accounts from the "
+"<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you enable "
+"accounts, you'll be able to sign on, set your status, and talk to your "
+"friends."
 msgstr ""
 "<span weight='bold' size='larger'>Dobrodošli v %s!</span>\n"
 "\n"
@@ -11178,7 +11213,7 @@ msgstr ""
 
 #. set the Show Offline Buddies option. must be done
 #. * after the treeview or faceprint gets mad. -Robot101
-#.
+#. 
 msgid "/Buddies/Show/Offline Buddies"
 msgstr "/Prijatelji/Pokaži/Prijatelji, ki niso na zvezi"
 
@@ -11534,10 +11569,10 @@ msgstr "Najdi:"
 #, c-format
 msgid "%d person in room"
 msgid_plural "%d people in room"
-msgstr[0] "%d oseb v sobi"
-msgstr[1] "%d oseba v sobi"
-msgstr[2] "%d osebi v sobi"
-msgstr[3] "%d osebe v sobi"
+msgstr[0] "%d osebe v sobi"
+msgstr[1] "%d oseb v sobi"
+msgstr[2] "%d oseba v sobi"
+msgstr[3] "%d osebi v sobi"
 
 msgid "Stopped Typing"
 msgstr "Prenehal tipkati"
@@ -11628,7 +11663,7 @@ msgid "Right click for more options."
 msgstr "Za več možnosti kliknite na desni miškin gumb."
 
 msgid "Level "
-msgstr "Raven"
+msgstr "Raven "
 
 msgid "Select the debug filter level."
 msgstr "Izberite raven filtra razhroščevanja."
@@ -11643,7 +11678,7 @@ msgid "Warning"
 msgstr "Opozorilo"
 
 msgid "Error "
-msgstr "Napaka"
+msgstr "Napaka "
 
 msgid "Fatal Error"
 msgstr "Usodna napaka"
@@ -11959,12 +11994,19 @@ msgstr "T.M.Thanh in ekipa Gnome-Vi"
 
 #, c-format
 msgid ""
+"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+"%s</i><br><br><font color='red'>Modified version with no support from the "
+"official team.</font><br><br>"
+msgstr ""
+
+#, c-format
+msgid ""
 "%s is a messaging client based on libpurple which is capable of connecting "
 "to multiple messaging services at once.  %s is written in C using GTK+.  %s "
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
-"copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"copyrighted by its contributors, a list of whom is also distributed with %s. "
+" There is no warranty for %s.<BR><BR>"
 msgstr ""
 "%s je odjemalec za neposredno sporočanje, ki se lahko hkrati povezuje z več "
 "storitvami sporočanja. %s je napisan v jeziku C s pomočjo Gtk+. %s je izdan "
@@ -11972,35 +12014,6 @@ msgstr ""
 "(ali novejše).  Kopija licence GPL se razširja s programom %s.  %s je "
 "zaščitena znamka svojih avtorjev, njihov seznam se prav tako razširja s "
 "programom %s.  Za %s ni na voljo nikakršna garancija.<BR><BR>"
-
-#, c-format
-msgid ""
-"<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked Questions</A><BR>\tIRC "
-"Channel: #pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin."
-"im<BR><BR>"
-msgstr ""
-"<font size=\"4\"><b>Viri pomoči</b></font><br />\t<a href=\"%s\">Spletno "
-"mesto</a><br />\t<A HREF=\"%s\">Pogosto zastavljena vprašanja</a><br />"
-"\tKanal IRC: #pidgin na irc.freenode.net<br />\tMUC XMPP: devel@conference."
-"pidgin.im<br /><br />"
-
-msgid ""
-"<font size=\"4\"><b>Help from other Pidgin users</b></font> is available by "
-"e-mailing <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">This is a <b>public</b> mailing list! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">archive</a>)<br/>We can't help with third-party protocols or "
-"plugins!<br/>This list's primary language is <b>English</b>.  You are "
-"welcome to post in another language, but the responses may be less helpful."
-"<br/>"
-msgstr ""
-"<font size=\"4\"><b>Pomoč drugih uporabnikov Pidgina</b></font> je na voljo "
-"po e-pošti  na <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">To je <b>javen</b> dopisni seznam! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">arhiv</a>)<br/>Glede protokolov in vtičnikov drugih ne moremo "
-"pomagati!<br/>Glavni jezik tega seznama je <b>angleščina</b>. Vabimo vas, da "
-"objavite tudi v drugih jezikih, vendar bodo odgovori najbrž manj v pomoč.<br/"
-">"
 
 #, c-format
 msgid "About %s"
@@ -12093,17 +12106,17 @@ msgid_plural ""
 "You are about to remove the contact containing %s and %d other buddies from "
 "your buddy list.  Do you want to continue?"
 msgstr[0] ""
-"S seznama prijateljev boste odstranili stik, ki vsebuje %s in %d drugih "
-"prijateljev. Ali želite nadaljevati?"
-msgstr[1] ""
-"S seznama prijateljev boste odstranili stik, ki vsebuje %s in %d drugega "
-"prijatelja. Ali želite nadaljevati?"
-msgstr[2] ""
-"S seznama prijateljev boste odstranili stik, ki vsebuje %s in %d druga "
-"prijatelja. Ali želite nadaljevati?"
-msgstr[3] ""
 "S seznama prijateljev boste odstranili stik, ki vsebuje %s in %d druge "
 "prijatelje. Ali želite nadaljevati?"
+msgstr[1] ""
+"S seznama prijateljev boste odstranili stik, ki vsebuje %s in %d drugih "
+"prijateljev. Ali želite nadaljevati?"
+msgstr[2] ""
+"S seznama prijateljev boste odstranili stik, ki vsebuje %s in %d drugega "
+"prijatelja. Ali želite nadaljevati?"
+msgstr[3] ""
+"S seznama prijateljev boste odstranili stik, ki vsebuje %s in %d druga "
+"prijatelja. Ali želite nadaljevati?"
 
 msgid "Remove Contact"
 msgstr "Odstrani stik"
@@ -12270,7 +12283,8 @@ msgid "Hyperlink visited color"
 msgstr "Barva obiskane povezave"
 
 msgid "Color to draw hyperlink after it has been visited (or activated)."
-msgstr "Barva za izpis hiperpovezav, ko ste jih že obiskali (ali aktivirali)."
+msgstr ""
+"Barva za izpis hiperpovezav, ko ste jih že obiskali (ali aktivirali)."
 
 msgid "Hyperlink prelight color"
 msgstr "Barva presvetljene povezave"
@@ -12293,7 +12307,8 @@ msgstr "Barva za izris imena sporočila, ki ste ga prejeli."
 msgid "\"Attention\" Name Color"
 msgstr "Ime barve \"Pozor\""
 
-msgid "Color to draw the name of a message you received containing your name."
+msgid ""
+"Color to draw the name of a message you received containing your name."
 msgstr ""
 "Barva za izris imena sporočila, ki ste ga prejeli in ki vsebuje vaše ime."
 
@@ -12376,7 +12391,8 @@ msgstr "_Opis"
 msgid ""
 "Please enter the URL and description of the link that you want to insert. "
 "The description is optional."
-msgstr "Vnesite URL in opis povezave, ki jo želite vstaviti. Opis ni obvezen."
+msgstr ""
+"Vnesite URL in opis povezave, ki jo želite vstaviti. Opis ni obvezen."
 
 msgid "Please enter the URL of the link that you want to insert."
 msgstr "Vnesite URL povezave, ki jo želite vstaviti."
@@ -12665,18 +12681,18 @@ msgstr "_Nemo"
 #, c-format
 msgid "%s has %d new message."
 msgid_plural "%s has %d new messages."
-msgstr[0] "%s ima %d novih sporočil."
-msgstr[1] "%s ima %d novo sporočilo."
-msgstr[2] "%s ima %d novi sporočili."
-msgstr[3] "%s ima %d nova sporočila."
+msgstr[0] "%s ima %d nova sporočila."
+msgstr[1] "%s ima %d novih sporočil."
+msgstr[2] "%s ima %d novo sporočilo."
+msgstr[3] "%s ima %d novi sporočili."
 
 #, c-format
 msgid "<b>%d new email.</b>"
 msgid_plural "<b>%d new emails.</b>"
-msgstr[0] "<b>Imate %d novih e-sporočil.</b>"
-msgstr[1] "<b>Imate %d novo e-sporočilo.</b>"
-msgstr[2] "<b>Imate %d novi e-sporočili.</b>"
-msgstr[3] "<b>Imate %d nova e-sporočila.</b>"
+msgstr[0] "<b>Imate %d nova e-sporočila.</b>"
+msgstr[1] "<b>Imate %d novih e-sporočil.</b>"
+msgstr[2] "<b>Imate %d novo e-sporočilo.</b>"
+msgstr[3] "<b>Imate %d novi e-sporočili.</b>"
 
 #, c-format
 msgid "The browser command \"%s\" is invalid."
@@ -13044,7 +13060,8 @@ msgstr ""
 "protokole, ki podpirajo oblikovanje."
 
 msgid "Cannot start proxy configuration program."
-msgstr "Konfiguracijskega programa za posredovalni strežnik ni mogoče zagnati."
+msgstr ""
+"Konfiguracijskega programa za posredovalni strežnik ni mogoče zagnati."
 
 msgid "Cannot start browser configuration program."
 msgstr "Konfiguracijskega programa brskalnika ni mogoče zagnati."
@@ -13456,7 +13473,8 @@ msgstr "Stanje za %s"
 #, c-format
 msgid ""
 "A custom smiley for '%s' already exists.  Please use a different shortcut."
-msgstr "Smejček po meri za '%s' že obstaja. Navedite druge tipke za bližnjico."
+msgstr ""
+"Smejček po meri za '%s' že obstaja. Navedite druge tipke za bližnjico."
 
 msgid "Custom Smiley"
 msgstr "Smejček po meri"
@@ -13670,11 +13688,11 @@ msgstr "Namig Pidgin"
 msgid "Pidgin smileys"
 msgstr "Smejčki Pidgin"
 
-msgid "none"
-msgstr "brez"
-
 msgid "Selecting this disables graphical emoticons."
 msgstr "S to izbiro onemogočite grafične smejčke."
+
+msgid "none"
+msgstr "brez"
 
 msgid "Small"
 msgstr "Manjše"
@@ -14687,9 +14705,8 @@ msgstr ""
 msgid "Show number of unread _messages on launcher icon"
 msgstr ""
 
-#, fuzzy
 msgid "Show number of unread co_nversations on launcher icon"
-msgstr "Število pomenkov v oknu"
+msgstr ""
 
 #. Messaging menu integration
 msgid "Messaging Menu"
@@ -14901,20 +14918,6 @@ msgid "This plugin is useful for debugging XMPP servers or clients."
 msgstr ""
 "Ta vtičnik je uporaben za razhroščevanje strežnikov ali odjemalcev XMPP."
 
-msgid "The installer is already running."
-msgstr "Nameščanje že poteka."
-
-msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
-"again."
-msgstr ""
-"Trenutno že teče ena različica Pidgina. Prosimo, zaprite aplikacijo in "
-"poskusite znova."
-
-#. "Next >" appears on a button on the License Page of the Installer
-msgid "Next >"
-msgstr "Naprej >"
-
 #. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
 msgid ""
 "$(^Name) is released under the GNU General Public License (GPL). The license "
@@ -14923,106 +14926,36 @@ msgstr ""
 "$(^Name) je izdan pod licenco GPL. Ta licenca je tu na voljo le v "
 "informativne namene. $_CLICK"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin - odjemalec za klepet (zahtevano)"
+#. Installer Subsection Detailed Description
+msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgstr "Več-platformsko orodje za vmesnike, ki ga uporablja Pidgin"
 
-#. Installer Subsection Text
-msgid "GTK+ Runtime (required if not present)"
-msgstr "Izvajalno okolje GTK+ (obvezno, če manjka)"
-
-#. Installer Subsection Text
-msgid "Shortcuts"
-msgstr "Tipke za bližnjice"
-
-#. Installer Subsection Text
-msgid "Desktop"
-msgstr "Namizje"
-
-#. Installer Subsection Text
-msgid "Start Menu"
-msgstr "Začetni meni"
-
-#. Installer Subsection Text
-msgid "Localizations"
-msgstr "Lokalizacije"
+msgid ""
+"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"again."
+msgstr ""
+"Trenutno že teče ena različica Pidgina. Prosimo, zaprite aplikacijo in "
+"poskusite znova."
 
 #. Installer Subsection Detailed Description
 msgid "Core Pidgin files and dlls"
 msgstr "Temeljne datoteke in knjižnice za Pidgin"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Bližnjice za zagon Pidgina"
+msgid "Create a Start Menu entry for Pidgin"
+msgstr "Ustvari izbiro Pidgin v meniju Start"
 
 #. Installer Subsection Detailed Description
 msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr "Ustvari bližnjico za Pidgin na namizju"
 
-#. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Ustvari izbiro Pidgin v meniju Start"
-
-#. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Več-platformsko orodje za vmesnike, ki ga uporablja Pidgin"
-
 #. Installer Subsection Text
 msgid "Debug Symbols (for reporting crashes)"
 msgstr "Simboli razhroščevanja (za poročanje o sesutjih)"
 
-#. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Obiščite spletno stran Pidgin"
-
-msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
-"version will be installed without removing the currently installed version."
-msgstr ""
-"Trenutno nameščene različice Pidgina ni mogoče odstraniti. Nova različica bo "
-"nameščena brez odstranitve trenutno nameščene različice."
-
-msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
-msgstr ""
-"Pidgin potrebuje združljivo izvajalno okolje GTK+ (ki očitno ni na voljo).$"
-"\\rSte prepričani, da želite preskočiti nameščanje izvajalnega okolja GTK+?"
-
 #. Installer Subsection Text
-msgid "URI Handlers"
-msgstr "Upravljalnik URI"
-
-#. Installer Subsection Text
-msgid "Spellchecking Support"
-msgstr "Podpora preverjanja črkovanja"
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-msgstr ""
-"Napaka pri nameščanju preverjanja črkovanja ($R3).$\\rČe ponovni poskus ne "
-"uspe, najdete navodila za ročno namestitev na naslovu: http://developer."
-"pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_installation"
-
-#. Installer Subsection Detailed Description
-msgid ""
-"Support for Spellchecking.  (Internet connection required for installation)"
-msgstr ""
-"Podpora preverjanja črkovanja.  (Za namestitev je potrebna spletna povezava)"
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
-msgstr ""
-"Napaka pri nameščanju simbolov razhroščevanja ($R2).$\\rČe ponoven poskus ne "
-"uspe, boste morali uporabiti 'polni namestitveni paket' z naslova http://"
-"pidgin.im/download/windows/"
+msgid "Desktop"
+msgstr "Namizje"
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
@@ -15034,12 +14967,101 @@ msgstr ""
 "delovanje Pidgina; če ponoven poskus ne uspe, boste morali uporabiti 'polni "
 "namestitveni paket' z naslova http://pidgin.im/download/windows/"
 
+#. $R2 will display the URL that the Debug Symbols failed to download from
+msgid ""
+"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
+"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgstr ""
+"Napaka pri nameščanju simbolov razhroščevanja ($R2).$\\rČe ponoven poskus ne "
+"uspe, boste morali uporabiti 'polni namestitveni paket' z naslova "
+"http://pidgin.im/download/windows/"
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
+"installation instructions are at: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
+"Napaka pri nameščanju preverjanja črkovanja ($R3).$\\rČe ponovni poskus ne "
+"uspe, najdete navodila za ročno namestitev na naslovu: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+
+#. Installer Subsection Text
+msgid "GTK+ Runtime (required if not present)"
+msgstr "Izvajalno okolje GTK+ (obvezno, če manjka)"
+
+#. Installer Subsection Text
+msgid "Localizations"
+msgstr "Lokalizacije"
+
+#. "Next >" appears on a button on the License Page of the Installer
+msgid "Next >"
+msgstr "Naprej >"
+
+#. Installer Subsection Text
+msgid "Pidgin Instant Messaging Client (required)"
+msgstr "Pidgin - odjemalec za klepet (zahtevano)"
+
+msgid ""
+"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"already present).$\\rAre you sure you want to skip installing the GTK+ "
+"Runtime?"
+msgstr ""
+"Pidgin potrebuje združljivo izvajalno okolje GTK+ (ki očitno ni na voljo).$\\"
+"rSte prepričani, da želite preskočiti nameščanje izvajalnega okolja GTK+?"
+
+msgid "See applied changes"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Shortcuts"
+msgstr "Tipke za bližnjice"
+
+#. Installer Subsection Detailed Description
+msgid "Shortcuts for starting Pidgin"
+msgstr "Bližnjice za zagon Pidgina"
+
+#. Installer Subsection Text
+msgid "Spellchecking Support"
+msgstr "Podpora preverjanja črkovanja"
+
+#. Installer Subsection Text
+msgid "Start Menu"
+msgstr "Začetni meni"
+
+#. Installer Subsection Detailed Description
+msgid ""
+"Support for Spellchecking.  (Internet connection required for installation)"
+msgstr ""
+"Podpora preverjanja črkovanja.  (Za namestitev je potrebna spletna povezava)"
+
+msgid "The installer is already running."
+msgstr "Nameščanje že poteka."
+
 msgid ""
 "The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
 "that another user installed this application."
 msgstr ""
 "Vnosov za Pidgin v registru ni mogoče najti.$\\rNajverjetneje je ta program "
 "namestil drug uporabnik."
+
+#. Installer Subsection Text
+msgid "URI Handlers"
+msgstr "Upravljalnik URI"
+
+msgid ""
+"Unable to uninstall the currently installed version of Pidgin. The new "
+"version will be installed without removing the currently installed version."
+msgstr ""
+"Trenutno nameščene različice Pidgina ni mogoče odstraniti. Nova različica bo "
+"nameščena brez odstranitve trenutno nameščene različice."
+
+#. Text displayed on Installer Finish Page
+msgid "Visit the Pidgin Web Page"
+msgstr "Obiščite spletno stran Pidgin"
 
 msgid "You do not have permission to uninstall this application."
 msgstr "Za odstranitev programa nimate ustreznih pravic."

@@ -1,25 +1,27 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Richard Laager <rlaager@wiktel.com>, 2011
-# Shalom Craimer <s.transifex@craimer.org>, 2011-2013
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2012
+## SOME DESCRIPTIVE TITLE.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Translators:
+## Richard Laager <rlaager@wiktel.com>, 2011
+## Shalom Craimer <s.transifex@craimer.org>, 2011-2013
+## Yaron Shahrabani <sh.yaron@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 10:38-0800\n"
-"PO-Revision-Date: 2014-01-21 08:25+0000\n"
+"POT-Creation-Date: 2014-05-22 14:13-0200\n"
+"PO-Revision-Date: 2014-05-26 08:54+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
-"Language-Team: Hebrew (http://www.transifex.com/projects/p/pidgin/language/"
-"he/)\n"
-"Language: he\n"
+"Language-Team: Hebrew "
+"(http://www.transifex.com/projects/p/pidgin/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:48+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
+"Language: he\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
@@ -369,8 +371,8 @@ msgid "Unblock"
 msgstr "הסר חסימה"
 
 msgid ""
-"Please enter the username or alias of the person you would like to Block/"
-"Unblock."
+"Please enter the username or alias of the person you would like to "
+"Block/Unblock."
 msgstr ""
 "יש להזין את שם המשתמש או הכינוי של האדם אותו ברצונך לחסום/להוציא מחסימה."
 
@@ -383,7 +385,8 @@ msgstr "אישור"
 msgid "New Instant Message"
 msgstr "הודעה מידית חדשה"
 
-msgid "Please enter the username or alias of the person you would like to IM."
+msgid ""
+"Please enter the username or alias of the person you would like to IM."
 msgstr "יש להזין את שם המשתמש או הכינוי של האדם אליו ברצונך לשלוח הודעה."
 
 msgid "Channel"
@@ -560,7 +563,8 @@ msgstr "הפעל מחדש חשבון"
 msgid "No such command."
 msgstr "אין פקודה כזו."
 
-msgid "Syntax Error:  You typed the wrong number of arguments to that command."
+msgid ""
+"Syntax Error:  You typed the wrong number of arguments to that command."
 msgstr "שגיאת תחביר:  הקלדת מספר שגוי של ארגומנטים לפקודה זו."
 
 msgid "Your command failed for an unknown reason."
@@ -714,10 +718,11 @@ msgstr "statuses: הצג את חלון המצבים-השמורים."
 
 msgid ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Set the color "
-"for different classes of messages in the conversation window.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"for different classes of messages in the conversation window.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 msgstr ""
 "msgcolor &lt;מחלקה&gt; &lt;צבע-תוכן&gt; &lt;רקע&gt;: קבע צבע עבור מחלקות "
 "שונות של הודעות בחלון השיחה.<br>    &lt;מחלקה&gt;: receive, send, highlight, "
@@ -734,12 +739,12 @@ msgstr "חלון ניפוי באגים"
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
-#.
+#. 
 msgid "Clear"
 msgstr "נקה"
 
 msgid "Filter:"
-msgstr "נפה: "
+msgstr "נפה:"
 
 msgid "Pause"
 msgstr "השהייה"
@@ -829,7 +834,8 @@ msgstr "%B %Y"
 msgid ""
 "System events will only be logged if the \"Log all status changes to system "
 "log\" preference is enabled."
-msgstr "אירועי מערכת רק יירשמו אם סומן \"רשום כל שינויי סטטוס ליומן המערכת\"."
+msgstr ""
+"אירועי מערכת רק יירשמו אם סומן \"רשום כל שינויי סטטוס ליומן המערכת\"."
 
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
@@ -848,7 +854,7 @@ msgstr "גודל יומן סה\"כ:"
 
 #. Search box *********
 msgid "Scroll/Search: "
-msgstr "גלול/חפש:"
+msgstr "גלול/חפש: "
 
 #, c-format
 msgid "Conversations in %s"
@@ -1415,7 +1421,8 @@ msgstr "לא יכול למצוא את תצוגת X"
 msgid "Couldn't find window"
 msgstr "לא מוצא חלון"
 
-msgid "This plugin cannot be loaded because it was not built with X11 support."
+msgid ""
+"This plugin cannot be loaded because it was not built with X11 support."
 msgstr "לא ניתן לטעון את התוסף מכיוון שנבנה ללא תמיכת X11."
 
 msgid "GntClipboard"
@@ -1427,7 +1434,8 @@ msgstr "תוסף לוח ההעתקה"
 msgid ""
 "When the gnt clipboard contents change, the contents are made available to "
 "X, if possible."
-msgstr "כאשר תוכן לוח ההעתקה של gnt משתנה, התוכן גם נעשה זמין עבור X, אם ניתן."
+msgstr ""
+"כאשר תוכן לוח ההעתקה של gnt משתנה, התוכן גם נעשה זמין עבור X, אם ניתן."
 
 #, c-format
 msgid "%s just signed on"
@@ -2012,125 +2020,125 @@ msgstr "העברת הקובץ ל-%s נכשלה."
 msgid "File transfer from %s failed."
 msgstr "העברת הקובץ מ-%s נכשלה."
 
-msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"aim\"."
+msgid "Run the command in a terminal"
+msgstr "הפעל את הפקודה בתוך טרמינל"
+
+msgid "The command used to handle \"aim\" URLs, if enabled."
+msgstr "הפקודה לטיפול בכתובות \"aim\", אם הופעלה."
+
+msgid "The command used to handle \"gg\" URLs, if enabled."
+msgstr "הפקודה לטיפול בכתובות \"gg\", אם הופעלה."
+
+msgid "The command used to handle \"icq\" URLs, if enabled."
+msgstr "הפקודה לטיפול בכתובות \"icq\", אם הופעלה."
+
+msgid "The command used to handle \"irc\" URLs, if enabled."
+msgstr "הפקודה לטיפול בכתובות \"irc\", אם הופעלה."
+
+msgid "The command used to handle \"msnim\" URLs, if enabled."
+msgstr "הפקודה לטיפול בכתובות \"msnim\", אם הופעלה."
+
+msgid "The command used to handle \"sip\" URLs, if enabled."
+msgstr "הפקודה לטיפול בכתובות \"sip\", אם הופעלה."
+
+msgid "The command used to handle \"xmpp\" URLs, if enabled."
+msgstr "הפקודה לטיפול בכתובות \"xmpp\", אם הופעלה."
+
+msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgstr "הפקודה לטיפול בכתובות \"ymsgr\", אם הופעלה."
+
+msgid "The handler for \"aim\" URLs"
+msgstr "המטפל בכתובות \"aim\""
+
+msgid "The handler for \"gg\" URLs"
+msgstr "המטפל בכתובות \"gg\""
+
+msgid "The handler for \"icq\" URLs"
+msgstr "המטפל בכתובות \"icq\""
+
+msgid "The handler for \"irc\" URLs"
+msgstr "המטפל בכתובות \"irc\""
+
+msgid "The handler for \"msnim\" URLs"
+msgstr "המטפל בכתובות \"msnim\""
+
+msgid "The handler for \"sip\" URLs"
+msgstr "המטפל בכתובות \"sip\""
+
+msgid "The handler for \"xmpp\" URLs"
+msgstr "המטפל בכתובות \"xmpp\""
+
+msgid "The handler for \"ymsgr\" URLs"
+msgstr "המטפל בכתובות \"ymsgr\""
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
 msgstr "אמת אם הפקודה שהוגדרת לכפתור \"פקודה\" צריך לטפל בכתובות \"aim\"."
 
-msgid "The handler for \"aim\" URLs"
-msgstr "המטפל בכתובות \"aim\""
-
-msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr "הפקודה לטיפול בכתובות \"aim\", אם הופעלה."
-
-msgid "Run the command in a terminal"
-msgstr "הפעל את הפקודה בתוך טרמינל"
-
-msgid ""
-"True if the command used to handle this type of URL should be run in a "
-"terminal."
-msgstr "אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל."
-
-msgid "Whether the specified command should handle \"gg\" URLs"
-msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"gg\"."
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"gg\" "
 "URLs."
 msgstr "אמת אם הפקודה שהוגדרת לכפתור \"פקודה\" צריך לטפל בכתובות \"gg\"."
-
-msgid "The handler for \"gg\" URLs"
-msgstr "המטפל בכתובות \"gg\""
-
-msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr "הפקודה לטיפול בכתובות \"gg\", אם הופעלה."
-
-msgid "Whether the specified command should handle \"icq\" URLs"
-msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"icq\"."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"icq\" "
 "URLs."
 msgstr "אמת אם הפקודה שהוגדרת לכפתור \"פקודה\" צריך לטפל בכתובות \"icq\"."
 
-msgid "The handler for \"icq\" URLs"
-msgstr "המטפל בכתובות \"icq\""
-
-msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr "הפקודה לטיפול בכתובות \"icq\", אם הופעלה."
-
-msgid "Whether the specified command should handle \"irc\" URLs"
-msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"irc\"."
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"irc\" "
 "URLs."
 msgstr "אמת אם הפקודה שהוגדרת לכפתור \"פקודה\" צריך לטפל בכתובות \"irc\"."
-
-msgid "The handler for \"irc\" URLs"
-msgstr "המטפל בכתובות \"irc\""
-
-msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr "הפקודה לטיפול בכתובות \"irc\", אם הופעלה."
-
-msgid "Whether the specified command should handle \"msnim\" URLs"
-msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"msnim\"."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"msnim\" "
 "URLs."
 msgstr "אמת אם הפקודה שהוגדרת לכפתור \"פקודה\" צריך לטפל בכתובות \"msnim\"."
 
-msgid "The handler for \"msnim\" URLs"
-msgstr "המטפל בכתובות \"msnim\""
-
-msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr "הפקודה לטיפול בכתובות \"msnim\", אם הופעלה."
-
-msgid "Whether the specified command should handle \"sip\" URLs"
-msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"sip\"."
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"sip\" "
 "URLs."
 msgstr "אמת אם הפקודה שהוגדרת לכפתור \"פקודה\" צריך לטפל בכתובות \"aim\"."
-
-msgid "The handler for \"sip\" URLs"
-msgstr "המטפל בכתובות \"sip\""
-
-msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr "הפקודה לטיפול בכתובות \"sip\", אם הופעלה."
-
-msgid "Whether the specified command should handle \"xmpp\" URLs"
-msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"xmpp\"."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"xmpp\" "
 "URLs."
 msgstr "אמת אם הפקודה שהוגדרת לכפתור \"פקודה\" צריך לטפל בכתובות \"xmpp\"."
 
-msgid "The handler for \"xmpp\" URLs"
-msgstr "המטפל בכתובות \"xmpp\""
-
-msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr "הפקודה לטיפול בכתובות \"xmpp\", אם הופעלה."
-
-msgid "Whether the specified command should handle \"ymsgr\" URLs"
-msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"ymsgr\"."
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ymsgr\" "
 "URLs."
 msgstr "אמת אם הפקודה שהוגדרת לכפתור \"פקודה\" צריך לטפל בכתובות \"ymsgr\"."
 
-msgid "The handler for \"ymsgr\" URLs"
-msgstr "המטפל בכתובות \"ymsgr\""
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
+msgstr "אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל."
 
-msgid "The command used to handle \"ymsgr\" URLs, if enabled."
-msgstr "הפקודה לטיפול בכתובות \"ymsgr\", אם הופעלה."
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"aim\"."
+
+msgid "Whether the specified command should handle \"gg\" URLs"
+msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"gg\"."
+
+msgid "Whether the specified command should handle \"icq\" URLs"
+msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"icq\"."
+
+msgid "Whether the specified command should handle \"irc\" URLs"
+msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"irc\"."
+
+msgid "Whether the specified command should handle \"msnim\" URLs"
+msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"msnim\"."
+
+msgid "Whether the specified command should handle \"sip\" URLs"
+msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"sip\"."
+
+msgid "Whether the specified command should handle \"xmpp\" URLs"
+msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"xmpp\"."
+
+msgid "Whether the specified command should handle \"ymsgr\" URLs"
+msgstr "האם הפקודה שצויינה צריכה לטפל בכתובות \"ymsgr\"."
 
 msgid "<b><font color=\"red\">The logger has no read function</font></b>"
 msgstr "<b><font color=\"red\">לתוכנת הרישום אין פונקצית קריאה</font></b>"
@@ -2459,7 +2467,8 @@ msgid "Test plugin IPC support, as a server."
 msgstr "בדוק את תוסף התמיכה ב-IPC, בתור שרת."
 
 #. *  description
-msgid "Test plugin IPC support, as a server. This registers the IPC commands."
+msgid ""
+"Test plugin IPC support, as a server. This registers the IPC commands."
 msgstr "בדוק את תוסף התמיכה ב-IPC, בתור שרת. זה רושם את פקודות ה-IPC."
 
 msgid "Hide Joins/Parts"
@@ -2914,11 +2923,11 @@ msgstr ""
 "ActiveTCL מתוך http://www.activestate.com\n"
 
 msgid ""
-"Unable to find Apple's \"Bonjour for Windows\" toolkit, see http://d.pidgin."
-"im/BonjourWindows for more information."
+"Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
+"http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
-"חבילת \"בונג'ור\" של אפל עבור חלונות לא נמצאה, ראה את השו\"ת באתר: http://d."
-"pidgin.im/BonjourWindows למידע נוסף."
+"חבילת \"בונג'ור\" של אפל עבור חלונות לא נמצאה, ראה את השו\"ת באתר: "
+"http://d.pidgin.im/BonjourWindows למידע נוסף."
 
 msgid "Unable to listen for incoming IM connections"
 msgstr "לא ניתן להקשיב לחיבורי הודעות נכנסת"
@@ -3218,11 +3227,11 @@ msgstr "אין הודעה יומית המיוחסת לחיבור זה."
 msgid "MOTD for %s"
 msgstr "הודעת היום עבור %s"
 
-#.
+#. 
 #. * TODO: Handle this better. Probably requires a PurpleBOSHConnection
 #. * buffer that stores what is "being sent" until the
 #. * PurpleHTTPConnection reports it is fully sent.
-#.
+#. 
 #. TODO: do we really want to disconnect on a failure to write?
 #, c-format
 msgid "Lost connection with server: %s"
@@ -3295,10 +3304,10 @@ msgstr ""
 msgid "Real name"
 msgstr "שם אמיתי"
 
-#.
+#. 
 #. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
 #. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
+#. 
 msgid "Use SSL"
 msgstr "השתמש ב-SSL"
 
@@ -3342,13 +3351,11 @@ msgstr " <i>(מזוהה)</i>"
 msgid "Nick"
 msgstr "כינוי"
 
-#, fuzzy
 msgid "Login name"
-msgstr "ללא שם"
+msgstr ""
 
-#, fuzzy
 msgid "Host name"
-msgstr "שם שרת"
+msgstr ""
 
 msgid "Currently on"
 msgstr "כרגע ב-"
@@ -3495,7 +3502,8 @@ msgstr "כאפה מ-%s"
 msgid "Failed to initialize SASL authentication: %s"
 msgstr "כישלון באיתחול אימות SASL: %s"
 
-msgid "SASL authentication failed: No worthy authentication mechanisms found."
+msgid ""
+"SASL authentication failed: No worthy authentication mechanisms found."
 msgstr "כישלון באימות SASL: לא נמצא מנגנון אימות מתאים."
 
 #, c-format
@@ -3630,7 +3638,7 @@ msgstr ""
 "להשתמש בזה."
 
 msgid "operserv: Send a command to operserv"
-msgstr " operserv: שלח פקודה אל operserv"
+msgstr "operserv: שלח פקודה אל operserv"
 
 msgid ""
 "part [room] [message]:  Leave the current channel, or a specified channel, "
@@ -3651,7 +3659,8 @@ msgid ""
 msgstr ""
 "query &lt;שם משתמש&gt; &lt;הודעה&gt;:  שלח הודעה פרטית למשתמש (בניגוד לערוץ)."
 
-msgid "quit [message]:  Disconnect from the server, with an optional message."
+msgid ""
+"quit [message]:  Disconnect from the server, with an optional message."
 msgstr "quit [הודעה]:  התנתקות מהשרת, עם אפשרות להודעה."
 
 msgid "quote [...]:  Send a raw command to the server."
@@ -3723,7 +3732,7 @@ msgstr "השרת דורש אימות לא מוצפן מעל תקשורת לא מ
 #. This happens when the server sends back jibberish
 #. * in the "additional data with success" case.
 #. * Seen with Wildfire 3.0.1.
-#.
+#. 
 msgid "Invalid response from server"
 msgstr "תגובה לא תקפה מהשרת"
 
@@ -3748,7 +3757,8 @@ msgstr "תשובת אימות לא תקפה מהשרת"
 msgid "Server thinks authentication is complete, but client does not"
 msgstr "השרת סבור שהאימות הסתיים בהצלחה, אבל תוכנת הלקוח לא מסכימה"
 
-msgid "Server may require plaintext authentication over an unencrypted stream"
+msgid ""
+"Server may require plaintext authentication over an unencrypted stream"
 msgstr "ייתכן והשרת דורש אימות לא מוצפן מעל תקשורת לא מוצפנת"
 
 #, c-format
@@ -3778,8 +3788,8 @@ msgid ""
 msgstr "התקבלה תשובה לא-צפוייה מהשרת. ייתכן וזה מעיד על התקפת MITM."
 
 msgid ""
-"The server does support channel binding, but did not appear to advertise "
-"it.  This indicates a likely MITM attack"
+"The server does support channel binding, but did not appear to advertise it. "
+" This indicates a likely MITM attack"
 msgstr ""
 "השרת תומך בלכידת ערוצים, אך נראה כי אינו מפרסם זאת. זה כנראה מעיד על תקיפת "
 "MITM."
@@ -3845,11 +3855,11 @@ msgstr "קישור"
 msgid "Street Address"
 msgstr "כתובת"
 
-#.
+#. 
 #. * EXTADD is correct, EXTADR is generated by other
 #. * clients. The next time someone reads this, remove
 #. * EXTADR.
-#.
+#. 
 msgid "Extended Address"
 msgstr "מידע כתובת מורחב"
 
@@ -3896,7 +3906,8 @@ msgstr "ערוך את ה- XMPP vCard"
 msgid ""
 "All items below are optional. Enter only the information with which you feel "
 "comfortable."
-msgstr "כל הפריטים להלן הם בחירה. יש להזין רק את המידע שאת/ה מרגיש/ה נוח לתת."
+msgstr ""
+"כל הפריטים להלן הם בחירה. יש להזין רק את המידע שאת/ה מרגיש/ה נוח לתת."
 
 msgid "Client"
 msgstr "לקוח"
@@ -4746,7 +4757,8 @@ msgid "Unable to send file to %s, not subscribed to user presence"
 msgstr "לא ניתן לשלוח את הקובץ אל %s, אינך רשומ/ה להודעת קיום המשתמש"
 
 #, c-format
-msgid "Please select the resource of %s to which you would like to send a file"
+msgid ""
+"Please select the resource of %s to which you would like to send a file"
 msgstr "יש לבחור את המשאב של %s אליו ברצונך לשלוח קובץ"
 
 msgid "Afraid"
@@ -5225,7 +5237,8 @@ msgstr ""
 msgid ""
 "%s is on the local list but not on the server list. Do you want this buddy "
 "to be added?"
-msgstr "%s הרשימה המקומית אך לא ברשימה שעל השרת. האם ברצונך להוסיף איש קשר זה?"
+msgstr ""
+"%s הרשימה המקומית אך לא ברשימה שעל השרת. האם ברצונך להוסיף איש קשר זה?"
 
 msgid "Other Contacts"
 msgstr "אנשי-קשר אחרים"
@@ -5424,7 +5437,8 @@ msgstr "פתח את תיבת הדואר של Hotmail"
 msgid "Send to Mobile"
 msgstr "שלח למכשיר נייד"
 
-msgid "SSL support is needed for MSN. Please install a supported SSL library."
+msgid ""
+"SSL support is needed for MSN. Please install a supported SSL library."
 msgstr "נדרשת תמיכה ב-SSL עבור MSN. נא להתקין ספריית SSL נתמכת."
 
 #, c-format
@@ -5703,7 +5717,8 @@ msgstr ""
 msgid ""
 "%s (There was an error receiving this message. The charset was %s, but it "
 "was not valid UTF-8.)"
-msgstr "%s (שגיאה בקליטת הודעה זו. דף־התוים היה %s, אבל זה לא היה UTF-8 תקין.)"
+msgstr ""
+"%s (שגיאה בקליטת הודעה זו. דף־התוים היה %s, אבל זה לא היה UTF-8 תקין.)"
 
 #, c-format
 msgid ""
@@ -5735,7 +5750,8 @@ msgstr "שגיאה בפיענוח HTTP"
 msgid "You have signed on from another location"
 msgstr "אתה התחברת ממיקום נוסף"
 
-msgid "The MSN servers are temporarily unavailable. Please wait and try again."
+msgid ""
+"The MSN servers are temporarily unavailable. Please wait and try again."
 msgstr "שרתי ה-MSN לא זמינים כרגע. אנא נסו מאוחר יותר."
 
 msgid "The MSN servers are going down temporarily"
@@ -5768,7 +5784,8 @@ msgid "Retrieving buddy list"
 msgstr "מקבל רשימת אנשי הקשר"
 
 #, c-format
-msgid "%s requests to view your webcam, but this request is not yet supported."
+msgid ""
+"%s requests to view your webcam, but this request is not yet supported."
 msgstr ""
 "נשלחה בקשה מאת %s לצפות במצלמת האינטרנט שלך, אבל בקשה זו אינה נתמכת כרגע."
 
@@ -5839,7 +5856,8 @@ msgstr "שגיאה בעדכון פרופיל"
 msgid "Profile"
 msgstr "פרופיל"
 
-msgid "Your profile information is not yet retrieved. Please try again later."
+msgid ""
+"Your profile information is not yet retrieved. Please try again later."
 msgstr "פרטי הפרופיל שלך עוד לא התקבלו. יש לנסות שנית מאוחר יותר."
 
 #. display name
@@ -6354,12 +6372,14 @@ msgstr "שגיאת פרוטוקול, קוד %d: %s"
 #, c-format
 msgid ""
 "%s Your password is %zu characters, which is longer than the maximum length "
-"of %d.  Please shorten your password at http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword and try again."
+"of %d.  Please shorten your password at "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword and try again."
 msgstr ""
 "%s סיסמתך הינה באורך %zu תוים, יותר מהאורך המצופה של %d. יש לקצר את הססמה "
-"באתר http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings."
-"changePassword ולנסות שנית."
+"באתר "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword ולנסות שנית."
 
 msgid "Incorrect username or password"
 msgstr "שם משתמש או ססמה שגויים"
@@ -6457,9 +6477,9 @@ msgid ""
 "visit http://editprofile.myspace.com/index.cfm?fuseaction=profile.username "
 "to set your username."
 msgstr ""
-"קרתה שגיאה בעת קביעת שם המשתמש. יש לנסות שנית, או לגשת אל http://editprofile."
-"myspace.com/index.cfm?fuseaction=profile.username על מנת לקבוע את שם המשתמש "
-"שלך."
+"קרתה שגיאה בעת קביעת שם המשתמש. יש לנסות שנית, או לגשת אל "
+"http://editprofile.myspace.com/index.cfm?fuseaction=profile.username על מנת "
+"לקבוע את שם המשתמש שלך."
 
 msgid "MySpaceIM - Username Available"
 msgstr "MySpaceIM - שם המשתמש זמין"
@@ -6805,7 +6825,7 @@ msgstr "שם משתמש"
 #. if (value) {
 #. purple_notify_user_info_add_pair(user_info, tag, value);
 #. }
-#.
+#. 
 msgid "Full name"
 msgstr "שם מלא"
 
@@ -6882,7 +6902,7 @@ msgstr "הודעת סירוב הרשאה"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
-#.
+#. 
 msgid "_OK"
 msgstr "אישור"
 
@@ -7378,7 +7398,8 @@ msgstr[0] "לא קיבלת %hu הודעה מאת %s בגלל שרמת האזהר
 msgstr[1] "לא קיבלת %hu הודעות מאת %s בגלל שרמת האזהרה של השולח גבוהה מדי."
 
 #, c-format
-msgid "You missed %hu message from %s because your warning level is too high."
+msgid ""
+"You missed %hu message from %s because your warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because your warning level is too high."
 msgstr[0] "לא קיבלת %hu הודעה מאת %s בגלל שרמת-האזהרה שלך גבוהה מדי."
@@ -7479,7 +7500,8 @@ msgstr "מידע על החשבון"
 
 msgid ""
 "Your IM Image was not sent. You must be Direct Connected to send IM Images."
-msgstr "הודעת-התמונה לא נשלחה. עליך להיות מחובר/ת בתקשורת ישירה לשלוח תמונות."
+msgstr ""
+"הודעת-התמונה לא נשלחה. עליך להיות מחובר/ת בתקשורת ישירה לשלוח תמונות."
 
 msgid "Unable to set AIM profile."
 msgstr "אין אפשרות לקבוע את פרופיל ה-AIM."
@@ -7968,11 +7990,11 @@ msgstr "אין לך חברים ברשימה זו"
 
 #, c-format
 msgid ""
-"You can add a buddy to this list by right-clicking on them and selecting \"%s"
-"\""
+"You can add a buddy to this list by right-clicking on them and selecting "
+"\"%s\""
 msgstr ""
-"יש באפשרותך להוסיף חבר לרשימה זו ע\"י לחיצה ימנית עם העכבר עליהם ולבחור \"%s"
-"\""
+"יש באפשרותך להוסיף חבר לרשימה זו ע\"י לחיצה ימנית עם העכבר עליהם ולבחור "
+"\"%s\""
 
 msgid "Visible List"
 msgstr "רשימת נראה"
@@ -8261,7 +8283,8 @@ msgid "No matches"
 msgstr "לא נמצאו מתאימים"
 
 #, c-format
-msgid "The identifier '%s' did not match any users in your Sametime community."
+msgid ""
+"The identifier '%s' did not match any users in your Sametime community."
 msgstr "המזהה '%s' לא תואם לאף משתמש בקהילת ה-Sametime שלך."
 
 msgid "No Matches"
@@ -9069,7 +9092,8 @@ msgstr "whois &lt;כינוי משתמש&gt;:  צפה במידע אודות המ�
 msgid "msg &lt;nick&gt; &lt;message&gt;:  Send a private message to a user"
 msgstr "msg &lt;כינוי משתמש&gt; &lt;הודעה&gt;:  שלח הודעה פרטית למשתמש"
 
-msgid "query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
+msgid ""
+"query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
 msgstr "query &lt;כינוי משתמש&gt; [&lt;הודעה&gt;]:  שלח הודעה פרטית למשתמש"
 
 msgid "motd:  View the server's Message Of The Day"
@@ -9118,7 +9142,8 @@ msgstr ""
 "invite &lt;ערוץ&gt; [-|+]&lt;שם כינוי&gt;:  הזמן משתמש או הוסף/הסר מרשימת "
 "ההזמנות של הערוץ"
 
-msgid "kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
+msgid ""
+"kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
 msgstr "kick &lt;ערוץ&gt; &lt;שם כינוי&gt; [הערה]:  בעט משתמש מן הערוץ"
 
 msgid "info [server]:  View server administrative details"
@@ -9564,7 +9589,8 @@ msgstr ""
 "האימייל שלך במקום את שם המשתמש שלך ב-Yahoo!."
 
 #, c-format
-msgid "Unknown error number %d. Logging into the Yahoo! website may fix this."
+msgid ""
+"Unknown error number %d. Logging into the Yahoo! website may fix this."
 msgstr "שגיאה לא מוכרת מספר %d. התחברות באתר Yahoo! אולי יתקן את זה."
 
 #, c-format
@@ -9662,7 +9688,7 @@ msgstr "מבקש מספק השירות הנייד לשלוח את ה-SMS."
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
-#.
+#. 
 msgid "Sent Doodle request."
 msgstr "נשלחה בקשר לקשקש."
 
@@ -9688,7 +9714,8 @@ msgstr "פרופיל Yahoo!"
 msgid ""
 "Sorry, profiles marked as containing adult content are not supported at this "
 "time."
-msgstr "סליחה, אך פרופילים המסומנים כמכילים מידע למבוגרים בלבד לא נתמכים כרגע."
+msgstr ""
+"סליחה, אך פרופילים המסומנים כמכילים מידע למבוגרים בלבד לא נתמכים כרגע."
 
 msgid ""
 "If you wish to view this profile, you will need to visit this link in your "
@@ -9854,24 +9881,24 @@ msgid ""
 msgstr "zi &lt;ישות&gt;: שלח הודעה ל-&lt;הודעה, <i>ישות</i>,*&gt;"
 
 msgid ""
-"zci &lt;class&gt; &lt;instance&gt;: Send a message to &lt;<i>class</i>,"
-"<i>instance</i>,*&gt;"
+"zci &lt;class&gt; &lt;instance&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,*&gt;"
 msgstr ""
 "zci &lt;מחלקה&gt; &lt;ישות&gt;: שלח הודעה ל-&lt;<i>מחלקה</i>,<i>ישות</i>*&gt;"
 
 msgid ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;"
-"<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
-"zcir &lt;מחלקה&gt; &lt;ישות&gt; &lt;נמען&gt;: שלח הודעה אל &lt;<i>מחלקה</i>,"
-"<i>ישות</i>,<i>נמען</i>&gt;"
+"zcir &lt;מחלקה&gt; &lt;ישות&gt; &lt;נמען&gt;: שלח הודעה אל "
+"&lt;<i>מחלקה</i>,<i>ישות</i>,<i>נמען</i>&gt;"
 
 msgid ""
-"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;MESSAGE,"
-"<i>instance</i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
-"zir &lt;ישות&gt; &lt;נמען&gt;: שלח הודעה אל &lt;הודעה,<i>ישות</i>,<i>נמען</"
-"i>&gt;"
+"zir &lt;ישות&gt; &lt;נמען&gt;: שלח הודעה אל "
+"&lt;הודעה,<i>ישות</i>,<i>נמען</i>&gt;"
 
 msgid "zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;"
 msgstr "zc &lt;מחלקה&gt;: שלח הודעה אל &lt;<i>מחלקה</i>,אישי,*&gt;"
@@ -9949,7 +9976,7 @@ msgstr "%s ביקש את תשומת לבך!"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c Yes and @c No buttons.
-#.
+#. 
 msgid "_Yes"
 msgstr "כ_ן"
 
@@ -9958,17 +9985,17 @@ msgstr "ל_א"
 
 #. *
 #. * A wrapper for purple_request_action() that uses Accept and Cancel buttons.
-#.
+#. 
 #. *
 #. * A wrapper for purple_request_action_with_icon() that uses Accept and Cancel
 #. * buttons.
-#.
+#. 
 msgid "_Accept"
 msgstr "א_שר"
 
 #. *
 #. * The default message to use when the user becomes auto-away.
-#.
+#. 
 msgid "I'm not here right now"
 msgstr "אני לא כאן כרגע"
 
@@ -10060,12 +10087,12 @@ msgstr "+++ %s חסר פעילות"
 msgid "+++ %s became unidle"
 msgstr "+++ %s החל בפעילות"
 
-#.
+#. 
 #. * This string determines how some dates are displayed.  The default
 #. * string "%x %X" shows the date then the time.  Translators can
 #. * change this to "%X %x" if they want the time to be shown first,
 #. * followed by the date.
-#.
+#. 
 #, c-format
 msgid "%x %X"
 msgstr "%x %X"
@@ -10183,17 +10210,17 @@ msgid ""
 msgstr ""
 "חלה שגיאה בעת קריאת ה-%s שלך. הקובץ לא נטען, ושם ההובץ הישן שונה ל-%s~."
 
-msgid "Pidgin Internet Messenger"
-msgstr "פידג'ין למסרים באינטרנט"
-
-msgid "Internet Messenger"
-msgstr "למסרים באינטרנט"
-
 msgid ""
 "Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
 msgstr ""
 "צ'אט בעזרת הודעות-מיידיות.  תומך AIM, Google Talk, Jabber/XMPP, MSN, Yahoo "
 "ועוד"
+
+msgid "Internet Messenger"
+msgstr "למסרים באינטרנט"
+
+msgid "Pidgin Internet Messenger"
+msgstr "פידג'ין למסרים באינטרנט"
 
 #. Build the login options frame.
 msgid "Login Options"
@@ -10848,9 +10875,10 @@ msgstr "/חשבונות"
 msgid ""
 "<span weight='bold' size='larger'>Welcome to %s!</span>\n"
 "\n"
-"You have no accounts enabled. Enable your IM accounts from the <b>Accounts</"
-"b> window at <b>Accounts->Manage Accounts</b>. Once you enable accounts, "
-"you'll be able to sign on, set your status, and talk to your friends."
+"You have no accounts enabled. Enable your IM accounts from the "
+"<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you enable "
+"accounts, you'll be able to sign on, set your status, and talk to your "
+"friends."
 msgstr ""
 "<span weight='bold' size='larger'>ברוכים הבאים ל-%s!</span>\n"
 "\n"
@@ -10860,7 +10888,7 @@ msgstr ""
 
 #. set the Show Offline Buddies option. must be done
 #. * after the treeview or faceprint gets mad. -Robot101
-#.
+#. 
 msgid "/Buddies/Show/Offline Buddies"
 msgstr "/חברים/הצג/חברים לא־מקוונים"
 
@@ -11636,45 +11664,25 @@ msgstr "צוות VI של גנום"
 
 #, c-format
 msgid ""
+"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+"%s</i><br><br><font color='red'>Modified version with no support from the "
+"official team.</font><br><br>"
+msgstr ""
+
+#, c-format
+msgid ""
 "%s is a messaging client based on libpurple which is capable of connecting "
 "to multiple messaging services at once.  %s is written in C using GTK+.  %s "
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
-"copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"copyrighted by its contributors, a list of whom is also distributed with %s. "
+" There is no warranty for %s.<BR><BR>"
 msgstr ""
 "%s הינה תוכנת הודעות המבוססת על libpurple ומסוגלת להתחבר למספר שירותי הודעות "
 "בו-זמנית.  %s נכתבה בשפת C ובעזרת GTK+.  %s יצאה לאור, וניתן לערוך ולהפיץ "
 "אותה, תחת תנאי הרשיון GPL גרסה 2 (והלאה).  יש העתק של הרישיון GPL המופץ עם "
 "%s.  %s מוגנת תחת זכויות יוצריה, אשר רשימתם גם היא מופצת עם %s.  אין אחריות "
 "עבור %s.&lt;BR&gt;&lt;BR&gt;"
-
-#, c-format
-msgid ""
-"<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked Questions</A><BR>\tIRC "
-"Channel: #pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin."
-"im<BR><BR>"
-msgstr ""
-"<FONT SIZE=\"4\"><B>משאבי ידע</B></FONT><BR><A HREF=\"%s\">אתר אינטרנט</"
-"A><BR><A HREF=\"%s\">שאלות נפוצות</A><BR>\tערוץ IRC: #pidgin ברשת irc."
-"freenode.net<BR>» XMPP MUC: devel@conference.pidgin.im<BR><BR>"
-
-msgid ""
-"<font size=\"4\"><b>Help from other Pidgin users</b></font> is available by "
-"e-mailing <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">This is a <b>public</b> mailing list! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">archive</a>)<br/>We can't help with third-party protocols or "
-"plugins!<br/>This list's primary language is <b>English</b>.  You are "
-"welcome to post in another language, but the responses may be less helpful."
-"<br/>"
-msgstr ""
-"<font size=\"4\"><b>עזרה ממשתמשי פידג'ין אחרים</b></font> ניתן לקבל באימייל "
-"<a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/>זוהי רשימת "
-"תפוצה <b>פומבית</b>! (<a href=\"http://pidgin.im/pipermail/support/"
-"\">ארכיון</a>)<br/>אנו לא מסוגלים לעזור עם בעיות בתוספים או בתוספים של צד "
-"שלישי!<br/> השפה השלטת שם היא <b>אנגלית</b>. אתם מוזמנים לכתוב הודעות בשפות "
-"אחרות, אבל ייתכן והתשובות שתקבלו יהיו פחות משביעות-רצון.<br/>"
 
 #, c-format
 msgid "About %s"
@@ -11716,7 +11724,7 @@ msgstr "%s פרטי מתרגם"
 
 #, c-format
 msgid "%s Plugin Information"
-msgstr "מידע אודות התוסף %s "
+msgstr "מידע אודות התוסף %s"
 
 msgid "Plugin Information"
 msgstr "מידע אודות התוסף"
@@ -11725,7 +11733,7 @@ msgid "_Name"
 msgstr "שם_"
 
 msgid "_Account"
-msgstr " חשבון"
+msgstr "חשבון"
 
 msgid "Get User Info"
 msgstr "מידע כללי על המשתמש"
@@ -11793,7 +11801,8 @@ msgstr "מזג קבוצות"
 msgid ""
 "You are about to remove the group %s and all its members from your buddy "
 "list.  Do you want to continue?"
-msgstr "האם ברצונך להמשיך ולהסיר את הקבוצה %s וכל חבריה מרשימת אנשי הקשר שלך?"
+msgstr ""
+"האם ברצונך להמשיך ולהסיר את הקבוצה %s וכל חבריה מרשימת אנשי הקשר שלך?"
 
 msgid "Remove Group"
 msgstr "הסר קבוצה"
@@ -11957,7 +11966,8 @@ msgstr "צבע עבור השם בהודעות שנשלחות אליך."
 msgid "\"Attention\" Name Color"
 msgstr "צבע עבור שמות \"שים לב\""
 
-msgid "Color to draw the name of a message you received containing your name."
+msgid ""
+"Color to draw the name of a message you received containing your name."
 msgstr "צבע עבור הודעות המתקבלות ומכילות את שמך."
 
 msgid "Action Message Name Color"
@@ -12039,7 +12049,8 @@ msgstr "_תיאור"
 msgid ""
 "Please enter the URL and description of the link that you want to insert. "
 "The description is optional."
-msgstr "יש להזין כתובת ותיאור עבור הקישור ברצונך להכניס. לא חובה להזין תיאור."
+msgstr ""
+"יש להזין כתובת ותיאור עבור הקישור ברצונך להכניס. לא חובה להזין תיאור."
 
 msgid "Please enter the URL of the link that you want to insert."
 msgstr "יש להזין את כתובת הקישור שברצונך להכניס."
@@ -13172,7 +13183,8 @@ msgstr "לא ניתן לשלוח את הספריה %s."
 msgid ""
 "%s cannot transfer a folder. You will need to send the files within "
 "individually."
-msgstr "%s לא יכול להעביר ספריה. תיאלצ/י לשלוח את הקבצים בתוך הספריה אחד-אחד."
+msgstr ""
+"%s לא יכול להעביר ספריה. תיאלצ/י לשלוח את הקבצים בתוך הספריה אחד-אחד."
 
 msgid "You have dragged an image"
 msgstr "גררת תמונה"
@@ -13199,7 +13211,8 @@ msgstr "האם ברצונך לקבוע את זה להיות הסמל של איש
 msgid ""
 "You can send this image as a file transfer, or use it as the buddy icon for "
 "this user."
-msgstr "ניתן לשלוח תמונה זו כקובץ מועבר, או להשתמש בה בתור סמל עבור משתמש זה."
+msgstr ""
+"ניתן לשלוח תמונה זו כקובץ מועבר, או להשתמש בה בתור סמל עבור משתמש זה."
 
 msgid ""
 "You can insert this image into this message, or use it as the buddy icon for "
@@ -13309,11 +13322,11 @@ msgstr "מידעון פידג'ין"
 msgid "Pidgin smileys"
 msgstr "חייכני פידג'ין"
 
-msgid "none"
-msgstr "ללא"
-
 msgid "Selecting this disables graphical emoticons."
 msgstr "בבחירת זה מבוטלים סמלי-הרגשות הגרפיים."
+
+msgid "none"
+msgstr "ללא"
 
 msgid "Small"
 msgstr "קטן"
@@ -13550,7 +13563,8 @@ msgstr "אפשרויות נוספות למיקום שיחות"
 msgid ""
 "Restrict the number of conversations per windows, optionally separating IMs "
 "and Chats"
-msgstr "הגבל את מספר השיחות בכל חלון-שיחה, עם אפשרות להפריד בין הודעות לצ'אטים"
+msgstr ""
+"הגבל את מספר השיחות בכל חלון-שיחה, עם אפשרות להפריד בין הודעות לצ'אטים"
 
 #. Configuration frame
 msgid "Mouse Gestures Configuration"
@@ -14147,7 +14161,7 @@ msgid "Authorization dialog"
 msgstr "חלון הרשאה"
 
 msgid "Error dialog"
-msgstr "חלון שגיאה "
+msgstr "חלון שגיאה"
 
 msgid "Information dialog"
 msgstr "חלון מידע"
@@ -14246,7 +14260,7 @@ msgid "Timestamp Format Options"
 msgstr "אפשרויות חותמת-זמן"
 
 msgid "_Force timestamp format:"
-msgstr " אלץ שימוש בחותמת-זמן:"
+msgstr "אלץ שימוש בחותמת-זמן:"
 
 msgid "Use system default"
 msgstr "השתמש בברירות המחדל של מערכת ההפעלה"
@@ -14310,9 +14324,8 @@ msgstr ""
 msgid "Show number of unread _messages on launcher icon"
 msgstr ""
 
-#, fuzzy
 msgid "Show number of unread co_nversations on launcher icon"
-msgstr "מספר שיחות בכל חלון"
+msgstr ""
 
 #. Messaging menu integration
 msgid "Messaging Menu"
@@ -14347,7 +14360,7 @@ msgid "Audio"
 msgstr "או_טומטי"
 
 msgid "Video"
-msgstr " ו_ידאו"
+msgstr "ו_ידאו"
 
 msgid "Output"
 msgstr "פלט"
@@ -14520,18 +14533,6 @@ msgstr "שלח וקבל סטנזות XMPP גולמיות."
 msgid "This plugin is useful for debugging XMPP servers or clients."
 msgstr "תוסף זה שימושי לניפוי באגים בשרתים ולקוחות של XMPP."
 
-msgid "The installer is already running."
-msgstr "תוכנת ההתקנה כבר רצה."
-
-msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
-"again."
-msgstr "עותק של פידג'ין כבר רץ. יש לסגור את פידג'ין ולנסות שנית."
-
-#. "Next >" appears on a button on the License Page of the Installer
-msgid "Next >"
-msgstr "הבא >"
-
 #. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
 msgid ""
 "$(^Name) is released under the GNU General Public License (GPL). The license "
@@ -14539,104 +14540,34 @@ msgid ""
 msgstr ""
 "$(^Name) .הרישיון נמצא כאן בשביל מידע בלבד .GPL משוחרר תחת רישיון $_CLICK"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "(חובה) .Pidgin תוכנת"
+#. Installer Subsection Detailed Description
+msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgstr "מולטי-פלטפורמי, בו נעזר פידג'ין GUI כלי"
 
-#. Installer Subsection Text
-msgid "GTK+ Runtime (required if not present)"
-msgstr "(חובה) .GTK+ סביבת"
-
-#. Installer Subsection Text
-msgid "Shortcuts"
-msgstr "קיצורי דרך"
-
-#. Installer Subsection Text
-msgid "Desktop"
-msgstr "שולחן העבודה"
-
-#. Installer Subsection Text
-msgid "Start Menu"
-msgstr "תפריט ההתחל"
-
-#. Installer Subsection Text
-msgid "Localizations"
-msgstr "התאמות למקום"
+msgid ""
+"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"again."
+msgstr "עותק של פידג'ין כבר רץ. יש לסגור את פידג'ין ולנסות שנית."
 
 #. Installer Subsection Detailed Description
 msgid "Core Pidgin files and dlls"
 msgstr ".בסיסיים DLL-ו Pidgin קבצי"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "קיצורי-דרך להפעלת פידג'ין"
+msgid "Create a Start Menu entry for Pidgin"
+msgstr "צור קיצור-דרך עבור פידג'ין בתפריט ההתחל"
 
 #. Installer Subsection Detailed Description
 msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr "צור קיצור-דרך עבור פידג'ין על שולחן העבודה"
 
-#. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "צור קיצור-דרך עבור פידג'ין בתפריט ההתחל"
-
-#. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "מולטי-פלטפורמי, בו נעזר פידג'ין GUI כלי"
-
 #. Installer Subsection Text
 msgid "Debug Symbols (for reporting crashes)"
 msgstr "סמלי ניפוי באגים (לדיווח על שגיאות)"
 
-#. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr ".Pidginבקרו באתר של "
-
-msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
-"version will be installed without removing the currently installed version."
-msgstr ""
-"לא מסוגל להסיר את הגירסא המותקנת של פידג'ין. הגירסא החדשה תותקן ללא הסרת "
-"הגרסא המותקנת."
-
-msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
-msgstr ""
-"לפידג'ין נחוצה סביבת הרצה של GTK+ (אשר ככל הנראה אינה מותקנת).$\\rהאם ברצונך "
-"לדלג על שלב התקנת GTK+?"
-
 #. Installer Subsection Text
-msgid "URI Handlers"
-msgstr "מנהלי URI"
-
-#. Installer Subsection Text
-msgid "Spellchecking Support"
-msgstr "תמיכה בבדיקות איות"
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-msgstr ""
-"שגיאה בעת התקנת תיקון שגיאות כתיב ($R3).$\\r אם ניסיון נוסף לא מצליח, יש "
-"למצוא הוראות התקנה ידניות באתר: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-
-#. Installer Subsection Detailed Description
-msgid ""
-"Support for Spellchecking.  (Internet connection required for installation)"
-msgstr "תמיכה עבור בדיקות איות (דורש חיבור אינטרנט להתקנה)"
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
-msgstr ""
-"שגיאה בהתקנת סמלי ניפוי באגים ($R2).$\\rאם ניסיון נוסף נכשל, ייתכן ותיאלצ/י "
-"להשתמש ב'התקנה לא-מקוונת' מהאתר  http://pidgin.im/download/windows/ ."
+msgid "Desktop"
+msgstr "שולחן העבודה"
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
@@ -14648,12 +14579,99 @@ msgstr ""
 "אם ניסיון נוסף נכשל, ייתן ונאלץ להשתמש ב'התקנה לא-מקוונת'  מהאתר: from "
 "http://pidgin.im/download/windows/ ."
 
+#. $R2 will display the URL that the Debug Symbols failed to download from
+msgid ""
+"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
+"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgstr ""
+"שגיאה בהתקנת סמלי ניפוי באגים ($R2).$\\rאם ניסיון נוסף נכשל, ייתכן ותיאלצ/י "
+"להשתמש ב'התקנה לא-מקוונת' מהאתר  http://pidgin.im/download/windows/ ."
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
+"installation instructions are at: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
+"שגיאה בעת התקנת תיקון שגיאות כתיב ($R3).$\\r אם ניסיון נוסף לא מצליח, יש "
+"למצוא הוראות התקנה ידניות באתר: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+
+#. Installer Subsection Text
+msgid "GTK+ Runtime (required if not present)"
+msgstr "(חובה) .GTK+ סביבת"
+
+#. Installer Subsection Text
+msgid "Localizations"
+msgstr "התאמות למקום"
+
+#. "Next >" appears on a button on the License Page of the Installer
+msgid "Next >"
+msgstr "הבא >"
+
+#. Installer Subsection Text
+msgid "Pidgin Instant Messaging Client (required)"
+msgstr "(חובה) .Pidgin תוכנת"
+
+msgid ""
+"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"already present).$\\rAre you sure you want to skip installing the GTK+ "
+"Runtime?"
+msgstr ""
+"לפידג'ין נחוצה סביבת הרצה של GTK+ (אשר ככל הנראה אינה מותקנת).$\\rהאם ברצונך "
+"לדלג על שלב התקנת GTK+?"
+
+msgid "See applied changes"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Shortcuts"
+msgstr "קיצורי דרך"
+
+#. Installer Subsection Detailed Description
+msgid "Shortcuts for starting Pidgin"
+msgstr "קיצורי-דרך להפעלת פידג'ין"
+
+#. Installer Subsection Text
+msgid "Spellchecking Support"
+msgstr "תמיכה בבדיקות איות"
+
+#. Installer Subsection Text
+msgid "Start Menu"
+msgstr "תפריט ההתחל"
+
+#. Installer Subsection Detailed Description
+msgid ""
+"Support for Spellchecking.  (Internet connection required for installation)"
+msgstr "תמיכה עבור בדיקות איות (דורש חיבור אינטרנט להתקנה)"
+
+msgid "The installer is already running."
+msgstr "תוכנת ההתקנה כבר רצה."
+
 msgid ""
 "The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
 "that another user installed this application."
 msgstr ""
 ".GTK+ ההתקנה לא מצאה את הרישומים של$\\r.יכול להיות שמשמתמש אחר התקין את "
 "התוכנה הזאת"
+
+#. Installer Subsection Text
+msgid "URI Handlers"
+msgstr "מנהלי URI"
+
+msgid ""
+"Unable to uninstall the currently installed version of Pidgin. The new "
+"version will be installed without removing the currently installed version."
+msgstr ""
+"לא מסוגל להסיר את הגירסא המותקנת של פידג'ין. הגירסא החדשה תותקן ללא הסרת "
+"הגרסא המותקנת."
+
+#. Text displayed on Installer Finish Page
+msgid "Visit the Pidgin Web Page"
+msgstr ".Pidginבקרו באתר של"
 
 msgid "You do not have permission to uninstall this application."
 msgstr ".אין לך זכות למחוק תוכנה זאת"

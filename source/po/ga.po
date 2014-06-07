@@ -1,23 +1,25 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
+## SOME DESCRIPTIVE TITLE.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 10:38-0800\n"
-"PO-Revision-Date: 2014-01-21 08:25+0000\n"
+"POT-Creation-Date: 2014-05-22 14:13-0200\n"
+"PO-Revision-Date: 2014-05-26 08:39+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
-"Language-Team: Irish (http://www.transifex.com/projects/p/pidgin/language/"
-"ga/)\n"
-"Language: ga\n"
+"Language-Team: Irish "
+"(http://www.transifex.com/projects/p/pidgin/language/ga/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:47+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
+"Language: ga\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
@@ -312,7 +314,8 @@ msgid "Enter empty string to reset the name."
 msgstr "Cuir teaghrán folamh isteach chun an t-ainm a athshocrú."
 
 msgid "Removing this contact will also remove all the buddies in the contact"
-msgstr "Má scriosann tú an teagmháil seo, scriosfar na cairde go léir atá inti"
+msgstr ""
+"Má scriosann tú an teagmháil seo, scriosfar na cairde go léir atá inti"
 
 msgid "Removing this group will also remove all the buddies in the group"
 msgstr "Má scriosann tú an grúpa seo, scriosfar na cairde go léir atá ann"
@@ -372,8 +375,8 @@ msgid "Unblock"
 msgstr "Bain cosc"
 
 msgid ""
-"Please enter the username or alias of the person you would like to Block/"
-"Unblock."
+"Please enter the username or alias of the person you would like to "
+"Block/Unblock."
 msgstr ""
 "Cuir isteach ainm úsáideora nó leasainm an duine ar mhaith leat cosc a chur "
 "air/a bhaint uaidh."
@@ -387,7 +390,8 @@ msgstr "OK"
 msgid "New Instant Message"
 msgstr "Teachtaireacht Mheandarach Nua"
 
-msgid "Please enter the username or alias of the person you would like to IM."
+msgid ""
+"Please enter the username or alias of the person you would like to IM."
 msgstr ""
 "Cuir isteach ainm úsáideora nó leasainm an duine ar mhaith leat TM a "
 "sheoladh chuige/chuici."
@@ -568,7 +572,8 @@ msgstr "Athchumasaigh Cuntas"
 msgid "No such command."
 msgstr "Níl a leithéid d'ordú ann."
 
-msgid "Syntax Error:  You typed the wrong number of arguments to that command."
+msgid ""
+"Syntax Error:  You typed the wrong number of arguments to that command."
 msgstr "Earráid Chomhréire: Líon mícheart argóintí don ordú sin."
 
 msgid "Your command failed for an unknown reason."
@@ -586,7 +591,8 @@ msgid "That command doesn't work on this protocol."
 msgstr "Ní fheidhmíonn an t-ordú sin leis an bprótacal seo."
 
 msgid "Message was not sent, because you are not signed on."
-msgstr "Níor seoladh an teachtaireacht toisc nach bhfuil tú logáilte isteach."
+msgstr ""
+"Níor seoladh an teachtaireacht toisc nach bhfuil tú logáilte isteach."
 
 #, c-format
 msgid "%s (%s -- %s)"
@@ -602,7 +608,7 @@ msgid ""
 "%s is typing..."
 msgstr ""
 "\n"
-" Tá %s ag clóscríobh..."
+"Tá %s ag clóscríobh..."
 
 msgid "You have left this chat."
 msgstr "D'fhág tú an comhrá seo."
@@ -615,7 +621,8 @@ msgstr ""
 "Cuirfear leis an gcomhrá thú nuair a bheidh an cuntas ceangailte arís."
 
 msgid "Logging started. Future messages in this conversation will be logged."
-msgstr "Tosaíodh logáil. Logálfar teachtaireachtaí ón gcomhrá seo amach anseo."
+msgstr ""
+"Tosaíodh logáil. Logálfar teachtaireachtaí ón gcomhrá seo amach anseo."
 
 msgid ""
 "Logging stopped. Future messages in this conversation will not be logged."
@@ -658,8 +665,6 @@ msgid_plural "List of %d users:\n"
 msgstr[0] "Liosta de %d úsáideoir:\n"
 msgstr[1] "Liosta de %d úsáideoir:\n"
 msgstr[2] "Liosta de %d úsáideoir:\n"
-msgstr[3] "Liosta de %d n-úsáideoir:\n"
-msgstr[4] "Liosta de %d úsáideoir:\n"
 
 msgid "Supported debug options are: plugins version"
 msgstr "Roghanna dífhabhtaithe a dtacaítear leo: plugins version"
@@ -733,16 +738,17 @@ msgstr "statuses: Taispeáin fuinneog na stádas sábháilte."
 
 msgid ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Set the color "
-"for different classes of messages in the conversation window.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"for different classes of messages in the conversation window.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 msgstr ""
 "msgcolor &lt;aicme&gt; &lt;tulra&gt; &lt;cúlra&gt;: Socraigh an dath le "
-"haghaidh aicmí éagsúla teachtaireachtaí i bhfuinneog an chomhrá.<br>    &lt;"
-"aicme&gt;: receive, send, highlight, action, timestamp<br>    &lt;tulra/"
-"cúlra&gt;: black, red, green, blue, white, gray, darkgray, magenta, cyan, "
-"default<br><br>SAMPLA:<br>    msgcolor send cyan default"
+"haghaidh aicmí éagsúla teachtaireachtaí i bhfuinneog an chomhrá.<br>    "
+"&lt;aicme&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;tulra/cúlra&gt;: black, red, green, blue, white, gray, darkgray, "
+"magenta, cyan, default<br><br>SAMPLA:<br>    msgcolor send cyan default"
 
 msgid "Unable to open file."
 msgstr "Ní féidir an comhad a oscailt."
@@ -753,7 +759,7 @@ msgstr "Fuinneog Dhífhabhtaithe"
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
-#.
+#. 
 msgid "Clear"
 msgstr "Glan"
 
@@ -769,8 +775,6 @@ msgid_plural "File Transfers - %d%% of %d files"
 msgstr[0] "Aistriú Comhad - %d%% de %d chomhad"
 msgstr[1] "Aistriú Comhad - %d%% de %d chomhad"
 msgstr[2] "Aistriú Comhad - %d%% de %d chomhad"
-msgstr[3] "Aistriú Comhad - %d%% de %d gcomhad"
-msgstr[4] "Aistriú Comhad - %d%% de %d comhad"
 
 #. Create the window.
 msgid "File Transfers"
@@ -944,8 +948,6 @@ msgid_plural "%s (%s) has %d new messages."
 msgstr[0] "Tá %3$d teachtaireacht nua ag %1$s (%2$s)."
 msgstr[1] "Tá %3$d theachtaireacht nua ag %1$s (%2$s)."
 msgstr[2] "Tá %3$d theachtaireacht nua ag %1$s (%2$s)."
-msgstr[3] "Tá %3$d dteachtaireacht nua ag %1$s (%2$s)."
-msgstr[4] "Tá %3$d teachtaireacht nua ag %1$s (%2$s)."
 
 msgid "New Mail"
 msgstr "Ríomhphost Nua"
@@ -1320,7 +1322,7 @@ msgid "Sound Method"
 msgstr "Modh Fuaime"
 
 msgid "Method: "
-msgstr "Modh:"
+msgstr "Modh: "
 
 #, c-format
 msgid ""
@@ -1449,7 +1451,8 @@ msgstr "Níorbh fhéidir scáileán X a aimsiú"
 msgid "Couldn't find window"
 msgstr "Níorbh fhéidir fuinneog a aimsiú"
 
-msgid "This plugin cannot be loaded because it was not built with X11 support."
+msgid ""
+"This plugin cannot be loaded because it was not built with X11 support."
 msgstr ""
 "Ní féidir an breiseán seo a luchtú toisc nár tógadh le tacaíocht X11 é."
 
@@ -2066,8 +2069,56 @@ msgstr "Theip ar aistriú comhaid go %s."
 msgid "File transfer from %s failed."
 msgstr "Theip ar aistriú comhaid ó %s."
 
-msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr "Ar chóir don ordú sonraithe URLanna \"aim\" a láimhseáil"
+msgid "Run the command in a terminal"
+msgstr "Cuir an t-ordú i bhfeidhm i dteirminéal"
+
+msgid "The command used to handle \"aim\" URLs, if enabled."
+msgstr "An t-ordú chun URLanna \"aim\" a láimhseáil."
+
+msgid "The command used to handle \"gg\" URLs, if enabled."
+msgstr "An t-ordú chun URLanna \"gg\" a láimhseáil."
+
+msgid "The command used to handle \"icq\" URLs, if enabled."
+msgstr "An t-ordú chun URLanna \"icq\" a láimhseáil."
+
+msgid "The command used to handle \"irc\" URLs, if enabled."
+msgstr "An t-ordú chun URLanna \"irc\" a láimhseáil."
+
+msgid "The command used to handle \"msnim\" URLs, if enabled."
+msgstr "An t-ordú chun URLanna \"msnim\" a láimhseáil."
+
+msgid "The command used to handle \"sip\" URLs, if enabled."
+msgstr "An t-ordú chun URLanna \"sip\" a láimhseáil."
+
+msgid "The command used to handle \"xmpp\" URLs, if enabled."
+msgstr "An t-ordú chun URLanna \"xmpp\" a láimhseáil."
+
+msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgstr "An t-ordú chun URLanna \"ymsgr\" a láimhseáil."
+
+msgid "The handler for \"aim\" URLs"
+msgstr "An láimhseálaí le haghaidh URLanna \"aim\""
+
+msgid "The handler for \"gg\" URLs"
+msgstr "An láimhseálaí le haghaidh URLanna \"gg\""
+
+msgid "The handler for \"icq\" URLs"
+msgstr "An láimhseálaí le haghaidh URLanna \"icq\""
+
+msgid "The handler for \"irc\" URLs"
+msgstr "An láimhseálaí le haghaidh URLanna \"irc\""
+
+msgid "The handler for \"msnim\" URLs"
+msgstr "An láimhseálaí le haghaidh URLanna \"msnim\""
+
+msgid "The handler for \"sip\" URLs"
+msgstr "An láimhseálaí le haghaidh URLanna \"sip\""
+
+msgid "The handler for \"xmpp\" URLs"
+msgstr "An láimhseálaí le haghaidh URLanna \"xmpp\""
+
+msgid "The handler for \"ymsgr\" URLs"
+msgstr "An láimhseálaí le haghaidh URLanna \"ymsgr\""
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
@@ -2076,40 +2127,12 @@ msgstr ""
 "Fíor más mian leat URLanna \"aim\" a láimhseáil leis an ordú sa réimse "
 "\"command\"."
 
-msgid "The handler for \"aim\" URLs"
-msgstr "An láimhseálaí le haghaidh URLanna \"aim\""
-
-msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr "An t-ordú chun URLanna \"aim\" a láimhseáil."
-
-msgid "Run the command in a terminal"
-msgstr "Cuir an t-ordú i bhfeidhm i dteirminéal"
-
-msgid ""
-"True if the command used to handle this type of URL should be run in a "
-"terminal."
-msgstr ""
-"Fíor más mian leat URLanna den chineál seo a láimhseáil le hordú i "
-"dteirminéal."
-
-msgid "Whether the specified command should handle \"gg\" URLs"
-msgstr "Ar chóir don ordú sonraithe URLanna \"gg\" a láimhseáil"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"gg\" "
 "URLs."
 msgstr ""
 "Fíor más mian leat URLanna \"gg\" a láimhseáil leis an ordú sa réimse "
 "\"command\"."
-
-msgid "The handler for \"gg\" URLs"
-msgstr "An láimhseálaí le haghaidh URLanna \"gg\""
-
-msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr "An t-ordú chun URLanna \"gg\" a láimhseáil."
-
-msgid "Whether the specified command should handle \"icq\" URLs"
-msgstr "Ar chóir don ordú sonraithe URLanna \"icq\" a láimhseáil"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"icq\" "
@@ -2118,30 +2141,12 @@ msgstr ""
 "Fíor más mian leat URLanna \"icq\" a láimhseáil leis an ordú sa réimse "
 "\"command\"."
 
-msgid "The handler for \"icq\" URLs"
-msgstr "An láimhseálaí le haghaidh URLanna \"icq\""
-
-msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr "An t-ordú chun URLanna \"icq\" a láimhseáil."
-
-msgid "Whether the specified command should handle \"irc\" URLs"
-msgstr "Ar chóir don ordú sonraithe URLanna \"irc\" a láimhseáil"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"irc\" "
 "URLs."
 msgstr ""
 "Fíor más mian leat URLanna \"irc\" a láimhseáil leis an ordú sa réimse "
 "\"command\"."
-
-msgid "The handler for \"irc\" URLs"
-msgstr "An láimhseálaí le haghaidh URLanna \"irc\""
-
-msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr "An t-ordú chun URLanna \"irc\" a láimhseáil."
-
-msgid "Whether the specified command should handle \"msnim\" URLs"
-msgstr "Ar chóir don ordú sonraithe URLanna \"msnim\" a láimhseáil"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"msnim\" "
@@ -2150,30 +2155,12 @@ msgstr ""
 "Fíor más mian leat URLanna \"msnim\" a láimhseáil leis an ordú sa réimse "
 "\"command\"."
 
-msgid "The handler for \"msnim\" URLs"
-msgstr "An láimhseálaí le haghaidh URLanna \"msnim\""
-
-msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr "An t-ordú chun URLanna \"msnim\" a láimhseáil."
-
-msgid "Whether the specified command should handle \"sip\" URLs"
-msgstr "Ar chóir don ordú sonraithe URLanna \"sip\" a láimhseáil"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"sip\" "
 "URLs."
 msgstr ""
 "Fíor más mian leat URLanna \"sip\" a láimhseáil leis an ordú sa réimse "
 "\"command\"."
-
-msgid "The handler for \"sip\" URLs"
-msgstr "An láimhseálaí le haghaidh URLanna \"sip\""
-
-msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr "An t-ordú chun URLanna \"sip\" a láimhseáil."
-
-msgid "Whether the specified command should handle \"xmpp\" URLs"
-msgstr "Ar chóir don ordú sonraithe URLanna \"xmpp\" a láimhseáil"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"xmpp\" "
@@ -2182,15 +2169,6 @@ msgstr ""
 "Fíor más mian leat URLanna \"xmpp\" a láimhseáil leis an ordú sa réimse "
 "\"command\"."
 
-msgid "The handler for \"xmpp\" URLs"
-msgstr "An láimhseálaí le haghaidh URLanna \"xmpp\""
-
-msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr "An t-ordú chun URLanna \"xmpp\" a láimhseáil."
-
-msgid "Whether the specified command should handle \"ymsgr\" URLs"
-msgstr "Ar chóir don ordú sonraithe URLanna \"ymsgr\" a láimhseáil"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ymsgr\" "
 "URLs."
@@ -2198,11 +2176,36 @@ msgstr ""
 "Fíor más mian leat URLanna \"ymsgr\" a láimhseáil leis an ordú sa réimse "
 "\"command\"."
 
-msgid "The handler for \"ymsgr\" URLs"
-msgstr "An láimhseálaí le haghaidh URLanna \"ymsgr\""
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
+msgstr ""
+"Fíor más mian leat URLanna den chineál seo a láimhseáil le hordú i "
+"dteirminéal."
 
-msgid "The command used to handle \"ymsgr\" URLs, if enabled."
-msgstr "An t-ordú chun URLanna \"ymsgr\" a láimhseáil."
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr "Ar chóir don ordú sonraithe URLanna \"aim\" a láimhseáil"
+
+msgid "Whether the specified command should handle \"gg\" URLs"
+msgstr "Ar chóir don ordú sonraithe URLanna \"gg\" a láimhseáil"
+
+msgid "Whether the specified command should handle \"icq\" URLs"
+msgstr "Ar chóir don ordú sonraithe URLanna \"icq\" a láimhseáil"
+
+msgid "Whether the specified command should handle \"irc\" URLs"
+msgstr "Ar chóir don ordú sonraithe URLanna \"irc\" a láimhseáil"
+
+msgid "Whether the specified command should handle \"msnim\" URLs"
+msgstr "Ar chóir don ordú sonraithe URLanna \"msnim\" a láimhseáil"
+
+msgid "Whether the specified command should handle \"sip\" URLs"
+msgstr "Ar chóir don ordú sonraithe URLanna \"sip\" a láimhseáil"
+
+msgid "Whether the specified command should handle \"xmpp\" URLs"
+msgstr "Ar chóir don ordú sonraithe URLanna \"xmpp\" a láimhseáil"
+
+msgid "Whether the specified command should handle \"ymsgr\" URLs"
+msgstr "Ar chóir don ordú sonraithe URLanna \"ymsgr\" a láimhseáil"
 
 msgid "<b><font color=\"red\">The logger has no read function</font></b>"
 msgstr "<b><font color=\"red\">Ní féidir leis an logálaí léamh</font></b>"
@@ -2240,12 +2243,13 @@ msgstr ""
 
 msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
 msgstr ""
-"<font color=\"red\"><b>Ní féidir comhadlann na logchomhad a aimsiú!</b></"
-"font>"
+"<font color=\"red\"><b>Ní féidir comhadlann na logchomhad a "
+"aimsiú!</b></font>"
 
 #, c-format
 msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-msgstr "<font color=\"red\"><b>Níorbh fhéidir an comhad a léamh: %s</b></font>"
+msgstr ""
+"<font color=\"red\"><b>Níorbh fhéidir an comhad a léamh: %s</b></font>"
 
 #, c-format
 msgid "(%s) %s <AUTO-REPLY>: %s\n"
@@ -2547,7 +2551,8 @@ msgid "Test plugin IPC support, as a server."
 msgstr "Tástáil tacaíocht IPC sa mbreiseán, mar fhreastalaí."
 
 #. *  description
-msgid "Test plugin IPC support, as a server. This registers the IPC commands."
+msgid ""
+"Test plugin IPC support, as a server. This registers the IPC commands."
 msgstr ""
 "Tástáil tacaíocht IPC sa mbreiseán, mar fhreastalaí. Cláraíonn sé seo na "
 "horduithe IPC."
@@ -3012,8 +3017,8 @@ msgstr ""
 "úsáid, suiteáil ActiveTCL ó http://www.activestate.com\n"
 
 msgid ""
-"Unable to find Apple's \"Bonjour for Windows\" toolkit, see http://d.pidgin."
-"im/BonjourWindows for more information."
+"Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
+"http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 "Ní féidir uirlisí \"Bonjour for Windows\" de chuid Apple a aimsiú.  "
 "Tuilleadh eolais ó http://d.pidgin.im/BonjourWindows."
@@ -3320,11 +3325,11 @@ msgstr "Níl aon TchtAnLae a bhaineann leis an gceangal seo."
 msgid "MOTD for %s"
 msgstr "TchtAnLae le haghaidh %s"
 
-#.
+#. 
 #. * TODO: Handle this better. Probably requires a PurpleBOSHConnection
 #. * buffer that stores what is "being sent" until the
 #. * PurpleHTTPConnection reports it is fully sent.
-#.
+#. 
 #. TODO: do we really want to disconnect on a failure to write?
 #, c-format
 msgid "Lost connection with server: %s"
@@ -3397,10 +3402,10 @@ msgstr ""
 msgid "Real name"
 msgstr "Fíorainm"
 
-#.
+#. 
 #. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
 #. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
+#. 
 msgid "Use SSL"
 msgstr "Úsáid SSL"
 
@@ -3445,13 +3450,11 @@ msgstr " <i>(aitheanta)</i>"
 msgid "Nick"
 msgstr "Leasainm"
 
-#, fuzzy
 msgid "Login name"
-msgstr "Gan ainm"
+msgstr ""
 
-#, fuzzy
 msgid "Host name"
-msgstr "Óstainm"
+msgstr ""
 
 msgid "Currently on"
 msgstr "Anseo faoi láthair"
@@ -3602,7 +3605,8 @@ msgstr "Paltóga ó %s"
 msgid "Failed to initialize SASL authentication: %s"
 msgstr "Níorbh fhéidir fíordheimhniú SASL a thúsú: %s"
 
-msgid "SASL authentication failed: No worthy authentication mechanisms found."
+msgid ""
+"SASL authentication failed: No worthy authentication mechanisms found."
 msgstr ""
 "Theip ar fhíordheimhniú SASL: Níor aimsíodh aon mheicníocht fhiúntach "
 "fhíordheimnithe."
@@ -3624,7 +3628,8 @@ msgid "Incorrect Password"
 msgstr "Focal faire mícheart"
 
 msgid "SASL authentication failed: No worthy mechanisms found"
-msgstr "Theip ar fhíordheimhniú SASL: Níor aimsíodh aon mheicníocht fhiúntach"
+msgstr ""
+"Theip ar fhíordheimhniú SASL: Níor aimsíodh aon mheicníocht fhiúntach"
 
 msgid "action &lt;action to perform&gt;:  Perform an action."
 msgstr "action &lt;gníomh&gt;:  Déan gníomh."
@@ -3768,7 +3773,8 @@ msgstr ""
 "query &lt;leasainm&gt; &lt;teachtaireacht&gt;:  Seol teachtaireacht "
 "phríobháideach chuig úsáideoir (seachas chuig cainéal)."
 
-msgid "quit [message]:  Disconnect from the server, with an optional message."
+msgid ""
+"quit [message]:  Disconnect from the server, with an optional message."
 msgstr ""
 "quit [teachtaireacht]:  Dícheangail ón bhfreastalaí, le teachtaireacht "
 "roghnach."
@@ -3848,12 +3854,13 @@ msgstr ""
 #. This happens when the server sends back jibberish
 #. * in the "additional data with success" case.
 #. * Seen with Wildfire 3.0.1.
-#.
+#. 
 msgid "Invalid response from server"
 msgstr "Freagra neamhbhailí ón fhreastalaí"
 
 msgid "Server does not use any supported authentication method"
-msgstr "Ní úsáideann an freastalaí aon mhodh fíordheimhnithe a dtacaítear leis"
+msgstr ""
+"Ní úsáideann an freastalaí aon mhodh fíordheimhnithe a dtacaítear leis"
 
 #, c-format
 msgid ""
@@ -3877,7 +3884,8 @@ msgstr ""
 "Síleann an freastalaí go bhfuil an fíordheimhniú críochnaithe, ach ní "
 "aontaíonn an cliant"
 
-msgid "Server may require plaintext authentication over an unencrypted stream"
+msgid ""
+"Server may require plaintext authentication over an unencrypted stream"
 msgstr ""
 "Seans go n-éilíonn an freastalaí fíordheimhniú gnáth-théacs thar shruth "
 "neamhchriptithe"
@@ -3911,8 +3919,8 @@ msgstr ""
 "shiúl?"
 
 msgid ""
-"The server does support channel binding, but did not appear to advertise "
-"it.  This indicates a likely MITM attack"
+"The server does support channel binding, but did not appear to advertise it. "
+" This indicates a likely MITM attack"
 msgstr ""
 "Tacaíonn an freastalaí seo le ceangal cainéil, ach ní fhógraíonn sé é. Is "
 "dócha gur ionsaí 'fear sa lár' é seo"
@@ -3978,11 +3986,11 @@ msgstr "URL"
 msgid "Street Address"
 msgstr "Seoladh Sráide"
 
-#.
+#. 
 #. * EXTADD is correct, EXTADR is generated by other
 #. * clients. The next time someone reads this, remove
 #. * EXTADR.
-#.
+#. 
 msgid "Extended Address"
 msgstr "Seoladh Fada"
 
@@ -4708,9 +4716,9 @@ msgid ""
 "affiliate &lt;owner|admin|member|outcast|none&gt; [nick1] [nick2] ...: Get "
 "the users with an affiliation or set users' affiliation with the room."
 msgstr ""
-"affiliate &lt;owner|admin|member|outcast|none&gt; [leasainm1] "
-"[leasainm2] ...: Taispeáin na húsáideoirí den stádas sonraithe, nó socraigh "
-"stádas na n-úsáideoirí sa seomra."
+"affiliate &lt;owner|admin|member|outcast|none&gt; [leasainm1] [leasainm2] "
+"...: Taispeáin na húsáideoirí den stádas sonraithe, nó socraigh stádas na n-"
+"úsáideoirí sa seomra."
 
 msgid ""
 "role &lt;moderator|participant|visitor|none&gt; [nick1] [nick2] ...: Get the "
@@ -4726,10 +4734,12 @@ msgstr ""
 "chuig an seomra."
 
 msgid "join: &lt;room[@server]&gt; [password]:  Join a chat."
-msgstr "join: &lt;seomra[@freastalaí]&gt; [focalfaire]:  Glac páirt i gcomhrá."
+msgstr ""
+"join: &lt;seomra[@freastalaí]&gt; [focalfaire]:  Glac páirt i gcomhrá."
 
 msgid "kick &lt;user&gt; [reason]:  Kick a user from the room."
-msgstr "kick &lt;úsáideoir&gt; [fáth]:  Ciceáil úsáideoir amach as an seomra."
+msgstr ""
+"kick &lt;úsáideoir&gt; [fáth]:  Ciceáil úsáideoir amach as an seomra."
 
 msgid ""
 "msg &lt;user&gt; &lt;message&gt;:  Send a private message to another user."
@@ -4898,7 +4908,8 @@ msgstr ""
 "Ní féidir an comhad a sheoladh chuig %s, níl tú liostáilte leis an úsáideoir"
 
 #, c-format
-msgid "Please select the resource of %s to which you would like to send a file"
+msgid ""
+"Please select the resource of %s to which you would like to send a file"
 msgstr "Roghnaigh acmhainn de %s ar mhaith leat comhad a sheoladh chuici"
 
 msgid "Afraid"
@@ -5409,7 +5420,8 @@ msgstr "Sheol %s gearrthóg ghutha, ach níorbh fhéidir í a shábháil"
 
 #, c-format
 msgid "%s sent you a voice chat invite, which is not yet supported."
-msgstr "Sheol %s cuireadh duit chun comhrá gutha, ach ní thacaítear leis fós."
+msgstr ""
+"Sheol %s cuireadh duit chun comhrá gutha, ach ní thacaítear leis fós."
 
 msgid "Nudge"
 msgstr "Tabhair Sonc"
@@ -5505,8 +5517,8 @@ msgstr "Níl aon téacs coiscthe don chuntas seo."
 msgid ""
 "MSN servers are currently blocking the following regular expressions:<br/>%s"
 msgstr ""
-"Cuireann freastalaithe MSN cosc ar na sloinn ionadaíochta seo a leanas:<br/>"
-"%s"
+"Cuireann freastalaithe MSN cosc ar na sloinn ionadaíochta seo a "
+"leanas:<br/>%s"
 
 msgid "This account does not have email enabled."
 msgstr "Níl ríomhphost cumasaithe ag an gcuntas seo."
@@ -5586,7 +5598,8 @@ msgstr "Oscail Bosca Isteach Hotmail"
 msgid "Send to Mobile"
 msgstr "Seol chuig Gléas Soghluaiste"
 
-msgid "SSL support is needed for MSN. Please install a supported SSL library."
+msgid ""
+"SSL support is needed for MSN. Please install a supported SSL library."
 msgstr ""
 "Teastaíonn ó MSN tacaíocht SSL. Caithfidh tú leabharlann oiriúnach SSL a "
 "shuiteáil."
@@ -5812,7 +5825,8 @@ msgid "Unable to remove user"
 msgstr "Ní féidir an t-úsáideoir a bhaint"
 
 msgid "Mobile message was not sent because it was too long."
-msgstr "Níor seoladh an teachtaireacht shoghluaiste toisc go raibh sí rófhada."
+msgstr ""
+"Níor seoladh an teachtaireacht shoghluaiste toisc go raibh sí rófhada."
 
 msgid "Mobile message was not sent because an unknown error occurred."
 msgstr ""
@@ -5848,20 +5862,6 @@ msgstr[1] ""
 "Nuair a bheidh an chothabháil críochnaithe, beidh tú in ann logáil isteach "
 "arís."
 msgstr[2] ""
-"Múchfar an freastalaí MSN chun críche cothabhála i gceann %d nóiméad. "
-"Logálfar amach thú ag an am sin. Ba chóir duit deireadh a chur le haon "
-"chomhráite atá ar siúl agat.\n"
-"\n"
-"Nuair a bheidh an chothabháil críochnaithe, beidh tú in ann logáil isteach "
-"arís."
-msgstr[3] ""
-"Múchfar an freastalaí MSN chun críche cothabhála i gceann %d nóiméad. "
-"Logálfar amach thú ag an am sin. Ba chóir duit deireadh a chur le haon "
-"chomhráite atá ar siúl agat.\n"
-"\n"
-"Nuair a bheidh an chothabháil críochnaithe, beidh tú in ann logáil isteach "
-"arís."
-msgstr[4] ""
 "Múchfar an freastalaí MSN chun críche cothabhála i gceann %d nóiméad. "
 "Logálfar amach thú ag an am sin. Ba chóir duit deireadh a chur le haon "
 "chomhráite atá ar siúl agat.\n"
@@ -5935,7 +5935,8 @@ msgstr "Earráid agus HTTP á pharsáil"
 msgid "You have signed on from another location"
 msgstr "Logáil tú isteach ó áit eile"
 
-msgid "The MSN servers are temporarily unavailable. Please wait and try again."
+msgid ""
+"The MSN servers are temporarily unavailable. Please wait and try again."
 msgstr ""
 "Níl aon fháil ar na freastalaithe MSN faoi láthair. Fan nóiméad agus bain "
 "triail eile as."
@@ -5972,7 +5973,8 @@ msgid "Retrieving buddy list"
 msgstr "Liosta cairde á fháil"
 
 #, c-format
-msgid "%s requests to view your webcam, but this request is not yet supported."
+msgid ""
+"%s requests to view your webcam, but this request is not yet supported."
 msgstr ""
 "Ba mhaith le %s do cheamara Gréasáin a fheiceáil, ach ní thacaítear leis seo "
 "fós."
@@ -6059,7 +6061,8 @@ msgstr "Earráid agus Próifíl á Nuashonrú"
 msgid "Profile"
 msgstr "Próifíl"
 
-msgid "Your profile information is not yet retrieved. Please try again later."
+msgid ""
+"Your profile information is not yet retrieved. Please try again later."
 msgstr "Níl d'fhaisnéis phróifíle faighte fós. Déan iarracht eile ar ball."
 
 #. display name
@@ -6379,8 +6382,6 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] "Tá %i chara molta agat."
 msgstr[1] "Tá %i chara molta agat."
 msgstr[2] "Tá %i chara molta agat."
-msgstr[3] "Tá %i gcara molta agat."
-msgstr[4] "Tá %i cara molta agat."
 
 #, c-format
 msgid "We found %i contact that matches your search."
@@ -6388,8 +6389,6 @@ msgid_plural "We found %i contacts that match your search."
 msgstr[0] "D'aimsíomar %i duine comhoiriúnach le do chuardach."
 msgstr[1] "D'aimsíomar %i dhuine comhoiriúnach le do chuardach."
 msgstr[2] "D'aimsíomar %i dhuine comhoiriúnach le do chuardach."
-msgstr[3] "D'aimsíomar %i nduine comhoiriúnach le do chuardach."
-msgstr[4] "D'aimsíomar %i duine comhoiriúnach le do chuardach."
 
 #. we must have lost the connection, so terminate it so that we can reconnect
 msgid "We have lost the connection to MXit. Please reconnect."
@@ -6420,7 +6419,8 @@ msgstr "Earráid Teachtaireachta"
 
 #. could not be decrypted
 msgid "An encrypted message was received which could not be decrypted."
-msgstr "Fuarthas teachtaireacht chriptithe ach níorbh fhéidir í a dhíchriptiú."
+msgstr ""
+"Fuarthas teachtaireacht chriptithe ach níorbh fhéidir í a dhíchriptiú."
 
 msgid "Cannot perform redirect using the specified protocol"
 msgstr "Ní féidir athdhíriú leis an bprótacal roghnaithe"
@@ -6588,12 +6588,6 @@ msgstr[1] ""
 msgstr[2] ""
 "Bhí %d chara faighte nó nuashonraithe ón bhfreastalaí (cairde ar liosta an "
 "fhreastalaí san áireamh)"
-msgstr[3] ""
-"Bhí %d gcara faighte nó nuashonraithe ón bhfreastalaí (cairde ar liosta an "
-"fhreastalaí san áireamh)"
-msgstr[4] ""
-"Bhí %d cara faighte nó nuashonraithe ón bhfreastalaí (cairde ar liosta an "
-"fhreastalaí san áireamh)"
 
 msgid "Add contacts from server"
 msgstr "Cuir teagmhálacha ón bhfreastalaí leis"
@@ -6605,13 +6599,14 @@ msgstr "Earráid phrótacail, cód %d: %s"
 #, c-format
 msgid ""
 "%s Your password is %zu characters, which is longer than the maximum length "
-"of %d.  Please shorten your password at http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword and try again."
+"of %d.  Please shorten your password at "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword and try again."
 msgstr ""
 "%s Tá %zu carachtar i d'fhocal faire, agus ní cheadaítear focal faire a "
-"bheith níos faide ná %d carachtar.  Giorraigh an focal faire anseo: http://"
-"profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePassword "
-"agus déan iarracht eile."
+"bheith níos faide ná %d carachtar.  Giorraigh an focal faire anseo: "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword agus déan iarracht eile."
 
 msgid "Incorrect username or password"
 msgstr "Ainm úsáideora nó focal faire mícheart"
@@ -6712,8 +6707,9 @@ msgid ""
 "to set your username."
 msgstr ""
 "Tharla earráid agus an t-ainm úsáideora á shocrú. Déan iarracht eile, nó  "
-"féach ar http://editprofile.myspace.com/index.cfm?fuseaction=profile."
-"username chun d'ainm úsáideora a roghnú."
+"féach ar "
+"http://editprofile.myspace.com/index.cfm?fuseaction=profile.username chun "
+"d'ainm úsáideora a roghnú."
 
 msgid "MySpaceIM - Username Available"
 msgstr "MySpaceIM - Tá an tAinm Úsáideora ar fáil"
@@ -7071,7 +7067,7 @@ msgstr "Aitheantas an Úsáideora"
 #. if (value) {
 #. purple_notify_user_info_add_pair(user_info, tag, value);
 #. }
-#.
+#. 
 msgid "Full name"
 msgstr "Ainm Iomlán"
 
@@ -7154,7 +7150,7 @@ msgstr "Údarú diúltaithe. Teachtaireacht:"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
-#.
+#. 
 msgid "_OK"
 msgstr "_OK"
 
@@ -7635,10 +7631,10 @@ msgstr "_Diúltaigh"
 msgid "You missed %hu message from %s because it was invalid."
 msgid_plural "You missed %hu messages from %s because they were invalid."
 msgstr[0] "Chaill tú %hu teachtaireacht ó %s toisc go raibh sí neamhbhailí."
-msgstr[1] "Chaill tú %hu theachtaireacht ó %s toisc go raibh siad neamhbhailí."
-msgstr[2] "Chaill tú %hu theachtaireacht ó %s toisc go raibh siad neamhbhailí."
-msgstr[3] "Chaill tú %hu dteachtaireacht ó %s toisc go raibh siad neamhbhailí."
-msgstr[4] "Chaill tú %hu teachtaireacht ó %s toisc go raibh siad neamhbhailí."
+msgstr[1] ""
+"Chaill tú %hu theachtaireacht ó %s toisc go raibh siad neamhbhailí."
+msgstr[2] ""
+"Chaill tú %hu theachtaireacht ó %s toisc go raibh siad neamhbhailí."
 
 #, c-format
 msgid "You missed %hu message from %s because it was too large."
@@ -7646,8 +7642,6 @@ msgid_plural "You missed %hu messages from %s because they were too large."
 msgstr[0] "Chaill tú %hu teachtaireacht ó %s toisc go raibh sí rómhór."
 msgstr[1] "Chaill tú %hu theachtaireacht ó %s toisc go raibh siad rómhór."
 msgstr[2] "Chaill tú %hu theachtaireacht ó %s toisc go raibh siad rómhór."
-msgstr[3] "Chaill tú %hu dteachtaireacht ó %s toisc go raibh siad rómhór."
-msgstr[4] "Chaill tú %hu teachtaireacht ó %s toisc go raibh siad rómhór."
 
 #, c-format
 msgid ""
@@ -7660,10 +7654,6 @@ msgstr[1] ""
 "Chaill tú %hu theachtaireacht ó %s toisc gur sáraíodh an rátatheorainn."
 msgstr[2] ""
 "Chaill tú %hu theachtaireacht ó %s toisc gur sáraíodh an rátatheorainn."
-msgstr[3] ""
-"Chaill tú %hu dteachtaireacht ó %s toisc gur sáraíodh an rátatheorainn."
-msgstr[4] ""
-"Chaill tú %hu teachtaireacht ó %s toisc gur sáraíodh an rátatheorainn."
 
 #, c-format
 msgid ""
@@ -7676,13 +7666,10 @@ msgstr[1] ""
 "Chaill tú %hu theachtaireacht ó %s mar go raibh a leibhéal rabhaidh ró-ard."
 msgstr[2] ""
 "Chaill tú %hu theachtaireacht ó %s mar go raibh a leibhéal rabhaidh ró-ard."
-msgstr[3] ""
-"Chaill tú %hu dteachtaireacht ó %s mar go raibh a leibhéal rabhaidh ró-ard."
-msgstr[4] ""
-"Chaill tú %hu teachtaireacht ó %s mar go raibh a leibhéal rabhaidh ró-ard."
 
 #, c-format
-msgid "You missed %hu message from %s because your warning level is too high."
+msgid ""
+"You missed %hu message from %s because your warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because your warning level is too high."
 msgstr[0] ""
@@ -7691,10 +7678,6 @@ msgstr[1] ""
 "Chaill tú %hu theachtaireacht ó %s mar go raibh do leibhéal rabhaidh ró-ard."
 msgstr[2] ""
 "Chaill tú %hu theachtaireacht ó %s mar go raibh do leibhéal rabhaidh ró-ard."
-msgstr[3] ""
-"Chaill tú %hu dteachtaireacht ó %s mar go raibh do leibhéal rabhaidh ró-ard."
-msgstr[4] ""
-"Chaill tú %hu teachtaireacht ó %s mar go raibh do leibhéal rabhaidh ró-ard."
 
 #, c-format
 msgid "You missed %hu message from %s for an unknown reason."
@@ -7702,8 +7685,6 @@ msgid_plural "You missed %hu messages from %s for an unknown reason."
 msgstr[0] "Chaill tú %hu teachtaireacht ó %s ach ní fios cén fáth."
 msgstr[1] "Chaill tú %hu theachtaireacht ó %s ach ní fios cén fáth."
 msgstr[2] "Chaill tú %hu theachtaireacht ó %s ach ní fios cén fáth."
-msgstr[3] "Chaill tú %hu dteachtaireacht ó %s ach ní fios cén fáth."
-msgstr[4] "Chaill tú %hu teachtaireacht ó %s ach ní fios cén fáth."
 
 msgid "Your AIM connection may be lost."
 msgstr "Seans go gcaillfidh tú do cheangal AIM."
@@ -7727,8 +7708,6 @@ msgid_plural "The following usernames are associated with %s"
 msgstr[0] "Tá an t-ainm úsáideora seo a leanas ceangailte le %s"
 msgstr[1] "Tá na hainmneacha úsáideora seo a leanas ceangailte le %s"
 msgstr[2] "Tá na hainmneacha úsáideora seo a leanas ceangailte le %s"
-msgstr[3] "Tá na hainmneacha úsáideora seo a leanas ceangailte le %s"
-msgstr[4] "Tá na hainmneacha úsáideora seo a leanas ceangailte le %s"
 
 #, c-format
 msgid "No results found for email address %s"
@@ -7835,12 +7814,6 @@ msgstr[1] ""
 msgstr[2] ""
 "Sáraíodh an fad uasta atá ceadaithe do phróifíl (%d bheart). Theascamar an "
 "phróifíl mar sin."
-msgstr[3] ""
-"Sáraíodh an fad uasta atá ceadaithe do phróifíl (%d mbeart). Theascamar an "
-"phróifíl mar sin."
-msgstr[4] ""
-"Sáraíodh an fad uasta atá ceadaithe do phróifíl (%d beart). Theascamar an "
-"phróifíl mar sin."
 
 msgid "Profile too long."
 msgstr "Próifíl rófhada."
@@ -7859,12 +7832,6 @@ msgstr[1] ""
 "Sáraíodh an fad uasta atá ceadaithe do theachtaireacht amuigh (%d bheart). "
 "Theascamar é mar sin."
 msgstr[2] ""
-"Sáraíodh an fad uasta atá ceadaithe do theachtaireacht amuigh (%d bheart). "
-"Theascamar é mar sin."
-msgstr[3] ""
-"Sáraíodh an fad uasta atá ceadaithe do theachtaireacht amuigh (%d bheart). "
-"Theascamar é mar sin."
-msgstr[4] ""
 "Sáraíodh an fad uasta atá ceadaithe do theachtaireacht amuigh (%d bheart). "
 "Theascamar é mar sin."
 
@@ -8327,8 +8294,8 @@ msgstr "níl aon chairde agat ar an liosta seo"
 
 #, c-format
 msgid ""
-"You can add a buddy to this list by right-clicking on them and selecting \"%s"
-"\""
+"You can add a buddy to this list by right-clicking on them and selecting "
+"\"%s\""
 msgstr ""
 "Is féidir leat cara a chur leis an liosta seo trí dheaschliceáil air/uirthi, "
 "ansin \"%s\" a roghnú"
@@ -8628,7 +8595,8 @@ msgid "No matches"
 msgstr "Gan torthaí"
 
 #, c-format
-msgid "The identifier '%s' did not match any users in your Sametime community."
+msgid ""
+"The identifier '%s' did not match any users in your Sametime community."
 msgstr "Níor mheaitseáil '%s' aon úsáideoirí i do chomhphobal Sametime."
 
 msgid "No Matches"
@@ -8753,9 +8721,9 @@ msgid ""
 "You cannot receive buddy notifications until you import his/her public key.  "
 "You can use the Get Public Key command to get the public key."
 msgstr ""
-"Ní féidir leat fógraí carad a fháil go dtí go n-iompórtálfaidh tú a (h)"
-"eochair phoiblí. Is féidir an t-ordú 'Faigh Eochair Phoiblí' a úsáid chun an "
-"eochair a fháil."
+"Ní féidir leat fógraí carad a fháil go dtí go n-iompórtálfaidh tú a "
+"(h)eochair phoiblí. Is féidir an t-ordú 'Faigh Eochair Phoiblí' a úsáid chun "
+"an eochair a fháil."
 
 #. Open file selector to select the public key.
 msgid "Open..."
@@ -9454,7 +9422,8 @@ msgstr ""
 "msg &lt;leasainm&gt; &lt;teachtaireacht&gt;:  Seol teachtaireacht "
 "phríobháideach chuig úsáideoir"
 
-msgid "query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
+msgid ""
+"query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
 msgstr ""
 "query &lt;leasainm&gt; [&lt;teachtaireacht&gt;]:  Seol teachtaireacht "
 "phríobháideach chuig úsáideoir"
@@ -9510,7 +9479,8 @@ msgstr ""
 "invite &lt;cainéal&gt; [-|+]&lt;leasainm&gt;:  tabhair cuireadh do leasainm, "
 "cuir leis an liosta cuirí é, nó bain de"
 
-msgid "kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
+msgid ""
+"kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
 msgstr ""
 "kick &lt;cainéal&gt; &lt;leasainm&gt; [nóta]:  Ciceáil úsáideoir amach as an "
 "gcainéal"
@@ -9718,7 +9688,8 @@ msgstr "Teipthe: Ní thacaíonn an cianfhreastalaí leis an PKCS ceaptha"
 
 #, c-format
 msgid "Failure: Remote does not support proposed hash function"
-msgstr "Teipthe: Ní thacaíonn an cianfhreastalaí leis an haisfheidhm cheaptha"
+msgstr ""
+"Teipthe: Ní thacaíonn an cianfhreastalaí leis an haisfheidhm cheaptha"
 
 #, c-format
 msgid "Failure: Remote does not support proposed HMAC"
@@ -9974,7 +9945,8 @@ msgstr ""
 "d'aitheantais Yahoo."
 
 #, c-format
-msgid "Unknown error number %d. Logging into the Yahoo! website may fix this."
+msgid ""
+"Unknown error number %d. Logging into the Yahoo! website may fix this."
 msgstr ""
 "Earráid anaithnid %d. Réitigh an fhadhb seo trí logáil isteach sa suíomh "
 "Gréasáin Yahoo!"
@@ -10077,7 +10049,7 @@ msgstr "Ag iarraidh ar iompróir soghluaiste an SMS a sheoladh."
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
-#.
+#. 
 msgid "Sent Doodle request."
 msgstr "Iarratas scrioblála seolta."
 
@@ -10278,25 +10250,25 @@ msgstr ""
 "zi &lt;ásc&gt;: Seol teachtaireacht chuig &lt;teachtaireacht,<i>ásc</i>,*&gt;"
 
 msgid ""
-"zci &lt;class&gt; &lt;instance&gt;: Send a message to &lt;<i>class</i>,"
-"<i>instance</i>,*&gt;"
+"zci &lt;class&gt; &lt;instance&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,*&gt;"
 msgstr ""
-"zci &lt;aicme&gt; &lt;ásc&gt;: Seol teachtaireacht chuig &lt;<i>aicme</i>,"
-"<i>ásc</i>,*&gt;"
+"zci &lt;aicme&gt; &lt;ásc&gt;: Seol teachtaireacht chuig "
+"&lt;<i>aicme</i>,<i>ásc</i>,*&gt;"
 
 msgid ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;"
-"<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 "zcir &lt;aicme&gt; &lt;ásc&gt; &lt;faighteoir&gt;: Seol teachtaireacht chuig "
 "&lt;<i>aicme</i>,<i>ásc</i>,<i>faighteoir</i>&gt;"
 
 msgid ""
-"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;MESSAGE,"
-"<i>instance</i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
-"zir &lt;ásc&gt; &lt;faighteoir&gt;: Seol teachtaireacht chuig &lt;"
-"TEACHTAIREACHT,<i>ásc</i>,<i>faighteoir</i>&gt;"
+"zir &lt;ásc&gt; &lt;faighteoir&gt;: Seol teachtaireacht chuig "
+"&lt;TEACHTAIREACHT,<i>ásc</i>,<i>faighteoir</i>&gt;"
 
 msgid "zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;"
 msgstr ""
@@ -10359,7 +10331,8 @@ msgstr "Earráid %d ag ceangal le seachfhreastalaí HTTP"
 
 #, c-format
 msgid "Access denied: HTTP proxy server forbids port %d tunneling"
-msgstr "Cead diúltaithe: Cuireann an seachfhreastalaí HTTP tollánú ar phort %d"
+msgstr ""
+"Cead diúltaithe: Cuireann an seachfhreastalaí HTTP tollánú ar phort %d"
 
 #, c-format
 msgid "Error resolving %s"
@@ -10375,7 +10348,7 @@ msgstr "Ba mhaith le %s d'aird a tharraingt!"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c Yes and @c No buttons.
-#.
+#. 
 msgid "_Yes"
 msgstr "_Tá"
 
@@ -10384,17 +10357,17 @@ msgstr "_Níl"
 
 #. *
 #. * A wrapper for purple_request_action() that uses Accept and Cancel buttons.
-#.
+#. 
 #. *
 #. * A wrapper for purple_request_action_with_icon() that uses Accept and Cancel
 #. * buttons.
-#.
+#. 
 msgid "_Accept"
 msgstr "_Glac leis"
 
 #. *
 #. * The default message to use when the user becomes auto-away.
-#.
+#. 
 msgid "I'm not here right now"
 msgstr "Nílim anseo faoi láthair"
 
@@ -10486,12 +10459,12 @@ msgstr "+++ Tá %s díomhaoin anois"
 msgid "+++ %s became unidle"
 msgstr "+++ Níl %s díomhaoin a thuilleadh"
 
-#.
+#. 
 #. * This string determines how some dates are displayed.  The default
 #. * string "%x %X" shows the date then the time.  Translators can
 #. * change this to "%X %x" if they want the time to be shown first,
 #. * followed by the date.
-#.
+#. 
 #, c-format
 msgid "%x %X"
 msgstr "%x %X"
@@ -10508,8 +10481,6 @@ msgid_plural "%d seconds"
 msgstr[0] "%d soicind"
 msgstr[1] "%d shoicind"
 msgstr[2] "%d shoicind"
-msgstr[3] "%d soicind"
-msgstr[4] "%d soicind"
 
 #, c-format
 msgid "%d day"
@@ -10517,8 +10488,6 @@ msgid_plural "%d days"
 msgstr[0] "%d lá"
 msgstr[1] "%d lá"
 msgstr[2] "%d lá"
-msgstr[3] "%d lá"
-msgstr[4] "%d lá"
 
 #, c-format
 msgid "%s, %d hour"
@@ -10526,8 +10495,6 @@ msgid_plural "%s, %d hours"
 msgstr[0] "%s, %d uair"
 msgstr[1] "%s, %d uair"
 msgstr[2] "%s, %d huaire"
-msgstr[3] "%s, %d n-uaire"
-msgstr[4] "%s, %d uair"
 
 #, c-format
 msgid "%d hour"
@@ -10535,8 +10502,6 @@ msgid_plural "%d hours"
 msgstr[0] "%d uair"
 msgstr[1] "%d uair"
 msgstr[2] "%d huaire"
-msgstr[3] "%d n-uaire"
-msgstr[4] "%d uair"
 
 #, c-format
 msgid "%s, %d minute"
@@ -10544,8 +10509,6 @@ msgid_plural "%s, %d minutes"
 msgstr[0] "%s, %d nóiméad"
 msgstr[1] "%s, %d nóiméad"
 msgstr[2] "%s, %d nóiméad"
-msgstr[3] "%s, %d nóiméad"
-msgstr[4] "%s, %d nóiméad"
 
 #, c-format
 msgid "%d minute"
@@ -10553,8 +10516,6 @@ msgid_plural "%d minutes"
 msgstr[0] "%d nóiméad"
 msgstr[1] "%d nóiméad"
 msgstr[2] "%d nóiméad"
-msgstr[3] "%d nóiméad"
-msgstr[4] "%d nóiméad"
 
 #, c-format
 msgid "Could not open %s: Redirected too many times"
@@ -10629,17 +10590,17 @@ msgstr ""
 "Tharla earráid agus do %s á léamh. Níor luchtaíodh an comhad, agus tugadh "
 "ainm nua ar an seanchomhad: %s~."
 
-msgid "Pidgin Internet Messenger"
-msgstr "Teachtaire Idirlín Pidgin"
-
-msgid "Internet Messenger"
-msgstr "Teachtaire Idirlín"
-
 msgid ""
 "Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
 msgstr ""
 "Comhrá trí TM.  Tacaíonn sé le AIM, Google Talk, Jabber/XMPP, MSN, Yahoo "
 "agus seirbhísí eile"
+
+msgid "Internet Messenger"
+msgstr "Teachtaire Idirlín"
+
+msgid "Pidgin Internet Messenger"
+msgstr "Teachtaire Idirlín Pidgin"
 
 #. Build the login options frame.
 msgid "Login Options"
@@ -10915,10 +10876,6 @@ msgstr[1] ""
 "Tá %d theagmháil darb ainm %s agat. An bhfuil fonn ort iad a chumasc?"
 msgstr[2] ""
 "Tá %d theagmháil darb ainm %s agat. An bhfuil fonn ort iad a chumasc?"
-msgstr[3] ""
-"Tá %d dteagmháil darb ainm %s agat. An bhfuil fonn ort iad a chumasc?"
-msgstr[4] ""
-"Tá %d teagmháil darb ainm %s agat. An bhfuil fonn ort iad a chumasc?"
 
 msgid ""
 "Merging these contacts will cause them to share a single entry on the buddy "
@@ -11254,8 +11211,6 @@ msgid_plural "%d unread messages from %s\n"
 msgstr[0] "%d teachtaireacht ó %s gan léamh\n"
 msgstr[1] "%d theachtaireacht ó %s gan léamh\n"
 msgstr[2] "%d theachtaireacht ó %s gan léamh\n"
-msgstr[3] "%d dteachtaireacht ó %s gan léamh\n"
-msgstr[4] "%d teachtaireacht ó %s gan léamh\n"
 
 msgid "Manually"
 msgstr "De Láimh"
@@ -11290,11 +11245,12 @@ msgstr "Fáilte ar ais!"
 msgid "%d account was disabled because you signed on from another location:"
 msgid_plural ""
 "%d accounts were disabled because you signed on from another location:"
-msgstr[0] "Díchumasaíodh %d chuntas mar gur logáil tú isteach ó shuíomh eile:"
-msgstr[1] "Díchumasaíodh %d chuntas mar gur logáil tú isteach ó shuíomh eile:"
-msgstr[2] "Díchumasaíodh %d chuntas mar gur logáil tú isteach ó shuíomh eile:"
-msgstr[3] "Díchumasaíodh %d gcuntas mar gur logáil tú isteach ó shuíomh eile:"
-msgstr[4] "Díchumasaíodh %d cuntas mar gur logáil tú isteach ó shuíomh eile:"
+msgstr[0] ""
+"Díchumasaíodh %d chuntas mar gur logáil tú isteach ó shuíomh eile:"
+msgstr[1] ""
+"Díchumasaíodh %d chuntas mar gur logáil tú isteach ó shuíomh eile:"
+msgstr[2] ""
+"Díchumasaíodh %d chuntas mar gur logáil tú isteach ó shuíomh eile:"
 
 msgid "<b>Username:</b>"
 msgstr "<b>Ainm úsáideora:</b>"
@@ -11313,9 +11269,10 @@ msgstr "/Cuntais"
 msgid ""
 "<span weight='bold' size='larger'>Welcome to %s!</span>\n"
 "\n"
-"You have no accounts enabled. Enable your IM accounts from the <b>Accounts</"
-"b> window at <b>Accounts->Manage Accounts</b>. Once you enable accounts, "
-"you'll be able to sign on, set your status, and talk to your friends."
+"You have no accounts enabled. Enable your IM accounts from the "
+"<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you enable "
+"accounts, you'll be able to sign on, set your status, and talk to your "
+"friends."
 msgstr ""
 "<span weight='bold' size='larger'>Fáilte go %s!</span>\n"
 "\n"
@@ -11326,7 +11283,7 @@ msgstr ""
 
 #. set the Show Offline Buddies option. must be done
 #. * after the treeview or faceprint gets mad. -Robot101
-#.
+#. 
 msgid "/Buddies/Show/Offline Buddies"
 msgstr "/Cairde/Taispeáin/Cairde atá As Líne"
 
@@ -11685,8 +11642,6 @@ msgid_plural "%d people in room"
 msgstr[0] "%d duine sa seomra"
 msgstr[1] "%d dhuine sa seomra"
 msgstr[2] "%d dhuine sa seomra"
-msgstr[3] "%d nduine sa seomra"
-msgstr[4] "%d duine sa seomra"
 
 msgid "Stopped Typing"
 msgstr "Stopadh Clóscríobh"
@@ -11780,7 +11735,7 @@ msgid "Right click for more options."
 msgstr "Deaschliceáil chun tuilleadh roghanna a fheiceáil."
 
 msgid "Level "
-msgstr "Leibhéal"
+msgstr "Leibhéal "
 
 msgid "Select the debug filter level."
 msgstr "Roghnaigh an leibhéal scagtha dífhabhtaithe."
@@ -12111,12 +12066,19 @@ msgstr "T.M.Thanh agus Foireann Gnome-Vi"
 
 #, c-format
 msgid ""
+"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+"%s</i><br><br><font color='red'>Modified version with no support from the "
+"official team.</font><br><br>"
+msgstr ""
+
+#, c-format
+msgid ""
 "%s is a messaging client based on libpurple which is capable of connecting "
 "to multiple messaging services at once.  %s is written in C using GTK+.  %s "
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
-"copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"copyrighted by its contributors, a list of whom is also distributed with %s. "
+" There is no warranty for %s.<BR><BR>"
 msgstr ""
 "Is cliant curtha teachtaireachtaí é %s atá bunaithe ar libpurple agus in ann "
 "ceangal le hiliomad seirbhísí teachtaireachtaí ag an am céanna. Tá %s "
@@ -12125,36 +12087,6 @@ msgstr ""
 "an cheadúnais sin. Tháinig cóip den GPL in éineacht le %s. Is le "
 "rannpháirtithe an tionscadail cóipcheart %s, agus tháinig liosta de na "
 "daoine sin le %s freisin. Níl aon bharánta ag %s.<BR><BR>"
-
-#, c-format
-msgid ""
-"<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked Questions</A><BR>\tIRC "
-"Channel: #pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin."
-"im<BR><BR>"
-msgstr ""
-"<FONT SIZE=\"4\"><B>Acmhainní Úsáideacha</B></FONT><BR>\t<A HREF=\"%s"
-"\">Suíomh Gréasáin</A><BR>\t<A HREF=\"%s\">Ceisteanna Coitianta</A><BR>"
-"\tCainéal IRC: #pidgin ar irc.freenode.net<BR>\tXMPP MUC: devel@conference."
-"pidgin.im<BR><BR>"
-
-msgid ""
-"<font size=\"4\"><b>Help from other Pidgin users</b></font> is available by "
-"e-mailing <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">This is a <b>public</b> mailing list! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">archive</a>)<br/>We can't help with third-party protocols or "
-"plugins!<br/>This list's primary language is <b>English</b>.  You are "
-"welcome to post in another language, but the responses may be less helpful."
-"<br/>"
-msgstr ""
-"Is féidir <font size=\"4\"><b>cuidiú ó úsáideoirí Pidgin eile</b></font> a "
-"fháil tríríomhphoist a sheoladh chuig <a href=\"mailto:support@pidgin.im"
-"\">support@pidgin.im</a><br/>Is liosta <b>poiblí</b> é seo! (<a href="
-"\"http://pidgin.im/pipermail/support/\">cartlann</a>)<br/>Ní féidir linn "
-"cabhrú le breiseáin nó le prótacail tríú páirtí!<br/>Is é <b>Béarla</b> "
-"príomhtheanga oifigiúil an liosta seo. Fáilte romhat rud éigin a scríobh i "
-"dteanga eile, ach ní dócha go bhfaighidh tú freagra úsáideach sa chás sin."
-"<br/>"
 
 #, c-format
 msgid "About %s"
@@ -12254,12 +12186,6 @@ msgstr[1] ""
 "cairde. An bhfuil tú cinnte?"
 msgstr[2] ""
 "Tá tú ar tí teagmháil ina bhfuil %s agus %d chara eile a bhaint ó do liosta "
-"cairde. An bhfuil tú cinnte?"
-msgstr[3] ""
-"Tá tú ar tí teagmháil ina bhfuil %s agus %d gcara eile a bhaint ó do liosta "
-"cairde. An bhfuil tú cinnte?"
-msgstr[4] ""
-"Tá tú ar tí teagmháil ina bhfuil %s agus %d cara eile a bhaint ó do liosta "
 "cairde. An bhfuil tú cinnte?"
 
 msgid "Remove Contact"
@@ -12455,7 +12381,8 @@ msgstr "Dath ainm teachtaireachta a fuair tú."
 msgid "\"Attention\" Name Color"
 msgstr "Dath Teachtaireachta \"Aire\""
 
-msgid "Color to draw the name of a message you received containing your name."
+msgid ""
+"Color to draw the name of a message you received containing your name."
 msgstr "Dath ainm teachtaireachta a fuair tú a bhfuil do leasainm inti."
 
 msgid "Action Message Name Color"
@@ -12831,8 +12758,6 @@ msgid_plural "%s has %d new messages."
 msgstr[0] "Tá %2$d teachtaireacht nua ag %1$s."
 msgstr[1] "Tá %2$d theachtaireacht nua ag %1$s."
 msgstr[2] "Tá %2$d theachtaireacht nua ag %1$s."
-msgstr[3] "Tá %2$d dteachtaireacht nua ag %1$s."
-msgstr[4] "Tá %2$d teachtaireacht nua ag %1$s."
 
 #, c-format
 msgid "<b>%d new email.</b>"
@@ -12840,8 +12765,6 @@ msgid_plural "<b>%d new emails.</b>"
 msgstr[0] "<b>%d teachtaireacht nua ríomhphoist.</b>"
 msgstr[1] "<b>%d theachtaireacht nua ríomhphoist.</b>"
 msgstr[2] "<b>%d theachtaireacht nua ríomhphoist.</b>"
-msgstr[3] "<b>%d dteachtaireacht nua ríomhphoist.</b>"
-msgstr[4] "<b>%d teachtaireacht nua ríomhphoist.</b>"
 
 #, c-format
 msgid "The browser command \"%s\" is invalid."
@@ -12856,7 +12779,8 @@ msgstr "Earráid agus \"%s\" á thosú: %s"
 
 msgid ""
 "The 'Manual' browser command has been chosen, but no command has been set."
-msgstr "Roghnaíodh an t-ordú brabhsála 'De Láimh', ach níl aon ordú socraithe."
+msgstr ""
+"Roghnaíodh an t-ordú brabhsála 'De Láimh', ach níl aon ordú socraithe."
 
 msgid "Unable to open URL: the 'Manual' browser command seems invalid."
 msgstr ""
@@ -13599,7 +13523,8 @@ msgid "_Use"
 msgstr "Ú_sáid"
 
 msgid "Title already in use.  You must choose a unique title."
-msgstr "Tá an teideal seo in úsáid cheana. Caithfidh tú teideal nua a roghnú."
+msgstr ""
+"Tá an teideal seo in úsáid cheana. Caithfidh tú teideal nua a roghnú."
 
 msgid "Different"
 msgstr "Difriúil"
@@ -13664,7 +13589,8 @@ msgid "Click to change your buddyicon for this account."
 msgstr "Cliceáil chun an deilbhín don chuntas seo a athrú."
 
 msgid "Click to change your buddyicon for all accounts."
-msgstr "Cliceáil chun do dheilbhín a athrú le haghaidh gach cuntais atá agat."
+msgstr ""
+"Cliceáil chun do dheilbhín a athrú le haghaidh gach cuntais atá agat."
 
 msgid "Waiting for network connection"
 msgstr "Ag fanacht le ceangal líonra"
@@ -13843,11 +13769,11 @@ msgstr "Leid Pidgin"
 msgid "Pidgin smileys"
 msgstr "Straoiseoga Pidgin"
 
-msgid "none"
-msgstr "faic"
-
 msgid "Selecting this disables graphical emoticons."
 msgstr "Díchumasaíonn sé seo straoiseoga grafacha."
+
+msgid "none"
+msgstr "faic"
 
 msgid "Small"
 msgstr "Beag"
@@ -13949,8 +13875,8 @@ msgid ""
 "Allows for changing the point values of idle/away/offline states for buddies "
 "in contact priority computations."
 msgstr ""
-"Leis seo is féidir leat na luachanna a bhaineann le staid díomhaoin/amuigh/"
-"as líne a athrú in áireamh thosaíocht teagmhálacha."
+"Leis seo is féidir leat na luachanna a bhaineann le staid "
+"díomhaoin/amuigh/as líne a athrú in áireamh thosaíocht teagmhálacha."
 
 msgid "Conversation Colors"
 msgstr "Dathanna Comhrá"
@@ -14873,9 +14799,8 @@ msgstr ""
 msgid "Show number of unread _messages on launcher icon"
 msgstr ""
 
-#, fuzzy
 msgid "Show number of unread co_nversations on launcher icon"
-msgstr "Líon na gcomhráite san fhuinneog"
+msgstr ""
 
 #. Messaging menu integration
 msgid "Messaging Menu"
@@ -15087,19 +15012,6 @@ msgid "This plugin is useful for debugging XMPP servers or clients."
 msgstr ""
 "Tá an breiseán seo úsáideach agus freastalaithe nó cliaint XMPP á ndífhabhtú."
 
-msgid "The installer is already running."
-msgstr "Tá an suiteálaí ar siúl cheana."
-
-msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
-"again."
-msgstr ""
-"Tá Pidgin ar siúl faoi láthair. Scoir de Pidgin agus déan iarracht eile."
-
-#. "Next >" appears on a button on the License Page of the Installer
-msgid "Next >"
-msgstr "Ar Aghaidh >"
-
 #. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
 msgid ""
 "$(^Name) is released under the GNU General Public License (GPL). The license "
@@ -15109,106 +15021,35 @@ msgstr ""
 "License). Soláthraíonn cóip den cheadúnas anseo mar eolas duit amháin. "
 "$_CLICK"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Cliant Teachtaireachtaí Meandaracha Pidgin (riachtanach)"
+#. Installer Subsection Detailed Description
+msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgstr "Bosca uirlisí ilardáin GUI, úsáidte ag Pidgin"
 
-#. Installer Subsection Text
-msgid "GTK+ Runtime (required if not present)"
-msgstr "Leabharlann ama rite GTK+ (riachtanach)"
-
-#. Installer Subsection Text
-msgid "Shortcuts"
-msgstr "Aicearraí"
-
-#. Installer Subsection Text
-msgid "Desktop"
-msgstr "Deasc"
-
-#. Installer Subsection Text
-msgid "Start Menu"
-msgstr "Roghchlár Tosaithe"
-
-#. Installer Subsection Text
-msgid "Localizations"
-msgstr "Aistriúcháin"
+msgid ""
+"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"again."
+msgstr ""
+"Tá Pidgin ar siúl faoi láthair. Scoir de Pidgin agus déan iarracht eile."
 
 #. Installer Subsection Detailed Description
 msgid "Core Pidgin files and dlls"
 msgstr "Bunchomhaid agus dll-anna Pidgin"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Aicearraí chun Pidgin a thosú"
+msgid "Create a Start Menu entry for Pidgin"
+msgstr "Cuir Pidgin sa Roghchlár Tosaithe"
 
 #. Installer Subsection Detailed Description
 msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr "Cruthaigh nasc le Pidgin ar an Deasc"
 
-#. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Cuir Pidgin sa Roghchlár Tosaithe"
-
-#. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Bosca uirlisí ilardáin GUI, úsáidte ag Pidgin"
-
 #. Installer Subsection Text
 msgid "Debug Symbols (for reporting crashes)"
 msgstr "Siombailí Dífhabhtaithe (chun tuairisc a dhéanamh ar thuairteáil)"
 
-#. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Déan cuairt ar Leathanach Gréasáin Pidgin"
-
-msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
-"version will be installed without removing the currently installed version."
-msgstr ""
-"Ní féidir an leagan de Pidgin atá ann faoi láthair a dhíshuiteáil. "
-"Suiteálfar an leagan nua gan an seanleagan a dhíshuiteáil."
-
-msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
-msgstr ""
-"Teastaíonn leabharlann ama rite GTK+ ó Phidgin (agus níl a leithéid ann de "
-"réir cosúlachta).$\\rAn bhfuil tú cinnte nár mhaith leat an leabharlann ama "
-"rite GTK+ a shuiteáil?"
-
 #. Installer Subsection Text
-msgid "URI Handlers"
-msgstr "Láimhseálaithe URI"
-
-#. Installer Subsection Text
-msgid "Spellchecking Support"
-msgstr "Seiceáil Litrithe"
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-msgstr ""
-"Earráid agus Seiceáil Litrithe ($R3) á suiteáil.$\\rDéan iarracht eile, agus "
-"má theip ort, bain triail as na treoracha anseo: http://developer.pidgin.im/"
-"wiki/Installing%20Pidgin#manual_win32_spellcheck_installation"
-
-#. Installer Subsection Detailed Description
-msgid ""
-"Support for Spellchecking.  (Internet connection required for installation)"
-msgstr "Seiceáil Litrithe.  (Tá gá le ceangal Idirlín chun é a shuiteáil)"
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
-msgstr ""
-"Tharla earráid agus na Siombailí Dífhabhtaithe ($R2) á suiteáil.$\\rSeans "
-"gur gá duit an 'Suiteálaí As Líne' a úsáid, ar fáil ó http://pidgin.im/"
-"download/windows/ ."
+msgid "Desktop"
+msgstr "Deasc"
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
@@ -15220,12 +15061,101 @@ msgstr ""
 "leis chun Pidgin a chur ar siúl; seans gur gá duit an 'Suiteálaí As Líne' a "
 "úsáid, ar fáil ó http://pidgin.im/download/windows/ ."
 
+#. $R2 will display the URL that the Debug Symbols failed to download from
+msgid ""
+"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
+"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgstr ""
+"Tharla earráid agus na Siombailí Dífhabhtaithe ($R2) á suiteáil.$\\rSeans "
+"gur gá duit an 'Suiteálaí As Líne' a úsáid, ar fáil ó "
+"http://pidgin.im/download/windows/ ."
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
+"installation instructions are at: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
+"Earráid agus Seiceáil Litrithe ($R3) á suiteáil.$\\rDéan iarracht eile, agus "
+"má theip ort, bain triail as na treoracha anseo: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+
+#. Installer Subsection Text
+msgid "GTK+ Runtime (required if not present)"
+msgstr "Leabharlann ama rite GTK+ (riachtanach)"
+
+#. Installer Subsection Text
+msgid "Localizations"
+msgstr "Aistriúcháin"
+
+#. "Next >" appears on a button on the License Page of the Installer
+msgid "Next >"
+msgstr "Ar Aghaidh >"
+
+#. Installer Subsection Text
+msgid "Pidgin Instant Messaging Client (required)"
+msgstr "Cliant Teachtaireachtaí Meandaracha Pidgin (riachtanach)"
+
+msgid ""
+"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"already present).$\\rAre you sure you want to skip installing the GTK+ "
+"Runtime?"
+msgstr ""
+"Teastaíonn leabharlann ama rite GTK+ ó Phidgin (agus níl a leithéid ann de "
+"réir cosúlachta).$\\rAn bhfuil tú cinnte nár mhaith leat an leabharlann ama "
+"rite GTK+ a shuiteáil?"
+
+msgid "See applied changes"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Shortcuts"
+msgstr "Aicearraí"
+
+#. Installer Subsection Detailed Description
+msgid "Shortcuts for starting Pidgin"
+msgstr "Aicearraí chun Pidgin a thosú"
+
+#. Installer Subsection Text
+msgid "Spellchecking Support"
+msgstr "Seiceáil Litrithe"
+
+#. Installer Subsection Text
+msgid "Start Menu"
+msgstr "Roghchlár Tosaithe"
+
+#. Installer Subsection Detailed Description
+msgid ""
+"Support for Spellchecking.  (Internet connection required for installation)"
+msgstr "Seiceáil Litrithe.  (Tá gá le ceangal Idirlín chun é a shuiteáil)"
+
+msgid "The installer is already running."
+msgstr "Tá an suiteálaí ar siúl cheana."
+
 msgid ""
 "The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
 "that another user installed this application."
 msgstr ""
-"Níorbh fhéidir leis an díshuiteálaí iontrálacha Pidgin a aimsiú sa chlárlann."
-"$\\rIs dócha gurbh é úsáideoir eile a shuiteáil an feidhmchlár seo."
+"Níorbh fhéidir leis an díshuiteálaí iontrálacha Pidgin a aimsiú sa "
+"chlárlann.$\\rIs dócha gurbh é úsáideoir eile a shuiteáil an feidhmchlár seo."
+
+#. Installer Subsection Text
+msgid "URI Handlers"
+msgstr "Láimhseálaithe URI"
+
+msgid ""
+"Unable to uninstall the currently installed version of Pidgin. The new "
+"version will be installed without removing the currently installed version."
+msgstr ""
+"Ní féidir an leagan de Pidgin atá ann faoi láthair a dhíshuiteáil. "
+"Suiteálfar an leagan nua gan an seanleagan a dhíshuiteáil."
+
+#. Text displayed on Installer Finish Page
+msgid "Visit the Pidgin Web Page"
+msgstr "Déan cuairt ar Leathanach Gréasáin Pidgin"
 
 msgid "You do not have permission to uninstall this application."
 msgstr "Níl cead agat an feidhmchlár seo a dhíshuiteáil."

@@ -1,24 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# elnaaz <elnaz.s@gmail.com>, 2013
-# Richard Laager <rlaager@wiktel.com>, 2011
+## SOME DESCRIPTIVE TITLE.
+## Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+## This file is distributed under the same license as the PACKAGE package.
+##
+## Translators:
+## elnaaz <elnaz.s@gmail.com>, 2013
+## Richard Laager <rlaager@wiktel.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 10:38-0800\n"
-"PO-Revision-Date: 2014-01-21 08:25+0000\n"
+"POT-Creation-Date: 2014-05-22 14:13-0200\n"
+"PO-Revision-Date: 2014-05-26 08:24+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
-"Language-Team: Persian (http://www.transifex.com/projects/p/pidgin/language/"
-"fa/)\n"
-"Language: fa\n"
+"Language-Team: Persian "
+"(http://www.transifex.com/projects/p/pidgin/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:56+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
+"Language: fa\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
@@ -55,9 +57,9 @@ msgid ""
 "investigate and complete the migration by hand. Please report this error at "
 "http://developer.pidgin.im"
 msgstr ""
-"%s‌ هنگام کوچاندن تنظیمات شما از %s به %s‌ خطا می‌دهد.  لطفاً بررسی کنید و به "
-"طور دستی کوچاندن را کامل کنید. لطفاً این خطا را در http://developer.pidgin.im "
-"گزارش کنید."
+"%s‌ هنگام کوچاندن تنظیمات شما از %s به %s‌ خطا می‌دهد.  لطفاً بررسی کنید و "
+"به طور دستی کوچاندن را کامل کنید. لطفاً این خطا را در "
+"http://developer.pidgin.im گزارش کنید."
 
 #. the user did not fill in the captcha
 msgid "Error"
@@ -193,7 +195,7 @@ msgid "Default"
 msgstr "پیش‌فرض"
 
 msgid "You must provide a username for the buddy."
-msgstr " باید برای رفیق نام کاربری ارائه کنید."
+msgstr "باید برای رفیق نام کاربری ارائه کنید."
 
 msgid "You must provide a group."
 msgstr "باید گروهی تعیین کنید."
@@ -369,11 +371,11 @@ msgid "Unblock"
 msgstr "برقراری رابطه"
 
 msgid ""
-"Please enter the username or alias of the person you would like to Block/"
-"Unblock."
+"Please enter the username or alias of the person you would like to "
+"Block/Unblock."
 msgstr ""
-"لطفاً نام کاربری یا اسم مستعار شخصی که می‌خواهید با او قطع رابطه کنید یا رابطه "
-"برقرار کنید را وارد کنید."
+"لطفاً نام کاربری یا اسم مستعار شخصی که می‌خواهید با او قطع رابطه کنید یا "
+"رابطه برقرار کنید را وارد کنید."
 
 #. Not multiline
 #. Not masked?
@@ -384,7 +386,8 @@ msgstr "تأیید"
 msgid "New Instant Message"
 msgstr "پیغام اینترنتی جدید"
 
-msgid "Please enter the username or alias of the person you would like to IM."
+msgid ""
+"Please enter the username or alias of the person you would like to IM."
 msgstr ""
 "لطفاً نام کاربری یا اسم مستعار شخصی که می‌خواهید به او پیغام بفرستید را وارد "
 "کنید."
@@ -397,8 +400,8 @@ msgstr "پیوستن به گپ"
 
 msgid "Please enter the name of the chat you want to join."
 msgstr ""
-"لطفاً نام کاربری یا اسم مستعار شخصی که می‌خواهید تاریخچه‌اش را ببینید را وارد "
-"کنید."
+"لطفاً نام کاربری یا اسم مستعار شخصی که می‌خواهید تاریخچه‌اش را ببینید را "
+"وارد کنید."
 
 msgid "Join"
 msgstr "پیوستن"
@@ -407,8 +410,8 @@ msgid ""
 "Please enter the username or alias of the person whose log you would like to "
 "view."
 msgstr ""
-"لطفاً نام کاربری یا اسم مستعار شخصی که می‌خواهید تاریخچه‌اش را ببینید را وارد "
-"کنید."
+"لطفاً نام کاربری یا اسم مستعار شخصی که می‌خواهید تاریخچه‌اش را ببینید را "
+"وارد کنید."
 
 #. Create the "Options" frame.
 msgid "Options"
@@ -451,7 +454,7 @@ msgid "By Log Size"
 msgstr "از روی اندازهٔ تاریخچه"
 
 msgid "Buddy"
-msgstr "رفیق "
+msgstr "رفیق"
 
 msgid "Chat"
 msgstr "گپ"
@@ -567,8 +570,10 @@ msgstr "به کار انداختن مجدد حساب"
 msgid "No such command."
 msgstr "چنین فرمانی وجود ندارد."
 
-msgid "Syntax Error:  You typed the wrong number of arguments to that command."
-msgstr "خطای نحوی: تعداد آرگومان‌هایی که برای این فرمان وارد کرده‌اید غلط است."
+msgid ""
+"Syntax Error:  You typed the wrong number of arguments to that command."
+msgstr ""
+"خطای نحوی: تعداد آرگومان‌هایی که برای این فرمان وارد کرده‌اید غلط است."
 
 msgid "Your command failed for an unknown reason."
 msgstr "فرمان شما به دلیل نامعلومی شکست خورد."
@@ -608,8 +613,8 @@ msgid ""
 "The account has disconnected and you are no longer in this chat. You will be "
 "automatically rejoined in the chat when the account reconnects."
 msgstr ""
-"‌این حساب قطع شده است و شما دیگر در این گپ نیستید. وقتی که حساب وصل شد به طور "
-"خودکار به گپ خواهید پیوست."
+"‌این حساب قطع شده است و شما دیگر در این گپ نیستید. وقتی که حساب وصل شد به "
+"طور خودکار به گپ خواهید پیوست."
 
 msgid "Logging started. Future messages in this conversation will be logged."
 msgstr "ثبت وقایع آغاز شد. پیغام‌های بعدی این گفتگو ثبت خواهند شد."
@@ -646,12 +651,13 @@ msgid "You are not connected."
 msgstr "شما وصل نیستید."
 
 msgid "<AUTO-REPLY> "
-msgstr "<پاسخ خودکار>"
+msgstr "<پاسخ خودکار> "
 
 #, c-format
 msgid "List of %d user:\n"
 msgid_plural "List of %d users:\n"
 msgstr[0] ""
+msgstr[1] ""
 
 msgid "Supported debug options are: plugins version"
 msgstr "گزینه‌های اشکال‌زدایی پشتیبانی‌شده عبارتند از: plugins version"
@@ -691,7 +697,8 @@ msgstr "‏me &lt;action&gt;: ارسال کنش به سبک IRC به رفیق ی
 msgid ""
 "debug &lt;option&gt;:  Send various debug information to the current "
 "conversation."
-msgstr "‏debug &lt;option&gt;:  ارسال اطلاعات اشکال‌زدایی مختلف در گفتگوی فعلی."
+msgstr ""
+"‏debug &lt;option&gt;:  ارسال اطلاعات اشکال‌زدایی مختلف در گفتگوی فعلی."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "‏clear: گفتگوهای آمده در صفحه را پاک می‌کند."
@@ -722,10 +729,11 @@ msgstr "وضعیت‌ها: نمایش پنجرهٔ وضعیت‌های ذخیر�
 
 msgid ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Set the color "
-"for different classes of messages in the conversation window.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"for different classes of messages in the conversation window.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 msgstr ""
 
 msgid "Unable to open file."
@@ -737,7 +745,7 @@ msgstr "پنجرهٔ اشکال‌زدایی"
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
-#.
+#. 
 msgid "Clear"
 msgstr "پاک کردن"
 
@@ -751,6 +759,7 @@ msgstr "مکث"
 msgid "File Transfers - %d%% of %d file"
 msgid_plural "File Transfers - %d%% of %d files"
 msgstr[0] ""
+msgstr[1] ""
 
 #. Create the window.
 msgid "File Transfers"
@@ -839,8 +848,8 @@ msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
 msgstr ""
-"پیغام‌های اینترنتی تنها زمانی ثبت خواهند شد که «ثبت همهٔ پیغام‌های اینترنتی» در "
-"ترجیحات به کار انداخته شده باشد."
+"پیغام‌های اینترنتی تنها زمانی ثبت خواهند شد که «ثبت همهٔ پیغام‌های اینترنتی» "
+"در ترجیحات به کار انداخته شده باشد."
 
 msgid ""
 "Chats will only be logged if the \"Log all chats\" preference is enabled."
@@ -976,7 +985,8 @@ msgstr ""
 "نام پرونده: %s\n"
 
 msgid "Plugin need to be loaded before you can configure it."
-msgstr "قبل از این که متصل‌شونده را پیکربندی کنید لازم است آن را بارگیری کنید."
+msgstr ""
+"قبل از این که متصل‌شونده را پیکربندی کنید لازم است آن را بارگیری کنید."
 
 msgid "No configuration options for this plugin."
 msgstr "این متصل‌شونده گزینه‌ای برای پیکربندی ندارد."
@@ -1291,7 +1301,7 @@ msgid "Sound Method"
 msgstr "روش صوتی"
 
 msgid "Method: "
-msgstr "روش:"
+msgstr "روش: "
 
 #, c-format
 msgid ""
@@ -1420,7 +1430,8 @@ msgstr ""
 msgid "Couldn't find window"
 msgstr ""
 
-msgid "This plugin cannot be loaded because it was not built with X11 support."
+msgid ""
+"This plugin cannot be loaded because it was not built with X11 support."
 msgstr ""
 
 msgid "GntClipboard"
@@ -1509,8 +1520,8 @@ msgid ""
 "When a new conversation is opened this plugin will insert the last "
 "conversation into the current conversation."
 msgstr ""
-"هر وقت گفتگوی جدیدی باز می‌شود این متصل شونده آخرین گفتگو را در پنجرهٔ گفتگوی "
-"فعلی درج خواهد کرد."
+"هر وقت گفتگوی جدیدی باز می‌شود این متصل شونده آخرین گفتگو را در پنجرهٔ "
+"گفتگوی فعلی درج خواهد کرد."
 
 #, c-format
 msgid ""
@@ -2009,29 +2020,60 @@ msgstr "انتقال پرونده به %s شکست خورد."
 msgid "File transfer from %s failed."
 msgstr "انتقال پرونده از %s شکست خورد."
 
-msgid "Whether the specified command should handle \"aim\" URLs"
+msgid "Run the command in a terminal"
+msgstr "فرمان در در پایانه اجرا کنید"
+
+msgid "The command used to handle \"aim\" URLs, if enabled."
 msgstr ""
 
-msgid ""
-"True if the command specified in the \"command\" key should handle \"aim\" "
-"URLs."
+msgid "The command used to handle \"gg\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"icq\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"irc\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"msnim\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"sip\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"xmpp\" URLs, if enabled."
+msgstr ""
+
+msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr ""
 
 msgid "The handler for \"aim\" URLs"
 msgstr "متصدی نشانی اینترنتی «aim»"
 
-msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr ""
+msgid "The handler for \"gg\" URLs"
+msgstr "متصدی نشانی اینترنتی «gg»"
 
-msgid "Run the command in a terminal"
-msgstr "فرمان در در پایانه اجرا کنید"
+msgid "The handler for \"icq\" URLs"
+msgstr "متصدی نشانی اینترنتی «icq»"
+
+msgid "The handler for \"irc\" URLs"
+msgstr "متصدی نشانی اینترنتی «irc»"
+
+msgid "The handler for \"msnim\" URLs"
+msgstr "متصدی نشانی اینترنتی «msnim»"
+
+msgid "The handler for \"sip\" URLs"
+msgstr "متصدی نشانی اینترنتی «sip»"
+
+msgid "The handler for \"xmpp\" URLs"
+msgstr "متصدی نشانی اینترنتی «xmpp»"
+
+msgid "The handler for \"ymsgr\" URLs"
+msgstr "متصدی نشانی اینترنتی «ymsgr»"
 
 msgid ""
-"True if the command used to handle this type of URL should be run in a "
-"terminal."
-msgstr ""
-
-msgid "Whether the specified command should handle \"gg\" URLs"
+"True if the command specified in the \"command\" key should handle \"aim\" "
+"URLs."
 msgstr ""
 
 msgid ""
@@ -2039,27 +2081,9 @@ msgid ""
 "URLs."
 msgstr ""
 
-msgid "The handler for \"gg\" URLs"
-msgstr "متصدی نشانی اینترنتی «gg»"
-
-msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"icq\" URLs"
-msgstr ""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"icq\" "
 "URLs."
-msgstr ""
-
-msgid "The handler for \"icq\" URLs"
-msgstr "متصدی نشانی اینترنتی «icq»"
-
-msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"irc\" URLs"
 msgstr ""
 
 msgid ""
@@ -2067,27 +2091,9 @@ msgid ""
 "URLs."
 msgstr ""
 
-msgid "The handler for \"irc\" URLs"
-msgstr "متصدی نشانی اینترنتی «irc»"
-
-msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"msnim\" URLs"
-msgstr ""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"msnim\" "
 "URLs."
-msgstr ""
-
-msgid "The handler for \"msnim\" URLs"
-msgstr "متصدی نشانی اینترنتی «msnim»"
-
-msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"sip\" URLs"
 msgstr ""
 
 msgid ""
@@ -2095,27 +2101,9 @@ msgid ""
 "URLs."
 msgstr ""
 
-msgid "The handler for \"sip\" URLs"
-msgstr "متصدی نشانی اینترنتی «sip»"
-
-msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"xmpp\" URLs"
-msgstr ""
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"xmpp\" "
 "URLs."
-msgstr ""
-
-msgid "The handler for \"xmpp\" URLs"
-msgstr "متصدی نشانی اینترنتی «xmpp»"
-
-msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr ""
-
-msgid "Whether the specified command should handle \"ymsgr\" URLs"
 msgstr ""
 
 msgid ""
@@ -2123,10 +2111,33 @@ msgid ""
 "URLs."
 msgstr ""
 
-msgid "The handler for \"ymsgr\" URLs"
-msgstr "متصدی نشانی اینترنتی «ymsgr»"
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
+msgstr ""
 
-msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"gg\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"icq\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"irc\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"msnim\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"sip\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"xmpp\" URLs"
+msgstr ""
+
+msgid "Whether the specified command should handle \"ymsgr\" URLs"
 msgstr ""
 
 msgid "<b><font color=\"red\">The logger has no read function</font></b>"
@@ -2226,8 +2237,8 @@ msgid ""
 "The required plugin %s was not found. Please install this plugin and try "
 "again."
 msgstr ""
-"متصل شوندهٔ مورد نیاز %s پیدا نشد. لطفاً این متصل شونده را نصب کنید و  دوباره "
-"امتحان کنید."
+"متصل شوندهٔ مورد نیاز %s پیدا نشد. لطفاً این متصل شونده را نصب کنید و  "
+"دوباره امتحان کنید."
 
 msgid "Unable to load the plugin"
 msgstr "بارکردن متصل شونده ممکن نیست"
@@ -2441,8 +2452,8 @@ msgid ""
 "Test plugin IPC support, as a client. This locates the server plugin and "
 "calls the commands registered."
 msgstr ""
-"آزمایش پشتیبانی متصل‌شوندهٔ ICP به شکل کارگیر. متصل‌شوندهٔ کارگزار را پیدا کرده "
-"و فرمان‌های ثبت شده را فراخوانی می‌کند."
+"آزمایش پشتیبانی متصل‌شوندهٔ ICP به شکل کارگیر. متصل‌شوندهٔ کارگزار را پیدا "
+"کرده و فرمان‌های ثبت شده را فراخوانی می‌کند."
 
 #. *< type
 #. *< ui_requirement
@@ -2460,7 +2471,8 @@ msgid "Test plugin IPC support, as a server."
 msgstr "آزمایش پشتیبانی  متصل‌شوندهٔ IPC، به شکل کارگزار."
 
 #. *  description
-msgid "Test plugin IPC support, as a server. This registers the IPC commands."
+msgid ""
+"Test plugin IPC support, as a server. This registers the IPC commands."
 msgstr "آزمایش متصل‌شوندهٔ IPC، به شکل کارگزار. فرمان‌های IPC را ثبت می‌کند."
 
 msgid "Hide Joins/Parts"
@@ -2603,7 +2615,8 @@ msgstr "تاریخچه‌خوان"
 #. * summary
 msgid "Includes other IM clients' logs in the log viewer."
 msgstr ""
-"تاریخچه‌های کارگیرهای پیغام اینترنتی دیگر را در نمایش‌دهندهٔ تاریخچه قرار می‌دهد."
+"تاریخچه‌های کارگیرهای پیغام اینترنتی دیگر را در نمایش‌دهندهٔ تاریخچه قرار "
+"می‌دهد."
 
 #. * description
 msgid ""
@@ -2782,7 +2795,8 @@ msgstr "متصل شوندهٔ ساده"
 #. *  summary
 #. *  description
 msgid "Tests to see that most things are working."
-msgstr "برای اطمینان از این که اغلب چیزها کار می‌کنند آزمایش‌هایی انجام می‌دهد."
+msgstr ""
+"برای اطمینان از این که اغلب چیزها کار می‌کنند آزمایش‌هایی انجام می‌دهد."
 
 #. Scheme name
 msgid "X.509 Certificates"
@@ -2885,8 +2899,8 @@ msgid ""
 "Notifies in a conversation window when a buddy goes or returns from away or "
 "idle."
 msgstr ""
-"وقتی رفیقی می‌رود یا بی‌کار می‌شود یا از وضعیت رفته یا بی‌کاری در می‌آید، در یک "
-"پنجرهٔ گفتگو اطلاع می‌دهد."
+"وقتی رفیقی می‌رود یا بی‌کار می‌شود یا از وضعیت رفته یا بی‌کاری در می‌آید، در "
+"یک پنجرهٔ گفتگو اطلاع می‌دهد."
 
 msgid "Tcl Plugin Loader"
 msgstr "بارکنندهٔ متصل شوندهٔ tcl"
@@ -2900,8 +2914,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Unable to find Apple's \"Bonjour for Windows\" toolkit, see http://d.pidgin."
-"im/BonjourWindows for more information."
+"Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
+"http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 
 msgid "Unable to listen for incoming IM connections"
@@ -3203,11 +3217,11 @@ msgstr "هیچ MOTD با این اتصال مربوط نشده است."
 msgid "MOTD for %s"
 msgstr "MOTD برای %s"
 
-#.
+#. 
 #. * TODO: Handle this better. Probably requires a PurpleBOSHConnection
 #. * buffer that stores what is "being sent" until the
 #. * PurpleHTTPConnection reports it is fully sent.
-#.
+#. 
 #. TODO: do we really want to disconnect on a failure to write?
 #, c-format
 msgid "Lost connection with server: %s"
@@ -3280,10 +3294,10 @@ msgstr ""
 msgid "Real name"
 msgstr "نام واقعی"
 
-#.
+#. 
 #. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
 #. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
+#. 
 msgid "Use SSL"
 msgstr "از SSL استفاده شود"
 
@@ -3322,18 +3336,16 @@ msgid " <i>(ircop)</i>"
 msgstr " <i>(گردانندهٔ irc)</i>"
 
 msgid " <i>(identified)</i>"
-msgstr "<i>(شناسایی شده)</i>"
+msgstr " <i>(شناسایی شده)</i>"
 
 msgid "Nick"
 msgstr "لقب"
 
-#, fuzzy
 msgid "Login name"
-msgstr "بدون نام"
+msgstr ""
 
-#, fuzzy
 msgid "Host name"
-msgstr "نام میزبان"
+msgstr ""
 
 msgid "Currently on"
 msgstr "در حال حاضر روی"
@@ -3484,7 +3496,8 @@ msgstr ""
 msgid "Failed to initialize SASL authentication: %s"
 msgstr ""
 
-msgid "SASL authentication failed: No worthy authentication mechanisms found."
+msgid ""
+"SASL authentication failed: No worthy authentication mechanisms found."
 msgstr ""
 
 #, c-format
@@ -3514,8 +3527,8 @@ msgid ""
 "away [message]:  Set an away message, or use no message to return from being "
 "away."
 msgstr ""
-"‏‎away [message]‎: تنظیم پیغام رفتن، یا برای بازگشت از حالت رفته، پیغام استفاده "
-"نشود."
+"‏‎away [message]‎: تنظیم پیغام رفتن، یا برای بازگشت از حالت رفته، پیغام "
+"استفاده نشود."
 
 msgid "ctcp <nick> <msg>: sends ctcp msg to nick."
 msgstr ""
@@ -3535,16 +3548,16 @@ msgid ""
 "someone, preventing them from speaking if the channel is moderated (+m). You "
 "must be a channel operator to do this."
 msgstr ""
-"‏devoice &lt;nick1&gt;‎ [nick2] ...: حذف وضعیت صدای کانال از کسی، و ممانعت از "
-"حرف زدن آنها در صورت متصدی داشتن (+m بودن) کانال. برای انجام این کار باید "
+"‏devoice &lt;nick1&gt;‎ [nick2] ...: حذف وضعیت صدای کانال از کسی، و ممانعت "
+"از حرف زدن آنها در صورت متصدی داشتن (+m بودن) کانال. برای انجام این کار باید "
 "خودتان متصدی باشید."
 
 msgid ""
 "invite &lt;nick&gt; [room]:  Invite someone to join you in the specified "
 "channel, or the current channel."
 msgstr ""
-"‏invite &lt;nick&gt; [room]‎: دعوت از کسی برای پیوستن به شما در یک کانال مشخص، "
-"یا کانال فعلی"
+"‏invite &lt;nick&gt; [room]‎: دعوت از کسی برای پیوستن به شما در یک کانال "
+"مشخص، یا کانال فعلی"
 
 msgid ""
 "j &lt;room1&gt;[,room2][,...] [key1[,key2][,...]]:  Enter one or more "
@@ -3557,15 +3570,15 @@ msgid ""
 "join &lt;room1&gt;[,room2][,...] [key1[,key2][,...]]:  Enter one or more "
 "channels, optionally providing a channel key for each if needed."
 msgstr ""
-"‏join &lt;room1&gt;[,room2][,...] [key1[,key2][,...]]‎: وارد شدن به یک یا چند "
-"کانال، با امکان ارائهٔ کلید کانال برای هر کدام در صورت لزوم."
+"‏join &lt;room1&gt;[,room2][,...] [key1[,key2][,...]]‎: وارد شدن به یک یا "
+"چند کانال، با امکان ارائهٔ کلید کانال برای هر کدام در صورت لزوم."
 
 msgid ""
 "kick &lt;nick&gt; [message]:  Remove someone from a channel. You must be a "
 "channel operator to do this."
 msgstr ""
-"‏kick &lt;nick&gt; [message]‎: حذف کسی از کانال. برای این کار باید متصدی کانال "
-"باشید."
+"‏kick &lt;nick&gt; [message]‎: حذف کسی از کانال. برای این کار باید متصدی "
+"کانال باشید."
 
 msgid ""
 "list:  Display a list of chat rooms on the network. <i>Warning, some servers "
@@ -3643,8 +3656,10 @@ msgstr ""
 "‏query &lt;nick&gt; &lt;message&gt;‎: ارسال پیغام خصوصی به کاربر (به جای "
 "کانال)."
 
-msgid "quit [message]:  Disconnect from the server, with an optional message."
-msgstr "‏quit [message]‎: قطع کردن اتصال به کارگزار، همراه با پیغامی اختیاری."
+msgid ""
+"quit [message]:  Disconnect from the server, with an optional message."
+msgstr ""
+"‏quit [message]‎: قطع کردن اتصال به کارگزار، همراه با پیغامی اختیاری."
 
 msgid "quote [...]:  Send a raw command to the server."
 msgstr "‏quote [...]‎: ارسال فرمان خام به کارگزار."
@@ -3716,7 +3731,7 @@ msgstr "کارگزار به تأیید هویت متنی ساده روی جری�
 #. This happens when the server sends back jibberish
 #. * in the "additional data with success" case.
 #. * Seen with Wildfire 3.0.1.
-#.
+#. 
 msgid "Invalid response from server"
 msgstr ""
 
@@ -3741,7 +3756,8 @@ msgstr "تقاضای نامعتبر از سوی کارگزار"
 msgid "Server thinks authentication is complete, but client does not"
 msgstr ""
 
-msgid "Server may require plaintext authentication over an unencrypted stream"
+msgid ""
+"Server may require plaintext authentication over an unencrypted stream"
 msgstr ""
 
 #, c-format
@@ -3769,8 +3785,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The server does support channel binding, but did not appear to advertise "
-"it.  This indicates a likely MITM attack"
+"The server does support channel binding, but did not appear to advertise it. "
+" This indicates a likely MITM attack"
 msgstr ""
 
 msgid "Server does not support channel binding"
@@ -3834,11 +3850,11 @@ msgstr "نشانی اینترنتی"
 msgid "Street Address"
 msgstr "نشانی خیابان"
 
-#.
+#. 
 #. * EXTADD is correct, EXTADR is generated by other
 #. * clients. The next time someone reads this, remove
 #. * EXTADR.
-#.
+#. 
 msgid "Extended Address"
 msgstr "ادامهٔ نشانی"
 
@@ -4575,7 +4591,8 @@ msgstr ""
 
 msgid ""
 "msg &lt;user&gt; &lt;message&gt;:  Send a private message to another user."
-msgstr "‏msg &lt;user&gt; &lt;message&gt;‎: ارسال پیغام خصوصی به کاربری دیگر."
+msgstr ""
+"‏msg &lt;user&gt; &lt;message&gt;‎: ارسال پیغام خصوصی به کاربری دیگر."
 
 msgid "ping &lt;jid&gt;:\tPing a user/component/server."
 msgstr ""
@@ -4714,7 +4731,8 @@ msgstr "خطای نامعلوم در حضور"
 
 #, c-format
 msgid "Unable to send file to %s, user does not support file transfers"
-msgstr "فرستادن پرونده به %s ممکن نیست، کاربر از انتقال پرونده پشتیبانی نمی‌کند"
+msgstr ""
+"فرستادن پرونده به %s ممکن نیست، کاربر از انتقال پرونده پشتیبانی نمی‌کند"
 
 #. not success
 msgid "File Send Failed"
@@ -4733,7 +4751,8 @@ msgid "Unable to send file to %s, not subscribed to user presence"
 msgstr ""
 
 #, c-format
-msgid "Please select the resource of %s to which you would like to send a file"
+msgid ""
+"Please select the resource of %s to which you would like to send a file"
 msgstr ""
 
 msgid "Afraid"
@@ -5197,7 +5216,7 @@ msgstr "خطای MSN: %s\n"
 
 #, c-format
 msgid "Buddy list synchronization issue in %s (%s)"
-msgstr "مسئله در همگام‌سازی فهرست رفقا در %s ‏(%s) "
+msgstr "مسئله در همگام‌سازی فهرست رفقا در %s ‏(%s)"
 
 #, c-format
 msgid ""
@@ -5212,8 +5231,8 @@ msgid ""
 "%s is on the local list but not on the server list. Do you want this buddy "
 "to be added?"
 msgstr ""
-"‏%s در فهرست محلی هست اما در فهرست کارگزار نیست. آیا مایلید این رفیقتان اضافه "
-"شود؟"
+"‏%s در فهرست محلی هست اما در فهرست کارگزار نیست. آیا مایلید این رفیقتان "
+"اضافه شود؟"
 
 msgid "Other Contacts"
 msgstr ""
@@ -5412,9 +5431,10 @@ msgstr "صندوق نامهٔ هات‌مِیل باز شود"
 msgid "Send to Mobile"
 msgstr "فرستادن به تلفن همراه"
 
-msgid "SSL support is needed for MSN. Please install a supported SSL library."
+msgid ""
+"SSL support is needed for MSN. Please install a supported SSL library."
 msgstr ""
-"پشتیبانی SSL برای MSN لازم است. لطفاً یک کتابخانهٔ SSL پشتیبانی شده نصب کنید. "
+"پشتیبانی SSL برای MSN لازم است. لطفاً یک کتابخانهٔ SSL پشتیبانی شده نصب کنید."
 
 #, c-format
 msgid ""
@@ -5716,7 +5736,8 @@ msgstr "خطا هنگام تجزیهٔ‌ HTTP"
 msgid "You have signed on from another location"
 msgstr "شما از مکان دیگری وارد سیستم شده‌اید"
 
-msgid "The MSN servers are temporarily unavailable. Please wait and try again."
+msgid ""
+"The MSN servers are temporarily unavailable. Please wait and try again."
 msgstr ""
 "کارگزارهای MSN موقتاً قابل دسترسی نیستند. لطفاً پس از کمی صبر دوباره امتحان "
 "کنید."
@@ -5731,8 +5752,8 @@ msgstr "تأیید هویت ممکن نیست: %s"
 msgid ""
 "Your MSN buddy list is temporarily unavailable. Please wait and try again."
 msgstr ""
-"فهرست رفقای MSN شما موقتاً قابل دسترسی نیست. لطفاً پس از کمی صبر دوباره امتحان "
-"کنید."
+"فهرست رفقای MSN شما موقتاً قابل دسترسی نیست. لطفاً پس از کمی صبر دوباره "
+"امتحان کنید."
 
 msgid "Handshaking"
 msgstr "در حال دست دادن"
@@ -5753,7 +5774,8 @@ msgid "Retrieving buddy list"
 msgstr "در حال بازیابی فهرست رفقا"
 
 #, c-format
-msgid "%s requests to view your webcam, but this request is not yet supported."
+msgid ""
+"%s requests to view your webcam, but this request is not yet supported."
 msgstr ""
 
 #, c-format
@@ -5821,7 +5843,8 @@ msgstr ""
 msgid "Profile"
 msgstr "مجموعه تنظیمات"
 
-msgid "Your profile information is not yet retrieved. Please try again later."
+msgid ""
+"Your profile information is not yet retrieved. Please try again later."
 msgstr ""
 
 #. display name
@@ -6126,11 +6149,13 @@ msgstr ""
 msgid "You have %i suggested friend."
 msgid_plural "You have %i suggested friends."
 msgstr[0] ""
+msgstr[1] ""
 
 #, c-format
 msgid "We found %i contact that matches your search."
 msgid_plural "We found %i contacts that match your search."
 msgstr[0] ""
+msgstr[1] ""
 
 #. we must have lost the connection, so terminate it so that we can reconnect
 msgid "We have lost the connection to MXit. Please reconnect."
@@ -6319,6 +6344,7 @@ msgid_plural ""
 "%d buddies were added or updated from the server (including buddies already "
 "on the server-side list)"
 msgstr[0] ""
+msgstr[1] ""
 
 msgid "Add contacts from server"
 msgstr ""
@@ -6330,8 +6356,9 @@ msgstr ""
 #, c-format
 msgid ""
 "%s Your password is %zu characters, which is longer than the maximum length "
-"of %d.  Please shorten your password at http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword and try again."
+"of %d.  Please shorten your password at "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword and try again."
 msgstr ""
 
 msgid "Incorrect username or password"
@@ -6635,7 +6662,7 @@ msgid "The server is unavailable; try again later"
 msgstr "کارگزار در دسترس نیست: کمی بعد دوباره امتحان کنید"
 
 msgid "Cannot add a contact to the same folder twice"
-msgstr "نمی‌توان اطلاعات تماس را دوبار به یک پوشه اضافه کرد "
+msgstr "نمی‌توان اطلاعات تماس را دوبار به یک پوشه اضافه کرد"
 
 msgid "Cannot add yourself"
 msgstr "نمی‌توانید خودتان را اضافه کنید"
@@ -6776,7 +6803,7 @@ msgstr "شناسهٔ کاربر"
 #. if (value) {
 #. purple_notify_user_info_add_pair(user_info, tag, value);
 #. }
-#.
+#. 
 msgid "Full name"
 msgstr "نام و نام خانوادگی"
 
@@ -6854,7 +6881,7 @@ msgstr ""
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
-#.
+#. 
 msgid "_OK"
 msgstr "_تأیید"
 
@@ -6870,8 +6897,8 @@ msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
 msgstr ""
-"شما دفعات خیلی زیادی متصل شده و دوباره اتصالتان را قطع کرده‌اید. ده دقیقه صبر "
-"کنید و بعد دوباره امتحان کنید. اگر الان به تلاشتان ادامه دهید شاید مجبور "
+"شما دفعات خیلی زیادی متصل شده و دوباره اتصالتان را قطع کرده‌اید. ده دقیقه "
+"صبر کنید و بعد دوباره امتحان کنید. اگر الان به تلاشتان ادامه دهید شاید مجبور "
 "شوید بیشتر منتظر بمانید."
 
 msgid ""
@@ -6905,9 +6932,9 @@ msgid ""
 "your AIM/ICQ account.)"
 msgstr ""
 "(در دریافت پیغام خطایی رخ داد. کسی که مشغول گفتگو با او هستید از یک کُدگذاری "
-"متفاوت به نسبت کُدگذاری مورد انتظار استفاده می‌کند. اگر می‌دانید کُدگذاری مورد "
-"استفادهٔ او چیست می‌توانید آن را در قسمت گزینه‌های حساب پیش‌رفتهٔ حساب AIM/ICQ "
-"خود وارد کنید."
+"متفاوت به نسبت کُدگذاری مورد انتظار استفاده می‌کند. اگر می‌دانید کُدگذاری "
+"مورد استفادهٔ او چیست می‌توانید آن را در قسمت گزینه‌های حساب پیش‌رفتهٔ حساب "
+"AIM/ICQ خود وارد کنید."
 
 #, c-format
 msgid ""
@@ -7187,8 +7214,8 @@ msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
-"شما در تنظیمات حساب‌تان درخواست رمزنگاری کرده‌اید ولی سیستم شما از آن پشتیبانی "
-"نمی‌کند."
+"شما در تنظیمات حساب‌تان درخواست رمزنگاری کرده‌اید ولی سیستم شما از آن "
+"پشتیبانی نمی‌کند."
 
 #, c-format
 msgid "You may be disconnected shortly.  If so, check %s for updates."
@@ -7226,7 +7253,8 @@ msgstr ""
 #. client too old
 #, c-format
 msgid "The client version you are using is too old. Please upgrade at %s"
-msgstr "نسخهٔ کارگیری که استفاده می‌کنید خیلی قدیمی است. لطفاً در %s ارتقا دهید"
+msgstr ""
+"نسخهٔ کارگیری که استفاده می‌کنید خیلی قدیمی است. لطفاً در %s ارتقا دهید"
 
 #. IP address connecting too frequently
 msgid ""
@@ -7341,12 +7369,15 @@ msgid ""
 msgid_plural ""
 "You missed %hu messages from %s because his/her warning level is too high."
 msgstr[0] ""
+msgstr[1] ""
 
 #, c-format
-msgid "You missed %hu message from %s because your warning level is too high."
+msgid ""
+"You missed %hu message from %s because your warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because your warning level is too high."
 msgstr[0] ""
+msgstr[1] ""
 
 #, c-format
 msgid "You missed %hu message from %s for an unknown reason."
@@ -7373,6 +7404,7 @@ msgstr "پیغام واشو"
 msgid "The following username is associated with %s"
 msgid_plural "The following usernames are associated with %s"
 msgstr[0] ""
+msgstr[1] ""
 
 #, c-format
 msgid "No results found for email address %s"
@@ -7461,6 +7493,7 @@ msgid_plural ""
 "The maximum profile length of %d bytes has been exceeded.  It has been "
 "truncated for you."
 msgstr[0] ""
+msgstr[1] ""
 
 msgid "Profile too long."
 msgstr "مجموعه تنظیمات خیلی طولانی است."
@@ -7620,8 +7653,8 @@ msgid ""
 "You can re-request authorization from these buddies by right-clicking on "
 "them and selecting \"Re-request Authorization.\""
 msgstr ""
-"برای درخواست مجدد اجازه از رفقای زیر روی آن‌ها کلیک راست کرده و «درخواست مجدد "
-"اعطای اجازه» را انتخاب کنید."
+"برای درخواست مجدد اجازه از رفقای زیر روی آن‌ها کلیک راست کرده و «درخواست "
+"مجدد اعطای اجازه» را انتخاب کنید."
 
 msgid "Find Buddy by Email"
 msgstr "پیدا کردن رفیق از روی پست الکترونیکی"
@@ -7921,8 +7954,8 @@ msgstr ""
 
 #, c-format
 msgid ""
-"You can add a buddy to this list by right-clicking on them and selecting \"%s"
-"\""
+"You can add a buddy to this list by right-clicking on them and selecting "
+"\"%s\""
 msgstr ""
 
 msgid "Visible List"
@@ -8033,8 +8066,8 @@ msgid ""
 "Please enter a topic for the new conference, and an invitation message to be "
 "sent to %s"
 msgstr ""
-"لطفاً موضوعی برای کنفرانس جدید و متن دعوت‌نامه‌ای که برای %s فرستاده می‌شود وارد "
-"کنید"
+"لطفاً موضوعی برای کنفرانس جدید و متن دعوت‌نامه‌ای که برای %s فرستاده می‌شود "
+"وارد کنید"
 
 msgid "New Conference"
 msgstr "کنفرانس جدید"
@@ -8057,9 +8090,9 @@ msgid ""
 "\"Create New Conference\" if you'd like to create a new conference to invite "
 "this user to."
 msgstr ""
-"از فهرست زیر یک کنفرانس انتخاب کنید تا دعوت‌نامه‌ای برای کاربر %s فرستاده شود. "
-"اگر می‌خواهید کنفرانس جدیدی ایجاد کرده و این کاربر را به آن دعوت کنید، «ایجاد "
-"کنفرانس جدید» را انتخاب کنید."
+"از فهرست زیر یک کنفرانس انتخاب کنید تا دعوت‌نامه‌ای برای کاربر %s فرستاده "
+"شود. اگر می‌خواهید کنفرانس جدیدی ایجاد کرده و این کاربر را به آن دعوت کنید، "
+"«ایجاد کنفرانس جدید» را انتخاب کنید."
 
 msgid "Invite to Conference"
 msgstr "دعوت به کنفرانس"
@@ -8097,8 +8130,8 @@ msgid ""
 "The identifier '%s' may possibly refer to any of the following users. Please "
 "select the correct user from the list below to add them to your buddy list."
 msgstr ""
-"شناسهٔ «%s» ممکن است به هریک از کاربران زیر مربوط باشد.کاربر درست را از فهرست "
-"انتخاب کنید تا به فهرست رفقایتان اضافه شود."
+"شناسهٔ «%s» ممکن است به هریک از کاربران زیر مربوط باشد.کاربر درست را از "
+"فهرست انتخاب کنید تا به فهرست رفقایتان اضافه شود."
 
 msgid "Select User"
 msgstr "انتخاب کاربر"
@@ -8170,8 +8203,8 @@ msgid ""
 "Book groups. Please select the correct group from the list below to add it "
 "to your buddy list."
 msgstr ""
-"شناسهٔ «%s» ممکن است به هریک از این گروه‌های دفترچهٔ نشانی نوتز برگردد. لطفاً "
-"گروه درست را از فهرست زیر انتخاب کنید تا به فهرست رفقایتان اضافه شود."
+"شناسهٔ «%s» ممکن است به هریک از این گروه‌های دفترچهٔ نشانی نوتز برگردد. "
+"لطفاً گروه درست را از فهرست زیر انتخاب کنید تا به فهرست رفقایتان اضافه شود."
 
 msgid "Select Notes Address Book"
 msgstr "انتخاب دفترچهٔ نشانی نوتز"
@@ -8184,8 +8217,8 @@ msgid ""
 "The identifier '%s' did not match any Notes Address Book groups in your "
 "Sametime community."
 msgstr ""
-"شناسهٔ «%s» با هیچ یک از گروه‌های دفترچهٔ نشانی نوتز که در اجتماع Sametime شما "
-"وجود دارد مطابقت نمی‌کند."
+"شناسهٔ «%s» با هیچ یک از گروه‌های دفترچهٔ نشانی نوتز که در اجتماع Sametime "
+"شما وجود دارد مطابقت نمی‌کند."
 
 msgid "Notes Address Book Group"
 msgstr "گروه در دفترچهٔ نشانی نوتز"
@@ -8194,8 +8227,8 @@ msgid ""
 "Enter the name of a Notes Address Book group in the field below to add the "
 "group and its members to your buddy list."
 msgstr ""
-"نام گروه در دفترچهٔ نشانی نوتز را در فیلد زیر وارد کنید تا گروه و اعضای آن به "
-"فهرست رفقایتان اضافه شود."
+"نام گروه در دفترچهٔ نشانی نوتز را در فیلد زیر وارد کنید تا گروه و اعضای آن "
+"به فهرست رفقایتان اضافه شود."
 
 #, c-format
 msgid "Search results for '%s'"
@@ -8207,9 +8240,9 @@ msgid ""
 "may add these users to your buddy list or send them messages with the action "
 "buttons below."
 msgstr ""
-"شناسهٔ «%s» ممکن است به هر کدام از کاربران زیر برگردد. می‌توانید با استفاده از "
-"دکمه‌های زیر این کاربران را به فهرست رفقایتان اضافه کرده یا برای آنها پیغام "
-"بفرستید."
+"شناسهٔ «%s» ممکن است به هر کدام از کاربران زیر برگردد. می‌توانید با استفاده "
+"از دکمه‌های زیر این کاربران را به فهرست رفقایتان اضافه کرده یا برای آنها "
+"پیغام بفرستید."
 
 msgid "Search Results"
 msgstr "نتایج جستجو"
@@ -8218,7 +8251,8 @@ msgid "No matches"
 msgstr "مطابقت ندارد"
 
 #, c-format
-msgid "The identifier '%s' did not match any users in your Sametime community."
+msgid ""
+"The identifier '%s' did not match any users in your Sametime community."
 msgstr "شناسهٔ «%s» با هیچ یک از کاربران اجتماع Sametime شما مطابقت ندارد."
 
 msgid "No Matches"
@@ -8342,8 +8376,9 @@ msgid ""
 "You cannot receive buddy notifications until you import his/her public key.  "
 "You can use the Get Public Key command to get the public key."
 msgstr ""
-"شما نمی‌توانید اعلان‌های رفیق را دریافت کنید مگر این که کلید عمومی او را وارد "
-"کنید. برای گرفتن کلید عمومی می‌توانید از فرمان گرفتن کلید عمومی استفاده کنید."
+"شما نمی‌توانید اعلان‌های رفیق را دریافت کنید مگر این که کلید عمومی او را "
+"وارد کنید. برای گرفتن کلید عمومی می‌توانید از فرمان گرفتن کلید عمومی استفاده "
+"کنید."
 
 #. Open file selector to select the public key.
 msgid "Open..."
@@ -8399,7 +8434,7 @@ msgid "User Modes"
 msgstr "حالت‌های کاربر"
 
 msgid "Preferred Contact"
-msgstr "آشنای مرجح "
+msgstr "آشنای مرجح"
 
 msgid "Preferred Language"
 msgstr "زبان مرجح"
@@ -8408,7 +8443,7 @@ msgid "Device"
 msgstr "دستگاه"
 
 msgid "Timezone"
-msgstr "منطقهٔ زمانی "
+msgstr "منطقهٔ زمانی"
 
 msgid "Geolocation"
 msgstr "مکان جغرافیایی"
@@ -8502,10 +8537,11 @@ msgid ""
 "channel public keys are set then only users whose public keys are listed are "
 "able to join."
 msgstr ""
-"تأیید هویت کانال برای ممانعت از دسترسی بی‌اجازه به کانال استفاده می‌شود. تأیید "
-"هویت می‌تواند بر اساس گذرواژه یا امضای دیجیتالی باشد. اگر گذرواژه تنظیم شود، "
-"دادن آن برای پیوستن به کانال الزامی است. اگر کلید عمومی کانال تنظیم شود فقط "
-"کاربرانی که کلیدهای عمومی‌شان در فهرست آمده باشد می‌توانند به کانال بپیوندند."
+"تأیید هویت کانال برای ممانعت از دسترسی بی‌اجازه به کانال استفاده می‌شود. "
+"تأیید هویت می‌تواند بر اساس گذرواژه یا امضای دیجیتالی باشد. اگر گذرواژه "
+"تنظیم شود، دادن آن برای پیوستن به کانال الزامی است. اگر کلید عمومی کانال "
+"تنظیم شود فقط کاربرانی که کلیدهای عمومی‌شان در فهرست آمده باشد می‌توانند به "
+"کانال بپیوندند."
 
 msgid "Channel Authentication"
 msgstr "تأیید هویت کانال"
@@ -9015,7 +9051,8 @@ msgid "topic [&lt;new topic&gt;]:  View or change the topic"
 msgstr "‏topic [&lt;new topic&gt;]‎: نمایش یا تغییر موضوع"
 
 msgid "join &lt;channel&gt; [&lt;password&gt;]:  Join a chat on this network"
-msgstr "‏join &lt;channel&gt; [&lt;password&gt;]‎: پیوستن به یک گپ در این شبکه"
+msgstr ""
+"‏join &lt;channel&gt; [&lt;password&gt;]‎: پیوستن به یک گپ در این شبکه"
 
 msgid "list:  List channels on this network"
 msgstr "list: فهرست کردن کانال‌های این شبکه"
@@ -9026,7 +9063,8 @@ msgstr "‏whois &lt;nick&gt;‎: نمایش اطلاعات لقب"
 msgid "msg &lt;nick&gt; &lt;message&gt;:  Send a private message to a user"
 msgstr "‏msg &lt;nick&gt; &lt;message&gt;‎: فرستادن پیغام خصوصی به کاربر"
 
-msgid "query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
+msgid ""
+"query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
 msgstr "‏query &lt;nick&gt; [&lt;message&gt;]‎: فرستادن پیغام خصوصی به کاربر"
 
 msgid "motd:  View the server's Message Of The Day"
@@ -9054,15 +9092,15 @@ msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
 "channel modes"
 msgstr ""
-"‏cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]‎: تغییر یا نمایش حالت‌های "
-"کانال"
+"‏cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]‎: تغییر یا نمایش "
+"حالت‌های کانال"
 
 msgid ""
 "cumode &lt;channel&gt; +|-&lt;modes&gt; &lt;nick&gt;:  Change nick's modes "
 "on channel"
 msgstr ""
-"‏cumode &lt;channel&gt; +|-&lt;modes&gt; &lt;nick&gt;‎: تغییر حالت‌های لقب روی "
-"کانال"
+"‏cumode &lt;channel&gt; +|-&lt;modes&gt; &lt;nick&gt;‎: تغییر حالت‌های لقب "
+"روی کانال"
 
 msgid "umode &lt;usermodes&gt;:  Set your modes in the network"
 msgstr "‏umode &lt;usermodes&gt;‎: تنظیم حالت‌های شما روی شبکه"
@@ -9075,7 +9113,8 @@ msgid ""
 "channel invite list"
 msgstr ""
 
-msgid "kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
+msgid ""
+"kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
 msgstr ""
 "‏kick &lt;channel&gt; &lt;nick&gt; [comment]‎: بیرون انداختن کارگیر از کانال"
 
@@ -9101,8 +9140,8 @@ msgid ""
 "names [-count|-ops|-halfops|-voices|-normal] &lt;channel(s)&gt;:  List "
 "specific users in channel(s)"
 msgstr ""
-"‏names [-count|-ops|-halfops|-voices|-normal] &lt;channel(s)&gt;‎: فهرست کردن "
-"کاربران مشخصی در کانال(ها)"
+"‏names [-count|-ops|-halfops|-voices|-normal] &lt;channel(s)&gt;‎: فهرست "
+"کردن کاربران مشخصی در کانال(ها)"
 
 #. *< type
 #. *< ui_requirement
@@ -9192,7 +9231,7 @@ msgstr "الگوریتم: \t%s\n"
 
 #, c-format
 msgid "Key Length: \t%d bits\n"
-msgstr "طول کلید : \t%Id بیت \n"
+msgstr "طول کلید : \t%Id بیت\n"
 
 #, c-format
 msgid "Version: \t%s\n"
@@ -9241,7 +9280,8 @@ msgid ""
 "%s sent message to whiteboard on %s channel. Would you like to open the "
 "whiteboard?"
 msgstr ""
-"‏%s پیغامی به تخته‌سفید در کانال %s فرستاد. آیا می‌خواهید تخته‌سفید را باز کنید؟"
+"‏%s پیغامی به تخته‌سفید در کانال %s فرستاد. آیا می‌خواهید تخته‌سفید را باز "
+"کنید؟"
 
 msgid "Whiteboard"
 msgstr "تخته‌سفید"
@@ -9437,8 +9477,8 @@ msgid ""
 "%s has (retroactively) denied your request to add them to your list for the "
 "following reason: %s."
 msgstr ""
-"‏%s به این دلیل (مثل دفعهٔ قبل) درخواست شما را برای اضافه کردنشان به فهرستتان "
-"رد کرد: %s."
+"‏%s به این دلیل (مثل دفعهٔ قبل) درخواست شما را برای اضافه کردنشان به "
+"فهرستتان رد کرد: %s."
 
 #, c-format
 msgid "%s has (retroactively) denied your request to add them to your list."
@@ -9512,7 +9552,8 @@ msgid ""
 msgstr ""
 
 #, c-format
-msgid "Unknown error number %d. Logging into the Yahoo! website may fix this."
+msgid ""
+"Unknown error number %d. Logging into the Yahoo! website may fix this."
 msgstr ""
 "خطای نامعلوم با شمارهٔ %d. ورود به وب‌گاه Yahoo!‎ ممکن است این مشکل را برطرف "
 "کند."
@@ -9612,7 +9653,7 @@ msgstr ""
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
-#.
+#. 
 msgid "Sent Doodle request."
 msgstr ""
 
@@ -9646,8 +9687,8 @@ msgid ""
 "If you wish to view this profile, you will need to visit this link in your "
 "web browser:"
 msgstr ""
-"اگر مایل به دیدن این شرح حال هستید، باید این پیوند را در مرورگر وب‌تان بازدید "
-"کنید"
+"اگر مایل به دیدن این شرح حال هستید، باید این پیوند را در مرورگر وب‌تان "
+"بازدید کنید"
 
 msgid "Yahoo! ID"
 msgstr "شناسهٔ Yahoo!‎"
@@ -9794,13 +9835,15 @@ msgid "zl &lt;nick&gt;: Locate user"
 msgstr "‏zl &lt;nick&gt;‎: مکان‌یابی کاربر"
 
 msgid "instance &lt;instance&gt;: Set the instance to be used on this class"
-msgstr "instance &lt;instance&gt;: تنظیم نمونه‌ای که روی این کلاس استفاده می‌شود"
+msgstr ""
+"instance &lt;instance&gt;: تنظیم نمونه‌ای که روی این کلاس استفاده می‌شود"
 
 msgid "inst &lt;instance&gt;: Set the instance to be used on this class"
 msgstr "inst &lt;instance&gt;: تنظیم نمونه‌ای که روی این کلاس استفاده می‌شود"
 
 msgid "topic &lt;instance&gt;: Set the instance to be used on this class"
-msgstr "topic &lt;instance&gt;: تنظیم نمونه‌ای که روی این کلاس استفاده می‌شود"
+msgstr ""
+"topic &lt;instance&gt;: تنظیم نمونه‌ای که روی این کلاس استفاده می‌شود"
 
 msgid "sub &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Join a new chat"
 msgstr ""
@@ -9811,18 +9854,18 @@ msgid ""
 msgstr ""
 
 msgid ""
-"zci &lt;class&gt; &lt;instance&gt;: Send a message to &lt;<i>class</i>,"
-"<i>instance</i>,*&gt;"
+"zci &lt;class&gt; &lt;instance&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,*&gt;"
 msgstr ""
 
 msgid ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;"
-"<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 
 msgid ""
-"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;MESSAGE,"
-"<i>instance</i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 
 msgid "zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;"
@@ -9901,7 +9944,7 @@ msgstr ""
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c Yes and @c No buttons.
-#.
+#. 
 msgid "_Yes"
 msgstr "_بله"
 
@@ -9910,17 +9953,17 @@ msgstr "_نه"
 
 #. *
 #. * A wrapper for purple_request_action() that uses Accept and Cancel buttons.
-#.
+#. 
 #. *
 #. * A wrapper for purple_request_action_with_icon() that uses Accept and Cancel
 #. * buttons.
-#.
+#. 
 msgid "_Accept"
 msgstr "_پذیرش"
 
 #. *
 #. * The default message to use when the user becomes auto-away.
-#.
+#. 
 msgid "I'm not here right now"
 msgstr "فعلاً نیستم"
 
@@ -10012,12 +10055,12 @@ msgstr "+++ %s بی‌کار شد"
 msgid "+++ %s became unidle"
 msgstr "+++ %s دیگر بی‌کار نیست"
 
-#.
+#. 
 #. * This string determines how some dates are displayed.  The default
 #. * string "%x %X" shows the date then the time.  Translators can
 #. * change this to "%X %x" if they want the time to be shown first,
 #. * followed by the date.
-#.
+#. 
 #, c-format
 msgid "%x %X"
 msgstr "%x %X"
@@ -10090,7 +10133,7 @@ msgstr "اتصال به %s ممکن نیست: ‏%s"
 
 #, c-format
 msgid " - %s"
-msgstr "-‏ %s"
+msgstr " -‏ %s"
 
 #, c-format
 msgid " (%s)"
@@ -10126,15 +10169,15 @@ msgid ""
 "the old file has been renamed to %s~."
 msgstr ""
 
-msgid "Pidgin Internet Messenger"
-msgstr "پیغام‌رسان اینترنتی پیجین"
+msgid ""
+"Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
+msgstr ""
 
 msgid "Internet Messenger"
 msgstr "پیغام‌رسان اینترنتی"
 
-msgid ""
-"Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
-msgstr ""
+msgid "Pidgin Internet Messenger"
+msgstr "پیغام‌رسان اینترنتی پیجین"
 
 #. Build the login options frame.
 msgid "Login Options"
@@ -10391,6 +10434,7 @@ msgid "You have %d contact named %s. Would you like to merge them?"
 msgid_plural ""
 "You currently have %d contacts named %s. Would you like to merge them?"
 msgstr[0] ""
+msgstr[1] ""
 
 msgid ""
 "Merging these contacts will cause them to share a single entry on the buddy "
@@ -10753,6 +10797,7 @@ msgid "%d account was disabled because you signed on from another location:"
 msgid_plural ""
 "%d accounts were disabled because you signed on from another location:"
 msgstr[0] ""
+msgstr[1] ""
 
 msgid "<b>Username:</b>"
 msgstr "<b>نام کاربری:</b>"
@@ -10771,14 +10816,15 @@ msgstr ""
 msgid ""
 "<span weight='bold' size='larger'>Welcome to %s!</span>\n"
 "\n"
-"You have no accounts enabled. Enable your IM accounts from the <b>Accounts</"
-"b> window at <b>Accounts->Manage Accounts</b>. Once you enable accounts, "
-"you'll be able to sign on, set your status, and talk to your friends."
+"You have no accounts enabled. Enable your IM accounts from the "
+"<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you enable "
+"accounts, you'll be able to sign on, set your status, and talk to your "
+"friends."
 msgstr ""
 
 #. set the Show Offline Buddies option. must be done
 #. * after the treeview or faceprint gets mad. -Robot101
-#.
+#. 
 msgid "/Buddies/Show/Offline Buddies"
 msgstr ""
 
@@ -11237,7 +11283,7 @@ msgid "Warning"
 msgstr "اخطار"
 
 msgid "Error "
-msgstr "خطا"
+msgstr "خطا "
 
 msgid "Fatal Error"
 msgstr "خطای مهلک"
@@ -11553,30 +11599,19 @@ msgstr "تی ام تان و تیم گنوم وی‌آی"
 
 #, c-format
 msgid ""
-"%s is a messaging client based on libpurple which is capable of connecting "
-"to multiple messaging services at once.  %s is written in C using GTK+.  %s "
-"is released, and may be modified and redistributed,  under the terms of the "
-"GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
-"copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+"%s</i><br><br><font color='red'>Modified version with no support from the "
+"official team.</font><br><br>"
 msgstr ""
 
 #, c-format
 msgid ""
-"<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked Questions</A><BR>\tIRC "
-"Channel: #pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin."
-"im<BR><BR>"
-msgstr ""
-
-msgid ""
-"<font size=\"4\"><b>Help from other Pidgin users</b></font> is available by "
-"e-mailing <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">This is a <b>public</b> mailing list! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">archive</a>)<br/>We can't help with third-party protocols or "
-"plugins!<br/>This list's primary language is <b>English</b>.  You are "
-"welcome to post in another language, but the responses may be less helpful."
-"<br/>"
+"%s is a messaging client based on libpurple which is capable of connecting "
+"to multiple messaging services at once.  %s is written in C using GTK+.  %s "
+"is released, and may be modified and redistributed,  under the terms of the "
+"GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
+"copyrighted by its contributors, a list of whom is also distributed with %s. "
+" There is no warranty for %s.<BR><BR>"
 msgstr ""
 
 #, c-format
@@ -11684,8 +11719,8 @@ msgid ""
 "You are about to merge the group called %s into the group called %s. Do you "
 "want to continue?"
 msgstr ""
-"شما در حال ادغام کردن گروهی به نام %s با گروهی به نام %s هستید. آیا می‌خواهید "
-"ادامه دهید؟"
+"شما در حال ادغام کردن گروهی به نام %s با گروهی به نام %s هستید. آیا "
+"می‌خواهید ادامه دهید؟"
 
 msgid "Merge Groups"
 msgstr "ادغام گروه‌ها"
@@ -11866,7 +11901,8 @@ msgstr ""
 msgid "\"Attention\" Name Color"
 msgstr ""
 
-msgid "Color to draw the name of a message you received containing your name."
+msgid ""
+"Color to draw the name of a message you received containing your name."
 msgstr ""
 
 msgid "Action Message Name Color"
@@ -11973,8 +12009,8 @@ msgid ""
 "This smiley is disabled because a custom smiley exists for this shortcut:\n"
 " %s"
 msgstr ""
-"این شکلک از کارانداخته شده است چون برای این میان‌بُرشکلک سفارشی وجود داد⏎:\\n  "
-"%s"
+"این شکلک از کارانداخته شده است چون برای این میان‌بُرشکلک سفارشی وجود داد⏎:\\"
+"n  %s"
 
 msgid "Smile!"
 msgstr "لبخند!"
@@ -12105,8 +12141,8 @@ msgid ""
 "Are you sure you want to permanently delete the system log which started at "
 "%s?"
 msgstr ""
-"آیا مطمئنید می‌خواهید تاریخچهٔ سیستم را که از %s  آغاز شده است برای همیشه حذف "
-"کنید؟"
+"آیا مطمئنید می‌خواهید تاریخچهٔ سیستم را که از %s  آغاز شده است برای همیشه "
+"حذف کنید؟"
 
 msgid "Delete Log?"
 msgstr ""
@@ -13204,10 +13240,10 @@ msgstr ""
 msgid "Pidgin smileys"
 msgstr "شکلک‌‌های پیجین"
 
-msgid "none"
+msgid "Selecting this disables graphical emoticons."
 msgstr ""
 
-msgid "Selecting this disables graphical emoticons."
+msgid "none"
 msgstr ""
 
 msgid "Small"
@@ -13307,8 +13343,8 @@ msgid ""
 "Allows for changing the point values of idle/away/offline states for buddies "
 "in contact priority computations."
 msgstr ""
-"اجازهٔ تغییر بارم‌بندی وضعیت‌های بی‌کار/رفته/برون‌خط رفقا در محاسبات اولویت تماس "
-"را به شما می‌دهد."
+"اجازهٔ تغییر بارم‌بندی وضعیت‌های بی‌کار/رفته/برون‌خط رفقا در محاسبات اولویت "
+"تماس را به شما می‌دهد."
 
 msgid "Conversation Colors"
 msgstr "رنگ‌های گفتگو"
@@ -13489,7 +13525,8 @@ msgstr "پیغام‌رسانی اینترنتی"
 
 #. Add the label.
 msgid "Select a person from your address book below, or add a new person."
-msgstr "شخصی را از دفترجه نشانی‌تان در زیر انتخاب کنید یا شخص جدیدی اضافه کنید."
+msgstr ""
+"شخصی را از دفترجه نشانی‌تان در زیر انتخاب کنید یا شخص جدیدی اضافه کنید."
 
 msgid "Group:"
 msgstr "گروه:"
@@ -13507,8 +13544,8 @@ msgid ""
 "Select a person from your address book to add this buddy to, or create a new "
 "person."
 msgstr ""
-"از دفترچهٔ نشانی‌تان شخصی را انتخاب کنید تا این رفیق به اطلاعات او اضافه شود، "
-"و یا شخص جدیدی ایجاد کنید."
+"از دفترچهٔ نشانی‌تان شخصی را انتخاب کنید تا این رفیق به اطلاعات او اضافه "
+"شود، و یا شخص جدیدی ایجاد کنید."
 
 #. Add the expander
 msgid "User _details"
@@ -13596,8 +13633,8 @@ msgstr "آزمایش سیگنال‌های GTK"
 #. *  description
 msgid "Test to see that all ui signals are working properly."
 msgstr ""
-"درست کار کردن سیگنال‌های واسط کاربر را آزمایش کنید.آزمایش برای اطمینان از این "
-"که همهٔ سیگنال‌های رابط کاربر درست کار می‌کنند."
+"درست کار کردن سیگنال‌های واسط کاربر را آزمایش کنید.آزمایش برای اطمینان از "
+"این که همهٔ سیگنال‌های رابط کاربر درست کار می‌کنند."
 
 #, c-format
 msgid ""
@@ -13632,7 +13669,8 @@ msgstr "بررسی می‌کند که نامهٔ محلی جدیدی رسیده 
 
 msgid "Adds a small box to the buddy list that shows if you have new mail."
 msgstr ""
-"جعبهٔ کوچکی به فهرست رفقا اضافه می‌کند که نشان می‌دهد شما نامهٔ جدید دارید یا نه."
+"جعبهٔ کوچکی به فهرست رفقا اضافه می‌کند که نشان می‌دهد شما نامهٔ جدید دارید "
+"یا نه."
 
 msgid "Markerline"
 msgstr "خط علامت"
@@ -13929,8 +13967,8 @@ msgid ""
 "Checks periodically for new releases and notifies the user with the "
 "ChangeLog."
 msgstr ""
-"به طور منظم رسیدن انتشارهای جدید را بررسی می‌کند و تغییرات آن با نسخه‌های قبلی "
-"را به اطلاع کاربر می‌رساند."
+"به طور منظم رسیدن انتشارهای جدید را بررسی می‌کند و تغییرات آن با نسخه‌های "
+"قبلی را به اطلاع کاربر می‌رساند."
 
 #. *< major version
 #. *< minor version
@@ -13987,8 +14025,8 @@ msgstr "_ارسال می‌شود:"
 #. Created here so it can be passed to whole_words_button_toggled.
 msgid "_Exact case match (uncheck for automatic case handling)"
 msgstr ""
-"مطابقت _دقیق بزرگی و کوچکی حروف (برای ادارهٔ خودکار بزرگی و کوچکی حروف، نشانه "
-"را بردارید)"
+"مطابقت _دقیق بزرگی و کوچکی حروف (برای ادارهٔ خودکار بزرگی و کوچکی حروف، "
+"نشانه را بردارید)"
 
 msgid "Only replace _whole words"
 msgstr "فقط جای‌گزینی _کلمات کامل"
@@ -14204,9 +14242,8 @@ msgstr ""
 msgid "Show number of unread _messages on launcher icon"
 msgstr ""
 
-#, fuzzy
 msgid "Show number of unread co_nversations on launcher icon"
-msgstr "تعداد گفتگوها در هر پنجره"
+msgstr ""
 
 #. Messaging menu integration
 msgid "Messaging Menu"
@@ -14413,20 +14450,6 @@ msgstr ""
 msgid "This plugin is useful for debugging XMPP servers or clients."
 msgstr ""
 
-msgid "The installer is already running."
-msgstr "نصب‌کننده از قبل در حال اجرا است."
-
-msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
-"again."
-msgstr ""
-"برنامه پيجين از قبل در حال اجرا است. لطفاً از پيجين خارج شود و دوباره سعى "
-"کنيد."
-
-#. "Next >" appears on a button on the License Page of the Installer
-msgid "Next >"
-msgstr "بعد >"
-
 #. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
 msgid ""
 "$(^Name) is released under the GNU General Public License (GPL). The license "
@@ -14435,97 +14458,37 @@ msgstr ""
 "$(^Name) تحت مجوز عمومى همگانى گنو (GPL) منتشر شده است. اين مجوز تنها براى "
 "اطلاع‌رسانى اينجا ارائه شده است. $_CLICK"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "کارگير پيغام‌رسان اينترنتى پيجين (اجبارى)"
-
-#. Installer Subsection Text
-msgid "GTK+ Runtime (required if not present)"
+#. Installer Subsection Detailed Description
+msgid "A multi-platform GUI toolkit, used by Pidgin"
 msgstr ""
+"جعبه‌ابزار رابط کاربر گرافيکى چند بسترى که پيجين از آن استفاده مى‌کند"
 
-#. Installer Subsection Text
-msgid "Shortcuts"
-msgstr "میان‌بُرها"
-
-#. Installer Subsection Text
-msgid "Desktop"
-msgstr "روميزى"
-
-#. Installer Subsection Text
-msgid "Start Menu"
-msgstr "منوى آغاز"
-
-#. Installer Subsection Text
-msgid "Localizations"
-msgstr "نسخه‌های محلی"
+msgid ""
+"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"again."
+msgstr ""
+"برنامه پيجين از قبل در حال اجرا است. لطفاً از پيجين خارج شود و دوباره سعى "
+"کنيد."
 
 #. Installer Subsection Detailed Description
 msgid "Core Pidgin files and dlls"
 msgstr "پرونده‌ها و DLLهاى اصلى پيجين"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "ميان‌بُرهاى راه‌اندازى پيجين"
+msgid "Create a Start Menu entry for Pidgin"
+msgstr "ايجاد مورد براى پيجين در منو آغاز"
 
 #. Installer Subsection Detailed Description
 msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr "ايجاد ميان‌بُر به پيجين روى روميزى"
 
-#. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "ايجاد مورد براى پيجين در منو آغاز"
-
-#. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "جعبه‌ابزار رابط کاربر گرافيکى چند بسترى که پيجين از آن استفاده مى‌کند"
-
 #. Installer Subsection Text
 msgid "Debug Symbols (for reporting crashes)"
 msgstr ""
 
-#. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "صفحه وبى پيجين را ببينيد"
-
-msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
-"version will be installed without removing the currently installed version."
-msgstr ""
-"حذف نسخه‌اى از پيجين که در حال حاضر نصب است ممکن نيست. نسخه جديد بدون حذف "
-"نسخه موجود نصب مى‌شود."
-
-msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
-msgstr ""
-
 #. Installer Subsection Text
-msgid "URI Handlers"
-msgstr "متصدى‌هاى نشانى اينترنتى"
-
-#. Installer Subsection Text
-msgid "Spellchecking Support"
-msgstr "پشتيبانى غلط‌يابى املايى"
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-msgstr ""
-
-#. Installer Subsection Detailed Description
-msgid ""
-"Support for Spellchecking.  (Internet connection required for installation)"
-msgstr "پشتيبانى غلط‌يابى املايى. (براى نصب اتصال اينترنتى لازم است)"
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
-msgstr ""
+msgid "Desktop"
+msgstr "روميزى"
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
@@ -14534,12 +14497,91 @@ msgid ""
 "from http://pidgin.im/download/windows/ ."
 msgstr ""
 
+#. $R2 will display the URL that the Debug Symbols failed to download from
+msgid ""
+"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
+"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgstr ""
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
+"installation instructions are at: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "GTK+ Runtime (required if not present)"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Localizations"
+msgstr "نسخه‌های محلی"
+
+#. "Next >" appears on a button on the License Page of the Installer
+msgid "Next >"
+msgstr "بعد >"
+
+#. Installer Subsection Text
+msgid "Pidgin Instant Messaging Client (required)"
+msgstr "کارگير پيغام‌رسان اينترنتى پيجين (اجبارى)"
+
+msgid ""
+"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"already present).$\\rAre you sure you want to skip installing the GTK+ "
+"Runtime?"
+msgstr ""
+
+msgid "See applied changes"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Shortcuts"
+msgstr "میان‌بُرها"
+
+#. Installer Subsection Detailed Description
+msgid "Shortcuts for starting Pidgin"
+msgstr "ميان‌بُرهاى راه‌اندازى پيجين"
+
+#. Installer Subsection Text
+msgid "Spellchecking Support"
+msgstr "پشتيبانى غلط‌يابى املايى"
+
+#. Installer Subsection Text
+msgid "Start Menu"
+msgstr "منوى آغاز"
+
+#. Installer Subsection Detailed Description
+msgid ""
+"Support for Spellchecking.  (Internet connection required for installation)"
+msgstr "پشتيبانى غلط‌يابى املايى. (براى نصب اتصال اينترنتى لازم است)"
+
+msgid "The installer is already running."
+msgstr "نصب‌کننده از قبل در حال اجرا است."
+
 msgid ""
 "The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
 "that another user installed this application."
 msgstr ""
 "حذف‌کننده نمى‌تواند مداخل registery پيچين را پيدا کند.$\\r ممکن است کاربر "
 "ديگرى اين برنامه را نصب کرده باشد."
+
+#. Installer Subsection Text
+msgid "URI Handlers"
+msgstr "متصدى‌هاى نشانى اينترنتى"
+
+msgid ""
+"Unable to uninstall the currently installed version of Pidgin. The new "
+"version will be installed without removing the currently installed version."
+msgstr ""
+"حذف نسخه‌اى از پيجين که در حال حاضر نصب است ممکن نيست. نسخه جديد بدون حذف "
+"نسخه موجود نصب مى‌شود."
+
+#. Text displayed on Installer Finish Page
+msgid "Visit the Pidgin Web Page"
+msgstr "صفحه وبى پيجين را ببينيد"
 
 msgid "You do not have permission to uninstall this application."
 msgstr "شما اجازه لازم براى حذف اين برنامه را نداريد."
