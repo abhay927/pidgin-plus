@@ -776,7 +776,11 @@ pidgin_docklet_clicked(int button_type)
 					g_list_free(l);
 				}
 			} else {
+#ifdef _WIN32
 				pidgin_blist_force_visibility();
+#else
+				pidgin_blist_toggle_visibility();
+#endif
 			}
 			break;
 		case 3:

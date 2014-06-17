@@ -2955,8 +2955,10 @@ pidgin_conv_present_conversation(PurpleConversation *conv)
 	if (gtk_get_current_event_state(&state))
 		pidgin_conv_window_switch_gtkconv(gtkconv->win, gtkconv);
 
+#ifdef _WIN32
 	if (PIDGIN_WINDOW_ICONIFIED(gtkconv->win->window))
 		gtk_window_deiconify(GTK_WINDOW(gtkconv->win->window));
+#endif
 
 	gtk_window_present(GTK_WINDOW(gtkconv->win->window));
 }

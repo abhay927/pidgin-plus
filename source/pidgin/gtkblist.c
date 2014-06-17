@@ -70,8 +70,10 @@
 #include <gtk/gtk.h>
 #include <gdk/gdk.h>
 
+#ifdef _WIN32
 #include <windows.h>
 #include <gdk/gdkwin32.h>
+#endif
 
 typedef struct
 {
@@ -7311,6 +7313,7 @@ pidgin_blist_toggle_visibility()
 	}
 }
 
+#ifdef _WIN32
 gboolean 
 is_blist_visible(void)
 {
@@ -7349,6 +7352,7 @@ pidgin_blist_force_visibility()
 			purple_blist_set_visible(TRUE);
 	}
 }
+#endif
 
 void
 pidgin_blist_visibility_manager_add()
