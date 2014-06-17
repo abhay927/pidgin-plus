@@ -33,10 +33,10 @@ fi
 
 # Ubuntu changelog
 if [[ "$1" = "--ubuntu" ]]; then
-    distribution=$(lsb_release --codename --short || DISTRIBUTION)
-    maintainer=$(bzr whoami || echo "${DEBFULLNAME:-NAME} <${DEBEMAIL:-EMAIL}>")
-    package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed s/-/-${custom_version,,}+/)
-    xsl_parameters="$xsl_parameters -s package.version=$package_version -s distribution=$distribution"
+    [[ $(uname -s) = Linux ]] && package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed s/-/-${custom_version,,}+/)
+    distribution=$(lsb_release --codename --short 2> /dev/null || echo DISTRIBUTION)
+    maintainer=$(bzr whoami 2> /dev/null || echo "${DEBFULLNAME:-NAME} <${DEBEMAIL:-EMAIL}>")
+    xsl_parameters="$xsl_parameters -s package.version=${package_version:-VERSION} -s distribution=$distribution"
     xmlstarlet transform --omit-decl changelog.debian.xsl $xsl_parameters -s maintainer="$maintainer" -s date="$(date -R)" changelog.xml | dos2unix > changelog.ubuntu.txt
     exit
 fi
