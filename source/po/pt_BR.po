@@ -21,16 +21,6 @@ msgstr ""
 "X-Generator: Launchpad (build 17031)\n"
 "Language: Brazilian Portuguese\n"
 
-msgid "See applied changes"
-msgstr "Consultar modificações aplicadas"
-
-msgid "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package "
-"revision %s</i><br><br><font color='red'>Modified version with no support "
-"from the official team.</font><br><br>"
-msgstr "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, revisão de "
-"pacote %s</i><br><br><font color='red'>Versão modificada sem nenhum suporte "
-"do time oficial.</font><br><br>"
-
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
 msgid "Finch"
