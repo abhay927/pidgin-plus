@@ -15,7 +15,7 @@ if [[ "$1" = "--update-version" ]]; then
 fi
 
 # Prepare for changelog generation
-if [[ "$1" =~ "--(html|debian)" ]]; then
+if [[ "$1" = --html || "$1" = --debian ]]; then
     version_pattern="PACKAGE_VERSION=[\"']?([^\"']+)[\"']?"
     pidgin_version=$(grep -E "$version_pattern" ../source/configure | sed -r s/"$version_pattern"/'\1'/)
     custom_version=$(grep -E "$suffix_pattern" ../source/configure.ac | sed -r s/"$suffix_pattern"/'\1'/)
