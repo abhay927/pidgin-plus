@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Pidgin Translation Template Updater
+# Copyright (c) 2014 Renato Silva
+# GNU GPLv2 licensed
+
 if [[ -z "$1" ]]; then
     echo "Usage: $(basename "$0") DEVELOPMENT_ROOT"
     exit

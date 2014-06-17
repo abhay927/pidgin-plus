@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Pidgin Windows Build Helper
+# Copyright (c) 2014 Renato Silva
+# GNU GPLv2 licensed
+
 if [[ -z "$1" ]]; then
     echo "Usage: $(basename "$0") DEVELOPMENT_ROOT [--reset]"
     exit
@@ -10,7 +14,7 @@ pidgin="$devroot/pidgin.build"
 [[ "$2" = "--reset" ]] && rm -rf "$pidgin"
 mkdir -p "$pidgin"
 cp -r ../source/* "$pidgin"
-changelog.sh && mv -v changelog.html "$pidgin/CHANGES.html"
+changelog.sh --html && mv -v changelog.html "$pidgin/CHANGES.html"
 eval $(../../windev/pidgin-windev.sh "$devroot" --path)
 cd "$pidgin"
 
