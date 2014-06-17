@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:en="default">
-    <xsl:param name="version.custom"/>
+    <xsl:param name="package.version"/>
+    <xsl:param name="distribution"/>
     <xsl:param name="maintainer"/>
     <xsl:param name="date"/>
 
     <xsl:template match="/">
-        <xsl:text>pidgin (VERSION+</xsl:text><xsl:value-of select="$version.custom"/><xsl:text>) DISTRIBUTION; urgency=low</xsl:text>
+        <xsl:text>pidgin (</xsl:text><xsl:value-of select="$package.version"/><xsl:text>) </xsl:text><xsl:value-of select="$distribution"/><xsl:text>; urgency=low</xsl:text>
         <xsl:text>&#10;&#10;</xsl:text>
 
         <xsl:for-each select="changelog/change">

@@ -15,6 +15,8 @@ if [[ "$1" != "--ubuntu" ]]; then
     exit
 fi
 
-date=$(date '+%a, %d %b %Y %H:%M:%S %z')
-maintainer=$(bzr whoami || echo "NAME <EMAIL>")
-xmlstarlet transform --omit-decl changelog.debian.xsl $xsl_parameters -s maintainer="$maintainer" -s date="$date" changelog.xml | dos2unix > changelog.ubuntu.txt
+distribution=$(lsb_release --codename --short || DISTRIBUTION)
+maintainer=$(bzr whoami || echo "${DEBFULLNAME:-NAME} <${DEBEMAIL:-EMAIL}>")
+package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed s/-/-${custom_version,,}+/)
+xsl_parameters="$xsl_parameters -s package.version=$package_version -s distribution=$distribution"
+xmlstarlet transform --omit-decl changelog.debian.xsl $xsl_parameters -s maintainer="$maintainer" -s date="$(date -R)" changelog.xml | dos2unix > changelog.ubuntu.txt
