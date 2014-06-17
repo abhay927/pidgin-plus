@@ -11,16 +11,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 10:38-0800\n"
-"PO-Revision-Date: 2014-02-02 11:20+0000\n"
+"POT-Creation-Date: 2014-05-22 14:13-0200\n"
+"PO-Revision-Date: 2014-05-26 07:09+0000\n"
 "Last-Translator: Panos Bouklis <panos@echidna-band.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/pidgin/language/"
-"el/)\n"
-"Language: el\n"
+"Language-Team: Greek "
+"(http://www.transifex.com/projects/p/pidgin/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:48+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
+"Language: el\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
@@ -383,8 +385,8 @@ msgid "Unblock"
 msgstr "Ακύρωση αποκλεισμού"
 
 msgid ""
-"Please enter the username or alias of the person you would like to Block/"
-"Unblock."
+"Please enter the username or alias of the person you would like to "
+"Block/Unblock."
 msgstr ""
 "Παρακαλούμε εισάγετε το όνομα χρήστη ή το ψευδώνυμο του ατόμου το οποίο "
 "θέλετε να αποκλείσετε/ακυρώσετε τον αποκλεισμό του."
@@ -398,7 +400,8 @@ msgstr "OK"
 msgid "New Instant Message"
 msgstr "Νέο άμεσο μήνυμα"
 
-msgid "Please enter the username or alias of the person you would like to IM."
+msgid ""
+"Please enter the username or alias of the person you would like to IM."
 msgstr ""
 "Παρακαλούμε εισάγετε το όνομα χρήστη ή το ψευδώνυμο του ατόμου στο οποίο "
 "θέλετε να στείλετε άμεσο μήνυμα."
@@ -581,7 +584,8 @@ msgstr "Επανενεργοποίηση λογαριασμού"
 msgid "No such command."
 msgstr "Δεν υπάρχει τέτοια εντολή."
 
-msgid "Syntax Error:  You typed the wrong number of arguments to that command."
+msgid ""
+"Syntax Error:  You typed the wrong number of arguments to that command."
 msgstr ""
 "Σφάλμα σύνταξης:  Πληκτρολογήσατε λάθος αριθμό ορισμάτων για αυτή την εντολή."
 
@@ -749,14 +753,15 @@ msgstr "statuses: Εμφάνιση παραθύρου αποθηκευμένων
 
 msgid ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Set the color "
-"for different classes of messages in the conversation window.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"for different classes of messages in the conversation window.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 msgstr ""
 "msgcolor &lt;κλάση&gt; &lt;προσκήνιοgt; &lt;παρασκήνιο&gt;: Ρύθμιση του "
-"χρώματος για τις διαφορετικές κλάσεις μηνυμάτων στο παράθυρο συνομιλίας."
-"<br>    &lt;κλάση&gt;: receive, send, highlight, action, timestamp<br>    "
+"χρώματος για τις διαφορετικές κλάσεις μηνυμάτων στο παράθυρο συνομιλίας.<br> "
+"   &lt;κλάση&gt;: receive, send, highlight, action, timestamp<br>    "
 "&lt;προσκήνιο/παρασκήνιο&gt;: black, red, green, blue, white, gray, "
 "darkgray, magenta, cyan, default<br><br>ΠΑΡΑΔΕΙΓΜΑ:<br>    msgcolor send "
 "cyan default"
@@ -770,7 +775,7 @@ msgstr "Παράθυρο αποσφαλμάτωσης"
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
-#.
+#. 
 msgid "Clear"
 msgstr "Καθαρισμός"
 
@@ -1461,7 +1466,8 @@ msgstr "Δεν ήταν δυνατή η εύρεση της οθόνης X"
 msgid "Couldn't find window"
 msgstr "Δεν ήταν δυνατή η εύρεση ενός παραθύρου"
 
-msgid "This plugin cannot be loaded because it was not built with X11 support."
+msgid ""
+"This plugin cannot be loaded because it was not built with X11 support."
 msgstr ""
 "Αυτό το πρόσθετο δεν μπορεί να φορτωθεί επειδή δεν δημιουργήθηκε με "
 "υποστήριξη X11."
@@ -2083,8 +2089,72 @@ msgstr "Η μεταφορά αρχείου σε %s απέτυχε."
 msgid "File transfer from %s failed."
 msgstr "Η μεταφορά αρχείου από %s απέτυχε."
 
-msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"aim\" URLs"
+msgid "Run the command in a terminal"
+msgstr "Εκτέλεση της εντολής σε τερματικό"
+
+msgid "The command used to handle \"aim\" URLs, if enabled."
+msgstr ""
+"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"aim\" URLs, αν είναι "
+"ενεργοποιημένα."
+
+msgid "The command used to handle \"gg\" URLs, if enabled."
+msgstr ""
+"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"gg\" URLs, αν είναι "
+"ενεργοποιημένα."
+
+msgid "The command used to handle \"icq\" URLs, if enabled."
+msgstr ""
+"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"icq\" URLs, αν είναι "
+"ενεργοποιημένα."
+
+msgid "The command used to handle \"irc\" URLs, if enabled."
+msgstr ""
+"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"irc\" URLs, αν είναι "
+"ενεργοποιημένα."
+
+msgid "The command used to handle \"msnim\" URLs, if enabled."
+msgstr ""
+"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"msnim\" URLs, αν είναι "
+"ενεργοποιημένα."
+
+msgid "The command used to handle \"sip\" URLs, if enabled."
+msgstr ""
+"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"sip\" URLs, αν είναι "
+"ενεργοποιημένα."
+
+msgid "The command used to handle \"xmpp\" URLs, if enabled."
+msgstr ""
+"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"xmpp\" URLs, αν είναι "
+"ενεργοποιημένα."
+
+msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgstr ""
+"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"ymsgr\" URLs, αν είναι "
+"ενεργοποιημένα."
+
+msgid "The handler for \"aim\" URLs"
+msgstr "Διαχειριστής των \"aim\" URLs"
+
+msgid "The handler for \"gg\" URLs"
+msgstr "Διαχειριστής των \"gg\" URLs"
+
+msgid "The handler for \"icq\" URLs"
+msgstr "Διαχειριστής των \"icq\" URLs"
+
+msgid "The handler for \"irc\" URLs"
+msgstr "Διαχειριστής των \"irc\" URLs"
+
+msgid "The handler for \"msnim\" URLs"
+msgstr "Διαχειριστής των \"msnim\" URLs"
+
+msgid "The handler for \"sip\" URLs"
+msgstr "Διαχειριστής των \"sip\" URLs"
+
+msgid "The handler for \"xmpp\" URLs"
+msgstr "Διαχειριστής των \"xmpp\" URLs"
+
+msgid "The handler for \"ymsgr\" URLs"
+msgstr "Διαχειριστής των \"ymsgr\" URLs"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
@@ -2093,44 +2163,12 @@ msgstr ""
 "Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο \"εντολής\" πρέπει να "
 "διαχειρίζεται τα \"aim\" URLs."
 
-msgid "The handler for \"aim\" URLs"
-msgstr "Διαχειριστής των \"aim\" URLs"
-
-msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr ""
-"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"aim\" URLs, αν είναι "
-"ενεργοποιημένα."
-
-msgid "Run the command in a terminal"
-msgstr "Εκτέλεση της εντολής σε τερματικό"
-
-msgid ""
-"True if the command used to handle this type of URL should be run in a "
-"terminal."
-msgstr ""
-"Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού "
-"του τύπου πρέπει να τρέχει σε τερματικό."
-
-msgid "Whether the specified command should handle \"gg\" URLs"
-msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"gg\" URLs"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"gg\" "
 "URLs."
 msgstr ""
 "Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο \"εντολής\" πρέπει να "
 "διαχειρίζεται τα \"gg\" URLs."
-
-msgid "The handler for \"gg\" URLs"
-msgstr "Διαχειριστής των \"gg\" URLs"
-
-msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr ""
-"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"gg\" URLs, αν είναι "
-"ενεργοποιημένα."
-
-msgid "Whether the specified command should handle \"icq\" URLs"
-msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"icq\" URLs"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"icq\" "
@@ -2139,34 +2177,12 @@ msgstr ""
 "Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο \"εντολής\" πρέπει να "
 "διαχειρίζεται τα \"icq\" URLs."
 
-msgid "The handler for \"icq\" URLs"
-msgstr "Διαχειριστής των \"icq\" URLs"
-
-msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr ""
-"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"icq\" URLs, αν είναι "
-"ενεργοποιημένα."
-
-msgid "Whether the specified command should handle \"irc\" URLs"
-msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"irc\" URLs"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"irc\" "
 "URLs."
 msgstr ""
 "Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο \"εντολής\" πρέπει να "
 "διαχειρίζεται τα \"irc\" URLs."
-
-msgid "The handler for \"irc\" URLs"
-msgstr "Διαχειριστής των \"irc\" URLs"
-
-msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr ""
-"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"irc\" URLs, αν είναι "
-"ενεργοποιημένα."
-
-msgid "Whether the specified command should handle \"msnim\" URLs"
-msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"msnim\" URLs"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"msnim\" "
@@ -2175,34 +2191,12 @@ msgstr ""
 "Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο \"εντολής\" πρέπει να "
 "διαχειρίζεται τα \"msnim\" URLs."
 
-msgid "The handler for \"msnim\" URLs"
-msgstr "Διαχειριστής των \"msnim\" URLs"
-
-msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr ""
-"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"msnim\" URLs, αν είναι "
-"ενεργοποιημένα."
-
-msgid "Whether the specified command should handle \"sip\" URLs"
-msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"sip\" URLs"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"sip\" "
 "URLs."
 msgstr ""
 "Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο \"εντολής\" πρέπει να "
 "διαχειρίζεται τα \"sip\" URLs."
-
-msgid "The handler for \"sip\" URLs"
-msgstr "Διαχειριστής των \"sip\" URLs"
-
-msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr ""
-"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"sip\" URLs, αν είναι "
-"ενεργοποιημένα."
-
-msgid "Whether the specified command should handle \"xmpp\" URLs"
-msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"xmpp\" URLs"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"xmpp\" "
@@ -2211,17 +2205,6 @@ msgstr ""
 "Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο \"εντολής\" πρέπει να "
 "διαχειρίζεται τα \"xmpp\" URLs."
 
-msgid "The handler for \"xmpp\" URLs"
-msgstr "Διαχειριστής των \"xmpp\" URLs"
-
-msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr ""
-"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"xmpp\" URLs, αν είναι "
-"ενεργοποιημένα."
-
-msgid "Whether the specified command should handle \"ymsgr\" URLs"
-msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"ymsgr\" URLs"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ymsgr\" "
 "URLs."
@@ -2229,13 +2212,39 @@ msgstr ""
 "Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο \"εντολής\" πρέπει να "
 "διαχειρίζεται τα \"ymsgr\" URLs."
 
-msgid "The handler for \"ymsgr\" URLs"
-msgstr "Διαχειριστής των \"ymsgr\" URLs"
-
-msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
 msgstr ""
-"Η εντολή που χρησιμοποιείται για τη διαχείριση των \"ymsgr\" URLs, αν είναι "
-"ενεργοποιημένα."
+"Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού "
+"του τύπου πρέπει να τρέχει σε τερματικό."
+
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"aim\" URLs"
+
+msgid "Whether the specified command should handle \"gg\" URLs"
+msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"gg\" URLs"
+
+msgid "Whether the specified command should handle \"icq\" URLs"
+msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"icq\" URLs"
+
+msgid "Whether the specified command should handle \"irc\" URLs"
+msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"irc\" URLs"
+
+msgid "Whether the specified command should handle \"msnim\" URLs"
+msgstr ""
+"Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"msnim\" URLs"
+
+msgid "Whether the specified command should handle \"sip\" URLs"
+msgstr "Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"sip\" URLs"
+
+msgid "Whether the specified command should handle \"xmpp\" URLs"
+msgstr ""
+"Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"xmpp\" URLs"
+
+msgid "Whether the specified command should handle \"ymsgr\" URLs"
+msgstr ""
+"Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα \"ymsgr\" URLs"
 
 msgid "<b><font color=\"red\">The logger has no read function</font></b>"
 msgstr ""
@@ -2295,8 +2304,8 @@ msgstr ""
 msgid ""
 "No codecs left. Your codec preferences in fs-codecs.conf are too strict."
 msgstr ""
-"Δεν απέμεινε κανένας κωδικοποιητής. Οι επιλογές κωδικοποιητών στο fs-codecs."
-"conf είναι πολύ περιορισμένες."
+"Δεν απέμεινε κανένας κωδικοποιητής. Οι επιλογές κωδικοποιητών στο fs-"
+"codecs.conf είναι πολύ περιορισμένες."
 
 msgid "A non-recoverable Farsight2 error has occurred."
 msgstr "Ένα ανεπανόρθωτο σφάλμα Farsight2 συνέβη."
@@ -2369,7 +2378,8 @@ msgstr ""
 
 #, c-format
 msgid "Autoaccepted file transfer of \"%s\" from \"%s\" completed."
-msgstr "Αυτόματη αποδοχή μεταφοράς του αρχείου \"%s\" από \"%s\" ολοκληρώθηκε."
+msgstr ""
+"Αυτόματη αποδοχή μεταφοράς του αρχείου \"%s\" από \"%s\" ολοκληρώθηκε."
 
 msgid "Autoaccept complete"
 msgstr "Η αυτόματη αποδοχή ολοκληρώθηκε"
@@ -2582,7 +2592,8 @@ msgid "Test plugin IPC support, as a server."
 msgstr "Πρόσθετο δοκιμής υποστήριξης IPC , ως εξυπηρετητής."
 
 #. *  description
-msgid "Test plugin IPC support, as a server. This registers the IPC commands."
+msgid ""
+"Test plugin IPC support, as a server. This registers the IPC commands."
 msgstr ""
 "Πρόσθετο δοκιμής υποστήριξης IPC , ως εξυπηρετητής. Καταχωρεί τις εντολές "
 "IPC."
@@ -2795,8 +2806,8 @@ msgid ""
 "The rest of the messages will be saved as pounces. You can edit/delete the "
 "pounce from the `Buddy Pounce' dialog."
 msgstr ""
-"Τα υπόλοιπα μηνύματα θα αποθηκευτούν ως εφόρμηση. Μπορείτε να επεξεργαστείτε/"
-"διαγράψετε την εφόρμηση από το διάλογο 'Εφορμήσεις φίλων'."
+"Τα υπόλοιπα μηνύματα θα αποθηκευτούν ως εφόρμηση. Μπορείτε να "
+"επεξεργαστείτε/διαγράψετε την εφόρμηση από το διάλογο 'Εφορμήσεις φίλων'."
 
 #, c-format
 msgid ""
@@ -3046,12 +3057,12 @@ msgid ""
 "install ActiveTCL from http://www.activestate.com\n"
 msgstr ""
 "Δεν ήταν δυνατός ο εντοπισμός μιας εγκατάστασης ActiveTCL. Αν θέλετε να "
-"χρησιμοποιήσετε πρόσθετα TCL εγκαταστήστε το ActiveTCL από το http://www."
-"activestate.com\n"
+"χρησιμοποιήσετε πρόσθετα TCL εγκαταστήστε το ActiveTCL από το "
+"http://www.activestate.com\n"
 
 msgid ""
-"Unable to find Apple's \"Bonjour for Windows\" toolkit, see http://d.pidgin."
-"im/BonjourWindows for more information."
+"Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
+"http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 "Δε βρέθηκε το σετ εργαλείων της Apple, \"Bonjour για Windows\", δείτε το "
 "http://d.pidgin.im/BonjourWindows για περισσότερες πληροφορίες."
@@ -3109,7 +3120,8 @@ msgid "%s has closed the conversation."
 msgstr "%s έκλεισε τη συνομιλία."
 
 msgid "Unable to send the message, the conversation couldn't be started."
-msgstr "Αδύνατο να σταλεί το μήνυμα, η συνομιλία δεν ήταν δυνατό να ξεκινήσει."
+msgstr ""
+"Αδύνατο να σταλεί το μήνυμα, η συνομιλία δεν ήταν δυνατό να ξεκινήσει."
 
 msgid "Error communicating with local mDNSResponder."
 msgstr "Σφάλμα επικοινωνίας με τον τοπικό mDNSResponder."
@@ -3358,11 +3370,11 @@ msgstr "Δεν υπάρχει μήνυμα της ημέρας σχετικό μ
 msgid "MOTD for %s"
 msgstr "Μήνυμα της ημέρας για %s"
 
-#.
+#. 
 #. * TODO: Handle this better. Probably requires a PurpleBOSHConnection
 #. * buffer that stores what is "being sent" until the
 #. * PurpleHTTPConnection reports it is fully sent.
-#.
+#. 
 #. TODO: do we really want to disconnect on a failure to write?
 #, c-format
 msgid "Lost connection with server: %s"
@@ -3435,10 +3447,10 @@ msgstr ""
 msgid "Real name"
 msgstr "Πραγματικό όνομα"
 
-#.
+#. 
 #. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
 #. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
+#. 
 msgid "Use SSL"
 msgstr "Χρήση SSL"
 
@@ -3473,7 +3485,8 @@ msgstr "Απαγορευμένη είσοδος"
 
 #, c-format
 msgid "Cannot ban %s: banlist is full"
-msgstr "Αδυναμία απαγόρευσης εισόδου σε %s: η λίστα απαγόρευσης εισόδου γέμισε"
+msgstr ""
+"Αδυναμία απαγόρευσης εισόδου σε %s: η λίστα απαγόρευσης εισόδου γέμισε"
 
 msgid " <i>(ircop)</i>"
 msgstr " <i>(ircop)</i>"
@@ -3639,7 +3652,8 @@ msgstr "Wallops από %s"
 msgid "Failed to initialize SASL authentication: %s"
 msgstr "Αποτυχία αρχικοποίησης αυθεντικοποίησης SASL: %s"
 
-msgid "SASL authentication failed: No worthy authentication mechanisms found."
+msgid ""
+"SASL authentication failed: No worthy authentication mechanisms found."
 msgstr ""
 "Η αυθεντικοποίηση SASLαπέτυχε: Δεν βρέθηκαν επαρκείς μηχανισμοί "
 "αυθεντικοποίησης."
@@ -3805,12 +3819,14 @@ msgstr ""
 "query &lt;ψευδώνυμο&gt; &lt;μήνυμα&gt;:  Αποστολή προσωπικού μηνύματος στο "
 "χρήστη (σε αντίθεση με το κανάλι)."
 
-msgid "quit [message]:  Disconnect from the server, with an optional message."
+msgid ""
+"quit [message]:  Disconnect from the server, with an optional message."
 msgstr ""
 "quit [μήνυμα]:  Αποσύνδεση από τον εξυπηρετητή, με ένα προαιρετικό μήνυμα."
 
 msgid "quote [...]:  Send a raw command to the server."
-msgstr "quote [...]:  Στείλτε μια μη διαμορφοποιημένη εντολή στον εξυπηρετητή."
+msgstr ""
+"quote [...]:  Στείλτε μια μη διαμορφοποιημένη εντολή στον εξυπηρετητή."
 
 msgid ""
 "remove &lt;nick&gt; [message]:  Remove someone from a room. You must be a "
@@ -3823,7 +3839,8 @@ msgid "time: Displays the current local time at the IRC server."
 msgstr "time: Εμφανίζει την τρέχουσα τοπική ώρα του εξυπηρετητή IRC."
 
 msgid "topic [new topic]:  View or change the channel topic."
-msgstr "topic [νέο θέμα συζήτησης]:  Εμφάνιση ή αλλαγή του θέματος συζήτησης."
+msgstr ""
+"topic [νέο θέμα συζήτησης]:  Εμφάνιση ή αλλαγή του θέματος συζήτησης."
 
 msgid "umode &lt;+|-&gt;&lt;A-Za-z&gt;:  Set or unset a user mode."
 msgstr ""
@@ -3884,7 +3901,7 @@ msgstr ""
 #. This happens when the server sends back jibberish
 #. * in the "additional data with success" case.
 #. * Seen with Wildfire 3.0.1.
-#.
+#. 
 msgid "Invalid response from server"
 msgstr "Λανθασμένη ανταπόκριση του εξυπηρετητή"
 
@@ -3914,7 +3931,8 @@ msgid "Server thinks authentication is complete, but client does not"
 msgstr ""
 "Ο εξυπηρετητής πιστεύει ότι ολοκληρώθηκε η ταυτοποίηση, αλλά ο πελάτης όχι"
 
-msgid "Server may require plaintext authentication over an unencrypted stream"
+msgid ""
+"Server may require plaintext authentication over an unencrypted stream"
 msgstr ""
 "Ο εξυπηρετητής μπορεί να απαιτεί ταυτοποίηση με σκέτο κείμενο μέσω μιας μη "
 "κωδικοποιημένης ροής"
@@ -3948,8 +3966,8 @@ msgstr ""
 "πιθανή επίθεση MITM"
 
 msgid ""
-"The server does support channel binding, but did not appear to advertise "
-"it.  This indicates a likely MITM attack"
+"The server does support channel binding, but did not appear to advertise it. "
+" This indicates a likely MITM attack"
 msgstr ""
 "Αυτός ο εξυπηρετητής υποστηρίζει δέσμευση καναλιού, αλλά δε φαίνεται να το "
 "διαφημίζει.  Αυτό υποδεικνύει ότι μπορεί να είναι επίθεση MITM"
@@ -4015,11 +4033,11 @@ msgstr "URL"
 msgid "Street Address"
 msgstr "Διεύθυνση"
 
-#.
+#. 
 #. * EXTADD is correct, EXTADR is generated by other
 #. * clients. The next time someone reads this, remove
 #. * EXTADR.
-#.
+#. 
 msgid "Extended Address"
 msgstr "Εκτεταμένη διεύθυνση"
 
@@ -4259,7 +4277,8 @@ msgid "Enter a Conference Server"
 msgstr "Είσοδος σε εξυπηρετητή συζητήσεων"
 
 msgid "Select a conference server to query"
-msgstr "Επιλέξτε τον εξυπηρετητή συνομιλίας που θέλετε να ζητήσετε πληροφορίες"
+msgstr ""
+"Επιλέξτε τον εξυπηρετητή συνομιλίας που θέλετε να ζητήσετε πληροφορίες"
 
 msgid "Find Rooms"
 msgstr "Εύρεση δωματίων"
@@ -4667,7 +4686,8 @@ msgstr "Δεν ήταν δυνατό να γίνει ping στο χρήστη %s
 
 #, c-format
 msgid "Unable to buzz, because there is nothing known about %s."
-msgstr "Αδυναμία ηλεκτρίσματος επειδή δεν είναι τίποτα γνωστό για τον/την %s."
+msgstr ""
+"Αδυναμία ηλεκτρίσματος επειδή δεν είναι τίποτα γνωστό για τον/την %s."
 
 #, c-format
 msgid "Unable to buzz, because %s might be offline."
@@ -4730,7 +4750,8 @@ msgid "Initiate Media"
 msgstr "Έναρξη πολυμέσων"
 
 msgid "Account does not support PEP, can't set mood"
-msgstr "Ο λογαριασμός δεν υποστηρίζει PEP, δεν είναι δυνατή η ρύθμιση διάθεσης"
+msgstr ""
+"Ο λογαριασμός δεν υποστηρίζει PEP, δεν είναι δυνατή η ρύθμιση διάθεσης"
 
 msgid "config:  Configure a chat room."
 msgstr "config:  Ρύθμιση του δωματίου συζήτησης."
@@ -4745,7 +4766,8 @@ msgid "register:  Register with a chat room."
 msgstr "register:  Καταχώρηση ενός δωματίου συζητήσεων."
 
 msgid "topic [new topic]:  View or change the topic."
-msgstr "topic [νέο θέμα συζήτησης]:  Εμφάνιση ή αλλαγή του θέματος συζήτησης."
+msgstr ""
+"topic [νέο θέμα συζήτησης]:  Εμφάνιση ή αλλαγή του θέματος συζήτησης."
 
 msgid "ban &lt;user&gt; [reason]:  Ban a user from the room."
 msgstr ""
@@ -4763,8 +4785,8 @@ msgid ""
 "role &lt;moderator|participant|visitor|none&gt; [nick1] [nick2] ...: Get the "
 "users with a role or set users' role with the room."
 msgstr ""
-"role &lt;moderator|participant|visitor|none&gt; [ψευδώνυμο 1] [ψευδώνυμο "
-"2] ... : Ανακτά τους χρήστες με ένα συγκεκριμένο ρόλο ή ορίζει το ρόλο ενός "
+"role &lt;moderator|participant|visitor|none&gt; [ψευδώνυμο 1] [ψευδώνυμο 2] "
+"... : Ανακτά τους χρήστες με ένα συγκεκριμένο ρόλο ή ορίζει το ρόλο ενός "
 "χρήστη στο δωμάτιο."
 
 msgid "invite &lt;user&gt; [message]:  Invite a user to the room."
@@ -4863,10 +4885,11 @@ msgstr "Σφάλμα μηνύματος XMPP"
 
 #, c-format
 msgid "(Code %s)"
-msgstr " (Κωδικός %s)"
+msgstr "(Κωδικός %s)"
 
 msgid "A custom smiley in the message is too large to send."
-msgstr "Μία προσαρμοσμένη φατσούλα στο μήνυμα είναι πολύ μεγάλη για να σταλεί."
+msgstr ""
+"Μία προσαρμοσμένη φατσούλα στο μήνυμα είναι πολύ μεγάλη για να σταλεί."
 
 msgid "XMPP stream header missing"
 msgstr "Λείπει η κεφαλίδα της ροής XMPP"
@@ -4942,7 +4965,8 @@ msgstr ""
 "χρηστών"
 
 #, c-format
-msgid "Please select the resource of %s to which you would like to send a file"
+msgid ""
+"Please select the resource of %s to which you would like to send a file"
 msgstr ""
 "Παρακαλούμε επιλέξτε την πηγή του %s στο οποίο θέλετε να στείλετε ένα αρχείο"
 
@@ -5634,7 +5658,8 @@ msgstr "Άνοιγμα εισερχομένων Hotmail"
 msgid "Send to Mobile"
 msgstr "Αποστολή σε κινητό"
 
-msgid "SSL support is needed for MSN. Please install a supported SSL library."
+msgid ""
+"SSL support is needed for MSN. Please install a supported SSL library."
 msgstr ""
 "Χρειάζεται υποστήριξη SSL για το MSN. Παρακαλούμε εγκαταστήστε μία "
 "υποστηριζόμενη βιβλιοθήκη SSL."
@@ -5906,7 +5931,8 @@ msgid "Message was not sent because messages are being sent too quickly."
 msgstr "Το μήνυμα δε στάλθηκε επειδή τα μηνύματα στέλνονται πολύ γρήγορα."
 
 msgid "Message was not sent because an unknown encoding error occurred."
-msgstr "Το μήνυμα δε στάλθηκε επειδή συνέβη ένα άγνωστο σφάλμα κωδικοποίησης."
+msgstr ""
+"Το μήνυμα δε στάλθηκε επειδή συνέβη ένα άγνωστο σφάλμα κωδικοποίησης."
 
 msgid "Message was not sent because an unknown error occurred."
 msgstr "Το μήνυμα δε στάλθηκε επειδή συνέβη ένα άγνωστο σφάλμα."
@@ -5958,7 +5984,8 @@ msgstr "Σφάλμα ανάλυσης HTTP"
 msgid "You have signed on from another location"
 msgstr "Έχετε συνδεθεί από άλλη τοποθεσία"
 
-msgid "The MSN servers are temporarily unavailable. Please wait and try again."
+msgid ""
+"The MSN servers are temporarily unavailable. Please wait and try again."
 msgstr ""
 "Οι εξυπηρετητές του MSN είναι προσωρινά μη διαθέσιμοι. Παρακαλούμε "
 "περιμένετε και ξαναδοκιμάστε."
@@ -5995,7 +6022,8 @@ msgid "Retrieving buddy list"
 msgstr "Λήψη λίστας φίλων"
 
 #, c-format
-msgid "%s requests to view your webcam, but this request is not yet supported."
+msgid ""
+"%s requests to view your webcam, but this request is not yet supported."
 msgstr ""
 "%s σας έστειλε πρόσκληση με κάμερα, κάτι το οποίο δεν υποστηρίζεται ακόμα."
 
@@ -6026,7 +6054,8 @@ msgstr ""
 "Το μήνυμα δεν ήταν δυνατό να σταλεί επειδή ο χρήστης δεν είναι συνδεδεμένος:"
 
 msgid "Message could not be sent because a connection error occurred:"
-msgstr "Το μήνυμα δεν ήταν δυνατό να σταλεί επειδή συνέβη ένα σφάλμα σύνδεσης:"
+msgstr ""
+"Το μήνυμα δεν ήταν δυνατό να σταλεί επειδή συνέβη ένα σφάλμα σύνδεσης:"
 
 msgid "Message could not be sent because we are sending too quickly:"
 msgstr "Το μήνυμα δεν ήταν δυνατό να σταλεί επειδή στέλνουμε πολύ γρήγορα:"
@@ -6052,7 +6081,8 @@ msgid "Delete Buddy from Address Book?"
 msgstr "Διαγραφή φίλου από το βιβλίο διευθύνσεων;"
 
 msgid "Do you want to delete this buddy from your address book as well?"
-msgstr "Θέλετε να διαγράψετε αυτόν το φίλο και από το βιβλίο διευθύνσεών σας;"
+msgstr ""
+"Θέλετε να διαγράψετε αυτόν το φίλο και από το βιβλίο διευθύνσεών σας;"
 
 msgid "The username specified is invalid."
 msgstr "Το όνομα χρήστη που δόθηκε δεν είναι έγκυρο."
@@ -6075,7 +6105,8 @@ msgstr "Σφάλμα ενημέρωσης προφίλ"
 msgid "Profile"
 msgstr "Προφίλ"
 
-msgid "Your profile information is not yet retrieved. Please try again later."
+msgid ""
+"Your profile information is not yet retrieved. Please try again later."
 msgstr ""
 "Δεν ανακτήθηκαν ακόμη οι πληροφορίες του προφίλ σας. Παρακαλούμε "
 "ξαναδοκιμάστε αργότερα."
@@ -6227,7 +6258,7 @@ msgstr "Το PIN που εισάγατε έχει μη έγκυρο μήκος [
 
 #. mxit login name
 msgid "MXit ID"
-msgstr "MXit ID "
+msgstr "MXit ID"
 
 #. show the form to the user to complete
 msgid "Register New MXit Account"
@@ -6251,7 +6282,8 @@ msgstr ""
 "ξαναδοκιμάστε αργότερα."
 
 msgid "Wrong security code entered. Please try again later."
-msgstr "Εισήχθη λανθασμένος κωδικός ασφαλείας. Παρακαλούμε δοκιμάστε αργότερα."
+msgstr ""
+"Εισήχθη λανθασμένος κωδικός ασφαλείας. Παρακαλούμε δοκιμάστε αργότερα."
 
 msgid "Your session has expired. Please try again later."
 msgstr "Η συνεδρία σας έληξε. Παρακαλούμε δοκιμάστε αργότερα."
@@ -6608,13 +6640,14 @@ msgstr "Σφάλμα πρωτοκόλλου, κώδικας %d: %s"
 #, c-format
 msgid ""
 "%s Your password is %zu characters, which is longer than the maximum length "
-"of %d.  Please shorten your password at http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword and try again."
+"of %d.  Please shorten your password at "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword and try again."
 msgstr ""
 "%s Ο κωδικός σας είναι %zu χαρακτήρες, μεγαλύτερος από το μέγιστο "
-"επιτρεπόμενο μήκος των %d. Παρακαλούμε μικρύνετε τον κωδικό σας στο http://"
-"profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePassword "
-"και δοκιμάστε ξανά."
+"επιτρεπόμενο μήκος των %d. Παρακαλούμε μικρύνετε τον κωδικό σας στο "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword και δοκιμάστε ξανά."
 
 msgid "Incorrect username or password"
 msgstr "Λανθασμένο όνομα χρήστη ή κωδικός."
@@ -6677,7 +6710,8 @@ msgstr ""
 "Δε βρέθηκε κατάλληλος λογαριασμός MySpaceIM για να ανοίξει αυτό το myim URL."
 
 msgid "Enable the proper MySpaceIM account and try again."
-msgstr "Ενεργοποιήστε τον κατάλληλο λογαριασμό MySpaceIM και προσπαθήστε ξανά."
+msgstr ""
+"Ενεργοποιήστε τον κατάλληλο λογαριασμό MySpaceIM και προσπαθήστε ξανά."
 
 msgid "Show display name in status text"
 msgstr "Εμφάνιση εμφανιζόμενου ονόματος στο κείμενο κατάστασης"
@@ -6715,9 +6749,9 @@ msgid ""
 "to set your username."
 msgstr ""
 "Συνέβη ένα σφάλμα κατά την προσπάθεια ρύθμισης του ονόματος χρήστη. "
-"Παρακαλούμε ξαναδοκιμάστε αργότερα ή επισκεφτείτε το http://editprofile."
-"myspace.com/index.cfm?fuseaction=profile.username για να ρυθμίσετε το όνομα "
-"χρήστη σας."
+"Παρακαλούμε ξαναδοκιμάστε αργότερα ή επισκεφτείτε το "
+"http://editprofile.myspace.com/index.cfm?fuseaction=profile.username για να "
+"ρυθμίσετε το όνομα χρήστη σας."
 
 msgid "MySpaceIM - Username Available"
 msgstr "MySpaceIM - Το όνομα χρήστη είναι διαθέσιμο"
@@ -7077,7 +7111,7 @@ msgstr "ID χρήστη"
 #. if (value) {
 #. purple_notify_user_info_add_pair(user_info, tag, value);
 #. }
-#.
+#. 
 msgid "Full name"
 msgstr "Ονοματεπώνυμο"
 
@@ -7126,7 +7160,8 @@ msgstr ""
 "εξυπηρετητή με τον οποίο επιθυμείτε να συνδεθείτε."
 
 msgid "This conference has been closed. No more messages can be sent."
-msgstr "Αυτή η συζήτηση έκλεισε. Δεν είναι δυνατή η αποστολή άλλων μηνυμάτων."
+msgstr ""
+"Αυτή η συζήτηση έκλεισε. Δεν είναι δυνατή η αποστολή άλλων μηνυμάτων."
 
 #. *< type
 #. *< ui_requirement
@@ -7159,7 +7194,7 @@ msgstr "Μήνυμα άρνησης έγκρισης:"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
-#.
+#. 
 msgid "_OK"
 msgstr "_Εντάξει"
 
@@ -7679,7 +7714,8 @@ msgstr[1] ""
 "υψηλό."
 
 #, c-format
-msgid "You missed %hu message from %s because your warning level is too high."
+msgid ""
+"You missed %hu message from %s because your warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because your warning level is too high."
 msgstr[0] ""
@@ -8301,8 +8337,8 @@ msgstr "δεν έχετε φίλους σε αυτή τη λίστα"
 
 #, c-format
 msgid ""
-"You can add a buddy to this list by right-clicking on them and selecting \"%s"
-"\""
+"You can add a buddy to this list by right-clicking on them and selecting "
+"\"%s\""
 msgstr ""
 "Μπορείτε να προσθέσετε ένα φίλο σε αυτή τη λίστα κάνοντας δεξί κλικ πάνω "
 "τους και επιλέγοντας \"%s\""
@@ -8605,7 +8641,8 @@ msgid "No matches"
 msgstr "Καμία αντιστοιχία"
 
 #, c-format
-msgid "The identifier '%s' did not match any users in your Sametime community."
+msgid ""
+"The identifier '%s' did not match any users in your Sametime community."
 msgstr ""
 "Το αναγνωριστικό '%s' δεν ταιριάζει με κανένα χρήστη στην κοινότητα Sametime "
 "σας."
@@ -9434,7 +9471,8 @@ msgstr ""
 "msg &lt;ψευδώνυμο&gt; &lt;μήνυμα&gt;:  Αποστολή προσωπικού μηνύματος σε ένα "
 "χρήστη"
 
-msgid "query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
+msgid ""
+"query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
 msgstr ""
 "query &lt;ψευδώνυμο&gt; [&lt;μήνυμα&gt;]:  Αποστολή προσωπικού μηνύματος σε "
 "ένα χρήστη"
@@ -9489,10 +9527,11 @@ msgid ""
 "invite &lt;channel&gt; [-|+]&lt;nick&gt;:  invite nick or add/remove from "
 "channel invite list"
 msgstr ""
-"invite &lt;κανάλι&gt; [-|+]&lt;ψευδώνυμο&gt;:  πρόσκληση χρήστη ή προσθήκη/"
-"αφαίρεση από τη λίστα προσκλήσεων του καναλιού"
+"invite &lt;κανάλι&gt; [-|+]&lt;ψευδώνυμο&gt;:  πρόσκληση χρήστη ή "
+"προσθήκη/αφαίρεση από τη λίστα προσκλήσεων του καναλιού"
 
-msgid "kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
+msgid ""
+"kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
 msgstr ""
 "kick &lt;κανάλι&gt; &lt;όνομα&gt; [σχόλιο]:  Εκδίωξη ατόμου από το κανάλι"
 
@@ -9746,7 +9785,8 @@ msgid "Unable to resolve hostname"
 msgstr "Αδυναμία ανάλυσης ονόματος υπολογιστή"
 
 msgid "SIP usernames may not contain whitespaces or @ symbols"
-msgstr "Τα ονόματα χρήστη χρηστών SIP δεν πρέπει να περιέχουν κενά ή σύμβολα @"
+msgstr ""
+"Τα ονόματα χρήστη χρηστών SIP δεν πρέπει να περιέχουν κενά ή σύμβολα @"
 
 msgid "SIP connect server not specified"
 msgstr "Δεν ορίστηκε εξυπηρετητής SIP"
@@ -9767,7 +9807,8 @@ msgid "The SIP/SIMPLE Protocol Plugin"
 msgstr "Το πρόσθετο του πρωτοκόλλου SIP/SIMPLE"
 
 msgid "Publish status (note: everyone may watch you)"
-msgstr "Κατάσταση δημοσίευσης (σημείωση: όλοι μπορούν να σας παρακολουθήσουν)"
+msgstr ""
+"Κατάσταση δημοσίευσης (σημείωση: όλοι μπορούν να σας παρακολουθήσουν)"
 
 msgid "Use UDP"
 msgstr "Χρήση UDP"
@@ -9960,7 +10001,8 @@ msgstr ""
 "ηλεκτρονικού ταχυδρομείου αντί του Yahoo! ID σας."
 
 #, c-format
-msgid "Unknown error number %d. Logging into the Yahoo! website may fix this."
+msgid ""
+"Unknown error number %d. Logging into the Yahoo! website may fix this."
 msgstr ""
 "Άγνωστο σφάλμα με αριθμό %d. Αν συνδεθείτε στην ιστοσελίδα του Yahoo! ίσως "
 "διορθωθεί."
@@ -10065,7 +10107,7 @@ msgstr "Λήψη φορέα κινητής τηλεφωνίας για την α
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
-#.
+#. 
 msgid "Sent Doodle request."
 msgstr "Αποστολή αίτησης Doodle."
 
@@ -10271,29 +10313,29 @@ msgstr ""
 msgid ""
 "zi &lt;instance&gt;: Send a message to &lt;message,<i>instance</i>,*&gt;"
 msgstr ""
-"zi &lt;στιγμιότυπο&gt;: Αποστολή ενός μηνύματος &lt;μήνυμα,<i>στιγμιότυπο</"
-"i>,*&gt;"
+"zi &lt;στιγμιότυπο&gt;: Αποστολή ενός μηνύματος "
+"&lt;μήνυμα,<i>στιγμιότυπο</i>,*&gt;"
 
 msgid ""
-"zci &lt;class&gt; &lt;instance&gt;: Send a message to &lt;<i>class</i>,"
-"<i>instance</i>,*&gt;"
+"zci &lt;class&gt; &lt;instance&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,*&gt;"
 msgstr ""
-"zci &lt;κλάση&gt; &lt;στιγμιότυπο&gt;: Αποστολή μηνύματος σε &lt;<i>κλάση</"
-"i>,<i>στιγμιότυπο</i>,*&gt;"
+"zci &lt;κλάση&gt; &lt;στιγμιότυπο&gt;: Αποστολή μηνύματος σε "
+"&lt;<i>κλάση</i>,<i>στιγμιότυπο</i>,*&gt;"
 
 msgid ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;"
-"<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 "zcir &lt;κλάση&gt; &lt;στιγμιότυπο&gt; &lt;παραλήπτης&gt;: Αποστολή "
 "μηνύματος σε &lt;<i>κλάση</i>,<i>στιγμιότυπο</i>,<i>παραλήπτη</i>&gt;"
 
 msgid ""
-"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;MESSAGE,"
-"<i>instance</i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
-"zir &lt;στιγμιότυπο&gt; &lt;παραλήπτης&gt;: Αποστολή μηνύματος σε &lt;ΜΗΝΥΜΑ,"
-"<i>στιγμιότυπο</i>,<i>παραλήπτη</i>&gt;"
+"zir &lt;στιγμιότυπο&gt; &lt;παραλήπτης&gt;: Αποστολή μηνύματος σε "
+"&lt;ΜΗΝΥΜΑ,<i>στιγμιότυπο</i>,<i>παραλήπτη</i>&gt;"
 
 msgid "zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;"
 msgstr ""
@@ -10374,7 +10416,7 @@ msgstr "%s ζήτησε την προσοχή σας!"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c Yes and @c No buttons.
-#.
+#. 
 msgid "_Yes"
 msgstr "_Ναι"
 
@@ -10383,17 +10425,17 @@ msgstr "_Όχι"
 
 #. *
 #. * A wrapper for purple_request_action() that uses Accept and Cancel buttons.
-#.
+#. 
 #. *
 #. * A wrapper for purple_request_action_with_icon() that uses Accept and Cancel
 #. * buttons.
-#.
+#. 
 msgid "_Accept"
 msgstr "_Αποδοχή"
 
 #. *
 #. * The default message to use when the user becomes auto-away.
-#.
+#. 
 msgid "I'm not here right now"
 msgstr "Δεν είμαι εδώ αυτή τη στιγμή"
 
@@ -10485,12 +10527,12 @@ msgstr "+++ %s αδρανοποιήθηκε"
 msgid "+++ %s became unidle"
 msgstr "+++ %s δεν είναι πια αδρανής"
 
-#.
+#. 
 #. * This string determines how some dates are displayed.  The default
 #. * string "%x %X" shows the date then the time.  Translators can
 #. * change this to "%X %x" if they want the time to be shown first,
 #. * followed by the date.
-#.
+#. 
 #, c-format
 msgid "%x %X"
 msgstr "%x %X"
@@ -10609,17 +10651,17 @@ msgstr ""
 "Ένα σφάλμα συνέβη κατά την ανάγνωση του %s σας.  Δεν φορτώθηκε, και το παλιό "
 "αρχείο μετονομάστηκε σε %s~."
 
-msgid "Pidgin Internet Messenger"
-msgstr "Αποστολέας μηνυμάτων διαδικτύου Pidgin"
-
-msgid "Internet Messenger"
-msgstr "Αποστολέας μηνυμάτων διαδικτύου"
-
 msgid ""
 "Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
 msgstr ""
 "Συζήτηση μέσω άμεσων μηνυμάτων. Υποστηρίζει AIM,Google Talk, Jabber XMPP, "
 "MSN, Yahoo και άλλα"
+
+msgid "Internet Messenger"
+msgstr "Αποστολέας μηνυμάτων διαδικτύου"
+
+msgid "Pidgin Internet Messenger"
+msgstr "Αποστολέας μηνυμάτων διαδικτύου Pidgin"
 
 #. Build the login options frame.
 msgid "Login Options"
@@ -11288,9 +11330,10 @@ msgstr "/Λογαριασμοί"
 msgid ""
 "<span weight='bold' size='larger'>Welcome to %s!</span>\n"
 "\n"
-"You have no accounts enabled. Enable your IM accounts from the <b>Accounts</"
-"b> window at <b>Accounts->Manage Accounts</b>. Once you enable accounts, "
-"you'll be able to sign on, set your status, and talk to your friends."
+"You have no accounts enabled. Enable your IM accounts from the "
+"<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you enable "
+"accounts, you'll be able to sign on, set your status, and talk to your "
+"friends."
 msgstr ""
 "<span weight='bold' size='larger'>Καλώς Ήρθατε στο %s!</span>\n"
 "\n"
@@ -11302,7 +11345,7 @@ msgstr ""
 
 #. set the Show Offline Buddies option. must be done
 #. * after the treeview or faceprint gets mad. -Robot101
-#.
+#. 
 msgid "/Buddies/Show/Offline Buddies"
 msgstr "/Φίλοι/Εμφάνιση/Μη συνδεδεμένοι φίλοι"
 
@@ -11348,7 +11391,7 @@ msgid ""
 "would like to add to your buddy list.\n"
 msgstr ""
 "Παρακαλούμε εισάγετε το ψευδώνυμο και τις κατάλληλες πληροφορίες της "
-"συζήτησης την οποία θέλετε να προσθέσετε στη λίστα φίλων. \n"
+"συζήτησης την οποία θέλετε να προσθέσετε στη λίστα φίλων.\n"
 
 msgid "A_lias:"
 msgstr "_Γνωστός ως:"
@@ -11403,7 +11446,8 @@ msgid "Unknown command."
 msgstr "Άγνωστη εντολή."
 
 msgid "That buddy is not on the same protocol as this chat."
-msgstr "Αυτός ο φίλος δε χρησιμοποιεί το ίδιο πρωτόκολλο με αυτή τη συζήτηση."
+msgstr ""
+"Αυτός ο φίλος δε χρησιμοποιεί το ίδιο πρωτόκολλο με αυτή τη συζήτηση."
 
 msgid ""
 "You are not currently signed on with an account that can invite that buddy."
@@ -12085,12 +12129,19 @@ msgstr "T.M.Thanh και ομάδα Gnome-Vi"
 
 #, c-format
 msgid ""
+"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+"%s</i><br><br><font color='red'>Modified version with no support from the "
+"official team.</font><br><br>"
+msgstr ""
+
+#, c-format
+msgid ""
 "%s is a messaging client based on libpurple which is capable of connecting "
 "to multiple messaging services at once.  %s is written in C using GTK+.  %s "
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
-"copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"copyrighted by its contributors, a list of whom is also distributed with %s. "
+" There is no warranty for %s.<BR><BR>"
 msgstr ""
 "ο %s είναι ένας πελάτης μηνυμάτων βασισμένος στη libpurple, ο οποίος μπορεί "
 "να συνδέεται σε πολλές υπηρεσίες μηνυμάτων ταυτόχρονα.  Το %s είναι γραμμένο "
@@ -12099,34 +12150,6 @@ msgstr ""
 "αντίγραφο της GPL διανέμεται μαζί με το %s. Το %s είναι πνευματική "
 "ιδιοκτησία των συμβαλλομένων, μία λίστα των οποίων επίσης διανέμεται μαζί με "
 "το %s. Δεν παρέχεται καμία εγγύηση για το %s. <BR><BR>"
-
-#, c-format
-msgid ""
-"<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked Questions</A><BR>\tIRC "
-"Channel: #pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin."
-"im<BR><BR>"
-msgstr ""
-"<FONT SIZE=\"4\"><B>Χρήσιμες πηγές</B></FONT><BR>\t<A HREF=\"%s"
-"\">Ιστοσελίδα</A><BR>\t<A HREF=\"%s\">Συχνές Ερωτήσεις</A><BR>\tΚανάλι IRC: "
-"#pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin.im<BR><BR>"
-
-msgid ""
-"<font size=\"4\"><b>Help from other Pidgin users</b></font> is available by "
-"e-mailing <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">This is a <b>public</b> mailing list! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">archive</a>)<br/>We can't help with third-party protocols or "
-"plugins!<br/>This list's primary language is <b>English</b>.  You are "
-"welcome to post in another language, but the responses may be less helpful."
-"<br/>"
-msgstr ""
-"<font size=\"4\"><b>Βοήθεια από άλλους χρήστες του Pidgin</b></font> είναι "
-"διαθέσιμη μέσω ηλεκτρονικού ταχυδρομείου στο <a href=\"mailto:support@pidgin."
-"im\">support@pidgin.im</a><br/>Αυτή είναι <b>δημόσια</b> λίστα! (<a href="
-"\"http://pidgin.im/pipermail/support/\">αρχείο</a>)<br/>Δεν μπορούμε να "
-"βοηθήσουμε με πρωτόκολλα ή πρόσθετα τρίτων!<br/> Η βασική γλώσσα της λίστα "
-"είναι τα <b>Αγγλικά</b>.  Μπορείτε να στείλετε σε άλλη γλώσσα αλλά οι "
-"απαντήσεις θα είναι λιγότερο βοηθητικές.<br/>"
 
 #, c-format
 msgid "About %s"
@@ -12420,7 +12443,8 @@ msgstr "Χρώμα που θα ζωγραφίζεται το όνομα σε έ�
 msgid "\"Attention\" Name Color"
 msgstr "Χρώμα ονόματοςγια \"Προσοχή\""
 
-msgid "Color to draw the name of a message you received containing your name."
+msgid ""
+"Color to draw the name of a message you received containing your name."
 msgstr ""
 "Χρώμα που θα ζωγραφίζεται το όνομα σε ένα μήνυμα που λαμβάνετε και περιέχει "
 "το όνομά σας."
@@ -12478,8 +12502,8 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"<span size='larger' weight='bold'>Σφάλμα κατά την αποθήκευση της εικόνας</"
-"span>\n"
+"<span size='larger' weight='bold'>Σφάλμα κατά την αποθήκευση της "
+"εικόνας</span>\n"
 "\n"
 "%s"
 
@@ -13184,7 +13208,8 @@ msgstr ""
 "επιτρέπουν τη μορφοποίηση."
 
 msgid "Cannot start proxy configuration program."
-msgstr "Δεν είναι δυνατή η εκκίνηση του προγράμματος ρυθμίσεων διαμεσολαβητή."
+msgstr ""
+"Δεν είναι δυνατή η εκκίνηση του προγράμματος ρυθμίσεων διαμεσολαβητή."
 
 msgid "Cannot start browser configuration program."
 msgstr "Δεν είναι δυνατή η εκκίνηση του προγράμματος ρυθμίσεων περιηγητή."
@@ -13292,7 +13317,8 @@ msgid "Browser Selection"
 msgstr "Επιλογή περιηγητή"
 
 msgid "Browser preferences are configured in GNOME preferences"
-msgstr "Οι προτιμήσεις Περιηγητή είναι ρυθμισμένοι στις Προτιμήσεις του GNOME"
+msgstr ""
+"Οι προτιμήσεις Περιηγητή είναι ρυθμισμένοι στις Προτιμήσεις του GNOME"
 
 msgid "<b>Browser configuration program was not found.</b>"
 msgstr "<b>Δε βρέθηκε πρόγραμμα ρυθμίσεων πιεριηγήτή.</b>"
@@ -13577,7 +13603,8 @@ msgid "_Use"
 msgstr "_Χρήση"
 
 msgid "Title already in use.  You must choose a unique title."
-msgstr "Ο τίτλος χρησιμοποιείται ήδη.  Πρέπει να επιλέξετε ένα μοναδικό τίτλο."
+msgstr ""
+"Ο τίτλος χρησιμοποιείται ήδη.  Πρέπει να επιλέξετε ένα μοναδικό τίτλο."
 
 msgid "Different"
 msgstr "Διαφορετικός"
@@ -13823,11 +13850,11 @@ msgstr "Συμβουλές Pidgin"
 msgid "Pidgin smileys"
 msgstr "Φατσούλες Pidgin"
 
-msgid "none"
-msgstr "κανένα"
-
 msgid "Selecting this disables graphical emoticons."
 msgstr "Με αυτή την επιλογή απενεργοποιούντα όλες οι γραφικές φατσούλες."
+
+msgid "none"
+msgstr "κανένα"
 
 msgid "Small"
 msgstr "Μικρά"
@@ -14873,7 +14900,8 @@ msgid "Messaging Menu"
 msgstr "Μενού μηνυμάτων"
 
 msgid "Show number of _unread messages for conversations in messaging menu"
-msgstr "Εμφάνιση _μη αναγνωσμένων μηνυμάτων από συνομιλίες στο μενού μηνυμάτων"
+msgstr ""
+"Εμφάνιση _μη αναγνωσμένων μηνυμάτων από συνομιλίες στο μενού μηνυμάτων"
 
 msgid "Show _elapsed time for unread conversations in messaging menu"
 msgstr ""
@@ -15081,20 +15109,6 @@ msgstr ""
 "Αυτό το πρόσθετο είναι χρήσιμο για την αποσφαλμάτωση εξυπηρετητών και "
 "πελατών XMPP."
 
-msgid "The installer is already running."
-msgstr "Η εγκατάσταση εκτελείται ήδη."
-
-msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
-"again."
-msgstr ""
-"Τρέχει ήδη ένα στιγμιότυπο του Pidgin.  Παρακαλούμε κλείστε το Pidgin και "
-"δοκιμάστε ξανά."
-
-#. "Next >" appears on a button on the License Page of the Installer
-msgid "Next >"
-msgstr "Επόμενο >"
-
 #. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
 msgid ""
 "$(^Name) is released under the GNU General Public License (GPL). The license "
@@ -15103,101 +15117,49 @@ msgstr ""
 "Το $(^Name) εκδίδεται υπό την άδεια GNU General Public License (GPL). Η "
 "άδεια παρέχεται εδώ μόνο για λόγους ενημέρωσης. $_CLICK"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Πελάτης άμεσων μηνυμάτων Pidgin (απαιτείται)"
-
-#. Installer Subsection Text
-msgid "GTK+ Runtime (required if not present)"
-msgstr "Έκδοση GTK+ Runtime (απαιτείται αν δεν υπάρχει)"
-
-#. Installer Subsection Text
-msgid "Shortcuts"
-msgstr "Συντομεύσεις"
-
-#. Installer Subsection Text
-msgid "Desktop"
-msgstr "Επιφάνεια Εργασίας"
-
-#. Installer Subsection Text
-msgid "Start Menu"
-msgstr "Μενού έναρξης"
-
-#. Installer Subsection Text
-msgid "Localizations"
-msgstr "Μεταφράσεις"
-
-#. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Κύρια αρχεία και dll του Pidgin"
-
-#. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Συντομεύσεις για την εκκίνηση του Pidgin"
-
-#. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Δημιουργία συντόμευσης του Pidgin στην Επιφάνεια Εργασίας"
-
-#. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Δημιουργία εγγραφής για το Pidgin στο μενού Έναρξη"
-
 #. Installer Subsection Detailed Description
 msgid "A multi-platform GUI toolkit, used by Pidgin"
 msgstr ""
 "Μία εργαλειοθήκη GUI για πολλές πλατφόρμες, η οποία χρησιμοποιείται από το "
 "Pidgin"
 
+msgid ""
+"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"again."
+msgstr ""
+"Τρέχει ήδη ένα στιγμιότυπο του Pidgin.  Παρακαλούμε κλείστε το Pidgin και "
+"δοκιμάστε ξανά."
+
+#. Installer Subsection Detailed Description
+msgid "Core Pidgin files and dlls"
+msgstr "Κύρια αρχεία και dll του Pidgin"
+
+#. Installer Subsection Detailed Description
+msgid "Create a Start Menu entry for Pidgin"
+msgstr "Δημιουργία εγγραφής για το Pidgin στο μενού Έναρξη"
+
+#. Installer Subsection Detailed Description
+msgid "Create a shortcut to Pidgin on the Desktop"
+msgstr "Δημιουργία συντόμευσης του Pidgin στην Επιφάνεια Εργασίας"
+
 #. Installer Subsection Text
 msgid "Debug Symbols (for reporting crashes)"
 msgstr "Σύμβολα αποσφαλμάτωσης (για την αναφορά καταρρεύσεων)"
 
-#. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Επίσκεψη της ιστοσελίδας του Pidgin"
-
-msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
-"version will be installed without removing the currently installed version."
-msgstr ""
-"Αδυναμία απεγκατάστασης της ήδη εγκατεστημένης έκδοσης του Pidgin. Η νέα "
-"έκδοση θα εγκατασταθεί χωρίς να γίνει αφαίρεση της τρέχουσας έκδοσης."
-
-msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
-msgstr ""
-"Το Pidgin απαιτεί ένα συμβατό GTK+ Runtime (το οποίο δε φαίνεται να υπάρχει)."
-"$\\rΘέλετε σίγουρα να παραλείψετε την εγκατάσταση του GTK+ Runtime;"
-
 #. Installer Subsection Text
-msgid "URI Handlers"
-msgstr "Χειριστές URI"
+msgid "Desktop"
+msgstr "Επιφάνεια Εργασίας"
 
-#. Installer Subsection Text
-msgid "Spellchecking Support"
-msgstr "Υποστήριξη ορθογραφικού λεξικού"
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
+#. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
+"Error Downloading the GTK+ Runtime ($R2).$\\rThis is required for Pidgin to "
+"function; if retrying fails, you may need to use the 'Offline Installer' "
+"from http://pidgin.im/download/windows/ ."
 msgstr ""
-"Σφάλμα κατά την εγκατάσταση ορθογραφίας ($R3).$\\rαν ξαναδοκιμάσετε και "
-"αντιμετωπίσετε πάλι πρόβλημα, δείτε τις οδηγίες εγκατάστασης με το χέρι στο: "
-"http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-
-#. Installer Subsection Detailed Description
-msgid ""
-"Support for Spellchecking.  (Internet connection required for installation)"
-msgstr ""
-"Υποστήριξη για ορθογραφικό λεξικό. (απαιτείται σύνδεση με το διαδίκτυο για "
-"να γίνει η εγκατάσταση)"
+"Σφάλμα κατά τη λήψη του GTK+ Runtime ($R2).$\\rΑυτό απαιτείται για να "
+"λειτουργήσει το Pidgin.  Αν δοκιμάσατε ξανά και αποτύχατε, ίσως χρειάζεται "
+"να χρησιμοποιήσετε τον 'Offline Installer' από το "
+"http://pidgin.im/download/windows/ ."
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
@@ -15208,16 +15170,71 @@ msgstr ""
 "ξαναδοκιμάσατε και αποτύχατε, ίσως χρειάζεται να χρησιμοποιήσετε τον "
 "'Offline Installer' από το http://pidgin.im/download/windows/ ."
 
-#. $R2 will display the URL that the GTK+ Runtime failed to download from
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
 msgid ""
-"Error Downloading the GTK+ Runtime ($R2).$\\rThis is required for Pidgin to "
-"function; if retrying fails, you may need to use the 'Offline Installer' "
-"from http://pidgin.im/download/windows/ ."
+"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
+"installation instructions are at: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
 msgstr ""
-"Σφάλμα κατά τη λήψη του GTK+ Runtime ($R2).$\\rΑυτό απαιτείται για να "
-"λειτουργήσει το Pidgin.  Αν δοκιμάσατε ξανά και αποτύχατε, ίσως χρειάζεται "
-"να χρησιμοποιήσετε τον 'Offline Installer' από το http://pidgin.im/download/"
-"windows/ ."
+"Σφάλμα κατά την εγκατάσταση ορθογραφίας ($R3).$\\rαν ξαναδοκιμάσετε και "
+"αντιμετωπίσετε πάλι πρόβλημα, δείτε τις οδηγίες εγκατάστασης με το χέρι στο: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+
+#. Installer Subsection Text
+msgid "GTK+ Runtime (required if not present)"
+msgstr "Έκδοση GTK+ Runtime (απαιτείται αν δεν υπάρχει)"
+
+#. Installer Subsection Text
+msgid "Localizations"
+msgstr "Μεταφράσεις"
+
+#. "Next >" appears on a button on the License Page of the Installer
+msgid "Next >"
+msgstr "Επόμενο >"
+
+#. Installer Subsection Text
+msgid "Pidgin Instant Messaging Client (required)"
+msgstr "Πελάτης άμεσων μηνυμάτων Pidgin (απαιτείται)"
+
+msgid ""
+"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"already present).$\\rAre you sure you want to skip installing the GTK+ "
+"Runtime?"
+msgstr ""
+"Το Pidgin απαιτεί ένα συμβατό GTK+ Runtime (το οποίο δε φαίνεται να "
+"υπάρχει).$\\rΘέλετε σίγουρα να παραλείψετε την εγκατάσταση του GTK+ Runtime;"
+
+msgid "See applied changes"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Shortcuts"
+msgstr "Συντομεύσεις"
+
+#. Installer Subsection Detailed Description
+msgid "Shortcuts for starting Pidgin"
+msgstr "Συντομεύσεις για την εκκίνηση του Pidgin"
+
+#. Installer Subsection Text
+msgid "Spellchecking Support"
+msgstr "Υποστήριξη ορθογραφικού λεξικού"
+
+#. Installer Subsection Text
+msgid "Start Menu"
+msgstr "Μενού έναρξης"
+
+#. Installer Subsection Detailed Description
+msgid ""
+"Support for Spellchecking.  (Internet connection required for installation)"
+msgstr ""
+"Υποστήριξη για ορθογραφικό λεξικό. (απαιτείται σύνδεση με το διαδίκτυο για "
+"να γίνει η εγκατάσταση)"
+
+msgid "The installer is already running."
+msgstr "Η εγκατάσταση εκτελείται ήδη."
 
 msgid ""
 "The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
@@ -15225,6 +15242,21 @@ msgid ""
 msgstr ""
 "Η απεγκατάσταση δεν μπόρεσε να βρει εγγραφές μητρώου για το Pidgin.$\\rΕίναι "
 "πιθανό ένας άλλος χρήστης να εγκατέστησε αυτή την εφαρμογή."
+
+#. Installer Subsection Text
+msgid "URI Handlers"
+msgstr "Χειριστές URI"
+
+msgid ""
+"Unable to uninstall the currently installed version of Pidgin. The new "
+"version will be installed without removing the currently installed version."
+msgstr ""
+"Αδυναμία απεγκατάστασης της ήδη εγκατεστημένης έκδοσης του Pidgin. Η νέα "
+"έκδοση θα εγκατασταθεί χωρίς να γίνει αφαίρεση της τρέχουσας έκδοσης."
+
+#. Text displayed on Installer Finish Page
+msgid "Visit the Pidgin Web Page"
+msgstr "Επίσκεψη της ιστοσελίδας του Pidgin"
 
 msgid "You do not have permission to uninstall this application."
 msgstr "Δεν έχετε άδεια να απεγκαταστήσετε αυτή την εφαρμογή."

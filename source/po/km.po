@@ -9,16 +9,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 12:44-0800\n"
-"PO-Revision-Date: 2014-02-02 09:03+0000\n"
+"POT-Creation-Date: 2014-05-22 14:13-0200\n"
+"PO-Revision-Date: 2014-05-26 09:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
-"Language-Team: Khmer (http://www.transifex.com/projects/p/pidgin/language/"
-"km/)\n"
-"Language: km\n"
+"Language-Team: Khmer "
+"(http://www.transifex.com/projects/p/pidgin/language/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:51+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
+"Language: km\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
@@ -55,8 +57,9 @@ msgid ""
 "investigate and complete the migration by hand. Please report this error at "
 "http://developer.pidgin.im"
 msgstr ""
-"កំហុស​ដែល​បានជួប​ប្រទះ %s ប្ដូរ​ទៅ​កា​រកំណត់​របស់​អ្នកពី %s ទៅ %s ។ សូម​អង្កេត​ និង​បំពេញ​ការ​ប្ដូរ​ដោយ​ដៃ ។ "
-"សូម​រាយការណ៍​កំហុស​នេះ​តាម http://developer.pidgin.im"
+"កំហុស​ដែល​បានជួប​ប្រទះ %s ប្ដូរ​ទៅ​កា​រកំណត់​របស់​អ្នកពី %s ទៅ %s ។ "
+"សូម​អង្កេត​ និង​បំពេញ​ការ​ប្ដូរ​ដោយ​ដៃ ។ សូម​រាយការណ៍​កំហុស​នេះ​តាម "
+"http://developer.pidgin.im"
 
 #. the user did not fill in the captcha
 msgid "Error"
@@ -308,7 +311,8 @@ msgid "Enter empty string to reset the name."
 msgstr "បញ្ចូល​ខ្សែអក្សរ​ទទេ​ ដើម្បី​កំណត់​ឈ្មោះ​ឡើង​វិញ ។"
 
 msgid "Removing this contact will also remove all the buddies in the contact"
-msgstr "យក​ទំនាក់ទំនង​នេះ​ចេញ នឹង​យក​មិត្តភក្ដិ​ទាំង​អស់​ចេញ​នៅ​ក្នុង​ទំនាក់ទំនង"
+msgstr ""
+"យក​ទំនាក់ទំនង​នេះ​ចេញ នឹង​យក​មិត្តភក្ដិ​ទាំង​អស់​ចេញ​នៅ​ក្នុង​ទំនាក់ទំនង"
 
 msgid "Removing this group will also remove all the buddies in the group"
 msgstr "យក​ក្រុម​នេះ​ចេញនឹង​យក​មិត្តភក្ដិ​ទាំង​អស់​ចេញ​នៅ​ក្នុង​ក្រុម"
@@ -368,9 +372,11 @@ msgid "Unblock"
 msgstr "មិនទប់ស្កាត់"
 
 msgid ""
-"Please enter the username or alias of the person you would like to Block/"
-"Unblock."
-msgstr "សូម​បញ្ចូល​ឈ្មោះ​អ្នកប្រើ ឬ​ឈ្មោះក្លែងក្លាយ​​របស់មនុស្ស ដែល​អ្នក​ចង់​ទប់ស្កាត់/មិនទប់ស្កាត់ ។"
+"Please enter the username or alias of the person you would like to "
+"Block/Unblock."
+msgstr ""
+"សូម​បញ្ចូល​ឈ្មោះ​អ្នកប្រើ ឬ​ឈ្មោះក្លែងក្លាយ​​របស់មនុស្ស "
+"ដែល​អ្នក​ចង់​ទប់ស្កាត់/មិនទប់ស្កាត់ ។"
 
 #. Not multiline
 #. Not masked?
@@ -381,8 +387,10 @@ msgstr "យល់ព្រម"
 msgid "New Instant Message"
 msgstr "សារ​បន្ទាន់​ថ្មី"
 
-msgid "Please enter the username or alias of the person you would like to IM."
-msgstr "សូម​បញ្ចូល​ឈ្មោះ​អ្នកប្រើ ឬ​ឈ្មោះ​ក្លែងក្លាយ​របស់​មនុស្ស​ ដែលអ្នក​ចង់​ជជែក ។"
+msgid ""
+"Please enter the username or alias of the person you would like to IM."
+msgstr ""
+"សូម​បញ្ចូល​ឈ្មោះ​អ្នកប្រើ ឬ​ឈ្មោះ​ក្លែងក្លាយ​របស់​មនុស្ស​ ដែលអ្នក​ចង់​ជជែក ។"
 
 msgid "Channel"
 msgstr "ឆានែល"
@@ -399,7 +407,8 @@ msgstr "ចូលរួម"
 msgid ""
 "Please enter the username or alias of the person whose log you would like to "
 "view."
-msgstr "សូម​បញ្ចូល​ឈ្មោះ​អ្នក​ប្រើ ឬ​ឈ្មោះ​ក្លែងក្លាយ​របស់​មនុស្ស​ដែល​អ្នក​ចង់​មើល ។"
+msgstr ""
+"សូម​បញ្ចូល​ឈ្មោះ​អ្នក​ប្រើ ឬ​ឈ្មោះ​ក្លែងក្លាយ​របស់​មនុស្ស​ដែល​អ្នក​ចង់​មើល ។"
 
 #. Create the "Options" frame.
 msgid "Options"
@@ -549,7 +558,8 @@ msgid ""
 msgstr ""
 "%s\n"
 "\n"
-"បក្សី​នឹង​មិន​ប៉ុនប៉ង​តភ្ជាប់​គណនី​ឡើង​វិញ រហូត​ដល់​អ្នក​កែ​ និង​បើក​គណនី​ឡើង​វិញ ។"
+"បក្សី​នឹង​មិន​ប៉ុនប៉ង​តភ្ជាប់​គណនី​ឡើង​វិញ រហូត​ដល់​អ្នក​កែ​ "
+"និង​បើក​គណនី​ឡើង​វិញ ។"
 
 msgid "Re-enable Account"
 msgstr "បើក​គណនី​ឡើង​វិញ"
@@ -557,8 +567,11 @@ msgstr "បើក​គណនី​ឡើង​វិញ"
 msgid "No such command."
 msgstr "គ្មានពាក្យ​បញ្ជា​បែបនេះទេ ។"
 
-msgid "Syntax Error:  You typed the wrong number of arguments to that command."
-msgstr "កំហុស​វាក្យសម្ព័ន្ធ ៖ អ្នកបានវាយ​​ចំនួន​អាគុយម៉ង់​មិន​ត្រឹមត្រូវ​ចំពោះ​ពាក្យ​បញ្ជា​នោះ​ទេ ។"
+msgid ""
+"Syntax Error:  You typed the wrong number of arguments to that command."
+msgstr ""
+"កំហុស​វាក្យសម្ព័ន្ធ ៖ "
+"អ្នកបានវាយ​​ចំនួន​អាគុយម៉ង់​មិន​ត្រឹមត្រូវ​ចំពោះ​ពាក្យ​បញ្ជា​នោះ​ទេ ។"
 
 msgid "Your command failed for an unknown reason."
 msgstr "ពាក្យ​បញ្ជា​របស់​អ្នកបានបរាជ័យ​ដោយ​សារ​មិនស្គាល់​ហេតុផល ។"
@@ -567,7 +580,8 @@ msgid "That command only works in chats, not IMs."
 msgstr "ពាក្យ​បញ្ជា​នោះ​ដំណើរតែ​នៅក្នុងការ​ជជែក​ប៉ុណ្ណោះ មិនមែន IMs ។"
 
 msgid "That command only works in IMs, not chats."
-msgstr "ពាក្យ​បញ្ជា​នោះ​ដំណើរការ​តែ​នៅ​ក្នុង IMs ប៉ុណ្ណោះ មិននៅ​ក្នុងកា​រជជែក​ទេ ។"
+msgstr ""
+"ពាក្យ​បញ្ជា​នោះ​ដំណើរការ​តែ​នៅ​ក្នុង IMs ប៉ុណ្ណោះ មិននៅ​ក្នុងកា​រជជែក​ទេ ។"
 
 msgid "That command doesn't work on this protocol."
 msgstr "ពាក្យ​បញ្ជា​នោះ​មិនដំណើរការ​នៅ​លើ​ពិធីការ​នេះ​ទេ ។"
@@ -598,15 +612,20 @@ msgid ""
 "The account has disconnected and you are no longer in this chat. You will be "
 "automatically rejoined in the chat when the account reconnects."
 msgstr ""
-"គណនី​​បាន​ផ្ដាច់ ហើយ​អ្នក​មិន​នៅ​ក្នុង​ការ​ជជែក​នេះ​ទៀតទេ ។ អ្នក​នឹង​ត្រូវ​បានចូល​ឡើង​វិញ​ដោយ​ស្វ័យ​ប្រវត្តិ​នៅ​"
-"ក្នុងការ​ជជែក នៅពេល​អ្នក​តភ្ជាប់គណនី​នេះ​ឡើង​វិញ ។"
+"គណនី​​បាន​ផ្ដាច់ ហើយ​អ្នក​មិន​នៅ​ក្នុង​ការ​ជជែក​នេះ​ទៀតទេ ។ "
+"អ្នក​នឹង​ត្រូវ​បានចូល​ឡើង​វិញ​ដោយ​ស្វ័យ​ប្រវត្តិ​នៅ​ក្នុងការ​ជជែក "
+"នៅពេល​អ្នក​តភ្ជាប់គណនី​នេះ​ឡើង​វិញ ។"
 
 msgid "Logging started. Future messages in this conversation will be logged."
-msgstr "បាន​ចាប់ផ្ដើម​ចុះ​កំណត់ហេតុ ។ សារ​បន្តទៀត​នៅ​ក្នុង​ការ​សន្ទនា​នឹង​ត្រូវ​បាន​ចុះ​កំណត់ហេតុ ។"
+msgstr ""
+"បាន​ចាប់ផ្ដើម​ចុះ​កំណត់ហេតុ ។ "
+"សារ​បន្តទៀត​នៅ​ក្នុង​ការ​សន្ទនា​នឹង​ត្រូវ​បាន​ចុះ​កំណត់ហេតុ ។"
 
 msgid ""
 "Logging stopped. Future messages in this conversation will not be logged."
-msgstr "បានបញ្ចប់​ការ​ចុះ​កំណត់ហេតុ ។ សារ​បន្តបន្ទាប់​ទៀត​នៅ​ក្នុងកា​រសន្ទនា​នឹង​មិន​ត្រូវ​បាន​ចុះកំណត់ហេតុទេ ។"
+msgstr ""
+"បានបញ្ចប់​ការ​ចុះ​កំណត់ហេតុ ។ "
+"សារ​បន្តបន្ទាប់​ទៀត​នៅ​ក្នុងកា​រសន្ទនា​នឹង​មិន​ត្រូវ​បាន​ចុះកំណត់ហេតុទេ ។"
 
 msgid "Send To"
 msgstr "ផ្ញើ​ទៅ"
@@ -661,24 +680,33 @@ msgid ""
 "%s is not a valid message class. See '/help msgcolor' for valid message "
 "classes."
 msgstr ""
-"%s មិនមែន​ជា​ថ្នាក់​សារ​ត្រឹមត្រូវ​តែ ។ សូមមើល '/help msgcolor' សម្រាប់ថ្នាក់សារ​ដែល​ត្រឹមត្រូវ ។"
+"%s មិនមែន​ជា​ថ្នាក់​សារ​ត្រឹមត្រូវ​តែ ។ សូមមើល '/help msgcolor' "
+"សម្រាប់ថ្នាក់សារ​ដែល​ត្រឹមត្រូវ ។"
 
 #, c-format
 msgid "%s is not a valid color. See '/help msgcolor' for valid colors."
-msgstr "%s មិនមែន​ជា​ពណ៌​ត្រឹមត្រូវ​ទែ ។ សូមមើល '/help msgcolor' សម្រាប់​ពណ៌​ដែល​ត្រឹមត្រូវ ។"
+msgstr ""
+"%s មិនមែន​ជា​ពណ៌​ត្រឹមត្រូវ​ទែ ។ សូមមើល '/help msgcolor' "
+"សម្រាប់​ពណ៌​ដែល​ត្រឹមត្រូវ ។"
 
 msgid ""
 "say &lt;message&gt;:  Send a message normally as if you weren't using a "
 "command."
-msgstr "និយាយ &lt;message&gt; ៖  ផ្ញើ​សារ​តាម​ធម្មតា ដូច​​ដែល​អ្នក​មិនកំពុង​ប្រើ​ពាក្យ​បញ្ជា ។"
+msgstr ""
+"និយាយ &lt;message&gt; ៖  ផ្ញើ​សារ​តាម​ធម្មតា "
+"ដូច​​ដែល​អ្នក​មិនកំពុង​ប្រើ​ពាក្យ​បញ្ជា ។"
 
 msgid "me &lt;action&gt;:  Send an IRC style action to a buddy or chat."
-msgstr "ខ្ញុំ &lt;action&gt; ៖  ផ្ញើ​សកម្មភាព​រចនាប័ទ្ម IRC ទៅកាន់មិត្តភក្ដិ ឬ​ការ​ជជែក ។"
+msgstr ""
+"ខ្ញុំ &lt;action&gt; ៖  ផ្ញើ​សកម្មភាព​រចនាប័ទ្ម IRC ទៅកាន់មិត្តភក្ដិ "
+"ឬ​ការ​ជជែក ។"
 
 msgid ""
 "debug &lt;option&gt;:  Send various debug information to the current "
 "conversation."
-msgstr "បំបាត់​កំហុស &lt;option&gt; ៖  ផ្ញើ​ព័ត៌មាន​បំបាត់​កំហុស​ផ្សេងៗ​ទៅកាន់​ការ​សន្ទនា​បច្ចុប្បន្ន ។"
+msgstr ""
+"បំបាត់​កំហុស &lt;option&gt; ៖  "
+"ផ្ញើ​ព័ត៌មាន​បំបាត់​កំហុស​ផ្សេងៗ​ទៅកាន់​ការ​សន្ទនា​បច្ចុប្បន្ន ។"
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "ជម្រះ ៖ ជម្រះ​ការ​សន្ទនា ។"
@@ -709,15 +737,17 @@ msgstr "ស្ថានភាព ៖ បង្ហាញ​បង្អួច​
 
 msgid ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Set the color "
-"for different classes of messages in the conversation window.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"for different classes of messages in the conversation window.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 msgstr ""
-"msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;  កំណត់ពណ៌​សម្រាប់ថ្នាក់​"
-"ផ្សេងៗ​របស់​សារ​នៅ​ក្នុង​បង្អួច​សន្ទនា ។<br>    &lt;class&gt; ៖ ទទួល ផ្ញើ បន្លិច សកម្មភាព "
-"ត្រាពេលវេលា<br>    &lt;foreground/background&gt; ៖ ខ្មៅ ក្រហម បៃតង ស ប្រផេះ ប្រផេះ​"
-"ដិត ស្វាយ ផ្ទៃមេឃ លំនាំដើម<br><br>ឧទាហរណ៍ ៖<br>    msgcolor ផ្ញើ​ពណ៌​ផ្ទៃមេឃ​លំនាំដើម"
+"msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;  "
+"កំណត់ពណ៌​សម្រាប់ថ្នាក់​ផ្សេងៗ​របស់​សារ​នៅ​ក្នុង​បង្អួច​សន្ទនា ។<br>    "
+"&lt;class&gt; ៖ ទទួល ផ្ញើ បន្លិច សកម្មភាព ត្រាពេលវេលា<br>    "
+"&lt;foreground/background&gt; ៖ ខ្មៅ ក្រហម បៃតង ស ប្រផេះ ប្រផេះ​ដិត ស្វាយ "
+"ផ្ទៃមេឃ លំនាំដើម<br><br>ឧទាហរណ៍ ៖<br>    msgcolor ផ្ញើ​ពណ៌​ផ្ទៃមេឃ​លំនាំដើម"
 
 msgid "Unable to open file."
 msgstr "មិនអាច​បើក​ឯកសារ​បានទេ ។"
@@ -728,7 +758,7 @@ msgstr "បង្អួច​បំបាត់​កំហុស"
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
-#.
+#. 
 msgid "Clear"
 msgstr "ជម្រះ"
 
@@ -823,19 +853,22 @@ msgid ""
 "System events will only be logged if the \"Log all status changes to system "
 "log\" preference is enabled."
 msgstr ""
-"ព្រឹត្តិការណ៍​ប្រព័ន្ធ​នឹង​ត្រូវ​បានចុះ​កំណត់ហេតុ​ តែ​ក្នុងករណី​ដែលចំណូលចិត្ត​ \"ចុះ​កំណត់ហេតុ​កា​រផ្លាស់ប្ដូរ​ស្ថានភាព​​"
-"ប្រព័ន្ធ\" ត្រូវ​បានបើក ។"
+"ព្រឹត្តិការណ៍​ប្រព័ន្ធ​នឹង​ត្រូវ​បានចុះ​កំណត់ហេតុ​ "
+"តែ​ក្នុងករណី​ដែលចំណូលចិត្ត​ "
+"\"ចុះ​កំណត់ហេតុ​កា​រផ្លាស់ប្ដូរ​ស្ថានភាព​​ប្រព័ន្ធ\" ត្រូវ​បានបើក ។"
 
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
 msgstr ""
-"សារ​បន្ទាន់​នឹង​ត្រូវ​បានចុះ​កំណត់ហេតុ​តែ​ក្នុងករណី​ដែល​ចំណូលចិត្ត \"ចុះ​កំណត់ហេតុ​សារ​បន្ទាន់\" ត្រូវ​បាន​បើក ។"
+"សារ​បន្ទាន់​នឹង​ត្រូវ​បានចុះ​កំណត់ហេតុ​តែ​ក្នុងករណី​ដែល​ចំណូលចិត្ត "
+"\"ចុះ​កំណត់ហេតុ​សារ​បន្ទាន់\" ត្រូវ​បាន​បើក ។"
 
 msgid ""
 "Chats will only be logged if the \"Log all chats\" preference is enabled."
 msgstr ""
-"ការ​ជជែក​នឹង​ត្រូវ​បាន​ចុះ​កំណត់ហេតុ​តែ​ក្នុងករណី​ដែល​ចំណូលចិត្ត​ \"ចុះកំណត់ហេតុ​​ជជែក​ទាំង​អស់\" ត្រូវ​បាន​បើក ។"
+"ការ​ជជែក​នឹង​ត្រូវ​បាន​ចុះ​កំណត់ហេតុ​តែ​ក្នុងករណី​ដែល​ចំណូលចិត្ត​ "
+"\"ចុះកំណត់ហេតុ​​ជជែក​ទាំង​អស់\" ត្រូវ​បាន​បើក ។"
 
 msgid "No logs were found"
 msgstr "រក​មិនឃើញ​កំណត់ហេតុ​ទេ"
@@ -886,7 +919,8 @@ msgstr "%s មាន​បំណង​ចាប់ផ្ដើម​សម័យ
 
 #, c-format
 msgid "%s is trying to start an unsupported media session type with you."
-msgstr "%s កំពុង​ព្យាយាម​ចាប់ផ្ដើម​​ប្រភេទ​សម័យ​មេឌៀ​ដែល​មិនបានគាំទ្រ​ជាមួយ​អ្នក ។"
+msgstr ""
+"%s កំពុង​ព្យាយាម​ចាប់ផ្ដើម​​ប្រភេទ​សម័យ​មេឌៀ​ដែល​មិនបានគាំទ្រ​ជាមួយ​អ្នក ។"
 
 msgid "You have rejected the call."
 msgstr "អ្នក​បានបដិសេធ​ការ​ហៅ ។"
@@ -1204,7 +1238,8 @@ msgid "Choose Location..."
 msgstr "ជ្រើស​ទីតាំង..."
 
 msgid "Hit 'Enter' to find more rooms of this category."
-msgstr "ចុច​គ្រាប់ចុច 'បញ្ចូល (Enter)' ដើម្បី​រក​បន្ទប់​ផ្សេងៗ​ទៀត​នៃ​ប្រភេទ​នេះ ។"
+msgstr ""
+"ចុច​គ្រាប់ចុច 'បញ្ចូល (Enter)' ដើម្បី​រក​បន្ទប់​ផ្សេងៗ​ទៀត​នៃ​ប្រភេទ​នេះ ។"
 
 msgid "Get"
 msgstr "យក"
@@ -1241,7 +1276,8 @@ msgid "Others talk in chat"
 msgstr "អ្នកផ្សេង​និយាយ​នៅ​ក្នុង​ការ​ជជែក"
 
 msgid "Someone says your username in chat"
-msgstr "មាន​មនុស្ស​ម្នាក់​និយាយ​អំពី​ឈ្មោះអ្នកប្រើ​របស់​អ្នក​នៅ​ក្នុង​ការជជែក"
+msgstr ""
+"មាន​មនុស្ស​ម្នាក់​និយាយ​អំពី​ឈ្មោះអ្នកប្រើ​របស់​អ្នក​នៅ​ក្នុង​ការជជែក"
 
 msgid "Attention received"
 msgstr ""
@@ -1409,8 +1445,11 @@ msgstr "មិនអាច​រក​ការ​បង្ហាញ X"
 msgid "Couldn't find window"
 msgstr "មិនអាច​​រក​បង្អួច"
 
-msgid "This plugin cannot be loaded because it was not built with X11 support."
-msgstr "កម្មវិធី​ជំនួយ​នេះ​មិនអាច​ត្រូ​វបានផ្ទុក​ទេ ពីព្រោះវា​មិន​ត្រូវ​បាន​ស្ថានបនា​​ដោយ​មានការគាំទ្រ X11 ។"
+msgid ""
+"This plugin cannot be loaded because it was not built with X11 support."
+msgstr ""
+"កម្មវិធី​ជំនួយ​នេះ​មិនអាច​ត្រូ​វបានផ្ទុក​ទេ "
+"ពីព្រោះវា​មិន​ត្រូវ​បាន​ស្ថានបនា​​ដោយ​មានការគាំទ្រ X11 ។"
 
 msgid "GntClipboard"
 msgstr "GntClipboard"
@@ -1421,7 +1460,9 @@ msgstr "កម្មវិធី​ជំនួយការតម្បៀតខ
 msgid ""
 "When the gnt clipboard contents change, the contents are made available to "
 "X, if possible."
-msgstr "នៅពេល​ផ្លាស់ប្ដូរ​មាតិកា​ក្តារតម្បៀតខ្ទាស់ gnt មាតិកា​អាច​ប្រើបាន​ចំពោះX ប្រសិន​បើ​អាច ។"
+msgstr ""
+"នៅពេល​ផ្លាស់ប្ដូរ​មាតិកា​ក្តារតម្បៀតខ្ទាស់ gnt មាតិកា​អាច​ប្រើបាន​ចំពោះX "
+"ប្រសិន​បើ​អាច ។"
 
 #, c-format
 msgid "%s just signed on"
@@ -1485,8 +1526,9 @@ msgid ""
 msgstr ""
 "ការ​ចូល​អាច​ត្រូ​វបាន​បើកតាមរយៈ​ម៉ឺនុយ ឧបករណ៍ -> ចំណូល​ចិត្ត -> ការ​ចូល ។\n"
 "\n"
-"ការ​បើក​កំណត់​ហេតុ​សម្រាប់​សារ​បន្ទាន់ និង​/ឬ​កា​រជជែក​នឹង​ធ្វើ​ឲ្យ​ប្រវត្តិ​សកម្ម​សម្រាប់​ប្រភេទ​ការ​សន្ទនា​"
-"ដូចគ្នា ។"
+"ការ​បើក​កំណត់​ហេតុ​សម្រាប់​សារ​បន្ទាន់ "
+"និង​/ឬ​កា​រជជែក​នឹង​ធ្វើ​ឲ្យ​ប្រវត្តិ​សកម្ម​សម្រាប់​ប្រភេទ​ការ​សន្ទនា​ដូចគ្នា"
+" ។"
 
 msgid "GntHistory"
 msgstr "GntHistory"
@@ -1498,8 +1540,9 @@ msgid ""
 "When a new conversation is opened this plugin will insert the last "
 "conversation into the current conversation."
 msgstr ""
-"នៅពេល​ការ​សន្ទនា​ថ្មី​ត្រូវ​បានបើក កម្មវិធី​ជំនួយ​នេះ​នឹង​បញ្ចូល​ការ​សន្ទនា​ចុងក្រោយ​ទៅ​ក្នុង​ការ​សន្ទនា​"
-"បច្ចុប្បន្ន ។"
+"នៅពេល​ការ​សន្ទនា​ថ្មី​ត្រូវ​បានបើក "
+"កម្មវិធី​ជំនួយ​នេះ​នឹង​បញ្ចូល​ការ​សន្ទនា​ចុងក្រោយ​ទៅ​ក្នុង​ការ​សន្ទនា​បច្ចុប្"
+"បន្ន ។"
 
 #, c-format
 msgid ""
@@ -1514,7 +1557,9 @@ msgid "TinyURL for above: %s"
 msgstr "TinyURL សម្រាប់​ខាង​លើ ៖ %s"
 
 msgid "Please wait while TinyURL fetches a shorter URL ..."
-msgstr "សូម​រង់​ចាំ​អំឡុង​ពេល​ដែល ​TinyURL ទៅប្រ​​មូល​យក​ URL របស់​កម្មវិធីកាត់​ឲ្យ​ខ្លី..."
+msgstr ""
+"សូម​រង់​ចាំ​អំឡុង​ពេល​ដែល ​TinyURL ទៅប្រ​​មូល​យក​ URL "
+"របស់​កម្មវិធីកាត់​ឲ្យ​ខ្លី..."
 
 msgid "Only create TinyURL for URLs of this length or greater"
 msgstr "បង្កើត​តែ TinyURL សម្រាប់ URLs ​ប្រវែង​នេះ ឬ​វែងជាង​នេះ"
@@ -1529,7 +1574,9 @@ msgid "TinyURL plugin"
 msgstr "កម្មវិធី​ជំនួយ TinyURL"
 
 msgid "When receiving a message with URL(s), use TinyURL for easier copying"
-msgstr "នៅពេល​ទទួល​សារ​ដែល​មាន URL(s) ប្រើ TinyURL សម្រាប់​​ការ​ចម្លង​កាន់តែ​ងាយ​ស្រួល"
+msgstr ""
+"នៅពេល​ទទួល​សារ​ដែល​មាន URL(s) ប្រើ TinyURL "
+"សម្រាប់​​ការ​ចម្លង​កាន់តែ​ងាយ​ស្រួល"
 
 msgid "Online"
 msgstr "លើ​បណ្ដាញ"
@@ -1618,7 +1665,9 @@ msgid "Change password for %s"
 msgstr "ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់ %s"
 
 msgid "Please enter your current password and your new password."
-msgstr "សូម​បញ្ចូល​ពាក្យ​សម្ងាត់​​បច្ចុប្បន្ន​របស់​អ្នក និង​ពាក្យ​សម្ងាត់​ថ្មី​របស់​អ្នក ។"
+msgstr ""
+"សូម​បញ្ចូល​ពាក្យ​សម្ងាត់​​បច្ចុប្បន្ន​របស់​អ្នក "
+"និង​ពាក្យ​សម្ងាត់​ថ្មី​របស់​អ្នក ។"
 
 #, c-format
 msgid "Change user information for %s"
@@ -1645,14 +1694,15 @@ msgstr "បញ្ជី​មិត្តភក្ដិ"
 
 msgid "The certificate is self-signed and cannot be automatically checked."
 msgstr ""
-"វិញ្ញាបនបត្រ​ត្រូវ​បាន​ចុះ​ហត្ថលេខា​ដោយ​ខ្លួន​វា​ និង​មិន​អាច​ត្រូវ​បាន​ត្រួតពិនិត្យ​ដោយ​ស្វ័យ​ប្រវត្តិ​បាន​ទេ ។"
+"វិញ្ញាបនបត្រ​ត្រូវ​បាន​ចុះ​ហត្ថលេខា​ដោយ​ខ្លួន​វា​ "
+"និង​មិន​អាច​ត្រូវ​បាន​ត្រួតពិនិត្យ​ដោយ​ស្វ័យ​ប្រវត្តិ​បាន​ទេ ។"
 
 msgid ""
 "The certificate is not trusted because no certificate that can verify it is "
 "currently trusted."
 msgstr ""
-"វិញ្ញាបនបត្រ​មិន​ត្រូវ​បានជឿទុក​ចិត្តទេ ដោយ​សារ​តែ​មិន​មាន​វិញ្ញាបនបត្រ ​ដែល​​អាច​ផ្ទៀងផ្ទាត់ថា ​វា​​ត្រូវ​បាន​"
-"ជឿទុក​ចិត្ត​ពេល ​បច្ចុប្បន្ន ។"
+"វិញ្ញាបនបត្រ​មិន​ត្រូវ​បានជឿទុក​ចិត្តទេ ដោយ​សារ​តែ​មិន​មាន​វិញ្ញាបនបត្រ "
+"​ដែល​​អាច​ផ្ទៀងផ្ទាត់ថា ​វា​​ត្រូវ​បាន​ជឿទុក​ចិត្ត​ពេល ​បច្ចុប្បន្ន ។"
 
 msgid ""
 "The certificate is not valid yet.  Check that your computer's date and time "
@@ -1666,14 +1716,15 @@ msgstr ""
 
 #. Translators: "domain" refers to a DNS domain (e.g. talk.google.com)
 msgid "The certificate presented is not issued to this domain."
-msgstr "​វិញ្ញាបនបត្រ​បានបង្ហាញថា​ មិន​ត្រូវ​បាន​ចេញ​ផ្សាយ​ដែន​នេះ​ទេ ។​ទេ ។​"
+msgstr ""
+"​វិញ្ញាបនបត្រ​បានបង្ហាញថា​ មិន​ត្រូវ​បាន​ចេញ​ផ្សាយ​ដែន​នេះ​ទេ ។​ទេ ។​"
 
 msgid ""
 "You have no database of root certificates, so this certificate cannot be "
 "validated."
 msgstr ""
-"អ្នក​មិនមានមូលដ្ឋាន​ទិន្នន័យ​សម្រាប់​វិញ្ញាបនបត្រ root ទេ ដូច្នេះ​វិញ្ញាបនបត្រ​នេះ​មិន​អាច​ត្រូវ​"
-"បានផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ទេ ។"
+"អ្នក​មិនមានមូលដ្ឋាន​ទិន្នន័យ​សម្រាប់​វិញ្ញាបនបត្រ root ទេ "
+"ដូច្នេះ​វិញ្ញាបនបត្រ​នេះ​មិន​អាច​ត្រូវ​បានផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ទេ ។"
 
 msgid "The certificate chain presented is invalid."
 msgstr "​វិញ្ញាបនបត្រ​បាន​បង្ហាញ​បន្តគ្នា​​​ថា​មិន​ត្រឹមត្រូវ​នោះ​ទេ ។"
@@ -1742,8 +1793,8 @@ msgid ""
 "The certificate claims to be from \"%s\" instead. This could mean that you "
 "are not connecting to the service you believe you are."
 msgstr ""
-"វិញ្ញាបនបត្រ​បានអះអាង​ថា​បានមក​ពី​ \"%s\" ជំនួស​វិញ ។ វា​អាច​មានន័យ​ថា អ្នក​មិនបាន​តភ្ជាប់​ទៅ​កាន់សេវា​"
-"ដែល​អ្នក​ជឿជាក់​នោះ​ទេ ។"
+"វិញ្ញាបនបត្រ​បានអះអាង​ថា​បានមក​ពី​ \"%s\" ជំនួស​វិញ ។ វា​អាច​មានន័យ​ថា "
+"អ្នក​មិនបាន​តភ្ជាប់​ទៅ​កាន់សេវា​ដែល​អ្នក​ជឿជាក់​នោះ​ទេ ។"
 
 #. Make messages
 #, c-format
@@ -1836,7 +1887,9 @@ msgstr "អញ្ជើញ​ឲ្យ​ចូលរួម​ក្នុងក
 msgid ""
 "Please enter the name of the user you wish to invite, along with an optional "
 "invite message."
-msgstr "សូម​បញ្ចូល​ឈ្មោះ​របស់​អ្នកប្រើ​ដែល​អ្នក​ចង់​អញ្ជើញ រួម​ជា​មួយ​នឹង​សារ​អញ្ជើញ​ជា​ជម្រើស ។"
+msgstr ""
+"សូម​បញ្ចូល​ឈ្មោះ​របស់​អ្នកប្រើ​ដែល​អ្នក​ចង់​អញ្ជើញ "
+"រួម​ជា​មួយ​នឹង​សារ​អញ្ជើញ​ជា​ជម្រើស ។"
 
 #, c-format
 msgid "Failed to get connection: %s"
@@ -1851,7 +1904,9 @@ msgid "Failed to get serv name: %s"
 msgstr "បាន​បរាជ័យ​ក្នុងការ​​បម្រុង​ទុក​ឈ្មោះ ៖ %s"
 
 msgid "Purple's D-BUS server is not running for the reason listed below"
-msgstr "ម៉ាស៊ីនបម្រើ D-BUS របស់ Purple មិន​កំពុង​រត់​ទេ​ ចំពោះ​ហេតុផល​រាយ​នៅ​ខាង​ក្រោម"
+msgstr ""
+"ម៉ាស៊ីនបម្រើ D-BUS របស់ Purple មិន​កំពុង​រត់​ទេ​ "
+"ចំពោះ​ហេតុផល​រាយ​នៅ​ខាង​ក្រោម"
 
 msgid "No name"
 msgstr "គ្មាន​ឈ្មោះ"
@@ -1884,7 +1939,8 @@ msgstr ""
 
 #, c-format
 msgid "Resolver process exited without answering our request"
-msgstr "ដំណើរការ​របស់​កម្មវិធី​ដោះស្រាយ​បានចេញ ដោយ​មិនបាន​ឆ្លើយ​សំណើ​របស់​ពួកយើង​ទេ"
+msgstr ""
+"ដំណើរការ​របស់​កម្មវិធី​ដោះស្រាយ​បានចេញ ដោយ​មិនបាន​ឆ្លើយ​សំណើ​របស់​ពួកយើង​ទេ"
 
 #, c-format
 msgid "Error converting %s to punycode: %d"
@@ -1935,7 +1991,8 @@ msgstr "មិនអាច​ផ្ញើ​ថត​បាន​ទេ ។"
 
 #, c-format
 msgid "%s is not a regular file. Cowardly refusing to overwrite it.\n"
-msgstr "%s មិន​មែន​ជា​ឯកសារ​ធម្មតា ។ ដោយ​កំសាក​បដិសេធ​​ក្នុងការ​សរសេរ​ជាន់​លើ​វា ។\n"
+msgstr ""
+"%s មិន​មែន​ជា​ឯកសារ​ធម្មតា ។ ដោយ​កំសាក​បដិសេធ​​ក្នុងការ​សរសេរ​ជាន់​លើ​វា ។\n"
 
 msgid "File is not readable."
 msgstr "ឯកសារ​​មិនអាច​អាន​​បានទេ ។"
@@ -2012,128 +2069,150 @@ msgstr "បាន​បរាជ័យ​ក្នុងកា​រផ្ទេ
 msgid "File transfer from %s failed."
 msgstr "បាន​បរាជ័យ​ក្នុងការ​ផ្ទេរ​ពី %s ។"
 
-msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr "ថាតើ​ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់​គួរគ្រប់គ្រង URLs \"aim\" ។"
+msgid "Run the command in a terminal"
+msgstr "រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ"
 
-msgid ""
-"True if the command specified in the \"command\" key should handle \"aim\" "
-"URLs."
-msgstr "ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បានបញ្ជាក់​នៅ​​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" គួរ​គ្រប់គ្រង URLs \"aim\" ។"
+msgid "The command used to handle \"aim\" URLs, if enabled."
+msgstr ""
+"ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង \"aim\" URLs ប្រសិន​បើ​បាន​បើក ។"
+
+msgid "The command used to handle \"gg\" URLs, if enabled."
+msgstr ""
+"ពាក្យ​បញ្ជា​បាន​ប្រើ​​ដើម្បី​គ្រប់គ្រង \"gg\" URLs ប្រសិនបើ​បាន​បើក ។"
+
+msgid "The command used to handle \"icq\" URLs, if enabled."
+msgstr ""
+"ពាក្យ​បញ្ជា​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង \"icq\" URLs ប្រសិន​បើ​បាន​បើក ។"
+
+msgid "The command used to handle \"irc\" URLs, if enabled."
+msgstr ""
+"ពាក្យ​បញ្ជា​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង \"irc\" URLs ប្រសិន​បើ​បានបើក ។"
+
+msgid "The command used to handle \"msnim\" URLs, if enabled."
+msgstr ""
+"ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង \"msnim\" URLs ប្រសិន​បើ​បានបើក ។"
+
+msgid "The command used to handle \"sip\" URLs, if enabled."
+msgstr "ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង \"sip\" URLs ប្រសិនបើ​បានបើក ។"
+
+msgid "The command used to handle \"xmpp\" URLs, if enabled."
+msgstr ""
+"ពាក្យ​បញ្ជា​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង \"xmpp\" URLs ប្រសិន​បើ​បានបើក ។"
+
+msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgstr ""
+"ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង \"ymsgr\" URLs ប្រសិន​បើ​បានបើក ។"
 
 msgid "The handler for \"aim\" URLs"
 msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"aim\""
 
-msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr "ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង \"aim\" URLs ប្រសិន​បើ​បាន​បើក ។"
-
-msgid "Run the command in a terminal"
-msgstr "រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ"
-
-msgid ""
-"True if the command used to handle this type of URL should be run in a "
-"terminal."
-msgstr "ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។"
-
-msgid "Whether the specified command should handle \"gg\" URLs"
-msgstr "ថាតើ​ពាក្យ​បញ្ជា​ដែលបាន​បញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"gg\" ។"
-
-msgid ""
-"True if the command specified in the \"command\" key should handle \"gg\" "
-"URLs."
-msgstr "ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" គួរ​គ្រប់គ្រង URLs \"gg\" ។"
-
 msgid "The handler for \"gg\" URLs"
 msgstr "កម្មវិធី​គ្រប់គ្រ​ងសម្រាប់ URLs \"gg\""
-
-msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr "ពាក្យ​បញ្ជា​បាន​ប្រើ​​ដើម្បី​គ្រប់គ្រង \"gg\" URLs ប្រសិនបើ​បាន​បើក ។"
-
-msgid "Whether the specified command should handle \"icq\" URLs"
-msgstr "ថាតើ ពាក្យ​បញ្ជា​ដែល​បានប​ញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"icq\" ។"
-
-msgid ""
-"True if the command specified in the \"command\" key should handle \"icq\" "
-"URLs."
-msgstr "ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" គួរ​គ្រប់គ្រង URLs \"icq\" ។"
 
 msgid "The handler for \"icq\" URLs"
 msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"icq\""
 
-msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr "ពាក្យ​បញ្ជា​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង \"icq\" URLs ប្រសិន​បើ​បាន​បើក ។"
+msgid "The handler for \"irc\" URLs"
+msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"irc\""
 
-msgid "Whether the specified command should handle \"irc\" URLs"
-msgstr "ថាតើ​ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់គួរ​គ្រប់គ្រង URLs \"irc\" ។"
+msgid "The handler for \"msnim\" URLs"
+msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"msnim\""
+
+msgid "The handler for \"sip\" URLs"
+msgstr "កម្ម​វិធី​គ្រប់គ្រង​សម្រាប់ URLs \"sip\""
+
+msgid "The handler for \"xmpp\" URLs"
+msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"xmpp\""
+
+msgid "The handler for \"ymsgr\" URLs"
+msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"ymsgr\""
+
+msgid ""
+"True if the command specified in the \"command\" key should handle \"aim\" "
+"URLs."
+msgstr ""
+"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បានបញ្ជាក់​នៅ​​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" "
+"គួរ​គ្រប់គ្រង URLs \"aim\" ។"
+
+msgid ""
+"True if the command specified in the \"command\" key should handle \"gg\" "
+"URLs."
+msgstr ""
+"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" "
+"គួរ​គ្រប់គ្រង URLs \"gg\" ។"
+
+msgid ""
+"True if the command specified in the \"command\" key should handle \"icq\" "
+"URLs."
+msgstr ""
+"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" "
+"គួរ​គ្រប់គ្រង URLs \"icq\" ។"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"irc\" "
 "URLs."
-msgstr "ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" គួរ​គ្រប់គ្រង URLs \"irc\" ។"
-
-msgid "The handler for \"irc\" URLs"
-msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"irc\""
-
-msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr "ពាក្យ​បញ្ជា​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង \"irc\" URLs ប្រសិន​បើ​បានបើក ។"
-
-msgid "Whether the specified command should handle \"msnim\" URLs"
-msgstr "ថាតើ ពាក្យ​បញ្ជា​ដែលបានបញ្ជាក់គួរ​គ្រប់គ្រង URLs \"msnim\" ។"
+msgstr ""
+"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" "
+"គួរ​គ្រប់គ្រង URLs \"irc\" ។"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"msnim\" "
 "URLs."
 msgstr ""
-"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" គួរ​គ្រប់គ្រង URLs \"msnim\" ។"
-
-msgid "The handler for \"msnim\" URLs"
-msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"msnim\""
-
-msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr "ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង \"msnim\" URLs ប្រសិន​បើ​បានបើក ។"
-
-msgid "Whether the specified command should handle \"sip\" URLs"
-msgstr "ថាតើ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"sip\""
+"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" "
+"គួរ​គ្រប់គ្រង URLs \"msnim\" ។"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"sip\" "
 "URLs."
-msgstr "ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" គួរ​គ្រប់គ្រង URLs \"sip\" ។"
-
-msgid "The handler for \"sip\" URLs"
-msgstr "កម្ម​វិធី​គ្រប់គ្រង​សម្រាប់ URLs \"sip\""
-
-msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr "ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង \"sip\" URLs ប្រសិនបើ​បានបើក ។"
-
-msgid "Whether the specified command should handle \"xmpp\" URLs"
-msgstr "ថាតើ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"xmpp\" ។"
+msgstr ""
+"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" "
+"គួរ​គ្រប់គ្រង URLs \"sip\" ។"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"xmpp\" "
 "URLs."
 msgstr ""
-"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" គួរ​គ្រប់គ្រង URLs \"xmpp\" ។"
-
-msgid "The handler for \"xmpp\" URLs"
-msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"xmpp\""
-
-msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr "ពាក្យ​បញ្ជា​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង \"xmpp\" URLs ប្រសិន​បើ​បានបើក ។"
-
-msgid "Whether the specified command should handle \"ymsgr\" URLs"
-msgstr "ថាតើ ពាក្យ​បញ្ជាក់​ដែលបានបញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"ymsgr\" ។"
+"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" "
+"គួរ​គ្រប់គ្រង URLs \"xmpp\" ។"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ymsgr\" "
 "URLs."
 msgstr ""
-"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" គួរ​គ្រប់គ្រង URLs \"ymsgr\" ។"
+"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" "
+"គួរ​គ្រប់គ្រង URLs \"ymsgr\" ។"
 
-msgid "The handler for \"ymsgr\" URLs"
-msgstr "កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs \"ymsgr\""
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
+msgstr ""
+"ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច \"ពាក្យ​បញ្ជា\" "
+"គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។"
 
-msgid "The command used to handle \"ymsgr\" URLs, if enabled."
-msgstr "ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង \"ymsgr\" URLs ប្រសិន​បើ​បានបើក ។"
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr "ថាតើ​ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់​គួរគ្រប់គ្រង URLs \"aim\" ។"
+
+msgid "Whether the specified command should handle \"gg\" URLs"
+msgstr "ថាតើ​ពាក្យ​បញ្ជា​ដែលបាន​បញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"gg\" ។"
+
+msgid "Whether the specified command should handle \"icq\" URLs"
+msgstr "ថាតើ ពាក្យ​បញ្ជា​ដែល​បានប​ញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"icq\" ។"
+
+msgid "Whether the specified command should handle \"irc\" URLs"
+msgstr "ថាតើ​ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់គួរ​គ្រប់គ្រង URLs \"irc\" ។"
+
+msgid "Whether the specified command should handle \"msnim\" URLs"
+msgstr "ថាតើ ពាក្យ​បញ្ជា​ដែលបានបញ្ជាក់គួរ​គ្រប់គ្រង URLs \"msnim\" ។"
+
+msgid "Whether the specified command should handle \"sip\" URLs"
+msgstr "ថាតើ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"sip\""
+
+msgid "Whether the specified command should handle \"xmpp\" URLs"
+msgstr "ថាតើ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"xmpp\" ។"
+
+msgid "Whether the specified command should handle \"ymsgr\" URLs"
+msgstr "ថាតើ ពាក្យ​បញ្ជាក់​ដែលបានបញ្ជាក់​គួរ​គ្រប់គ្រង URLs \"ymsgr\" ។"
 
 msgid "<b><font color=\"red\">The logger has no read function</font></b>"
 msgstr "<b><font color=\"red\">មិនមាន​មុខងារ​អាន​ទៀតទេ</font></b>"
@@ -2184,12 +2263,14 @@ msgid ""
 "No codecs found. Install some GStreamer codecs found in GStreamer plugins "
 "packages."
 msgstr ""
-"ស្វែង​រក​មិន​ឃើញ​កូឌិក​​នោះ​ទេ ។ ដំឡើង​​កូឌិក GStreamer មួយ​ចំនួន ដែល​បាន​រក​ឃើញ​នៅ​ក្នុង​កញ្ចប់​កម្មវិធី​ជំនួយ​ "
-"GStreamer ។"
+"ស្វែង​រក​មិន​ឃើញ​កូឌិក​​នោះ​ទេ ។ ដំឡើង​​កូឌិក GStreamer មួយ​ចំនួន "
+"ដែល​បាន​រក​ឃើញ​នៅ​ក្នុង​កញ្ចប់​កម្មវិធី​ជំនួយ​ GStreamer ។"
 
 msgid ""
 "No codecs left. Your codec preferences in fs-codecs.conf are too strict."
-msgstr "មិន​មាន​កូឌិក​​នៅ​សល់ទេ​ ។ ចំណូលចិត្ត​កូឌិក​របស់​​អ្នក​នៅ​ក្នុង​ fs-codecs.conf តឹងរឹង​ពេក ។"
+msgstr ""
+"មិន​មាន​កូឌិក​​នៅ​សល់ទេ​ ។ ចំណូលចិត្ត​កូឌិក​របស់​​អ្នក​នៅ​ក្នុង​ fs-"
+"codecs.conf តឹងរឹង​ពេក ។"
 
 msgid "A non-recoverable Farsight2 error has occurred."
 msgstr "កំហុស Farsight2 ដែល​មិនអាច​យក​ចេញ​​បានកើត​ឡើង ។"
@@ -2227,14 +2308,17 @@ msgstr "មិនផ្គូផ្គង​កំណែ ABI %d.%d.x (ត្រ�
 
 msgid ""
 "Plugin does not implement all required functions (list_icon, login and close)"
-msgstr "កម្មវិធី​ជំនួយ​មិន​អនុវត្ត​មុខងារ​ដែល​ទាមទារ​ទាំង​អស់​ទេ (list_icon ចូល ហើយ​បិទ)"
+msgstr ""
+"កម្មវិធី​ជំនួយ​មិន​អនុវត្ត​មុខងារ​ដែល​ទាមទារ​ទាំង​អស់​ទេ (list_icon ចូល "
+"ហើយ​បិទ)"
 
 #, c-format
 msgid ""
 "The required plugin %s was not found. Please install this plugin and try "
 "again."
 msgstr ""
-"រក​មិនឃើញ​កម្មវិធី​ជំនួយ​ដែលត្រូវការ %s ​នោះទេ ។ សូម​ដំឡើង​កម្មវិធី​ជំនួយ​នេះ ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
+"រក​មិនឃើញ​កម្មវិធី​ជំនួយ​ដែលត្រូវការ %s ​នោះទេ ។ "
+"សូម​ដំឡើង​កម្មវិធី​ជំនួយ​នេះ ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
 
 msgid "Unable to load the plugin"
 msgstr "មិន​អាច​ផ្ទុក​កម្មវិធី​ជំនួយ​បានទេ"
@@ -2254,11 +2338,15 @@ msgid "Autoaccept"
 msgstr "ព្រម​ទទួល​ដោយ​ស្វ័យ​ប្រវត្តិ"
 
 msgid "Auto-accept file transfer requests from selected users."
-msgstr "ការ​ផ្ទេរ​ឯកសារ​ដែល​ព្រមទទួលដោយ​ស្វ័យ​ប្រវត្តិ​ស្នើ​ពី​អ្នក​ប្រើ​ដែលបាន​ជ្រើស ។"
+msgstr ""
+"ការ​ផ្ទេរ​ឯកសារ​ដែល​ព្រមទទួលដោយ​ស្វ័យ​ប្រវត្តិ​ស្នើ​ពី​អ្នក​ប្រើ​ដែលបាន​ជ្រើស"
+" ។"
 
 #, c-format
 msgid "Autoaccepted file transfer of \"%s\" from \"%s\" completed."
-msgstr "ការ​ផ្ទេរ​ឯកសារ​ដែល​ព្រមទទួល​ដោយ​ស្វ័យប្រវត្តិ​របស់ \"%s\" ពី \"%s\" បាន​បញ្ចប់ ។"
+msgstr ""
+"ការ​ផ្ទេរ​ឯកសារ​ដែល​ព្រមទទួល​ដោយ​ស្វ័យប្រវត្តិ​របស់ \"%s\" ពី \"%s\" "
+"បាន​បញ្ចប់ ។"
 
 msgid "Autoaccept complete"
 msgstr "បញ្ចប់ការ​ព្រម​ទទួល​ដោយ​ស្វ័យ​ប្រវត្តិ"
@@ -2305,7 +2393,8 @@ msgid ""
 "Notify with a popup when an autoaccepted file transfer is complete\n"
 "(only when there's no conversation with the sender)"
 msgstr ""
-"ជូន​ដំណឹង​ដោយ​ម៉ឺនុយ​លេចឡើង នៅពេល​ការ​​ផ្ទេរ​ឯកសារ​ព្រមទទួល​ដោយ​ស្វ័យ​ប្រវត្តិ​បានបញ្ចប់\n"
+"ជូន​ដំណឹង​ដោយ​ម៉ឺនុយ​លេចឡើង "
+"នៅពេល​ការ​​ផ្ទេរ​ឯកសារ​ព្រមទទួល​ដោយ​ស្វ័យ​ប្រវត្តិ​បានបញ្ចប់\n"
 "(តែ​នៅពេល​ដែល​គ្មាន​ការ​សន្ទនា​ជា​មួយ​អ្នក​ផ្ញើ)"
 
 msgid "Create a new directory for each user"
@@ -2341,7 +2430,9 @@ msgstr "ទុក​ចំណាំ​នៅ​លើ​មិត្តភក្
 
 #. *< summary
 msgid "Adds the option to store notes for buddies on your buddy list."
-msgstr "បន្ថែម​ជម្រើស​ដើម្បីទុក​ចំណាំ​សម្រាប់​មិត្តភក្ដិ​នៅ​លើ​បញ្ជី​មិតភក្ដិ​របស់​អ្នក ។"
+msgstr ""
+"បន្ថែម​ជម្រើស​ដើម្បីទុក​ចំណាំ​សម្រាប់​មិត្តភក្ដិ​នៅ​លើ​បញ្ជី​មិតភក្ដិ​របស់​អ្"
+"នក ។"
 
 #. *< type
 #. *< ui_requirement
@@ -2421,7 +2512,8 @@ msgid "Unset Idle Time for All Idled Accounts"
 msgstr "មិន​កំណត់​ពេលវេលា​ទំនេរ​សម្រាប់គណនី​ទាំង​អស់​ទេ"
 
 msgid "Allows you to hand-configure how long you've been idle"
-msgstr "អនុញ្ញាត​ឲ្យ​អ្នក​​កំណត់​រចនាសម្ព័ន្ធ​ដោយដៃ​ អំពី​រយៈពេល​ដែល​អ្នកនៅ​ទំនេរ"
+msgstr ""
+"អនុញ្ញាត​ឲ្យ​អ្នក​​កំណត់​រចនាសម្ព័ន្ធ​ដោយដៃ​ អំពី​រយៈពេល​ដែល​អ្នកនៅ​ទំនេរ"
 
 #. *< type
 #. *< ui_requirement
@@ -2443,8 +2535,9 @@ msgid ""
 "Test plugin IPC support, as a client. This locates the server plugin and "
 "calls the commands registered."
 msgstr ""
-"ការគាំទ្រ​ការ​សាកល្បង​កម្មវិធី​ជំនួយ IPC ព្រម​ទាំង​ម៉ាស៊ីន​ភ្ញៀវ ។ វា​កំណត់​ទីតាំង​​កម្មវិធី​ជំនួយ​ម៉ាស៊ីនបម្រើ និង​ហៅ​"
-"ពាក្យ​បញ្ជា​ដែលបានចុះឈ្មោះ ។"
+"ការគាំទ្រ​ការ​សាកល្បង​កម្មវិធី​ជំនួយ IPC ព្រម​ទាំង​ម៉ាស៊ីន​ភ្ញៀវ ។ "
+"វា​កំណត់​ទីតាំង​​កម្មវិធី​ជំនួយ​ម៉ាស៊ីនបម្រើ "
+"និង​ហៅ​ពាក្យ​បញ្ជា​ដែលបានចុះឈ្មោះ ។"
 
 #. *< type
 #. *< ui_requirement
@@ -2462,8 +2555,11 @@ msgid "Test plugin IPC support, as a server."
 msgstr "គាំទ្រ​ការ​សាកល្បង​កម្មវិធី​ជំនួយ IPC ជា​ម៉ាស៊ីន​បម្រើ ។"
 
 #. *  description
-msgid "Test plugin IPC support, as a server. This registers the IPC commands."
-msgstr "គាំទ្រ​ការ​សាកល្បង​កម្មវិធី​ជំនួយ IPC ជា​ម៉ាស៊ីន​បម្រើ ។ វា​ចុះឈ្មោះ​ពាក្យ​បញ្ជា IPC ។"
+msgid ""
+"Test plugin IPC support, as a server. This registers the IPC commands."
+msgstr ""
+"គាំទ្រ​ការ​សាកល្បង​កម្មវិធី​ជំនួយ IPC ជា​ម៉ាស៊ីន​បម្រើ ។ "
+"វា​ចុះឈ្មោះ​ពាក្យ​បញ្ជា IPC ។"
 
 msgid "Hide Joins/Parts"
 msgstr "លាក់ ចំណែក/​ការ​ចូលរួម"
@@ -2498,8 +2594,9 @@ msgid ""
 "This plugin hides join/part messages in large rooms, except for those users "
 "actively taking part in a conversation."
 msgstr ""
-"កម្មវិធី​ជំនួយ​នេះ​លាក់​សារ​ចូល/ផ្នែក​នៅ​ក្នុង​បន្ទប់​ធំ លើកលែង​តែ​សម្រាប់​អ្នក​ប្រើទាំង​នោះ​ដែល​កើតឡើង​យ៉ាង​សកម្ម​"
-"នៅ​ក្នុង​ការ​សន្ទនា ។"
+"កម្មវិធី​ជំនួយ​នេះ​លាក់​សារ​ចូល/ផ្នែក​នៅ​ក្នុង​បន្ទប់​ធំ "
+"លើកលែង​តែ​សម្រាប់​អ្នក​ប្រើទាំង​នោះ​ដែល​កើតឡើង​យ៉ាង​សកម្ម​នៅ​ក្នុង​ការ​សន្ទនា"
+" ។"
 
 #. This is used in the place of a timezone abbreviation if the
 #. * offset is way off.  The user should never really see it, but
@@ -2527,7 +2624,9 @@ msgstr "អ្នក​ត្រូវ​បានផ្ដាច់​ពី​
 msgid ""
 "You are currently disconnected. Messages will not be received unless you are "
 "logged in."
-msgstr "អ្នក​បច្ចុប្បន្ន​ត្រូវ​បានផ្ដាច់ ។ សារ​នឹង​មិន​ត្រូវ​បានទទួល​លុះត្រា​តែ​អ្នក​ចូល ។"
+msgstr ""
+"អ្នក​បច្ចុប្បន្ន​ត្រូវ​បានផ្ដាច់ ។ "
+"សារ​នឹង​មិន​ត្រូវ​បានទទួល​លុះត្រា​តែ​អ្នក​ចូល ។"
 
 msgid "Message could not be sent because the maximum length was exceeded."
 msgstr "សារ​មិនអាច​ត្រូវ​បាន​ផ្ញើ​ទេ ដោយ​សារ​តែ​លើស​ប្រវែង​អតិបរមា ។"
@@ -2604,7 +2703,9 @@ msgstr "កម្មវិធី​អាន​កំណត់ហេតុ"
 #. *< version
 #. * summary
 msgid "Includes other IM clients' logs in the log viewer."
-msgstr "រួម​បញ្ចូល​កំណត់​ហេតុ​របស់​ម៉ាស៊ីនភ្ញៀវ IM ផ្សេងៗ​ទៀត​នៅ​ក្នុង​កម្មវិធីមើល​កំណត់​ហេតុ ។"
+msgstr ""
+"រួម​បញ្ចូល​កំណត់​ហេតុ​របស់​ម៉ាស៊ីនភ្ញៀវ IM "
+"ផ្សេងៗ​ទៀត​នៅ​ក្នុង​កម្មវិធីមើល​កំណត់​ហេតុ ។"
 
 #. * description
 msgid ""
@@ -2614,11 +2715,12 @@ msgid ""
 "WARNING: This plugin is still alpha code and may crash frequently.  Use it "
 "at your own risk!"
 msgstr ""
-"នៅពេល​មើល​កំណត់​ហេតុ កម្មវិធី​ជំនួយ​នេះ​នឹង​រួម​មាន​កំណត់ហេតុ​ពី​ម៉ាស៊ីន​ភ្ញៀវ IM ផ្សេង​ទៀត ។ បច្ចុប្បន្ន ​វា​​រួមមាន​"
-"កម្មវិធី​ផ្ញើ​សារ Adium, MSN aMSN និង Trillian ។\n"
+"នៅពេល​មើល​កំណត់​ហេតុ "
+"កម្មវិធី​ជំនួយ​នេះ​នឹង​រួម​មាន​កំណត់ហេតុ​ពី​ម៉ាស៊ីន​ភ្ញៀវ IM ផ្សេង​ទៀត ។ "
+"បច្ចុប្បន្ន ​វា​​រួមមាន​កម្មវិធី​ផ្ញើ​សារ Adium, MSN aMSN និង Trillian ។\n"
 "\n"
-"ការ​ព្រមាន ៖ កម្មវិធី​ជំនួយ​នេះ​ស្ថិត​ក្នុង​កូដ​អាលហ្វា​នៅ​ឡើយ​ទេ ហើយ​អាច​គាំង​ញឹកញាប់ ។ ប្រើ​វា​មាន​គ្រោះថ្នាក់​"
-"ណាស់ !"
+"ការ​ព្រមាន ៖ កម្មវិធី​ជំនួយ​នេះ​ស្ថិត​ក្នុង​កូដ​អាលហ្វា​នៅ​ឡើយ​ទេ "
+"ហើយ​អាច​គាំង​ញឹកញាប់ ។ ប្រើ​វា​មាន​គ្រោះថ្នាក់​ណាស់ !"
 
 msgid "Mono Plugin Loader"
 msgstr "កម្មវិធី​ផ្ទុក​កម្មវិធី​ជំនួយ​របស់ Mono"
@@ -2654,7 +2756,8 @@ msgid ""
 "Prepends a newline to messages so that the rest of the message appears below "
 "the username in the conversation window."
 msgstr ""
-"បន្ថែម​បន្ទាត់ថ្មី​ទៅសារ ដូច្នេះ​សារ​ដែលនៅសល់​បង្ហាញ​ខាង​ក្រោម​ឈ្មោះអ្នក​ប្រើ​នៅ​ក្នុង​បង្អួច​សន្ទនា ។"
+"បន្ថែម​បន្ទាត់ថ្មី​ទៅសារ "
+"ដូច្នេះ​សារ​ដែលនៅសល់​បង្ហាញ​ខាង​ក្រោម​ឈ្មោះអ្នក​ប្រើ​នៅ​ក្នុង​បង្អួច​សន្ទនា ។"
 
 msgid "Offline Message Emulation"
 msgstr "ក្លែង​ធ្វើសារ​ក្រៅ​បណ្ដាញ"
@@ -2665,15 +2768,17 @@ msgstr "រក្សាទុកសារ​ដែល​បានផ្ញើ​
 msgid ""
 "The rest of the messages will be saved as pounces. You can edit/delete the "
 "pounce from the `Buddy Pounce' dialog."
-msgstr "សារ​ដែល​នៅ​សល់​នឹង​ត្រូវ​បាន​រក្សាទុក​ជា​ក្រុម ។ អ្នក​អាច​កែសម្រួល/លុប​ក្រុម​ពី​ប្រអប់ `ក្រុម​មិត្តភក្ដិ' ។"
+msgstr ""
+"សារ​ដែល​នៅ​សល់​នឹង​ត្រូវ​បាន​រក្សាទុក​ជា​ក្រុម ។ "
+"អ្នក​អាច​កែសម្រួល/លុប​ក្រុម​ពី​ប្រអប់ `ក្រុម​មិត្តភក្ដិ' ។"
 
 #, c-format
 msgid ""
 "\"%s\" is currently offline. Do you want to save the rest of the messages in "
 "a pounce and automatically send them when \"%s\" logs back in?"
 msgstr ""
-"\"%s\" ឥឡូវ​នេះ​នៅ​ក្រៅបណ្ដាញ ។ តើអ្នក​ចង់​រក្សាទុក​សារ​ដែលនៅ​សល់​ជា​ក្រុម ហើយ​ផ្ញើ​ពួកវា​ដោយ​ស្វ័យ​ប្រវត្តិ​"
-"នៅពេល​ដែល \"%s\" ចូល​ម្ដង​ទៀត​ដែរឬទេ ?"
+"\"%s\" ឥឡូវ​នេះ​នៅ​ក្រៅបណ្ដាញ ។ តើអ្នក​ចង់​រក្សាទុក​សារ​ដែលនៅ​សល់​ជា​ក្រុម "
+"ហើយ​ផ្ញើ​ពួកវា​ដោយ​ស្វ័យ​ប្រវត្តិ​នៅពេល​ដែល \"%s\" ចូល​ម្ដង​ទៀត​ដែរឬទេ ?"
 
 msgid "Offline Message"
 msgstr "សារ​ក្រៅ​បណ្ដាញ"
@@ -2717,9 +2822,11 @@ msgid ""
 "are only used in a single successful connection.\n"
 "Note: The account password must not be saved for this to work."
 msgstr ""
-"អនុញ្ញាត​ឲ្យ​អ្នក​បង្ខំ​នៅ​លើ​មូលដ្ឋាន​ក្នុង​មួយ​គណនី ដែល​ពាក្យ​សម្ងាត់​មិន​កំពុង​ត្រូវ​បាន​រក្សាទុក​ទេ គឺ​ត្រូវ​បាន​"
-"រក្សាទុក​តែ​ការ​តភ្ជាប់​ដោយ​ជោគជ័យ​តែ​មួយ​ប៉ុណ្ណោះ ។\n"
-"ចំណាំ​ ៖ ពាក្យ​សម្ងាត់​គណនី​មិន​ត្រូវ​បាន​រក្សាទុក​​វា​សម្រាប់​ការ​ងារ​នោះទេ ។"
+"អនុញ្ញាត​ឲ្យ​អ្នក​បង្ខំ​នៅ​លើ​មូលដ្ឋាន​ក្នុង​មួយ​គណនី "
+"ដែល​ពាក្យ​សម្ងាត់​មិន​កំពុង​ត្រូវ​បាន​រក្សាទុក​ទេ "
+"គឺ​ត្រូវ​បាន​រក្សាទុក​តែ​ការ​តភ្ជាប់​ដោយ​ជោគជ័យ​តែ​មួយ​ប៉ុណ្ណោះ ។\n"
+"ចំណាំ​ ៖ "
+"ពាក្យ​សម្ងាត់​គណនី​មិន​ត្រូវ​បាន​រក្សាទុក​​វា​សម្រាប់​ការ​ងារ​នោះទេ ។"
 
 #. *< type
 #. *< ui_requirement
@@ -2746,8 +2853,9 @@ msgid ""
 "Causes conversation windows to appear as other users begin to message you.  "
 "This works for AIM, ICQ, XMPP, Sametime, and Yahoo!"
 msgstr ""
-"ធ្វើ​ឲ្យ​បង្អួច​សន្ទនា​បង្ហាញ​ជា​អ្នក​ប្រើ​ផ្សេងៗ​ ចាប់ផ្ដើម​សរសេរ​សារ​ឲ្យ​អ្នក ។ ការងារ​សម្រាប់ AIM, "
-"ICQ, XMPP, Sametime និង Yahoo!"
+"ធ្វើ​ឲ្យ​បង្អួច​សន្ទនា​បង្ហាញ​ជា​អ្នក​ប្រើ​ផ្សេងៗ​ "
+"ចាប់ផ្ដើម​សរសេរ​សារ​ឲ្យ​អ្នក ។ ការងារ​សម្រាប់ AIM, ICQ, XMPP, Sametime និង "
+"Yahoo!"
 
 msgid "You feel a disturbance in the force..."
 msgstr "អ្នកមានអារម្មណ៍​ថា​រំខាន​ក្នុងការ​បង្ខំ..."
@@ -2896,7 +3004,9 @@ msgstr "ស្ថាន​​ភាព​ជូនដំណឹង​របស់
 msgid ""
 "Notifies in a conversation window when a buddy goes or returns from away or "
 "idle."
-msgstr "ជូនដំណឹង​នៅ​ក្នុង​បង្អួច​សន្ទនា នៅពេល​ដែល​មិត្តភក្ដិ​ទៅ ឬ​​​ត្រឡប់​​ពី​ការ​ចាកឆ្ងាយ ឬ​ទំនេរ ។"
+msgstr ""
+"ជូនដំណឹង​នៅ​ក្នុង​បង្អួច​សន្ទនា នៅពេល​ដែល​មិត្តភក្ដិ​ទៅ "
+"ឬ​​​ត្រឡប់​​ពី​ការ​ចាកឆ្ងាយ ឬ​ទំនេរ ។"
 
 msgid "Tcl Plugin Loader"
 msgstr "កម្មវិធី​ផ្ទុក​កម្មវិធី​ជំនួយ Tcl"
@@ -2908,22 +3018,25 @@ msgid ""
 "Unable to detect ActiveTCL installation. If you wish to use TCL plugins, "
 "install ActiveTCL from http://www.activestate.com\n"
 msgstr ""
-"មិនអាច​រក​ឃើញ​ការ​ដំឡើងTCL ដែល​សកម្ម ។ ប្រសិន​បើ​អ្នក​ចង់​ប្រើ​កម្មវិធី​ជំនួយ TCL ដំឡើង TCL សកម្ម​ពី "
+"មិនអាច​រក​ឃើញ​ការ​ដំឡើងTCL ដែល​សកម្ម ។ "
+"ប្រសិន​បើ​អ្នក​ចង់​ប្រើ​កម្មវិធី​ជំនួយ TCL ដំឡើង TCL សកម្ម​ពី "
 "http://www.activestate.com\n"
 
 msgid ""
-"Unable to find Apple's \"Bonjour for Windows\" toolkit, see http://d.pidgin."
-"im/BonjourWindows for more information."
+"Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
+"http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
-"មិនអាច​រកប្រអប់​ឧបករណ៍​ \"Bonjour for Windows\" របស់ Apple ឃើញទេ ចំពោះ​ព័ត៌មាន​បន្ថែម​ សូម​​"
-"មើល http://d.pidgin.im/BonjourWindows ។"
+"មិនអាច​រកប្រអប់​ឧបករណ៍​ \"Bonjour for Windows\" របស់ Apple ឃើញទេ "
+"ចំពោះ​ព័ត៌មាន​បន្ថែម​ សូម​​មើល http://d.pidgin.im/BonjourWindows ។"
 
 msgid "Unable to listen for incoming IM connections"
 msgstr "មិនអាច​ស្ដាប់​ការ​តភ្ជាប់ IM ចូល​បាន​ទេ"
 
 msgid ""
 "Unable to establish connection with the local mDNS server.  Is it running?"
-msgstr "មិនអាច​បង្កើត​ការ​តភ្ជាប់​ជា​មួយ​នឹង​ម៉ាស៊ីន​បម្រើ mDNS មូលដ្ឋាន​ទេ ។ តើ​វា​កំពុង​រត់​ទេ ?"
+msgstr ""
+"មិនអាច​បង្កើត​ការ​តភ្ជាប់​ជា​មួយ​នឹង​ម៉ាស៊ីន​បម្រើ mDNS មូលដ្ឋាន​ទេ ។ "
+"តើ​វា​កំពុង​រត់​ទេ ?"
 
 msgid "First name"
 msgstr "នាម​ខ្លួន"
@@ -2980,13 +3093,17 @@ msgstr "ការ​កំណត់​ប្រូកស៊ី​មិន​ត
 msgid ""
 "Either the host name or port number specified for your given proxy type is "
 "invalid."
-msgstr "ឈ្មោះ​ម៉ាស៊ីន ឬ​លេខ​ច្រក​ដែល​បាន​បញ្ជាក់​សម្រាប់​ប្រភេទ​ប្រូកស៊ី​ដែលបានផ្ដល់​មិន​ត្រឹមត្រូវ​ទេ ។"
+msgstr ""
+"ឈ្មោះ​ម៉ាស៊ីន "
+"ឬ​លេខ​ច្រក​ដែល​បាន​បញ្ជាក់​សម្រាប់​ប្រភេទ​ប្រូកស៊ី​ដែលបានផ្ដល់​មិន​ត្រឹមត្រូវ"
+"​ទេ ។"
 
 msgid "Save Buddylist..."
 msgstr "រក្សា​​ទុក​​​បញ្ជី​មិត្តភក្ដិ..."
 
 msgid "Your buddylist is empty, nothing was written to the file."
-msgstr "បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក​គឺទទេ គ្មាន​អ្វី​ត្រូវ​បានសរសេរ​ទៅ​កាន់​ឯកសារ​ទេ ។"
+msgstr ""
+"បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក​គឺទទេ គ្មាន​អ្វី​ត្រូវ​បានសរសេរ​ទៅ​កាន់​ឯកសារ​ទេ ។"
 
 msgid "Buddylist saved successfully!"
 msgstr "បាន​រក្សាទុក​បញ្ជី​មិត្តភក្ដិ​ដោយ​ជោគជ័យ !"
@@ -3216,11 +3333,11 @@ msgstr "មិនមាន​ MOTD បាន​ភ្ជាប់​ជា​ម
 msgid "MOTD for %s"
 msgstr "MOTD សម្រាប់ %s"
 
-#.
+#. 
 #. * TODO: Handle this better. Probably requires a PurpleBOSHConnection
 #. * buffer that stores what is "being sent" until the
 #. * PurpleHTTPConnection reports it is fully sent.
-#.
+#. 
 #. TODO: do we really want to disconnect on a failure to write?
 #, c-format
 msgid "Lost connection with server: %s"
@@ -3293,10 +3410,10 @@ msgstr ""
 msgid "Real name"
 msgstr "ឈ្មោះ​ពិត"
 
-#.
+#. 
 #. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
 #. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
+#. 
 msgid "Use SSL"
 msgstr "ប្រើ SSL"
 
@@ -3440,13 +3557,15 @@ msgid ""
 "Your selected nickname was rejected by the server.  It probably contains "
 "invalid characters."
 msgstr ""
-"សម្មតិនាម​ដែល​អ្នក​បានជ្រើស​ត្រូ​វបានបដិសេធ​ដោយ​ម៉ាស៊ីបម្រើ ។ វា​ប្រហែលជា​មាន​តួអក្សរ​មិនត្រឹមត្រូវ ។"
+"សម្មតិនាម​ដែល​អ្នក​បានជ្រើស​ត្រូ​វបានបដិសេធ​ដោយ​ម៉ាស៊ីបម្រើ ។ "
+"វា​ប្រហែលជា​មាន​តួអក្សរ​មិនត្រឹមត្រូវ ។"
 
 msgid ""
 "Your selected account name was rejected by the server.  It probably contains "
 "invalid characters."
 msgstr ""
-"ឈ្មោះ​គណនី​ដែល​អ្នកបានជ្រើស​ត្រូវ​បានបដិសេធ​ដោយ​ម៉ាស៊ីនបម្រើ ។ វា​ប្រហែលជា​មាន​តួអក្សរ​មិនត្រឹមត្រូវ ។"
+"ឈ្មោះ​គណនី​ដែល​អ្នកបានជ្រើស​ត្រូវ​បានបដិសេធ​ដោយ​ម៉ាស៊ីនបម្រើ ។ "
+"វា​ប្រហែលជា​មាន​តួអក្សរ​មិនត្រឹមត្រូវ ។"
 
 #. We only want to do the following dance if the connection
 #. has not been successfully completed.  If it has, just
@@ -3493,7 +3612,8 @@ msgstr "វាយ​ពី %s"
 msgid "Failed to initialize SASL authentication: %s"
 msgstr ""
 
-msgid "SASL authentication failed: No worthy authentication mechanisms found."
+msgid ""
+"SASL authentication failed: No worthy authentication mechanisms found."
 msgstr ""
 
 #, c-format
@@ -3522,7 +3642,9 @@ msgstr ""
 msgid ""
 "away [message]:  Set an away message, or use no message to return from being "
 "away."
-msgstr "[សារ] ចាកឆ្ងាយ ៖ កំណត់​សារ​ចាកឆ្ងាយ ឬ​ប្រើ​គ្មាន​សារ​ដើម្បី​ត្រឡប់​ពីការ​ចាកឆ្ងាយ ។"
+msgstr ""
+"[សារ] ចាកឆ្ងាយ ៖ កំណត់​សារ​ចាកឆ្ងាយ "
+"ឬ​ប្រើ​គ្មាន​សារ​ដើម្បី​ត្រឡប់​ពីការ​ចាកឆ្ងាយ ។"
 
 msgid "ctcp <nick> <msg>: sends ctcp msg to nick."
 msgstr "ctcp <nick> <msg> ៖ ផ្ញើ ctcp msg ទៅ​កាន់​សម្មតិនាម ។"
@@ -3534,51 +3656,55 @@ msgid ""
 "deop &lt;nick1&gt; [nick2] ...:  Remove channel operator status from "
 "someone. You must be a channel operator to do this."
 msgstr ""
-"deop &lt;nick1&gt; [nick2] ...:  យក​ស្ថានភាព​ការី​ឆានែល​ពី​អ្នកណា​ម្នាក់ ។ អ្នក​ត្រូវតែ​ជា​ការី​"
-"ឆានែល​ដើម្បី​ធ្វើ​វា ។"
+"deop &lt;nick1&gt; [nick2] ...:  យក​ស្ថានភាព​ការី​ឆានែល​ពី​អ្នកណា​ម្នាក់ ។ "
+"អ្នក​ត្រូវតែ​ជា​ការី​ឆានែល​ដើម្បី​ធ្វើ​វា ។"
 
 msgid ""
 "devoice &lt;nick1&gt; [nick2] ...:  Remove channel voice status from "
 "someone, preventing them from speaking if the channel is moderated (+m). You "
 "must be a channel operator to do this."
 msgstr ""
-"devoice &lt;nick1&gt; [nick2] ...:  យក​ស្ថានភាព​សំឡេង​ឆានែល​ពី​អ្នកណា​ម្នាក់ ដោយ​ការពារ​"
-"ពួកគេ​ពី​កា​រនិយាយ ប្រសិនបើ​ឆានែល​ត្រូវ​បាន​ប្រតិបត្តិ (+m) ។ អ្នក​ត្រូវតែ​ជា​ការី​ឆានែល​ដើម្បីធ្វើ​វា ។"
+"devoice &lt;nick1&gt; [nick2] ...:  យក​ស្ថានភាព​សំឡេង​ឆានែល​ពី​អ្នកណា​ម្នាក់ "
+"ដោយ​ការពារ​ពួកគេ​ពី​កា​រនិយាយ ប្រសិនបើ​ឆានែល​ត្រូវ​បាន​ប្រតិបត្តិ (+m) ។ "
+"អ្នក​ត្រូវតែ​ជា​ការី​ឆានែល​ដើម្បីធ្វើ​វា ។"
 
 msgid ""
 "invite &lt;nick&gt; [room]:  Invite someone to join you in the specified "
 "channel, or the current channel."
 msgstr ""
-"អញ្ជើញ &lt;សម្មតិនាម&gt; [បន្ទប់] ៖ អញ្ជើញ​អ្នកណា​ម្នាក់​ឲ្យ​ចូលរួម​ជា​មួយ​អ្នក​នៅក្នុង​ឆានែល​ដែល​បាន​"
-"បញ្ជាក់ ឬ​ឆានែល​បច្ចុប្បន្ន ។"
+"អញ្ជើញ &lt;សម្មតិនាម&gt; [បន្ទប់] ៖ "
+"អញ្ជើញ​អ្នកណា​ម្នាក់​ឲ្យ​ចូលរួម​ជា​មួយ​អ្នក​នៅក្នុង​ឆានែល​ដែល​បាន​បញ្ជាក់ "
+"ឬ​ឆានែល​បច្ចុប្បន្ន ។"
 
 msgid ""
 "j &lt;room1&gt;[,room2][,...] [key1[,key2][,...]]:  Enter one or more "
 "channels, optionally providing a channel key for each if needed."
 msgstr ""
-"j &lt;room1&gt;[,room2][,...] [key1[,key2][,...]] ៖ បញ្ចូល​ឆានែល​មួយ ឬ​ច្រើន​ ជា​ជម្រើស​"
-"ផ្ដល់​នូវ​សោ​ឆានែល​សម្រាប់​ឆានែល​នីមួយៗ​ ប្រសិន​បើ​ត្រូវការ ។"
+"j &lt;room1&gt;[,room2][,...] [key1[,key2][,...]] ៖ បញ្ចូល​ឆានែល​មួយ "
+"ឬ​ច្រើន​ ជា​ជម្រើស​ផ្ដល់​នូវ​សោ​ឆានែល​សម្រាប់​ឆានែល​នីមួយៗ​ "
+"ប្រសិន​បើ​ត្រូវការ ។"
 
 msgid ""
 "join &lt;room1&gt;[,room2][,...] [key1[,key2][,...]]:  Enter one or more "
 "channels, optionally providing a channel key for each if needed."
 msgstr ""
-"join &lt;room1&gt;[,room2][,...] [key1[,key2][,...]] ៖ បញ្ចូល​ឆានែល​មួយ ឬច្រើន​ ជា​"
-"ជម្រើ​ស​ដោយ​ផ្ដល់​គ្រាប់ចុច​ឆានែល​សម្រាប់​ឆានែលនីមួយៗ​ ប្រសិន​បើ​ត្រូវការ ។"
+"join &lt;room1&gt;[,room2][,...] [key1[,key2][,...]] ៖ បញ្ចូល​ឆានែល​មួយ "
+"ឬច្រើន​ ជា​ជម្រើ​ស​ដោយ​ផ្ដល់​គ្រាប់ចុច​ឆានែល​សម្រាប់​ឆានែលនីមួយៗ​ "
+"ប្រសិន​បើ​ត្រូវការ ។"
 
 msgid ""
 "kick &lt;nick&gt; [message]:  Remove someone from a channel. You must be a "
 "channel operator to do this."
 msgstr ""
-"kick &lt;nick&gt; [message] ៖ យក​អ្នកណាម្នាក់​ចេញ​ពី​ឆានែល ។ អ្នក​ត្រូវ​តែ​ជា​ការី​ឆានែល​"
-"ដើម្បីការ​ធ្វើការងារ​នេះ ។"
+"kick &lt;nick&gt; [message] ៖ យក​អ្នកណាម្នាក់​ចេញ​ពី​ឆានែល ។ "
+"អ្នក​ត្រូវ​តែ​ជា​ការី​ឆានែល​ដើម្បីការ​ធ្វើការងារ​នេះ ។"
 
 msgid ""
 "list:  Display a list of chat rooms on the network. <i>Warning, some servers "
 "may disconnect you upon doing this.</i>"
 msgstr ""
-"បញ្ជី ៖ បង្ហាញ​បញ្ជី​បន្ទប់​ជជែក​នៅ​លើ​បណ្ដាញ ។ <i>ការ​ព្រមាន ម៉ាស៊ីនបម្រើ​មួយ​ចំនួន​អាច​ផ្ដាច់​អ្នកពី​ការធ្វើ​"
-"ការងារ​នេះ ។</i>"
+"បញ្ជី ៖ បង្ហាញ​បញ្ជី​បន្ទប់​ជជែក​នៅ​លើ​បណ្ដាញ ។ <i>ការ​ព្រមាន "
+"ម៉ាស៊ីនបម្រើ​មួយ​ចំនួន​អាច​ផ្ដាច់​អ្នកពី​ការធ្វើ​ការងារ​នេះ ។</i>"
 
 msgid "me &lt;action to perform&gt;:  Perform an action."
 msgstr "me &lt;action to perform&gt; ៖ អនុវត្ត​សកម្មភាព ។"
@@ -3590,15 +3716,15 @@ msgid ""
 "mode &lt;+|-&gt;&lt;A-Za-z&gt; &lt;nick|channel&gt;:  Set or unset a channel "
 "or user mode."
 msgstr ""
-"របៀប &lt;+|-&gt;&lt;A-Za-z&gt; &lt;nick|channel&gt; ៖  កំណត់ ឬ​មិនកំណត់​ឆានែល ឬ​​របៀប​"
-"អ្នកប្រើ ។"
+"របៀប &lt;+|-&gt;&lt;A-Za-z&gt; &lt;nick|channel&gt; ៖  កំណត់ "
+"ឬ​មិនកំណត់​ឆានែល ឬ​​របៀប​អ្នកប្រើ ។"
 
 msgid ""
 "msg &lt;nick&gt; &lt;message&gt;:  Send a private message to a user (as "
 "opposed to a channel)."
 msgstr ""
-"msg &lt;nick&gt; &lt;message&gt; ៖  ផ្ញើ​សារ​ឯកជន​ទៅ​ឲ្យ​​អ្នក​ប្រើ (ដូច​បានស្នើ​ទៅ​"
-"កាន់ឆានែល) ។"
+"msg &lt;nick&gt; &lt;message&gt; ៖  ផ្ញើ​សារ​ឯកជន​ទៅ​ឲ្យ​​អ្នក​ប្រើ "
+"(ដូច​បានស្នើ​ទៅ​កាន់ឆានែល) ។"
 
 msgid "names [channel]:  List the users currently in a channel."
 msgstr "names [channel] ៖  រាយ​អ្នក​ប្រើ​ដែល​បច្ចុប្បន្ន​នៅ​ក្នុង​ឆានែល ។"
@@ -3616,15 +3742,15 @@ msgid ""
 "op &lt;nick1&gt; [nick2] ...:  Grant channel operator status to someone. You "
 "must be a channel operator to do this."
 msgstr ""
-"op &lt;nick1&gt; [nick2] ...:  ផ្ដល់ស្ថានភាព​ការី​ឆានែល​ឲ្យ​អ្នកណា​ម្នាក់ ។ អ្នក​ត្រូវតែ​ជា​ការី​"
-"ឆានែល​ដើម្បី​ធ្វើការងារ​នេះ ។"
+"op &lt;nick1&gt; [nick2] ...:  ផ្ដល់ស្ថានភាព​ការី​ឆានែល​ឲ្យ​អ្នកណា​ម្នាក់ ។ "
+"អ្នក​ត្រូវតែ​ជា​ការី​ឆានែល​ដើម្បី​ធ្វើការងារ​នេះ ។"
 
 msgid ""
 "operwall &lt;message&gt;:  If you don't know what this is, you probably "
 "can't use it."
 msgstr ""
-"operwall &lt;message&gt; ៖  ប្រសិនបើ​​អ្នក​មិនដឹង​ថា​វា​ជា​អ្វី​ទេ អ្នក​ប្រហែល​ជា​មិនអាច​ប្រើ​វា​"
-"បានទេ ។"
+"operwall &lt;message&gt; ៖  ប្រសិនបើ​​អ្នក​មិនដឹង​ថា​វា​ជា​អ្វី​ទេ "
+"អ្នក​ប្រហែល​ជា​មិនអាច​ប្រើ​វា​បានទេ ។"
 
 msgid "operserv: Send a command to operserv"
 msgstr "operserv ៖ ផ្ញើ​ពាក្យ​បញ្ជា​ទៅ​កាន់ operserv"
@@ -3633,23 +3759,25 @@ msgid ""
 "part [room] [message]:  Leave the current channel, or a specified channel, "
 "with an optional message."
 msgstr ""
-"part [room] [message] ៖  ចាកចេញ​ពី​ឆានែល​បច្ចុប្បន្ន ឬ​ឆានែល​ដែល​បាន​បញ្ជាក់ ដោយ​មានសារជា​"
-"ជម្រើស ។"
+"part [room] [message] ៖  ចាកចេញ​ពី​ឆានែល​បច្ចុប្បន្ន ឬ​ឆានែល​ដែល​បាន​បញ្ជាក់ "
+"ដោយ​មានសារជា​ជម្រើស ។"
 
 msgid ""
 "ping [nick]:  Asks how much lag a user (or the server if no user specified) "
 "has."
 msgstr ""
-"ping [nick]៖ សួរ​ថាតើមាន​អ្នក​ប្រើ​យឺត​ប៉ុន្មាន​នាក់ (ឬ​ម៉ាស៊ីនបម្រើ ប្រសិនបើ​គ្មាន​អ្នក​ប្រើ​បាន​បញ្ជាក់) "
-"មាន ។"
+"ping [nick]៖ សួរ​ថាតើមាន​អ្នក​ប្រើ​យឺត​ប៉ុន្មាន​នាក់ (ឬ​ម៉ាស៊ីនបម្រើ "
+"ប្រសិនបើ​គ្មាន​អ្នក​ប្រើ​បាន​បញ្ជាក់) មាន ។"
 
 msgid ""
 "query &lt;nick&gt; &lt;message&gt;:  Send a private message to a user (as "
 "opposed to a channel)."
 msgstr ""
-"សួរ &lt;nick&gt; &lt;message&gt; ៖  ផ្ញើ​សារ​ឯកជន​ទៅ​កាន់​អ្នក​ប្រើ (ដូច​បាន​ស្នើ​ទៅ​ឆានែល) ។"
+"សួរ &lt;nick&gt; &lt;message&gt; ៖  ផ្ញើ​សារ​ឯកជន​ទៅ​កាន់​អ្នក​ប្រើ "
+"(ដូច​បាន​ស្នើ​ទៅ​ឆានែល) ។"
 
-msgid "quit [message]:  Disconnect from the server, with an optional message."
+msgid ""
+"quit [message]:  Disconnect from the server, with an optional message."
 msgstr "quit [message] ៖  ផ្ដាច់​ពី​ម៉ាស៊ីន​បម្រើ ជា​មួយ​នឹង​សារជា​ជម្រើស ​។"
 
 msgid "quote [...]:  Send a raw command to the server."
@@ -3659,17 +3787,19 @@ msgid ""
 "remove &lt;nick&gt; [message]:  Remove someone from a room. You must be a "
 "channel operator to do this."
 msgstr ""
-"remove &lt;nick&gt; [message] ៖  យក​អ្នក​ណា​ម្នាក់​ចេញ​ពី​បន្ទប់ ។ អ្នក​ត្រូវតែ​ជា​ការី​បណ្ដាញ​"
-"ដើម្បីធ្វើការ​ងារ​នេះ ។"
+"remove &lt;nick&gt; [message] ៖  យក​អ្នក​ណា​ម្នាក់​ចេញ​ពី​បន្ទប់ ។ "
+"អ្នក​ត្រូវតែ​ជា​ការី​បណ្ដាញ​ដើម្បីធ្វើការ​ងារ​នេះ ។"
 
 msgid "time: Displays the current local time at the IRC server."
 msgstr "ពេលវេលា ៖ បង្ហាញ​ពេលវេលា​មូលដ្ឋាន​បច្ចុប្បន្ននៅ​ម៉ាស៊ីនបម្រើ IRC ។"
 
 msgid "topic [new topic]:  View or change the channel topic."
-msgstr "ប្រធាន​បទ [ប្រធាន​បទ​ថ្មី] ៖  មើល ឬ​ផ្លាស់ប្ដូរ​ប្រធាន​បទ​របស់​ឆានែល ។"
+msgstr ""
+"ប្រធាន​បទ [ប្រធាន​បទ​ថ្មី] ៖  មើល ឬ​ផ្លាស់ប្ដូរ​ប្រធាន​បទ​របស់​ឆានែល ។"
 
 msgid "umode &lt;+|-&gt;&lt;A-Za-z&gt;:  Set or unset a user mode."
-msgstr "umode &lt;+|-&gt;&lt;A-Za-z&gt; ៖  កំណត់ ឬ​មិន​កំណត់​របៀប​អ្នក​ប្រើ ​។"
+msgstr ""
+"umode &lt;+|-&gt;&lt;A-Za-z&gt; ៖  កំណត់ ឬ​មិន​កំណត់​របៀប​អ្នក​ប្រើ ​។"
 
 msgid "version [nick]: send CTCP VERSION request to a user"
 msgstr "កំណែ [nick] ៖ ផ្ញើ​សំណើ​កំណែ​របស់ CTCP ទៅ​ឲ្យ​អ្នក​ប្រើ"
@@ -3678,14 +3808,16 @@ msgid ""
 "voice &lt;nick1&gt; [nick2] ...:  Grant channel voice status to someone. You "
 "must be a channel operator to do this."
 msgstr ""
-"សំឡេង &lt;nick1&gt; [nick2] ...:  ផ្ដល់​នូវ​ស្ថានភាព​សំឡេង​ទៅ​ឲ្យ​អ្នកណាម្នាក់ ។ អ្នក​ត្រូវតែ​ជា​"
-"ការីឆានែល​ដើម្បីធ្វើការងារ​នេះ ។"
+"សំឡេង &lt;nick1&gt; [nick2] ...:  "
+"ផ្ដល់​នូវ​ស្ថានភាព​សំឡេង​ទៅ​ឲ្យ​អ្នកណាម្នាក់ ។ "
+"អ្នក​ត្រូវតែ​ជា​ការីឆានែល​ដើម្បីធ្វើការងារ​នេះ ។"
 
 msgid ""
 "wallops &lt;message&gt;:  If you don't know what this is, you probably can't "
 "use it."
 msgstr ""
-"វាយ &lt;សារ&gt; ៖  ប្រសិនបើ​អ្នកមិនដឹង​ថា​នេះ​ជា​អ្វីទេ អ្នកប្រហែលជា​មិនអាច​ប្រើវា​បានទេ ។"
+"វាយ &lt;សារ&gt; ៖  ប្រសិនបើ​អ្នកមិនដឹង​ថា​នេះ​ជា​អ្វីទេ "
+"អ្នកប្រហែលជា​មិនអាច​ប្រើវា​បានទេ ។"
 
 msgid "whois [server] &lt;nick&gt;:  Get information on a user."
 msgstr "whois [server] &lt;nick&gt; ៖  យក​ព័ត៌មាន​​របស់​អ្នកប្រើ ។"
@@ -3716,39 +3848,49 @@ msgid "execute"
 msgstr "ប្រតិបត្តិ"
 
 msgid "Server requires plaintext authentication over an unencrypted stream"
-msgstr "ម៉ាស៊ីន​បម្រើ​ត្រូវការ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ជា​អត្ថបទ​ធម្មតា​លើ​ស្ទ្រីម​ដែល​មិនបានអ៊ិនគ្រីប"
+msgstr ""
+"ម៉ាស៊ីន​បម្រើ​ត្រូវការ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ជា​អត្ថបទ​ធម្មតា​លើ​ស្ទ"
+"្រីម​ដែល​មិនបានអ៊ិនគ្រីប"
 
 #. This happens when the server sends back jibberish
 #. * in the "additional data with success" case.
 #. * Seen with Wildfire 3.0.1.
-#.
+#. 
 msgid "Invalid response from server"
 msgstr "កា​រឆ្លើយ​តប​មិនត្រឹមត្រូវ ​ពី​ម៉ាស៊ីន​បម្រើ ។"
 
 msgid "Server does not use any supported authentication method"
-msgstr "ម៉ាស៊ិនបម្រើ​មិន​ប្រើ​វិធីសាស្ត្រ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ដែល​បានគាំទ្រ​ណាមួយ​ទេ"
+msgstr ""
+"ម៉ាស៊ិនបម្រើ​មិន​ប្រើ​វិធីសាស្ត្រ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ដែល​បានគាំទ្រ​ណា"
+"មួយ​ទេ"
 
 #, c-format
 msgid ""
 "%s requires plaintext authentication over an unencrypted connection.  Allow "
 "this and continue authentication?"
 msgstr ""
-"%s ត្រូវការ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ធម្មតា​លើកា​រតភ្ជាប់​ដែល​មិនបានអ៊ិនគ្រីប ។ អនុញ្ញាត​វា​ ហើយ​បន្ត​"
-"ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ?"
+"%s "
+"ត្រូវការ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ធម្មតា​លើកា​រតភ្ជាប់​ដែល​មិនបានអ៊ិនគ្"
+"រីប ។ អនុញ្ញាត​វា​ ហើយ​បន្ត​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ?"
 
 msgid "Plaintext Authentication"
 msgstr "ផ្ទៀងផ្ទាត់​ភាព​​ត្រឹមត្រូវ​ធម្មតា"
 
 msgid "You require encryption, but it is not available on this server."
-msgstr "អ្នកត្រូវកា​រការ​អ៊ិនគ្រីប ប៉ុន្តែ​មិនអាច​ប្រើ​បាន​នៅ​លើ​​ម៉ាស៊ីន​បម្រើនេះ​ទេ ។"
+msgstr ""
+"អ្នកត្រូវកា​រការ​អ៊ិនគ្រីប "
+"ប៉ុន្តែ​មិនអាច​ប្រើ​បាន​នៅ​លើ​​ម៉ាស៊ីន​បម្រើនេះ​ទេ ។"
 
 msgid "Invalid challenge from server"
 msgstr "ការ​ប្រខិតខំ​មិនត្រឹមត្រូវ​ពី​ម៉ាស៊ីនបម្រើ"
 
 msgid "Server thinks authentication is complete, but client does not"
-msgstr "ម៉ាស៊ីន​បម្រើ​គិត​ថា ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ចប់​ហើយ ប៉ុន្តែ​ម៉ាស៊ីន​ភ្ញៀវ​មិន​គិត​ដូច្នេះ​ទេ"
+msgstr ""
+"ម៉ាស៊ីន​បម្រើ​គិត​ថា ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ចប់​ហើយ "
+"ប៉ុន្តែ​ម៉ាស៊ីន​ភ្ញៀវ​មិន​គិត​ដូច្នេះ​ទេ"
 
-msgid "Server may require plaintext authentication over an unencrypted stream"
+msgid ""
+"Server may require plaintext authentication over an unencrypted stream"
 msgstr ""
 
 #, c-format
@@ -3776,8 +3918,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The server does support channel binding, but did not appear to advertise "
-"it.  This indicates a likely MITM attack"
+"The server does support channel binding, but did not appear to advertise it. "
+" This indicates a likely MITM attack"
 msgstr ""
 
 msgid "Server does not support channel binding"
@@ -3822,8 +3964,8 @@ msgstr "មិនអាច​បង្កើត​ការ​តភ្ជាប
 #, c-format
 msgid "Unable to establish a connection with the server: %s"
 msgstr ""
-"មិនអាច​បង្កើត​ការ​តភ្ជាប់​ជា​មួយ​ម៉ាស៊ីម​បម្រើ​ទេUnable to establish a connection with the "
-"server: %s"
+"មិនអាច​បង្កើត​ការ​តភ្ជាប់​ជា​មួយ​ម៉ាស៊ីម​បម្រើ​ទេUnable to establish a "
+"connection with the server: %s"
 
 msgid "Unable to establish SSL connection"
 msgstr "មិន​អាច​បង្កើត​ការ​តភ្ជាប់ SSL"
@@ -3843,11 +3985,11 @@ msgstr "URL"
 msgid "Street Address"
 msgstr "អាសយដ្ឋាន​ផ្លូវ"
 
-#.
+#. 
 #. * EXTADD is correct, EXTADR is generated by other
 #. * clients. The next time someone reads this, remove
 #. * EXTADR.
-#.
+#. 
 msgid "Extended Address"
 msgstr "អាសយដ្ឋាន​ដែល​បាន​ពង្រីក"
 
@@ -3894,7 +4036,9 @@ msgstr "កែសម្រួល XMPP vCard"
 msgid ""
 "All items below are optional. Enter only the information with which you feel "
 "comfortable."
-msgstr "ធាតុ​ទាំង​អស់​ខាង​ក្រោម​ជា​ជម្រើស ។ បញ្ចូល​តែ​ព័ត៌មាន​ដែល​អ្នក​គិត​ថា​ងាយស្រួល ។"
+msgstr ""
+"ធាតុ​ទាំង​អស់​ខាង​ក្រោម​ជា​ជម្រើស ។ "
+"បញ្ចូល​តែ​ព័ត៌មាន​ដែល​អ្នក​គិត​ថា​ងាយស្រួល ។"
 
 msgid "Client"
 msgstr "ម៉ាស៊ីន​ភ្ញៀវ"
@@ -3940,7 +4084,9 @@ msgstr "រូបសញ្ញា"
 msgid ""
 "%s will no longer be able to see your status updates.  Do you want to "
 "continue?"
-msgstr "​%s លែង​​មិន​អាច​មើល​ឃើញ​​ភាព​ទាន់​សម័យ​​ស្ថាន​ភាព​របស់អ្នក​ទៀត​ហើយ ។ តើ​អ្នកចង់​បន្ត​ដែរឬទេ ?"
+msgstr ""
+"​%s លែង​​មិន​អាច​មើល​ឃើញ​​ភាព​ទាន់​សម័យ​​ស្ថាន​ភាព​របស់អ្នក​ទៀត​ហើយ ។ "
+"តើ​អ្នកចង់​បន្ត​ដែរឬទេ ?"
 
 msgid "Cancel Presence Notification"
 msgstr "បោះបង់​កា​រជូនដំណឹង​បច្ចុប្បន្ន"
@@ -3983,8 +4129,8 @@ msgid ""
 "Find a contact by entering the search criteria in the given fields. Note: "
 "Each field supports wild card searches (%)"
 msgstr ""
-"រក​ទំនាក់ទំនង​ដោយ​បញ្ចូល​លក្ខខណ្ឌ​ស្វែងរក​នៅក្នុង​វាល​ដែលបានផ្ដល់​ ។ ចំណាំ ៖ វាល​នីមួយៗ​គាំទ្រ​ការ​ស្វែងរក​ដោយ​"
-"អក្សរ​ជំនួស (%)"
+"រក​ទំនាក់ទំនង​ដោយ​បញ្ចូល​លក្ខខណ្ឌ​ស្វែងរក​នៅក្នុង​វាល​ដែលបានផ្ដល់​ ។ ចំណាំ ៖ "
+"វាល​នីមួយៗ​គាំទ្រ​ការ​ស្វែងរក​ដោយ​អក្សរ​ជំនួស (%)"
 
 msgid "Directory Query Failed"
 msgstr "បាន​បរាជ័យ​ក្នុងកា​រសួរ​ថត"
@@ -4069,7 +4215,9 @@ msgid "Registration error"
 msgstr "កំហុស​ក្នុងការ​ចុះឈ្មោះ"
 
 msgid "Nick changing not supported in non-MUC chatrooms"
-msgstr "ការ​ផ្លាស់ប្ដូរ​សម្មតិនាម​​មិន​បានគាំទ្រ​នៅ​ក្នុង​បន្ទប់​ជជែក​ដែល​មិនមែនជា MUC"
+msgstr ""
+"ការ​ផ្លាស់ប្ដូរ​សម្មតិនាម​​មិន​បានគាំទ្រ​នៅ​ក្នុង​បន្ទប់​ជជែក​ដែល​មិនមែនជា "
+"MUC"
 
 msgid "Error retrieving room list"
 msgstr "កំហុស​ក្នុងកា​រទៅយក​បញ្ជី​បន្ទប់"
@@ -4096,10 +4244,12 @@ msgid "Roles:"
 msgstr "តួនាទី ៖"
 
 msgid "Server requires TLS/SSL, but no TLS/SSL support was found."
-msgstr "ម៉ាស៊ីន​បម្រើ​ត្រូវការ TLS/SSL ប៉ុន្តែ​រក​មិន​ឃើញការ​គាំទ្រ TLS/SSL នោះ​ទេ ។"
+msgstr ""
+"ម៉ាស៊ីន​បម្រើ​ត្រូវការ TLS/SSL ប៉ុន្តែ​រក​មិន​ឃើញការ​គាំទ្រ TLS/SSL នោះ​ទេ ។"
 
 msgid "You require encryption, but no TLS/SSL support was found."
-msgstr "អ្នក​ត្រូវការ​ការ​អ៊ិនគ្រីប ប៉ុន្តែ​រក​មិនឃើញ​ការគាំទ្រ TLS/SSL នោះ​ទេ។"
+msgstr ""
+"អ្នក​ត្រូវការ​ការ​អ៊ិនគ្រីប ប៉ុន្តែ​រក​មិនឃើញ​ការគាំទ្រ TLS/SSL នោះ​ទេ។"
 
 msgid "Ping timed out"
 msgstr "Ping អស់​ពេល"
@@ -4163,7 +4313,8 @@ msgstr "មិន​ចុះឈ្មោះ"
 
 msgid ""
 "Please fill out the information below to change your account registration."
-msgstr "សូម​បំពេញ​ព័ត៌មាន​ខាងក្រោម​ ដើម្បី​ផ្លាស់ប្ដូរ​ការ​ចុះឈ្មោះគណនី​របស់​អ្នក ។"
+msgstr ""
+"សូម​បំពេញ​ព័ត៌មាន​ខាងក្រោម​ ដើម្បី​ផ្លាស់ប្ដូរ​ការ​ចុះឈ្មោះគណនី​របស់​អ្នក ។"
 
 msgid "Please fill out the information below to register your new account."
 msgstr "សូម​បំពេញ​ព័ត៌មាន​ខាងក្រោម​ ដើម្បីចុះឈ្មោះ​គណនី​ថ្មី​របស់​អ្នក ។"
@@ -4485,7 +4636,8 @@ msgstr "មិនអាច ping អ្នក​ប្រើ %s បានទេ"
 
 #, c-format
 msgid "Unable to buzz, because there is nothing known about %s."
-msgstr "មិនអាច​កេះកៀវ​បានទេ ពីព្រោះ​មិន​ស្គាល់​​អ្វី​ទាំង​អស់​​ពី​អ្នកប្រើ %s ។"
+msgstr ""
+"មិនអាច​កេះកៀវ​បានទេ ពីព្រោះ​មិន​ស្គាល់​​អ្វី​ទាំង​អស់​​ពី​អ្នកប្រើ %s ។"
 
 #, c-format
 msgid "Unable to buzz, because %s might be offline."
@@ -4495,7 +4647,9 @@ msgstr "មិន​អាច​កេះកៀវ​បានទេ ពីព�
 msgid ""
 "Unable to buzz, because %s does not support it or does not wish to receive "
 "buzzes now."
-msgstr "មិនអាច​កេះកៀវ​បានទេ ពីព្រោះ %s មិន​គាំទ្រ​វា​ទេ ឬ​មិនមាន​បំណង​​ទទួល​ការ​កេះកៀវ​​ឥឡូវ​នោះ​ទេ ។"
+msgstr ""
+"មិនអាច​កេះកៀវ​បានទេ ពីព្រោះ %s មិន​គាំទ្រ​វា​ទេ "
+"ឬ​មិនមាន​បំណង​​ទទួល​ការ​កេះកៀវ​​ឥឡូវ​នោះ​ទេ ។"
 
 #. Yahoo only supports one attention command: the 'buzz'.
 #. This is index number YAHOO_BUZZ.
@@ -4524,7 +4678,9 @@ msgstr ""
 
 #, c-format
 msgid "Unable to initiate media with %s: not subscribed to user presence"
-msgstr "មិន​អាច​ចាប់ផ្ដើម​មេឌៀ​ជា​មួយ %s បានទេ ៖ មិន​បានជាវ​ទៅ​វត្តមាន​អ្នក​ប្រើ​បានទេ"
+msgstr ""
+"មិន​អាច​ចាប់ផ្ដើម​មេឌៀ​ជា​មួយ %s បានទេ ៖ "
+"មិន​បានជាវ​ទៅ​វត្តមាន​អ្នក​ប្រើ​បានទេ"
 
 msgid "Media Initiation Failed"
 msgstr "បានបរាជ័យ​ក្នុងកា​រចាប់ផ្ដើម​មេឌៀ"
@@ -4566,15 +4722,16 @@ msgid ""
 "affiliate &lt;owner|admin|member|outcast|none&gt; [nick1] [nick2] ...: Get "
 "the users with an affiliation or set users' affiliation with the room."
 msgstr ""
-"affiliate &lt;owner|admin|member|outcast|none&gt; [nick1] [nick2] ...: យក​អ្នក​"
-"ប្រើ​ជា​មួយទំនាក់ទំនង ឬ​កំណត់​ទំនាក់ទំនង​របស់​អ្នកប្រើ​​ក្នុង​បន្ទប់នេះ ។"
+"affiliate &lt;owner|admin|member|outcast|none&gt; [nick1] [nick2] ...: "
+"យក​អ្នក​ប្រើ​ជា​មួយទំនាក់ទំនង "
+"ឬ​កំណត់​ទំនាក់ទំនង​របស់​អ្នកប្រើ​​ក្នុង​បន្ទប់នេះ ។"
 
 msgid ""
 "role &lt;moderator|participant|visitor|none&gt; [nick1] [nick2] ...: Get the "
 "users with a role or set users' role with the room."
 msgstr ""
-"តួនាទី &lt;អន្តរការី|អ្នក​ចូលរួម|អ្នក​ទស្សនា|គ្មាន&gt; [nick1] [nick2] ...: យក​អ្នក​ប្រើ​"
-"ដែលមានតួនាទី ឬ​កំណត់​តួនាទី​របស់​អ្នកប្រើ​​ក្នុង​បន្ទប់ ។"
+"តួនាទី &lt;អន្តរការី|អ្នក​ចូលរួម|អ្នក​ទស្សនា|គ្មាន&gt; [nick1] [nick2] ...: "
+"យក​អ្នក​ប្រើ​ដែលមានតួនាទី ឬ​កំណត់​តួនាទី​របស់​អ្នកប្រើ​​ក្នុង​បន្ទប់ ។"
 
 msgid "invite &lt;user&gt; [message]:  Invite a user to the room."
 msgstr "អញ្ជើញ &lt;អ្នក​ប្រើ&gt; [សារ] ៖  អញ្ជើញ​អ្នក​ប្រើ​ឲ្យ​ចូល​បន្ទប់ ។"
@@ -4587,7 +4744,8 @@ msgstr "ធាក់ &lt;អ្នក​ប្រើ&gt; [ហេតុផល] �
 
 msgid ""
 "msg &lt;user&gt; &lt;message&gt;:  Send a private message to another user."
-msgstr "msg &lt;អ្នក​ប្រើ&gt; &lt;សារ&gt; ៖  ផ្ញើ​សារ​ឯកជន​ទៅ​អ្នក​ប្រើ​ផ្សេង ។"
+msgstr ""
+"msg &lt;អ្នក​ប្រើ&gt; &lt;សារ&gt; ៖  ផ្ញើ​សារ​ឯកជន​ទៅ​អ្នក​ប្រើ​ផ្សេង ។"
 
 msgid "ping &lt;jid&gt;:\tPing a user/component/server."
 msgstr "ping &lt;jid&gt; ៖ Ping អ្នក​ប្រើ/សមាសធាតុ/ម៉ាស៊ីន​បម្រើ ។"
@@ -4700,7 +4858,9 @@ msgstr "បង្កើត​បន្ទប់​ថ្មី"
 msgid ""
 "You are creating a new room.  Would you like to configure it, or accept the "
 "default settings?"
-msgstr "អ្នក​បង្កើត​បន្ទប់​ថ្មី ។ តើអ្នក​ចង់​កំណត់​រចនាសម្ព័ន្ធ​វា​ដែរឬទេ ឬ​ព្រម​ទទួល​ការ​កំណត់​លំនាំដើម ?"
+msgstr ""
+"អ្នក​បង្កើត​បន្ទប់​ថ្មី ។ តើអ្នក​ចង់​កំណត់​រចនាសម្ព័ន្ធ​វា​ដែរឬទេ "
+"ឬ​ព្រម​ទទួល​ការ​កំណត់​លំនាំដើម ?"
 
 msgid "_Configure Room"
 msgstr "កំណត់​រចនាសម្ព័ន្ធ​បន្ទប់"
@@ -4743,7 +4903,8 @@ msgid "Unable to send file to %s, not subscribed to user presence"
 msgstr "មិនអាច​ផ្ញើ​ឯកសារ %s បានទេ មិនបានជាវ​ទៅ​វត្តមាន​របស់​អ្នកប្រើ"
 
 #, c-format
-msgid "Please select the resource of %s to which you would like to send a file"
+msgid ""
+"Please select the resource of %s to which you would like to send a file"
 msgstr "សូម​ជ្រើស​ធនធាន​របស់ %s ដែល​អ្នក​ចង់​ផ្ញើ​ឯកសារ"
 
 msgid "Afraid"
@@ -5009,7 +5170,8 @@ msgid ""
 "This information is visible to all contacts on your contact list, so choose "
 "something appropriate."
 msgstr ""
-"ព័ត៌មាន​នេះ​​ទំនាក់ទំនង​ទាំង​អស់​អាច​មើល​ឃើញ​នៅ​​ក្នុង​បញ្ជីទំនាក់ទំនង​របស់​អ្នក ដូច្នេះ​​ជ្រើស​អ្វីដែល​សមរម្យ ។"
+"ព័ត៌មាន​នេះ​​ទំនាក់ទំនង​ទាំង​អស់​អាច​មើល​ឃើញ​នៅ​​ក្នុង​បញ្ជីទំនាក់ទំនង​របស់​អ"
+"្នក ដូច្នេះ​​ជ្រើស​អ្វីដែល​សមរម្យ ។"
 
 msgid "Set"
 msgstr "កំណត់"
@@ -5215,15 +5377,17 @@ msgid ""
 "%s on the local list is inside the group \"%s\" but not on the server list. "
 "Do you want this buddy to be added?"
 msgstr ""
-"%s នៅ​​ក្នុង​បញ្ជីមូលដ្ឋាន​ គឺ​នៅ​ក្នុងក្រុម \"%s\" ប៉ុន្តែ​មិននៅ​ក្នុង​បញ្ជី​ម៉ាស៊ីន​បម្រើ​ទេ ។ តើ​អ្នក​ចង់​"
-"បន្ថែមមិត្តភក្ដិ​នេះដែរឬទេ ?"
+"%s នៅ​​ក្នុង​បញ្ជីមូលដ្ឋាន​ គឺ​នៅ​ក្នុងក្រុម \"%s\" "
+"ប៉ុន្តែ​មិននៅ​ក្នុង​បញ្ជី​ម៉ាស៊ីន​បម្រើ​ទេ ។ "
+"តើ​អ្នក​ចង់​បន្ថែមមិត្តភក្ដិ​នេះដែរឬទេ ?"
 
 #, c-format
 msgid ""
 "%s is on the local list but not on the server list. Do you want this buddy "
 "to be added?"
 msgstr ""
-"%s នៅ​ក្នុង​បញ្ជីមូលដ្ឋាន ប៉ុន្តែ​មិននៅ​ក្នុងបញ្ជី​ម៉ាស៊ីនបម្រើ​ទេ ។ តើ​អ្នកចង់​បន្ថែម​មិត្តភក្ដិ​នេះដែរឬទេ ?"
+"%s នៅ​ក្នុង​បញ្ជីមូលដ្ឋាន ប៉ុន្តែ​មិននៅ​ក្នុងបញ្ជី​ម៉ាស៊ីនបម្រើ​ទេ ។ "
+"តើ​អ្នកចង់​បន្ថែម​មិត្តភក្ដិ​នេះដែរឬទេ ?"
 
 msgid "Other Contacts"
 msgstr "ទំនាក់ទំនង​ផ្សេងៗ"
@@ -5239,11 +5403,13 @@ msgstr ""
 
 #, c-format
 msgid "%s sent a wink, but it could not be saved"
-msgstr "%s បាន​ផ្ញើ​សញ្ញា​មិចភ្នែក​ ប៉ុន្តែ​វា​មិន​អាច​ត្រូវ​បាន​រក្សាទុក​ទេ​"
+msgstr ""
+"%s បាន​ផ្ញើ​សញ្ញា​មិចភ្នែក​ ប៉ុន្តែ​វា​មិន​អាច​ត្រូវ​បាន​រក្សាទុក​ទេ​"
 
 #, c-format
 msgid "%s sent a voice clip. <a href='audio://%s'>Click here to play it</a>"
-msgstr "%s បាន​ផ្ញើ​ឈុត​សំឡេង ។ <a href='audio://%s'>ចុច​ទីនេះ ដើម្បី​ចាក់​វា</a>"
+msgstr ""
+"%s បាន​ផ្ញើ​ឈុត​សំឡេង ។ <a href='audio://%s'>ចុច​ទីនេះ ដើម្បី​ចាក់​វា</a>"
 
 #, c-format
 msgid "%s sent a voice clip, but it could not be saved"
@@ -5251,7 +5417,9 @@ msgstr "%s បាន​ផ្ញើ​ឈុត​សំឡេង ប៉ុន�
 
 #, c-format
 msgid "%s sent you a voice chat invite, which is not yet supported."
-msgstr "%s បាន​ផ្ញើ​​ការ​អញ្ជើញ​ឲ្យ​ចូល​ជជែក​ជា​សំឡេង ដែល​មិន​ត្រូវបានគាំត្រ​នៅ​ឡើយ​ទេ ។"
+msgstr ""
+"%s បាន​ផ្ញើ​​ការ​អញ្ជើញ​ឲ្យ​ចូល​ជជែក​ជា​សំឡេង "
+"ដែល​មិន​ត្រូវបានគាំត្រ​នៅ​ឡើយ​ទេ ។"
 
 msgid "Nudge"
 msgstr "ច្រាន"
@@ -5331,8 +5499,9 @@ msgid ""
 "Do you want to allow or disallow people on your buddy list to send you MSN "
 "Mobile pages to your cell phone or other mobile device?"
 msgstr ""
-"តើអ្នក​ចង់​អនុញ្ញាត ឬ​មិន​អនុញ្ញាត​មនុស្ស​នៅ​ក្នុង​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក​ផ្ញើ​ឲ្យ​អ្នក​នូវ​ទំព័រ​ចល័ត​របស់ MSN ទៅកាន់​"
-"ទូរស័ព្ទ​ចល័ត​របស់​អ្នក ឬ​ឧបករណ៍​ចល័ត​ផ្សេងៗ ?"
+"តើអ្នក​ចង់​អនុញ្ញាត "
+"ឬ​មិន​អនុញ្ញាត​មនុស្ស​នៅ​ក្នុង​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក​ផ្ញើ​ឲ្យ​អ្នក​នូវ​ទំ"
+"ព័រ​ចល័ត​របស់ MSN ទៅកាន់​ទូរស័ព្ទ​ចល័ត​របស់​អ្នក ឬ​ឧបករណ៍​ចល័ត​ផ្សេងៗ ?"
 
 #, c-format
 msgid "Blocked Text for %s"
@@ -5344,7 +5513,9 @@ msgstr "គ្មាន​អត្ថបទ​ត្រូវ​បាន​ទ
 #, c-format
 msgid ""
 "MSN servers are currently blocking the following regular expressions:<br/>%s"
-msgstr "ម៉ាស៊ីន​បម្រើ MSN បច្ចុប្បន្ន​កំពុង​ទប់ស្កាត់​កន្សោម​ធម្មតា​ដូច​ខាងក្រោម ៖ <br/>%s"
+msgstr ""
+"ម៉ាស៊ីន​បម្រើ MSN បច្ចុប្បន្ន​កំពុង​ទប់ស្កាត់​កន្សោម​ធម្មតា​ដូច​ខាងក្រោម ៖ "
+"<br/>%s"
 
 msgid "This account does not have email enabled."
 msgstr "គណនី​នេះ​មិន​មាន​អាសយដ្ឋាន​បានបើក​ទេ ។"
@@ -5424,16 +5595,19 @@ msgstr "បើក​ប្រអប់​ Hotmail"
 msgid "Send to Mobile"
 msgstr "ផ្ញើ​ទៅ​ទូរស័ព្ទ​ចល័ត"
 
-msgid "SSL support is needed for MSN. Please install a supported SSL library."
-msgstr "ការ​គាំទ្រ SSL ត្រូវ​បានទាមទារ​សម្រាប់ MSN ។ សូម​ដំឡើង​បណ្ណាល័យ SSL ដែល​បានគាំទ្រ ។"
+msgid ""
+"SSL support is needed for MSN. Please install a supported SSL library."
+msgstr ""
+"ការ​គាំទ្រ SSL ត្រូវ​បានទាមទារ​សម្រាប់ MSN ។ សូម​ដំឡើង​បណ្ណាល័យ SSL "
+"ដែល​បានគាំទ្រ ។"
 
 #, c-format
 msgid ""
 "Unable to add the buddy %s because the username is invalid.  Usernames must "
 "be valid email addresses."
 msgstr ""
-"មិនអាច​បន្ថែម​មិត្តភក្ដិ %s បាន​ទេ ពីព្រោះ​ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវ ។ ឈ្មោះ​អ្នក​ប្រើ​ត្រូវ​តែ​ជា​អាសយដ្ឋាន​"
-"អ៊ីមែល​ដែល​ត្រឹមត្រូវ ។"
+"មិនអាច​បន្ថែម​មិត្តភក្ដិ %s បាន​ទេ ពីព្រោះ​ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវ ។ "
+"ឈ្មោះ​អ្នក​ប្រើ​ត្រូវ​តែ​ជា​អាសយដ្ឋាន​អ៊ីមែល​ដែល​ត្រឹមត្រូវ ។"
 
 msgid "Unable to Add"
 msgstr "មិនអាច​បន្ថែម"
@@ -5579,13 +5753,16 @@ msgid ""
 "that the user does not exist, or that the user exists but has not created a "
 "public profile."
 msgstr ""
-"MSN បាន​រាយការណ៍​ថា​មិនអាច​រក​ទម្រង់​របស់​អ្នកប្រើទេ ។ នេះ​មាន​ន័យ​ថា​អ្នក​ប្រើ​មិន​ទាន់មាន​ទេ ឬ​ថា​​មាន​អ្នក​"
-"ប្រើ​ ប៉ុន្តែ​មិន​បានបង្កើត​ទម្រង់​ជា​សាធារណៈ​ទេ ។"
+"MSN បាន​រាយការណ៍​ថា​មិនអាច​រក​ទម្រង់​របស់​អ្នកប្រើទេ ។ "
+"នេះ​មាន​ន័យ​ថា​អ្នក​ប្រើ​មិន​ទាន់មាន​ទេ ឬ​ថា​​មាន​អ្នក​ប្រើ​ "
+"ប៉ុន្តែ​មិន​បានបង្កើត​ទម្រង់​ជា​សាធារណៈ​ទេ ។"
 
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
 "does not exist."
-msgstr "មិនអាច​រក​ព័ត៌មាន​នៅ​ក្នុង​ទម្រង់​របស់​អ្នក​ប្រើ​ទេ ។ អ្នក​ប្រើ​ទំនង​ជា​មិន​ទាន់មាន​ទេ ។"
+msgstr ""
+"មិនអាច​រក​ព័ត៌មាន​នៅ​ក្នុង​ទម្រង់​របស់​អ្នក​ប្រើ​ទេ ។ "
+"អ្នក​ប្រើ​ទំនង​ជា​មិន​ទាន់មាន​ទេ ។"
 
 msgid "View web profile"
 msgstr "មើល​ទម្រង់​លើ​បណ្ដាញ"
@@ -5618,13 +5795,18 @@ msgid "Allow connecting from multiple locations"
 msgstr ""
 
 msgid "nudge: nudge a user to get their attention"
-msgstr "ច្រាន​ចេញ ៖ ច្រានអ្នកប្រើ​ចេញ​ដើម្បី​ទទួល​បាន​ការ​ចាបអារម្មណ៍​របស់​ពួកគេ"
+msgstr ""
+"ច្រាន​ចេញ ៖ ច្រានអ្នកប្រើ​ចេញ​ដើម្បី​ទទួល​បាន​ការ​ចាបអារម្មណ៍​របស់​ពួកគេ"
 
 msgid "Windows Live ID authentication:Unable to connect"
-msgstr "ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​នៃ​លេខសម្គាល់​របស់ Windows Live ៖ មិនអាច​តភ្ជាប់​បានទេ"
+msgstr ""
+"ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​នៃ​លេខសម្គាល់​របស់ Windows Live ៖ "
+"មិនអាច​តភ្ជាប់​បានទេ"
 
 msgid "Windows Live ID authentication:Invalid response"
-msgstr "កា​រផ្ទៀងផ្ទាត់​​ភាព​ត្រឹមត្រូវ​នៃ​លេខសម្គាល់​របស់ Windows Live ៖ ការ​ឆ្លើយតប​មិនត្រឹមត្រូវ"
+msgstr ""
+"កា​រផ្ទៀងផ្ទាត់​​ភាព​ត្រឹមត្រូវ​នៃ​លេខសម្គាល់​របស់ Windows Live ៖ "
+"ការ​ឆ្លើយតប​មិនត្រឹមត្រូវ"
 
 msgid "The following users are missing from your addressbook"
 msgstr "អ្នក​ប្រើ​ដូច​ខាងក្រោម​បាត់​ពី​សៀវភៅ​អាសយដ្ឋាន​របស់​អ្នក"
@@ -5666,8 +5848,9 @@ msgid_plural ""
 "After the maintenance has been completed, you will be able to successfully "
 "sign in."
 msgstr[0] ""
-"ម៉ាស៊ីន​បម្រើ MSN នឹង​បិទ​ដើម្បី​ថែទាំ​ក្នុងរយៈពេល %d នាទី ។ អ្នកនឹង​ត្រូវ​បាន​ចេញ​ដោយ​ស្វ័យ​ប្រវត្តិ​នៅ​ពេល​"
-"ណាមួយ ។ សូម​បញ្ចប់​ការ​សន្ទនា​ដែល​កំពុង​តែ​សន្ទនា ។\n"
+"ម៉ាស៊ីន​បម្រើ MSN នឹង​បិទ​ដើម្បី​ថែទាំ​ក្នុងរយៈពេល %d នាទី ។ "
+"អ្នកនឹង​ត្រូវ​បាន​ចេញ​ដោយ​ស្វ័យ​ប្រវត្តិ​នៅ​ពេល​ណាមួយ ។ "
+"សូម​បញ្ចប់​ការ​សន្ទនា​ដែល​កំពុង​តែ​សន្ទនា ។\n"
 "\n"
 "បន្ទាប់​ពី​កា​រ​ថែទាំ​ចប់ អ្នក​នឹង​អាច​ចូល​ដោយ​ស្វ័យ​ប្រវត្តិ​បាន ។"
 
@@ -5675,17 +5858,20 @@ msgid ""
 "Message was not sent because the system is unavailable. This normally "
 "happens when the user is blocked or does not exist."
 msgstr ""
-"សារ​មិន​ត្រូវ​បាន​ផ្ញើ​ទេ ពីព្រោះ​ប្រព័ន្ធ​មិនអាច​ប្រើ​បាន​ទេ ។ តាម​ធម្មតា​វា​កើតឡើង​នៅពេល​ដែល​អ្នកប្រើ​ត្រូវ​"
-"បានទប់ស្កាត់ ឬ​មិន​ទាន់មាន ។"
+"សារ​មិន​ត្រូវ​បាន​ផ្ញើ​ទេ ពីព្រោះ​ប្រព័ន្ធ​មិនអាច​ប្រើ​បាន​ទេ ។ "
+"តាម​ធម្មតា​វា​កើតឡើង​នៅពេល​ដែល​អ្នកប្រើ​ត្រូវ​បានទប់ស្កាត់ ឬ​មិន​ទាន់មាន ។"
 
 msgid "Message was not sent because messages are being sent too quickly."
 msgstr "សារ​មិន​ត្រូវ​បានផ្ញើទេ ពីព្រោះ​សារ​កំពុង​ត្រូវ​បានផ្ញើ​រហ័ស​ពេក ។"
 
 msgid "Message was not sent because an unknown encoding error occurred."
-msgstr "សារ​មិន​ត្រូវ​បាន​ផ្ញើ​ទេ ពីព្រោះ​មាន​កំហុស​អ៊ិនកូដ​ដែល​មិនស្គាល់​បានកើត​ឡើង ។"
+msgstr ""
+"សារ​មិន​ត្រូវ​បាន​ផ្ញើ​ទេ ពីព្រោះ​មាន​កំហុស​អ៊ិនកូដ​ដែល​មិនស្គាល់​បានកើត​ឡើង "
+"។"
 
 msgid "Message was not sent because an unknown error occurred."
-msgstr "សារ​មិន​ត្រូវ​បាន​ផ្ញើ​បានទេ ពីព្រោះ​មាន​កំហុស​ដែលមិនស្គាល់​បានកើត​ឡើង ។"
+msgstr ""
+"សារ​មិន​ត្រូវ​បាន​ផ្ញើ​បានទេ ពីព្រោះ​មាន​កំហុស​ដែលមិនស្គាល់​បានកើត​ឡើង ។"
 
 #, c-format
 msgid ""
@@ -5728,8 +5914,11 @@ msgstr "កំហុស​ក្នុងកា​រញែក HTTP"
 msgid "You have signed on from another location"
 msgstr "អ្នក​បាន​ចុះហត្ថលេខា​ពី​ទីតាំង​ផ្សេង ។"
 
-msgid "The MSN servers are temporarily unavailable. Please wait and try again."
-msgstr "ម៉ាស៊ីន​បម្រើ MSN មិនអាច​ប្រើ​បាន​ជា​បណ្ដោះ​អាសន្ន ។ សូម​រង់ចាំ ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
+msgid ""
+"The MSN servers are temporarily unavailable. Please wait and try again."
+msgstr ""
+"ម៉ាស៊ីន​បម្រើ MSN មិនអាច​ប្រើ​បាន​ជា​បណ្ដោះ​អាសន្ន ។ សូម​រង់ចាំ "
+"ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
 
 msgid "The MSN servers are going down temporarily"
 msgstr "ម៉ាស៊ីន​បម្រើ MSN នឹង​ត្រូវផ្អាក​ជា​​​បណ្ដោះ​អាសន្ន ។"
@@ -5740,7 +5929,9 @@ msgstr "មិនអាច​ផ្ទៀងផ្ទាត់​ភាព​ត
 
 msgid ""
 "Your MSN buddy list is temporarily unavailable. Please wait and try again."
-msgstr "បញ្ជី​​មិត្តភក្ដិ​របស់​អ្នក MSN ​មិន​អាច​ប្រើ​បាន​ជា​បណ្ដោះ​អាសន្ន ។ សូម​រង់ចាំ ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
+msgstr ""
+"បញ្ជី​​មិត្តភក្ដិ​របស់​អ្នក MSN ​មិន​អាច​ប្រើ​បាន​ជា​បណ្ដោះ​អាសន្ន ។ "
+"សូម​រង់ចាំ ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
 
 msgid "Handshaking"
 msgstr "ការ​ចាប់ដៃ"
@@ -5761,12 +5952,17 @@ msgid "Retrieving buddy list"
 msgstr "ទៅ​យក​បញ្ជី​មិត្តភក្ដិ"
 
 #, c-format
-msgid "%s requests to view your webcam, but this request is not yet supported."
-msgstr "%s ស្នើសុំ​មើល​ម៉ាស៊ីន​ថត​តាម​បណ្ដាញ​របស់​អ្នក ប៉ុន្តែ​សំណើ​នេះ​មិន​ត្រូវ​បានគាំទ្រ​នៅ​ឡើយទេ ។"
+msgid ""
+"%s requests to view your webcam, but this request is not yet supported."
+msgstr ""
+"%s ស្នើសុំ​មើល​ម៉ាស៊ីន​ថត​តាម​បណ្ដាញ​របស់​អ្នក "
+"ប៉ុន្តែ​សំណើ​នេះ​មិន​ត្រូវ​បានគាំទ្រ​នៅ​ឡើយទេ ។"
 
 #, c-format
 msgid "%s invited you to view his/her webcam, but this is not yet supported."
-msgstr "%s បាន​អញ្ជើញ​អ្នក​ឲ្យ​មើល​ម៉ាស៊ីន​ថត​តាម​បណ្ដាញ​របស់​អ្នក ប៉ុន្តែ​វា​មិន​ត្រូវ​បាន​គាំទ្រ​នៅ​ឡើយ​ទេ ។"
+msgstr ""
+"%s បាន​អញ្ជើញ​អ្នក​ឲ្យ​មើល​ម៉ាស៊ីន​ថត​តាម​បណ្ដាញ​របស់​អ្នក "
+"ប៉ុន្តែ​វា​មិន​ត្រូវ​បាន​គាំទ្រ​នៅ​ឡើយ​ទេ ។"
 
 msgid "Away From Computer"
 msgstr "ចាកឆ្ងាយ​ពី​កុំព្យូទ័រ"
@@ -5787,7 +5983,8 @@ msgid "Message could not be sent because the user is offline:"
 msgstr "សារ​មិន​អាច​ត្រូវ​បាន​ផ្ញើ​ទេ ពីព្រោះ​អ្នក​ប្រើ​នៅ​ក្រៅ​បណ្ដាញ ៖"
 
 msgid "Message could not be sent because a connection error occurred:"
-msgstr "សារ​មិនអាច​ត្រូ​វបាន​ផ្ញើ​ទេ ពីព្រោះ​​មាន​កំហុស​ក្នុងការ​តភ្ជាប់​បានកើត​ឡើង ៖"
+msgstr ""
+"សារ​មិនអាច​ត្រូ​វបាន​ផ្ញើ​ទេ ពីព្រោះ​​មាន​កំហុស​ក្នុងការ​តភ្ជាប់​បានកើត​ឡើង ៖"
 
 msgid "Message could not be sent because we are sending too quickly:"
 msgstr "សារ​មិនអាច​ត្រូវ​បាន​ផ្ញើ​ទេ ពីព្រោះ​យើង​កំពុង​ផ្ញើ​រហ័ស​ពេក ៖"
@@ -5796,15 +5993,19 @@ msgid ""
 "Message could not be sent because we were unable to establish a session with "
 "the server. This is likely a server problem, try again in a few minutes:"
 msgstr ""
-"សារ​មិន​អាច​​ត្រូវ​បានផ្ញើ​ទេ ពីព្រោះ​យើង​មិន​អាច​បង្កើត​សម័យ​ជា​មួយ​ម៉ាស៊ីន​បម្រើ ។ វា​ទំនង​ជា​បញ្ហា​ម៉ាស៊ីន​បម្រើ "
-"ព្យាយាម​ម្ដង​ទៀត​​ក្នុង​រយៈពេល​ពីរ​ បី​នាទី​ទៀត ៖"
+"សារ​មិន​អាច​​ត្រូវ​បានផ្ញើ​ទេ "
+"ពីព្រោះ​យើង​មិន​អាច​បង្កើត​សម័យ​ជា​មួយ​ម៉ាស៊ីន​បម្រើ ។ "
+"វា​ទំនង​ជា​បញ្ហា​ម៉ាស៊ីន​បម្រើ ព្យាយាម​ម្ដង​ទៀត​​ក្នុង​រយៈពេល​ពីរ​ "
+"បី​នាទី​ទៀត ៖"
 
 msgid ""
 "Message could not be sent because an error with the switchboard occurred:"
-msgstr "សារ​មិនអាច​ត្រូវ​បាន​ផ្ញើទេ​ ពីព្រោះ​មាន​កំហុស​ជា​មួយ​ប៉ាណូ​បានកើតឡើង ៖"
+msgstr ""
+"សារ​មិនអាច​ត្រូវ​បាន​ផ្ញើទេ​ ពីព្រោះ​មាន​កំហុស​ជា​មួយ​ប៉ាណូ​បានកើតឡើង ៖"
 
 msgid "Message may have not been sent because an unknown error occurred:"
-msgstr "សារ​មិន​​អាច​ត្រូវ​បាន​ទេ ពីព្រោះ​មាន​កំហុស​ដែល​មិន​ស្គាល់​បាន​កើតឡើង ៖"
+msgstr ""
+"សារ​មិន​​អាច​ត្រូវ​បាន​ទេ ពីព្រោះ​មាន​កំហុស​ដែល​មិន​ស្គាល់​បាន​កើតឡើង ៖"
 
 msgid "Delete Buddy from Address Book?"
 msgstr "លុប​មិត្តភក្ដិ​ពី​សៀវភៅ​អាសយដ្ឋាន ?"
@@ -5820,7 +6021,9 @@ msgstr ""
 
 msgid ""
 "The birthday you entered is invalid. The correct format is: 'YYYY-MM-DD'."
-msgstr "ថ្ងៃ​កំណើត​ដែល​អ្នក​បាន​បញ្ចូល​មិនត្រឹមត្រូវទេ ។ ​ទ្រង់ទ្រាយ​ដែល​ត្រឹមត្រូវ​គឺ 'YYYY-MM-DD' ។"
+msgstr ""
+"ថ្ងៃ​កំណើត​ដែល​អ្នក​បាន​បញ្ចូល​មិនត្រឹមត្រូវទេ ។ "
+"​ទ្រង់ទ្រាយ​ដែល​ត្រឹមត្រូវ​គឺ 'YYYY-MM-DD' ។"
 
 #. show error to user
 msgid "Profile Update Error"
@@ -5831,8 +6034,11 @@ msgstr "កំហុសក្នុងការ​​​ធ្វើ​ឲ្យ
 msgid "Profile"
 msgstr "ទម្រង់"
 
-msgid "Your profile information is not yet retrieved. Please try again later."
-msgstr "ទម្រង់​ព័ត៌មាន​របស់​អ្នក​មិន​ត្រូវបាន​​ទៅយក​នៅ​​ឡើយ​ទេ ។ សូម​ព្យាយាម​​ម្តងទៀត នៅ​ពេល​ក្រោយ ។"
+msgid ""
+"Your profile information is not yet retrieved. Please try again later."
+msgstr ""
+"ទម្រង់​ព័ត៌មាន​របស់​អ្នក​មិន​ត្រូវបាន​​ទៅយក​នៅ​​ឡើយ​ទេ ។ "
+"សូម​ព្យាយាម​​ម្តងទៀត នៅ​ពេល​ក្រោយ ។"
 
 #. display name
 #. nick name (required)
@@ -5957,14 +6163,18 @@ msgstr ""
 
 msgid ""
 "Unable to connect to the MXit HTTP server. Please check your server settings."
-msgstr "មិនអាច​តភ្ជាប់​ទៅ​កាន់​ម៉ាស៊ីន​បម្រើ MXit HTTP បាន​ទេ ។ សូម​ពិនិត្យ​ការ​កំណត់​ម៉ាស៊ីន​បម្រើ​របស់​អ្នក ។"
+msgstr ""
+"មិនអាច​តភ្ជាប់​ទៅ​កាន់​ម៉ាស៊ីន​បម្រើ MXit HTTP បាន​ទេ ។ "
+"សូម​ពិនិត្យ​ការ​កំណត់​ម៉ាស៊ីន​បម្រើ​របស់​អ្នក ។"
 
 msgid "Logging In..."
 msgstr "កំពុង​ចូល..."
 
 msgid ""
 "Unable to connect to the MXit server. Please check your server settings."
-msgstr "មិន​អាច​តភ្ជាប់​ទៅ​កាន់​ម៉ាស៊ីនបម្រើ MXit បាន​ទេ ។ សូម​ពិនិត្យ​មើល​ការ​កំណត់​ម៉ាស៊ីន​បម្រើ​របស់​អ្នក ។"
+msgstr ""
+"មិន​អាច​តភ្ជាប់​ទៅ​កាន់​ម៉ាស៊ីនបម្រើ MXit បាន​ទេ ។ "
+"សូម​ពិនិត្យ​មើល​ការ​កំណត់​ម៉ាស៊ីន​បម្រើ​របស់​អ្នក ។"
 
 msgid "Connecting..."
 msgstr "កំពុង​តភ្ជាប់..."
@@ -5988,16 +6198,22 @@ msgstr "សូម​បំពេញ​វាល​ដូច​ខាងក្រ
 
 #. no reply from the WAP site
 msgid "Error contacting the MXit WAP site. Please try again later."
-msgstr "កំហុស​ក្នុង​ការ​​​តភ្ជាប់​ទៅ​កាន់​​តំបន់​បណ្តាញ MXit WAP ។ សូម​ព្យាយាម​ម្ដង​ទៀត​ នៅពេល​ក្រោយ ។"
+msgstr ""
+"កំហុស​ក្នុង​ការ​​​តភ្ជាប់​ទៅ​កាន់​​តំបន់​បណ្តាញ MXit WAP ។ "
+"សូម​ព្យាយាម​ម្ដង​ទៀត​ នៅពេល​ក្រោយ ។"
 
 #. wapserver error
 #. server could not find the user
 msgid ""
 "MXit is currently unable to process the request. Please try again later."
-msgstr "MXit បច្ចុប្បន្ន​មិនអាច​ដំណើរការ​សំណើ​បាន​ទេ ។ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅពេល​ក្រោយ ។"
+msgstr ""
+"MXit បច្ចុប្បន្ន​មិនអាច​ដំណើរការ​សំណើ​បាន​ទេ ។ "
+"សូម​ព្យាយាម​ម្ដង​ទៀត​នៅពេល​ក្រោយ ។"
 
 msgid "Wrong security code entered. Please try again later."
-msgstr "កូដ​សុវត្ថិភាព​ដែល​បាន​បញ្ចូល​មិន​ត្រឹមត្រូវ​ទេ ។ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ក្រោយ ។"
+msgstr ""
+"កូដ​សុវត្ថិភាព​ដែល​បាន​បញ្ចូល​មិន​ត្រឹមត្រូវ​ទេ ។ "
+"សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ក្រោយ ។"
 
 msgid "Your session has expired. Please try again later."
 msgstr "សម័យ​របស់​អ្នក​ផុត​កំណត់​ហើយ ។ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅពេល​ក្រោយ ។"
@@ -6136,11 +6352,13 @@ msgstr ""
 msgid "You have %i suggested friend."
 msgid_plural "You have %i suggested friends."
 msgstr[0] ""
+msgstr[1] ""
 
 #, c-format
 msgid "We found %i contact that matches your search."
 msgid_plural "We found %i contacts that match your search."
 msgstr[0] ""
+msgstr[1] ""
 
 #. we must have lost the connection, so terminate it so that we can reconnect
 msgid "We have lost the connection to MXit. Please reconnect."
@@ -6162,7 +6380,9 @@ msgstr "បានចូល​ដោយ​ជោគជ័យ..."
 #, c-format
 msgid ""
 "%s sent you an encrypted message, but it is not supported on this client."
-msgstr "%s បាន​ផ្ញើ​ឲ្យ​អ្នក​នូវ​សារ​ដែល​បានអ៊ីនគ្រិប ប៉ុន្តែ​វា​មិន​ត្រូវ​បានគាំទ្រ​នៅ​លើ​ម៉ាស៊ីន​ភ្ញៀវ​នេះ​ទេ ។"
+msgstr ""
+"%s បាន​ផ្ញើ​ឲ្យ​អ្នក​នូវ​សារ​ដែល​បានអ៊ីនគ្រិប "
+"ប៉ុន្តែ​វា​មិន​ត្រូវ​បានគាំទ្រ​នៅ​លើ​ម៉ាស៊ីន​ភ្ញៀវ​នេះ​ទេ ។"
 
 msgid "Message Error"
 msgstr "កំហុស​សារ"
@@ -6172,7 +6392,8 @@ msgid "An encrypted message was received which could not be decrypted."
 msgstr ""
 
 msgid "Cannot perform redirect using the specified protocol"
-msgstr "មិនអាច​អនុវត្ត​កា​របញ្ចូន​បន្ត​ដោយ​ប្រើ​ពិធីការ​ដែលបាន​បញ្ជាក់​​នោះ​ទេ"
+msgstr ""
+"មិនអាច​អនុវត្ត​កា​របញ្ចូន​បន្ត​ដោយ​ប្រើ​ពិធីការ​ដែលបាន​បញ្ជាក់​​នោះ​ទេ"
 
 msgid "An internal MXit server error occurred."
 msgstr "កំហុស​ម៉ាស៊ីន​​បម្រើ MXit ខាង​ក្នុង​បាន​កើត​ឡើង ។"
@@ -6292,7 +6513,9 @@ msgid "You appear to have no MySpace username."
 msgstr "អ្នក​បង្ហាញ​ថា​គ្មាន​ឈ្មោះអ្នកប្រើ MySpace នោះ​ទេ ។"
 
 msgid "Would you like to set one now? (Note: THIS CANNOT BE CHANGED!)"
-msgstr "តើ​អ្នក​ចង់​កំណត់​មួយ​ដែរឬទេ ? (ចំណាំ ៖ វា​មិនអាច​ត្រូវ​បាន​ផ្លាស់ប្ដូរ​នោះ​ទេ !)"
+msgstr ""
+"តើ​អ្នក​ចង់​កំណត់​មួយ​ដែរឬទេ ? (ចំណាំ ៖ "
+"វា​មិនអាច​ត្រូវ​បាន​ផ្លាស់ប្ដូរ​នោះ​ទេ !)"
 
 msgid "Lost connection with server"
 msgstr "បាត់​បង់ការ​តភ្ជាប់​ជា​មួយ​ម៉ាស៊ីន​បម្រើ"
@@ -6329,8 +6552,8 @@ msgid_plural ""
 "%d buddies were added or updated from the server (including buddies already "
 "on the server-side list)"
 msgstr[0] ""
-"មិត្តភក្ដិ %d ត្រូវ​បាន​បន្ថែម ឬ​ធ្វើ​ឲ្យ​ទាន់សម័យ​ពី​ម៉ាស៊ីនបម្រើ (រួម​មាន​មិត្តភក្ដិ​ដែល​មាន​នៅ​ក្នុង​បញ្ជី​​នៅ​ខាង​"
-"ម៉ាស៊ីនបម្រើ​រួច​ហើយ)"
+"មិត្តភក្ដិ %d ត្រូវ​បាន​បន្ថែម ឬ​ធ្វើ​ឲ្យ​ទាន់សម័យ​ពី​ម៉ាស៊ីនបម្រើ "
+"(រួម​មាន​មិត្តភក្ដិ​ដែល​មាន​នៅ​ក្នុង​បញ្ជី​​នៅ​ខាង​ម៉ាស៊ីនបម្រើ​រួច​ហើយ)"
 
 msgid "Add contacts from server"
 msgstr "បន្ថែម​ទំនាក់ទំនង​ពី​ម៉ាស៊ីន​បម្រើ"
@@ -6342,12 +6565,14 @@ msgstr "កំហុស​ពិធីការ កូដ %d: %s"
 #, c-format
 msgid ""
 "%s Your password is %zu characters, which is longer than the maximum length "
-"of %d.  Please shorten your password at http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword and try again."
+"of %d.  Please shorten your password at "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword and try again."
 msgstr ""
-"%s ពាក្យ​សម្ងាត់​របស់​អ្នក​គឺមាន %zu តួអក្សរ ដែល​វែង​ជាង​ប្រវែង​អតិបរមា​របស់ %d ។  សូម​កាត់​ពាក្យ​សម្ងាត់​"
-"របស់​អ្នក​នៅ http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings."
-"changePassword ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
+"%s ពាក្យ​សម្ងាត់​របស់​អ្នក​គឺមាន %zu តួអក្សរ ដែល​វែង​ជាង​ប្រវែង​អតិបរមា​របស់ "
+"%d ។  សូម​កាត់​ពាក្យ​សម្ងាត់​របស់​អ្នក​នៅ "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
 
 msgid "Incorrect username or password"
 msgstr "ឈ្មោះ​អ្នក​ប្រើ ឬ​ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ"
@@ -6386,8 +6611,8 @@ msgid ""
 "Upgrade to a libpurple with RC4 support (>= 2.0.1). MySpaceIM plugin will "
 "not be loaded."
 msgstr ""
-"ធ្វើ​ឲ្យ​ប្រសើ​ឡើង​ទៅ libpurple ដោយ​មាន​ការ​គាំទ្រ RC4 (>= 2.0.1) ។ កម្មវិធី​ជំនួយ MySpaceIM នឹង​"
-"មិន​ត្រូវ​បាន​ផ្ទុក ។"
+"ធ្វើ​ឲ្យ​ប្រសើ​ឡើង​ទៅ libpurple ដោយ​មាន​ការ​គាំទ្រ RC4 (>= 2.0.1) ។ "
+"កម្មវិធី​ជំនួយ MySpaceIM នឹង​មិន​ត្រូវ​បាន​ផ្ទុក ។"
 
 msgid "Add friends from MySpace.com"
 msgstr "បន្ថែម​មិត្តភក្ដិ​ពី MySpace.com"
@@ -6406,7 +6631,7 @@ msgid "myim URL handler"
 msgstr "កម្មវិធី​គ្រប់គ្រង myim URL"
 
 msgid "No suitable MySpaceIM account could be found to open this myim URL."
-msgstr " រក​មិន​ឃើញ​​គណនី MySpaceIM សមរម្យ​ដើម្បី​បើក myim URL នេះ​ទេ ។"
+msgstr "រក​មិន​ឃើញ​​គណនី MySpaceIM សមរម្យ​ដើម្បី​បើក myim URL នេះ​ទេ ។"
 
 msgid "Enable the proper MySpaceIM account and try again."
 msgstr "បើក​គណនី​ MySpaceIM សមរម្យ​ ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
@@ -6446,9 +6671,10 @@ msgid ""
 "visit http://editprofile.myspace.com/index.cfm?fuseaction=profile.username "
 "to set your username."
 msgstr ""
-"កំហុស​ដែល​បាន​កើត​ឡើង​ អំឡុង​ពេល​​​ព្យាយាម​កំណត់ឈ្មោះ​អ្នក​ប្រើ​ ។ សូម​ព្យាយាម​ម្តងទៀត ឬ​មើល​ http://"
-"editprofile.myspace.com/index.cfm?fuseaction=profile.username ដើម្បី​កំណត់​ឈ្មោះអ្នក​"
-"ប្រើ​របស់​អ្នក​ ។"
+"កំហុស​ដែល​បាន​កើត​ឡើង​ អំឡុង​ពេល​​​ព្យាយាម​កំណត់ឈ្មោះ​អ្នក​ប្រើ​ ។ "
+"សូម​ព្យាយាម​ម្តងទៀត ឬ​មើល​ "
+"http://editprofile.myspace.com/index.cfm?fuseaction=profile.username "
+"ដើម្បី​កំណត់​ឈ្មោះអ្នក​ប្រើ​របស់​អ្នក​ ។"
 
 msgid "MySpaceIM - Username Available"
 msgstr "MySpaceIM - មាន​ឈ្មោះ​អ្នក​ប្រើ"
@@ -6473,7 +6699,8 @@ msgid "No username set"
 msgstr "គ្មាន​ឈ្មោះ​អ្នក​ប្រើ​ត្រូវ​បានកំណត់"
 
 msgid "Please enter a username to check its availability:"
-msgstr "សូម​បញ្ចូល​ឈ្មោះអ្នក​ប្រើ​ដើម្បី​ពិនិត្យ​មើល​ភាព​អាច​ប្រើបាន​របស់​វា ៖"
+msgstr ""
+"សូម​បញ្ចូល​ឈ្មោះអ្នក​ប្រើ​ដើម្បី​ពិនិត្យ​មើល​ភាព​អាច​ប្រើបាន​របស់​វា ៖"
 
 #. TODO: icons for each zap
 #. Lots of comments for translators:
@@ -6669,13 +6896,16 @@ msgstr "មិនអាច​ស្គាល់​ឈ្មោះ​​អ្ន
 msgid ""
 "Your account has been disabled because too many incorrect passwords were "
 "entered"
-msgstr "គណនី​របស់​អ្នក​ត្រូវ​បានបិទ ពីព្រោះ​មាន​ពាក្យ​សម្ងាត់​ច្រើន​ពេក​ដែល​បាន​បញ្ចូល"
+msgstr ""
+"គណនី​របស់​អ្នក​ត្រូវ​បានបិទ "
+"ពីព្រោះ​មាន​ពាក្យ​សម្ងាត់​ច្រើន​ពេក​ដែល​បាន​បញ្ចូល"
 
 msgid "You cannot add the same person twice to a conversation"
 msgstr "អ្នក​មិនអាច​បន្ថែម​មនុស្ស​ដដែល​ពីរដង​​ទៅ​កាន់​កា​រសន្ទនា​បានទេ"
 
 msgid "You have reached your limit for the number of contacts allowed"
-msgstr "អ្នក​បានដល់​កម្រិត​របស់​អ្នក​សម្រាប់​ចំនួន​ទំនាក់ទំនង​ដែល​បាន​អនុញ្ញាត"
+msgstr ""
+"អ្នក​បានដល់​កម្រិត​របស់​អ្នក​សម្រាប់​ចំនួន​ទំនាក់ទំនង​ដែល​បាន​អនុញ្ញាត"
 
 msgid "You have entered an incorrect username"
 msgstr "អ្នក​បាន​បញ្ចូល​ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវ"
@@ -6692,7 +6922,9 @@ msgstr "អ្នកប្រើបាន​ទប់ស្កាត់​អ្
 msgid ""
 "This evaluation version does not allow more than ten users to log in at one "
 "time"
-msgstr "កំណែ​នៃ​កា​រវាយតម្លៃ​នេះ​មិនអនុញ្ញាត​ឲ្យ​មាន​អ្នក​ប្រើ​ច្រើនជាង ១០ នាក់​ចូល​នៅពេល​តែ​មួយ​ទេ"
+msgstr ""
+"កំណែ​នៃ​កា​រវាយតម្លៃ​នេះ​មិនអនុញ្ញាត​ឲ្យ​មាន​អ្នក​ប្រើ​ច្រើនជាង ១០ "
+"នាក់​ចូល​នៅពេល​តែ​មួយ​ទេ"
 
 msgid "The user is either offline or you are blocked"
 msgstr "អ្នក​ប្រើ​នៅ​ក្រៅ​បណ្ដាញ ឬ​អ្នក​ត្រូវ​បាន​ទប់ស្កាត់"
@@ -6707,7 +6939,9 @@ msgstr "មិន​អាច​ចូល ៖ %s បាន​ទេ"
 
 #, c-format
 msgid "Unable to send message. Could not get details for user (%s)."
-msgstr "មិនអាច​ផ្ញើ​សារ​បានទេ ។ មិនអាច​យក​សេចក្ដី​លម្អិត​សម្រាប់​អ្នកប្រើ (%s) បានទេ ។"
+msgstr ""
+"មិនអាច​ផ្ញើ​សារ​បានទេ ។ មិនអាច​យក​សេចក្ដី​លម្អិត​សម្រាប់​អ្នកប្រើ (%s) បានទេ "
+"។"
 
 #, c-format
 msgid "Unable to add %s to your buddy list (%s)."
@@ -6724,7 +6958,8 @@ msgstr "មិនអាច​អញ្ជើញ​អ្នក​ប្រើ (%
 
 #, c-format
 msgid "Unable to send message to %s. Could not create the conference (%s)."
-msgstr "មិនអាចផ្ញើសារទៅ​កាន់ %s បានទេ ។ មិនអាច​បង្កើត​ការ​សន្និសីទ​បាន​ទេ (%s) ។"
+msgstr ""
+"មិនអាចផ្ញើសារទៅ​កាន់ %s បានទេ ។ មិនអាច​បង្កើត​ការ​សន្និសីទ​បាន​ទេ (%s) ។"
 
 #, c-format
 msgid "Unable to send message. Could not create the conference (%s)."
@@ -6735,14 +6970,16 @@ msgid ""
 "Unable to move user %s to folder %s in the server side list. Error while "
 "creating folder (%s)."
 msgstr ""
-"មិនអាច​ផ្លាស់ទី​អ្នក​ប្រើ %s ទៅ​កាន់​ថត %s នៅ​ក្នុង​បញ្ជី​ខាង​ម៉ាស៊ីន​បម្រើ ។ កំហុស​ខណៈពេល​បង្កើត​ថត (%s) ។"
+"មិនអាច​ផ្លាស់ទី​អ្នក​ប្រើ %s ទៅ​កាន់​ថត %s នៅ​ក្នុង​បញ្ជី​ខាង​ម៉ាស៊ីន​បម្រើ "
+"។ កំហុស​ខណៈពេល​បង្កើត​ថត (%s) ។"
 
 #, c-format
 msgid ""
 "Unable to add %s to your buddy list. Error creating folder in server side "
 "list (%s)."
 msgstr ""
-"មិន​អាច​បន្ថែម %s ទៅ​កាន់​បញ្ជីមិត្តភក្ដិ ។ កំហុស​ក្នុងកា​របង្កើត​ថត​នៅ​ក្នុង​បញ្ជី​ខាង​ម៉ាស៊ីន​បម្រើ (%s) ។"
+"មិន​អាច​បន្ថែម %s ទៅ​កាន់​បញ្ជីមិត្តភក្ដិ ។ "
+"កំហុស​ក្នុងកា​របង្កើត​ថត​នៅ​ក្នុង​បញ្ជី​ខាង​ម៉ាស៊ីន​បម្រើ (%s) ។"
 
 #, c-format
 msgid "Could not get details for user %s (%s)."
@@ -6792,7 +7029,7 @@ msgstr "លេខ​សម្គាល់​អ្នក​ប្រើ"
 #. if (value) {
 #. purple_notify_user_info_add_pair(user_info, tag, value);
 #. }
-#.
+#. 
 msgid "Full name"
 msgstr "ឈ្មោះ​ពេញ"
 
@@ -6829,13 +7066,16 @@ msgstr "តើ​អ្នក​ចង់​ចូល​រួម​ក្នុ
 #, c-format
 msgid ""
 "%s appears to be offline and did not receive the message that you just sent."
-msgstr "%s បង្ហាញថា​នៅ​ក្រៅបណ្ដាញ ហើយ​មិន​បានទទួល​សារ​ដែល​អ្នក​ទើប​តែ​បាន​ផ្ញើ​នោះ​ទេ ។"
+msgstr ""
+"%s បង្ហាញថា​នៅ​ក្រៅបណ្ដាញ "
+"ហើយ​មិន​បានទទួល​សារ​ដែល​អ្នក​ទើប​តែ​បាន​ផ្ញើ​នោះ​ទេ ។"
 
 msgid ""
 "Unable to connect to server. Please enter the address of the server to which "
 "you wish to connect."
 msgstr ""
-"មិនអាច​តភ្ជាប់​ទៅកាន់ម៉ាស៊ីន​បម្រើ​បាន​ទេ ។ សូម​បញ្ចូល​អាសយដ្ឋាន​របស់​ម៉ាស៊ីន​បម្រើ ដែល​អ្នក​ចង់​តភ្ជាប់​ ។"
+"មិនអាច​តភ្ជាប់​ទៅកាន់ម៉ាស៊ីន​បម្រើ​បាន​ទេ ។ "
+"សូម​បញ្ចូល​អាសយដ្ឋាន​របស់​ម៉ាស៊ីន​បម្រើ ដែល​អ្នក​ចង់​តភ្ជាប់​ ។"
 
 msgid "This conference has been closed. No more messages can be sent."
 msgstr "សន្និសីទ​នេះ​ត្រូ​វបាន​បិទ ។ គ្មាន​សារ​អាច​ត្រូវ​បាន​ផ្ញើ​ទេ ។"
@@ -6860,7 +7100,9 @@ msgid "Server port"
 msgstr "ច្រក​ម៉ាស៊ីនបម្រើ"
 
 msgid "Please authorize me so I can add you to my buddy list."
-msgstr "សូម​អនុញ្ញាត​ខ្ញុំ ដូច្នេះ​ខ្ញុំ​អាច​បន្ថែម​អ្នក​នៅកាន់​បញ្ជី​មិត្តភក្ដិ​របស់​​ខ្ញុំ ។"
+msgstr ""
+"សូម​អនុញ្ញាត​ខ្ញុំ "
+"ដូច្នេះ​ខ្ញុំ​អាច​បន្ថែម​អ្នក​នៅកាន់​បញ្ជី​មិត្តភក្ដិ​របស់​​ខ្ញុំ ។"
 
 msgid "No reason given."
 msgstr "គ្មាន​ហេតុផល​បានផ្ដល់ ។"
@@ -6870,7 +7112,7 @@ msgstr "សារ​បដិសេធ​ការ​ផ្ទៀងផ្ទា
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
-#.
+#. 
 msgid "_OK"
 msgstr "យល់ព្រម"
 
@@ -6886,8 +7128,9 @@ msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
 msgstr ""
-"អ្នក​កំពុង​ត្រូវ​បានតភ្ជាប់ និង​ផ្ដាច់​ញឹក​ញាប់​ណាស់ ។ រង់ចាំ​ដប់នាទី ហើយ​ព្យាយាម​ម្ដង​ទៀត ។ ប្រសិនបើ​អ្នក​បន្ត​"
-"ដើម្បី​ព្យាយាម អ្នកនឹង​ត្រូវ​រង់ចាំ​យូរ​បន្តិច ។"
+"អ្នក​កំពុង​ត្រូវ​បានតភ្ជាប់ និង​ផ្ដាច់​ញឹក​ញាប់​ណាស់ ។ រង់ចាំ​ដប់នាទី "
+"ហើយ​ព្យាយាម​ម្ដង​ទៀត ។ ប្រសិនបើ​អ្នក​បន្ត​ដើម្បី​ព្យាយាម "
+"អ្នកនឹង​ត្រូវ​រង់ចាំ​យូរ​បន្តិច ។"
 
 msgid ""
 "You required encryption in your account settings, but one of the servers "
@@ -6907,10 +7150,12 @@ msgid ""
 "Server requested that you fill out a CAPTCHA in order to sign in, but this "
 "client does not currently support CAPTCHAs."
 msgstr ""
-"ម៉ាស៊ីន​បម្រើ​បាន​ស្នើ​ឲ្យ​អ្នកបំពេញ CAPTCHA ដើម្បី​ចូល ម៉ាស៊ីន​ភ្ញៀវ​នេះ​​បច្ចុប្បន្ន​មិនគាំទ្រ CAPTCHAs ទេ ។"
+"ម៉ាស៊ីន​បម្រើ​បាន​ស្នើ​ឲ្យ​អ្នកបំពេញ CAPTCHA ដើម្បី​ចូល "
+"ម៉ាស៊ីន​ភ្ញៀវ​នេះ​​បច្ចុប្បន្ន​មិនគាំទ្រ CAPTCHAs ទេ ។"
 
 msgid "AOL does not allow your screen name to authenticate here"
-msgstr "AOL មិនអនុញ្ញាត​ឲ្យ​​​ផ្ទៀងផ្ទាត់​ឈ្មោះ​អេក្រង់​របស់​អ្នក​នៅ​ទីនេះ​ទេ"
+msgstr ""
+"AOL មិនអនុញ្ញាត​ឲ្យ​​​ផ្ទៀងផ្ទាត់​ឈ្មោះ​អេក្រង់​របស់​អ្នក​នៅ​ទីនេះ​ទេ"
 
 msgid ""
 "(There was an error receiving this message.  The buddy you are speaking with "
@@ -6918,17 +7163,19 @@ msgid ""
 "encoding he is using, you can specify it in the advanced account options for "
 "your AIM/ICQ account.)"
 msgstr ""
-"(មាន​កំហុស​មួយ​ក្នុងកា​រទទួល​សារ​នេះ ។ មិត្តភក្ដិ​ដែល​អ្នក​កំពុង​និយាយ​ជា​មួយ​ប្រហែលជា​ប្រើការ​អ៊ិនកូដ​ផ្សេង​ពីអ្វី​ដែល​"
-"រំពឹង​ទុក ។ ប្រសិនបើ​​អ្នកដឹង​ការ​អ៊ិនកូដ​អ្វី​ដែល​អ្នកកំពុង​ប្រើ អ្នក​អាច​បញ្ជាក់​វា​នៅ​ក្នុង​ជម្រើស​គណនី​កម្រិត​ខ្ពស់​"
-"សម្រាប់​គណនី AIM/ICQ របស់​អ្នក ។)"
+"(មាន​កំហុស​មួយ​ក្នុងកា​រទទួល​សារ​នេះ ។ "
+"មិត្តភក្ដិ​ដែល​អ្នក​កំពុង​និយាយ​ជា​មួយ​ប្រហែលជា​ប្រើការ​អ៊ិនកូដ​ផ្សេង​ពីអ្វី​"
+"ដែល​រំពឹង​ទុក ។ ប្រសិនបើ​​អ្នកដឹង​ការ​អ៊ិនកូដ​អ្វី​ដែល​អ្នកកំពុង​ប្រើ "
+"អ្នក​អាច​បញ្ជាក់​វា​នៅ​ក្នុង​ជម្រើស​គណនី​កម្រិត​ខ្ពស់​សម្រាប់​គណនី AIM/ICQ "
+"របស់​អ្នក ។)"
 
 #, c-format
 msgid ""
 "(There was an error receiving this message.  Either you and %s have "
 "different encodings selected, or %s has a buggy client.)"
 msgstr ""
-"(មានកំហុស​មួយ​ក្នុងការ​ទទួល​សារ ។ អ្នក​ និង %s បាន​ជ្រើស​ការ​ការអ៊ិនកូដ​ផ្សេង​គ្នា ឬ %s មាន​ម៉ាស៊ីន​ភ្ញៀវ​"
-"មិត្តភក្ដិ ។)"
+"(មានកំហុស​មួយ​ក្នុងការ​ទទួល​សារ ។ អ្នក​ និង %s "
+"បាន​ជ្រើស​ការ​ការអ៊ិនកូដ​ផ្សេង​គ្នា ឬ %s មាន​ម៉ាស៊ីន​ភ្ញៀវ​មិត្តភក្ដិ ។)"
 
 msgid "Could not join chat room"
 msgstr "មិនអាច​ចូល​រួម​ក្នុង​បន្ទប់​ជជែក​បានទេ"
@@ -7123,7 +7370,8 @@ msgid "Lost connection with the remote user:<br>%s"
 msgstr "បាត់បង់​ការ​តភ្ជាប់​ជា​មួយ​អ្នកប្រើ​ពី​ចម្ងាយ ៖ <br>%s"
 
 msgid "Received invalid data on connection with remote user."
-msgstr "បាន​ទទួល​ទិន្នន័យ​មិន​ត្រឹមត្រូវ​នៅ​ពេល​តភ្ជាប់​ជា​មួយ​អ្នកប្រើពី​ចម្ងាយ ។"
+msgstr ""
+"បាន​ទទួល​ទិន្នន័យ​មិន​ត្រឹមត្រូវ​នៅ​ពេល​តភ្ជាប់​ជា​មួយ​អ្នកប្រើពី​ចម្ងាយ ។"
 
 msgid "Unable to establish a connection with the remote user."
 msgstr "មិនអាច​បង្កើត​ការ​តភ្ជាប់​ជា​មួយ​អ្នក​ប្រើ​ពី​ចម្ងាយ​បាន​ឡើយ​ ។"
@@ -7136,8 +7384,8 @@ msgid ""
 "%s tried to send you a %s file, but we only allow files up to %s over Direct "
 "IM.  Try using file transfer instead.\n"
 msgstr ""
-"%s បានព្យាយាម​ផ្ញើ​ឲ្យ​​អ្ន​ក​នូវ​ឯកសារ %s ប៉ុន្តែ​អនុញ្ញាត​តែ​ឯកសារ​ %s លើ​ IM ដោយ​ផ្ទាល់ ។ ព្យាយាម​ប្រើ​"
-"ការ​ផ្ទេរ​ឯកសារ​ជំនួស​វិញ ។\n"
+"%s បានព្យាយាម​ផ្ញើ​ឲ្យ​​អ្ន​ក​នូវ​ឯកសារ %s ប៉ុន្តែ​អនុញ្ញាត​តែ​ឯកសារ​ %s លើ​ "
+"IM ដោយ​ផ្ទាល់ ។ ព្យាយាម​ប្រើ​ការ​ផ្ទេរ​ឯកសារ​ជំនួស​វិញ ។\n"
 
 #, c-format
 msgid "File %s is %s, which is larger than the maximum size of %s."
@@ -7175,7 +7423,8 @@ msgstr ""
 
 #, c-format
 msgid "Unable to connect to authentication server: %s"
-msgstr "មិនអាច​តភ្ជាប់​ទៅ​កាន់ម៉ាស៊ីនបម្រើ​​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​បាន​ទេ ៖ %s"
+msgstr ""
+"មិនអាច​តភ្ជាប់​ទៅ​កាន់ម៉ាស៊ីនបម្រើ​​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​បាន​ទេ ៖ %s"
 
 #, c-format
 msgid "Unable to connect to BOS server: %s"
@@ -7197,8 +7446,9 @@ msgid ""
 "a valid email address, or start with a letter and contain only letters, "
 "numbers and spaces, or contain only numbers."
 msgstr ""
-"មិនអាចចាប់​ផ្តើម​​​ %s បានទេ​​ពីព្រោះ​ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវ ។ អ្នក​ប្រើ​ត្រូវ​តែ​មានអាសយដ្ឋាន​"
-"អ៊ីមែលត្រឹមត្រូវ​ ឬ​ចាប់ផ្ដើម​ដោយ​អក្សរ ហើយ​​មានតែ​អក្សរ លេខ និង​ចន្លោះ​មិនឃើញ ឬ​មាន​តែ​លេខ​ប៉ុណ្ណោះ ។"
+"មិនអាចចាប់​ផ្តើម​​​ %s បានទេ​​ពីព្រោះ​ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវ ។ "
+"អ្នក​ប្រើ​ត្រូវ​តែ​មានអាសយដ្ឋាន​អ៊ីមែលត្រឹមត្រូវ​ ឬ​ចាប់ផ្ដើម​ដោយ​អក្សរ "
+"ហើយ​​មានតែ​អក្សរ លេខ និង​ចន្លោះ​មិនឃើញ ឬ​មាន​តែ​លេខ​ប៉ុណ្ណោះ ។"
 
 msgid ""
 "You required encryption in your account settings, but encryption is not "
@@ -7208,7 +7458,8 @@ msgstr ""
 #, c-format
 msgid "You may be disconnected shortly.  If so, check %s for updates."
 msgstr ""
-"អ្នក​អាច​ត្រូ​វបាន​ផ្ដាច់​ក្នុង​រយៈពេលបន្តិចទៀត​នេះ ។ ប្រសិនបើ​ដូច្នេះ​មែន ពិនិត្យ​មើល​ភាពទាន់សម័យ %s ។"
+"អ្នក​អាច​ត្រូ​វបាន​ផ្ដាច់​ក្នុង​រយៈពេលបន្តិចទៀត​នេះ ។ ប្រសិនបើ​ដូច្នេះ​មែន "
+"ពិនិត្យ​មើល​ភាពទាន់សម័យ %s ។"
 
 msgid "Unable to get a valid AIM login hash."
 msgstr "មិនអាច​យក​សញ្ញា​ចូល AIM ត្រឹមត្រូវ​ទេ ។"
@@ -7238,13 +7489,15 @@ msgid ""
 "minutes and try again. If you continue to try, you will need to wait even "
 "longer."
 msgstr ""
-"ឈ្មោះ​អ្នក​ប្រើ​របស់​អ្នក​កំពុង​ត្រូវ​បាន​តភ្ជាប់ និង​ដាច់​ញឹកញាប់ណាស់ ។ រង់ចាំ​ ១០ នាទី ហើយ​ព្យាយាម​ម្ដង​ទៀត ។ "
-"ប្រសិនបើ​អ្នក​នៅ​តែ​ព្យាយាម​ទៀត អ្នក​នឹង​ត្រូវ​ចាំ​កាន់តែ​យូរ ។"
+"ឈ្មោះ​អ្នក​ប្រើ​របស់​អ្នក​កំពុង​ត្រូវ​បាន​តភ្ជាប់ និង​ដាច់​ញឹកញាប់ណាស់ ។ "
+"រង់ចាំ​ ១០ នាទី ហើយ​ព្យាយាម​ម្ដង​ទៀត ។ ប្រសិនបើ​អ្នក​នៅ​តែ​ព្យាយាម​ទៀត "
+"អ្នក​នឹង​ត្រូវ​ចាំ​កាន់តែ​យូរ ។"
 
 #. client too old
 #, c-format
 msgid "The client version you are using is too old. Please upgrade at %s"
-msgstr "កំណែ​ម៉ាស៊ីន​ភ្ញៀវ​ដែល​អ្នក​កំពុង​ប្រើ​ចាស់​ពេក ។ សូម​ធ្វើ​ឲ្យ​ប្រសើរ​នៅ %s"
+msgstr ""
+"កំណែ​ម៉ាស៊ីន​ភ្ញៀវ​ដែល​អ្នក​កំពុង​ប្រើ​ចាស់​ពេក ។ សូម​ធ្វើ​ឲ្យ​ប្រសើរ​នៅ %s"
 
 #. IP address connecting too frequently
 msgid ""
@@ -7252,7 +7505,8 @@ msgid ""
 "minute and try again. If you continue to try, you will need to wait even "
 "longer."
 msgstr ""
-"អាសយដ្ឋាន​ IP របស់​អ្នក​​កំពុង​ត្រូវ​បាន​តភ្ជាប់ និង​ដាច់​ញឹកញាប់​ណាស់ ។ រង់ចាំ​មួយ​ភ្លេត ហើយ​ព្យាយាម​ម្ដង​ទៀត "
+"អាសយដ្ឋាន​ IP របស់​អ្នក​​កំពុង​ត្រូវ​បាន​តភ្ជាប់ និង​ដាច់​ញឹកញាប់​ណាស់ ។ "
+"រង់ចាំ​មួយ​ភ្លេត ហើយ​ព្យាយាម​ម្ដង​ទៀត "
 "អ្នក​​ត្រូវ​តែ​រង់ចាំ​សូម្បី​តែ​យូរ​ក៏​ដោយ ។"
 
 msgid "The SecurID key entered is invalid"
@@ -7276,8 +7530,9 @@ msgid ""
 "following reason:\n"
 "%s"
 msgstr ""
-"អ្នក​ប្រើ %u បានបដិសេធ​សំណើ​របស់​អ្នក ក្នុងការ​បន្ថែម​ពួកគេ​ទៅ​ក្នុង​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក​ដោយ​សារ​មាន​ហេតុផល​"
-"ដូច​ខាងក្រោម ៖\n"
+"អ្នក​ប្រើ %u បានបដិសេធ​សំណើ​របស់​អ្នក "
+"ក្នុងការ​បន្ថែម​ពួកគេ​ទៅ​ក្នុង​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក​ដោយ​សារ​មាន​ហេតុផល​ដ"
+"ូច​ខាងក្រោម ៖\n"
 "%s"
 
 msgid "ICQ authorization denied."
@@ -7286,7 +7541,9 @@ msgstr "បានបដិសេធ​ការ​ផ្ទៀងផ្ទាត
 #. Someone has granted you authorization
 #, c-format
 msgid "The user %u has granted your request to add them to your buddy list."
-msgstr "អ្នក​ប្រើ %u បានផ្ដល់​សំណើ​របស់​អ្នក​ ដើម្បី​បន្ថែម​ពួកគេ​ទៅ​កាន់​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។"
+msgstr ""
+"អ្នក​ប្រើ %u បានផ្ដល់​សំណើ​របស់​អ្នក​ "
+"ដើម្បី​បន្ថែម​ពួកគេ​ទៅ​កាន់​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។"
 
 #, c-format
 msgid ""
@@ -7329,7 +7586,8 @@ msgid "ICQ user %u has sent you a buddy: %s (%s)"
 msgstr "អ្នក​ប្រើ ICQ %u បានផ្ញើ​ឲ្យ​អ្នក​នូវ​មិត្តភក្ដិ ៖ %s (%s)"
 
 msgid "Do you want to add this buddy to your buddy list?"
-msgstr "តើ​អ្នក​ចង់​ប​ន្ថែម​មិត្តភក្ដិ​នេះ​ទៅ​កាន់​បញ្ជីមិត្តភក្តិ​របស់​អ្នក​ដែរឬទេ ?"
+msgstr ""
+"តើ​អ្នក​ចង់​ប​ន្ថែម​មិត្តភក្ដិ​នេះ​ទៅ​កាន់​បញ្ជីមិត្តភក្តិ​របស់​អ្នក​ដែរឬទេ ?"
 
 msgid "_Add"
 msgstr "បន្ថែម"
@@ -7359,13 +7617,16 @@ msgid ""
 "You missed %hu message from %s because his/her warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because his/her warning level is too high."
-msgstr[0] "អ្នកបាត់សារ %hu ពី %s ដោយ​សារ​តែ​កម្រិត​ព្រមានរបស់​គាត់​ខ្ពស់​ពេក ។"
+msgstr[0] ""
+"អ្នកបាត់សារ %hu ពី %s ដោយ​សារ​តែ​កម្រិត​ព្រមានរបស់​គាត់​ខ្ពស់​ពេក ។"
 
 #, c-format
-msgid "You missed %hu message from %s because your warning level is too high."
+msgid ""
+"You missed %hu message from %s because your warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because your warning level is too high."
-msgstr[0] "អ្នកបាត់​សារ %hu ពី %s ដោយសារ​តែ​កម្រិត​ព្រមាន​របស់​អ្នក​ខ្ពស់​ពេក ។"
+msgstr[0] ""
+"អ្នកបាត់​សារ %hu ពី %s ដោយសារ​តែ​កម្រិត​ព្រមាន​របស់​អ្នក​ខ្ពស់​ពេក ។"
 
 #, c-format
 msgid "You missed %hu message from %s for an unknown reason."
@@ -7383,7 +7644,9 @@ msgid "The new formatting is invalid."
 msgstr "កា​រធ្វើ​ទ្រង់ទ្រាយ​ថ្មី​មិន​ត្រឹមត្រូវ​ទេ ។"
 
 msgid "Username formatting can change only capitalization and whitespace."
-msgstr "កា​រធ្វើ​ទ្រង់ទ្រាយឈ្មោះ​អ្នកប្រើ​អាច​ផ្លាស់ប្ដូរ​តែ​​ក្នុង​ករណី​មានអក្សរ​ធំ និង​ចន្លោះមិនឃើញ ។"
+msgstr ""
+"កា​រធ្វើ​ទ្រង់ទ្រាយឈ្មោះ​អ្នកប្រើ​អាច​ផ្លាស់ប្ដូរ​តែ​​ក្នុង​ករណី​មានអក្សរ​ធំ "
+"និង​ចន្លោះមិនឃើញ ។"
 
 msgid "Pop-Up Message"
 msgstr "សារ​លេច​ឡើង"
@@ -7408,40 +7671,48 @@ msgstr "បាន​ស្នើ​ការ​អះអាង​របស់គ
 msgid ""
 "Error 0x%04x: Unable to format username because the requested name differs "
 "from the original."
-msgstr "កំហុស 0x%04x ៖ មិនអាច​ធ្វើ​ទ្រង់ទ្រាយ​ឈ្មោះអ្នកប្រើបានទេ ពីព្រោះ​ឈ្មោះ​ខុស​ពី​ឈ្មោះ​ដើម ។"
+msgstr ""
+"កំហុស 0x%04x ៖ មិនអាច​ធ្វើ​ទ្រង់ទ្រាយ​ឈ្មោះអ្នកប្រើបានទេ "
+"ពីព្រោះ​ឈ្មោះ​ខុស​ពី​ឈ្មោះ​ដើម ។"
 
 #, c-format
 msgid "Error 0x%04x: Unable to format username because it is invalid."
-msgstr "កំហុស 0x%04x ៖ មិនអាច​ធ្វើ​ទ្រង់ទ្រាយ​ឈ្មោះ​អ្នកប្រើ​បានទេ ពីព្រោះ​វា​មិនត្រឹមត្រូវ ។"
+msgstr ""
+"កំហុស 0x%04x ៖ មិនអាច​ធ្វើ​ទ្រង់ទ្រាយ​ឈ្មោះ​អ្នកប្រើ​បានទេ "
+"ពីព្រោះ​វា​មិនត្រឹមត្រូវ ។"
 
 #, c-format
 msgid ""
 "Error 0x%04x: Unable to format username because the requested name is too "
 "long."
-msgstr "កំហុស 0x%04x ៖ មិនអាច​ធ្វើ​ទ្រង់ទ្រាយ​ឈ្មោះអ្នកប្រើ​បានទេ ពីព្រោះ​ឈ្មោះ​ដែល​បាន​ស្នើ​វែង​ពេក ។"
+msgstr ""
+"កំហុស 0x%04x ៖ មិនអាច​ធ្វើ​ទ្រង់ទ្រាយ​ឈ្មោះអ្នកប្រើ​បានទេ "
+"ពីព្រោះ​ឈ្មោះ​ដែល​បាន​ស្នើ​វែង​ពេក ។"
 
 #, c-format
 msgid ""
 "Error 0x%04x: Unable to change email address because there is already a "
 "request pending for this username."
 msgstr ""
-"កំហុស 0x%04x ៖ មិនអាច​ផ្លាស់ប្ដូរ​អាសយដ្ឋាន​អ៊ីមែល​បាន​ទេ ពីព្រោះ​មាន​សំណើ​រួ​ចហើយ​ដែល​រង់ចាំ​សម្រាប់​ឈ្មោះ​"
-"អ្នក​ប្រើ​នេះ ។"
+"កំហុស 0x%04x ៖ មិនអាច​ផ្លាស់ប្ដូរ​អាសយដ្ឋាន​អ៊ីមែល​បាន​ទេ "
+"ពីព្រោះ​មាន​សំណើ​រួ​ចហើយ​ដែល​រង់ចាំ​សម្រាប់​ឈ្មោះ​អ្នក​ប្រើ​នេះ ។"
 
 #, c-format
 msgid ""
 "Error 0x%04x: Unable to change email address because the given address has "
 "too many usernames associated with it."
 msgstr ""
-"កំហុស 0x%04x ៖ មិនអាច​ផ្លាស់ប្ដូរ​អាសយដ្ឋានអ៊ីមែលបានទេ ពីព្រោះ​អាសយដ្ឋាន​ដែលបានផ្ដល់​មាន​ឈ្មោះ​"
-"អ្នកប្រើ​ច្រើនពេក​ដែល​ជាប់​ជា​មួយ​វា ។"
+"កំហុស 0x%04x ៖ មិនអាច​ផ្លាស់ប្ដូរ​អាសយដ្ឋានអ៊ីមែលបានទេ "
+"ពីព្រោះ​អាសយដ្ឋាន​ដែលបានផ្ដល់​មាន​ឈ្មោះ​អ្នកប្រើ​ច្រើនពេក​ដែល​ជាប់​ជា​មួយ​វា "
+"។"
 
 #, c-format
 msgid ""
 "Error 0x%04x: Unable to change email address because the given address is "
 "invalid."
 msgstr ""
-"កំហុស 0x%04x ៖ មិន​អាច​ផ្លាស់ប្ដូរ​អាសយដ្ឋាន​អ៊ីមែល​បានទេ ពីព្រោះ​អាសយដ្ឋាន​ដែល​បានផ្ដល់​មិន​ត្រឹមត្រូវ​ទេ ។"
+"កំហុស 0x%04x ៖ មិន​អាច​ផ្លាស់ប្ដូរ​អាសយដ្ឋាន​អ៊ីមែល​បានទេ "
+"ពីព្រោះ​អាសយដ្ឋាន​ដែល​បានផ្ដល់​មិន​ត្រឹមត្រូវ​ទេ ។"
 
 #, c-format
 msgid "Error 0x%04x: Unknown error."
@@ -7459,7 +7730,9 @@ msgstr "ព័ត៌មាន​គណនី"
 
 msgid ""
 "Your IM Image was not sent. You must be Direct Connected to send IM Images."
-msgstr "មិនបានផ្ញើ​រូបភាព IM របស់​ទេ ។ អ្នក​ត្រូវតែ​បានតភ្ជាប់​ដោយ​ផ្ទាល់ ដើម្បី​ផ្ញើ​រូបភាព IM ។"
+msgstr ""
+"មិនបានផ្ញើ​រូបភាព IM របស់​ទេ ។ អ្នក​ត្រូវតែ​បានតភ្ជាប់​ដោយ​ផ្ទាល់ "
+"ដើម្បី​ផ្ញើ​រូបភាព IM ។"
 
 msgid "Unable to set AIM profile."
 msgstr "មិនអាច​កំណត់​ទម្រង់ AIM ទេ ។"
@@ -7469,8 +7742,10 @@ msgid ""
 "completed.  Your profile remains unset; try setting it again when you are "
 "fully connected."
 msgstr ""
-"អ្នកប្រហែលជា​បាន​ស្នើ​ ឲ្យ​កំណត់​ទម្រង់​របស់​អ្នកមុននឹង​បញ្ចប់នីតិវិធី​បញ្ចូល ។ ទម្រង់​របស់​អ្នក​នៅតែ​មិនបាន​កំណត់ "
-"ព្យាយាម​កំណត់​វា​ម្ដង​ទៀត នៅពេល​ដែល​អ្នក​បានតភ្ជាប់ពេញលេញ ។"
+"អ្នកប្រហែលជា​បាន​ស្នើ​ "
+"ឲ្យ​កំណត់​ទម្រង់​របស់​អ្នកមុននឹង​បញ្ចប់នីតិវិធី​បញ្ចូល ។ "
+"ទម្រង់​របស់​អ្នក​នៅតែ​មិនបាន​កំណត់ ព្យាយាម​កំណត់​វា​ម្ដង​ទៀត "
+"នៅពេល​ដែល​អ្នក​បានតភ្ជាប់ពេញលេញ ។"
 
 #, c-format
 msgid ""
@@ -7479,7 +7754,9 @@ msgid ""
 msgid_plural ""
 "The maximum profile length of %d bytes has been exceeded.  It has been "
 "truncated for you."
-msgstr[0] "ប្រវែង​ទម្រង់​អតិបរមានៃ %d បៃ​បានលើស​ដែនកំណត់​ហើយ ។ វា​ត្រូវ​បានកាត់​ឲ្យ​ខ្លី​សម្រាប់​អ្នក ។"
+msgstr[0] ""
+"ប្រវែង​ទម្រង់​អតិបរមានៃ %d បៃ​បានលើស​ដែនកំណត់​ហើយ ។ "
+"វា​ត្រូវ​បានកាត់​ឲ្យ​ខ្លី​សម្រាប់​អ្នក ។"
 
 msgid "Profile too long."
 msgstr "ទម្រង់​វែង​ពេក ។"
@@ -7492,7 +7769,8 @@ msgid_plural ""
 "The maximum away message length of %d bytes has been exceeded.  It has been "
 "truncated for you."
 msgstr[0] ""
-"សារ​ចាកឆ្ងាយ​អតិបរមា​ប្រវែង %d បៃ បានលើស​កំណត់​ហើយ ។ វា​ត្រូវ​បាន​កាត់​ឲ្យ​ខ្លី​សម្រាប់​អ្នក ។"
+"សារ​ចាកឆ្ងាយ​អតិបរមា​ប្រវែង %d បៃ បានលើស​កំណត់​ហើយ ។ "
+"វា​ត្រូវ​បាន​កាត់​ឲ្យ​ខ្លី​សម្រាប់​អ្នក ។"
 
 msgid "Away message too long."
 msgstr "សារ​ចាកឆ្ងាយ​វែង​ពេក ។"
@@ -7503,9 +7781,11 @@ msgid ""
 "be a valid email address, or start with a letter and contain only letters, "
 "numbers and spaces, or contain only numbers."
 msgstr ""
-"មិនអាច​បន្ថែម​មិត្តភក្ដិ %s បាន​ទេ ពីព្រោះ​ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវឡើយ​ ។ ឈ្មោះ​អ្នកប្រើ​ត្រូវ​តែ​​ជា​"
-"អាសយដ្ឋានអ៊ីមែល​ដែល​ត្រឹមត្រូវ ឬ​ចាប់ផ្ដើម​ដោយ​អក្សរ ហើយមាន​តែ​អក្សរ លេខ និង​ចន្លោះ​មិនឃើញ ឬ​មាន​តែ​លេខ​"
-"ប៉ុណ្ណោះ ។"
+"មិនអាច​បន្ថែម​មិត្តភក្ដិ %s បាន​ទេ "
+"ពីព្រោះ​ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវឡើយ​ ។ "
+"ឈ្មោះ​អ្នកប្រើ​ត្រូវ​តែ​​ជា​អាសយដ្ឋានអ៊ីមែល​ដែល​ត្រឹមត្រូវ "
+"ឬ​ចាប់ផ្ដើម​ដោយ​អក្សរ ហើយមាន​តែ​អក្សរ លេខ និង​ចន្លោះ​មិនឃើញ "
+"ឬ​មាន​តែ​លេខ​ប៉ុណ្ណោះ ។"
 
 msgid "Unable to Retrieve Buddy List"
 msgstr "មិនអាច​ទៅ​យក​បញ្ជីមិត្តភ្ដិ​បានទេ"
@@ -7514,8 +7794,10 @@ msgid ""
 "The AIM servers were temporarily unable to send your buddy list.  Your buddy "
 "list is not lost, and will probably become available in a few minutes."
 msgstr ""
-"ម៉ាស៊ីនបម្រើ AIM មិនអាច​ផ្ញើ​ជា​បណ្ដោះអាសន្ន​ទៅ​កាន់​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។ បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក​មិន​បាត់​"
-"បង់​ទេ ហើយ​​ប្រហែលជា​នឹង​អាច​ប្រើ​ក្នុង​រយៈ​ពីរ បី​នាទី ។"
+"ម៉ាស៊ីនបម្រើ AIM "
+"មិនអាច​ផ្ញើ​ជា​បណ្ដោះអាសន្ន​ទៅ​កាន់​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។ "
+"បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក​មិន​បាត់​បង់​ទេ "
+"ហើយ​​ប្រហែលជា​នឹង​អាច​ប្រើ​ក្នុង​រយៈ​ពីរ បី​នាទី ។"
 
 msgid "Orphans"
 msgstr "កំព្រា"
@@ -7525,8 +7807,9 @@ msgid ""
 "Unable to add the buddy %s because you have too many buddies in your buddy "
 "list.  Please remove one and try again."
 msgstr ""
-"មិនអាច​បន្ថែម​មមិត្តភក្ដិ %s បាន​ទេ ដោយ​សារ​តែ​អ្នក​មាន​មិត្តភក្ដិ​ច្រើន​ពេក​នៅ​ក្នុង​បញ្ជីមិត្តភក្ដិ​របស់​"
-"អ្នក ។  សូម​យក​​មិត្តភក្ដិ​ចេញ​មួយ ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
+"មិនអាច​បន្ថែម​មមិត្តភក្ដិ %s បាន​ទេ "
+"ដោយ​សារ​តែ​អ្នក​មាន​មិត្តភក្ដិ​ច្រើន​ពេក​នៅ​ក្នុង​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។"
+"  សូម​យក​​មិត្តភក្ដិ​ចេញ​មួយ ហើយ​ព្យាយាម​ម្ដង​ទៀត ។"
 
 msgid "(no name)"
 msgstr "(គ្មាន​ឈ្មោះ)"
@@ -7540,8 +7823,9 @@ msgid ""
 "The user %s has given you permission to add him or her to your buddy list.  "
 "Do you want to add this user?"
 msgstr ""
-"អ្នក​ប្រើ %s បានផ្ដល់​សិទ្ធិ​ដើម្បី​បន្ថែម​គាត់​ទៅកាន់​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។ តើអ្នក​ចង់​បន្ថែម​អ្នកប្រើនេះ​"
-"ដែរឬទេ ?"
+"អ្នក​ប្រើ %s "
+"បានផ្ដល់​សិទ្ធិ​ដើម្បី​បន្ថែម​គាត់​ទៅកាន់​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។ "
+"តើអ្នក​ចង់​បន្ថែម​អ្នកប្រើនេះ​ដែរឬទេ ?"
 
 msgid "Authorization Given"
 msgstr "បានផ្ដល់កា​រផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ"
@@ -7549,7 +7833,9 @@ msgstr "បានផ្ដល់កា​រផ្ទៀងផ្ទាត់​
 #. Granted
 #, c-format
 msgid "The user %s has granted your request to add them to your buddy list."
-msgstr "អ្នកប្រើ %s បានផ្ដល់​សំណើ​របស់​អ្នក ដើម្បីបន្ថែម​ពួកគេ​ទៅ​កាន់បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។"
+msgstr ""
+"អ្នកប្រើ %s បានផ្ដល់​សំណើ​របស់​អ្នក "
+"ដើម្បីបន្ថែម​ពួកគេ​ទៅ​កាន់បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។"
 
 msgid "Authorization Granted"
 msgstr "បាន​ផ្ដល់​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ"
@@ -7561,8 +7847,9 @@ msgid ""
 "following reason:\n"
 "%s"
 msgstr ""
-"អ្នកប្រើ %s បានបដិសេធ​សំណើ​របស់​អ្នក ដើម្បីបន្ថែម​ពួកគេ​ទៅក្នុង​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក​ដោយ​សារ​តែ​មាន​ហេតុផល​"
-"ដូច​ខាងក្រោម ៖\n"
+"អ្នកប្រើ %s បានបដិសេធ​សំណើ​របស់​អ្នក "
+"ដើម្បីបន្ថែម​ពួកគេ​ទៅក្នុង​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក​ដោយ​សារ​តែ​មាន​ហេតុផល​ដូ"
+"ច​ខាងក្រោម ៖\n"
 "%s"
 
 msgid "Authorization Denied"
@@ -7573,8 +7860,8 @@ msgstr "ផ្លាស់ប្ដូរ ៖"
 
 msgid "Your IM Image was not sent. You cannot send IM Images in AIM chats."
 msgstr ""
-"រូបភាព IM របស់​អ្នក​មិន​ត្រូវ​បាន​ផ្ញើ​ទេ ។ អ្នកមិនអាច​ផ្ញើ​រូបភាព IM នៅ​ក្នុងការ​ជជែក​របស់ AIM បាន​ទេ "
-"។"
+"រូបភាព IM របស់​អ្នក​មិន​ត្រូវ​បាន​ផ្ញើ​ទេ ។ អ្នកមិនអាច​ផ្ញើ​រូបភាព IM "
+"នៅ​ក្នុងការ​ជជែក​របស់ AIM បាន​ទេ ។"
 
 msgid "iTunes Music Store Link"
 msgstr "តំណ​ផ្ទុក​តន្ត្រី​របស់ iTunes"
@@ -7597,8 +7884,8 @@ msgid ""
 "Because this reveals your IP address, it may be considered a security risk.  "
 "Do you wish to continue?"
 msgstr ""
-"ពីព្រោះ​វា​ដឹង​អាសយដ្ឋាន IP របស់​អ្នក វា​អាច​ត្រូវ​បាន​​ចាត់​ទុកថា​មានគ្រោះថ្នាក់ ។ តើអ្នក​ចង់​បន្ត​"
-"ដែរឬទេ ?"
+"ពីព្រោះ​វា​ដឹង​អាសយដ្ឋាន IP របស់​អ្នក "
+"វា​អាច​ត្រូវ​បាន​​ចាត់​ទុកថា​មានគ្រោះថ្នាក់ ។ តើអ្នក​ចង់​បន្ត​ដែរឬទេ ?"
 
 msgid "C_onnect"
 msgstr "តភ្ជាប់"
@@ -7641,13 +7928,15 @@ msgid "you are not waiting for authorization"
 msgstr ""
 
 msgid "You are awaiting authorization from the following buddies"
-msgstr "អ្នកកំពុង​រង់ចាំ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ពី​មិត្តភក្ដិ​ដូច​ខាង​ក្រោម"
+msgstr ""
+"អ្នកកំពុង​រង់ចាំ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ពី​មិត្តភក្ដិ​ដូច​ខាង​ក្រោម"
 
 msgid ""
 "You can re-request authorization from these buddies by right-clicking on "
 "them and selecting \"Re-request Authorization.\""
 msgstr ""
-"អ្នក​អាច​ស្នើ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ឡើង​វិញ​ពី​មិត្តភក្ដិ​ទាំង​នេះ ដោយ​ចុច​កណ្ដុរ​ស្ដាំ​លើ​ពួកវា ហើយជ្រើស "
+"អ្នក​អាច​ស្នើ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ឡើង​វិញ​ពី​មិត្តភក្ដិ​ទាំង​នេះ "
+"ដោយ​ចុច​កណ្ដុរ​ស្ដាំ​លើ​ពួកវា ហើយជ្រើស "
 "\"ស្នើ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ឡើង​វិញ ។\""
 
 msgid "Find Buddy by Email"
@@ -7703,8 +7992,8 @@ msgid ""
 "file transfers and direct IM (slower,\n"
 "but does not reveal your IP address)"
 msgstr ""
-"ប្រើ​ម៉ាស៊ីនបម្រើ​ប្រូកស៊ី AIM/ICQ ជា​និច្ច​សម្រាប់​ការ​ផ្ទេរ​ឯកសារ និង IM ផ្ទាល់ (យឺត ប៉ុន្តែ​មិន​ដឹង​"
-"អាសយដ្ឋាន​ IP របស់​អ្នក​ទេ)"
+"ប្រើ​ម៉ាស៊ីនបម្រើ​ប្រូកស៊ី AIM/ICQ ជា​និច្ច​សម្រាប់​ការ​ផ្ទេរ​ឯកសារ និង IM "
+"ផ្ទាល់ (យឺត ប៉ុន្តែ​មិន​ដឹង​អាសយដ្ឋាន​ IP របស់​អ្នក​ទេ)"
 
 msgid "Allow multiple simultaneous logins"
 msgstr "អនុញ្ញាត​ការ​ចូល​ច្រើន​នាក់​ដំណាល​គ្នា"
@@ -7729,7 +8018,8 @@ msgid ""
 "for IM Images.  Because your IP address will be revealed, this may be "
 "considered a privacy risk."
 msgstr ""
-"វា​ត្រូវការ​ការ​តភ្ជាប់​ដោយ​ផ្ទាល់​រវាង​កុំព្យូទ័រ​ពីរ ហើយ​ចាំបាច់​សម្រាប់​រូបភាព IM ។ ពីព្រោះ​អាសយដ្ឋាន IP "
+"វា​ត្រូវការ​ការ​តភ្ជាប់​ដោយ​ផ្ទាល់​រវាង​កុំព្យូទ័រ​ពីរ "
+"ហើយ​ចាំបាច់​សម្រាប់​រូបភាព IM ។ ពីព្រោះ​អាសយដ្ឋាន IP "
 "របស់​អ្នក​នឹង​ត្រូវ​បានដឹង វា​អាច​ចាត់​ទុក​ថា​គ្រោះថ្នាក់ ។"
 
 #. Label
@@ -7949,8 +8239,8 @@ msgstr ""
 
 #, c-format
 msgid ""
-"You can add a buddy to this list by right-clicking on them and selecting \"%s"
-"\""
+"You can add a buddy to this list by right-clicking on them and selecting "
+"\"%s\""
 msgstr ""
 
 msgid "Visible List"
@@ -8013,7 +8303,10 @@ msgstr "ចាប់ផ្ដើម​សេវា"
 #, c-format
 msgid ""
 "A Sametime administrator has issued the following announcement on server %s"
-msgstr "ពេលមួយ​នោះ អ្នកគ្រប់គ្រង​បានចេញផ្សាយ​នូវ​សេចក្ដី​ប្រកាស​ដូច​ខាង​ក្រោម​នៅ​លើម៉ាស៊ីនបម្រើ %s"
+msgstr ""
+"ពេលមួយ​នោះ "
+"អ្នកគ្រប់គ្រង​បានចេញផ្សាយ​នូវ​សេចក្ដី​ប្រកាស​ដូច​ខាង​ក្រោម​នៅ​លើម៉ាស៊ីនបម្រើ "
+"%s"
 
 msgid "Sametime Administrator Announcement"
 msgstr "ការ​ប្រកាស​របស់​អ្នកគ្រប់គ្រង​ពេល​តែ​មួយ"
@@ -8026,7 +8319,7 @@ msgid "Conference Closed"
 msgstr "បានបិទ​សន្និសីទ"
 
 msgid "Unable to send message: "
-msgstr "មិនអាច​ផ្ញើសារ​បានទេ ៖"
+msgstr "មិនអាច​ផ្ញើសារ​បានទេ ៖ "
 
 #, c-format
 msgid "Unable to send message to %s:"
@@ -8060,7 +8353,8 @@ msgstr "បង្កើត​សន្និសីទ​ជា​មួយ​អ
 msgid ""
 "Please enter a topic for the new conference, and an invitation message to be "
 "sent to %s"
-msgstr "សូម​បញ្ចូល​ប្រធាន​បទ​សម្រាប់​សន្និសីទ​ថ្មី ហើយ​សារ​អញ្ជើញ​ត្រូវ​ផ្ញើ​ទៅ %s"
+msgstr ""
+"សូម​បញ្ចូល​ប្រធាន​បទ​សម្រាប់​សន្និសីទ​ថ្មី ហើយ​សារ​អញ្ជើញ​ត្រូវ​ផ្ញើ​ទៅ %s"
 
 msgid "New Conference"
 msgstr "សន្និសីទ​ថ្មី"
@@ -8083,7 +8377,8 @@ msgid ""
 "\"Create New Conference\" if you'd like to create a new conference to invite "
 "this user to."
 msgstr ""
-"ជ្រើស​សន្និសីទ​ពី​បញ្ជីខាង​ក្រោម ដើម្បី​ផ្ញើ​ការ​អញ្ជើញ​ទៅអ្នកប្រើ %s ។ ជ្រើស \"បង្កើត​សន្និសីទ​ថ្មី\" "
+"ជ្រើស​សន្និសីទ​ពី​បញ្ជីខាង​ក្រោម ដើម្បី​ផ្ញើ​ការ​អញ្ជើញ​ទៅអ្នកប្រើ %s ។ "
+"ជ្រើស \"បង្កើត​សន្និសីទ​ថ្មី\" "
 "ប្រសិនបើ​​អ្នក​ចង់​បង្កើត​សន្និសីទ​ថ្មី​ដើម្បីអញ្ជើញ​ង្នក​ប្រើ​នេះ ។"
 
 msgid "Invite to Conference"
@@ -8122,8 +8417,9 @@ msgid ""
 "The identifier '%s' may possibly refer to any of the following users. Please "
 "select the correct user from the list below to add them to your buddy list."
 msgstr ""
-"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' អាច​សំអាង​លើ​អ្នកប្រើដូច​ខាងក្រោយ ។ សូម​ជ្រើស​អ្នកប្រើ​ដែល​ត្រឹមត្រូវ​ពី​បញ្ជីខាង​"
-"ក្រោម ដើម្បី​បន្ថែម​ពួកគេ​ទៅ​ក្នុង​​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។"
+"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' អាច​សំអាង​លើ​អ្នកប្រើដូច​ខាងក្រោយ ។ "
+"សូម​ជ្រើស​អ្នកប្រើ​ដែល​ត្រឹមត្រូវ​ពី​បញ្ជីខាង​ក្រោម "
+"ដើម្បី​បន្ថែម​ពួកគេ​ទៅ​ក្នុង​​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។"
 
 msgid "Select User"
 msgstr "ជ្រើស​អ្នក​ប្រើ"
@@ -8136,8 +8432,9 @@ msgid ""
 "The identifier '%s' did not match any users in your Sametime community. This "
 "entry has been removed from your buddy list."
 msgstr ""
-"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' មិន​បានផ្គូផ្គង​អ្នក​ប្រើនៅ​ក្នុង​​សហគមន៍ Sametime របស់​អ្នក​ទេ ។ ធាតុ​នេះ​"
-"ត្រូវ​បាន​យកចេញ​ពី​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក​ហើយ ។"
+"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' មិន​បានផ្គូផ្គង​អ្នក​ប្រើនៅ​ក្នុង​​សហគមន៍ "
+"Sametime របស់​អ្នក​ទេ ។ "
+"ធាតុ​នេះ​ត្រូវ​បាន​យកចេញ​ពី​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក​ហើយ ។"
 
 #, c-format
 msgid ""
@@ -8178,7 +8475,8 @@ msgstr "មិនអាច​បន្ថែម​ក្រុម ​៖ មា�
 
 #, c-format
 msgid "A group named '%s' already exists in your buddy list."
-msgstr "មាន​ក្រុម​ដែលមាន​ឈ្មោះ '%s' រួច​ហើយ​នៅ​ក្នុង​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។"
+msgstr ""
+"មាន​ក្រុម​ដែលមាន​ឈ្មោះ '%s' រួច​ហើយ​នៅ​ក្នុង​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។"
 
 msgid "Unable to add group"
 msgstr "មិនអាច​បន្ថែម​ក្រុម​បានទេ"
@@ -8195,8 +8493,9 @@ msgid ""
 "Book groups. Please select the correct group from the list below to add it "
 "to your buddy list."
 msgstr ""
-"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' អាច​យោង​តាម​ក្រុម​សៀវភៅ​អាសយដ្ឋាន​ចំណាំ ។ សូម​ជ្រើស​ក្រុម​ត្រឹមត្រូវ​ពី​បញ្ជី​"
-"ខាងក្រោម ដើម្បី​បន្ថែម​វា​ទៅកាន់បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។"
+"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' អាច​យោង​តាម​ក្រុម​សៀវភៅ​អាសយដ្ឋាន​ចំណាំ ។ "
+"សូម​ជ្រើស​ក្រុម​ត្រឹមត្រូវ​ពី​បញ្ជី​ខាងក្រោម "
+"ដើម្បី​បន្ថែម​វា​ទៅកាន់បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។"
 
 msgid "Select Notes Address Book"
 msgstr "ជ្រើស​សៀវភៅ​អាសយដ្ឋាន​ចំណាំ"
@@ -8209,8 +8508,9 @@ msgid ""
 "The identifier '%s' did not match any Notes Address Book groups in your "
 "Sametime community."
 msgstr ""
-"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' មិន​ផ្គូផ្គង​ក្រុមសៀវ​ភៅ​អាសយដ្ឋាន​​ចំណាំ​ណាមួយ​ទេ​នៅ​ក្នុងសហគមន៍ Sametimeរបស់​"
-"អ្នក ។"
+"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' "
+"មិន​ផ្គូផ្គង​ក្រុមសៀវ​ភៅ​អាសយដ្ឋាន​​ចំណាំ​ណាមួយ​ទេ​នៅ​ក្នុងសហគមន៍ "
+"Sametimeរបស់​អ្នក ។"
 
 msgid "Notes Address Book Group"
 msgstr "ចំណាំ​ក្រុម​សៀវភៅ​អាសយដ្ឋាន"
@@ -8219,8 +8519,8 @@ msgid ""
 "Enter the name of a Notes Address Book group in the field below to add the "
 "group and its members to your buddy list."
 msgstr ""
-"បញ្ចូល​ឈ្មោះ​ក្រុម​សៀវភៅ​ចំណាំ​នៅ​ក្នុង​វាល​ខាង​ក្រោម ដើម្បី​បន្ថែម​ក្រុម និង​សមាជិករបស់វា​ទៅកាន់​បញ្ជី​មិត្តភក្ដិ​របស់​"
-"អ្នក ។"
+"បញ្ចូល​ឈ្មោះ​ក្រុម​សៀវភៅ​ចំណាំ​នៅ​ក្នុង​វាល​ខាង​ក្រោម ដើម្បី​បន្ថែម​ក្រុម "
+"និង​សមាជិករបស់វា​ទៅកាន់​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។"
 
 #, c-format
 msgid "Search results for '%s'"
@@ -8232,8 +8532,9 @@ msgid ""
 "may add these users to your buddy list or send them messages with the action "
 "buttons below."
 msgstr ""
-"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' អាច​យោង​តាម​អ្នកប្រើ​ដូច​ខាង​ក្រោម ។ អ្នក​​អាច​បន្ថែម​អ្នកប្រើទាំង​នេះ​ទៅ​កាន់​"
-"បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ឬ​ផ្ញើ​សារ​ឲ្យ​ពួកគេ​ដោយ​ប្រើ​ប៊ូតុង​សកម្មភាព​ខាងក្រោម ។"
+"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' អាច​យោង​តាម​អ្នកប្រើ​ដូច​ខាង​ក្រោម ។ "
+"អ្នក​​អាច​បន្ថែម​អ្នកប្រើទាំង​នេះ​ទៅ​កាន់​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក "
+"ឬ​ផ្ញើ​សារ​ឲ្យ​ពួកគេ​ដោយ​ប្រើ​ប៊ូតុង​សកម្មភាព​ខាងក្រោម ។"
 
 msgid "Search Results"
 msgstr "ស្វែងរក​លទ្ធ​ផល"
@@ -8242,8 +8543,11 @@ msgid "No matches"
 msgstr "គ្មានការ​ផ្គូផ្គង"
 
 #, c-format
-msgid "The identifier '%s' did not match any users in your Sametime community."
-msgstr "ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' មិនបានផ្គូផ្គង​​អ្នកប្រើ​នៅ​ក្នុង​សហគមន៍ Sametime របស់​អ្នក ។"
+msgid ""
+"The identifier '%s' did not match any users in your Sametime community."
+msgstr ""
+"ឧបករណ៍​កំណត់​អត្តសញ្ញាណ '%s' មិនបានផ្គូផ្គង​​អ្នកប្រើ​នៅ​ក្នុង​សហគមន៍ "
+"Sametime របស់​អ្នក ។"
 
 msgid "No Matches"
 msgstr "គ្មានការ​ផ្គូផ្គង"
@@ -8255,8 +8559,8 @@ msgid ""
 "Enter a name or partial ID in the field below to search for matching users "
 "in your Sametime community."
 msgstr ""
-"បញ្ចូល​ឈ្មោះ ឬ​លេខសម្គាល់​ដោយ​ផ្នែក​នៅ​ក្នុងវាល​ខាងក្រោម ដើម្បី​ស្វែងរក​អ្នកប្រើ​ដែល​ផ្គូផ្គង​នៅ​ក្នុង​សហគមន៍ "
-"Sametime របស់​អ្នក ។"
+"បញ្ចូល​ឈ្មោះ ឬ​លេខសម្គាល់​ដោយ​ផ្នែក​នៅ​ក្នុងវាល​ខាងក្រោម "
+"ដើម្បី​ស្វែងរក​អ្នកប្រើ​ដែល​ផ្គូផ្គង​នៅ​ក្នុង​សហគមន៍ Sametime របស់​អ្នក ។"
 
 msgid "User Search"
 msgstr "ស្វែងរក​អ្នកប្រើ"
@@ -8306,7 +8610,8 @@ msgid "Key agreement is already started"
 msgstr "ការ​ព្រមព្រៀង​សំខាន់​បាន​ចាប់ផ្ដើម​រួចហើយ"
 
 msgid "Key agreement cannot be started with yourself"
-msgstr "ការ​ព្រមព្រៀង​សំខាន់​មិន​អាច​ត្រូវ​ចាប់ផ្ដើម​ជា​មួយ​ខ្លួន​អ្នក​ផ្ទាល់"
+msgstr ""
+"ការ​ព្រមព្រៀង​សំខាន់​មិន​អាច​ត្រូវ​ចាប់ផ្ដើម​ជា​មួយ​ខ្លួន​អ្នក​ផ្ទាល់"
 
 msgid "The remote user is not present in the network any more"
 msgstr "អ្នកប្រើ​ពីចម្ងាយ​មិនបង្ហាញ​នៅ​ក្នុង​បណ្ដាញ​ទៀត​ទេ"
@@ -8315,7 +8620,9 @@ msgstr "អ្នកប្រើ​ពីចម្ងាយ​មិនបង្
 msgid ""
 "Key agreement request received from %s. Would you like to perform the key "
 "agreement?"
-msgstr "បាន​​ទទួល​សំណួរ​ការ​ព្រមព្រៀង​ពី %s ។ តើ​អ្នក​ចង់​អនុវត្ត​ការ​ព្រមព្រៀង​សំខាន់ដែរឬទេ ?"
+msgstr ""
+"បាន​​ទទួល​សំណួរ​ការ​ព្រមព្រៀង​ពី %s ។ "
+"តើ​អ្នក​ចង់​អនុវត្ត​ការ​ព្រមព្រៀង​សំខាន់ដែរឬទេ ?"
 
 #, c-format
 msgid ""
@@ -8365,8 +8672,9 @@ msgid ""
 "You cannot receive buddy notifications until you import his/her public key.  "
 "You can use the Get Public Key command to get the public key."
 msgstr ""
-"អ្នក​មិន​អាច​ទទួល​ការ​ជូនដំណឹង​មិត្តភក្ដិ​​ទេ រហូត​ដល់​អ្នក​នាំចូល​សោ​សាធារណៈ​របស់​គាត់ ។ អ្នក​អាច​ប្រើ​ពាក្យ​បញ្ជា​"
-"សាធារណៈ​ ដើម្បីទទួល​បាន​សោ​សាធារណៈ ។"
+"អ្នក​មិន​អាច​ទទួល​ការ​ជូនដំណឹង​មិត្តភក្ដិ​​ទេ "
+"រហូត​ដល់​អ្នក​នាំចូល​សោ​សាធារណៈ​របស់​គាត់ ។ "
+"អ្នក​អាច​ប្រើ​ពាក្យ​បញ្ជា​សាធារណៈ​ ដើម្បីទទួល​បាន​សោ​សាធារណៈ ។"
 
 #. Open file selector to select the public key.
 msgid "Open..."
@@ -8380,7 +8688,8 @@ msgid ""
 "To add the buddy you must import his/her public key. Press Import to import "
 "a public key."
 msgstr ""
-"ដើម្បី​បន្ថែម​មិត្តភក្ដិ​ អ្នក​ត្រូវ​តែ​នាំចូល​សោសាធារណៈ​របស់​គាត់ ។ ចុច​នាំចូល ដើម្បីនាំចូល​សោ​សាធារណៈ ។"
+"ដើម្បី​បន្ថែម​មិត្តភក្ដិ​ អ្នក​ត្រូវ​តែ​នាំចូល​សោសាធារណៈ​របស់​គាត់ ។ "
+"ចុច​នាំចូល ដើម្បីនាំចូល​សោ​សាធារណៈ ។"
 
 msgid "_Import..."
 msgstr "នាំចូល..."
@@ -8392,15 +8701,16 @@ msgid ""
 "More than one user was found with the same public key. Select the correct "
 "user from the list to add to the buddy list."
 msgstr ""
-"រកឃើញ​អ្នកប្រើច្រើនជាង​មួយ​ដែលមាន​សោ​សាធារណៈដូចគ្នា ​​។ ជ្រើស​អ្នកប្រើបច្ចុប្បន្ន​ពី​បញ្ជី ដើម្បី​បន្ថែម​ទៅ​"
-"កាន់បញ្ជីមិត្តភក្ដិ ។"
+"រកឃើញ​អ្នកប្រើច្រើនជាង​មួយ​ដែលមាន​សោ​សាធារណៈដូចគ្នា ​​។ "
+"ជ្រើស​អ្នកប្រើបច្ចុប្បន្ន​ពី​បញ្ជី ដើម្បី​បន្ថែម​ទៅ​កាន់បញ្ជីមិត្តភក្ដិ ។"
 
 msgid ""
 "More than one user was found with the same name. Select the correct user "
 "from the list to add to the buddy list."
 msgstr ""
-"រក​ឃើញ​​អ្នកប្រើ​ច្រើនជាង​មួយ ដែលមាន​ឈ្មោះ​ដូចគ្នា ។ ជ្រើស​អ្នក​ប្រើត្រឹមត្រូវ​ពី​បញ្ជី​ដើម្បី​បន្ថែម​"
-"ទៅកាន់បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។"
+"រក​ឃើញ​​អ្នកប្រើ​ច្រើនជាង​មួយ ដែលមាន​ឈ្មោះ​ដូចគ្នា ។ "
+"ជ្រើស​អ្នក​ប្រើត្រឹមត្រូវ​ពី​បញ្ជី​ដើម្បី​បន្ថែម​ទៅកាន់បញ្ជីមិត្តភក្ដិ​របស់​អ"
+"្នក ។"
 
 msgid "Detached"
 msgstr "ផ្ដាច់"
@@ -8524,10 +8834,13 @@ msgid ""
 "channel public keys are set then only users whose public keys are listed are "
 "able to join."
 msgstr ""
-"ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​របស់​ឆានែល​ត្រូវ​បានប្រើ​ដើម្បី​ធ្វើ​ឲ្យ​ឆានែល​មានសុវត្ថិភាព ពីការ​ចូលដំណើរការ​"
-"ដែល​មិនបានផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។ ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​អាច​មាន​មូលដ្ឋាន​លើ​ឃ្លា​សម្ងាត់ និង​"
-"ហត្ថលេខា​ឌីជីថល ។ ប្រសិន​បើ​បានកំណត់​ឃ្លា​សម្ងាត់ វា​តម្រូវ​ឲ្យ​ចូល​រួម ។ ប្រសិន​បើ​សោ​សាធារណៈ​របស់​ឆានែល​ "
-"បន្ទាប់មកមានតែ​អ្នកប្រើ​ដែលសោសាធារណៈ​របស់​វា​ត្រូវ​បានរាយ​ដើម្បីអាច​ចូលរួម​បាន ។"
+"ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​របស់​ឆានែល​ត្រូវ​បានប្រើ​ដើម្បី​ធ្វើ​ឲ្យ​ឆានែល"
+"​មានសុវត្ថិភាព ពីការ​ចូលដំណើរការ​ដែល​មិនបានផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។ "
+"ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​អាច​មាន​មូលដ្ឋាន​លើ​ឃ្លា​សម្ងាត់ "
+"និង​ហត្ថលេខា​ឌីជីថល ។ ប្រសិន​បើ​បានកំណត់​ឃ្លា​សម្ងាត់ វា​តម្រូវ​ឲ្យ​ចូល​រួម "
+"។ ប្រសិន​បើ​សោ​សាធារណៈ​របស់​ឆានែល​ "
+"បន្ទាប់មកមានតែ​អ្នកប្រើ​ដែលសោសាធារណៈ​របស់​វា​ត្រូវ​បានរាយ​ដើម្បីអាច​ចូលរួម​បា"
+"ន ។"
 
 msgid "Channel Authentication"
 msgstr "ផ្ទៀងផ្ទាត់​ភាព​​ត្រឹមត្រូវ​របស់ឆានែល"
@@ -8552,7 +8865,9 @@ msgid "User Limit"
 msgstr "ដែន​កំណត់​អ្នកប្រើ"
 
 msgid "Set user limit on channel. Set to zero to reset user limit."
-msgstr "កំណត់​ដែនកំណត់​របស់​អ្នកប្រើ​នៅ​លើ​ឆានែល ។ កំណត់​សូន្យ​ដើម្បី​កំណត់​ដែនកំណត់​អ្នកប្រើឡើង​វិញ ។"
+msgstr ""
+"កំណត់​ដែនកំណត់​របស់​អ្នកប្រើ​នៅ​លើ​ឆានែល ។ "
+"កំណត់​សូន្យ​ដើម្បី​កំណត់​ដែនកំណត់​អ្នកប្រើឡើង​វិញ ។"
 
 msgid "Invite List"
 msgstr "អញ្ជើញ​បញ្ជី"
@@ -8593,7 +8908,8 @@ msgstr "កំណត់​ឆានែល​សម្ងាត់​"
 #, c-format
 msgid ""
 "You have to join the %s channel before you are able to join the private group"
-msgstr "អ្នកបាន​ចូលរួម​​​ក្នុង​ឆានែល %s មុននឹង​អ្នក​អាច​ចូលរួម​ក្នុង​ក្រុមឯកជន"
+msgstr ""
+"អ្នកបាន​ចូលរួម​​​ក្នុង​ឆានែល %s មុននឹង​អ្នក​អាច​ចូលរួម​ក្នុង​ក្រុមឯកជន"
 
 msgid "Join Private Group"
 msgstr "ចូលរួម​ក្នុង​ក្រុម​ឯកជន"
@@ -8839,12 +9155,14 @@ msgid ""
 "Received %s's public key. Your local copy does not match this key. Would you "
 "still like to accept this public key?"
 msgstr ""
-"បានទទួល​សោ​សាធារណៈ​របស់ %s ។ ច្បាបចម្លង​មូលដ្ឋាន​របស់​​អ្នក​មិនផ្គូផ្គង​សោ​នេះ​ទេ ។ តើ​អ្នកនៅតែ​ទទួល​យក​សោ​"
-"សាធារណៈ​នេះ​ឬ ?"
+"បានទទួល​សោ​សាធារណៈ​របស់ %s ។ "
+"ច្បាបចម្លង​មូលដ្ឋាន​របស់​​អ្នក​មិនផ្គូផ្គង​សោ​នេះ​ទេ ។ "
+"តើ​អ្នកនៅតែ​ទទួល​យក​សោ​សាធារណៈ​នេះ​ឬ ?"
 
 #, c-format
 msgid "Received %s's public key. Would you like to accept this public key?"
-msgstr "បានទទួល​សោ​សាធារណៈ​របស់ %s ។ តើអ្នក​ចង់​ទទួល​យក​សោ​សាធារណៈ​នេះ​ដែរឬទេ ?"
+msgstr ""
+"បានទទួល​សោ​សាធារណៈ​របស់ %s ។ តើអ្នក​ចង់​ទទួល​យក​សោ​សាធារណៈ​នេះ​ដែរឬទេ ?"
 
 #, c-format
 msgid ""
@@ -8878,7 +9196,9 @@ msgstr "បានបរាជ័យ​ក្នុងកា​រផ្លាស
 
 msgid ""
 "Resuming detached session failed. Press Reconnect to create new connection."
-msgstr "បានបរាជ័យ​ក្នុងការ​បន្ត​សម័យ​ដែលបានផ្ដាច់ ។ ចុច​តភ្ជាប់ឡើង​វិញ​ដើម្បី​បង្កើត​ការ​តភ្ជាប់ថ្មី ។"
+msgstr ""
+"បានបរាជ័យ​ក្នុងការ​បន្ត​សម័យ​ដែលបានផ្ដាច់ ។ "
+"ចុច​តភ្ជាប់ឡើង​វិញ​ដើម្បី​បង្កើត​ការ​តភ្ជាប់ថ្មី ។"
 
 msgid "Performing key exchange"
 msgstr "អនុវត្ត​ការ​ផ្លាស់ប្ដូរ​សោ"
@@ -8952,8 +9272,10 @@ msgid ""
 "information. Please fill the information you would like other users to see "
 "about yourself."
 msgstr ""
-"អ្នកអាច​អនុញ្ញាត​ឲ្យ​អ្នកផ្សេង​មើល​ព័ត៌មាន​ស្ថានភាព​លើបណ្ដាញ​ និង​ព័ត៌មានផ្ទាល់ខ្លួន​របស់​អ្នក ។ សូម​បំពេញ​"
-"ព័ត៌មាន​ដែល​អ្នក​ចង់​ឲ្យ​អ្នក​ផ្សេង​មើល​ព័ត៌មានអំពី​ខ្លួន​អ្នក​ផ្ទាល់ ។"
+"អ្នកអាច​អនុញ្ញាត​ឲ្យ​អ្នកផ្សេង​មើល​ព័ត៌មាន​ស្ថានភាព​លើបណ្ដាញ​ "
+"និង​ព័ត៌មានផ្ទាល់ខ្លួន​របស់​អ្នក ។ "
+"សូម​បំពេញ​ព័ត៌មាន​ដែល​អ្នក​ចង់​ឲ្យ​អ្នក​ផ្សេង​មើល​ព័ត៌មានអំពី​ខ្លួន​អ្នក​ផ្ទា"
+"ល់ ។"
 
 msgid "Message of the Day"
 msgstr "សារ​ថ្ងៃ"
@@ -9037,7 +9359,9 @@ msgid "topic [&lt;new topic&gt;]:  View or change the topic"
 msgstr "ប្រធានបទ [&lt;ប្រធាន​បទ​ថ្មី&gt;] ៖  មើល ឬ​ផ្លាស់ប្ដូរ​ប្រធានបទ"
 
 msgid "join &lt;channel&gt; [&lt;password&gt;]:  Join a chat on this network"
-msgstr "ចូលរួម &lt;ឆានែល&gt; [&lt;ពាក្យ​សម្ងាត់&gt;] ៖  ចូលរួម​ក្នុងការ​ជជែក​នៅ​លើ​បណ្ដាញ​នេះ"
+msgstr ""
+"ចូលរួម &lt;ឆានែល&gt; [&lt;ពាក្យ​សម្ងាត់&gt;] ៖  "
+"ចូលរួម​ក្នុងការ​ជជែក​នៅ​លើ​បណ្ដាញ​នេះ"
 
 msgid "list:  List channels on this network"
 msgstr "បញ្ជី ៖ រាយឆានែល​នៅ​លើ​បណ្ដាញ​នេះ"
@@ -9048,7 +9372,8 @@ msgstr "whois &lt;nick&gt; ៖  មើល​ព័ត៌មាន​សម្ម
 msgid "msg &lt;nick&gt; &lt;message&gt;:  Send a private message to a user"
 msgstr "msg &lt;nick&gt; &lt;message&gt; ៖  ផ្ញើ​សារ​ឯកជន​​ឲ្យ​អ្នកប្រើ"
 
-msgid "query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
+msgid ""
+"query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
 msgstr "សួរ &lt;nick&gt; [&lt;message&gt;] ៖  ផ្ញើ​សារ​ឯកជន​ឲ្យ​អ្នកប្រើ"
 
 msgid "motd:  View the server's Message Of The Day"
@@ -9076,15 +9401,15 @@ msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
 "channel modes"
 msgstr ""
-"cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments] ៖  ផ្លាស់ប្ដូរ ឬ​បង្ហាញ​របៀប​"
-"ឆានែល"
+"cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments] ៖  ផ្លាស់ប្ដូរ "
+"ឬ​បង្ហាញ​របៀប​ឆានែល"
 
 msgid ""
 "cumode &lt;channel&gt; +|-&lt;modes&gt; &lt;nick&gt;:  Change nick's modes "
 "on channel"
 msgstr ""
-"cumode &lt;channel&gt; +|-&lt;modes&gt; &lt;nick&gt; ៖  ផ្លាស់ប្ដូរ​របៀប​សម្មតិនាម​នៅ​"
-"លើ​ឆានែល"
+"cumode &lt;channel&gt; +|-&lt;modes&gt; &lt;nick&gt; ៖  "
+"ផ្លាស់ប្ដូរ​របៀប​សម្មតិនាម​នៅ​លើ​ឆានែល"
 
 msgid "umode &lt;usermodes&gt;:  Set your modes in the network"
 msgstr "umode &lt;usermodes&gt; ៖ កំណត់​របៀប​របស់​អ្នក​នៅ​ក្នុង​បណ្ដាញ"
@@ -9096,20 +9421,26 @@ msgid ""
 "invite &lt;channel&gt; [-|+]&lt;nick&gt;:  invite nick or add/remove from "
 "channel invite list"
 msgstr ""
-"អញ្ជើញ &lt;channel&gt; [-|+]&lt;nick&gt; ៖  អញ្ជើញ​សម្មតិនាម ឬ​បន្ថែម/យក​ចេញ​ពី​បញ្ជីអញ្ជើញ​"
-"ឆានែល"
+"អញ្ជើញ &lt;channel&gt; [-|+]&lt;nick&gt; ៖  អញ្ជើញ​សម្មតិនាម "
+"ឬ​បន្ថែម/យក​ចេញ​ពី​បញ្ជីអញ្ជើញ​ឆានែល"
 
-msgid "kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
-msgstr "ទាត់ &lt;channel&gt; &lt;nick&gt; [comment] ៖  ចុ​ច​ម៉ាស៊ីន​ភ្ញៀវ​ពី​ឆានែល"
+msgid ""
+"kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
+msgstr ""
+"ទាត់ &lt;channel&gt; &lt;nick&gt; [comment] ៖  ចុ​ច​ម៉ាស៊ីន​ភ្ញៀវ​ពី​ឆានែល"
 
 msgid "info [server]:  View server administrative details"
-msgstr "ព័ត៌មាន [ម៉ាស៊ីនបម្រើ] ៖  មើល​សេចក្ដី​លម្អិត​គ្រប់គ្រង​របស់​ម៉ាស៊ីនបម្រើ"
+msgstr ""
+"ព័ត៌មាន [ម៉ាស៊ីនបម្រើ] ៖  មើល​សេចក្ដី​លម្អិត​គ្រប់គ្រង​របស់​ម៉ាស៊ីនបម្រើ"
 
 msgid "ban [&lt;channel&gt; +|-&lt;nick&gt;]:  Ban client from channel"
-msgstr "ហាមឃាត់ [&lt;channel&gt; +|-&lt;nick&gt;] ៖  ហាមឃាត់​ម៉ាស៊ីន​ភ្ញៀវ​ពី​ឆានែល"
+msgstr ""
+"ហាមឃាត់ [&lt;channel&gt; +|-&lt;nick&gt;] ៖  ហាមឃាត់​ម៉ាស៊ីន​ភ្ញៀវ​ពី​ឆានែល"
 
 msgid "getkey &lt;nick|server&gt;:  Retrieve client's or server's public key"
-msgstr "getkey &lt;nick|server&gt; ៖ ទៅ​យក​សោសាធារណៈ​របស់​ម៉ាស៊ីនបម្រើ ឬ​ម៉ាស៊ីន​ភ្ញៀវ"
+msgstr ""
+"getkey &lt;nick|server&gt; ៖ ទៅ​យក​សោសាធារណៈ​របស់​ម៉ាស៊ីនបម្រើ "
+"ឬ​ម៉ាស៊ីន​ភ្ញៀវ"
 
 msgid "stats:  View server and network statistics"
 msgstr "ស្ថានភាព ៖ មើល​ស្ថិតិ​ម៉ាស៊ីនបម្រើ និង​បណ្ដាញ"
@@ -9124,8 +9455,8 @@ msgid ""
 "names [-count|-ops|-halfops|-voices|-normal] &lt;channel(s)&gt;:  List "
 "specific users in channel(s)"
 msgstr ""
-"ឈ្មោះ [-count|-ops|-halfops|-voices|-normal] &lt;channel(s)&gt; ៖  រាយ​អ្នកប្រើ​"
-"ជាក់លាក់​នៅ​ក្នុង​ឆានែល"
+"ឈ្មោះ [-count|-ops|-halfops|-voices|-normal] &lt;channel(s)&gt; ៖  "
+"រាយ​អ្នកប្រើ​ជាក់លាក់​នៅ​ក្នុង​ឆានែល"
 
 #. *< type
 #. *< ui_requirement
@@ -9265,7 +9596,8 @@ msgstr "%s បាន​ផ្ញើសារ​ទៅក្ដារខៀន �
 msgid ""
 "%s sent message to whiteboard on %s channel. Would you like to open the "
 "whiteboard?"
-msgstr "%s បាន​ផ្ញើសារ​ទៅក្ដារខៀន​នៅ​លើ​ឆានែល %s ។ តើ​អ្នកចង់​បើក​ក្ដារខៀន​ដែរឬទេ ?"
+msgstr ""
+"%s បាន​ផ្ញើសារ​ទៅក្ដារខៀន​នៅ​លើ​ឆានែល %s ។ តើ​អ្នកចង់​បើក​ក្ដារខៀន​ដែរឬទេ ?"
 
 msgid "Whiteboard"
 msgstr "ក្ដារខៀន"
@@ -9278,11 +9610,13 @@ msgstr "កំហុស​កំឡុងពេល​តភ្ជាប់​ទ
 
 #, c-format
 msgid "Failure: Version mismatch, upgrade your client"
-msgstr "បរាជ័យ ៖ កំណែ​មិនផ្គូផ្គង ធ្វើ​ឲ្យ​​ម៉ាស៊ីន​ភ្ញៀវ​របស់​អ្នក​ប្រសើរ​ឡើង"
+msgstr ""
+"បរាជ័យ ៖ កំណែ​មិនផ្គូផ្គង ធ្វើ​ឲ្យ​​ម៉ាស៊ីន​ភ្ញៀវ​របស់​អ្នក​ប្រសើរ​ឡើង"
 
 #, c-format
 msgid "Failure: Remote does not trust/support your public key"
-msgstr "បរាជ័យ ៖ ការ​តភ្ជាប់​ពី​ចម្ងាយ​មិន​ទុកចិត្ត/គាំទ្រ​សោ​សាធារណៈ​របស់​អ្នកទេ"
+msgstr ""
+"បរាជ័យ ៖ ការ​តភ្ជាប់​ពី​ចម្ងាយ​មិន​ទុកចិត្ត/គាំទ្រ​សោ​សាធារណៈ​របស់​អ្នកទេ"
 
 #, c-format
 msgid "Failure: Remote does not support proposed KE group"
@@ -9441,7 +9775,9 @@ msgstr "យ៉ាហ៊ូ ! ​កម្មវីធី​​ជំនួយ�
 
 #, c-format
 msgid "%s has sent you a webcam invite, which is not yet supported."
-msgstr "%s បានផ្ញើ​ការ​អញ្ជើញ​អ្នក​ឲ្យ​បើក​ម៉ាស៊ីន​ថត​តាមបណ្ដាញ ដែល​មិន​ត្រូវ​បាន​គាំទ្រ​នៅ​ឡើយទេ ។"
+msgstr ""
+"%s បានផ្ញើ​ការ​អញ្ជើញ​អ្នក​ឲ្យ​បើក​ម៉ាស៊ីន​ថត​តាមបណ្ដាញ "
+"ដែល​មិន​ត្រូវ​បាន​គាំទ្រ​នៅ​ឡើយទេ ។"
 
 msgid "Your SMS was not delivered"
 msgstr "SMS របស់​អ្នក​មិន​ត្រូវ​បាន​បញ្ជូន​ទេ"
@@ -9461,12 +9797,14 @@ msgid ""
 "%s has (retroactively) denied your request to add them to your list for the "
 "following reason: %s."
 msgstr ""
-"%s បាន (ប្រតិសកម្ម) បដិសេធ​សំណើ​របស់​អ្នក ដើម្បីបន្ថែមពួកគេ​ទៅ​ក្នុង​បញ្ជី​របស់អ្នក​​ដោយ​មាន​ហេតុផល​"
-"ដូចខាងក្រោម ៖ %s ។"
+"%s បាន (ប្រតិសកម្ម) បដិសេធ​សំណើ​របស់​អ្នក "
+"ដើម្បីបន្ថែមពួកគេ​ទៅ​ក្នុង​បញ្ជី​របស់អ្នក​​ដោយ​មាន​ហេតុផល​ដូចខាងក្រោម ៖ %s ។"
 
 #, c-format
 msgid "%s has (retroactively) denied your request to add them to your list."
-msgstr "%s បាន​ (ប្រតិសកម្ម) បដិសេធ​សំណើ​របស់​អ្នក ដើម្បី​បន្ថែម​ពួកគេ​ទៅ​ក្នុង​បញ្ជី​របស់​អ្នក ។"
+msgstr ""
+"%s បាន​ (ប្រតិសកម្ម) បដិសេធ​សំណើ​របស់​អ្នក "
+"ដើម្បី​បន្ថែម​ពួកគេ​ទៅ​ក្នុង​បញ្ជី​របស់​អ្នក ។"
 
 msgid "Add buddy rejected"
 msgstr "បន្ថែម​មិត្តភក្ដិ​ដែល​បាន​ច្រានចេញ"
@@ -9480,14 +9818,16 @@ msgid ""
 "Account locked: Too many failed login attempts.  Logging into the Yahoo! "
 "website may fix this."
 msgstr ""
-"គណនី​ជាប់សោ ៖ បាន​បរាជ័យ​ ដោយសារ​មាន​ការ​​ប៉ុនប៉ង​ចូល​ច្រើន​​ដង​ពេក ។ ចូល​ក្នុងយ៉ាហ៊ូ ! តំបន់​បណ្ដាញ​អាច​កែ​វា​"
-"បាន ។"
+"គណនី​ជាប់សោ ៖ បាន​បរាជ័យ​ ដោយសារ​មាន​ការ​​ប៉ុនប៉ង​ចូល​ច្រើន​​ដង​ពេក ។ "
+"ចូល​ក្នុងយ៉ាហ៊ូ ! តំបន់​បណ្ដាញ​អាច​កែ​វា​បាន ។"
 
 #. indicates a lock of some description
 msgid ""
 "Account locked: Unknown reason.  Logging into the Yahoo! website may fix "
 "this."
-msgstr "គណនី​ជាប់សោ ៖ មិនស្គាល់​ហេតុផល​នោះ​ទេ ។ ចូល​​ក្នុងយ៉ាហ៊ូ! តំបន់​​បណ្ដាញ​អាច​កែ​​វាបាន​ ។"
+msgstr ""
+"គណនី​ជាប់សោ ៖ មិនស្គាល់​ហេតុផល​នោះ​ទេ ។ ចូល​​ក្នុងយ៉ាហ៊ូ! "
+"តំបន់​​បណ្ដាញ​អាច​កែ​​វាបាន​ ។"
 
 #. indicates a lock due to logging in too frequently
 msgid ""
@@ -9505,8 +9845,9 @@ msgid ""
 "method.  You will probably not be able to successfully sign on to Yahoo.  "
 "Check %s for updates."
 msgstr ""
-"ម៉ាស៊ីន​បម្រើ​យ៉ាហ៊ូ​បាន​ស្នើ​ឲ្យ​ប្រើ​វិធីសាស្ត្រ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ដែល​មិន​ស្គាល់ ។  អ្នក​នឹង​ប្រហែលជា​មិនអាច​"
-"ចូល​ក្នុងយ៉ាហ៊ូ​ដោយជោគជ័យ ។ ពិនិត្យ​មើល %s សម្រាប់​ភាព​ទាន់សម័យ ។"
+"ម៉ាស៊ីន​បម្រើ​យ៉ាហ៊ូ​បាន​ស្នើ​ឲ្យ​ប្រើ​វិធីសាស្ត្រ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ"
+"​ដែល​មិន​ស្គាល់ ។  អ្នក​នឹង​ប្រហែលជា​មិនអាច​ចូល​ក្នុងយ៉ាហ៊ូ​ដោយជោគជ័យ ។ "
+"ពិនិត្យ​មើល %s សម្រាប់​ភាព​ទាន់សម័យ ។"
 
 msgid "Failed Yahoo! Authentication"
 msgstr "បាន​បរាជ័យ​ក្នុងការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹម​ត្រូវ​របស់​យ៉ាហ៊ូ !"
@@ -9516,8 +9857,9 @@ msgid ""
 "You have tried to ignore %s, but the user is on your buddy list.  Clicking "
 "\"Yes\" will remove and ignore the buddy."
 msgstr ""
-"អ្នកបាន​ព្យាយាម​មិនអើពើ %s ប៉ុន្តែ​អ្នកប្រើ​នៅ​ក្នុង​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។ ចុច \"បាទ/ចាស\" នឹង​យក​"
-"ចេញ ហើយ​មិនអើពើ​មិត្តភក្ដិ ។"
+"អ្នកបាន​ព្យាយាម​មិនអើពើ %s "
+"ប៉ុន្តែ​អ្នកប្រើ​នៅ​ក្នុង​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។ ចុច \"បាទ/ចាស\" "
+"នឹង​យក​ចេញ ហើយ​មិនអើពើ​មិត្តភក្ដិ ។"
 
 msgid "Ignore buddy?"
 msgstr "មិនអើពើ​មិត្តភក្ដិ !"
@@ -9529,8 +9871,9 @@ msgid ""
 "Your account has been locked due to too many failed login attempts.  Please "
 "try logging into the Yahoo! website."
 msgstr ""
-"គណនី​របស់​អ្នក​ត្រូវ​បាន​ចាក់សោ ដោយ​សារ​តែ​​បាន​​​បរាជ័យ​ក្នុងការ​​​​​ប៉ុនប៉ង​ចូល​ច្រើន​​ដង​ពេក ។ សូម​ព្យាយាម​ចូល​​ក្នុង​តំបន់​"
-"បណ្ដាញ​​យ៉ាហ៊ូ​ !"
+"គណនី​របស់​អ្នក​ត្រូវ​បាន​ចាក់សោ "
+"ដោយ​សារ​តែ​​បាន​​​បរាជ័យ​ក្នុងការ​​​​​ប៉ុនប៉ង​ចូល​ច្រើន​​ដង​ពេក ។ "
+"សូម​ព្យាយាម​ចូល​​ក្នុង​តំបន់​បណ្ដាញ​​យ៉ាហ៊ូ​ !"
 
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "មិន​ស្គាល់កំហុស ៥២ ។ កា​រតភ្ជាប់ឡើងវិញ​គួរតែ​កែ​វា​បាន ។"
@@ -9539,16 +9882,20 @@ msgid ""
 "Error 1013: The username you have entered is invalid.  The most common cause "
 "of this error is entering your email address instead of your Yahoo! ID."
 msgstr ""
-"កំហុស ១០១៣ ៖ ឈ្មោះ​អ្នក​ប្រើ​ដែល​អ្នក​បានបញ្ចូល​មិន​ត្រឹមត្រូវ​ទេ ។  មូលហេតុ​ដែល​បណ្ដាល​ឲ្យ​មាន​កំហុស​នេះ​​គឺ​មក​ពី​"
-"បញ្ចូល​អាសយដ្ឋាន​អ៊ីមែល​របស់​អ្នក​​ជំនួស​ឲ្យ​លេខ​សម្គាល់​យ៉ាហ៊ូ​របស់​អ្នក ។"
+"កំហុស ១០១៣ ៖ ឈ្មោះ​អ្នក​ប្រើ​ដែល​អ្នក​បានបញ្ចូល​មិន​ត្រឹមត្រូវ​ទេ ។  "
+"មូលហេតុ​ដែល​បណ្ដាល​ឲ្យ​មាន​កំហុស​នេះ​​គឺ​មក​ពី​បញ្ចូល​អាសយដ្ឋាន​អ៊ីមែល​របស់​អ"
+"្នក​​ជំនួស​ឲ្យ​លេខ​សម្គាល់​យ៉ាហ៊ូ​របស់​អ្នក ។"
 
 #, c-format
-msgid "Unknown error number %d. Logging into the Yahoo! website may fix this."
+msgid ""
+"Unknown error number %d. Logging into the Yahoo! website may fix this."
 msgstr "មិន​ស្គាល់លេខ​កំហុស %d ។ ចូល​ក្នុង​តំបន់យ៉ាហ៊ូ ! អាចជួសជុល​វា​បាន ។"
 
 #, c-format
 msgid "Unable to add buddy %s to group %s to the server list on account %s."
-msgstr "មិនអាច​បន្ថែម​មិត្តភក្ដិ​ %s ទៅក្រុម %s ទៅ​កាន់បញ្ជី​ម៉ាស៊ីនបម្រើ​នៅ​លើ​គណនី %s បាន​ទេ ។"
+msgstr ""
+"មិនអាច​បន្ថែម​មិត្តភក្ដិ​ %s ទៅក្រុម %s ទៅ​កាន់បញ្ជី​ម៉ាស៊ីនបម្រើ​នៅ​លើ​គណនី "
+"%s បាន​ទេ ។"
 
 msgid "Unable to add buddy to server list"
 msgstr "មិន​អាច​បន្ថែម​មិត្តភក្ដិ ​ទៅ​កាន់​បញ្ជី​ម៉ាស៊ីន​បម្រើ​បាន​ទេ​"
@@ -9641,7 +9988,7 @@ msgstr "​ទទួល​យក​ឧបករណ៍​បញ្ជូន​​
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
-#.
+#. 
 msgid "Sent Doodle request."
 msgstr "បានផ្ញើ​សំណើ Doodle ។"
 
@@ -9667,12 +10014,17 @@ msgstr "ទម្រង់ យ៉ាហ៊ូ !"
 msgid ""
 "Sorry, profiles marked as containing adult content are not supported at this "
 "time."
-msgstr "សូម​អភ័យ​ទោស ទម្រង់​បាន​សម្គាល់ថា​មាន​មាតិកា​​មនុស្ស​ពេញវ័យ​មិន​ត្រូវ​បានគាំទ្រ​នៅ​ពេល​នេះ​ទេ ។"
+msgstr ""
+"សូម​អភ័យ​ទោស "
+"ទម្រង់​បាន​សម្គាល់ថា​មាន​មាតិកា​​មនុស្ស​ពេញវ័យ​មិន​ត្រូវ​បានគាំទ្រ​នៅ​ពេល​នេះ"
+"​ទេ ។"
 
 msgid ""
 "If you wish to view this profile, you will need to visit this link in your "
 "web browser:"
-msgstr "ប្រសិន​បើ​អ្នក​ចង់​មើល​ជម្រង់​នេះ អ្នកត្រូវតែ​ទស្សនា​តំណ​នេះ​នៅ​ក្នុង​កម្មវិធី​រុករក​បណ្តាញ​របស់​អ្នក ៖"
+msgstr ""
+"ប្រសិន​បើ​អ្នក​ចង់​មើល​ជម្រង់​នេះ "
+"អ្នកត្រូវតែ​ទស្សនា​តំណ​នេះ​នៅ​ក្នុង​កម្មវិធី​រុករក​បណ្តាញ​របស់​អ្នក ៖"
 
 msgid "Yahoo! ID"
 msgstr "លេខ​សម្គាល់​របស់​យ៉ាហ៊ូ !"
@@ -9700,23 +10052,26 @@ msgstr "ភាព​ទាន់សម័យ​ចុងក្រោយ"
 
 msgid ""
 "This profile is in a language or format that is not supported at this time."
-msgstr "ទម្រង់​នេះ​ស្ថិត​ក្នុង​ភាសា ឬ​ទ្រង់ទ្រាយ​ដែល​មិន​បាន​គាំទ្រ​នៅពេល​នេះ​ទេ ។"
+msgstr ""
+"ទម្រង់​នេះ​ស្ថិត​ក្នុង​ភាសា ឬ​ទ្រង់ទ្រាយ​ដែល​មិន​បាន​គាំទ្រ​នៅពេល​នេះ​ទេ ។"
 
 msgid ""
 "Could not retrieve the user's profile. This most likely is a temporary "
 "server-side problem. Please try again later."
 msgstr ""
-"មិនអាច​ទៅយក​ទម្រង់​របស់​អ្នកប្រើ​បានទេ ។ វា​ទំនង​ជា​បញ្ហា​ខាង​ម៉ាស៊ីនបម្រើជា​បណ្ដោះអាសន្ន ។ សូម​ព្យាយាម​"
-"ម្ដង​ទៀត​ពេល​ក្រោយ ។"
+"មិនអាច​ទៅយក​ទម្រង់​របស់​អ្នកប្រើ​បានទេ ។ "
+"វា​ទំនង​ជា​បញ្ហា​ខាង​ម៉ាស៊ីនបម្រើជា​បណ្ដោះអាសន្ន ។ "
+"សូម​ព្យាយាម​ម្ដង​ទៀត​ពេល​ក្រោយ ។"
 
 msgid ""
 "Could not retrieve the user's profile. This most likely means that the user "
 "does not exist; however, Yahoo! sometimes does fail to find a user's "
 "profile. If you know that the user exists, please try again later."
 msgstr ""
-"មិនអាច​ទៅ យក​ទម្រង់​របស់​អ្នកប្រើបានទេ ។ វា​ទំនង​ជា​មាន​ន័យ​ថា ​មិនទាន់​មាន​អ្នកប្រើ​ទេ ទោះ​ជា​យ៉ាង​ណា​ក៏​"
-"ដោយ យ៉ាហ៊ូ ពេលខ្លះ​បានអនុវត្ត​មិនជោគជ័យ​ដើម្បីរក​ទម្រង់​របស់​អ្នក​ប្រើ ។ ប្រសិនបើ​អ្នក​ដឹង​ថា​មាន​អ្នកប្រើហើយ "
-"សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ក្រោយ ។"
+"មិនអាច​ទៅ យក​ទម្រង់​របស់​អ្នកប្រើបានទេ ។ វា​ទំនង​ជា​មាន​ន័យ​ថា "
+"​មិនទាន់​មាន​អ្នកប្រើ​ទេ ទោះ​ជា​យ៉ាង​ណា​ក៏​ដោយ យ៉ាហ៊ូ "
+"ពេលខ្លះ​បានអនុវត្ត​មិនជោគជ័យ​ដើម្បីរក​ទម្រង់​របស់​អ្នក​ប្រើ ។ "
+"ប្រសិនបើ​អ្នក​ដឹង​ថា​មាន​អ្នកប្រើហើយ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ក្រោយ ។"
 
 msgid "The user's profile is empty."
 msgstr "ទម្រង់​របស់​អ្នកប្រើ​ទទេរ ។"
@@ -9743,7 +10098,9 @@ msgstr "មិនមាន"
 msgid ""
 "Unknown error. You may need to logout and wait five minutes before being "
 "able to rejoin a chatroom"
-msgstr "មិនស្គាល់​កំហុស ។ អ្នក​ត្រូវ​តែ​ចេញ ហើយ​រង់ចាំ​ប្រាំ​នាទី​ មុននឹង​អាច​ចូលរួម​ក្នុង​បន្ទប់​ជជែក​ម្ដង​ទៀត"
+msgstr ""
+"មិនស្គាល់​កំហុស ។ អ្នក​ត្រូវ​តែ​ចេញ ហើយ​រង់ចាំ​ប្រាំ​នាទី​ "
+"មុននឹង​អាច​ចូលរួម​ក្នុង​បន្ទប់​ជជែក​ម្ដង​ទៀត"
 
 #, c-format
 msgid "You are now chatting in %s."
@@ -9779,7 +10136,9 @@ msgstr "បញ្ហា​ក្នុង​កា​រតភ្ជាប់​
 msgid ""
 "(There was an error converting this message.\t Check the 'Encoding' option "
 "in the Account Editor)"
-msgstr "(មានកំហុសក្នុងបម្លែង​សារ​នេះ ។ គូសធីក​ជម្រើស 'ការ​អ៊ិនកូដ' នៅ ក្នុង​កម្មវិធី​កែសម្រួល​គណនី)"
+msgstr ""
+"(មានកំហុសក្នុងបម្លែង​សារ​នេះ ។ គូសធីក​ជម្រើស 'ការ​អ៊ិនកូដ' នៅ "
+"ក្នុង​កម្មវិធី​កែសម្រួល​គណនី)"
 
 #, c-format
 msgid "Unable to send to chat %s,%s,%s"
@@ -9825,32 +10184,33 @@ msgstr "ប្រធានបទ &lt;instance&gt; ៖ កំណត់​ធា�
 
 msgid "sub &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Join a new chat"
 msgstr ""
-"sub &lt;class&gt; &lt;instance&gt; &lt;recipient&gt; ៖ ចូលរួម​ក្នុងការ​ជជែក​ថ្មី"
+"sub &lt;class&gt; &lt;instance&gt; &lt;recipient&gt; ៖ "
+"ចូលរួម​ក្នុងការ​ជជែក​ថ្មី"
 
 msgid ""
 "zi &lt;instance&gt;: Send a message to &lt;message,<i>instance</i>,*&gt;"
 msgstr "zi &lt;instance&gt; ; ផ្ញើសារ​ទៅ &lt;សារ<i>ធាតុ</i>,*&gt;"
 
 msgid ""
-"zci &lt;class&gt; &lt;instance&gt;: Send a message to &lt;<i>class</i>,"
-"<i>instance</i>,*&gt;"
+"zci &lt;class&gt; &lt;instance&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,*&gt;"
 msgstr ""
-"zci &lt;class&gt; &lt;instance&gt; ៖ ផ្ញើសារ​ទៅ &lt;<i>ថ្នាក់</i>,<i>ធាតុ</i>,"
-"*&gt;"
+"zci &lt;class&gt; &lt;instance&gt; ៖ ផ្ញើសារ​ទៅ "
+"&lt;<i>ថ្នាក់</i>,<i>ធាតុ</i>,*&gt;"
 
 msgid ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;"
-"<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt; ៖ ផ្ញើសារ​ទៅ &lt;"
-"<i>ថ្នាក់</i>,<i>ធាតុ</i>,<i>អ្នក​ទទួល</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt; ៖ ផ្ញើសារ​ទៅ "
+"&lt;<i>ថ្នាក់</i>,<i>ធាតុ</i>,<i>អ្នក​ទទួល</i>&gt;"
 
 msgid ""
-"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;MESSAGE,"
-"<i>instance</i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
-"zir &lt;instance&gt; &lt;recipient&gt; ៖ ផ្ញើសារ​ទៅ &lt;MESSAGE,<i>instance</"
-"i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt; ៖ ផ្ញើសារ​ទៅ "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 
 msgid "zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;"
 msgstr "zc &lt;class&gt; ៖ ផ្ញើសារទៅកាន់ &lt;<i>class</i>,PERSONAL,*&gt;"
@@ -9928,7 +10288,7 @@ msgstr "%s បាន​ស្នើ​កា​រចាប់អារម្ម
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c Yes and @c No buttons.
-#.
+#. 
 msgid "_Yes"
 msgstr "បាទ/ចាស"
 
@@ -9937,17 +10297,17 @@ msgstr "ទេ"
 
 #. *
 #. * A wrapper for purple_request_action() that uses Accept and Cancel buttons.
-#.
+#. 
 #. *
 #. * A wrapper for purple_request_action_with_icon() that uses Accept and Cancel
 #. * buttons.
-#.
+#. 
 msgid "_Accept"
 msgstr "យល់​​​ព្រម​"
 
 #. *
 #. * The default message to use when the user becomes auto-away.
-#.
+#. 
 msgid "I'm not here right now"
 msgstr "ខ្ញុំ​មិននៅ​ទីនេះ​ទេ​ឥឡូវ"
 
@@ -10039,12 +10399,12 @@ msgstr "+++ %s ក្លាយជា​ទំនេរ"
 msgid "+++ %s became unidle"
 msgstr "+++ %s ក្លាយ​ជា​មិន​ទំនេរ"
 
-#.
+#. 
 #. * This string determines how some dates are displayed.  The default
 #. * string "%x %X" shows the date then the time.  Translators can
 #. * change this to "%X %x" if they want the time to be shown first,
 #. * followed by the date.
-#.
+#. 
 #, c-format
 msgid "%x %X"
 msgstr "%x %X"
@@ -10102,8 +10462,8 @@ msgid ""
 "Unable to allocate enough memory to hold the contents from %s.  The web "
 "server may be trying something malicious."
 msgstr ""
-"មិនអាច​បម្រុង​ទុក​សតិ​គ្រប់គ្រាន់​ដើម្បី​ផ្ទុកមាតិកា​ពី %s បានទេ ។ ម៉ាស៊ីនបម្រើបណ្ដាញ​ប្រហែលជា​​ព្យាយាម​អ្វី​ដែល​​"
-"មិនល្អ ។"
+"មិនអាច​បម្រុង​ទុក​សតិ​គ្រប់គ្រាន់​ដើម្បី​ផ្ទុកមាតិកា​ពី %s បានទេ ។ "
+"ម៉ាស៊ីនបម្រើបណ្ដាញ​ប្រហែលជា​​ព្យាយាម​អ្វី​ដែល​​មិនល្អ ។"
 
 #, c-format
 msgid "Error reading from %s: %s"
@@ -10154,19 +10514,20 @@ msgid ""
 "An error was encountered reading your %s.  The file has not been loaded, and "
 "the old file has been renamed to %s~."
 msgstr ""
-"មានកំហុស​មួយ​ក្នុងការ​អាន​ %s របស់​អ្នក ។ ឯកសារ​មិន​ត្រូវ​បានផ្ទុក​ទេ ហើយ​ឯកសារ​ចាស់​ត្រូវ​បាន​ប្ដូរ​ឈ្មោះ​ទៅ​"
-"ជា %s~ ។"
-
-msgid "Pidgin Internet Messenger"
-msgstr "កម្មវិធី​ផ្ញើសារ​អ៊ីនធឺណិត​របស់ Pidgin"
-
-msgid "Internet Messenger"
-msgstr "កម្មវិធី​ផ្ញើសារ​អ៊ីនធឺណិត"
+"មានកំហុស​មួយ​ក្នុងការ​អាន​ %s របស់​អ្នក ។ ឯកសារ​មិន​ត្រូវ​បានផ្ទុក​ទេ "
+"ហើយ​ឯកសារ​ចាស់​ត្រូវ​បាន​ប្ដូរ​ឈ្មោះ​ទៅ​ជា %s~ ។"
 
 msgid ""
 "Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
 msgstr ""
-"ជជែក​កំសាន្ត​តាម​ IM ។ គាំទ្រ AIM, Google Talk, Jabber/XMPP, MSN, យ៉ាហ៊ូ​ និង​​ផ្សេងៗ​ទៀត"
+"ជជែក​កំសាន្ត​តាម​ IM ។ គាំទ្រ AIM, Google Talk, Jabber/XMPP, MSN, យ៉ាហ៊ូ​ "
+"និង​​ផ្សេងៗ​ទៀត"
+
+msgid "Internet Messenger"
+msgstr "កម្មវិធី​ផ្ញើសារ​អ៊ីនធឺណិត"
+
+msgid "Pidgin Internet Messenger"
+msgstr "កម្មវិធី​ផ្ញើសារ​អ៊ីនធឺណិត​របស់ Pidgin"
 
 #. Build the login options frame.
 msgid "Login Options"
@@ -10290,9 +10651,11 @@ msgid ""
 msgstr ""
 "<span size='larger' weight='bold'>សូម​ស្វាគមន៍​មកកាន់ %s!</span>\n"
 "\n"
-"អ្នក​មិនមាន​គណនី IM បានកំណត់​រចនាសម្ព័ន្ធ​ទេ ។ ដើម្បីចាប់ផ្ដើម​ការ​តភ្ជាប់​ជា​មួយ​ %s ចុចប៊ូតុង "
-"<b>បន្ថែម...</b> ខាង​ក្រោម​ និង​កំណត់​រចនាសម្ព័ន្ធ​គណនី​ដំបូង​របស់​អ្នក ។ ប្រសិនបើ​អ្នក​ចង់​ឲ្យ %s តភ្ជាប់​ទៅ​"
-"គណនី IM ជា​ច្រើន ចុច​ <b>បន្ថែម...</b> ដើម្បី​កំណត់​រចនាសម្ព័ន្ធ​ពួកវា​ទាំង​អស់ ។\n"
+"អ្នក​មិនមាន​គណនី IM បានកំណត់​រចនាសម្ព័ន្ធ​ទេ ។ "
+"ដើម្បីចាប់ផ្ដើម​ការ​តភ្ជាប់​ជា​មួយ​ %s ចុចប៊ូតុង <b>បន្ថែម...</b> ខាង​ក្រោម​ "
+"និង​កំណត់​រចនាសម្ព័ន្ធ​គណនី​ដំបូង​របស់​អ្នក ។ ប្រសិនបើ​អ្នក​ចង់​ឲ្យ %s "
+"តភ្ជាប់​ទៅ​គណនី IM ជា​ច្រើន ចុច​ <b>បន្ថែម...</b> "
+"ដើម្បី​កំណត់​រចនាសម្ព័ន្ធ​ពួកវា​ទាំង​អស់ ។\n"
 "\n"
 "You can come back to this window to add, edit, or remove accounts from "
 "<b>Accounts->Manage Accounts</b> in the Buddy List window"
@@ -10421,7 +10784,9 @@ msgstr "អត្ថបទ​សារ​ (សម្មតិនាម​បា�
 msgid ""
 "The text information for when a chat has an unread message that mentions "
 "your nickname"
-msgstr "ព័ត៌មាន​អត្ថបទ ​នៅ​ពេល​ដែល​ការ​​ជជែក​កំសាន្ត​មាន​សារ​មិន​ទាន់​អាន ដែល​អធិប្បាយ​អំពី​សម្មតិនាម​របស់​អ្នក"
+msgstr ""
+"ព័ត៌មាន​អត្ថបទ ​នៅ​ពេល​ដែល​ការ​​ជជែក​កំសាន្ត​មាន​សារ​មិន​ទាន់​អាន "
+"ដែល​អធិប្បាយ​អំពី​សម្មតិនាម​របស់​អ្នក"
 
 msgid "The text information for a buddy's status"
 msgstr "ព័ត៌មាន​អត្ថបទ​សម្រាប់​ស្ថានភាព​របស់មិត្តភក្ដិ"
@@ -10430,21 +10795,24 @@ msgstr "ព័ត៌មាន​អត្ថបទ​សម្រាប់​ស
 msgid "You have %d contact named %s. Would you like to merge them?"
 msgid_plural ""
 "You currently have %d contacts named %s. Would you like to merge them?"
-msgstr[0] "អ្នកបច្ចុប្បន្ន​មាន​ទំនាក់ទំនង %d ដែល​មាន​ឈ្មោះ %s ។ តើ​អ្នកចង់​បញ្ចូល​ពួកវា​ដែរឬទេ ?"
+msgstr[0] ""
+"អ្នកបច្ចុប្បន្ន​មាន​ទំនាក់ទំនង %d ដែល​មាន​ឈ្មោះ %s ។ "
+"តើ​អ្នកចង់​បញ្ចូល​ពួកវា​ដែរឬទេ ?"
 
 msgid ""
 "Merging these contacts will cause them to share a single entry on the buddy "
 "list and use a single conversation window. You can separate them again by "
 "choosing 'Expand' from the contact's context menu"
 msgstr ""
-"បញ្ចូល​ទំនាក់ទំនង​ទាំង​នេះ​នឹង​បណ្ដាល​ឲ្យ​ពួកវា​ចែករំលែក​ធាតុតែ​មួយ​នៅ​ក្នុង​បញ្ជីមិត្តភក្ដិ ហើយ​ប្រើ​បង្អួច​សន្ទនា​តែ​"
-"មួយ ។ អ្នកអាច​បំបែក​ពួកវា​ម្ដង​ទៀត ដោយ​ជ្រើស 'ពង្រីក' ពី​ម៉ឺនុយ​បរិបទ​របស់ទំនាក់ទំនង"
+"បញ្ចូល​ទំនាក់ទំនង​ទាំង​នេះ​នឹង​បណ្ដាល​ឲ្យ​ពួកវា​ចែករំលែក​ធាតុតែ​មួយ​នៅ​ក្នុង​"
+"បញ្ជីមិត្តភក្ដិ ហើយ​ប្រើ​បង្អួច​សន្ទនា​តែ​មួយ ។ អ្នកអាច​បំបែក​ពួកវា​ម្ដង​ទៀត "
+"ដោយ​ជ្រើស 'ពង្រីក' ពី​ម៉ឺនុយ​បរិបទ​របស់ទំនាក់ទំនង"
 
 msgid "Please update the necessary fields."
 msgstr "សូម​ធ្វើ​ឲ្យ​វាល​ដែល​ចាំបាច់ទាន់សម័យ ។"
 
 msgid "A_ccount"
-msgstr "គណនី "
+msgstr "គណនី"
 
 msgid ""
 "Please enter the appropriate information about the chat you would like to "
@@ -10476,7 +10844,7 @@ msgid "Audio/_Video Call"
 msgstr "អូឌីយ៉ូ/ការ​ហៅ​វីដេអូ"
 
 msgid "_Video Call"
-msgstr "ការ​ហៅ​វីដេអូ "
+msgstr "ការ​ហៅ​វីដេអូ"
 
 msgid "_Send File..."
 msgstr "ផ្ញើ​ឯកសារ..."
@@ -10541,7 +10909,9 @@ msgstr "/ឧបករណ៍/ស្ងាត់"
 
 msgid ""
 "You are not currently signed on with an account that can add that buddy."
-msgstr "អ្នកបច្ចុប្បន្នមិន​ត្រូវ​បានចូល​ដោយ​ប្រើ​គណនី​ដែលអាច​បន្ថែម​មិត្តភក្ដិ​នោះ​ទេ ។"
+msgstr ""
+"អ្នកបច្ចុប្បន្នមិន​ត្រូវ​បានចូល​ដោយ​ប្រើ​គណនី​ដែលអាច​បន្ថែម​មិត្តភក្ដិ​នោះ​ទេ"
+" ។"
 
 #. I don't believe this can happen currently, I think
 #. * everything that calls this function checks for one of the
@@ -10815,18 +11185,20 @@ msgstr "/គណនី"
 msgid ""
 "<span weight='bold' size='larger'>Welcome to %s!</span>\n"
 "\n"
-"You have no accounts enabled. Enable your IM accounts from the <b>Accounts</"
-"b> window at <b>Accounts->Manage Accounts</b>. Once you enable accounts, "
-"you'll be able to sign on, set your status, and talk to your friends."
+"You have no accounts enabled. Enable your IM accounts from the "
+"<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you enable "
+"accounts, you'll be able to sign on, set your status, and talk to your "
+"friends."
 msgstr ""
 "<span weight='bold' size='larger'>សូម​ស្វាគមន៍​មក​កាន់ %s !</span>\n"
 "\n"
-"អ្នក​​គ្មាន​គណនី​បាន​បើក​ទេ ។ បើកគណនី IM របស់​អ្នកពី​បង្អួច <b>គណនី</b> នៅ <b>គណនី->គ្រប់គ្រង​គណនី</"
-"b> ។ នៅពេល​អ្នកបើក​គណនី អ្នក​នឹង​អាច​ចូល កំណត់​ស្ថានភាព​របស់​អ្នក ហើយ​និយាយាជា​មួយមិត្តភក្ដិ ។"
+"អ្នក​​គ្មាន​គណនី​បាន​បើក​ទេ ។ បើកគណនី IM របស់​អ្នកពី​បង្អួច <b>គណនី</b> នៅ "
+"<b>គណនី->គ្រប់គ្រង​គណនី</b> ។ នៅពេល​អ្នកបើក​គណនី អ្នក​នឹង​អាច​ចូល "
+"កំណត់​ស្ថានភាព​របស់​អ្នក ហើយ​និយាយាជា​មួយមិត្តភក្ដិ ។"
 
 #. set the Show Offline Buddies option. must be done
 #. * after the treeview or faceprint gets mad. -Robot101
-#.
+#. 
 msgid "/Buddies/Show/Offline Buddies"
 msgstr "/មិត្តភក្ដិ/បង្ហាញ/មិត្តភក្ដិ​ក្រៅ​បណ្ដាញ"
 
@@ -10855,7 +11227,7 @@ msgid "(Optional) _Invite message:"
 msgstr ""
 
 msgid "Add buddy to _group:"
-msgstr "បន្ថែម​មិត្តភក្ដិ​ទៅ​ក្រុម ៖ "
+msgstr "បន្ថែម​មិត្តភក្ដិ​ទៅ​ក្រុម ៖"
 
 msgid "This protocol does not support chat rooms."
 msgstr "ពិធីការ​នេះ​មិន​គាំទ្រ​បន្ទប់​ជជែក​នេះ​ទេ ។"
@@ -10863,20 +11235,21 @@ msgstr "ពិធីការ​នេះ​មិន​គាំទ្រ​ប
 msgid ""
 "You are not currently signed on with any protocols that have the ability to "
 "chat."
-msgstr "អ្នក​បច្ចុប្បន្ន​មិន​បានចូល​ជា​មួយ​ពិធីការ​​ណាមួយ​ដែល​មាន​លទ្ធភាព​ជជែក ។"
+msgstr ""
+"អ្នក​បច្ចុប្បន្ន​មិន​បានចូល​ជា​មួយ​ពិធីការ​​ណាមួយ​ដែល​មាន​លទ្ធភាព​ជជែក ។"
 
 msgid ""
 "Please enter an alias, and the appropriate information about the chat you "
 "would like to add to your buddy list.\n"
 msgstr ""
-"សូម​បញ្ចូល​ឈ្មោះ​ក្លែងក្លាយ និង​ព័ត៌មាន​ដែល​សមរម្យ​អំពី​ការជជែក ដែល​អ្នកចង់​បន្ថែម​ទៅបញ្ជីមិត្តភក្ដិ​របស់​អ្នក "
-"។\n"
+"សូម​បញ្ចូល​ឈ្មោះ​ក្លែងក្លាយ និង​ព័ត៌មាន​ដែល​សមរម្យ​អំពី​ការជជែក "
+"ដែល​អ្នកចង់​បន្ថែម​ទៅបញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។\n"
 
 msgid "A_lias:"
 msgstr "ឈ្មោះ​ក្លែងក្លាយ ៖"
 
 msgid "_Group:"
-msgstr " ក្រុម ៖"
+msgstr "ក្រុម ៖"
 
 msgid "Auto_join when account connects."
 msgstr "ចូល​ដោយ​ស្វ័យ​ប្រវត្តិ នៅពេល​គនណី​តភ្ជាប់ ។​"
@@ -10929,7 +11302,8 @@ msgstr "មិត្តភក្ដិនេះ​មិន​នៅ​លើ​
 
 msgid ""
 "You are not currently signed on with an account that can invite that buddy."
-msgstr "អ្នកបច្ចុប្បន្នមិនបាន​ចូល​ដោយ​ប្រើ​គណនី​ ដែល​អាចអញ្ជើញ​មិត្តភក្ដិ​នោះ​ទេ ។"
+msgstr ""
+"អ្នកបច្ចុប្បន្នមិនបាន​ចូល​ដោយ​ប្រើ​គណនី​ ដែល​អាចអញ្ជើញ​មិត្តភក្ដិ​នោះ​ទេ ។"
 
 msgid "Invite Buddy Into Chat Room"
 msgstr "អញ្ជើញ​មិត្តភក្ដិ​ទៅ​ក្នុង​បន្ទប់​ជជែក"
@@ -11269,7 +11643,7 @@ msgid "Right click for more options."
 msgstr "ចុច​កណ្ដុរ​ខាង​ស្ដាំ​ដើម្បី​មើល​​ជម្រើ​សជា​ច្រើន​ទៀត ។"
 
 msgid "Level "
-msgstr "កម្រិត"
+msgstr "កម្រិត "
 
 msgid "Select the debug filter level."
 msgstr "ជ្រើស​កម្រិត​តម្រង​បំបាត់​កំហុស ។"
@@ -11284,7 +11658,7 @@ msgid "Warning"
 msgstr "ការ​ព្រមាន"
 
 msgid "Error "
-msgstr "កំហុស"
+msgstr "កំហុស "
 
 msgid "Fatal Error"
 msgstr "កំហុស​ធ្ងន់ធ្ងរ"
@@ -11392,7 +11766,7 @@ msgid "Canadian English"
 msgstr "​​​អង់គ្លេស​កាណាដា"
 
 msgid "Esperanto"
-msgstr "អេស្ពេរ៉ាន់តូ\t"
+msgstr "អេស្ពេរ៉ាន់តូ"
 
 msgid "Spanish"
 msgstr "​អេស៉្បាញ"
@@ -11600,30 +11974,19 @@ msgstr "T.M.Thanh និង​ក្រុម Gnome-Vi"
 
 #, c-format
 msgid ""
-"%s is a messaging client based on libpurple which is capable of connecting "
-"to multiple messaging services at once.  %s is written in C using GTK+.  %s "
-"is released, and may be modified and redistributed,  under the terms of the "
-"GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
-"copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+"%s</i><br><br><font color='red'>Modified version with no support from the "
+"official team.</font><br><br>"
 msgstr ""
 
 #, c-format
 msgid ""
-"<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked Questions</A><BR>\tIRC "
-"Channel: #pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin."
-"im<BR><BR>"
-msgstr ""
-
-msgid ""
-"<font size=\"4\"><b>Help from other Pidgin users</b></font> is available by "
-"e-mailing <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">This is a <b>public</b> mailing list! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">archive</a>)<br/>We can't help with third-party protocols or "
-"plugins!<br/>This list's primary language is <b>English</b>.  You are "
-"welcome to post in another language, but the responses may be less helpful."
-"<br/>"
+"%s is a messaging client based on libpurple which is capable of connecting "
+"to multiple messaging services at once.  %s is written in C using GTK+.  %s "
+"is released, and may be modified and redistributed,  under the terms of the "
+"GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
+"copyrighted by its contributors, a list of whom is also distributed with %s. "
+" There is no warranty for %s.<BR><BR>"
 msgstr ""
 
 #, c-format
@@ -11683,7 +12046,8 @@ msgstr "យក​ព័ត៌មាន​អ្នកប្រើ"
 msgid ""
 "Please enter the username or alias of the person whose info you would like "
 "to view."
-msgstr "សូម​បញ្ចូល​ឈ្មោះ​អ្នកប្រើ ឬ​ឈ្មោះ​ក្លែងក្លាយ​របស់​មនុស្ស​ដែល​អ្នក​ចង់​មើល ។"
+msgstr ""
+"សូម​បញ្ចូល​ឈ្មោះ​អ្នកប្រើ ឬ​ឈ្មោះ​ក្លែងក្លាយ​របស់​មនុស្ស​ដែល​អ្នក​ចង់​មើល ។"
 
 msgid "View User Log"
 msgstr "មើល​កំណត់​ហេតុ​អ្នកប្រើ​"
@@ -11715,8 +12079,8 @@ msgid_plural ""
 "You are about to remove the contact containing %s and %d other buddies from "
 "your buddy list.  Do you want to continue?"
 msgstr[0] ""
-"អ្នក​រៀប​នឹង​យក​​​​ទំនាក់ទំនង​មិត្តភក្ដិ​ផ្សេង​​ដែល​មាន %s និង %d ចេញពី​បញ្ជីមិត្តភក្ដិ​របស់អ្នក ។ តើ​អ្នក​ចង់​បន្ត​"
-"ដែរឬទេ ?"
+"អ្នក​រៀប​នឹង​យក​​​​ទំនាក់ទំនង​មិត្តភក្ដិ​ផ្សេង​​ដែល​មាន %s និង %d "
+"ចេញពី​បញ្ជីមិត្តភក្ដិ​របស់អ្នក ។ តើ​អ្នក​ចង់​បន្ត​ដែរឬទេ ?"
 
 msgid "Remove Contact"
 msgstr "យក​​ទំនាក់ទំនង​ចេញ"
@@ -11728,7 +12092,9 @@ msgstr "យក​ទំនាក់ទំនង​ចេញ"
 msgid ""
 "You are about to merge the group called %s into the group called %s. Do you "
 "want to continue?"
-msgstr "អ្នករៀប​នឹង​បញ្ចូល​ក្រុម​ដែល​ហៅ​ថា %s ចូល​គ្នា​ទៅ​ក្នុង​ក្រុម​ដែលហៅ​ថា %s ។ តើ​អ្នក​ចង់​បន្ត​ដែរឬទេ ?"
+msgstr ""
+"អ្នករៀប​នឹង​បញ្ចូល​ក្រុម​ដែល​ហៅ​ថា %s ចូល​គ្នា​ទៅ​ក្នុង​ក្រុម​ដែលហៅ​ថា %s ។ "
+"តើ​អ្នក​ចង់​បន្ត​ដែរឬទេ ?"
 
 msgid "Merge Groups"
 msgstr "បញ្ចូល​ក្រុម​ចូលគ្នា"
@@ -11741,7 +12107,8 @@ msgid ""
 "You are about to remove the group %s and all its members from your buddy "
 "list.  Do you want to continue?"
 msgstr ""
-"អ្នក​រៀបនឹង​យក​ក្រុម​ដែល %s ចេញ ហើយ​សមាជិករបស់​វា​ទាំងអស់​ពី​បញ្ជីមិត្តភក្ដិ ។ តើ​អ្នក​ចង់​បន្តដែរឬទេ ?"
+"អ្នក​រៀបនឹង​យក​ក្រុម​ដែល %s ចេញ ហើយ​សមាជិករបស់​វា​ទាំងអស់​ពី​បញ្ជីមិត្តភក្ដិ "
+"។ តើ​អ្នក​ចង់​បន្តដែរឬទេ ?"
 
 msgid "Remove Group"
 msgstr "យក​​ក្រុម​ចេញ"
@@ -11752,7 +12119,8 @@ msgstr "យក​ក្រុម​ចេញ"
 #, c-format
 msgid ""
 "You are about to remove %s from your buddy list.  Do you want to continue?"
-msgstr "អ្នក​រៀបនឹង​យក %s ពី​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។ តើ​អ្នកចង់​បន្ត​ដែរឬទេ ?"
+msgstr ""
+"អ្នក​រៀបនឹង​យក %s ពី​បញ្ជីមិត្តភក្ដិ​របស់​អ្នក ។ តើ​អ្នកចង់​បន្ត​ដែរឬទេ ?"
 
 msgid "Remove Buddy"
 msgstr "យក​​មិត្តភក្ដិ​ចេញ"
@@ -11764,7 +12132,9 @@ msgstr "យក​​មិត្តភក្ដិ​ចេញ"
 msgid ""
 "You are about to remove the chat %s from your buddy list.  Do you want to "
 "continue?"
-msgstr "អ្នក​រៀបនឹង​យក​ការ​ជជែក %s ចេញពី​​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។ តើ​អ្នកចង់​បន្តដែរឬទេ ?"
+msgstr ""
+"អ្នក​រៀបនឹង​យក​ការ​ជជែក %s ចេញពី​​បញ្ជី​មិត្តភក្ដិ​របស់​អ្នក ។ "
+"តើ​អ្នកចង់​បន្តដែរឬទេ ?"
 
 msgid "Remove Chat"
 msgstr "យក​​កា​រជជែក​ចេញ"
@@ -11882,7 +12252,8 @@ msgid "Hyperlink visited color"
 msgstr "ពណ៌ដែល​បាន​ទស្សនា​តំណខ្ពស់"
 
 msgid "Color to draw hyperlink after it has been visited (or activated)."
-msgstr "ពណ៌​ត្រូវគូ​តំណខ្ពស់ ​បន្ទាប់ពី​វា​ត្រូវ​បាន​ទស្សនា (ឬ​ធ្វើ​ឲ្យ​សកម្ម) ។"
+msgstr ""
+"ពណ៌​ត្រូវគូ​តំណខ្ពស់ ​បន្ទាប់ពី​វា​ត្រូវ​បាន​ទស្សនា (ឬ​ធ្វើ​ឲ្យ​សកម្ម) ។"
 
 msgid "Hyperlink prelight color"
 msgstr "ពណ៌​ពន្លឺ​មុន​តំណខ្ពស់"
@@ -11905,7 +12276,8 @@ msgstr "ពណ៌​ត្រូវគូរ​ឈ្មោះ​សារ​ដ
 msgid "\"Attention\" Name Color"
 msgstr "\"ប្រយ័ត្ន\" ពណ៌​ឈ្មោះ"
 
-msgid "Color to draw the name of a message you received containing your name."
+msgid ""
+"Color to draw the name of a message you received containing your name."
 msgstr "ពណ៌​ត្រូវ​គូរ​ឈ្មោះ​សារ​ដែល​អ្នកបានទទួល មានឈ្មោះរបស់​អ្នក ។"
 
 msgid "Action Message Name Color"
@@ -11987,7 +12359,9 @@ msgstr "សេចក្ដីពិពណ៌នា"
 msgid ""
 "Please enter the URL and description of the link that you want to insert. "
 "The description is optional."
-msgstr "សូម​បញ្ចូល URL និង​សេចក្ដីពិពណ៌នា​របស់តំណ​ដែល​អ្នក​ចង់​បញ្ចូល ។ សេចក្ដី​ពិពណ៌នា​គឺជា​ជម្រើស ។"
+msgstr ""
+"សូម​បញ្ចូល URL និង​សេចក្ដីពិពណ៌នា​របស់តំណ​ដែល​អ្នក​ចង់​បញ្ចូល ។ "
+"សេចក្ដី​ពិពណ៌នា​គឺជា​ជម្រើស ។"
 
 msgid "Please enter the URL of the link that you want to insert."
 msgstr "សូម​បញ្ចូល​ URL របស់​តំណ​ដែល​អ្នកចង់​បញ្ចូល ។"
@@ -12010,7 +12384,8 @@ msgid ""
 "This smiley is disabled because a custom smiley exists for this shortcut:\n"
 " %s"
 msgstr ""
-"សញ្ញាណ​អារម្មណ៍​ត្រូវ​បានបិទ​ពីព្រោះ​មាន​សញ្ញាណ​អារម្មណ៍​សម្រាប់​ផ្លូវកាត់​នេះ​រួច​ហើយ ៖\n"
+"សញ្ញាណ​អារម្មណ៍​ត្រូវ​បានបិទ​ពីព្រោះ​មាន​សញ្ញាណ​អារម្មណ៍​សម្រាប់​ផ្លូវកាត់​នេ"
+"ះ​រួច​ហើយ ៖\n"
 " %s"
 
 msgid "Smile!"
@@ -12125,19 +12500,25 @@ msgstr "ពិនិត្យ​មើល​សិទ្ធិ​ ហើយ​�
 msgid ""
 "Are you sure you want to permanently delete the log of the conversation with "
 "%s which started at %s?"
-msgstr "តើ​អ្នក​ប្រាកដ​ជា​ចង់​លុប​កំណត់​សន្ទនា​ជា​មួយ %s ជា​អចិន្ត្រៃយ៍​ដែល​ចាប់ផ្ដើមនៅ %s ដែរឬទេ ?"
+msgstr ""
+"តើ​អ្នក​ប្រាកដ​ជា​ចង់​លុប​កំណត់​សន្ទនា​ជា​មួយ %s "
+"ជា​អចិន្ត្រៃយ៍​ដែល​ចាប់ផ្ដើមនៅ %s ដែរឬទេ ?"
 
 #, c-format
 msgid ""
 "Are you sure you want to permanently delete the log of the conversation in "
 "%s which started at %s?"
-msgstr "តើ​អ្នកប្រាកដ​ជា​ចង់​លុប​កំណត់​ហេតុ​សន្ទនា​នៅក្នុង %s ជា​អចិន្ត្រៃយ៍​​ដែល​ចាប់​ផ្ដើ​ម​នៅ %s ដែរឬទេ ?"
+msgstr ""
+"តើ​អ្នកប្រាកដ​ជា​ចង់​លុប​កំណត់​ហេតុ​សន្ទនា​នៅក្នុង %s "
+"ជា​អចិន្ត្រៃយ៍​​ដែល​ចាប់​ផ្ដើ​ម​នៅ %s ដែរឬទេ ?"
 
 #, c-format
 msgid ""
 "Are you sure you want to permanently delete the system log which started at "
 "%s?"
-msgstr "តើ​អ្នក​ប្រាកដជា​ចង់លុប​កំណត់​ហេតុ​ប្រព័ន្ធ​ដែល​ចាប់ផ្ដើម​នៅ %s ជា​អចិន្ត្រៃយ៍​ឬ ?"
+msgstr ""
+"តើ​អ្នក​ប្រាកដជា​ចង់លុប​កំណត់​ហេតុ​ប្រព័ន្ធ​ដែល​ចាប់ផ្ដើម​នៅ %s "
+"ជា​អចិន្ត្រៃយ៍​ឬ ?"
 
 msgid "Delete Log?"
 msgstr "លុប​កំណត់​ហេតុ ?"
@@ -12199,7 +12580,8 @@ msgid ""
 "                      Without this only the first account will be enabled)."
 msgstr ""
 "អនុញ្ញាត​​​គណនី​ដែល​បាន​បញ្ជាក់​ (ឈ្មោះ​អាគុយ​ម៉ង់​ជា​​ជម្រើស\n"
-"                      បញ្ជាក់​គណនី ​​​ដើម្បី​ប្រើ​ ដែល​បាន​បំបែក​ដោយ​​សញ្ញា( , ) ។\n"
+"                      បញ្ជាក់​គណនី ​​​ដើម្បី​ប្រើ​ ដែល​បាន​បំបែក​ដោយ​​សញ្ញា( "
+", ) ។\n"
 "                      ដោយ​វា​មិន គណនី​ដំបូង​នឹង​ត្រូវ​បាន​អនុញ្ញាត) ។"
 
 msgid "X display to use"
@@ -12238,7 +12620,8 @@ msgstr ""
 
 #, c-format
 msgid "Exiting because another libpurple client is already running.\n"
-msgstr "ចេញ ដោយ​សារ​តែ​ម៉ាស៊ីន​ភ្ញើ libpurple ផ្សេង​ទៀត​កំពុង​រត់​រួច​ហើយ ។\n"
+msgstr ""
+"ចេញ ដោយ​សារ​តែ​ម៉ាស៊ីន​ភ្ញើ libpurple ផ្សេង​ទៀត​កំពុង​រត់​រួច​ហើយ ។\n"
 
 msgid "_Media"
 msgstr ""
@@ -12289,7 +12672,9 @@ msgstr "កំហុស​ក្នុងកា​រចាប់ផ្ដើម
 
 msgid ""
 "The 'Manual' browser command has been chosen, but no command has been set."
-msgstr "ពាក្យ​បញ្ជា​កម្មវិធី​រុករក 'ដោយដៃ' ត្រូវ​បាន​ជ្រើស ប៉ុន្តែ​គ្មាន​ពាក្យ​បញ្ជា​ត្រូវ​បាន​ជ្រើស​ទេ ។"
+msgstr ""
+"ពាក្យ​បញ្ជា​កម្មវិធី​រុករក 'ដោយដៃ' ត្រូវ​បាន​ជ្រើស "
+"ប៉ុន្តែ​គ្មាន​ពាក្យ​បញ្ជា​ត្រូវ​បាន​ជ្រើស​ទេ ។"
 
 msgid "Unable to open URL: the 'Manual' browser command seems invalid."
 msgstr ""
@@ -12317,7 +12702,9 @@ msgid "Dismiss"
 msgstr "បណ្ដេញ​ចេញ"
 
 msgid "<span weight=\"bold\" size=\"larger\">You have pounced!</span>"
-msgstr "<span weight=\"bold\" size=\"larger\">អ្នក​​បាន​ដាក់​ជា​ក្រុម​មិត្តភក្ដិ !</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">អ្នក​​បាន​ដាក់​ជា​ក្រុម​មិត្តភក្ដិ "
+"!</span>"
 
 msgid "The following plugins will be unloaded."
 msgstr "កម្មវិធី​ជំនួយ​ដូច​ខាងក្រោម​នឹង​ត្រូវ​បានផ្ទុក​ឡើង ។"
@@ -12334,7 +12721,9 @@ msgstr "មិនអាច​ផ្ទុក​កម្មវិធី​ជំ
 msgid ""
 "The plugin could not be unloaded now, but will be disabled at the next "
 "startup."
-msgstr "កម្មវិធី​ជំនួយ​មិនអាច​ត្រូវ​បានផ្ទុក​ឡើង​ឥឡូវ​ទេ ប៉ុន្តែ​នឹង​ត្រូ​វបាន​បិទនៅពេល​ចាប់ផ្ដើមលើក​ក្រោយ ។"
+msgstr ""
+"កម្មវិធី​ជំនួយ​មិនអាច​ត្រូវ​បានផ្ទុក​ឡើង​ឥឡូវ​ទេ "
+"ប៉ុន្តែ​នឹង​ត្រូ​វបាន​បិទនៅពេល​ចាប់ផ្ដើមលើក​ក្រោយ ។"
 
 #, c-format
 msgid ""
@@ -12508,7 +12897,8 @@ msgid ""
 "list."
 msgstr ""
 "ជ្រើស​ស្បែក ដែល​អ្នក​ចង់​ប្រើ​ពី​បញ្ជី​ខាង​ក្រោម ។\n"
-"ស្បែក​ថ្មី​អាច​ត្រូវ​បាន​ដំឡើង​ ដោយ​អូស និងទម្លាក់​ពួកវា​ទៅ​ក្នុង​បញ្ជី​ស្បែក ។"
+"ស្បែក​ថ្មី​អាច​ត្រូវ​បាន​ដំឡើង​ ដោយ​អូស "
+"និងទម្លាក់​ពួកវា​ទៅ​ក្នុង​បញ្ជី​ស្បែក ។"
 
 msgid "Buddy List Theme:"
 msgstr "ស្បែក​បញ្ជី​មិត្តភក្ដិ ៖"
@@ -12633,7 +13023,8 @@ msgid ""
 "This is how your outgoing message text will appear when you use protocols "
 "that support formatting."
 msgstr ""
-"នេះ​ជា​វិធី​ដែល​អត្ថបទ​សារ​ចេញ​របស់​នឹង​បង្ហាញ នៅពេល​ដែល​អ្នក​ប្រើ​ពិធីការ​ដែល​គាំទ្រ​ការ​ធ្វើទ្រង់ទ្រាយ ។"
+"នេះ​ជា​វិធី​ដែល​អត្ថបទ​សារ​ចេញ​របស់​នឹង​បង្ហាញ "
+"នៅពេល​ដែល​អ្នក​ប្រើ​ពិធីការ​ដែល​គាំទ្រ​ការ​ធ្វើទ្រង់ទ្រាយ ។"
 
 msgid "Cannot start proxy configuration program."
 msgstr "មិនអាច​ចាប់ផ្ដើម​កម្មវិធី​កំណត់​រចនាសម្ព័ន្ធ​ប្រូកស៊ី​បានទេ ។"
@@ -12744,10 +13135,12 @@ msgid "Browser Selection"
 msgstr "ជម្រើស​កម្មវិធី​រុករក"
 
 msgid "Browser preferences are configured in GNOME preferences"
-msgstr "បានកំណត់​រចនាសម្ព័ន្ធ​កម្មវិធី​រុករក នៅ​ក្នុង​ចំណូល​ចិត្ត​​របស់ GNOME"
+msgstr ""
+"បានកំណត់​រចនាសម្ព័ន្ធ​កម្មវិធី​រុករក នៅ​ក្នុង​ចំណូល​ចិត្ត​​របស់ GNOME"
 
 msgid "<b>Browser configuration program was not found.</b>"
-msgstr "<b>រក​មិនឃើញ​កម្មវិធី​កំណត់​រចនាសម្ព័ន្ធ​របស់​កម្មវិធី​រុករក​ទេ ។</b>"
+msgstr ""
+"<b>រក​មិនឃើញ​កម្មវិធី​កំណត់​រចនាសម្ព័ន្ធ​របស់​កម្មវិធី​រុករក​ទេ ។</b>"
 
 msgid "Configure _Browser"
 msgstr "កំណត់​រចនាសម្ព័ន្ធ​កម្មវិធី​រុករក"
@@ -12779,7 +13172,8 @@ msgid "Proxy Server"
 msgstr "ម៉ាស៊ីន​បម្រើ​ប្រូកស៊ី"
 
 msgid "Proxy preferences are configured in GNOME preferences"
-msgstr "ចំណូល​ចិត្ត​ប្រូកស៊ី​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​នៅ​ក្នុង​ចំណូល​ចិត្ត GNOME"
+msgstr ""
+"ចំណូល​ចិត្ត​ប្រូកស៊ី​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​នៅ​ក្នុង​ចំណូល​ចិត្ត GNOME"
 
 msgid "<b>Proxy configuration program was not found.</b>"
 msgstr "<b>រក​មិន​ឃើញ​កម្មវិធី​កំណត់​រចនាសម្ព័ន្ធ​ប្រូកស៊ី ។</b>"
@@ -13046,7 +13440,9 @@ msgstr "ស្ថានភាព​សម្រាប់ %s"
 #, c-format
 msgid ""
 "A custom smiley for '%s' already exists.  Please use a different shortcut."
-msgstr "មាន​សញ្ញាណអារម្មណ៍​ផ្ទាល់ខ្លួន​សម្រាប់ '%s' រួច​ហើយ ។ សូម​ប្រើ​ផ្លូវកាត់​ផ្សេង ​។"
+msgstr ""
+"មាន​សញ្ញាណអារម្មណ៍​ផ្ទាល់ខ្លួន​សម្រាប់ '%s' រួច​ហើយ ។ "
+"សូម​ប្រើ​ផ្លូវកាត់​ផ្សេង ​។"
 
 msgid "Custom Smiley"
 msgstr "សញ្ញា​អារម្មណ៍​ផ្ទាល់ខ្លួន"
@@ -13080,10 +13476,12 @@ msgid "Select Buddy Icon"
 msgstr "ជ្រើស​រូបតំណាង​មិត្តភក្ដិ"
 
 msgid "Click to change your buddyicon for this account."
-msgstr "ចុច​ដើម្បី​ផ្លាស់ប្ដូរ​រូបតំណាង​មិត្តភក្ដិ​របស់​អ្នកសម្រាប់គណនី​នេះ ។"
+msgstr ""
+"ចុច​ដើម្បី​ផ្លាស់ប្ដូរ​រូបតំណាង​មិត្តភក្ដិ​របស់​អ្នកសម្រាប់គណនី​នេះ ។"
 
 msgid "Click to change your buddyicon for all accounts."
-msgstr "ចុច​ដើម្បី​ផ្លាស់ប្ដូរ​រូបតំណាង​មិត្តភក្ដិ​របស់​អ្នក​សម្រាប់គណនី​ទាំង​អស់ ។"
+msgstr ""
+"ចុច​ដើម្បី​ផ្លាស់ប្ដូរ​រូបតំណាង​មិត្តភក្ដិ​របស់​អ្នក​សម្រាប់គណនី​ទាំង​អស់ ។"
 
 msgid "Waiting for network connection"
 msgstr "រង់ចាំ​ការ​តភ្ជាប់បណ្ដាញ"
@@ -13127,8 +13525,8 @@ msgid ""
 "You can send this image as a file transfer, embed it into this message, or "
 "use it as the buddy icon for this user."
 msgstr ""
-"អ្នក​អាច​ផ្ញើ​រូបភាព​នេះ​ជា​ការ​ផ្ទេរ​ឯកសារ បង្កប់​វា​ក្នុងសារ​នេះ ឬ​ប្រើ​វា​ជា​រូបតំណាង​មិត្តភក្ដិ​សម្រាប់ការ​"
-"ប្រើ​នេះ ។"
+"អ្នក​អាច​ផ្ញើ​រូបភាព​នេះ​ជា​ការ​ផ្ទេរ​ឯកសារ បង្កប់​វា​ក្នុងសារ​នេះ "
+"ឬ​ប្រើ​វា​ជា​រូបតំណាង​មិត្តភក្ដិ​សម្រាប់ការ​ប្រើ​នេះ ។"
 
 msgid "Set as buddy icon"
 msgstr "កំណត់​ជា​រូបតំណាង​មិត្តភក្ដិ"
@@ -13145,12 +13543,16 @@ msgstr "តើអ្នក​ចង់​កំណត់​ជា​រូបត
 msgid ""
 "You can send this image as a file transfer, or use it as the buddy icon for "
 "this user."
-msgstr "អ្នកអាច​ផ្ញើរូបភាព​នេះ​ជា​ការ​ផ្ទេរ​ឯកសារ ឬ​ប្រើវា​ជា​រូបតំណាង​មិត្តភក្ដិ​សម្រាប់​អ្នកប្រើ​នេះ ។"
+msgstr ""
+"អ្នកអាច​ផ្ញើរូបភាព​នេះ​ជា​ការ​ផ្ទេរ​ឯកសារ "
+"ឬ​ប្រើវា​ជា​រូបតំណាង​មិត្តភក្ដិ​សម្រាប់​អ្នកប្រើ​នេះ ។"
 
 msgid ""
 "You can insert this image into this message, or use it as the buddy icon for "
 "this user"
-msgstr "អ្នក​អាច​បញ្ចូល​រូបភាព​នេះ​​ក្នុង​សារ​នេះ ឬ​ប្រើ​វា​ជា​រូបតំណាង​មិត្តភក្ដិ​សម្រាប់​អ្នកប្រើ​នេះ"
+msgstr ""
+"អ្នក​អាច​បញ្ចូល​រូបភាព​នេះ​​ក្នុង​សារ​នេះ "
+"ឬ​ប្រើ​វា​ជា​រូបតំណាង​មិត្តភក្ដិ​សម្រាប់​អ្នកប្រើ​នេះ"
 
 #. I don't know if we really want to do anything here.  Most of
 #. * the desktop item types are crap like "MIME Type" (I have no
@@ -13167,8 +13569,9 @@ msgid ""
 "You dragged a desktop launcher. Most likely you wanted to send the target of "
 "this launcher instead of this launcher itself."
 msgstr ""
-"អ្នក​បានអូស​​កម្មវិធី​ចាប់ផ្ដើម​ផ្ទៃតុ ។ ហាក់បី​ដូច​ជា​អ្នក​ចង់​ផ្ញើ​គោលដៅ​របស់​កម្មវិធី​ចាប់ផ្ដើម​នេះ ជំនួស​ឲ្យ​កម្មវិធី​"
-"ចាប់ផ្ដើម​របស់​វា​ផ្ទាល់ ។"
+"អ្នក​បានអូស​​កម្មវិធី​ចាប់ផ្ដើម​ផ្ទៃតុ ។ "
+"ហាក់បី​ដូច​ជា​អ្នក​ចង់​ផ្ញើ​គោលដៅ​របស់​កម្មវិធី​ចាប់ផ្ដើម​នេះ "
+"ជំនួស​ឲ្យ​កម្មវិធី​ចាប់ផ្ដើម​របស់​វា​ផ្ទាល់ ។"
 
 #, c-format
 msgid ""
@@ -13191,7 +13594,7 @@ msgid "Could not set icon"
 msgstr "មិនអាច​កំណត់​រូបតំណាង​បានទេ"
 
 msgid "_Open Link"
-msgstr "បើក​តំណ "
+msgstr "បើក​តំណ"
 
 msgid "_Copy Link Location"
 msgstr "ចម្លង​ទីតាំង​តំណ"
@@ -13200,7 +13603,7 @@ msgid "_Copy Email Address"
 msgstr "ចម្លង​អាសយដ្ឋាន​អ៊ីមែល"
 
 msgid "_Open File"
-msgstr "បើក​ឯកសារ "
+msgstr "បើក​ឯកសារ"
 
 msgid "Open _Containing Directory"
 msgstr "បើក​ថត​ដែលមាន ​​"
@@ -13209,10 +13612,10 @@ msgid "Save File"
 msgstr "រក្សា​​ទុក​​​ឯកសារ"
 
 msgid "_Play Sound"
-msgstr "ចាក់​សំឡេង "
+msgstr "ចាក់​សំឡេង"
 
 msgid "_Save File"
-msgstr "រក្សា​​ទុក​​​ឯកសារ "
+msgstr "រក្សា​​ទុក​​​ឯកសារ"
 
 msgid "Do you really want to clear?"
 msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ជម្រះ​ឬ ?"
@@ -13255,11 +13658,11 @@ msgstr "ព័ត៌មាន​ជំនួយ Pidgin"
 msgid "Pidgin smileys"
 msgstr "សញ្ញាអារម្មណ៍​របស់ Pidgin"
 
-msgid "none"
-msgstr "គ្មាន"
-
 msgid "Selecting this disables graphical emoticons."
 msgstr "ជ្រើស​សញ្ញាអារម្មណ៍​ក្រាហ្វិក​ដែល​បិទ​នេះ ។"
+
+msgid "none"
+msgstr "គ្មាន"
 
 msgid "Small"
 msgstr "តូច"
@@ -13328,7 +13731,9 @@ msgstr "ចង្អុល​តម្លៃ​ត្រូវ​ប្រើន
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
 "in the contact.\n"
-msgstr "មិត្តភក្ដិ​ដែលមាន <i>ពិន្ទុធំ</i> គឺជា​មិត្តភក្ដិ​ដែល​នឹង​មាន​អាទិភាព​នៅ​ក្នុងការជជែក ។\n"
+msgstr ""
+"មិត្តភក្ដិ​ដែលមាន <i>ពិន្ទុធំ</i> "
+"គឺជា​មិត្តភក្ដិ​ដែល​នឹង​មាន​អាទិភាព​នៅ​ក្នុងការជជែក ។\n"
 
 msgid "Use last buddy when scores are equal"
 msgstr "ប្រើ​មិត្តភក្ដិ​ចុងក្រោយ​នៅពេល​ពិន្ទុ​ស្មើគ្នា"
@@ -13350,15 +13755,17 @@ msgstr "អាទិភាព​ទំនាក់ទំនង"
 #. *< summary
 msgid ""
 "Allows for controlling the values associated with different buddy states."
-msgstr "អនុញ្ញាត​សម្រាប់​ពិនិត្យ​តម្លៃ​ដែល​ភ្ជាប់​ជា​មួយ​នឹង​ស្ថានភាព​មិត្តភក្ដិ​ផ្សេងៗ ។"
+msgstr ""
+"អនុញ្ញាត​សម្រាប់​ពិនិត្យ​តម្លៃ​ដែល​ភ្ជាប់​ជា​មួយ​នឹង​ស្ថានភាព​មិត្តភក្ដិ​ផ្សេ"
+"ងៗ ។"
 
 #. *< description
 msgid ""
 "Allows for changing the point values of idle/away/offline states for buddies "
 "in contact priority computations."
 msgstr ""
-"អនុញ្ញាត​ឲ្យ​ផ្លាស់ប្ដូរ​តម្លៃចង្អុល​នៃ​ស្ថានភាព​​ទំនេរ/ចាកឆ្ងាយ/ក្រៅបណ្ដាញ​សម្រាប់​មិត្តភក្ដិ​នៅ​ក្នុង​ការ​គណនា​"
-"អាទិភាព​ទំនាក់ទំនង ។"
+"អនុញ្ញាត​ឲ្យ​ផ្លាស់ប្ដូរ​តម្លៃចង្អុល​នៃ​ស្ថានភាព​​ទំនេរ/ចាកឆ្ងាយ/ក្រៅបណ្ដាញ​ស"
+"ម្រាប់​មិត្តភក្ដិ​នៅ​ក្នុង​ការ​គណនា​អាទិភាព​ទំនាក់ទំនង ។"
 
 msgid "Conversation Colors"
 msgstr "ពណ៌​សន្ទនា"
@@ -13438,7 +13845,7 @@ msgid "Service Discovery"
 msgstr "ការ​រក​ឃើញ​​​សេវា"
 
 msgid "_Browse"
-msgstr "រក​មើល "
+msgstr "រក​មើល"
 
 msgid "Server does not exist"
 msgstr "មិន​ទាន់មាន​ម៉ាស៊ីន​បម្រើ​ទេ"
@@ -13456,7 +13863,8 @@ msgid ""
 "This plugin is useful for registering with legacy transports or other XMPP "
 "services."
 msgstr ""
-"កម្មវិធី​ជំនួយ​នេះ​មាន​ប្រយោជន៍​សម្រាប់​ចុះឈ្មោះ​ជា​មួយ​នឹង​ការ​ដឹក ជញ្ជូន​ចាស់ៗ ឬ​សេវា XMPP ផ្សេងៗ​ទៀត ។"
+"កម្មវិធី​ជំនួយ​នេះ​មាន​ប្រយោជន៍​សម្រាប់​ចុះឈ្មោះ​ជា​មួយ​នឹង​ការ​ដឹក "
+"ជញ្ជូន​ចាស់ៗ ឬ​សេវា XMPP ផ្សេងៗ​ទៀត ។"
 
 msgid "By conversation count"
 msgstr "តាម​ចំនួន​សន្ទនា"
@@ -13468,7 +13876,9 @@ msgstr "ការ​ដាក់ការ​សន្ទនា"
 msgid ""
 "Note: The preference for \"New conversations\" must be set to \"By "
 "conversation count\"."
-msgstr "ចំណាំ ៖ ចំណូលចិត្ត​សម្រាប់ \"ការ​សន្ទនា​ថ្មី\" ត្រូវ​តែ​បានកំណត់​ទៅ \"តាម​ចំនួន​សន្ទនា\" ។"
+msgstr ""
+"ចំណាំ ៖ ចំណូលចិត្ត​សម្រាប់ \"ការ​សន្ទនា​ថ្មី\" ត្រូវ​តែ​បានកំណត់​ទៅ "
+"\"តាម​ចំនួន​សន្ទនា\" ។"
 
 msgid "Number of conversations per window"
 msgstr "ចំនួន​សន្ទនា​ក្នុង​មួយ​បង្អួច"
@@ -13495,7 +13905,8 @@ msgstr "ជម្រើស​ដាក់​កា​រសន្ទនា​ប
 msgid ""
 "Restrict the number of conversations per windows, optionally separating IMs "
 "and Chats"
-msgstr "ដាក់កម្រិត​ចំនួន​សន្ទនា​ក្នុង​មួយ​បង្អួច ជា​ជម្រើស​បំបែក IMs និង​​ការ​ជជែក"
+msgstr ""
+"ដាក់កម្រិត​ចំនួន​សន្ទនា​ក្នុង​មួយ​បង្អួច ជា​ជម្រើស​បំបែក IMs និង​​ការ​ជជែក"
 
 #. Configuration frame
 msgid "Mouse Gestures Configuration"
@@ -13534,8 +13945,8 @@ msgid ""
 " • Drag up and then to the left to switch to the previous conversation.\n"
 " • Drag up and then to the right to switch to the next conversation."
 msgstr ""
-"អនុញ្ញាត​ឲ្យ​គាំទ្រ​កាយវិការ​កណ្ដុរ​នៅក្នុង​បង្អួច​សន្ទនា ។ អូស​​ប៊ូតុង​កណ្ដុរ​កណ្ដាល​ដើម្បី​អនុវត្ត​សកម្មភាព​​មួយចំនួន​ដូច​"
-"ខាងក្រោម ៖\n"
+"អនុញ្ញាត​ឲ្យ​គាំទ្រ​កាយវិការ​កណ្ដុរ​នៅក្នុង​បង្អួច​សន្ទនា ។ "
+"អូស​​ប៊ូតុង​កណ្ដុរ​កណ្ដាល​ដើម្បី​អនុវត្ត​សកម្មភាព​​មួយចំនួន​ដូច​ខាងក្រោម ៖\n"
 " • អូស​ចុះក្រោម ហើយ​បន្ទាប់មក​ទៅ​ស្ដាំដើម្បី​បិទ​ការ​សន្ទនា ។\n"
 " • អូស​ឡើង​លើ ហើយ​បន្ទាប់​មក​ទៅ​ឆ្វេង​ដើម្បីប្ដូរ​ទៅ​ការ​សន្ទនា​មុន ។\n"
 " • អូស​ឡើង​លើ ហើយ​បន្ទាប់​មក​ទៅ​ស្ដាំ​ដើម្បីប្ដូរ​ទៅ​ការ​សន្ទនា​បន្ទាប់ ។"
@@ -13562,7 +13973,9 @@ msgstr "ជ្រើស​មិត្តភក្ដិ"
 msgid ""
 "Select a person from your address book to add this buddy to, or create a new "
 "person."
-msgstr "ជ្រើស​មនុស្ស​ពី​សៀវភៅ​អាសយដ្ឋាន​របស់​អ្នក ដើម្បីបន្ថែម​មិត្តភក្ដិ ឬ​បង្កើត​មនុស្ស​ថ្មី ។"
+msgstr ""
+"ជ្រើស​មនុស្ស​ពី​សៀវភៅ​អាសយដ្ឋាន​របស់​អ្នក ដើម្បីបន្ថែម​មិត្តភក្ដិ "
+"ឬ​បង្កើត​មនុស្ស​ថ្មី ។"
 
 #. Add the expander
 msgid "User _details"
@@ -13593,7 +14006,8 @@ msgstr "ការ​កំណត់​រចនាសម្ព័ន្ធ​​
 
 #. Label
 msgid "Select all accounts that buddies should be auto-added to."
-msgstr "ជ្រើស​គណនី​ទាំង​អស់​ដែលមិត្តភក្ដិ​គួរ​ត្រូវ​បាន​បន្ថែម​ដោយ​ស្វ័យ​ប្រវត្តិ ។"
+msgstr ""
+"ជ្រើស​គណនី​ទាំង​អស់​ដែលមិត្តភក្ដិ​គួរ​ត្រូវ​បាន​បន្ថែម​ដោយ​ស្វ័យ​ប្រវត្តិ ។"
 
 #. *< type
 #. *< ui_requirement
@@ -13615,7 +14029,8 @@ msgid "Please enter the person's information below."
 msgstr "សូម​បញ្ចូល​ព័ត៌មាន​របស់​មនុស្ស​ខាង​ក្រោម ។"
 
 msgid "Please enter the buddy's username and account type below."
-msgstr "សូម​បញ្ចូល​ឈ្មោះ​អ្នកប្រើ​របស់​មិត្តភក្ដិ និង​ប្រភេទ​គណនី​ខា​ងក្រោម ។"
+msgstr ""
+"សូម​បញ្ចូល​ឈ្មោះ​អ្នកប្រើ​របស់​មិត្តភក្ដិ និង​ប្រភេទ​គណនី​ខា​ងក្រោម ។"
 
 msgid "Account type:"
 msgstr "ប្រភេទ​គណនី ៖"
@@ -13647,7 +14062,9 @@ msgstr "ការ​សាកល្បង​សញ្ញា​ GTK"
 #. *  summary
 #. *  description
 msgid "Test to see that all ui signals are working properly."
-msgstr "សាកល្បង​ដើម្បី​មើល​សញ្ញា​ចំណុច​ប្រទាក់​អ្នកប្រើ​ទាំង​អស់​ដែល​កំពុង​ដំណើរការ​យ៉ាង​ត្រឹមត្រូវ ។"
+msgstr ""
+"សាកល្បង​ដើម្បី​មើល​សញ្ញា​ចំណុច​ប្រទាក់​អ្នកប្រើ​ទាំង​អស់​ដែល​កំពុង​ដំណើរការ​យ"
+"៉ាង​ត្រឹមត្រូវ ។"
 
 #, c-format
 msgid ""
@@ -13674,7 +14091,8 @@ msgstr "កំណត់​រូបតំណាង​នៅពេល​ចាក
 #. *  summary
 #. *  description
 msgid "Iconifies the buddy list and your conversations when you go away."
-msgstr "កំណត់​រូបតំណាង​បញ្ជីមិត្តភក្ដិ និង​ការ​សន្ទនា​របស់​អ្នកនៅពេល​ចាកឆ្ងាយ ។"
+msgstr ""
+"កំណត់​រូបតំណាង​បញ្ជីមិត្តភក្ដិ និង​ការ​សន្ទនា​របស់​អ្នកនៅពេល​ចាកឆ្ងាយ ។"
 
 msgid "Mail Checker"
 msgstr "កម្មវិធី​ពិនិត្យ​សំបុត្រ"
@@ -13683,7 +14101,9 @@ msgid "Checks for new local mail."
 msgstr "ពិនិត្យ​មើល​សំបុត្រ​មូលដ្ឋាន​ថ្មី ។"
 
 msgid "Adds a small box to the buddy list that shows if you have new mail."
-msgstr "បន្ថែម​ប្រអប់​តូច​ទៅ​កាន់បញ្ជី​មិត្តភក្ដិ ដែល​បង្ហាញ​ប្រសិន​បើ​អ្នក​មាន​សំបុត្រ​ថ្មី ។"
+msgstr ""
+"បន្ថែម​ប្រអប់​តូច​ទៅ​កាន់បញ្ជី​មិត្តភក្ដិ "
+"ដែល​បង្ហាញ​ប្រសិន​បើ​អ្នក​មាន​សំបុត្រ​ថ្មី ។"
 
 msgid "Markerline"
 msgstr "បន្ទាត់​សញ្ញា​សម្គាល់"
@@ -13695,7 +14115,7 @@ msgid "Jump to markerline"
 msgstr "លោត​ទៅ​បន្ទាត់​សញ្ញា​សម្គាល់"
 
 msgid "Draw Markerline in "
-msgstr "គូរ​បន្ទាត់​សញ្ញា​សម្គាល់​នៅ​ក្នុង"
+msgstr "គូរ​បន្ទាត់​សញ្ញា​សម្គាល់​នៅ​ក្នុង "
 
 msgid "_IM windows"
 msgstr "បង្អួច IM"
@@ -13749,8 +14169,8 @@ msgid ""
 "The Music Messaging Plugin allows a number of users to simultaneously work "
 "on a piece of music by editing a common score in real-time."
 msgstr ""
-"កម្មវិធី​ជំនួយ​សារ​តន្ត្រី​អនុញ្ញាត​ឲ្យ​អ្នកប្រើ​ជា​ច្រើន​ធ្វើ​ការ​ដំណាល​គ្នា​លើ​ផ្នែក​តន្ត្រី ដោយ​កែសម្រួល​ពិន្ទធម្មតា​"
-"នៅ​ក្នុង real-time ។"
+"កម្មវិធី​ជំនួយ​សារ​តន្ត្រី​អនុញ្ញាត​ឲ្យ​អ្នកប្រើ​ជា​ច្រើន​ធ្វើ​ការ​ដំណាល​គ្នា"
+"​លើ​ផ្នែក​តន្ត្រី ដោយ​កែសម្រួល​ពិន្ទធម្មតា​នៅ​ក្នុង real-time ។"
 
 #. ---------- "Notify For" ----------
 msgid "Notify For"
@@ -13932,20 +14352,24 @@ msgid "Pidgin GTK+ Theme Control"
 msgstr "កម្មវិធី​ជំនួយ GTK+ ការ​ត្រួតពិនិត្យ​ស្បែក"
 
 msgid "Provides access to commonly used gtkrc settings."
-msgstr "ផ្ដល់​នូវ​កា​រចូលដំណើរការ​ទៅកាន់​ការ​កំណត់ gtkrc ដែលបាន​ប្រើ​ធម្មតា ។"
+msgstr ""
+"ផ្ដល់​នូវ​កា​រចូលដំណើរការ​ទៅកាន់​ការ​កំណត់ gtkrc ដែលបាន​ប្រើ​ធម្មតា ។"
 
 msgid "Raw"
 msgstr "ដើម"
 
 msgid "Lets you send raw input to text-based protocols."
-msgstr "អនុញ្ញាត​ឲ្យ​អ្នក​ផ្ញើ​កា​របញ្ចូលដើម​ទៅ​កាន់​​​អត្ថបទ​ដែល​មានមូលដ្ឋាន​លើ​ពិធីការ ។"
+msgstr ""
+"អនុញ្ញាត​ឲ្យ​អ្នក​ផ្ញើ​កា​របញ្ចូលដើម​ទៅ​កាន់​​​អត្ថបទ​ដែល​មានមូលដ្ឋាន​លើ​ពិធី"
+"ការ ។"
 
 msgid ""
 "Lets you send raw input to text-based protocols (XMPP, MSN, IRC, TOC). Hit "
 "'Enter' in the entry box to send. Watch the debug window."
 msgstr ""
-"អនុញ្ញាត​ឲ្យ​អ្នក​ផ្ញើ​ការ​បញ្ចូលដើម​ទៅ​អត្ថបទ​ដែលមានមូលដ្ឋាន​លើ​ពិធីការ (XMPP, MSN, IRC, TOC) ។ ចុច​"
-"គ្រាប់ចុច 'បញ្ចូល (Enter)' នៅ​ក្នុង​ប្រអប់​ធាតុ​ដើម្បី​ផ្ញើ ។ មើល​បង្អួច​បំបាត់កំហុស ។"
+"អនុញ្ញាត​ឲ្យ​អ្នក​ផ្ញើ​ការ​បញ្ចូលដើម​ទៅ​អត្ថបទ​ដែលមានមូលដ្ឋាន​លើ​ពិធីការ "
+"(XMPP, MSN, IRC, TOC) ។ ចុច​គ្រាប់ចុច 'បញ្ចូល (Enter)' "
+"នៅ​ក្នុង​ប្រអប់​ធាតុ​ដើម្បី​ផ្ញើ ។ មើល​បង្អួច​បំបាត់កំហុស ។"
 
 #, c-format
 msgid "You can upgrade to %s %s today."
@@ -13979,7 +14403,9 @@ msgstr "ពិនិត្យ​មើល​ការ​ចេញផ្សាយ
 msgid ""
 "Checks periodically for new releases and notifies the user with the "
 "ChangeLog."
-msgstr "ពិនិត្យ​មើល​កា​ចេញផ្សាយ​​តាមកំណត់​សម្រាប់​ការ​ចេញផ្សាយ​ថ្មី និងជូនដំណឹង​អ្នកប្រើ​ក្នុង ChangeLog ។"
+msgstr ""
+"ពិនិត្យ​មើល​កា​ចេញផ្សាយ​​តាមកំណត់​សម្រាប់​ការ​ចេញផ្សាយ​ថ្មី "
+"និងជូនដំណឹង​អ្នកប្រើ​ក្នុង ChangeLog ។"
 
 #. *< major version
 #. *< minor version
@@ -14001,7 +14427,9 @@ msgstr "ប៊ូតុង​​ផ្ញើ​បង្អួច​សន្ទ
 msgid ""
 "Adds a Send button to the entry area of the conversation window. Intended "
 "for use when no physical keyboard is present."
-msgstr "បន្ថែម​ប៊ូតុង​ផ្ញើទៅ​ផ្ទៃ​ធាតុ​របស់​បង្អួច​សន្ទនា ។ សម្រាប់​ប្រើ​ នៅពេល​គ្មាន​ក្ដារចុច​ហ្វីស៊ីខល ។"
+msgstr ""
+"បន្ថែម​ប៊ូតុង​ផ្ញើទៅ​ផ្ទៃ​ធាតុ​របស់​បង្អួច​សន្ទនា ។ សម្រាប់​ប្រើ​ "
+"នៅពេល​គ្មាន​ក្ដារចុច​ហ្វីស៊ីខល ។"
 
 msgid "Duplicate Correction"
 msgstr "ស្ទួនកំណែ"
@@ -14035,7 +14463,9 @@ msgstr "អ្នកផ្ញើ ៖"
 
 #. Created here so it can be passed to whole_words_button_toggled.
 msgid "_Exact case match (uncheck for automatic case handling)"
-msgstr "ការ​ផ្គូផ្គង​ករណី​ជាក់លាក់ (ដោះធីក​សម្រាប់​ការ​គ្រប់គ្រង​ករណី​ដោ​យ​ស្វ័យ​ប្រវត្តិ)"
+msgstr ""
+"ការ​ផ្គូផ្គង​ករណី​ជាក់លាក់ "
+"(ដោះធីក​សម្រាប់​ការ​គ្រប់គ្រង​ករណី​ដោ​យ​ស្វ័យ​ប្រវត្តិ)"
 
 msgid "Only replace _whole words"
 msgstr "តែ​ការ​ជំនួស​ពាក្យ​ទាំង​មូលប៉ុណ្ណោះ"
@@ -14232,8 +14662,8 @@ msgid ""
 "This plugin allows the user to customize conversation and logging message "
 "timestamp formats."
 msgstr ""
-"កម្មវិធី​ជំនួយ​នេះ​អនុញ្ញាត​ឲ្យ​អ្នកប្រើ​ប្ដូរ​ទ្រង់ទ្រាយ​​ការ​សន្ទនា និង​កា​រចុះ​កំណត់ហេតុ​សារ​ត្រាពេលវេលា​"
-"ផ្ទាល់ខ្លួន ។"
+"កម្មវិធី​ជំនួយ​នេះ​អនុញ្ញាត​ឲ្យ​អ្នកប្រើ​ប្ដូរ​ទ្រង់ទ្រាយ​​ការ​សន្ទនា "
+"និង​កា​រចុះ​កំណត់ហេតុ​សារ​ត្រាពេលវេលា​ផ្ទាល់ខ្លួន ។"
 
 #. Alerts
 msgid "Chatroom alerts"
@@ -14342,7 +14772,9 @@ msgstr "កំណត់​រចនាសម្ព័ន្ធ​មីក្រ
 
 #. *< summary
 msgid "Configure microphone and webcam settings for voice/video calls."
-msgstr "កំណត់​រចនា​សម្ព័ន្ធ​មីក្រូ​ និង​ការ​កំណត់​​​ម៉ាស៊ីន​ថត​តាម​បណ្ដាញ​សម្រាប់​ហៅ​ជា​សំឡេង/វីដេអូ ។"
+msgstr ""
+"កំណត់​រចនា​សម្ព័ន្ធ​មីក្រូ​ "
+"និង​ការ​កំណត់​​​ម៉ាស៊ីន​ថត​តាម​បណ្ដាញ​សម្រាប់​ហៅ​ជា​សំឡេង/វីដេអូ ។"
 
 msgid "Opacity:"
 msgstr "ភាព​ស្រអាប់ ៖"
@@ -14395,7 +14827,8 @@ msgid ""
 "\n"
 "* Note: This plugin requires Win2000 or greater."
 msgstr ""
-"កម្មវិធី​ជំនួយ​នេះ​បើក​ភាព​ថ្លា​អាល់ហ្វា​ដែល​អាច​ប្រើ​បាន​នៅ​ក្នុង​បង្អួច​សន្ទនា និង​បញ្ជីមិត្តភក្ដិ ។\n"
+"កម្មវិធី​ជំនួយ​នេះ​បើក​ភាព​ថ្លា​អាល់ហ្វា​ដែល​អាច​ប្រើ​បាន​នៅ​ក្នុង​បង្អួច​សន្"
+"ទនា និង​បញ្ជីមិត្តភក្ដិ ។\n"
 "\n"
 "* ចំណាំ ៖ កម្មវិធី​ជំនួយ​នេះ​ត្រូវការ Win2000 ឬ​ខ្ពស់​ជាង​នេះ ។"
 
@@ -14429,7 +14862,9 @@ msgstr "ជម្រើស​ជាក់លាក់​ទៅ Pidgin សម្�
 
 msgid ""
 "Provides options specific to Pidgin for Windows, such as buddy list docking."
-msgstr "ផ្ដល់​នូវ​ជម្រើស​ជាក់លាក់ដល់ Pidgin សម្រាប់​វីនដូ ដូចជា​ការ​ចូល​ផែ​នៃ​បញ្ជី​មិត្តភក្ដិ ។"
+msgstr ""
+"ផ្ដល់​នូវ​ជម្រើស​ជាក់លាក់ដល់ Pidgin សម្រាប់​វីនដូ "
+"ដូចជា​ការ​ចូល​ផែ​នៃ​បញ្ជី​មិត្តភក្ដិ ។"
 
 msgid "<font color='#777777'>Logged out.</font>"
 msgstr "<font color='#777777'>បានចេញ ។</font>"
@@ -14444,7 +14879,7 @@ msgid "XMPP Console"
 msgstr "កុងសូល XMPP"
 
 msgid "Account: "
-msgstr "គណនី  ៖"
+msgstr "គណនី  ៖ "
 
 msgid "<font color='#777777'>Not connected to XMPP</font>"
 msgstr "<font color='#777777'>បានតភ្ជាប់​ទៅ​កាន់ XMPP</font>"
@@ -14459,7 +14894,14 @@ msgstr "ផ្ញើ​ និង​ទទួល​ XMPP stanzas ដើម ។"
 msgid "This plugin is useful for debugging XMPP servers or clients."
 msgstr ""
 
-msgid "The installer is already running."
+#. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
+msgid ""
+"$(^Name) is released under the GNU General Public License (GPL). The license "
+"is provided here for information purposes only. $_CLICK"
+msgstr ""
+
+#. Installer Subsection Detailed Description
+msgid "A multi-platform GUI toolkit, used by Pidgin"
 msgstr ""
 
 msgid ""
@@ -14467,50 +14909,8 @@ msgid ""
 "again."
 msgstr ""
 
-#. "Next >" appears on a button on the License Page of the Installer
-msgid "Next >"
-msgstr ""
-
-#. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
-msgid ""
-"$(^Name) is released under the GNU General Public License (GPL). The license "
-"is provided here for information purposes only. $_CLICK"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "GTK+ Runtime (required if not present)"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Shortcuts"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Desktop"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Start Menu"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Localizations"
-msgstr ""
-
 #. Installer Subsection Detailed Description
 msgid "Core Pidgin files and dlls"
-msgstr ""
-
-#. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr ""
-
-#. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr ""
 
 #. Installer Subsection Detailed Description
@@ -14518,53 +14918,15 @@ msgid "Create a Start Menu entry for Pidgin"
 msgstr ""
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr ""
 
 #. Installer Subsection Text
 msgid "Debug Symbols (for reporting crashes)"
 msgstr ""
 
-#. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr ""
-
-msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
-"version will be installed without removing the currently installed version."
-msgstr ""
-
-msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
-msgstr ""
-
 #. Installer Subsection Text
-msgid "URI Handlers"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Spellchecking Support"
-msgstr ""
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-msgstr ""
-
-#. Installer Subsection Detailed Description
-msgid ""
-"Support for Spellchecking.  (Internet connection required for installation)"
-msgstr ""
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgid "Desktop"
 msgstr ""
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
@@ -14574,9 +14936,86 @@ msgid ""
 "from http://pidgin.im/download/windows/ ."
 msgstr ""
 
+#. $R2 will display the URL that the Debug Symbols failed to download from
+msgid ""
+"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
+"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgstr ""
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
+"installation instructions are at: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "GTK+ Runtime (required if not present)"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Localizations"
+msgstr ""
+
+#. "Next >" appears on a button on the License Page of the Installer
+msgid "Next >"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Pidgin Instant Messaging Client (required)"
+msgstr ""
+
+msgid ""
+"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"already present).$\\rAre you sure you want to skip installing the GTK+ "
+"Runtime?"
+msgstr ""
+
+msgid "See applied changes"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Shortcuts"
+msgstr ""
+
+#. Installer Subsection Detailed Description
+msgid "Shortcuts for starting Pidgin"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Spellchecking Support"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Start Menu"
+msgstr ""
+
+#. Installer Subsection Detailed Description
+msgid ""
+"Support for Spellchecking.  (Internet connection required for installation)"
+msgstr ""
+
+msgid "The installer is already running."
+msgstr ""
+
 msgid ""
 "The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
 "that another user installed this application."
+msgstr ""
+
+#. Installer Subsection Text
+msgid "URI Handlers"
+msgstr ""
+
+msgid ""
+"Unable to uninstall the currently installed version of Pidgin. The new "
+"version will be installed without removing the currently installed version."
+msgstr ""
+
+#. Text displayed on Installer Finish Page
+msgid "Visit the Pidgin Web Page"
 msgstr ""
 
 msgid "You do not have permission to uninstall this application."

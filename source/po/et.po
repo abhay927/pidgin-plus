@@ -13,16 +13,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 10:38-0800\n"
-"PO-Revision-Date: 2014-01-21 08:25+0000\n"
+"POT-Creation-Date: 2014-05-22 14:13-0200\n"
+"PO-Revision-Date: 2014-05-26 08:09+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
-"Language-Team: Estonian (http://www.transifex.com/projects/p/pidgin/language/"
-"et/)\n"
-"Language: et\n"
+"Language-Team: Estonian "
+"(http://www.transifex.com/projects/p/pidgin/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2014-06-07 06:45+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
+"Language: et\n"
 
 #. Translators may want to transliterate the name.
 #. It is not to be translated.
@@ -62,8 +64,8 @@ msgid ""
 "http://developer.pidgin.im"
 msgstr ""
 "%s tuvastas vigu seadistuste teisaldamisel %s pealt %s peale. Palun  uuri "
-"lähemalt ja lõpeta teisaldus käsitsi. Palun teavita sellest veast http://"
-"developer.pidgin.im"
+"lähemalt ja lõpeta teisaldus käsitsi. Palun teavita sellest veast "
+"http://developer.pidgin.im"
 
 #. the user did not fill in the captcha
 msgid "Error"
@@ -379,8 +381,8 @@ msgid "Unblock"
 msgstr "Võta blokeering maha"
 
 msgid ""
-"Please enter the username or alias of the person you would like to Block/"
-"Unblock."
+"Please enter the username or alias of the person you would like to "
+"Block/Unblock."
 msgstr ""
 "Palun sisesta isiku kasutajanimi või alias, keda sa soovid blokkida või "
 "kellelt sa soovid blokki eemaldada."
@@ -394,7 +396,8 @@ msgstr "Olgu"
 msgid "New Instant Message"
 msgstr "Uus välksõnum"
 
-msgid "Please enter the username or alias of the person you would like to IM."
+msgid ""
+"Please enter the username or alias of the person you would like to IM."
 msgstr ""
 "Palun sisesta isiku kasutajanimi või alias, kellega soovid välksõnumeid "
 "vahetada."
@@ -574,7 +577,8 @@ msgstr "Konto taaslubamine"
 msgid "No such command."
 msgstr "Sellist käsku pole."
 
-msgid "Syntax Error:  You typed the wrong number of arguments to that command."
+msgid ""
+"Syntax Error:  You typed the wrong number of arguments to that command."
 msgstr "Süntaksi viga:  Sa sisestasid selle käsule vale arvu argumente."
 
 msgid "Your command failed for an unknown reason."
@@ -736,16 +740,18 @@ msgstr "statuses: Salvestatud olekute akna näitamine."
 
 msgid ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Set the color "
-"for different classes of messages in the conversation window.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"for different classes of messages in the conversation window.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 msgstr ""
 "msgcolor &lt;class&gt; &lt;foreground&gt; &lt;background&gt;: Määra "
-"teateaknas erinevate teadetetüüpide puhul erinevad värvid.<br>    &lt;"
-"class&gt;: receive, send, highlight, action, timestamp<br>    &lt;foreground/"
-"background&gt;: black, red, green, blue, white, gray, darkgray, magenta, "
-"cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan default"
+"teateaknas erinevate teadetetüüpide puhul erinevad värvid.<br>    "
+"&lt;class&gt;: receive, send, highlight, action, timestamp<br>    "
+"&lt;foreground/background&gt;: black, red, green, blue, white, gray, "
+"darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
+"default"
 
 msgid "Unable to open file."
 msgstr "Faili pole võimalik avada."
@@ -756,7 +762,7 @@ msgstr "Silumisaken"
 #. XXX: Setting the GROW_Y for the following widgets don't make sense. But right now
 #. * it's necessary to make the width of the debug window resizable ... like I said,
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
-#.
+#. 
 msgid "Clear"
 msgstr "Puhasta"
 
@@ -1441,7 +1447,8 @@ msgstr "X-kuva pole võimalik leida"
 msgid "Couldn't find window"
 msgstr "Akend pole võimalik leida"
 
-msgid "This plugin cannot be loaded because it was not built with X11 support."
+msgid ""
+"This plugin cannot be loaded because it was not built with X11 support."
 msgstr "Seda pluginat pole võimalik laadida, kuna pluginal pole X11 tuge."
 
 msgid "GntClipboard"
@@ -1730,7 +1737,8 @@ msgstr "(POLE VASTAVUSES)"
 #. Make messages
 #, c-format
 msgid "%s has presented the following certificate for just-this-once use:"
-msgstr "Subjekt \"%s\" esitas ühekordseks kasutamiseks järgneva sertifikaadi:"
+msgstr ""
+"Subjekt \"%s\" esitas ühekordseks kasutamiseks järgneva sertifikaadi:"
 
 #, c-format
 msgid ""
@@ -2054,8 +2062,56 @@ msgstr "Tõrge faili ülekandmisel kasutajale %s."
 msgid "File transfer from %s failed."
 msgstr "Tõrge faili ülekandmisel kasutajalt %s."
 
-msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr "Kas määratud käsk peaks käsitlema \"aim\" URL-e või mitte"
+msgid "Run the command in a terminal"
+msgstr "Käsu käivitamine terminalis"
+
+msgid "The command used to handle \"aim\" URLs, if enabled."
+msgstr "\"aim\" URL-ide käsitlemise käsk (kui on lubatud)."
+
+msgid "The command used to handle \"gg\" URLs, if enabled."
+msgstr "\"gg\" URL-ide käsitlemise käsk (kui on lubatud)."
+
+msgid "The command used to handle \"icq\" URLs, if enabled."
+msgstr "\"icq\" URL-ide käsitlemise käsk (kui on lubatud)."
+
+msgid "The command used to handle \"irc\" URLs, if enabled."
+msgstr "\"irc\" URL-ide käsitlemise käsk (kui on lubatud)."
+
+msgid "The command used to handle \"msnim\" URLs, if enabled."
+msgstr "\"msnim\" URL-ide käsitlemise käsk (kui on lubatud)."
+
+msgid "The command used to handle \"sip\" URLs, if enabled."
+msgstr "\"sip\" URL-ide käsitlemise käsk (kui on lubatud)."
+
+msgid "The command used to handle \"xmpp\" URLs, if enabled."
+msgstr "\"xmpp\" URL-ide käsitlemise käsk (kui on lubatud)."
+
+msgid "The command used to handle \"ymsgr\" URLs, if enabled."
+msgstr "\"ymsgr\" URL-ide käsitlemise käsk (kui on lubatud)."
+
+msgid "The handler for \"aim\" URLs"
+msgstr "\"aim\" URL-ide käsitleja"
+
+msgid "The handler for \"gg\" URLs"
+msgstr "\"gg\" URL-ide käsitleja"
+
+msgid "The handler for \"icq\" URLs"
+msgstr "\"icq\" URL-ide käsitleja"
+
+msgid "The handler for \"irc\" URLs"
+msgstr "\"irc\" URL-ide käsitleja"
+
+msgid "The handler for \"msnim\" URLs"
+msgstr "\"msnim\" URL-ide käsitleja"
+
+msgid "The handler for \"sip\" URLs"
+msgstr "\"sip\" URL-ide käsitleja"
+
+msgid "The handler for \"xmpp\" URLs"
+msgstr "\"xmpp\" URL-ide käsitleja"
+
+msgid "The handler for \"ymsgr\" URLs"
+msgstr "\"ymsgr\" URL-ide käsitleja"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
@@ -2064,40 +2120,12 @@ msgstr ""
 "Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema \"aim\" "
 "URL-e."
 
-msgid "The handler for \"aim\" URLs"
-msgstr "\"aim\" URL-ide käsitleja"
-
-msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr "\"aim\" URL-ide käsitlemise käsk (kui on lubatud)."
-
-msgid "Run the command in a terminal"
-msgstr "Käsu käivitamine terminalis"
-
-msgid ""
-"True if the command used to handle this type of URL should be run in a "
-"terminal."
-msgstr ""
-"Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse "
-"terminalis."
-
-msgid "Whether the specified command should handle \"gg\" URLs"
-msgstr "Kas määratud käsk peaks käsitlema \"gg\" URL-e või mitte"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"gg\" "
 "URLs."
 msgstr ""
 "Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema \"gg\" "
 "URL-e."
-
-msgid "The handler for \"gg\" URLs"
-msgstr "\"gg\" URL-ide käsitleja"
-
-msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr "\"gg\" URL-ide käsitlemise käsk (kui on lubatud)."
-
-msgid "Whether the specified command should handle \"icq\" URLs"
-msgstr "Kas määratud käsk peaks käsitlema \"icq\" URL-e või mitte"
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"icq\" "
@@ -2106,15 +2134,6 @@ msgstr ""
 "Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema \"icq\" "
 "URL-e."
 
-msgid "The handler for \"icq\" URLs"
-msgstr "\"icq\" URL-ide käsitleja"
-
-msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr "\"icq\" URL-ide käsitlemise käsk (kui on lubatud)."
-
-msgid "Whether the specified command should handle \"irc\" URLs"
-msgstr "Kas määratud käsk peaks käsitlema \"irc\" URL-e või mitte"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"irc\" "
 "URLs."
@@ -2122,30 +2141,12 @@ msgstr ""
 "Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema \"irc\" "
 "URL-e."
 
-msgid "The handler for \"irc\" URLs"
-msgstr "\"irc\" URL-ide käsitleja"
-
-msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr "\"irc\" URL-ide käsitlemise käsk (kui on lubatud)."
-
-msgid "Whether the specified command should handle \"msnim\" URLs"
-msgstr "Kas määratud käsk peaks käsitlema \"msnim\" URL-e või mitte"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"msnim\" "
 "URLs."
 msgstr ""
-"Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema \"msnim"
-"\" URL-e."
-
-msgid "The handler for \"msnim\" URLs"
-msgstr "\"msnim\" URL-ide käsitleja"
-
-msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr "\"msnim\" URL-ide käsitlemise käsk (kui on lubatud)."
-
-msgid "Whether the specified command should handle \"sip\" URLs"
-msgstr "Kas määratud käsk peaks käsitlema \"sip\" URL-e või mitte"
+"Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema "
+"\"msnim\" URL-e."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"sip\" "
@@ -2154,15 +2155,6 @@ msgstr ""
 "Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema \"sip\" "
 "URL-e."
 
-msgid "The handler for \"sip\" URLs"
-msgstr "\"sip\" URL-ide käsitleja"
-
-msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr "\"sip\" URL-ide käsitlemise käsk (kui on lubatud)."
-
-msgid "Whether the specified command should handle \"xmpp\" URLs"
-msgstr "Kas määratud käsk peaks käsitlema \"xmpp\" URL-e või mitte"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"xmpp\" "
 "URLs."
@@ -2170,27 +2162,43 @@ msgstr ""
 "Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema \"xmpp\" "
 "URL-e."
 
-msgid "The handler for \"xmpp\" URLs"
-msgstr "\"xmpp\" URL-ide käsitleja"
-
-msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr "\"xmpp\" URL-ide käsitlemise käsk (kui on lubatud)."
-
-msgid "Whether the specified command should handle \"ymsgr\" URLs"
-msgstr "Kas määratud käsk peaks käsitlema \"ymsgr\" URL-e või mitte"
-
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ymsgr\" "
 "URLs."
 msgstr ""
-"Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema \"ymsgr"
-"\" URL-e."
+"Kui märgitud, siis peaks \"command\" võtmes määratud käsk käsitlema "
+"\"ymsgr\" URL-e."
 
-msgid "The handler for \"ymsgr\" URLs"
-msgstr "\"ymsgr\" URL-ide käsitleja"
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
+msgstr ""
+"Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse "
+"terminalis."
 
-msgid "The command used to handle \"ymsgr\" URLs, if enabled."
-msgstr "\"ymsgr\" URL-ide käsitlemise käsk (kui on lubatud)."
+msgid "Whether the specified command should handle \"aim\" URLs"
+msgstr "Kas määratud käsk peaks käsitlema \"aim\" URL-e või mitte"
+
+msgid "Whether the specified command should handle \"gg\" URLs"
+msgstr "Kas määratud käsk peaks käsitlema \"gg\" URL-e või mitte"
+
+msgid "Whether the specified command should handle \"icq\" URLs"
+msgstr "Kas määratud käsk peaks käsitlema \"icq\" URL-e või mitte"
+
+msgid "Whether the specified command should handle \"irc\" URLs"
+msgstr "Kas määratud käsk peaks käsitlema \"irc\" URL-e või mitte"
+
+msgid "Whether the specified command should handle \"msnim\" URLs"
+msgstr "Kas määratud käsk peaks käsitlema \"msnim\" URL-e või mitte"
+
+msgid "Whether the specified command should handle \"sip\" URLs"
+msgstr "Kas määratud käsk peaks käsitlema \"sip\" URL-e või mitte"
+
+msgid "Whether the specified command should handle \"xmpp\" URLs"
+msgstr "Kas määratud käsk peaks käsitlema \"xmpp\" URL-e või mitte"
+
+msgid "Whether the specified command should handle \"ymsgr\" URLs"
+msgstr "Kas määratud käsk peaks käsitlema \"ymsgr\" URL-e või mitte"
 
 msgid "<b><font color=\"red\">The logger has no read function</font></b>"
 msgstr "<b><font color=\"red\">Logijal pole lugemisfunktsiooni</font></b>"
@@ -2528,7 +2536,8 @@ msgid "Test plugin IPC support, as a server."
 msgstr "IPC toe testplugin (server)."
 
 #. *  description
-msgid "Test plugin IPC support, as a server. This registers the IPC commands."
+msgid ""
+"Test plugin IPC support, as a server. This registers the IPC commands."
 msgstr "IPC toe testimise serverplugin. See plugin registreerib IPC käske."
 
 msgid "Hide Joins/Parts"
@@ -2985,15 +2994,15 @@ msgid ""
 "install ActiveTCL from http://www.activestate.com\n"
 msgstr ""
 "ActiveTCL'i paigaldust pole võimalik tuvastada. Kui sa soovid TCL-pluginaid "
-"kasutada, siis pead sa paigaldama ActiveTCL'i aadressilt http://www."
-"activestate.com\n"
+"kasutada, siis pead sa paigaldama ActiveTCL'i aadressilt "
+"http://www.activestate.com\n"
 
 msgid ""
-"Unable to find Apple's \"Bonjour for Windows\" toolkit, see http://d.pidgin."
-"im/BonjourWindows for more information."
+"Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
+"http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
-"Ei suudetud leida Apple \"Bonjour for Windows\" tööriista, mine http://d."
-"pidgin.im/BonjourWindows leheküljele, et leida rohkem infot."
+"Ei suudetud leida Apple \"Bonjour for Windows\" tööriista, mine "
+"http://d.pidgin.im/BonjourWindows leheküljele, et leida rohkem infot."
 
 msgid "Unable to listen for incoming IM connections"
 msgstr "Ei suuda sisenevaid IM ühendusi kuulata"
@@ -3119,7 +3128,7 @@ msgid "Please, enter your search criteria below"
 msgstr "Palun sisesta oma otsingukriteerium"
 
 msgid "Show status to:"
-msgstr "Näita olekut: "
+msgstr "Näita olekut:"
 
 msgid "All people"
 msgstr "Kõik inimesed"
@@ -3295,11 +3304,11 @@ msgstr "Selle ühendusega pole päevasõnumit seotud"
 msgid "MOTD for %s"
 msgstr "%s päevasõnum"
 
-#.
+#. 
 #. * TODO: Handle this better. Probably requires a PurpleBOSHConnection
 #. * buffer that stores what is "being sent" until the
 #. * PurpleHTTPConnection reports it is fully sent.
-#.
+#. 
 #. TODO: do we really want to disconnect on a failure to write?
 #, c-format
 msgid "Lost connection with server: %s"
@@ -3372,10 +3381,10 @@ msgstr ""
 msgid "Real name"
 msgstr "Tegelik nimi"
 
-#.
+#. 
 #. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
 #. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
+#. 
 msgid "Use SSL"
 msgstr "Kasutatakse SSL-i"
 
@@ -3419,13 +3428,11 @@ msgstr " <i>(tuvastatud)</i>"
 msgid "Nick"
 msgstr "Hüüdnimi"
 
-#, fuzzy
 msgid "Login name"
-msgstr "Nimetu"
+msgstr ""
 
-#, fuzzy
 msgid "Host name"
-msgstr "Hostinimi"
+msgstr ""
 
 msgid "Currently on"
 msgstr "Hetkel jututubades"
@@ -3576,7 +3583,8 @@ msgstr ""
 msgid "Failed to initialize SASL authentication: %s"
 msgstr "SASL initsialiseerimine nurjus: %s"
 
-msgid "SASL authentication failed: No worthy authentication mechanisms found."
+msgid ""
+"SASL authentication failed: No worthy authentication mechanisms found."
 msgstr "SASL autentimine nurjus: Ei leitud ühtegi väärt mehhanismi."
 
 #, c-format
@@ -3735,7 +3743,8 @@ msgstr ""
 "query &lt;nick&gt; &lt;message&gt;: Saada kasutajale privaatne teade "
 "(erinevalt kanalile saatmisest)"
 
-msgid "quit [message]:  Disconnect from the server, with an optional message."
+msgid ""
+"quit [message]:  Disconnect from the server, with an optional message."
 msgstr ""
 "quit [sõnum]:  Serveriga ühenduse katkestamine. Võimalik on ka katkestamise "
 "kohta sõnum jätta."
@@ -3780,7 +3789,8 @@ msgid "whois [server] &lt;nick&gt;:  Get information on a user."
 msgstr "whois [server] &lt;hüüdnimi&gt;: Kasutaja kohta teabe hankimine."
 
 msgid "whowas &lt;nick&gt;: Get information on a user that has logged off."
-msgstr "whowas &lt;hüüdnimi&gt;: Väljalogitud kasutaja kohta teabe hankimine."
+msgstr ""
+"whowas &lt;hüüdnimi&gt;: Väljalogitud kasutaja kohta teabe hankimine."
 
 #, c-format
 msgid "Reply time from %s: %lu seconds"
@@ -3810,7 +3820,7 @@ msgstr "Server vajab avatekstiautentimist üle krüptimata andmevoo"
 #. This happens when the server sends back jibberish
 #. * in the "additional data with success" case.
 #. * Seen with Wildfire 3.0.1.
-#.
+#. 
 msgid "Invalid response from server"
 msgstr "Serverilt saabus vigane vastus"
 
@@ -3837,8 +3847,10 @@ msgstr ""
 msgid "Server thinks authentication is complete, but client does not"
 msgstr "Server leiab, et autentimine on teostatud, klient on eriarvamusel"
 
-msgid "Server may require plaintext authentication over an unencrypted stream"
-msgstr "Server võib nõuda lahtise tekstiga autentimist üle krüptimata andmevoo"
+msgid ""
+"Server may require plaintext authentication over an unencrypted stream"
+msgstr ""
+"Server võib nõuda lahtise tekstiga autentimist üle krüptimata andmevoo"
 
 #, c-format
 msgid ""
@@ -3869,8 +3881,8 @@ msgstr ""
 "tunnus"
 
 msgid ""
-"The server does support channel binding, but did not appear to advertise "
-"it.  This indicates a likely MITM attack"
+"The server does support channel binding, but did not appear to advertise it. "
+" This indicates a likely MITM attack"
 msgstr ""
 "Tundub, et see server toetab kanalite sidumist, aga ei teavita seda "
 "võimalust. See võib olla \"vahemehe\" tüüpi rünnaku tunnus"
@@ -3936,11 +3948,11 @@ msgstr "URL"
 msgid "Street Address"
 msgstr "Tänavaaadress"
 
-#.
+#. 
 #. * EXTADD is correct, EXTADR is generated by other
 #. * clients. The next time someone reads this, remove
 #. * EXTADR.
-#.
+#. 
 msgid "Extended Address"
 msgstr "Laiendatud aadress"
 
@@ -4834,14 +4846,16 @@ msgstr "Kasutajale %s pole võimalik faili saata, JID on vigane."
 
 #, c-format
 msgid "Unable to send file to %s, user is not online"
-msgstr "Kasutajale %s pole võimalik faili saata, kasutaja pole võrku ühendatud"
+msgstr ""
+"Kasutajale %s pole võimalik faili saata, kasutaja pole võrku ühendatud"
 
 #, c-format
 msgid "Unable to send file to %s, not subscribed to user presence"
 msgstr ""
 
 #, c-format
-msgid "Please select the resource of %s to which you would like to send a file"
+msgid ""
+"Please select the resource of %s to which you would like to send a file"
 msgstr ""
 
 msgid "Afraid"
@@ -5520,7 +5534,8 @@ msgstr "Ava Hotmaili postkast"
 msgid "Send to Mobile"
 msgstr "Saada mobiilile"
 
-msgid "SSL support is needed for MSN. Please install a supported SSL library."
+msgid ""
+"SSL support is needed for MSN. Please install a supported SSL library."
 msgstr "MSN-ile on vaja SSL-i tuge. Palun paigalda toetatud SSL-teek."
 
 #, c-format
@@ -5821,7 +5836,8 @@ msgstr "Viga HTTP analüüsimisel"
 msgid "You have signed on from another location"
 msgstr "Oled mujalt sisse loginud."
 
-msgid "The MSN servers are temporarily unavailable. Please wait and try again."
+msgid ""
+"The MSN servers are temporarily unavailable. Please wait and try again."
 msgstr ""
 "MSN-serverid pole ajutiselt kättesaadavad. Palun oota ja proovi uuesti."
 
@@ -5857,7 +5873,8 @@ msgid "Retrieving buddy list"
 msgstr "Sõbranimekirja vastuvõtmine"
 
 #, c-format
-msgid "%s requests to view your webcam, but this request is not yet supported."
+msgid ""
+"%s requests to view your webcam, but this request is not yet supported."
 msgstr ""
 
 #, c-format
@@ -5929,7 +5946,8 @@ msgstr "Profiili uuendamise viga"
 msgid "Profile"
 msgstr "Profiil"
 
-msgid "Your profile information is not yet retrieved. Please try again later."
+msgid ""
+"Your profile information is not yet retrieved. Please try again later."
 msgstr ""
 
 #. display name
@@ -6446,12 +6464,14 @@ msgstr "Protkolli viga, veakood %d: %s"
 #, c-format
 msgid ""
 "%s Your password is %zu characters, which is longer than the maximum length "
-"of %d.  Please shorten your password at http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword and try again."
+"of %d.  Please shorten your password at "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword and try again."
 msgstr ""
 "%s Sinu parool on %zu tähemärki pikk, mis on pikem kui suurim lubatud pikkus "
-"%d. Palun lühenda oma parooli aadressil http://profileedit.myspace.com/index."
-"cfm?fuseaction=accountSettings.changePassword ja proovi uuesti."
+"%d. Palun lühenda oma parooli aadressil "
+"http://profileedit.myspace.com/index.cfm?fuseaction=accountSettings.changePas"
+"sword ja proovi uuesti."
 
 msgid "Incorrect username or password"
 msgstr "Vigane kasutajanimi või parool"
@@ -6551,8 +6571,8 @@ msgid ""
 "to set your username."
 msgstr ""
 "Viga kasutajanime määramisel. Palun proovi uuesti või külasta kasutajanime "
-"määramiseks aadressi http://editprofile.myspace.com/index.cfm?"
-"fuseaction=profile.username"
+"määramiseks aadressi "
+"http://editprofile.myspace.com/index.cfm?fuseaction=profile.username"
 
 msgid "MySpaceIM - Username Available"
 msgstr "MySpaceIM - Kasutajanimi on saadaval"
@@ -6904,7 +6924,7 @@ msgstr "Kasutaja ID"
 #. if (value) {
 #. purple_notify_user_info_add_pair(user_info, tag, value);
 #. }
-#.
+#. 
 msgid "Full name"
 msgstr "Täisnimi"
 
@@ -6982,7 +7002,7 @@ msgstr "Volituste andmisest keeldumise sõnum:"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
-#.
+#. 
 msgid "_OK"
 msgstr "_Olgu"
 
@@ -7032,8 +7052,8 @@ msgid ""
 msgstr ""
 "(Selle sõnumi vastuvõtmisel tekkis viga.  Ilmselt kasutab sõber, kellega sa "
 "vestled, sellist kooditabelit, mida sinu programm ei oska oodata. Kui sa "
-"tead, mis kooditabelit su sõber kasutab, siis saad sa seda määrata oma AIM/"
-"ICQ konto laiendatud valikute alt.)"
+"tead, mis kooditabelit su sõber kasutab, siis saad sa seda määrata oma "
+"AIM/ICQ konto laiendatud valikute alt.)"
 
 #, c-format
 msgid ""
@@ -7462,7 +7482,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #, c-format
-msgid "You missed %hu message from %s because your warning level is too high."
+msgid ""
+"You missed %hu message from %s because your warning level is too high."
 msgid_plural ""
 "You missed %hu messages from %s because your warning level is too high."
 msgstr[0] ""
@@ -8044,8 +8065,8 @@ msgstr ""
 
 #, c-format
 msgid ""
-"You can add a buddy to this list by right-clicking on them and selecting \"%s"
-"\""
+"You can add a buddy to this list by right-clicking on them and selecting "
+"\"%s\""
 msgstr ""
 
 msgid "Visible List"
@@ -8324,7 +8345,8 @@ msgid "No matches"
 msgstr "Vastavusi pole"
 
 #, c-format
-msgid "The identifier '%s' did not match any users in your Sametime community."
+msgid ""
+"The identifier '%s' did not match any users in your Sametime community."
 msgstr ""
 
 msgid "No Matches"
@@ -9112,8 +9134,10 @@ msgstr ""
 msgid "msg &lt;nick&gt; &lt;message&gt;:  Send a private message to a user"
 msgstr "msg &lt;hüüdnimi&gt; &lt;sõnum&gt;:  Erasõnumi saatmine kasutajale"
 
-msgid "query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
-msgstr "query &lt;hüüdnimi&gt; [&lt;sõnum&gt;]:  Erasõnumi saatmine kasutajale"
+msgid ""
+"query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user"
+msgstr ""
+"query &lt;hüüdnimi&gt; [&lt;sõnum&gt;]:  Erasõnumi saatmine kasutajale"
 
 msgid "motd:  View the server's Message Of The Day"
 msgstr "motd:  Serveri päevasõnumi vaatamine"
@@ -9136,7 +9160,8 @@ msgid "nick &lt;newnick&gt;:  Change your nickname"
 msgstr "nick &lt;uus_hüüdnimi&gt;:  Sinu hüüdmine muutmine"
 
 msgid "whowas &lt;nick&gt;:  View nick's information"
-msgstr "whowas &lt;hüüdnimi&gt;:  Selle hüüdnimega kasutaja andmete vaatamine"
+msgstr ""
+"whowas &lt;hüüdnimi&gt;:  Selle hüüdnimega kasutaja andmete vaatamine"
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -9159,7 +9184,8 @@ msgid ""
 "channel invite list"
 msgstr ""
 
-msgid "kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
+msgid ""
+"kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel"
 msgstr ""
 "kick &lt;kanal&gt; &lt;hüüdnimi&gt; [kommentaar]:  Kasutaja kanalilt "
 "väljalöömine"
@@ -9598,7 +9624,8 @@ msgstr ""
 "siis, kui Yahoo! ID asemel sisestatakse e-posti aadress."
 
 #, c-format
-msgid "Unknown error number %d. Logging into the Yahoo! website may fix this."
+msgid ""
+"Unknown error number %d. Logging into the Yahoo! website may fix this."
 msgstr ""
 "Tundmatu veanumber %d. Yahoo! veebisaiti sisselogimine võib selle parandada."
 
@@ -9697,7 +9724,7 @@ msgstr ""
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
-#.
+#. 
 msgid "Sent Doodle request."
 msgstr "Doodle päringu saatmine."
 
@@ -9892,18 +9919,18 @@ msgid ""
 msgstr ""
 
 msgid ""
-"zci &lt;class&gt; &lt;instance&gt;: Send a message to &lt;<i>class</i>,"
-"<i>instance</i>,*&gt;"
+"zci &lt;class&gt; &lt;instance&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,*&gt;"
 msgstr ""
 
 msgid ""
-"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;"
-"<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
+"zcir &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;<i>class</i>,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 
 msgid ""
-"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to &lt;MESSAGE,"
-"<i>instance</i>,<i>recipient</i>&gt;"
+"zir &lt;instance&gt; &lt;recipient&gt;: Send a message to "
+"&lt;MESSAGE,<i>instance</i>,<i>recipient</i>&gt;"
 msgstr ""
 
 msgid "zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;"
@@ -9982,7 +10009,7 @@ msgstr "%s otsib sinu tähelepanu!"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c Yes and @c No buttons.
-#.
+#. 
 msgid "_Yes"
 msgstr "_Jah"
 
@@ -9991,17 +10018,17 @@ msgstr "_Ei"
 
 #. *
 #. * A wrapper for purple_request_action() that uses Accept and Cancel buttons.
-#.
+#. 
 #. *
 #. * A wrapper for purple_request_action_with_icon() that uses Accept and Cancel
 #. * buttons.
-#.
+#. 
 msgid "_Accept"
 msgstr "_Nõustu"
 
 #. *
 #. * The default message to use when the user becomes auto-away.
-#.
+#. 
 msgid "I'm not here right now"
 msgstr "Ma pole hetkel siin"
 
@@ -10093,12 +10120,12 @@ msgstr "+++ %s jäi jõude"
 msgid "+++ %s became unidle"
 msgstr "+++ %s naases jõudeolekust"
 
-#.
+#. 
 #. * This string determines how some dates are displayed.  The default
 #. * string "%x %X" shows the date then the time.  Translators can
 #. * change this to "%X %x" if they want the time to be shown first,
 #. * followed by the date.
-#.
+#. 
 #, c-format
 msgid "%x %X"
 msgstr "%x %X"
@@ -10213,15 +10240,15 @@ msgid ""
 "the old file has been renamed to %s~."
 msgstr ""
 
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin, Interneti sõnumivahetus"
+msgid ""
+"Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
+msgstr ""
 
 msgid "Internet Messenger"
 msgstr "Interneti sõnumivahetus"
 
-msgid ""
-"Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more"
-msgstr ""
+msgid "Pidgin Internet Messenger"
+msgstr "Pidgin, Interneti sõnumivahetus"
 
 #. Build the login options frame.
 msgid "Login Options"
@@ -10872,9 +10899,10 @@ msgstr ""
 msgid ""
 "<span weight='bold' size='larger'>Welcome to %s!</span>\n"
 "\n"
-"You have no accounts enabled. Enable your IM accounts from the <b>Accounts</"
-"b> window at <b>Accounts->Manage Accounts</b>. Once you enable accounts, "
-"you'll be able to sign on, set your status, and talk to your friends."
+"You have no accounts enabled. Enable your IM accounts from the "
+"<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you enable "
+"accounts, you'll be able to sign on, set your status, and talk to your "
+"friends."
 msgstr ""
 "<span weight='bold' size='larger'>Tele tulemast programmi %s!</span>\n"
 "\n"
@@ -10885,7 +10913,7 @@ msgstr ""
 
 #. set the Show Offline Buddies option. must be done
 #. * after the treeview or faceprint gets mad. -Robot101
-#.
+#. 
 msgid "/Buddies/Show/Offline Buddies"
 msgstr "/Sõbrad/Näita/Ühenduseta sõpru"
 
@@ -11662,30 +11690,19 @@ msgstr "T.M.Thanh ja Gnome-Vi meeskond"
 
 #, c-format
 msgid ""
-"%s is a messaging client based on libpurple which is capable of connecting "
-"to multiple messaging services at once.  %s is written in C using GTK+.  %s "
-"is released, and may be modified and redistributed,  under the terms of the "
-"GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
-"copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+"%s</i><br><br><font color='red'>Modified version with no support from the "
+"official team.</font><br><br>"
 msgstr ""
 
 #, c-format
 msgid ""
-"<FONT SIZE=\"4\"><B>Helpful Resources</B></FONT><BR>\t<A HREF=\"%s"
-"\">Website</A><BR>\t<A HREF=\"%s\">Frequently Asked Questions</A><BR>\tIRC "
-"Channel: #pidgin on irc.freenode.net<BR>\tXMPP MUC: devel@conference.pidgin."
-"im<BR><BR>"
-msgstr ""
-
-msgid ""
-"<font size=\"4\"><b>Help from other Pidgin users</b></font> is available by "
-"e-mailing <a href=\"mailto:support@pidgin.im\">support@pidgin.im</a><br/"
-">This is a <b>public</b> mailing list! (<a href=\"http://pidgin.im/pipermail/"
-"support/\">archive</a>)<br/>We can't help with third-party protocols or "
-"plugins!<br/>This list's primary language is <b>English</b>.  You are "
-"welcome to post in another language, but the responses may be less helpful."
-"<br/>"
+"%s is a messaging client based on libpurple which is capable of connecting "
+"to multiple messaging services at once.  %s is written in C using GTK+.  %s "
+"is released, and may be modified and redistributed,  under the terms of the "
+"GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
+"copyrighted by its contributors, a list of whom is also distributed with %s. "
+" There is no warranty for %s.<BR><BR>"
 msgstr ""
 
 #, c-format
@@ -11973,7 +11990,8 @@ msgstr ""
 msgid "\"Attention\" Name Color"
 msgstr ""
 
-msgid "Color to draw the name of a message you received containing your name."
+msgid ""
+"Color to draw the name of a message you received containing your name."
 msgstr ""
 
 msgid "Action Message Name Color"
@@ -13314,11 +13332,11 @@ msgstr "Pidgini vihje"
 msgid "Pidgin smileys"
 msgstr "Pidgini tujunäod"
 
-msgid "none"
-msgstr "puudub"
-
 msgid "Selecting this disables graphical emoticons."
 msgstr "Selle valimine keelab graafilised tujunäod."
+
+msgid "none"
+msgstr "puudub"
 
 msgid "Small"
 msgstr "Väike"
@@ -13734,7 +13752,8 @@ msgstr "Ikoonimine eemaldumisel"
 #. *  summary
 #. *  description
 msgid "Iconifies the buddy list and your conversations when you go away."
-msgstr "Sõbranimekirja ja vestlusakende ikooniks taandamine Sinu eemaldumisel."
+msgstr ""
+"Sõbranimekirja ja vestlusakende ikooniks taandamine Sinu eemaldumisel."
 
 msgid "Mail Checker"
 msgstr "E-post kontrollija"
@@ -13821,7 +13840,7 @@ msgid "Notify For"
 msgstr "Teavitused kehtivad"
 
 msgid "\t_Only when someone says your username"
-msgstr "Ainult ju_hul, kui keegi ütleb Sinu kasutajanime"
+msgstr "\tAinult ju_hul, kui keegi ütleb Sinu kasutajanime"
 
 msgid "_Focused windows"
 msgstr "_Fookuses olevatele akendele"
@@ -14322,9 +14341,8 @@ msgstr ""
 msgid "Show number of unread _messages on launcher icon"
 msgstr ""
 
-#, fuzzy
 msgid "Show number of unread co_nversations on launcher icon"
-msgstr "Vestluste arv akna kohta"
+msgstr ""
 
 #. Messaging menu integration
 msgid "Messaging Menu"
@@ -14531,46 +14549,19 @@ msgstr ""
 msgid "This plugin is useful for debugging XMPP servers or clients."
 msgstr "See plugin on kasulik XMPP-serverite või klientide silumisel."
 
-msgid "The installer is already running."
-msgstr "Paigaldusprogramm juba töötab."
-
-msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
-"again."
-msgstr ""
-
-#. "Next >" appears on a button on the License Page of the Installer
-msgid "Next >"
-msgstr "Järgmine >"
-
 #. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
 msgid ""
 "$(^Name) is released under the GNU General Public License (GPL). The license "
 "is provided here for information purposes only. $_CLICK"
 msgstr ""
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
+#. Installer Subsection Detailed Description
+msgid "A multi-platform GUI toolkit, used by Pidgin"
 msgstr ""
 
-#. Installer Subsection Text
-msgid "GTK+ Runtime (required if not present)"
-msgstr ""
-
-#. Installer Subsection Text
-msgid "Shortcuts"
-msgstr "Otseteed"
-
-#. Installer Subsection Text
-msgid "Desktop"
-msgstr "Töölaud"
-
-#. Installer Subsection Text
-msgid "Start Menu"
-msgstr "Start menüü"
-
-#. Installer Subsection Text
-msgid "Localizations"
+msgid ""
+"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"again."
 msgstr ""
 
 #. Installer Subsection Detailed Description
@@ -14578,68 +14569,20 @@ msgid "Core Pidgin files and dlls"
 msgstr ""
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Otseteed Pidgini käivituseks"
+msgid "Create a Start Menu entry for Pidgin"
+msgstr "Pidgini jaoks Start menüü kirje loomine"
 
 #. Installer Subsection Detailed Description
 msgid "Create a shortcut to Pidgin on the Desktop"
 msgstr "Pidgini jaoks töölauaviida loomine"
 
-#. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Pidgini jaoks Start menüü kirje loomine"
-
-#. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr ""
-
 #. Installer Subsection Text
 msgid "Debug Symbols (for reporting crashes)"
 msgstr "Debug sümbolid (pangestumistest teavitamiseks)"
 
-#. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Külasta Pidgini kodulehekülge"
-
-msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
-"version will be installed without removing the currently installed version."
-msgstr ""
-"Käesolevat Pidgini versiooni ei õnnestu eemaldada. Uus versioon "
-"paigaldatakse hetkel paigaldatud versiooni eemaldamiseta."
-
-msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
-msgstr ""
-
 #. Installer Subsection Text
-msgid "URI Handlers"
-msgstr "URI käsitlejad"
-
-#. Installer Subsection Text
-msgid "Spellchecking Support"
-msgstr "Õigekirjakontrolli tugi"
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-msgstr ""
-
-#. Installer Subsection Detailed Description
-msgid ""
-"Support for Spellchecking.  (Internet connection required for installation)"
-msgstr "Õigekirjakontrolli tugi.  (Paigaldamiseks on vaja internetiühendust)"
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
-msgstr ""
+msgid "Desktop"
+msgstr "Töölaud"
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
@@ -14648,12 +14591,91 @@ msgid ""
 "from http://pidgin.im/download/windows/ ."
 msgstr ""
 
+#. $R2 will display the URL that the Debug Symbols failed to download from
+msgid ""
+"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
+"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+msgstr ""
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
+"installation instructions are at: "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "GTK+ Runtime (required if not present)"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Localizations"
+msgstr ""
+
+#. "Next >" appears on a button on the License Page of the Installer
+msgid "Next >"
+msgstr "Järgmine >"
+
+#. Installer Subsection Text
+msgid "Pidgin Instant Messaging Client (required)"
+msgstr ""
+
+msgid ""
+"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"already present).$\\rAre you sure you want to skip installing the GTK+ "
+"Runtime?"
+msgstr ""
+
+msgid "See applied changes"
+msgstr ""
+
+#. Installer Subsection Text
+msgid "Shortcuts"
+msgstr "Otseteed"
+
+#. Installer Subsection Detailed Description
+msgid "Shortcuts for starting Pidgin"
+msgstr "Otseteed Pidgini käivituseks"
+
+#. Installer Subsection Text
+msgid "Spellchecking Support"
+msgstr "Õigekirjakontrolli tugi"
+
+#. Installer Subsection Text
+msgid "Start Menu"
+msgstr "Start menüü"
+
+#. Installer Subsection Detailed Description
+msgid ""
+"Support for Spellchecking.  (Internet connection required for installation)"
+msgstr "Õigekirjakontrolli tugi.  (Paigaldamiseks on vaja internetiühendust)"
+
+msgid "The installer is already running."
+msgstr "Paigaldusprogramm juba töötab."
+
 msgid ""
 "The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
 "that another user installed this application."
 msgstr ""
 "Eemaldamisprogrammil pole võimalik Pidgini registrivõtmed leida.$\\rPaistab "
 "sedamoodi, et selle rakenduse on paigaldanud mõni teine kasutaja."
+
+#. Installer Subsection Text
+msgid "URI Handlers"
+msgstr "URI käsitlejad"
+
+msgid ""
+"Unable to uninstall the currently installed version of Pidgin. The new "
+"version will be installed without removing the currently installed version."
+msgstr ""
+"Käesolevat Pidgini versiooni ei õnnestu eemaldada. Uus versioon "
+"paigaldatakse hetkel paigaldatud versiooni eemaldamiseta."
+
+#. Text displayed on Installer Finish Page
+msgid "Visit the Pidgin Web Page"
+msgstr "Külasta Pidgini kodulehekülge"
 
 msgid "You do not have permission to uninstall this application."
 msgstr "Sul pole õigust seda rakendust eemaldada."
