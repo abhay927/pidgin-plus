@@ -15,7 +15,7 @@ if [[ "$1" = "--update-version" ]]; then
 fi
 
 # Prepare for changelog generation
-if [[ "$1" =~ "--(html|ubuntu)" ]]; then
+if [[ "$1" =~ "--(html|debian)" ]]; then
     version_pattern="PACKAGE_VERSION=[\"']?([^\"']+)[\"']?"
     pidgin_version=$(grep -E "$version_pattern" ../source/configure | sed -r s/"$version_pattern"/'\1'/)
     custom_version=$(grep -E "$suffix_pattern" ../source/configure.ac | sed -r s/"$suffix_pattern"/'\1'/)
@@ -31,17 +31,17 @@ if [[ "$1" = "--html" ]]; then
     exit
 fi
 
-# Ubuntu changelog
-if [[ "$1" = "--ubuntu" ]]; then
+# Debian changelog
+if [[ "$1" = "--debian" ]]; then
     [[ $(uname -s) = Linux ]] && package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed s/-/-${custom_version,,}+/)
     distribution=$(lsb_release --codename --short 2> /dev/null || echo DISTRIBUTION)
     maintainer=$(bzr whoami 2> /dev/null || echo "${DEBFULLNAME:-NAME} <${DEBEMAIL:-EMAIL}>")
     xsl_parameters="$xsl_parameters -s package.version=${package_version:-VERSION} -s distribution=$distribution"
-    xmlstarlet transform --omit-decl changelog.debian.xsl $xsl_parameters -s maintainer="$maintainer" -s date="$(date -R)" changelog.xml | dos2unix > changelog.ubuntu.txt
+    xmlstarlet transform --omit-decl changelog.debian.xsl $xsl_parameters -s maintainer="$maintainer" -s date="$(date -R)" changelog.xml | dos2unix > changelog.debian.txt
     exit
 fi
 
 echo "Usage: $(basename "$0") OPTION
     --html            Generate the HTML changelog.
-    --ubuntu          Generate the Ubuntu package changelog entry.
+    --debian          Generate the Debian package changelog entry.
     --update-version  Bump version suffix to RS{day-of-year}."
