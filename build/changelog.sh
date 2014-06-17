@@ -7,6 +7,13 @@ pidgin_version=$(grep -E "$version_pattern" ../source/configure | sed -r s/"$ver
 custom_version=$(grep -E "$suffix_pattern" ../source/configure.ac | sed -r s/"$suffix_pattern"/'\1'/)
 xsl_parameters="-s version=$pidgin_version -s version.custom=$custom_version -s bugs.url=https://developer.pidgin.im/ticket"
 
+if [[ "$1" = "--update-version" ]]; then
+    script_dir=$(dirname "$0")
+    source_dir=$(readlink -e "$script_dir/../source")
+    sed -ri "s/$suffix_pattern/m4_define([purple_version_suffix], [-RS$(date +%j)])/" "$source_dir/configure.ac"
+    exit
+fi
+
 if [[ "$1" != "--ubuntu" ]]; then
     xmlstarlet transform --omit-decl changelog.html.xsl $xsl_parameters changelog.xml | dos2unix > changelog.unformatted.html
     xmlstarlet format --html --omit-decl --nocdata --indent-spaces 4 changelog.unformatted.html | dos2unix > changelog.html
