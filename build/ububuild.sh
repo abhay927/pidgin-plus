@@ -4,10 +4,12 @@
 # Copyright (c) 2014 Renato Silva
 # GNU GPLv2 licensed
 
-if [[ "$0" == "$BASH_SOURCE" || ("$2" != "--prepare" && "$2" != "--import") ]]; then
+if [[ ("$2" != "--prepare" && "$2" != "--build" && "$2" != "--upload" && "$2" != "--import") ||
+    "$0" == "$BASH_SOURCE" ]]; then
     echo "Usage: source $BASH_SOURCE BUILD_ROOT OPTION
-    --prepare  Prepare for building the Ubuntu package. Currently the package
-               should be built manually.
+    --prepare  Prepare for building the Ubuntu package.
+    --build    Build the source package.
+    --upload   Upload the source package to the PPA.
     --import   Import modified debian and quilt directories back into this
                branch for further committing."
     [[ "$0" == "$BASH_SOURCE" ]] && exit
@@ -19,8 +21,25 @@ if [[ $(lsb_release --id --short 2> /dev/null) != "Ubuntu" ]]; then
     return 1
 fi
 
-upstream_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F'[:-]' '{ print $3 }')
-build_dir="$1/pidgin-$upstream_version"
+build_dir="$1/pidgin-$(./changelog.sh --upstream-version)"
+
+# Build the source package
+if [[ "$2" = "--build" ]]; then
+    cd "$build_dir"
+    origtargz --download-only --tar-only
+    debuild -S -sd
+    cd - > /dev/null
+    return
+fi
+
+# Upload to PPA
+if [[ "$2" = "--upload" ]]; then
+    source_changes="../pidgin_$(./changelog.sh --package-version)_source.changes"
+    cd "$build_dir"
+    dput ppa:$(bzr launchpad-login)/ppa "$source_changes"
+    cd - > /dev/null
+    return
+fi
 
 # Import changes into branch
 if [[ "$2" = "--import" ]]; then
@@ -28,7 +47,7 @@ if [[ "$2" = "--import" ]]; then
     cp -vr "$build_dir/debian" ../ubuntu
     cp -vr "$build_dir/.pc" ../ubuntu
     mv ../ubuntu/.pc ../ubuntu/quilt
-    return 1
+    return
 fi
 
 # Set name and email address
@@ -47,7 +66,7 @@ if [[ -e "$build_dir" ]]; then
     echo "Error: target build directory already exists: $build_dir."
     return 1
 fi
-echo "Creating ${build_dir##*/}...";  bzr export -r 1 "$build_dir" ..
+echo "Creating ${build_dir##*/}...";  bzr export "$build_dir" ../source
 echo "Creating debian directory...";  bzr export "$build_dir/debian" ../ubuntu/debian
 echo "Creating quilt directory...";   bzr export "$build_dir/.pc" ../ubuntu/quilt
 export QUILT_PATCHES=debian/patches
