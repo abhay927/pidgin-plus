@@ -5,7 +5,7 @@
 # GNU GPLv2 licensed
 
 if [[ "$0" == "$BASH_SOURCE" || ("$2" != "--prepare" && "$2" != "--import") ]]; then
-    echo "Usage: source $BASH_SOURCE OPTION BUILD_ROOT
+    echo "Usage: source $BASH_SOURCE BUILD_ROOT OPTION
     --prepare  Prepare for building the Ubuntu package. Currently the package
                should be built manually.
     --import   Import modified debian and quilt directories back into this
