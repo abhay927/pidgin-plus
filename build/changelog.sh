@@ -19,7 +19,7 @@ if [[ "$1" = --html || "$1" = --debian || "$1" = --*version* ]]; then
     version_pattern="PACKAGE_VERSION=[\"']?([^\"']+)[\"']?"
     pidgin_version=$(grep -E "$version_pattern" ../source/configure | sed -r s/"$version_pattern"/'\1'/)
     custom_version=$(grep -E "$suffix_pattern" ../source/configure.ac | sed -r s/"$suffix_pattern"/'\1'/)
-    [[ $(uname -s) = Linux ]] && package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed s/-/-${custom_version,,}+/)
+    [[ $(uname -s) = Linux ]] && package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${custom_version,,}\+){0,1}/-${custom_version,,}+/")
     xsl_parameters="-s version=$pidgin_version -s version.custom=$custom_version -s bugs.url=https://developer.pidgin.im/ticket"
 fi
 
