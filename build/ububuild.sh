@@ -7,11 +7,12 @@
 if [[ ("$2" != "--prepare" && "$2" != "--build" && "$2" != "--upload" && "$2" != "--import") ||
     "$0" == "$BASH_SOURCE" ]]; then
     echo "Usage: source $BASH_SOURCE BUILD_ROOT OPTION
-    --prepare  Prepare for building the Ubuntu package.
-    --build    Build the source package.
-    --upload   Upload the source package to the PPA.
-    --import   Import modified debian and quilt directories back into this
-               branch for further committing."
+    --prepare           Prepare for building the Ubuntu package.
+    --build             Build the source package.
+    --upload [TARGET]   Upload the source package to the PPA at
+                        ppa:<launchpad-user>/TARGET. TARGET defaults to main.
+    --import            Import modified debian and quilt directories back into this
+                        branch for further committing."
     [[ "$0" == "$BASH_SOURCE" ]] && exit
     return
 fi
@@ -36,7 +37,7 @@ fi
 if [[ "$2" = "--upload" ]]; then
     source_changes="../pidgin_$(./changelog.sh --package-version)_source.changes"
     cd "$build_dir"
-    dput ppa:$(bzr launchpad-login)/ppa "$source_changes"
+    dput "ppa:$(bzr launchpad-login)/${3:-main}" "$source_changes"
     cd - > /dev/null
     return
 fi
