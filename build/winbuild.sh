@@ -6,31 +6,57 @@
 ##     GNU GPLv2 licensed
 ##
 ## This is the builder script for Pidgin++ on Windows. Source code will be
-## exported to an appropriate staging directory "pidgin.build" within the
-## specified development root. After compilation the installer will have been
-## generated alongside the staging directory.
+## exported to an appropriate staging directory within the specified development
+## root. Result is a standard installer (without GTK+) placed alongside the
+## staging directory by default.
 ##
 ## Usage:
 ##     @script.name DEVELOPMENT_ROOT [options]
 ##
-##     -r, --reset  Recreates the staging directory from scratch.
+##     -g, --gtk            Build the GTK+ runtime instead of installers, if
+##                          version is suffixed with "devel".
+##     -o, --offline        Build both the standard and offline installers.
+##
+##     -r, --reset          Recreates the staging directory from scratch.
+##     -s, --staging=DIR    Staging directory, defaults to "pidgin.build".
+##     -d, --directory=DIR  Save result to DIR instead of DEVELOPMENT_ROOT.
 ##
 
+# Parse options
 eval "$(from="$0" easyoptions.rb "$@"; echo result=$?)"
 [[ ! -d "${arguments[0]}" && $result  = 0 ]] && echo "No valid development root specified, see --help."
 [[ ! -d "${arguments[0]}" || $result != 0 ]] && exit
 
+# Variables
 devroot="${arguments[0]}"
-pidgin="$devroot/pidgin.build"
-[[ -n "$reset" ]] && rm -rf "$pidgin"
-mkdir -p "$pidgin"
-cp -r ../source/* "$pidgin"
-changelog.sh --html && mv -v changelog.html "$pidgin/CHANGES.html"
-eval $(../../windev/pidgin-windev.sh "$devroot" --path)
-cd "$pidgin"
+version=$(changelog.sh --version)
+staging="$devroot/${staging:-pidgin.build}"
+target="${directory:-$devroot}"
 
-make -f Makefile.mingw installer
-mv -v pidgin-*.exe "$devroot/Pidgin $(cat VERSION) Setup.exe"
+# Staging dir
+[[ -n "$reset" ]] && rm -rf "$staging"
+mkdir -p "$staging"
+cp -r ../source/* "$staging"
+changelog.sh --html && mv -v changelog.html "$staging/CHANGES.html"
+
+# Prepare
+eval $(../../windev/pidgin-windev.sh "$devroot" --path)
+cd "$staging"
+
+# GTK+ runtime
+if [[ -n "$gtk" ]]; then
+    if [[ "$version" != *devel ]]; then
+        echo 'GTK+ can only be generated for "devel" versions, see --help.'
+        exit 1
+    fi
+    make -f Makefile.mingw gtk_runtime_zip
+    exit 0
+fi
+
+# Installers
+make -f Makefile.mingw "installer${offline:+s}"
+[[ -n "$offline" ]] && mv -v pidgin-*-offline.exe "$target/Pidgin $version Offline Setup.exe"
+mv -v pidgin-*.exe "$target/Pidgin $version Setup.exe"
 make -f Makefile.mingw uninstall
 rm -fv *.zip
 cd -
