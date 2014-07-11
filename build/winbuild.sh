@@ -1,17 +1,28 @@
 #!/bin/bash
 
-# Pidgin Windows Build Helper
-# Copyright (c) 2014 Renato Silva
-# GNU GPLv2 licensed
+##
+##     Pidgin++ Windows Builder
+##     Copyright (c) 2014 Renato Silva
+##     GNU GPLv2 licensed
+##
+## This is the builder script for Pidgin++ on Windows. Source code will be
+## exported to an appropriate staging directory "pidgin.build" within the
+## specified development root. After compilation the installer will have been
+## generated alongside the staging directory.
+##
+## Usage:
+##     @script.name DEVELOPMENT_ROOT [options]
+##
+##     -r, --reset  Recreates the staging directory from scratch.
+##
 
-if [[ -z "$1" ]]; then
-    echo "Usage: $(basename "$0") DEVELOPMENT_ROOT [--reset]"
-    exit
-fi
+eval "$(from="$0" easyoptions.rb "$@"; echo result=$?)"
+[[ ! -d "${arguments[0]}" && $result  = 0 ]] && echo "No valid development root specified, see --help."
+[[ ! -d "${arguments[0]}" || $result != 0 ]] && exit
 
-devroot="$1"
+devroot="${arguments[0]}"
 pidgin="$devroot/pidgin.build"
-[[ "$2" = "--reset" ]] && rm -rf "$pidgin"
+[[ -n "$reset" ]] && rm -rf "$pidgin"
 mkdir -p "$pidgin"
 cp -r ../source/* "$pidgin"
 changelog.sh --html && mv -v changelog.html "$pidgin/CHANGES.html"
