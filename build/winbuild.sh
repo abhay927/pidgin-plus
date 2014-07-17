@@ -34,6 +34,12 @@ staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
 
+# GTK+ runtime only for devel version
+if [[ -n "$gtk" && "$version" != *devel ]]; then
+    echo 'GTK+ can only be generated for "devel" versions, see --help.'
+    exit 1
+fi
+
 # Pidgin Windev
 if [[ ! -e "$windev" ]]; then
     tarball="$devroot/downloads/pidgin-windev.tar.gz"
@@ -55,10 +61,6 @@ cd "$staging"
 
 # GTK+ runtime
 if [[ -n "$gtk" ]]; then
-    if [[ "$version" != *devel ]]; then
-        echo 'GTK+ can only be generated for "devel" versions, see --help.'
-        exit 1
-    fi
     make -f Makefile.mingw gtk_runtime_zip
     exit 0
 fi
