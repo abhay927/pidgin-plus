@@ -27,6 +27,7 @@
 #include <config.h>
 #endif
 #ifdef USE_GTKSPELL
+#include "win32dep.h"
 #include <windows.h>
 #include <string.h>
 #include <stdlib.h>
@@ -34,7 +35,6 @@
 #include <gtk/gtk.h>
 #include <gtkspell/gtkspell.h>
 #include "debug.h"
-#include "win32dep.h"
 #include "wspell.h"
 
 /* Intermediate function so that we can eat Enchant error popups when it doesn't find a DLL

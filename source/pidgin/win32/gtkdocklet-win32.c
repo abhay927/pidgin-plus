@@ -22,11 +22,11 @@
  * 02111-1301, USA.
  */
 #define _WIN32_IE 0x0500
+#include "internal.h"
 #include <windows.h>
 #include <gdk/gdkwin32.h>
 #include <gdk/gdk.h>
 
-#include "internal.h"
 #include "gtkblist.h"
 #include "debug.h"
 

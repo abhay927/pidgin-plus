@@ -69,7 +69,7 @@ cp -r ../source/* "$staging"
 ./changelog.sh --html && mv -v changelog.html "$staging/CHANGES.html"
 
 # Prepare
-eval $("$windev" "$devroot" --path)
+eval $("$windev" "$devroot" --path --system-gcc)
 cd "$staging"
 
 # GTK+ runtime
