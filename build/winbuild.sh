@@ -32,6 +32,16 @@ devroot="${arguments[0]}"
 version=$(changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot}"
+windev="$devroot/win32-dev/pidgin-windev.sh"
+
+# Pidgin Windev
+if [[ ! -e "$windev" ]]; then
+    tarball="$devroot/downloads/pidgin-windev.tar.gz"
+    url="http://bazaar.launchpad.net/~renatosilva/pidgin-windev/main/tarball"
+    wget -nv "$url" -O "$tarball" && bsdtar -xzf "$tarball" --strip-components 3 --directory "$devroot/win32-dev"
+    [[ $? != 0 ]] && exit 1
+    echo "Extracted $windev"
+fi
 
 # Staging dir
 [[ -n "$reset" ]] && rm -rf "$staging"
@@ -40,7 +50,7 @@ cp -r ../source/* "$staging"
 changelog.sh --html && mv -v changelog.html "$staging/CHANGES.html"
 
 # Prepare
-eval $(../../windev/pidgin-windev.sh "$devroot" --path)
+eval $("$windev" "$devroot" --path)
 cd "$staging"
 
 # GTK+ runtime
