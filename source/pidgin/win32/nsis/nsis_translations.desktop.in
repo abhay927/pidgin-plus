@@ -59,5 +59,6 @@ _PIDGINGTKDOWNLOADERROR=Error Downloading the GTK+ Runtime ($R2).$\rThis is requ
 
 _PIDGINUNINSTALLERROR1=The uninstaller could not find registry entries for Pidgin.$\rIt is likely that another user installed this application.
 _PIDGINUNINSTALLERROR2=You do not have permission to uninstall this application.
+_PIDGINUNINSTALLWARNING=Attention! The following directory may be completely removed, including any files installed by third-party plugins or similar. Are you sure?
 
 _PIDGINREADCHANGES=See applied changes
