@@ -1297,7 +1297,6 @@ if test "x$GCC" = "xyes"; then
 			"-Wmissing-noreturn" \
 			"-Wmissing-prototypes" \
 			"-Wpointer-arith" \
-			"-Wundef" \
 	; do
 		orig_CFLAGS="$CFLAGS"
 		CFLAGS="$CFLAGS $newflag"
