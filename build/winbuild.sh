@@ -29,7 +29,7 @@ eval "$(from="$0" easyoptions.rb "$@"; echo result=$?)"
 
 # Variables
 devroot="${arguments[0]}"
-version=$(changelog.sh --version)
+version=$(./changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
@@ -47,7 +47,7 @@ fi
 [[ -n "$reset" ]] && rm -rf "$staging"
 mkdir -p "$staging"
 cp -r ../source/* "$staging"
-changelog.sh --html && mv -v changelog.html "$staging/CHANGES.html"
+./changelog.sh --html && mv -v changelog.html "$staging/CHANGES.html"
 
 # Prepare
 eval $("$windev" "$devroot" --path)
