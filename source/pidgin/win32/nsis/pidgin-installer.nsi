@@ -463,12 +463,11 @@ Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
 
   ; We need to download the debug symbols
   retry:
-  StrCpy $R2 "${DOWNLOADER_URL}&dl_pkg=dbgsym"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${PIDGIN_VERSION_LOWERCASE}/+download/Pidgin Debug Symbols ${PIDGIN_VERSION}.zip"
   DetailPrint "Downloading Debug Symbols... ($R2)"
-  NSISdl::download /TIMEOUT=10000 "$R2" "$R1"
+  inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
-  StrCmp $R0 "cancel" done
-  StrCmp $R0 "success" 0 prompt_retry
+  StrCmp $R0 "OK" 0 prompt_retry
 
   Push "${DEBUG_SYMBOLS_SHA1SUM}"
   Push "$R1" ; Filename
