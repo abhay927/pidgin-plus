@@ -16,6 +16,7 @@
 ##     -g, --gtk            Build the GTK+ runtime instead of installers, if
 ##                          version is suffixed with "devel".
 ##     -o, --offline        Build both the standard and offline installers.
+##     -c, --cleanup        Clean up the staging dir then exit.
 ##
 ##     -r, --reset          Recreates the staging directory from scratch.
 ##     -s, --staging=DIR    Staging directory, defaults to "pidgin.build".
@@ -49,6 +50,18 @@ if [[ ! -e "$windev" ]]; then
     echo "Extracted $windev"
 fi
 
+# Cleanup
+if [[ -n "$cleanup" ]]; then
+    if [[ -d "$staging" ]]; then
+        cd "$staging"
+        make -f Makefile.mingw uninstall
+        make -f Makefile.mingw clean
+    else
+        echo "Nothing to clean up."
+    fi
+    exit
+fi
+
 # Staging dir
 [[ -n "$reset" ]] && rm -rf "$staging"
 mkdir -p "$staging"
@@ -62,13 +75,13 @@ cd "$staging"
 # GTK+ runtime
 if [[ -n "$gtk" ]]; then
     make -f Makefile.mingw gtk_runtime_zip
-    exit 0
+    exit
 fi
 
 # Installers
-make -f Makefile.mingw "installer${offline:+s}"
+make -f Makefile.mingw "installer${offline:+s}" || exit
 [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe "$target/Pidgin $version Offline Setup.exe"
 mv -v pidgin-*.exe "$target/Pidgin $version Setup.exe"
+mv -v pidgin-*-dbgsym.zip "$target/Pidgin Debug Symbols $version.zip"
 make -f Makefile.mingw uninstall
-rm -fv *.zip
 cd -
