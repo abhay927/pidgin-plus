@@ -18,6 +18,9 @@
 ##     -o, --offline        Build both the standard and offline installers.
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##
+##         --sign=FILE.spc  Enable code signing with Microsoft Authenticode and
+##                          GnuPG, using FILE.spc and FILE.pvk for Authenticode.
+##
 ##     -r, --reset          Recreates the staging directory from scratch.
 ##         --staging=DIR    Staging directory, defaults to "pidgin.build".
 ##         --directory=DIR  Save result to DIR instead of DEVELOPMENT_ROOT.
@@ -38,6 +41,12 @@ windev="$devroot/win32-dev/pidgin-windev.sh"
 # GTK+ runtime only for devel version
 if [[ -n "$gtk" && "$version" != *devel ]]; then
     echo 'GTK+ can only be generated for "devel" versions, see --help.'
+    exit 1
+fi
+
+# Valid SPC file for code signing
+if [[ -n "$sign" && (! -f "$sign" || "$sign" != *.spc) ]]; then
+    echo "A valid SPC file with the spc extension is required for code signing."
     exit 1
 fi
 
@@ -72,6 +81,13 @@ cp -r ../source/* "$staging"
 eval $("$windev" "$devroot" --path --system-gcc)
 cd "$staging"
 
+# Code signing
+if [[ -n "$sign" ]]; then
+    rm local.mak
+    echo "SIGNCODE_SPC = $sign" >> local.mak
+    echo "SIGNCODE_PVK = ${sign%.*}.pvk" >> local.mak
+fi
+
 # GTK+ runtime
 if [[ -n "$gtk" ]]; then
     make -f Makefile.mingw gtk_runtime_zip
@@ -80,8 +96,10 @@ fi
 
 # Installers
 make -f Makefile.mingw "installer${offline:+s}" || exit
-[[ -n "$offline" ]] && mv -v pidgin-*-offline.exe "$target/Pidgin $version Offline Setup.exe"
-mv -v pidgin-*.exe "$target/Pidgin $version Setup.exe"
-mv -v pidgin-*-dbgsym.zip "$target/Pidgin Debug Symbols $version.zip"
+for asc in "" ${sign:+.asc}; do
+    [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
+    mv -v pidgin-*.exe$asc "$target/Pidgin $version Setup.exe$asc"
+    mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin Debug Symbols $version.zip$asc"
+done
 make -f Makefile.mingw uninstall
 cd -
