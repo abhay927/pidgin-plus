@@ -36,7 +36,7 @@ GTK_INSTALL_VERSION = 2.16.6.2
 authenticode_sign = $(MONO_SIGNCODE) \
 		    -spc "$(SIGNCODE_SPC)" -v "$(SIGNCODE_PVK)" \
 		    -a sha1 -$$ commercial \
-		    -n "$(2)" -i "https://pidgin.im" \
+		    -n "$(2)" -i "http://pidgin.renatosilva.me" \
 		    -t "http://timestamp.verisign.com/scripts/timstamp.dll" -tr 10 \
 		    $(1) && rm -f $(1).bak
 

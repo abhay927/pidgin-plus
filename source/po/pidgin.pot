@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-17 13:09-0300\n"
+"POT-Creation-Date: 2014-07-19 02:00-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4223,15 +4223,16 @@ msgstr ""
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
-"Error Downloading the GTK+ Runtime ($R2).$\\rThis is required for Pidgin to "
-"function; if retrying fails, you may need to use the 'Offline Installer' "
-"from http://pidgin.im/download/windows/ ."
+"Error Downloading the GTK+ Runtime from the URL below. This is required for "
+"Pidgin to function. If retrying fails, you may need to use the offline "
+"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
 msgstr ""
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+"Error Installing Debug Symbols from the URL below. If retrying fails, you "
+"may need to use the offline installer from http://launchpad.net/pidgin++/"
+"+download .$\\r$\\r$R2"
 msgstr ""
 
 #. $R3 will display the URL that the Dictionary failed to download from
