@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-19 02:00-0300\n"
+"POT-Creation-Date: 2014-07-19 14:57-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4235,14 +4235,6 @@ msgid ""
 "+download .$\\r$\\r$R2"
 msgstr ""
 
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: http://developer.pidgin.im/wiki/Installing"
-"%20Pidgin#manual_win32_spellcheck_installation"
-msgstr ""
-
 msgid "Error Messages"
 msgstr ""
 
@@ -4309,6 +4301,15 @@ msgstr ""
 
 #, c-format
 msgid "Error in chat %s"
+msgstr ""
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error installing spellchecking from [1]. If retrying fails, manual "
+"installation instructions are available at [2].$\\r$\\r[1] $R3$\\r$\\r[2] "
+"http://developer.pidgin.im/wiki/Installing"
+"%20Pidgin#manual_win32_spellcheck_installation"
 msgstr ""
 
 #, c-format

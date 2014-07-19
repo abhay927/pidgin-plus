@@ -47,7 +47,7 @@ _URIHANDLERSSECTIONTITLE=URI Handlers
 #Installer Subsection Text
 _PIDGINSPELLCHECKSECTIONTITLE=Spellchecking Support
 # $R3 will display the URL that the Dictionary failed to download from
-_PIDGINSPELLCHECKERROR=Error Installing Spellchecking ($R3).$\rIf retrying fails, manual installation instructions are at: http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_installation
+_PIDGINSPELLCHECKERROR=Error installing spellchecking from [1]. If retrying fails, manual installation instructions are available at [2].$\r$\r[1] $R3$\r$\r[2] http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_installation
 #Installer Subsection Detailed Description
 _PIDGINSPELLCHECKSECTIONDESCRIPTION=Support for Spellchecking.  (Internet connection required for installation)
 
