@@ -4524,22 +4524,24 @@ msgstr "Erro ao mudar informações da conta"
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
-"Error Downloading the GTK+ Runtime ($R2).$\\rThis is required for Pidgin to "
-"function; if retrying fails, you may need to use the 'Offline Installer' "
-"from http://pidgin.im/download/windows/ ."
+"Error Downloading the GTK+ Runtime from the URL below. This is required for "
+"Pidgin to function. If retrying fails, you may need to use the offline "
+"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
 msgstr ""
-"Erro baixando o GTK+ Runtime ($R2).$\\rEste runtime é necessário para o "
-"Pidgin funcionar; se novas tentativas falharem, você pode precisar usar o "
-"instalador 'Offline' em http://pidgin.im/download/windows/ ."
+"Erro baixando o runtime do GTK+ a partir do endereço abaixo. Isto é "
+"necessário para o funcionamento do Pidgin. Se novas tentativas falharem, "
+"você pode precisar usar o instalador offline em http://launchpad.net/"
+"pidgin++/+download .$\\r$\\r$R2"
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+"Error Installing Debug Symbols from the URL below. If retrying fails, you "
+"may need to use the offline installer from http://launchpad.net/pidgin++/"
+"+download .$\\r$\\r$R2"
 msgstr ""
-"Erro instalando os símbolos de depuração ($R2).$\\rSe novas tentativas "
-"falharem, você pode precisar usar o instalador 'Offline' em "
-"http://pidgin.im/download/windows/ ."
+"Erro instalando os símbolos de depuração a partir do endereço abaixo. Se "
+"novas tentativas falharem, você pode precisar usar o instalador offline em "
+"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
 
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
