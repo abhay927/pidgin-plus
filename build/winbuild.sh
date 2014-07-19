@@ -19,8 +19,8 @@
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##
 ##     -r, --reset          Recreates the staging directory from scratch.
-##     -s, --staging=DIR    Staging directory, defaults to "pidgin.build".
-##     -d, --directory=DIR  Save result to DIR instead of DEVELOPMENT_ROOT.
+##         --staging=DIR    Staging directory, defaults to "pidgin.build".
+##         --directory=DIR  Save result to DIR instead of DEVELOPMENT_ROOT.
 ##
 
 # Parse options
