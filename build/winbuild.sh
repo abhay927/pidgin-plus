@@ -18,8 +18,10 @@
 ##     -o, --offline        Build both the standard and offline installers.
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##
-##         --sign=FILE.spc  Enable code signing with Microsoft Authenticode and
-##                          GnuPG, using FILE.spc and FILE.pvk for Authenticode.
+##         --sign=FILE      Enable code signing with Microsoft Authenticode and
+##                          GnuPG, using FILE as the PKCS #12 / PFX certificate
+##                          for Authenticode. Both GnuPG and the signtool
+##                          utility must be available from system path.
 ##
 ##     -r, --reset          Recreates the staging directory from scratch.
 ##         --staging=DIR    Staging directory, defaults to "pidgin.build".
@@ -44,10 +46,10 @@ if [[ -n "$gtk" && "$version" != *devel ]]; then
     exit 1
 fi
 
-# Valid SPC file for code signing
-if [[ -n "$sign" && (! -f "$sign" || "$sign" != *.spc) ]]; then
-    echo "A valid SPC file with the spc extension is required for code signing."
-    exit 1
+# Prepare for code signing
+if [[ -n "$sign" ]]; then
+    read -s -p "Enter password for $sign: " pfx_password
+    openssl pkcs12 -in "$sign" -nodes -password "pass:$pfx_password" > /dev/null || exit 1
 fi
 
 # Pidgin Windev
@@ -86,19 +88,18 @@ if [[ -n "$sign" ]]; then
     gpg_version=$(gpg --version | head -1)
     gpg_version="${gpg_version##* }"
     rm local.mak
-    echo "SIGNCODE_SPC = $sign" >> local.mak
-    echo "SIGNCODE_PVK = ${sign%.*}.pvk" >> local.mak
+    echo "SIGNTOOL_PFX = $sign" >> local.mak
     [[ "$gpg_version" = 1.* ]] && hash gpg2 2> /dev/null && echo "GPG_SIGN = gpg2" >> local.mak
 fi
 
 # GTK+ runtime
 if [[ -n "$gtk" ]]; then
-    make -f Makefile.mingw gtk_runtime_zip
+    make -f Makefile.mingw gtk_runtime_zip SIGNTOOL_PASSWORD="$pfx_password"
     exit
 fi
 
 # Installers
-make -f Makefile.mingw "installer${offline:+s}" || exit
+make -f Makefile.mingw "installer${offline:+s}" SIGNTOOL_PASSWORD="$pfx_password" || exit
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
     mv -v pidgin-*.exe$asc "$target/Pidgin $version Setup.exe$asc"

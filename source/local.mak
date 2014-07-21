@@ -1,2 +1,2 @@
-MONO_SIGNCODE = echo ***Bypassing signcode***
+SIGNTOOL = echo ***Bypassing signtool***
 GPG_SIGN = echo ***Bypassing gpg***
