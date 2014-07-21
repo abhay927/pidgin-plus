@@ -48,8 +48,18 @@ fi
 
 # Prepare for code signing
 if [[ -n "$sign" ]]; then
-    read -s -p "Enter password for $sign: " pfx_password
+    gpg_version=$(gpg --version | head -1)
+    gpg_version="${gpg_version##* }"
+    [[ "$gpg_version" = 1.* ]] && hash gpg2 2> /dev/null && gpg=gpg2
+
+    # Authenticode password
+    read -s -p "Enter password for $sign: " pfx_password; echo
     openssl pkcs12 -in "$sign" -nodes -password "pass:$pfx_password" > /dev/null || exit 1
+
+    # GnuPG password
+    read -s -p "Enter password for GnuPG: " gpg_password; echo
+    $gpg --batch --yes --passphrase "$gpg_password" --output /tmp/test.asc -ab "$0" || exit 1
+    rm /tmp/test.asc
 fi
 
 # Pidgin Windev
@@ -85,21 +95,22 @@ cd "$staging"
 
 # Code signing
 if [[ -n "$sign" ]]; then
-    gpg_version=$(gpg --version | head -1)
-    gpg_version="${gpg_version##* }"
     rm local.mak
     echo "SIGNTOOL_PFX = $sign" >> local.mak
-    [[ "$gpg_version" = 1.* ]] && hash gpg2 2> /dev/null && echo "GPG_SIGN = gpg2" >> local.mak
+    echo "GPG_SIGN = $gpg" >> local.mak
 fi
 
 # GTK+ runtime
+build_binary() {
+    make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password"
+}
 if [[ -n "$gtk" ]]; then
-    make -f Makefile.mingw gtk_runtime_zip SIGNTOOL_PASSWORD="$pfx_password"
+    build_binary gtk_runtime_zip
     exit
 fi
 
 # Installers
-make -f Makefile.mingw "installer${offline:+s}" SIGNTOOL_PASSWORD="$pfx_password" || exit
+build_binary "installer${offline:+s}" || exit
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
     mv -v pidgin-*.exe$asc "$target/Pidgin $version Setup.exe$asc"

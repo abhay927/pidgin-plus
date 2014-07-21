@@ -38,12 +38,18 @@ signtool_command = $(SIGNTOOL) sign //u 1.3.6.1.5.5.7.3.2 \
 				    //t "http://timestamp.verisign.com/scripts/timstamp.dll" \
 				    //du "http://pidgin.renatosilva.me" //d $(2) $(1)
 
-gpg_sign = $(GPG_SIGN) -ab $(1) && $(GPG_SIGN) --verify $(1).asc
+gpg_sign_command = @$(GPG_SIGN) -ab --batch --yes --passphrase "$(GPG_PASSWORD)" $(1) && $(GPG_SIGN) --verify $(1).asc
 
 # Hide the Authenticode password
 define authenticode_sign
 	@echo Signing $(1) with $(SIGNTOOL)...
 	@$(call signtool_command, $1, $2)
+endef
+
+# Hide the GPG password
+define gpg_sign
+	@echo Signing $(1) with $(GPG_SIGN)...
+	@$(call gpg_sign_command, $1)
 endef
 
 STRIPPED_RELEASE_DIR = $(PIDGIN_TREE_TOP)/pidgin-$(PIDGIN_VERSION)-win32bin
