@@ -83,9 +83,12 @@ cd "$staging"
 
 # Code signing
 if [[ -n "$sign" ]]; then
+    gpg_version=$(gpg --version | head -1)
+    gpg_version="${gpg_version##* }"
     rm local.mak
     echo "SIGNCODE_SPC = $sign" >> local.mak
     echo "SIGNCODE_PVK = ${sign%.*}.pvk" >> local.mak
+    [[ "$gpg_version" = 1.* ]] && hash gpg2 2> /dev/null && echo "GPG_SIGN = gpg2" >> local.mak
 fi
 
 # GTK+ runtime
