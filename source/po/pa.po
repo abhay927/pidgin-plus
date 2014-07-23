@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-17 13:09-0300\n"
-"PO-Revision-Date: 2014-05-26 11:33+0000\n"
+"POT-Creation-Date: 2014-07-21 07:56-0300\n"
+"PO-Revision-Date: 2014-07-20 06:34+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Panjabi (Punjabi) "
 "(http://www.transifex.com/projects/p/pidgin/language/pa/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-07-18 06:22+0000\n"
+"X-Launchpad-Export-Date: 2014-07-23 07:27+0000\n"
 "X-Generator: Launchpad (build 17114)\n"
 "Language: pa\n"
 
@@ -4450,35 +4450,17 @@ msgstr "ਅਕਾਊਂਟ ਜਾਣਕਾਰੀ ਬਦਲਣ ਦੌਰਾਨ �
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
-"Error Downloading the GTK+ Runtime ($R2).$\\rThis is required for Pidgin to "
-"function; if retrying fails, you may need to use the 'Offline Installer' "
-"from http://pidgin.im/download/windows/ ."
+"Error Downloading the GTK+ Runtime from the URL below. This is required for "
+"Pidgin to function. If retrying fails, you may need to use the offline "
+"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
 msgstr ""
-"GTK+ Runtime ($R2) ਡਾਊਨਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।$\\rਇਹ ਪਿਡਗਿਨ ਦੇ ਕੰਮ ਕਰਨ ਲਈ "
-"ਲਾਜ਼ਮੀ ਹੈ। ਜੇ ਵਾਰ ਵਾਰ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੋਵੇ ਤਾਂ ਤੁਸੀਂ  "
-"http://pidgin.im/download/windows/ 'ਆਫਲਾਈਨ ਇੰਸਟਾਲਰ' ਵਰਤਣ ਬਾਰੇ ਸੋਚੋ।"
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+"Error Installing Debug Symbols from the URL below. If retrying fails, you "
+"may need to use the offline installer from "
+"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
 msgstr ""
-"ਡੀਬੱਗ ਸਿੰਬਲ ($R2) ਇੰਸਟਾਲ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ।$\\rਜੇ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੁੰਦਾ ਹੈ "
-"ਤਾਂ ਤੁਹਾਨੂੰ http://pidgin.im/download/windows/ ਤੋਂ 'ਆਫਲਾਈਨ ਇੰਸਟਾਲਰ' ਵਰਤਣਾ ਪੈ "
-"ਸਕਦਾ ਹੈ।"
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: "
-"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
-"nstallation"
-msgstr ""
-"ਸਪੈਲਚੈੱਕ ($R3) ਇੰਸਟਾਲ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ। $\\rਜੇ ਲੈਣ ਲਈ ਫੇਲ੍ਹ ਹੋਵੇ ਤਾਂ ਖੁਦ "
-"ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਹਦਾਇਤਾਂ ਵੇਖੋ: "
-"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
-"nstallation"
 
 msgid "Error Messages"
 msgstr "ਗਲਤੀ ਸੁਨੇਹੇ"
@@ -4549,6 +4531,15 @@ msgstr "ਫਾਇਲ ਭੇਜਣ ਦੌਰਾਨ ਗਲਤੀ"
 #, c-format
 msgid "Error in chat %s"
 msgstr "ਗੱਲ %s 'ਚ ਗਲਤੀ"
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error installing spellchecking from [1]. If retrying fails, manual "
+"installation instructions are available at [2].$\\r$\\r[1] $R3$\\r$\\r[2] "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
 
 #, c-format
 msgid "Error joining chat %s"

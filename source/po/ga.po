@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-17 13:09-0300\n"
-"PO-Revision-Date: 2014-05-26 08:39+0000\n"
+"POT-Creation-Date: 2014-07-21 07:56-0300\n"
+"PO-Revision-Date: 2014-07-20 06:05+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
 "(http://www.transifex.com/projects/p/pidgin/language/ga/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2014-07-18 06:11+0000\n"
+"X-Launchpad-Export-Date: 2014-07-23 07:16+0000\n"
 "X-Generator: Launchpad (build 17114)\n"
 "Language: ga\n"
 
@@ -4537,35 +4537,17 @@ msgstr "Earráid agus faisnéis an chuntais á hathrú"
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
-"Error Downloading the GTK+ Runtime ($R2).$\\rThis is required for Pidgin to "
-"function; if retrying fails, you may need to use the 'Offline Installer' "
-"from http://pidgin.im/download/windows/ ."
+"Error Downloading the GTK+ Runtime from the URL below. This is required for "
+"Pidgin to function. If retrying fails, you may need to use the offline "
+"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
 msgstr ""
-"Tharla earráid agus leabharlann ama rite GTK+ ($R2) á híosluchtú.$\\rTá gá "
-"leis chun Pidgin a chur ar siúl; seans gur gá duit an 'Suiteálaí As Líne' a "
-"úsáid, ar fáil ó http://pidgin.im/download/windows/ ."
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+"Error Installing Debug Symbols from the URL below. If retrying fails, you "
+"may need to use the offline installer from "
+"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
 msgstr ""
-"Tharla earráid agus na Siombailí Dífhabhtaithe ($R2) á suiteáil.$\\rSeans "
-"gur gá duit an 'Suiteálaí As Líne' a úsáid, ar fáil ó "
-"http://pidgin.im/download/windows/ ."
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: "
-"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
-"nstallation"
-msgstr ""
-"Earráid agus Seiceáil Litrithe ($R3) á suiteáil.$\\rDéan iarracht eile, agus "
-"má theip ort, bain triail as na treoracha anseo: "
-"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
-"nstallation"
 
 msgid "Error Messages"
 msgstr "Teachtaireachtaí Earráideacha"
@@ -4638,6 +4620,15 @@ msgstr "Earráid agus comhad á aistriú"
 #, c-format
 msgid "Error in chat %s"
 msgstr "Earráid i gcomhrá %s"
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error installing spellchecking from [1]. If retrying fails, manual "
+"installation instructions are available at [2].$\\r$\\r[1] $R3$\\r$\\r[2] "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
 
 #, c-format
 msgid "Error joining chat %s"
