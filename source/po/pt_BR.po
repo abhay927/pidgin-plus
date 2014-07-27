@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-17 13:09-0300\n"
-"PO-Revision-Date: 2014-07-19 00:03-0300\n"
+"PO-Revision-Date: 2014-07-27 12:27-0300\n"
 "Last-Translator: Renato Silva <br.renatosilva@gmail.com>\n"
 "Language-Team: Renato Silva <br.renatosilva@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -4851,6 +4851,9 @@ msgstr "Usuário externo"
 #. *< version
 msgid "Extra conversation placement options."
 msgstr "Opções extra de posicionamento de conversas."
+
+msgid "Extract"
+msgstr "Extrair"
 
 msgid "F_lash window when IMs are received"
 msgstr "_Piscar a janela quando mensagens forem recebidas"

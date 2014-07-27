@@ -255,6 +255,10 @@ SectionEnd
 ;--------------------------------
 ;GTK+ Runtime Install Section
 
+!macro ExtractFromGtk message file
+  nsisunz::UnzipToLog /file "${file}" /text "${message}: %f" "$PLUGINSDIR\gtk.zip" "$INSTDIR"
+!macroend
+
 Section $(GTKSECTIONTITLE) SecGtk
 
   InitPluginsDir
@@ -290,11 +294,8 @@ Section $(GTKSECTIONTITLE) SecGtk
   ;Delete the old Gtk directory
   RMDir /r "$INSTDIR\Gtk"
 
-  SetOutPath "$INSTDIR"
-  nsisunz::UnzipToLog $R1 "$INSTDIR"
-  Pop $R0
-  StrCmp $R0 "success" +2
-    DetailPrint "$R0" ;print error message to log
+  ;Extract GTK+ except for locale files which are extracted in LANG_SECTION
+  !include "gtk-extraction.nsh"
 
 !ifndef OFFLINE_INSTALLER
   done:
@@ -428,6 +429,12 @@ SectionGroupEnd
     SetOutPath "$INSTDIR\locale\${lang}\LC_MESSAGES"
     File "..\..\..\${PIDGIN_INSTALL_DIR}\locale\${lang}\LC_MESSAGES\*.mo"
     SetOutPath "$INSTDIR"
+
+    ; Extract the GTK+ translation for the language
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/atk10.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/glib20.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gtk20.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gtk20-properties.mo"
   ${MementoSectionEnd}
 !macroend
 SectionGroup $(TRANSLATIONSSECTIONTITLE) SecTranslations

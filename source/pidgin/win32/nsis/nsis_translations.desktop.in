@@ -62,3 +62,4 @@ _PIDGINUNINSTALLERROR2=You do not have permission to uninstall this application.
 _PIDGINUNINSTALLWARNING=Attention! The following directory may be completely removed, including any files installed by third-party plugins or similar. Are you sure?
 
 _PIDGINREADCHANGES=See applied changes
+_PIDGINEXTRACT=Extract
