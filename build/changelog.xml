@@ -27,5 +27,6 @@
     <change bug="15348" en:description="Load account icon from config dir for relative paths" pt-br:description="Suporte a caminhos relativos para os ícones de conta"/>
     <change bug="15248" en:description="Avoid printing IRC channel URLs" pt-br:description="Supressão do endereço do canal IRC na janela de conversa"/>
     <change en:description="Full subdirectories removal upon Windows uninstallation" pt-br:description="Remoção completa dos subdiretórios ao desinstalar no Windows"/>
+    <change en:description="Smaller installation size on Windows (only the required GTK+ locales are installed)" pt-br:description="Menor tamanho da instalação no Windows (somente as localizações necessárias do GTK+ são instaladas)"/>
     <change en:description="Windows version compiled with GCC 4.9 instead of 4.7" pt-br:description="Versão Windows compilada com GCC 4.9 em vez do 4.7"/>
 </changelog>
