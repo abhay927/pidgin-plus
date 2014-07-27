@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-17 13:09-0300\n"
+"POT-Creation-Date: 2014-07-21 07:56-0300\n"
 "PO-Revision-Date: 2014-05-29 05:55+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Burmese (Myanmar) "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-07-18 06:05+0000\n"
+"X-Launchpad-Export-Date: 2014-07-23 07:10+0000\n"
 "X-Generator: Launchpad (build 17114)\n"
 "Language: my_MM\n"
 
@@ -4507,37 +4507,17 @@ msgstr "အကောင့် အချက်အလက်များ ပြေ�
 
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
-"Error Downloading the GTK+ Runtime ($R2).$\\rThis is required for Pidgin to "
-"function; if retrying fails, you may need to use the 'Offline Installer' "
-"from http://pidgin.im/download/windows/ ."
+"Error Downloading the GTK+ Runtime from the URL below. This is required for "
+"Pidgin to function. If retrying fails, you may need to use the offline "
+"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
 msgstr ""
-"GTK+ Runtime ($R2) ကို ဒေါင်းလုဒ် ဆွဲရာတွင် ချို့ယွင်းချက် ရှိသည်။ $\\r "
-"ဤအရာသည် Pidgin အလုပ်လုပ်နိုင်ရန် လိုအပ်သည်။ ထပ်ကြိုးစား၍ မအောင်မြင်ခဲ့လျှင် "
-"http://pidgin.im/download/windows/ မှ 'အော့ဖ်လိုင်း ဆော့ဝဲထည့်သွင်းစနစ်' ကို "
-"သုံးစွဲရန် လိုအပ်လိမ့်မည်။"
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
-"Error Installing Debug Symbols ($R2).$\\rIf retrying fails, you may need to "
-"use the 'Offline Installer' from http://pidgin.im/download/windows/ ."
+"Error Installing Debug Symbols from the URL below. If retrying fails, you "
+"may need to use the offline installer from "
+"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
 msgstr ""
-"GTK+ Runtime ($R2) ကို ဒေါင်းလုဒ် ဆွဲရာတွင် ချို့ယွင်းချက် ရှိသည်။ $\\r "
-"ဤအရာသည် Pidgin အလုပ်လုပ်နိုင်ရန် လိုအပ်သည်။ ထပ်ကြိုးစား၍ မအောင်မြင်ခဲ့လျှင် "
-"http://pidgin.im/download/windows/ မှ 'အော့ဖ်လိုင်း ဆော့ဝဲထည့်သွင်းစနစ်' ကို "
-"သုံးစွဲရန် လိုအပ်လိမ့်မည်။"
-
-#. $R3 will display the URL that the Dictionary failed to download from
-#, no-c-format
-msgid ""
-"Error Installing Spellchecking ($R3).$\\rIf retrying fails, manual "
-"installation instructions are at: "
-"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
-"nstallation"
-msgstr ""
-"($R3) စာလုံးပေါင်းစစ်စနစ် ထည့်သွင်းရာတွင် ချို့ယွင်းချက် ရှိသည်။$\\rIf "
-"ထပ်ကြိုးစား၍ မအောင်မြင်လျှင်၊ ဆော့ဗ်ဝဲ ထည့်သွင်းနည်း လမ်းညွှန်ချက်ကို - "
-"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
-"nstallation တွင် ​လေ့လာနိုင်သည်။"
 
 msgid "Error Messages"
 msgstr "ပေးစာ ချို့ယွင်းချက်များ"
@@ -4609,6 +4589,15 @@ msgstr "ဖိုင် ရွှေ့ပြောင်းနေစဉ် ခ�
 #, c-format
 msgid "Error in chat %s"
 msgstr "စကားပြောခန်း %s ချို့ယွင်းချက်"
+
+#. $R3 will display the URL that the Dictionary failed to download from
+#, no-c-format
+msgid ""
+"Error installing spellchecking from [1]. If retrying fails, manual "
+"installation instructions are available at [2].$\\r$\\r[1] $R3$\\r$\\r[2] "
+"http://developer.pidgin.im/wiki/Installing%20Pidgin#manual_win32_spellcheck_i"
+"nstallation"
+msgstr ""
 
 #, c-format
 msgid "Error joining chat %s"
