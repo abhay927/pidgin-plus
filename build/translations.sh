@@ -15,17 +15,19 @@
 ##
 
 eval "$(from="$0" easyoptions.rb "$@" || echo exit 1)"
+source="$(dirname "$0")/../source"
 
 if [[ -n "$merge" ]]; then
-    bzr merge "${from:-lp:~renatosilva/pidgin++/translation}" || exit 1
-    cp -v source/po/ms.po source/po/ms_MY.po
-    cp -v source/po/my.po source/po/my_MM.po
+    bzr merge "${from:-lp:~renatosilva/pidgin++/translation}"
+    [[ $? = 3 ]] && exit # Not a branch
+    cp -v "$source/po/ms.po" "$source/po/ms_MY.po"
+    cp -v "$source/po/my.po" "$source/po/my_MM.po"
 
-    bzr remove source/po/ms.po
-    bzr remove source/po/my.po
-    bzr remove source/po/ab.po
+    bzr remove "$source/po/ms.po"
+    bzr remove "$source/po/my.po"
+    bzr remove "$source/po/ab.po"
 
-    rm -v source/po/ms.po.~*~
-    rm -v source/po/my.po.~*~
-    rm -v source/po/ab.po.~*~
+    rm -v "$source/po/ms.po.~"*"~"
+    rm -v "$source/po/my.po.~"*"~"
+    rm -v "$source/po/ab.po.~"*"~"
 fi
