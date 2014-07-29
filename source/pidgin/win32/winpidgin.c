@@ -373,7 +373,7 @@ static wchar_t* winpidgin_lcid_to_posix(LCID lcid) {
 	/* Deal with exceptions */
 	if (posix == NULL) {
 		switch (lcid) {
-			case 0x0455: posix = L"my_MM"; break; /* Myanmar (Burmese) */
+			case 0x0455: posix = L"my"; break; /* Myanmar (Burmese) */
 			case 9999: posix = L"ku"; break; /* Kurdish (from NSIS) */
 		}
 	}
