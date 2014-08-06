@@ -14,7 +14,7 @@
 ##     @script.name DEVELOPMENT_ROOT [options]
 ##
 ##     -g, --gtk            Build the GTK+ runtime instead of installers, if
-##                          version is suffixed with "devel".
+##                          not already built and uploaded.
 ##     -o, --offline        Build both the standard and offline installers.
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##
@@ -39,12 +39,6 @@ version=$(./changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
-
-# GTK+ runtime only for devel version
-if [[ -n "$gtk" && "$version" != *devel ]]; then
-    echo 'GTK+ can only be generated for "devel" versions, see --help.'
-    exit 1
-fi
 
 # Prepare for code signing
 if [[ -n "$sign" ]]; then
@@ -105,7 +99,7 @@ build_binary() {
     make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password"
 }
 if [[ -n "$gtk" ]]; then
-    build_binary gtk_runtime_zip
+    build_binary gtk_runtime_zip_force
     exit
 fi
 

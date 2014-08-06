@@ -272,12 +272,12 @@ Section $(GTKSECTIONTITLE) SecGtk
 
   ; We need to download the GTK+ runtime
   retry:
-  StrCpy $R2 "${DOWNLOADER_URL}&gtk_version=${GTK_INSTALL_VERSION}&dl_pkg=gtk"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/2.10.9-rs212/+download/Pidgin GTK+ Runtime ${GTK_INSTALL_VERSION}.zip"
   DetailPrint "Downloading GTK+ Runtime ... ($R2)"
-  NSISdl::download /TIMEOUT=10000 "$R2" "$R1"
+  inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
   ;StrCmp $R0 "cancel" done
-  StrCmp $R0 "success" 0 prompt_retry
+  StrCmp $R0 "OK" 0 prompt_retry
 
   Push "${GTK_SHA1SUM}"
   Push "$R1" ; Filename

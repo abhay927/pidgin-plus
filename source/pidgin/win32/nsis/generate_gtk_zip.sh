@@ -3,6 +3,7 @@
 
 PIDGIN_BASE=$1
 GPG_SIGN=$2
+[[ "$3" = --force ]] && FORCE="yes"
 
 if [ ! -e $PIDGIN_BASE/ChangeLog ]; then
 	echo $(basename $0) must must have the pidgin base dir specified as a parameter.
@@ -16,22 +17,22 @@ CONTENTS_FILE=$INSTALL_DIR/CONTENTS
 PIDGIN_VERSION=$( < $PIDGIN_BASE/VERSION )
 
 #This needs to be changed every time there is any sort of change.
-BUNDLE_VERSION=2.16.6.2
-BUNDLE_SHA1SUM=e1b1ec8d2159fa98b2a9f516dbfe745bf7a22169
+BUNDLE_VERSION=2.24.10.0
+BUNDLE_SHA1SUM=1d93c488d61e1581af0f19b7931b98a2ebf497a5
 ZIP_FILE="$PIDGIN_BASE/pidgin/win32/nsis/gtk-runtime-$BUNDLE_VERSION.zip"
 
 #Download the existing file (so that we distribute the exact same file for all releases with the same bundle version)
 FILE="$ZIP_FILE"
 if [ ! -e "$FILE" ]; then
-	wget "https://www.pidgin.im/win32/download_redir.php?version=$PIDGIN_VERSION&gtk_version=$BUNDLE_VERSION&dl_pkg=gtk" -O "$FILE"
+	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs212/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
 fi
 CHECK_SHA1SUM=`sha1sum $FILE`
 CHECK_SHA1SUM=${CHECK_SHA1SUM%%\ *}
 if [ "$CHECK_SHA1SUM" != "$BUNDLE_SHA1SUM" ]; then
 	echo "sha1sum ($CHECK_SHA1SUM) for $FILE doesn't match expected value of $BUNDLE_SHA1SUM"
-	# Allow "devel" versions to build their own bundles if the download doesn't succeed
-	if [[ "$PIDGIN_VERSION" == *"devel" ]]; then
-		echo "Continuing GTK+ Bundle creation for development version of Pidgin"
+	# Allow "devel" versions or those using the --force option to build their own bundles if the download doesn't succeed
+	if [[ "$PIDGIN_VERSION" == *"devel" || -n "$FORCE" ]]; then
+		echo "Continuing GTK+ Bundle creation for Pidgin ${PIDGIN_VERSION}${FORCE:+ (--force has been specified)}"
 	else
 		exit 1
 	fi
@@ -49,12 +50,13 @@ FONTCONFIG="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/fontconfi
 FREETYPE="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/freetype_2.4.10-1_win32.zip Freetype 2.4.10-1 gpg:0x71D4DDE53F188CBE"
 GETTEXT="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/gettext-runtime_0.18.1.1-2_win32.zip Gettext 0.18.1.1-2 sha1sum:a7cc1ce2b99b408d1bbea9a3b4520fcaf26783b3"
 GLIB="http://ftp.gnome.org/pub/gnome/binaries/win32/glib/2.28/glib_2.28.8-1_win32.zip Glib 2.28.8-1 sha1sum:5d158f4c77ca0b5508e1042955be573dd940b574"
-GTK="http://ftp.acc.umu.se/pub/gnome/binaries/win32/gtk+/2.16/gtk+_2.16.6-2_win32.zip GTK+ 2.16.6-2 sha1sum:012853e6de814ebda0cc4459f9eed8ae680e6d17"
+GTK="http://ftp.gnome.org/pub/gnome/binaries/win32/gtk+/2.24/gtk+_2.24.10-1_win32.zip GTK+ 2.24.10-1 sha1sum:702a94614bc674b3c5ef3e176aed42eee34e3448"
+GDK_PIXBUF="http://ftp.gnome.org/pub/gnome/binaries/win32/gdk-pixbuf/2.24/gdk-pixbuf_2.24.0-1_win32.zip GDK-Pixbuf 2.24.0-1 sha1sum:bd3ac3023417aa03867fb696694078191561e5c5"
 LIBPNG="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/libpng_1.4.12-1_win32.zip libpng 1.4.12-1 gpg:0x71D4DDE53F188CBE"
 PANGO="https://developer.pidgin.im/static/win32/pango_1.29.4-1daa_win32.zip Pango 1.29.4-1daa gpg:0x86723FEEDE890574"
-ZLIB="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/zlib_1.2.5-2_win32.zip zlib 1.2.5-2 sha1sum:568907188761df2d9309196e447d91bbc5555d2b"
+ZLIB="http://win32builder.gnome.org/packages/3.6/zlib_1.2.7-1_win32.zip zlib 1.2.7-1 sha1sum:f0563dbc0ee9355381e9220c0f3fbdd792f19dbb"
 
-ALL="ATK CAIRO EXPAT FONTCONFIG FREETYPE GETTEXT GLIB GTK LIBPNG PANGO ZLIB"
+ALL="ATK CAIRO EXPAT FONTCONFIG FREETYPE GETTEXT GLIB GTK GDK_PIXBUF LIBPNG PANGO ZLIB"
 
 mkdir -p $STAGE_DIR
 cd $STAGE_DIR
@@ -91,11 +93,21 @@ function download_and_extract {
 		fi
 		#Use our own keyring to avoid adding stuff to the main keyring
 		#This doesn't use $GPG_SIGN because we don't this validation to be bypassed when people are skipping signing output
-		GPG_BASE="gpg -q --keyring $STAGE_DIR/$VALIDATION_VALUE-keyring.gpg" 
+		if [[ $(which gpg) = /usr/* ]]; then
+			GPG_BASE="gpg -q --keyring $STAGE_DIR/$VALIDATION_VALUE-keyring.gpg"
+		else
+			# This looks like a native GnuPG, stick to Windows paths
+			GPG_BASE="gpg -q --keyring $(cmd //c echo $STAGE_DIR/$VALIDATION_VALUE-keyring.gpg | tr / \\\\)"
+		fi
 		if [[ ! -e $STAGE_DIR/$VALIDATION_VALUE-keyring.gpg \
 				|| `$GPG_BASE --list-keys "$VALIDATION_VALUE" > /dev/null && echo -n "0"` -ne 0 ]]; then
 			touch $STAGE_DIR/$VALIDATION_VALUE-keyring.gpg
-		       	$GPG_BASE --no-default-keyring --keyserver pgp.mit.edu --recv-key "$VALIDATION_VALUE" || exit 1
+			# Try a few times getting the public key
+			try=1
+			while [[ ! -s $STAGE_DIR/$VALIDATION_VALUE-keyring.gpg && $try -lt 10 ]]; do
+				$GPG_BASE --no-default-keyring --keyserver pgp.mit.edu --recv-key "$VALIDATION_VALUE"
+				try=$((try + 1))
+			done
 		fi
 		$GPG_BASE --verify "$FILE.asc" || (echo "$FILE failed signature verification"; exit 1) || exit 1
 	else
@@ -108,7 +120,10 @@ function download_and_extract {
 		echo "Generating zip from $FILE"
 		FILE=$(../rpm2zip.sh $FILE)
 	fi
-	unzip -q $FILE -d $INSTALL_DIR || exit 1
+	case $EXTENSION in
+		zip) unzip -q $FILE -d $INSTALL_DIR || exit 1 ;;
+		dll) cp $FILE $INSTALL_DIR/bin || exit 1 ;;
+	esac
 	echo "$NAME" >> $CONTENTS_FILE
 }
 
@@ -120,6 +135,11 @@ done
 
 #Default GTK+ Theme to MS-Windows
 echo gtk-theme-name = \"MS-Windows\" > $INSTALL_DIR/etc/gtk-2.0/gtkrc
+
+# GTK+ customizations
+echo "Applying GTK+ customizations:"
+cp -vr ../../gtk/* $INSTALL_DIR
+echo
 
 #Blow away translations that we don't have in Pidgin
 for LOCALE_DIR in $INSTALL_DIR/share/locale/*
