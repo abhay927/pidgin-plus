@@ -25,7 +25,8 @@
 ##
 ##     -r, --reset          Recreates the staging directory from scratch.
 ##         --staging=DIR    Staging directory, defaults to "pidgin.build".
-##         --directory=DIR  Save result to DIR instead of DEVELOPMENT_ROOT.
+##         --directory=DIR  Save result to DIR instead of default location
+##                          (DEVELOPMENT_ROOT/distribution).
 ##
 
 # Parse options
@@ -37,7 +38,7 @@ eval "$(from="$0" easyoptions.rb "$@"; echo result=$?)"
 devroot="${arguments[0]}"
 version=$(./changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build}"
-target="${directory:-$devroot}"
+target="${directory:-$devroot/distribution/$version}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
 
 # Prepare for code signing
@@ -78,7 +79,11 @@ if [[ -n "$cleanup" ]]; then
 fi
 
 # Staging dir
-[[ -n "$reset" ]] && rm -rf "$staging"
+if [[ -n "$reset" ]]; then
+    echo "Removing $staging..."
+    rm -rf "$staging"
+fi
+echo "Exporting source code to $staging..."
 mkdir -p "$staging"
 cp -r ../source/* "$staging"
 ./changelog.sh --html && mv -v changelog.html "$staging/CHANGES.html"
@@ -105,10 +110,12 @@ fi
 
 # Installers
 build_binary "installer${offline:+s}" || exit
+mkdir -p "$target"
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
     mv -v pidgin-*.exe$asc "$target/Pidgin $version Setup.exe$asc"
     mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin Debug Symbols $version.zip$asc"
 done
 make -f Makefile.mingw uninstall
-cd -
+echo "Build finished."
+cd - > /dev/null
