@@ -17,14 +17,14 @@ CONTENTS_FILE=$INSTALL_DIR/CONTENTS
 PIDGIN_VERSION=$( < $PIDGIN_BASE/VERSION )
 
 #This needs to be changed every time there is any sort of change.
-BUNDLE_VERSION=2.24.10.0
-BUNDLE_SHA1SUM=1d93c488d61e1581af0f19b7931b98a2ebf497a5
+BUNDLE_VERSION=2.24.24.0
+BUNDLE_SHA1SUM=784c7e7e7566c288a028d47c6732e19465ee8a4c
 ZIP_FILE="$PIDGIN_BASE/pidgin/win32/nsis/gtk-runtime-$BUNDLE_VERSION.zip"
 
 #Download the existing file (so that we distribute the exact same file for all releases with the same bundle version)
 FILE="$ZIP_FILE"
 if [ ! -e "$FILE" ]; then
-	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs212/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
+	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs218/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
 fi
 CHECK_SHA1SUM=`sha1sum $FILE`
 CHECK_SHA1SUM=${CHECK_SHA1SUM%%\ *}
@@ -41,22 +41,22 @@ else
 fi
 
 
-ATK="http://ftp.gnome.org/pub/gnome/binaries/win32/atk/1.32/atk_1.32.0-2_win32.zip ATK 1.32.0-2 sha1sum:3c31c9d6b19af840e2bd8ccbfef4072a6548dc4e"
-#Cairo 1.10.2 has a bug that can be seen when selecting text
-#CAIRO="http://ftp.gnome.org/pub/GNOME/binaries/win32/dependencies/cairo_1.10.2-2_win32.zip Cairo 1.10.2-2 sha1sum:d44cd66a9f4d7d29a8f2c28d1c1c5f9b0525ba44"
-CAIRO="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/cairo_1.8.10-1_win32.zip Cairo 1.8.10-1 sha1sum:a08476cccd807943958610977a138c4d6097c7b8"
-EXPAT="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/expat_2.1.0-1_win32.zip Expat 2.1.0-1 gpg:0x71D4DDE53F188CBE"
-FONTCONFIG="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/fontconfig_2.8.0-2_win32.zip Fontconfig 2.8.0-2 sha1sum:37a3117ea6cc50c8a88fba9b6018f35a04fa71ce"
-FREETYPE="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/freetype_2.4.10-1_win32.zip Freetype 2.4.10-1 gpg:0x71D4DDE53F188CBE"
-GETTEXT="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/gettext-runtime_0.18.1.1-2_win32.zip Gettext 0.18.1.1-2 sha1sum:a7cc1ce2b99b408d1bbea9a3b4520fcaf26783b3"
-GLIB="http://ftp.gnome.org/pub/gnome/binaries/win32/glib/2.28/glib_2.28.8-1_win32.zip Glib 2.28.8-1 sha1sum:5d158f4c77ca0b5508e1042955be573dd940b574"
-GTK="http://ftp.gnome.org/pub/gnome/binaries/win32/gtk+/2.24/gtk+_2.24.10-1_win32.zip GTK+ 2.24.10-1 sha1sum:702a94614bc674b3c5ef3e176aed42eee34e3448"
-GDK_PIXBUF="http://ftp.gnome.org/pub/gnome/binaries/win32/gdk-pixbuf/2.24/gdk-pixbuf_2.24.0-1_win32.zip GDK-Pixbuf 2.24.0-1 sha1sum:bd3ac3023417aa03867fb696694078191561e5c5"
-LIBPNG="http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/libpng_1.4.12-1_win32.zip libpng 1.4.12-1 gpg:0x71D4DDE53F188CBE"
-PANGO="https://developer.pidgin.im/static/win32/pango_1.29.4-1daa_win32.zip Pango 1.29.4-1daa gpg:0x86723FEEDE890574"
-ZLIB="http://win32builder.gnome.org/packages/3.6/zlib_1.2.7-1_win32.zip zlib 1.2.7-1 sha1sum:f0563dbc0ee9355381e9220c0f3fbdd792f19dbb"
+ATK="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-atk-2.12.0-2.fc21.noarch.rpm ATK 2.12.0-2 sha1sum:b45a978edb3de3d6a0445df88de23ca619e21730"
+PIXMAN="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-pixman-0.32.0-2.fc21.noarch.rpm Pixman 0.32.0-2 sha1sum:457a369ba60afea88d2594055e5098d741f13ab4"
+CAIRO="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-cairo-1.12.16-3.fc21.noarch.rpm Cairo 1.12.16-3 sha1sum:3a64e41ad243e9129eace1e73440f6f3ffc22235"
+EXPAT="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-expat-2.1.0-6.fc21.noarch.rpm Expat 2.1.0-6 sha1sum:dff18fa1dbe74ba7b564910f762e57b3ee2bea26"
+FONTCONFIG="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-fontconfig-2.11.1-2.fc21.noarch.rpm Fontconfig 2.11.1-2 sha1sum:ef9be3b4dc5fe4d276f3759935c2df8c1ade5dad"
+FREETYPE="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-freetype-2.5.3-2.fc21.noarch.rpm Freetype 2.5.3-2 sha1sum:0217f4d9b0a883b4917d9c78db7aac047506c814"
+ICONV="http://win32builder.gnome.org/packages/3.6/libiconv_1.13.1-1_win32.zip Iconv 1.13.1-1 sha1sum:9e6fcc7fba98459fca23aeacbec0b5398491b6af"
+GETTEXT="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-gettext-0.18.3.2-2.fc21.noarch.rpm Gettext 0.18.3.2-2 sha1sum:26247b98279bb8ed17f83a4ff70c4ee4420c3986"
+GLIB="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-glib2-2.41.2-1.fc22.noarch.rpm Glib 2.41.2-1 sha1sum:a143ebf2922656cf3a2908699be61a3eaab66909"
+GTK="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-gtk2-2.24.24-2.fc22.noarch.rpm GTK+ 2.24.24-2 sha1sum:d6cec978e9defafbe857ac07614204ebd2f0cf8d"
+GDK_PIXBUF="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-gdk-pixbuf-2.30.8-2.fc21.noarch.rpm GDK-Pixbuf 2.30.8-2 sha1sum:2ed07b24239837436ce933ec463f7ddd43f53997"
+LIBPNG="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-libpng-1.6.10-2.fc21.noarch.rpm libpng 1.6.10-2 sha1sum:0bedb7a32c8ffbdac7ca32972a00001667777a58"
+PANGO="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-pango-1.36.5-2.fc22.noarch.rpm Pango 1.36.5-2 sha1sum:8ed5d8e2163b543118569587bf1cef002fd67eaf"
+ZLIB="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-zlib-1.2.8-3.fc21.noarch.rpm zlib 1.2.8-3 sha1sum:480b65828c4cce4060facaeb8a0431e12939b731"
 
-ALL="ATK CAIRO EXPAT FONTCONFIG FREETYPE GETTEXT GLIB GTK GDK_PIXBUF LIBPNG PANGO ZLIB"
+ALL="ATK PIXMAN CAIRO EXPAT FONTCONFIG FREETYPE ICONV GETTEXT GLIB GTK GDK_PIXBUF LIBPNG PANGO ZLIB"
 
 mkdir -p $STAGE_DIR
 cd $STAGE_DIR
@@ -74,6 +74,7 @@ function download_and_extract {
 	NAME=${NAME#*\ }
 	FILE=$(basename $URL)
 	if [ ! -e $FILE ]; then
+		echo
 		echo Downloading $NAME
 		wget $URL || exit 1
 	fi
@@ -115,14 +116,19 @@ function download_and_extract {
 		exit 1
 	fi
 	EXTENSION=${FILE##*.}
-	#This is an OpenSuSE build service RPM
-	if [ $EXTENSION == 'rpm' ]; then
-		echo "Generating zip from $FILE"
-		FILE=$(../rpm2zip.sh $FILE)
-	fi
 	case $EXTENSION in
 		zip) unzip -q $FILE -d $INSTALL_DIR || exit 1 ;;
 		dll) cp $FILE $INSTALL_DIR/bin || exit 1 ;;
+		rpm) 7z x -y $FILE || exit 1
+		     7z x -y ${FILE%.rpm}.cpio
+		     find usr/i686-w64-mingw32/sys-root/mingw/lib -type d -name pkgconfig -delete
+		     find usr/i686-w64-mingw32/sys-root/mingw/lib -type d -name include -delete
+		     find usr/i686-w64-mingw32/sys-root/mingw/lib -name "*.dll.a" -delete
+		     cp -vr usr/i686-w64-mingw32/sys-root/mingw/lib $INSTALL_DIR
+		     cp -vr usr/i686-w64-mingw32/sys-root/mingw/bin $INSTALL_DIR
+		     cp -vr usr/i686-w64-mingw32/sys-root/mingw/etc $INSTALL_DIR
+		     cp -vr usr/i686-w64-mingw32/sys-root/mingw/share $INSTALL_DIR
+		     cp -vr usr/share $INSTALL_DIR ;;
 	esac
 	echo "$NAME" >> $CONTENTS_FILE
 }
@@ -132,6 +138,11 @@ do
 	VAR=${!VAL}
 	download_and_extract "$VAR"
 done
+
+echo
+echo "Renaming Libiconv DLL:"
+mv -v $INSTALL_DIR/bin/libiconv-2.dll $INSTALL_DIR/bin/iconv.dll
+echo
 
 #Default GTK+ Theme to MS-Windows
 echo gtk-theme-name = \"MS-Windows\" > $INSTALL_DIR/etc/gtk-2.0/gtkrc
