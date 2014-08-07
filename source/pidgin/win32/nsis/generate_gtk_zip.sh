@@ -17,14 +17,14 @@ CONTENTS_FILE=$INSTALL_DIR/CONTENTS
 PIDGIN_VERSION=$( < $PIDGIN_BASE/VERSION )
 
 #This needs to be changed every time there is any sort of change.
-BUNDLE_VERSION=2.24.24.0
-BUNDLE_SHA1SUM=784c7e7e7566c288a028d47c6732e19465ee8a4c
+BUNDLE_VERSION=2.24.24.1
+BUNDLE_SHA1SUM=3d2767b8154acb84778e9afa2de450d09755c2ed
 ZIP_FILE="$PIDGIN_BASE/pidgin/win32/nsis/gtk-runtime-$BUNDLE_VERSION.zip"
 
 #Download the existing file (so that we distribute the exact same file for all releases with the same bundle version)
 FILE="$ZIP_FILE"
 if [ ! -e "$FILE" ]; then
-	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs218/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
+	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs219/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
 fi
 CHECK_SHA1SUM=`sha1sum $FILE`
 CHECK_SHA1SUM=${CHECK_SHA1SUM%%\ *}
@@ -47,7 +47,7 @@ CAIRO="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i3
 EXPAT="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-expat-2.1.0-6.fc21.noarch.rpm Expat 2.1.0-6 sha1sum:dff18fa1dbe74ba7b564910f762e57b3ee2bea26"
 FONTCONFIG="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-fontconfig-2.11.1-2.fc21.noarch.rpm Fontconfig 2.11.1-2 sha1sum:ef9be3b4dc5fe4d276f3759935c2df8c1ade5dad"
 FREETYPE="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-freetype-2.5.3-2.fc21.noarch.rpm Freetype 2.5.3-2 sha1sum:0217f4d9b0a883b4917d9c78db7aac047506c814"
-ICONV="http://win32builder.gnome.org/packages/3.6/libiconv_1.13.1-1_win32.zip Iconv 1.13.1-1 sha1sum:9e6fcc7fba98459fca23aeacbec0b5398491b6af"
+ICONV="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-win-iconv-0.0.6-2.fc21.noarch.rpm Iconv 0.0.6-2 sha1sum:47d33d7178b89db60ac50797731a9f33c58995c2"
 GETTEXT="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-gettext-0.18.3.2-2.fc21.noarch.rpm Gettext 0.18.3.2-2 sha1sum:26247b98279bb8ed17f83a4ff70c4ee4420c3986"
 GLIB="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-glib2-2.41.2-1.fc22.noarch.rpm Glib 2.41.2-1 sha1sum:a143ebf2922656cf3a2908699be61a3eaab66909"
 GTK="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-gtk2-2.24.24-2.fc22.noarch.rpm GTK+ 2.24.24-2 sha1sum:d6cec978e9defafbe857ac07614204ebd2f0cf8d"
@@ -121,8 +121,13 @@ function download_and_extract {
 		dll) cp $FILE $INSTALL_DIR/bin || exit 1 ;;
 		rpm) 7z x -y $FILE || exit 1
 		     7z x -y ${FILE%.rpm}.cpio
-		     find usr/i686-w64-mingw32/sys-root/mingw/lib -type d -name pkgconfig -delete
-		     find usr/i686-w64-mingw32/sys-root/mingw/lib -type d -name include -delete
+		     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/lib/pkgconfig
+		     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/lib/glib-2.0
+		     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/lib/gtk-2.0/include
+		     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/share/aclocal
+		     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/share/gettext
+		     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/share/glib-2.0
+		     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/share/gtk-2.0/demo
 		     find usr/i686-w64-mingw32/sys-root/mingw/lib -name "*.dll.a" -delete
 		     cp -vr usr/i686-w64-mingw32/sys-root/mingw/lib $INSTALL_DIR
 		     cp -vr usr/i686-w64-mingw32/sys-root/mingw/bin $INSTALL_DIR
@@ -140,8 +145,8 @@ do
 done
 
 echo
-echo "Renaming Libiconv DLL:"
-mv -v $INSTALL_DIR/bin/libiconv-2.dll $INSTALL_DIR/bin/iconv.dll
+echo "Including Gettext DLL under additional name:"
+cp -v $INSTALL_DIR/bin/libintl-8.dll $INSTALL_DIR/bin/intl.dll
 echo
 
 #Default GTK+ Theme to MS-Windows
