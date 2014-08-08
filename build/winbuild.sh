@@ -14,7 +14,9 @@
 ##     @script.name DEVELOPMENT_ROOT [options]
 ##
 ##     -g, --gtk            Build the GTK+ runtime instead of installers, if
-##                          not already built and uploaded.
+##                          not already built and uploaded. Both binary and
+##                          source code packages are generated.
+##
 ##     -o, --offline        Build both the standard and offline installers.
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##
