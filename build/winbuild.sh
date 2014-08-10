@@ -105,14 +105,19 @@ fi
 build_binary() {
     make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password"
 }
+mkdir -p "$target"
 if [[ -n "$gtk" ]]; then
     build_binary gtk_runtime_zip_force
+    gtk_version=$(pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
+	for asc in "" ${sign:+.asc}; do
+		mv -v pidgin/win32/nsis/gtk-runtime-*-source.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version Source.zip$asc"
+		mv -v pidgin/win32/nsis/gtk-runtime-*.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version.zip$asc"
+	done
     exit
 fi
 
 # Installers
 build_binary "installer${offline:+s}" || exit
-mkdir -p "$target"
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
     mv -v pidgin-*.exe$asc "$target/Pidgin $version Setup.exe$asc"

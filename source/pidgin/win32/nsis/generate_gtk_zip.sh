@@ -1,9 +1,17 @@
 #!/bin/bash
 # Script to generate zip file for GTK+ runtime to be included in Pidgin installer
 
+#This needs to be changed every time there is any sort of change.
+BUNDLE_VERSION=2.24.24.2
+BUNDLE_SHA1SUM=22fd5659d057c940c1d8d8a23b3cf9361c43dd1c
+
+if [[ "$1" = --gtk-version ]]; then
+    echo $BUNDLE_VERSION
+    exit
+fi
+
 PIDGIN_BASE=$1
-GPG_SIGN=$2
-[[ "$3" = --force ]] && FORCE="yes"
+[[ "$2" = --force ]] && FORCE="yes"
 
 if [ ! -e $PIDGIN_BASE/ChangeLog ]; then
 	echo $(basename $0) must must have the pidgin base dir specified as a parameter.
@@ -17,15 +25,12 @@ SOURCE_DIR=Gtk-source
 CONTENTS_FILE=$INSTALL_DIR/CONTENTS
 PIDGIN_VERSION=$( < $PIDGIN_BASE/VERSION )
 
-#This needs to be changed every time there is any sort of change.
-BUNDLE_VERSION=2.24.24.1
-BUNDLE_SHA1SUM=3d2767b8154acb84778e9afa2de450d09755c2ed
 ZIP_FILE="$PIDGIN_BASE/pidgin/win32/nsis/gtk-runtime-$BUNDLE_VERSION.zip"
 
 #Download the existing file (so that we distribute the exact same file for all releases with the same bundle version)
 FILE="$ZIP_FILE"
 if [ ! -e "$FILE" ]; then
-	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs220/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
+	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs222/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
 fi
 CHECK_SHA1SUM=`sha1sum $FILE`
 CHECK_SHA1SUM=${CHECK_SHA1SUM%%\ *}
@@ -136,19 +141,29 @@ function download_and_extract {
 			dll) cp $FILE $INSTALL_DIR/bin || exit 1 ;;
 			rpm) 7z x -y $FILE || exit 1
 			     7z x -y ${FILE%.rpm}.cpio
-			     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/lib/pkgconfig
-			     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/lib/glib-2.0
-			     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/lib/gtk-2.0/include
-			     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/share/aclocal
-			     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/share/gettext
-			     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/share/glib-2.0
-			     rm -vrf usr/i686-w64-mingw32/sys-root/mingw/share/gtk-2.0/demo
+
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gio
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/glib-2.0
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gtk-2.0/include
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/pkgconfig
+
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/aclocal
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/gettext
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/glib-2.0
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/gtk-2.0
 			     find usr/i686-w64-mingw32/sys-root/mingw/lib -name "*.dll.a" -delete
-			     cp -vr usr/i686-w64-mingw32/sys-root/mingw/lib $INSTALL_DIR
-			     cp -vr usr/i686-w64-mingw32/sys-root/mingw/bin $INSTALL_DIR
-			     cp -vr usr/i686-w64-mingw32/sys-root/mingw/etc $INSTALL_DIR
-			     cp -vr usr/i686-w64-mingw32/sys-root/mingw/share $INSTALL_DIR
-			     cp -vr usr/share $INSTALL_DIR ;;
+
+			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/bin   ]] && cp -vr usr/i686-w64-mingw32/sys-root/mingw/bin $INSTALL_DIR
+			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/etc   ]] && cp -vr usr/i686-w64-mingw32/sys-root/mingw/etc $INSTALL_DIR
+			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/lib   ]] && cp -vr usr/i686-w64-mingw32/sys-root/mingw/lib $INSTALL_DIR
+			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/share ]] && cp -vr usr/i686-w64-mingw32/sys-root/mingw/share $INSTALL_DIR
+			     [[ -d usr/share                                 ]] && cp -vr usr/share $INSTALL_DIR
+
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/bin
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/etc
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share
+			     rm -rf usr/share ;;
 		esac
 	done
 	echo "$NAME" >> $CONTENTS_FILE
@@ -189,7 +204,6 @@ for suffix in "" "-source"; do
 	ZIP_FILE="${ZIP_FILE%.zip}$suffix.zip"
 	rm -f $ZIP_FILE
 	zip -9 -r $ZIP_FILE Gtk$suffix
-	($GPG_SIGN -ab $ZIP_FILE && $GPG_SIGN --verify $ZIP_FILE.asc) || exit 1
 done
 
 exit 0
