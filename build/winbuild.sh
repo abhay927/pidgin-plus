@@ -49,14 +49,14 @@ if [[ -n "$sign" ]]; then
     gpg_version="${gpg_version##* }"
     [[ "$gpg_version" = 1.* ]] && hash gpg2 2> /dev/null && gpg=gpg2
 
-    # Authenticode password
-    read -s -p "Enter password for $sign: " pfx_password; echo
-    openssl pkcs12 -in "$sign" -nodes -password "pass:$pfx_password" > /dev/null || exit 1
-
     # GnuPG password
     read -s -p "Enter password for GnuPG: " gpg_password; echo
     $gpg --batch --yes --passphrase "$gpg_password" --output /tmp/test.asc -ab "$0" || exit 1
     rm /tmp/test.asc
+
+    # Authenticode password
+    read -s -p "Enter password for $sign: " pfx_password; echo
+    openssl pkcs12 -in "$sign" -nodes -password "pass:$pfx_password" > /dev/null || exit 1
 fi
 
 # Pidgin Windev
