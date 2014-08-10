@@ -127,8 +127,6 @@ endif
 
 gtk_runtime_zip:
 	pidgin/win32/nsis/generate_gtk_zip.sh "`pwd`"
-	$(call gpg_sign, pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip)
-	$(call gpg_sign, pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip)
 
 gtk_runtime_zip_force:
 	pidgin/win32/nsis/generate_gtk_zip.sh "`pwd`" --force
