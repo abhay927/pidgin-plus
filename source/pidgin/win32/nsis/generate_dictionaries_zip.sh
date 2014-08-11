@@ -21,7 +21,7 @@ echo "Downloading dictionaries..."
 echo
 
 if [[ -z "$create" ]]; then
-    wget -nc "https://launchpad.net/pidgin++/trunk/2.10.9-rs222/+download/Pidgin Dictionaries.zip" -O "$zip_file"
+    wget -nc "https://launchpad.net/pidgin++/trunk/2.10.9-rs223/+download/Pidgin Dictionaries.zip" -O "$zip_file"
     zip_sha1sum_expected="719e3614ca9562ba8f77e70618f45ccc1d0d1579"
     zip_sha1sum=$(sha1sum "$zip_file")
     zip_sha1sum="${zip_sha1sum%%\ *}"
