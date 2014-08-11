@@ -13,6 +13,7 @@
 ## Usage:
 ##     @script.name DEVELOPMENT_ROOT [options]
 ##
+##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
 ##     -g, --gtk            Build the GTK+ runtime instead of installers, if
 ##                          not already built and uploaded. Both binary and
 ##                          source code packages are generated.
@@ -101,18 +102,26 @@ if [[ -n "$sign" ]]; then
     echo "GPG_SIGN = $gpg" >> local.mak
 fi
 
-# GTK+ runtime
+# GTK+ and dictionary bundles
 build_binary() {
     make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password"
 }
 mkdir -p "$target"
-if [[ -n "$gtk" ]]; then
-    build_binary gtk_runtime_zip_force
-    gtk_version=$(pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
-	for asc in "" ${sign:+.asc}; do
-		mv -v pidgin/win32/nsis/gtk-runtime-*-source.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version Source.zip$asc"
-		mv -v pidgin/win32/nsis/gtk-runtime-*.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version.zip$asc"
-	done
+if [[ -n "$gtk" || -n "$dictionaries" ]]; then
+    if [[ -n "$gtk" ]]; then
+        build_binary gtk_runtime_zip_force
+        gtk_version=$(pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
+        for asc in "" ${sign:+.asc}; do
+            mv -v pidgin/win32/nsis/gtk-runtime-*-source.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version Source.zip$asc"
+            mv -v pidgin/win32/nsis/gtk-runtime-*.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version.zip$asc"
+        done
+    fi
+    if [[ -n "$dictionaries" ]]; then
+        build_binary dictionaries_bundle_force
+        for asc in "" ${sign:+.asc}; do
+            mv -v pidgin/win32/nsis/dictionaries.zip$asc "$target/Pidgin Dictionaries.zip$asc"
+        done
+    fi
     exit
 fi
 

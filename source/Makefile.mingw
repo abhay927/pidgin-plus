@@ -133,6 +133,13 @@ gtk_runtime_zip_force:
 	$(call gpg_sign, pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip)
 	$(call gpg_sign, pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip)
 
+dictionaries_bundle:
+	pidgin/win32/nsis/generate_dictionaries_zip.sh "`pwd`" "$(PIDGIN_VERSION)"
+
+dictionaries_bundle_force:
+	pidgin/win32/nsis/generate_dictionaries_zip.sh "`pwd`" "$(PIDGIN_VERSION)" --create
+	$(call gpg_sign, pidgin/win32/nsis/dictionaries.zip)
+
 generate_installer_includes: create_release_install_dir gtk_runtime_zip debug_symbols_zip $(PIDGIN_TREE_TOP)/pidgin/win32/nsis/nsis_translations.desktop
 	rm -f pidgin/win32/nsis/pidgin-translations.nsh pidgin/win32/nsis/pidgin-spellcheck.nsh pidgin/win32/nsis/pidgin-spellcheck-preselect.nsh
 	find $(STRIPPED_RELEASE_DIR)/locale -maxdepth 1 -mindepth 1 \
@@ -185,7 +192,7 @@ installer: generate_installer_includes
 	mv pidgin/win32/nsis/pidgin-$(PIDGIN_VERSION).exe ./
 	$(call gpg_sign, pidgin-$(PIDGIN_VERSION).exe)
 
-installer_offline: generate_installer_includes
+installer_offline: generate_installer_includes dictionaries_bundle
 	$(eval $@_PIDGIN_VERSION_LOWERCASE := $(shell echo $(PIDGIN_VERSION) | tr [[:upper:]] [[:lower:]]))
 	$(MAKENSIS) -V3 -DPIDGIN_VERSION="$(PIDGIN_VERSION)" -DPIDGIN_VERSION_LOWERCASE="$($@_PIDGIN_VERSION_LOWERCASE)" -DPIDGIN_PRODUCT_VERSION="$(PIDGIN_PRODUCT_VERSION)" \
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \

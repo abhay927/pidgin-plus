@@ -450,7 +450,12 @@ ${MementoSectionDone}
   Section /o "${lang_name}" SecSpell_${lang}
     Push ${lang_file}
     Push ${lang}
-    Call InstallDict
+    !ifdef OFFLINE_INSTALLER
+      SetOutPath "$INSTDIR\spellcheck\share\enchant\myspell"
+      File "dictionaries\unpacked\${lang}\*"
+    !else
+      Call InstallDict
+    !endif
   SectionEnd
 !macroend
 SectionGroup $(PIDGINSPELLCHECKSECTIONTITLE) SecSpellCheck
@@ -1185,6 +1190,7 @@ Function SelectAndDisableInstalledDictionaries
   Pop $R0
 FunctionEnd
 
+!ifndef OFFLINE_INSTALLER
 Function InstallDict
   Push $R0
   Exch
@@ -1230,6 +1236,7 @@ Function InstallDict
   Pop $R0
   Exch $R1
 FunctionEnd
+!endif
 
 !ifndef OFFLINE_INSTALLER
 ; Input Stack: Filename, SHA1sum
