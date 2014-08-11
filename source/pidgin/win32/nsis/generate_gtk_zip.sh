@@ -2,8 +2,8 @@
 # Script to generate zip file for GTK+ runtime to be included in Pidgin installer
 
 #This needs to be changed every time there is any sort of change.
-BUNDLE_VERSION=2.24.24.2
-BUNDLE_SHA1SUM=22fd5659d057c940c1d8d8a23b3cf9361c43dd1c
+BUNDLE_VERSION=2.24.24.3
+BUNDLE_SHA1SUM=e4a3e3f37b8b7bda02d98674f4034a57cfe4255c
 
 if [[ "$1" = --gtk-version ]]; then
     echo $BUNDLE_VERSION
@@ -55,6 +55,7 @@ FONTCONFIG="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhi
 FREETYPE="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-freetype-2.5.3-2.fc21.noarch.rpm Freetype 2.5.3-2 sha1sum:0217f4d9b0a883b4917d9c78db7aac047506c814,a747f4e6bd3c82de53c5c7cfe1d61e025ab6ed36"
 ICONV="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-win-iconv-0.0.6-2.fc21.noarch.rpm Iconv 0.0.6-2 sha1sum:47d33d7178b89db60ac50797731a9f33c58995c2,f0bb2b68247c31a9bea218ee75f4307d235a8f51"
 GETTEXT="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-gettext-0.18.3.2-2.fc21.noarch.rpm Gettext 0.18.3.2-2 sha1sum:26247b98279bb8ed17f83a4ff70c4ee4420c3986,8dba4e3baf02e8b4a0fa829f0df796d85b2e4df0"
+LIBFFI="http://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-libffi-3.0.13-5.fc21.noarch.rpm Libffi 3.0.13-5 sha1sum:156b69157b7a09d024ae54d9bead8aff2613f7c4,89dc469ee50927543b1bcef7f87d110dcfe8367a"
 GLIB="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-glib2-2.41.2-1.fc22.noarch.rpm Glib 2.41.2-1 sha1sum:a143ebf2922656cf3a2908699be61a3eaab66909,9545eb831938a1d7f7a65f8aa6fb9a4a9d2772fb"
 GTK="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-gtk2-2.24.24-2.fc22.noarch.rpm GTK+ 2.24.24-2 sha1sum:d6cec978e9defafbe857ac07614204ebd2f0cf8d,e1fd5d9e0eb0ad4a2b6d30dbf7462e0ca670e2fd"
 GDK_PIXBUF="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-gdk-pixbuf-2.30.8-2.fc21.noarch.rpm GDK-Pixbuf 2.30.8-2 sha1sum:2ed07b24239837436ce933ec463f7ddd43f53997,3bc4c7b078230e6e9e7567afbe156805058d5a01"
@@ -62,7 +63,7 @@ LIBPNG="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i
 PANGO="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-pango-1.36.5-2.fc22.noarch.rpm Pango 1.36.5-2 sha1sum:8ed5d8e2163b543118569587bf1cef002fd67eaf,d9ce955b501c51353acf9a3b4d1f6b38e4776a47"
 ZLIB="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m/mingw32-zlib-1.2.8-3.fc21.noarch.rpm zlib 1.2.8-3 sha1sum:480b65828c4cce4060facaeb8a0431e12939b731,adb96b7c769b880807288442f9fdbdd0dbfef404"
 
-ALL="ATK PIXMAN CAIRO EXPAT FONTCONFIG FREETYPE ICONV GETTEXT GLIB GTK GDK_PIXBUF LIBPNG PANGO ZLIB"
+ALL="ATK PIXMAN CAIRO EXPAT FONTCONFIG FREETYPE ICONV GETTEXT LIBFFI GLIB GTK GDK_PIXBUF LIBPNG PANGO ZLIB"
 
 mkdir -p $STAGE_DIR
 cd $STAGE_DIR
@@ -145,6 +146,7 @@ function download_and_extract {
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gio
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/glib-2.0
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gtk-2.0/include
+			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/libffi-3.0.13
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/pkgconfig
 
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/aclocal
