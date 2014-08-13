@@ -43,8 +43,7 @@
                 </span></xsl:for-each>
 
                 <xsl:if test="@bug !=''">
-                    (<a><xsl:attribute name="href"><xsl:value-of select="$bugs.url"/>/<xsl:value-of select="@bug"/></xsl:attribute>
-                    #<xsl:value-of select="@bug"/></a>)
+                    (<a><xsl:attribute name="href"><xsl:value-of select="$bugs.url"/>/<xsl:value-of select="@bug"/></xsl:attribute>#<xsl:value-of select="@bug"/></a>)
                 </xsl:if>
 
                 <div><xsl:for-each select="screenshot">
