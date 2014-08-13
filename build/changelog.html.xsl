@@ -3,7 +3,7 @@
     <xsl:param name="bugs.url"/>
     <xsl:param name="version"/>
     <xsl:param name="version.custom"/>
-    <xsl:variable name="title">Pidgin <xsl:value-of select="$version.custom"/></xsl:variable>
+    <xsl:variable name="title">Pidgin++ <xsl:value-of select="$version"/>-<xsl:value-of select="$version.custom"/></xsl:variable>
     <xsl:template match="/">
         <xsl:text disable-output-escaping="yes"><![CDATA[<!DOCTYPE html>]]></xsl:text>
         <html><head>
@@ -33,8 +33,8 @@
             </script>]]></xsl:text>
         </head><body onLoad="translate(window.location.search.slice(1));">
             <h2><xsl:copy-of select="$title"/></h2>
-            <p class="translation default">This is a modified version of Pidgin, not supported by the official team. The following customizations have been made to original version <xsl:value-of select="$version"/>:</p>
-            <p class="translation pt_BR">Esta é uma versão modificada do Pidgin, sem suporte do time oficial. As seguintes customizações foram aplicadas à versão original <xsl:value-of select="$version"/>:</p>
+            <p class="translation default">This is an improved version of Pidgin, with the customizations below applied to the original version. For questions about Pidgin++, please visit <a href="https://answers.launchpad.net/pidgin++">the support area</a>.</p>
+            <p class="translation pt_BR">Esta é uma versão melhorada do Pidgin, com as customizações abaixo aplicadas à versão original. Para perguntas sobre o Pidgin++, por favor visite a <a href="https://answers.launchpad.net/pidgin++">área de suporte</a>.</p>
 
             <ul><xsl:for-each select="changelog/change"><li>
                 <xsl:for-each select="@*[local-name() = 'description']"><span>
