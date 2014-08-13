@@ -436,6 +436,11 @@ SectionGroupEnd
     File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\glib20.mo"
     File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gtk20.mo"
     File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gtk20-properties.mo"
+
+    ; Remove language if missing
+    SetOutPath "$INSTDIR"
+    RmDir "$INSTDIR\Gtk\share\locale\${lang}\LC_MESSAGES"
+    RmDir "$INSTDIR\Gtk\share\locale\${lang}"
   !else
     SetOutPath "$INSTDIR"
     !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/atk10.mo"
