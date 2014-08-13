@@ -11831,7 +11831,7 @@ msgstr "URI"
 
 #. Installer Subsection Text
 msgid "URI Handlers"
-msgstr "Handlers para endereços"
+msgstr "Protocolos associados"
 
 msgid "URL"
 msgstr "URL"
