@@ -421,35 +421,35 @@ SectionGroupEnd
 ;--------------------------------
 ;Translations
 
-!macro LANG_SECTION lang
-  ${MementoUnselectedSection} "${lang}" SecLang_${lang}
-    SetOutPath "$INSTDIR\locale\${lang}\LC_MESSAGES"
-    File "..\..\..\${PIDGIN_INSTALL_DIR}\locale\${lang}\LC_MESSAGES\*.mo"
+!macro LANG_SECTION lang_code lang_name
+  ${MementoUnselectedSection} "${lang_name}" SecLang_${lang_code}
+    SetOutPath "$INSTDIR\locale\${lang_code}\LC_MESSAGES"
+    File "..\..\..\${PIDGIN_INSTALL_DIR}\locale\${lang_code}\LC_MESSAGES\*.mo"
 
   ; Install the GTK+ translation for the language
   !ifdef OFFLINE_INSTALLER
-    SetOutPath "$INSTDIR\Gtk\share\locale\${lang}\LC_MESSAGES"
-    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\atk10.mo"
-    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gdk-pixbuf.mo"
-    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gettext-runtime.mo"
-    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\ gettext-tools.mo"
-    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\glib20.mo"
-    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gtk20.mo"
-    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gtk20-properties.mo"
+    SetOutPath "$INSTDIR\Gtk\share\locale\${lang_code}\LC_MESSAGES"
+    File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\atk10.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gdk-pixbuf.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gettext-runtime.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\ gettext-tools.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\glib20.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gtk20.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gtk20-properties.mo"
 
     ; Remove language if missing
     SetOutPath "$INSTDIR"
-    RmDir "$INSTDIR\Gtk\share\locale\${lang}\LC_MESSAGES"
-    RmDir "$INSTDIR\Gtk\share\locale\${lang}"
+    RmDir "$INSTDIR\Gtk\share\locale\${lang_code}\LC_MESSAGES"
+    RmDir "$INSTDIR\Gtk\share\locale\${lang_code}"
   !else
     SetOutPath "$INSTDIR"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/atk10.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gdk-pixbuf.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gettext-runtime.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gettext-tools.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/glib20.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gtk20.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gtk20-properties.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/atk10.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gdk-pixbuf.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gettext-runtime.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gettext-tools.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/glib20.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gtk20.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gtk20-properties.mo"
   !endif
   ${MementoSectionEnd}
 !macroend

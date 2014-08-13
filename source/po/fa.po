@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2014-07-28 07:15+0000\n"
 "X-Generator: Launchpad (build 17131)\n"
-"Language: fa\n"
+"Language: Persian\n"
 
 msgid "\t_Only when someone says your username"
 msgstr "\t_فقط وقتی کسی نام کاربری شما را در گپ می‌گوید"

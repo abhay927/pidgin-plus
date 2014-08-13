@@ -22,7 +22,7 @@ msgstr ""
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Launchpad-Export-Date: 2014-07-28 07:09+0000\n"
 "X-Generator: Launchpad (build 17131)\n"
-"Language: lt\n"
+"Language: Lithuanian\n"
 
 msgid "\t_Only when someone says your username"
 msgstr "\ttik kai kas n_ors pasako Jūsų naudotojo vardą"

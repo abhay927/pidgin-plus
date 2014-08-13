@@ -70,7 +70,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2014-07-28 07:28+0000\n"
 "X-Generator: Launchpad (build 17131)\n"
-"Language: zh_TW\n"
+"Language: Chinese (Traditional)\n"
 
 msgid "\t_Only when someone says your username"
 msgstr "\t只當有人提到您的帳號(_O)"

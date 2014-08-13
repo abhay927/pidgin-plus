@@ -28,7 +28,7 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Launchpad-Export-Date: 2014-07-28 07:15+0000\n"
 "X-Generator: Launchpad (build 17131)\n"
-"Language: pl\n"
+"Language: Polish\n"
 
 msgid "\t_Only when someone says your username"
 msgstr "\tTylk_o, kiedy ktoś wymawia nazwę użytkownika"

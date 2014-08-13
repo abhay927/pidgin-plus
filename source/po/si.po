@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2014-07-28 07:19+0000\n"
 "X-Generator: Launchpad (build 17131)\n"
-"Language: si\n"
+"Language: Sinhalese\n"
 
 msgid "\t_Only when someone says your username"
 msgstr ""
