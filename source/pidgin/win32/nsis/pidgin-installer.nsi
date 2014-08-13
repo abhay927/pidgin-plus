@@ -404,18 +404,18 @@ SectionGroupEnd
 ;--------------------------------
 ;URI Handling
 
-!macro URI_SECTION proto
-  Section /o "${proto}:" SecURI_${proto}
+!macro URI_SECTION proto proto_name
+  Section /o "${proto_name}" SecURI_${proto}
     Push "${proto}"
     Call RegisterURIHandler
   SectionEnd
 !macroend
 SectionGroup /e $(URIHANDLERSSECTIONTITLE) SecURIHandlers
-  !insertmacro URI_SECTION "aim"
-  !insertmacro URI_SECTION "msnim"
-  !insertmacro URI_SECTION "myim"
-  !insertmacro URI_SECTION "ymsgr"
-  !insertmacro URI_SECTION "xmpp"
+  !insertmacro URI_SECTION "aim" "AIM"
+  !insertmacro URI_SECTION "msnim" "MSN"
+  !insertmacro URI_SECTION "myim" "MySpaceIM"
+  !insertmacro URI_SECTION "ymsgr" "Yahoo"
+  !insertmacro URI_SECTION "xmpp" "XMPP"
 SectionGroupEnd
 
 ;--------------------------------
