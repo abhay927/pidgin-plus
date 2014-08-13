@@ -430,12 +430,18 @@ SectionGroupEnd
   !ifdef OFFLINE_INSTALLER
     SetOutPath "$INSTDIR\Gtk\share\locale\${lang}\LC_MESSAGES"
     File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\atk10.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gdk-pixbuf.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gettext-runtime.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\ gettext-tools.mo"
     File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\glib20.mo"
     File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gtk20.mo"
     File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gtk20-properties.mo"
   !else
     SetOutPath "$INSTDIR"
     !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/atk10.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gdk-pixbuf.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gettext-runtime.mo"
+    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gettext-tools.mo"
     !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/glib20.mo"
     !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gtk20.mo"
     !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gtk20-properties.mo"
