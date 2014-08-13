@@ -193,10 +193,11 @@ installer: generate_installer_includes
 	$(call gpg_sign, pidgin-$(PIDGIN_VERSION).exe)
 
 installer_offline: generate_installer_includes dictionaries_bundle
-	$(eval $@_PIDGIN_VERSION_LOWERCASE := $(shell echo $(PIDGIN_VERSION) | tr [[:upper:]] [[:lower:]]))
+	$(eval $@_DEBUG_SYMBOLS_DIR := $(shell echo $(DEBUG_SYMBOLS_DIR) | tr / \\\\))
+	$(eval $@_PIDGIN_VERSION_LOWERCASE := $(shell echo $(PIDGIN_VERSION) | tr [[:upper:]] [[:lower:]]))	
 	$(MAKENSIS) -V3 -DPIDGIN_VERSION="$(PIDGIN_VERSION)" -DPIDGIN_VERSION_LOWERCASE="$($@_PIDGIN_VERSION_LOWERCASE)" -DPIDGIN_PRODUCT_VERSION="$(PIDGIN_PRODUCT_VERSION)" \
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
-		-DOFFLINE_INSTALLER \
+		-DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" -DOFFLINE_INSTALLER \
 		pidgin/win32/nsis/pidgin-installer.nsi
 	$(call authenticode_sign, pidgin/win32/nsis/pidgin-$(PIDGIN_VERSION)-offline.exe, "Pidgin Installer")
 	mv pidgin/win32/nsis/pidgin-$(PIDGIN_VERSION)-offline.exe ./

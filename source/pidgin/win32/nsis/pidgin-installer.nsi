@@ -263,16 +263,11 @@ Section $(GTKSECTIONTITLE) SecGtk
 
   InitPluginsDir
   StrCpy $R1 "$PLUGINSDIR\gtk.zip"
-!ifdef OFFLINE_INSTALLER
 
-  SetOutPath $PLUGINSDIR
-  File /oname=gtk.zip ".\gtk-runtime-${GTK_INSTALL_VERSION}.zip"
-
-!else
-
+!ifndef OFFLINE_INSTALLER
   ; We need to download the GTK+ runtime
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/2.10.9-rs223/+download/Pidgin GTK+ Runtime ${GTK_INSTALL_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/2.10.9-rs225/+download/Pidgin GTK+ Runtime ${GTK_INSTALL_VERSION}.zip"
   DetailPrint "Downloading GTK+ Runtime ... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
@@ -294,10 +289,12 @@ Section $(GTKSECTIONTITLE) SecGtk
   ;Delete the old Gtk directory
   RMDir /r "$INSTDIR\Gtk"
 
+!ifdef OFFLINE_INSTALLER
+  SetOutPath $INSTDIR
+  File /r /x locale ".\Gtk"
+!else
   ;Extract GTK+ except for locale files which are extracted in LANG_SECTION
   !include "gtk-extraction.nsh"
-
-!ifndef OFFLINE_INSTALLER
   done:
 !endif
 SectionEnd ; end of GTK+ section
@@ -428,13 +425,21 @@ SectionGroupEnd
   ${MementoUnselectedSection} "${lang}" SecLang_${lang}
     SetOutPath "$INSTDIR\locale\${lang}\LC_MESSAGES"
     File "..\..\..\${PIDGIN_INSTALL_DIR}\locale\${lang}\LC_MESSAGES\*.mo"
-    SetOutPath "$INSTDIR"
 
-    ; Extract the GTK+ translation for the language
+  ; Install the GTK+ translation for the language
+  !ifdef OFFLINE_INSTALLER
+    SetOutPath "$INSTDIR\Gtk\share\locale\${lang}\LC_MESSAGES"
+    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\atk10.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\glib20.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gtk20.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang}\LC_MESSAGES\gtk20-properties.mo"
+  !else
+    SetOutPath "$INSTDIR"
     !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/atk10.mo"
     !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/glib20.mo"
     !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gtk20.mo"
     !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang}/LC_MESSAGES/gtk20-properties.mo"
+  !endif
   ${MementoSectionEnd}
 !macroend
 SectionGroup $(TRANSLATIONSSECTIONTITLE) SecTranslations
@@ -466,13 +471,11 @@ Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
   
   InitPluginsDir
   StrCpy $R1 "$PLUGINSDIR\dbgsym.zip"
+
 !ifdef OFFLINE_INSTALLER
-
-  SetOutPath $PLUGINSDIR
-  File /oname=dbgsym.zip "..\..\..\pidgin-${PIDGIN_VERSION}-dbgsym.zip"
-
+  SetOutPath $INSTDIR
+  File /r "..\..\..\${DEBUG_SYMBOLS_DIR}"
 !else
-
   ; We need to download the debug symbols
   retry:
   StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${PIDGIN_VERSION_LOWERCASE}/+download/Pidgin Debug Symbols ${PIDGIN_VERSION}.zip"
@@ -491,15 +494,12 @@ Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
     MessageBox MB_RETRYCANCEL "$(PIDGINDEBUGSYMBOLSERROR)" /SD IDCANCEL IDRETRY retry IDCANCEL done
 
   extract:
-!endif
-
   SetOutPath "$INSTDIR"
   nsisunz::UnzipToLog $R1 "$INSTDIR"
   Pop $R0
   StrCmp $R0 "success" +2
     DetailPrint "$R0" ;print error message to log
 
-!ifndef OFFLINE_INSTALLER
   done:
 !endif
 SectionEnd
