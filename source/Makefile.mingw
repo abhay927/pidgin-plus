@@ -99,7 +99,7 @@ EXTERNAL_DLLS_FIND_EXP = $(patsubst %,-o -name %,$(EXTERNAL_DLLS))
 
 include $(PIDGIN_COMMON_RULES)
 
-.PHONY: all docs install installer installer_offline installer_zip debug_symbols_zip installers clean uninstall create_release_install_dir generate_installer_includes $(PIDGIN_REVISION_H) $(PIDGIN_REVISION_RAW_TXT) gtk_runtime_zip
+.PHONY: all docs install installer installer_offline installer_zip debug_symbols_zip installers clean uninstall create_release_install_dir generate_installer_includes $(PIDGIN_REVISION_H) $(PIDGIN_REVISION_RAW_TXT) gtk_runtime_zip gtk_runtime_zip_force dictionaries_bundle dictionaries_bundle_force
 
 all: $(PIDGIN_CONFIG_H) $(PIDGIN_REVISION_H)
 	$(MAKE) -C $(PURPLE_TOP) -f $(MINGW_MAKEFILE)
