@@ -19,6 +19,9 @@
 ##                          source code packages are generated.
 ##
 ##     -o, --offline        Build both the standard and offline installers.
+##     -s, --source         Build the source code bundle together with the
+##                          installer, if this source code tree is a Bazaar
+##                          branch. Requires Bazaar.
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##
 ##         --sign=FILE      Enable code signing with Microsoft Authenticode and
@@ -37,12 +40,13 @@ eval "$(from="$0" easyoptions.rb "$@"; echo result=$?)"
 [[ ! -d "${arguments[0]}" && $result  = 0 ]] && echo "No valid development root specified, see --help."
 [[ ! -d "${arguments[0]}" || $result != 0 ]] && exit
 
-# Variables
+# Variables and functions
 devroot="${arguments[0]}"
 version=$(./changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot/distribution/$version}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
+build() { make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" "${@:2}"; }
 
 # Prepare for code signing
 if [[ -n "$sign" ]]; then
@@ -92,6 +96,7 @@ cp -r ../source/* "$staging"
 ./changelog.sh --html && mv -v changelog.html "$staging/CHANGES.html"
 
 # Prepare
+branch=$(readlink -m "$(pwd)/..")
 eval $("$windev" "$devroot" --path --system-gcc)
 cd "$staging"
 
@@ -103,13 +108,10 @@ if [[ -n "$sign" ]]; then
 fi
 
 # GTK+ and dictionary bundles
-build_binary() {
-    make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password"
-}
 mkdir -p "$target"
 if [[ -n "$gtk" || -n "$dictionaries" ]]; then
     if [[ -n "$gtk" ]]; then
-        build_binary gtk_runtime_zip_force
+        build gtk_runtime_zip_force
         gtk_version=$(pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
         for asc in "" ${sign:+.asc}; do
             mv -v pidgin/win32/nsis/gtk-runtime-*-source.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version Source.zip$asc"
@@ -117,7 +119,7 @@ if [[ -n "$gtk" || -n "$dictionaries" ]]; then
         done
     fi
     if [[ -n "$dictionaries" ]]; then
-        build_binary dictionaries_bundle_force
+        build dictionaries_bundle_force
         for asc in "" ${sign:+.asc}; do
             mv -v pidgin/win32/nsis/dictionaries.zip$asc "$target/Pidgin Dictionaries.zip$asc"
         done
@@ -125,8 +127,23 @@ if [[ -n "$gtk" || -n "$dictionaries" ]]; then
     exit
 fi
 
+# Source code bundle
+if [[ -n "$source" ]]; then
+    if [[ ! -d "$branch/.bzr" ]]; then
+        echo "Error: cannot create source code bundle because this is not a Bazaar branch."
+        exit 1
+    fi
+    echo
+    echo "Creating the source code bundle..."
+    build source_code_zip BAZAAR_BRANCH="$branch"
+    for asc in "" ${sign:+.asc}; do
+        mv -v pidgin-*-source.zip$asc "$target/Pidgin $version Source.zip$asc"
+    done
+    echo
+fi
+
 # Installers
-build_binary "installer${offline:+s}" || exit
+build "installer${offline:+s}" || exit
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
     mv -v pidgin-*.exe$asc "$target/Pidgin $version Setup.exe$asc"
