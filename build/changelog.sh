@@ -22,32 +22,32 @@
 ##                                 including the epoch component.
 ##
 
-# Prepare
 eval "$(from="$0" easyoptions.rb "$@" || echo exit 1)"
-get_version() {
-    version_pattern="PACKAGE_VERSION=[\"']?([^\"']+)[\"']?"
-    suffix_pattern='m4_define\(\[purple_version_suffix\], \[.(.*)\]\)'
-    pidgin_version=$(grep -E "$version_pattern" ../source/configure | sed -r s/"$version_pattern"/'\1'/)
-    custom_version=$(grep -E "$suffix_pattern" ../source/configure.ac | sed -r s/"$suffix_pattern"/'\1'/)
-    full_version="${pidgin_version}-${custom_version}"
-    if [[ $(uname -s) = Linux ]]; then
-        ubuntu_package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | \
-        sed -E "s/-(${custom_version,,}\+){0,1}/-${custom_version,,}+/")
-    fi
-}
-get_version
-xsl_parameters="-s version=$full_version -s bugs.url=https://developer.pidgin.im/ticket"
+base_dir=$(readlink -e "$(dirname "$0")/..")
+source_dir="$base_dir/source"
+build_dir="$base_dir/build"
+
+version_pattern="PACKAGE_VERSION=[\"']?([^\"']+)[\"']?"
+suffix_pattern='m4_define\(\[purple_version_suffix\], \[.(.*)\]\)'
+pidgin_version=$(grep -E "$version_pattern" "$source_dir/configure" | sed -r s/"$version_pattern"/'\1'/)
+custom_version=$(grep -E "$suffix_pattern" "$source_dir/configure.ac" | sed -r s/"$suffix_pattern"/'\1'/)
 
 # Bump version suffix
 if [[ -n "$update_version" ]]; then
-    old_version="$full_version"
-    script_dir=$(dirname "$0")
-    source_dir=$(readlink -e "$script_dir/../source")
-    sed -ri "s/$suffix_pattern/m4_define([purple_version_suffix], [-RS$(date +%j)])/" "$source_dir/configure.ac"
-    get_version; [[ $old_version != $full_version ]] && echo "Version bumped to $full_version"
+    new_custom_version="RS$(date +%j)"
+    if [[ $new_custom_version != $custom_version ]]; then
+        sed -ri "s/$suffix_pattern/m4_define([purple_version_suffix], [-$new_custom_version])/" "$source_dir/configure.ac"
+        echo "Version bumped to $new_custom_version"
+        custom_version="$new_custom_version"
+    fi
+
 fi
 
-# Just print the version
+full_version="${pidgin_version}-${custom_version}"
+xsl_parameters="-s version=$full_version -s bugs.url=https://developer.pidgin.im/ticket"
+[[ $(uname -s) = Linux ]] && ubuntu_package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${custom_version,,}\+){0,1}/-${custom_version,,}+/")
+
+# Versions
 [[ -n "$version"              ]] &&  printf "${full_version:+Version is $full_version\n}"
 [[ -n "$upstream_version"     ]] &&  printf "${pidgin_version:+Upstream version is $pidgin_version\n}"
 [[ -n "$package_version"      ]] &&  printf "${ubuntu_package_version:+Package version is ${ubuntu_package_version#*:}\n}"
@@ -55,6 +55,7 @@ fi
 
 # HTML changelog
 if [[ -n "$html" ]]; then
+    cd "$build_dir"
     xmlstarlet transform --omit-decl changelog.html.xsl $xsl_parameters changelog.xml | dos2unix > changelog.unformatted.html
     xmlstarlet format --html --omit-decl --nocdata --indent-spaces 4 changelog.unformatted.html | dos2unix > changelog.html
     sed -i -E "s/(<\!\[CDATA\[|(\s{4})?\]\]>)//" changelog.html
@@ -64,6 +65,7 @@ fi
 
 # Debian changelog
 if [[ -n "$debian" ]]; then
+    cd "$build_dir"
     distribution=$(lsb_release --codename --short 2> /dev/null || echo DISTRIBUTION)
     maintainer=$(bzr whoami 2> /dev/null || echo "${DEBFULLNAME:-NAME} <${DEBEMAIL:-EMAIL}>")
     xsl_parameters="$xsl_parameters -s package.version=${ubuntu_package_version:-VERSION} -s distribution=$distribution"
