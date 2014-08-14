@@ -63,8 +63,8 @@ fi
 # Pidgin Windev
 if [[ ! -e "$windev" ]]; then
     tarball="$devroot/downloads/pidgin-windev.tar.gz"
-    url="http://bazaar.launchpad.net/~renatosilva/pidgin-windev/main/tarball"
-    wget -nv "$url" -O "$tarball" && bsdtar -xzf "$tarball" --strip-components 3 --directory "$devroot/win32-dev"
+    url="http://bazaar.launchpad.net/~renatosilva/pidgin-windev/trunk/tarball/head:"
+    wget -nv "$url" -O "$tarball" && bsdtar -xzf "$tarball" --strip-components 3 --directory "$devroot/win32-dev" "~renatosilva/pidgin-windev/trunk/pidgin-windev.sh"
     [[ $? != 0 ]] && exit 1
     echo "Extracted $windev"
 fi
