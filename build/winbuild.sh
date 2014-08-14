@@ -18,11 +18,11 @@
 ##                          not already built and uploaded. Both binary and
 ##                          source code packages are generated.
 ##
+##     -c, --cleanup        Clean up the staging dir then exit.
 ##     -o, --offline        Build both the standard and offline installers.
 ##     -s, --source         Build the source code bundle together with the
 ##                          installer, if this source code tree is a Bazaar
 ##                          branch. Requires Bazaar.
-##     -c, --cleanup        Clean up the staging dir then exit.
 ##
 ##         --sign           Enable code signing with GnuPG. This applies to the
 ##                          source code, dictionary and GTK+ bundles, as well as
