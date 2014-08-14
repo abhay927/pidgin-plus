@@ -30,7 +30,7 @@ ZIP_FILE="$PIDGIN_BASE/pidgin/win32/nsis/gtk-runtime-$BUNDLE_VERSION.zip"
 #Download the existing file (so that we distribute the exact same file for all releases with the same bundle version)
 FILE="$ZIP_FILE"
 if [ ! -e "$FILE" ]; then
-	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs225/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
+	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs226/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
 fi
 CHECK_SHA1SUM=`sha1sum $FILE`
 CHECK_SHA1SUM=${CHECK_SHA1SUM%%\ *}
