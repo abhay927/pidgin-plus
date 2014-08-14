@@ -9,7 +9,7 @@
         <xsl:text>pidgin (</xsl:text><xsl:value-of select="$package.version"/><xsl:text>) </xsl:text><xsl:value-of select="$distribution"/><xsl:text>; urgency=low</xsl:text>
         <xsl:text>&#10;&#10;</xsl:text>
 
-        <xsl:for-each select="changelog/change">
+        <xsl:for-each select="changelog/platform[@id='all']/change">
             <xsl:text>  * </xsl:text><xsl:value-of select="@en:description"/><xsl:text>.</xsl:text>
             <xsl:if test="@bug !=''"><xsl:text> (#</xsl:text><xsl:value-of select="@bug"/><xsl:text>)</xsl:text></xsl:if>
             <xsl:text>&#10;</xsl:text>

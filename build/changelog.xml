@@ -1,34 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<changelog xmlns:en="default" xmlns:pt-br="pt_BR">
-    <change en:description="GTK+ 2.24 on Windows" pt-br:description="GTK+ 2.24 no Windows"/>
-    <change bug="604" en:description="Better Unicode support on Windows" pt-br:description="Melhor suporte a Unicode no Windows"/>
-    <change bug="1458" en:description="Single click support on Windows tray" pt-br:description="Clique simples para ícone de bandeja no Windows"/>
-    <change en:description="New status icons" pt-br:description="Novo tema para ícones de status">
-        <screenshot>pixmaps/pidgin/status/48/invisible.png</screenshot>
-        <screenshot>pixmaps/pidgin/status/48/available.png</screenshot>
-        <screenshot>pixmaps/pidgin/status/48/away.png</screenshot>
-        <screenshot>pixmaps/pidgin/status/48/busy.png</screenshot>
-        <screenshot>pixmaps/pidgin/status/48/offline.png</screenshot>
-        <screenshot>pixmaps/pidgin/status/48/person.png</screenshot>
-        <screenshot>pixmaps/pidgin/status/48/chat.png</screenshot>
-    </change>
-    <change en:description="New tray icons" pt-br:description="Novo tema para ícones da bandeja">
-        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-invisible.png</screenshot>
-        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-available.png</screenshot>
-        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-away.png</screenshot>
-        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-busy.png</screenshot>
-        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-offline.png</screenshot>
-        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-pending.png</screenshot>
-        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-email.png</screenshot>
-        <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-connect.png</screenshot>
-    </change>
-    <change en:description="Refined buddy list appearance" pt-br:description="Aparência da lista de amigos aprimorada"/>
-    <change en:description="Refined GTK+ Windows theme" pt-br:description="Tema Windows do GTK+ aprimorado"/>
-    <change bug="15347" en:description="Wider non-ellipsized labels for side-aligned conversation tabs" pt-br:description="Títulos maiores, sem reticências, nas abas de conversa laterais"/>
-    <change bug="15348" en:description="Load account icon from config dir for relative paths" pt-br:description="Suporte a caminhos relativos para os ícones de conta"/>
-    <change bug="15248" en:description="Avoid printing IRC channel URLs" pt-br:description="Supressão do endereço do canal IRC na janela de conversa"/>
-    <change bug="14970" en:description="Really offline Windows installer" pt-br:description="Instalador Windows realmente offline"/>
-    <change en:description="Full subdirectories removal upon Windows uninstallation" pt-br:description="Remoção completa dos subdiretórios ao desinstalar no Windows"/>
-    <change en:description="Smaller installation size on Windows (only the required GTK+ locales are installed)" pt-br:description="Menor tamanho da instalação no Windows (somente as localizações necessárias do GTK+ são instaladas)"/>
-    <change en:description="Windows version compiled with GCC 4.9 instead of 4.7" pt-br:description="Versão Windows compilada com GCC 4.9 em vez do 4.7"/>
+<changelog xmlns:en-us="default" xmlns:pt-br="pt_BR">
+
+    <platform id="windows"
+              en-us:description="For Windows"
+              pt-br:description="Para Windows">
+
+        <change en-us:description="More recent GTK+ (2.24.24)"
+                pt-br:description="GTK+ mais recente (2.24.24)"/>
+
+        <change en-us:description="Better Unicode support"
+                pt-br:description="Melhor suporte a Unicode"
+                bug="604"/>
+
+        <change en-us:description="Really offline installer"
+                pt-br:description="Instalador realmente offline"
+                bug="14970"/>
+
+        <change en-us:description="Single click support on system tray"
+                pt-br:description="Clique simples na bandeja do sistema"
+                bug="1458"/>
+
+        <change en-us:description="Compiled with more recent GCC (4.9)"
+                pt-br:description="Compilado com GCC mais recente (4.9)"/>
+
+        <change en-us:description="Smaller installation size"
+                pt-br:description="Menor tamanho de instalação"/>
+
+        <change en-us:description="Refined GTK+ theme"
+                pt-br:description="Tema do GTK+ aprimorado"/>
+
+        <change en-us:description="Better uninstallation"
+                pt-br:description="Melhor desinstalação"/>
+    </platform>
+
+    <platform id="all"
+              en-us:description="All platforms"
+              pt-br:description="Todas as plataformas">
+
+        <change en-us:description="New status icons"
+                pt-br:description="Novo tema para ícones de status">
+                <screenshot>pixmaps/pidgin/status/48/invisible.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/available.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/away.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/busy.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/offline.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/person.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/chat.png</screenshot></change>
+
+        <change en-us:description="New tray icons"
+                pt-br:description="Novo tema para ícones da bandeja">
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-invisible.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-available.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-away.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-busy.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-offline.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-pending.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-email.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-connect.png</screenshot></change>
+
+        <change en-us:description="Wider non-ellipsized labels for side-aligned conversation tabs"
+                pt-br:description="Títulos maiores, sem reticências, nas abas de conversa laterais"
+                bug="15347"/>
+
+        <change en-us:description="Avoid printing IRC channel URLs"
+                pt-br:description="Supressão do endereço do canal IRC na janela de conversa"
+                bug="15248"/>
+
+        <change en-us:description="Load account icon from config dir for relative paths"
+                pt-br:description="Suporte a caminhos relativos para os ícones de conta"
+                bug="15348"/>
+
+        <change en-us:description="Refined buddy list appearance"
+                pt-br:description="Aparência aprimorada da lista de amigos"/>
+    </platform>
 </changelog>

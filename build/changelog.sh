@@ -19,13 +19,14 @@ if [[ "$1" = --html || "$1" = --debian || "$1" = --*version* ]]; then
     version_pattern="PACKAGE_VERSION=[\"']?([^\"']+)[\"']?"
     pidgin_version=$(grep -E "$version_pattern" ../source/configure | sed -r s/"$version_pattern"/'\1'/)
     custom_version=$(grep -E "$suffix_pattern" ../source/configure.ac | sed -r s/"$suffix_pattern"/'\1'/)
+    full_version="${pidgin_version}-${custom_version}"
     [[ $(uname -s) = Linux ]] && package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${custom_version,,}\+){0,1}/-${custom_version,,}+/")
-    xsl_parameters="-s version=$pidgin_version -s version.custom=$custom_version -s bugs.url=https://developer.pidgin.im/ticket"
+    xsl_parameters="-s version=$full_version -s bugs.url=https://developer.pidgin.im/ticket"
 fi
 
 # Just print the version
 case "$1" in
-    --version)               echo "${pidgin_version}-${custom_version}"; exit ;;
+    --version)               echo "$full_version"; exit ;;
     --package-version)       echo "${package_version#*:}"; exit ;;
     --package-version-full)  echo "$package_version"; exit ;;
     --upstream-version)      echo "$pidgin_version"; exit ;;
