@@ -4,22 +4,30 @@
 # Copyright (c) 2014 Renato Silva
 # GNU GPLv2 licensed
 
-suffix_pattern='m4_define\(\[purple_version_suffix\], \[.(.*)\]\)'
+# Prepare
+get_version() {
+    version_pattern="PACKAGE_VERSION=[\"']?([^\"']+)[\"']?"
+    suffix_pattern='m4_define\(\[purple_version_suffix\], \[.(.*)\]\)'
+    pidgin_version=$(grep -E "$version_pattern" ../source/configure | sed -r s/"$version_pattern"/'\1'/)
+    custom_version=$(grep -E "$suffix_pattern" ../source/configure.ac | sed -r s/"$suffix_pattern"/'\1'/)
+    full_version="${pidgin_version}-${custom_version}"
+};  get_version
 
 # Bump version suffix
 if [[ "$1" = "--update-version" ]]; then
+    old_version="$full_version"
     script_dir=$(dirname "$0")
     source_dir=$(readlink -e "$script_dir/../source")
     sed -ri "s/$suffix_pattern/m4_define([purple_version_suffix], [-RS$(date +%j)])/" "$source_dir/configure.ac"
+    get_version
+    echo -e "Old version: $old_version"
+    echo -e "New version: $full_version"
     exit
 fi
 
 # Prepare for changelog generation
 if [[ "$1" = --html || "$1" = --debian || "$1" = --*version* ]]; then
-    version_pattern="PACKAGE_VERSION=[\"']?([^\"']+)[\"']?"
-    pidgin_version=$(grep -E "$version_pattern" ../source/configure | sed -r s/"$version_pattern"/'\1'/)
-    custom_version=$(grep -E "$suffix_pattern" ../source/configure.ac | sed -r s/"$suffix_pattern"/'\1'/)
-    full_version="${pidgin_version}-${custom_version}"
+    get_version
     [[ $(uname -s) = Linux ]] && package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${custom_version,,}\+){0,1}/-${custom_version,,}+/")
     xsl_parameters="-s version=$full_version -s bugs.url=https://developer.pidgin.im/ticket"
 fi
