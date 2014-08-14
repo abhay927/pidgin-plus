@@ -40,7 +40,6 @@ if [[ -n "$update_version" ]]; then
         echo "Version bumped to $new_custom_version"
         custom_version="$new_custom_version"
     fi
-
 fi
 
 full_version="${pidgin_version}-${custom_version}"
@@ -48,10 +47,10 @@ xsl_parameters="-s version=$full_version -s bugs.url=https://developer.pidgin.im
 [[ $(uname -s) = Linux ]] && ubuntu_package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${custom_version,,}\+){0,1}/-${custom_version,,}+/")
 
 # Versions
-[[ -n "$version"              ]] &&  printf "${full_version:+Version is $full_version\n}"
-[[ -n "$upstream_version"     ]] &&  printf "${pidgin_version:+Upstream version is $pidgin_version\n}"
-[[ -n "$package_version"      ]] &&  printf "${ubuntu_package_version:+Package version is ${ubuntu_package_version#*:}\n}"
-[[ -n "$package_version_full" ]] &&  printf "${ubuntu_package_version:+Full package version is ${ubuntu_package_version}\n}"
+[[ -n "$version"              ]] &&  printf "${full_version:+$full_version\n}"
+[[ -n "$upstream_version"     ]] &&  printf "${pidgin_version:+$pidgin_version\n}"
+[[ -n "$package_version"      ]] &&  printf "${ubuntu_package_version:+${ubuntu_package_version#*:}\n}"
+[[ -n "$package_version_full" ]] &&  printf "${ubuntu_package_version:+${ubuntu_package_version}\n}"
 
 # HTML changelog
 if [[ -n "$html" ]]; then
