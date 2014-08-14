@@ -13,6 +13,7 @@
 ## Usage:
 ##     @script.name DEVELOPMENT_ROOT [options]
 ##
+##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
 ##     -g, --gtk            Build the GTK+ runtime instead of installers, if
 ##                          not already built and uploaded. Both binary and
@@ -54,6 +55,14 @@ staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot/distribution/$version}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
 build() { make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" "${@:2}" || exit 1; }
+
+# Translations template
+if [[ -n "$update_pot" ]]; then
+    cd ../source/po
+    intltool_home=$(readlink -e "$devroot/win32-dev/intltool_"*)
+    PATH="$PATH:$intltool_home/bin" XGETTEXT_ARGS="--no-location --sort-output" intltool-update --pot
+    exit
+fi
 
 # GnuPG version and password
 if [[ -n "$sign" ]]; then
