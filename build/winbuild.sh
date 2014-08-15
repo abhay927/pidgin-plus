@@ -47,10 +47,13 @@ eval "$(from="$0" easyoptions.rb "$@"; echo result=$?)"
 [[ ! -d "${arguments[0]}" || $result != 0 ]] && exit
 
 # Variables and functions
+base_dir=$(readlink -e "$(dirname "$0")/..")
+source_dir="$base_dir/source"
+build_dir="$base_dir/build"
 sign="${sign:-$cert}"
 sign="${sign:+yes}"
 devroot="${arguments[0]}"
-version=$(./changelog.sh --version)
+version=$($build_dir/changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot/distribution/$version}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
@@ -58,7 +61,7 @@ build() { make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASS
 
 # Translations template
 if [[ -n "$update_pot" ]]; then
-    cd ../source/po
+    cd "$source_dir/po"
     intltool_home=$(readlink -e "$devroot/win32-dev/intltool_"*)
     PATH="$PATH:$intltool_home/bin" XGETTEXT_ARGS="--no-location --sort-output" intltool-update --pot
     exit
@@ -86,6 +89,7 @@ if [[ ! -e "$windev" ]]; then
     url="http://bazaar.launchpad.net/~renatosilva/pidgin-windev/trunk/tarball/head:"
     wget -nv "$url" -O "$tarball" && bsdtar -xzf "$tarball" --strip-components 3 --directory "$devroot/win32-dev" "~renatosilva/pidgin-windev/trunk/pidgin-windev.sh"
     [[ $? != 0 ]] && exit 1
+    rm -f "$tarball"
     echo "Extracted $windev"
 fi
 
@@ -108,10 +112,11 @@ if [[ -n "$reset" ]]; then
 fi
 echo "Exporting source code to $staging..."
 mkdir -p "$staging"
-cp -r ../source/* "$staging"
-./changelog.sh --html && mv -v changelog.html "$staging/CHANGES.html"
+cp -r "$source_dir/"* "$staging"
+"$build_dir/changelog.sh" --html && mv -v "$build_dir/changelog.html" "$staging/CHANGES.html"
 
 # Prepare
+cd "$build_dir"
 branch=$(readlink -m "$(pwd)/..")
 eval $("$windev" "$devroot" --path --system-gcc)
 cd "$staging"
@@ -169,4 +174,3 @@ for asc in "" ${sign:+.asc}; do
 done
 build uninstall
 echo "Build finished."
-cd - > /dev/null
