@@ -13,6 +13,9 @@
 ## Usage:
 ##     @script.name DEVELOPMENT_ROOT [options]
 ##
+##     -p, --prepare        Create the required build environment under
+##                          DEVELOPMENT_ROOT and exit.
+##
 ##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
 ##     -g, --gtk            Build the GTK+ runtime instead of installers, if
@@ -91,6 +94,12 @@ if [[ ! -e "$windev" ]]; then
     [[ $? != 0 ]] && exit 1
     rm -f "$tarball"
     echo "Extracted $windev"
+fi
+
+# Build environment
+if [[ -n "$prepare" ]]; then
+    "$windev" --link-to-me --for pidgin++ --no-source --system-gcc "$devroot"
+    exit
 fi
 
 # Cleanup
