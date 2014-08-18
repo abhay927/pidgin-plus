@@ -112,7 +112,7 @@ if [[ -n "$reset" ]]; then
 fi
 echo "Exporting source code to $staging..."
 mkdir -p "$staging"
-cp -r "$source_dir/"* "$staging"
+cp -rup "$source_dir/"* "$staging"
 "$build_dir/changelog.sh" --html && mv -v "$build_dir/changelog.html" "$staging/CHANGES.html"
 
 # Prepare
