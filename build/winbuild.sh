@@ -154,6 +154,7 @@ else
     echo "Updating $staging"
 fi
 cp -rup "$source_dir/"* "$staging"
+cp -p "$source_dir/local.mak" "$staging"
 "$build_dir/changelog.sh" --html --output "$staging/CHANGES.html"
 
 # Code signing
