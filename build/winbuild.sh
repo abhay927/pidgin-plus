@@ -38,11 +38,13 @@
 ##                          Requires the signtool utility from Windows SDK.
 ##                          Implies --sign.
 ##
-##     -n, --no-color       Disable colors in output.
 ##     -r, --reset          Recreates the staging directory from scratch.
 ##         --staging=DIR    Staging directory, defaults to "pidgin.build".
 ##         --directory=DIR  Save result to DIR instead of default location
 ##                          (DEVELOPMENT_ROOT/distribution).
+##
+##         --color=SWITCH   Enable or disable colors in output. SWITCH is either
+##                          on or off. Default is enabling for terminals.
 ##
 
 # Parse options
@@ -63,7 +65,13 @@ target="${directory:-$devroot/distribution/$version}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
 
 # Colored output and build function
-[[ -t 1 && -z "$no_color" ]] && export PIDGIN_BUILD_COLORS="yes"
+if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
+    echo "Please specify a valid value for --color, see --help."
+    exit 1
+fi
+if [[ "$color" = on || (-z "$color" && -t 1) ]]; then
+    export PIDGIN_BUILD_COLORS="yes"
+fi
 source "$source_dir/colored.sh"
 build() { ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" "${@:2}" || exit 1; }
 
