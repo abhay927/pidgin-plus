@@ -51,7 +51,6 @@ fi
 # note [color] TEXT - Information with leading note indicator
 # warn [color] TEXT - Information with leading warning indicator
 # oops [color] TEXT - Information with leading error indicator
-# task TEXT         - Information without line break
 
 step() { printf "${2:+${!1}}${2:-${green}$1}${normal}\n"; }
 pace() { printf "\n${2:+${!1}}${2:-${green}$1}${normal}\n"; }
@@ -59,7 +58,6 @@ info() { printf "\n${2:+${!1}}${2:-${purple}$1}${normal}\n"; }
 note() { printf "${2:+${!1}Note:${normal} }${2:-${cyan}Note:${normal} $1}\n"; }
 warn() { printf "${2:+${!1}Warning:${normal} }${2:-${yellow}Warning:${normal} $1}\n"; }
 oops() { printf "${2:+${!1}Error:${normal} }${2:-${red}Error:${normal} $1}\n"; }
-task() { printf "$1 "; }
 
 # Allow non-sourcing usage
 [[ "$0" = "$BASH_SOURCE" && -n "$1" ]] && "$1" "${@:2}"

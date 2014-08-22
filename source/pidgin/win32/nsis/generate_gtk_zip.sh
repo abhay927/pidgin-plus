@@ -108,7 +108,7 @@ install_rpm() {
     local extract_location=$(readlink -f "$(pwd)")
     local install_location=$(readlink -f "$install_dir_binary")
 
-    task "Extracting binary to $extract_location"
+    echo "Extracting binary to $extract_location"
     if ! 7z x -y "$rpm" > /dev/null; then
         oops "failed extracting $rpm"
         return 1
@@ -117,9 +117,8 @@ install_rpm() {
         oops "failed extracting $cpio"
         return 1
     fi
-    echo
 
-    task "Installing binary to $install_location"
+    echo "Installing binary to $install_location"
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gio
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/glib-2.0
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gtk-2.0/include
@@ -142,7 +141,6 @@ install_rpm() {
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share
     rm -rf usr/share
-    echo
     return 0
 }
 
@@ -165,9 +163,9 @@ function download_and_extract {
     for url in $url_binary $url_source; do
         case $url in
             $url_binary) info "Integrating $name"
-                         task "Downloading binary from $url"
+                         echo "Downloading binary from $url"
                          validation_value="${validation_values%,*}" ;;
-            $url_source) task "Downloading source code from $url"
+            $url_source) echo "Downloading source code from $url"
                          validation_value="${validation_values#*,}" ;;
         esac
         local file=$(basename $url)
@@ -176,7 +174,6 @@ function download_and_extract {
         if [[ ! -e "$file" ]]; then
             wget --quiet $url || exit 1
         fi
-        echo
         case "$validation_type" in
         sha1sum) check_sha1sum "$file" "$validation_value" quit ;;
             gpg) check_signature "$file" "$validation_value" "$name" ;;

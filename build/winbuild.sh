@@ -144,23 +144,22 @@ fi
 # Staging dir
 step "Preparing the staging directory"
 if [[ -n "$reset" ]]; then
-    task "Removing $staging"
+    echo "Removing $staging"
     rm -rf "$staging"
-    echo
 fi
 if [[ ! -d "$staging" ]]; then
-    task "Creating $staging"
+    echo "Creating $staging"
     mkdir -p "$staging"
 else
-    task "Updating $staging"
+    echo "Updating $staging"
 fi
-cp -rup "$source_dir/"* "$staging"; echo
+cp -rup "$source_dir/"* "$staging"
 "$build_dir/changelog.sh" --html --output "$staging/CHANGES.html"
 
 # Code signing
 cd "$staging"
 if [[ -n "$cert" || -n "$sign" ]]; then
-    task "Configuring code signing with GnuPG${cert:+ and Authenticode}"
+    echo "Configuring code signing with GnuPG${cert:+ and Authenticode}"
     if [[ -n "$cert" ]]; then
         rm local.mak
         echo "SIGNTOOL_PFX = $cert" >> local.mak
@@ -168,13 +167,11 @@ if [[ -n "$cert" || -n "$sign" ]]; then
     else
         sed -i "s/^GPG_SIGN.*/GPG_SIGN = $gpg/" local.mak
     fi
-    echo
 fi
 
 # System path
-task "Configuring system path"
+echo "Configuring system path"
 eval $("$windev" "$devroot" --path --system-gcc)
-echo
 
 # GTK+ and dictionary bundles
 mkdir -p "$target"
