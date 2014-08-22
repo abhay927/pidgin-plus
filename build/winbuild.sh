@@ -183,8 +183,8 @@ if [[ -n "$gtk" || -n "$dictionaries" ]]; then
         build gtk_runtime_zip_force
         gtk_version=$(pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
         for asc in "" ${sign:+.asc}; do
-            mv -v pidgin/win32/nsis/gtk-runtime-*-source.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version Source.zip$asc"
-            mv -v pidgin/win32/nsis/gtk-runtime-*.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version.zip$asc"
+            mv -v pidgin/win32/nsis/gtk-runtime-$gtk_version.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version.zip$asc"
+            [[ -f pidgin/win32/nsis/gtk-runtime-$gtk_version-source.zip$asc ]] && mv -v pidgin/win32/nsis/gtk-runtime-$gtk_version-source.zip$asc "$target/Pidgin GTK+ Runtime $gtk_version Source.zip$asc"
         done
     fi
     if [[ -n "$dictionaries" ]]; then
