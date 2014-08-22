@@ -11,10 +11,14 @@ if [[ "$1" = --gtk-version ]]; then
 fi
 
 PIDGIN_BASE=$1
-[[ "$2" = --force ]] && FORCE="yes"
+PIDGIN_VERSION=$( < $PIDGIN_BASE/VERSION )
+source "$PIDGIN_BASE/colored.sh"
+
+# Allow "devel" versions or those using the --force option to build their own bundles if the download doesn't succeed
+[[ "$PIDGIN_VERSION" == *"devel" || "$2" = --force ]] && FORCE="yes"
 
 if [ ! -e $PIDGIN_BASE/ChangeLog ]; then
-	echo $(basename $0) must must have the pidgin base dir specified as a parameter.
+	oops "$(basename $0) must have the pidgin base dir specified as a parameter"
 	exit 1
 fi
 
@@ -23,30 +27,37 @@ STAGE_DIR=`readlink -f $PIDGIN_BASE/pidgin/win32/nsis/gtk_runtime_stage`
 INSTALL_DIR=Gtk
 SOURCE_DIR=Gtk-source
 CONTENTS_FILE=$INSTALL_DIR/CONTENTS
-PIDGIN_VERSION=$( < $PIDGIN_BASE/VERSION )
-
 ZIP_FILE="$PIDGIN_BASE/pidgin/win32/nsis/gtk-runtime-$BUNDLE_VERSION.zip"
 
 #Download the existing file (so that we distribute the exact same file for all releases with the same bundle version)
 FILE="$ZIP_FILE"
 if [ ! -e "$FILE" ]; then
-	wget "https://launchpad.net/pidgin++/trunk/2.10.9-rs226/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip" -O "$FILE"
+	url="https://launchpad.net/pidgin++/trunk/2.10.9-rs226/+download/Pidgin GTK+ Runtime $BUNDLE_VERSION.zip"
+	echo "Downloading $url"
+	wget --quiet "$url" -O "$FILE"
 fi
-CHECK_SHA1SUM=`sha1sum $FILE`
-CHECK_SHA1SUM=${CHECK_SHA1SUM%%\ *}
-if [ "$CHECK_SHA1SUM" != "$BUNDLE_SHA1SUM" ]; then
-	echo "sha1sum ($CHECK_SHA1SUM) for $FILE doesn't match expected value of $BUNDLE_SHA1SUM"
-	# Allow "devel" versions or those using the --force option to build their own bundles if the download doesn't succeed
-	if [[ "$PIDGIN_VERSION" == *"devel" || -n "$FORCE" ]]; then
-		echo "Continuing GTK+ Bundle creation for Pidgin ${PIDGIN_VERSION}${FORCE:+ (--force has been specified)}"
-	else
-		exit 1
+
+check_sha1sum() {
+	FILE_SHA1SUM=`sha1sum $1`
+	FILE_SHA1SUM=${FILE_SHA1SUM%%\ *}
+	SHA1SUM_ERROR="sha1sum check failed for $1\nexpected: $2\nobtained: $FILE_SHA1SUM"
+	if [[ "$FILE_SHA1SUM" != "$2" ]]; then
+		if [[ "$3" = quit ]]; then
+			oops "the $SHA1SUM_ERROR"
+			exit 1
+		fi
+		printf "The $SHA1SUM_ERROR\n"
+		return 1
 	fi
+	return 0
+}
+
+if ! check_sha1sum "$FILE" "$BUNDLE_SHA1SUM" ${FORCE:-quit}; then
+	echo "Continuing GTK+ Bundle creation for Pidgin ${PIDGIN_VERSION}${FORCE:+ (--force has been specified)}"
 else
-	echo "Extracting downloaded GTK+ bundle..."
+	echo "Extracting $ZIP_FILE"
 	cd "$PIDGIN_BASE/pidgin/win32/nsis"
-	unzip -o "$ZIP_FILE"
-	echo
+	unzip -qo "$ZIP_FILE"
 	exit
 fi
 
@@ -79,20 +90,25 @@ mkdir $INSTALL_DIR $SOURCE_DIR
 echo Bundle Version $BUNDLE_VERSION > $CONTENTS_FILE
 
 function download_and_extract {
-	URL=${1%%\ *}
-	URL_SOURCE=${URL/i386\/os\/Packages/source\/SRPMS}
+	URL_BINARY=${1%%\ *}
+	URL_SOURCE=${URL_BINARY/i386\/os\/Packages/source\/SRPMS}
 	URL_SOURCE=${URL_SOURCE/mingw32/mingw}
 	URL_SOURCE=${URL_SOURCE/noarch/src}
 	VALIDATION=${1##*\ }
 	NAME=${1%\ *}
 	NAME=${NAME#*\ }
-	for URL in $URL $URL_SOURCE; do
+	SHORT_NAME=${NAME%\ *}
+	for URL in $URL_BINARY $URL_SOURCE; do
 		FILE=$(basename $URL)
-		if [ ! -e $FILE ]; then
+		case $URL in
+			$URL_BINARY) info "Integrating ${SHORT_NAME}"
+			             task "Downloading binary from $URL" ;;
+			$URL_SOURCE) task "Downloading source code from $URL" ;;
+		esac
+		if [[ ! -e $FILE ]]; then
+			wget --quiet $URL && echo || exit 1
+		else
 			echo
-			echo Downloading $NAME
-			wget $URL || exit 1
-			wget $URL_SOURCE || exit 1
 		fi
 		VALIDATION_TYPE=${VALIDATION%%:*}
 		VALIDATION_VALUES=${VALIDATION##*:}
@@ -102,16 +118,11 @@ function download_and_extract {
 			VALIDATION_VALUE=${VALIDATION_VALUES%,*}
 		fi
 		if [[ $VALIDATION_TYPE == 'sha1sum' ]]; then
-			CHECK_SHA1SUM=`sha1sum $FILE`
-			CHECK_SHA1SUM=${CHECK_SHA1SUM%%\ *}
-			if [ "$CHECK_SHA1SUM" != "$VALIDATION_VALUE" ]; then
-				echo "sha1sum ($CHECK_SHA1SUM) for $FILE doesn't match expected value of $VALIDATION_VALUE"
-				exit 1
-			fi
+			check_sha1sum "$FILE" "$VALIDATION_VALUE" quit
 		elif [ $VALIDATION_TYPE == 'gpg' ]; then
 			if [ ! -e "$FILE.asc" ]; then
 				echo Downloading GPG key for $NAME
-				wget "$URL.asc" || exit 1
+				wget -nv "$URL.asc" || exit 1
 			fi
 			#Use our own keyring to avoid adding stuff to the main keyring
 			#This doesn't use $GPG_SIGN because we don't this validation to be bypassed when people are skipping signing output
@@ -131,22 +142,35 @@ function download_and_extract {
 					try=$((try + 1))
 				done
 			fi
-			$GPG_BASE --verify "$FILE.asc" || (echo "$FILE failed signature verification"; exit 1) || exit 1
+			if ! $GPG_BASE --verify "$FILE.asc"; then
+				oops "$FILE failed signature verification"
+				exit 1
+			fi
 		else
-			echo "Unrecognized validation type of $VALIDATION_TYPE"
+			oops "unrecognized validation type of $VALIDATION_TYPE"
 			exit 1
 		fi
 		if [[ $URL = $URL_SOURCE ]]; then
-			mv -v $FILE $SOURCE_DIR
+			cp -v $FILE $SOURCE_DIR
 			continue
 		fi
 		EXTENSION=${FILE##*.}
 		case $EXTENSION in
 			zip) unzip -q $FILE -d $INSTALL_DIR || exit 1 ;;
 			dll) cp $FILE $INSTALL_DIR/bin || exit 1 ;;
-			rpm) 7z x -y $FILE || exit 1
-			     7z x -y ${FILE%.rpm}.cpio
+			rpm) task "Extracting binary to $(readlink -f "$(pwd)")"
+			     if ! 7z x -y $FILE > /dev/null; then
+			         oops "failed extracting $FILE"
+			         exit 1
+			     fi
+			     CPIO=${FILE%.rpm}.cpio
+			     if ! 7z x -y $CPIO > /dev/null; then
+			         oops "failed extracting $CPIO"
+			         exit 1
+			     fi
+			     echo
 
+			     task "Installing binary to $(readlink -f "$INSTALL_DIR")"
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gio
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/glib-2.0
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gtk-2.0/include
@@ -159,17 +183,18 @@ function download_and_extract {
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/gtk-2.0
 			     find usr/i686-w64-mingw32/sys-root/mingw/lib -name "*.dll.a" -delete
 
-			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/bin   ]] && cp -vr usr/i686-w64-mingw32/sys-root/mingw/bin $INSTALL_DIR
-			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/etc   ]] && cp -vr usr/i686-w64-mingw32/sys-root/mingw/etc $INSTALL_DIR
-			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/lib   ]] && cp -vr usr/i686-w64-mingw32/sys-root/mingw/lib $INSTALL_DIR
-			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/share ]] && cp -vr usr/i686-w64-mingw32/sys-root/mingw/share $INSTALL_DIR
-			     [[ -d usr/share                                 ]] && cp -vr usr/share $INSTALL_DIR
+			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/bin   ]] && cp -r usr/i686-w64-mingw32/sys-root/mingw/bin $INSTALL_DIR
+			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/etc   ]] && cp -r usr/i686-w64-mingw32/sys-root/mingw/etc $INSTALL_DIR
+			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/lib   ]] && cp -r usr/i686-w64-mingw32/sys-root/mingw/lib $INSTALL_DIR
+			     [[ -d usr/i686-w64-mingw32/sys-root/mingw/share ]] && cp -r usr/i686-w64-mingw32/sys-root/mingw/share $INSTALL_DIR
+			     [[ -d usr/share                                 ]] && cp -r usr/share $INSTALL_DIR
 
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/bin
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/etc
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib
 			     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share
-			     rm -rf usr/share ;;
+			     rm -rf usr/share
+			     echo ;;
 		esac
 	done
 	echo "$NAME" >> $CONTENTS_FILE
@@ -181,26 +206,27 @@ do
 	download_and_extract "$VAR"
 done
 
-echo
-echo "Including Gettext DLL under additional name:"
+info "Configuring GTK+"
+printf "New name for the Gettext DLL: "
 cp -v $INSTALL_DIR/bin/libintl-8.dll $INSTALL_DIR/bin/intl.dll
-echo
 
-#Default GTK+ Theme to MS-Windows
+printf "Default theme: "
 echo gtk-theme-name = \"MS-Windows\" > $INSTALL_DIR/etc/gtk-2.0/gtkrc
+cat $INSTALL_DIR/etc/gtk-2.0/gtkrc
+echo
 
 # GTK+ customizations
-echo "Applying GTK+ customizations:"
+echo "Applying GTK+ customizations"
 cp -vr ../../gtk/* $INSTALL_DIR
 cp -vr ../../gtk/* $SOURCE_DIR
-echo
 
 #Blow away translations that we don't have in Pidgin
+info "Creating binary and source code bundles"
 for LOCALE_DIR in $INSTALL_DIR/share/locale/*
 do
 	LOCALE=$(basename $LOCALE_DIR)
 	if [ ! -e $PIDGIN_BASE/po/$LOCALE.po ]; then
-		echo Removing $LOCALE translation as it is missing from Pidgin
+		note "removing $LOCALE translation as it is missing from Pidgin"
 		rm -r $LOCALE_DIR
 	fi
 done
@@ -209,8 +235,7 @@ done
 for suffix in "" "-source"; do
 	ZIP_FILE="${ZIP_FILE%.zip}$suffix.zip"
 	rm -f $ZIP_FILE
-	zip -9 -r $ZIP_FILE Gtk$suffix
+	echo "Creating ${ZIP_FILE##*/}"
+	zip -9 -qr $ZIP_FILE Gtk$suffix
 done
-
 exit 0
-

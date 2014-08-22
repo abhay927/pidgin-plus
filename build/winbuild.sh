@@ -38,6 +38,7 @@
 ##                          Requires the signtool utility from Windows SDK.
 ##                          Implies --sign.
 ##
+##     -n, --no-color       Disable colors in output.
 ##     -r, --reset          Recreates the staging directory from scratch.
 ##         --staging=DIR    Staging directory, defaults to "pidgin.build".
 ##         --directory=DIR  Save result to DIR instead of default location
@@ -49,7 +50,7 @@ eval "$(from="$0" easyoptions.rb "$@"; echo result=$?)"
 [[ ! -d "${arguments[0]}" && $result  = 0 ]] && echo "No valid development root specified, see --help."
 [[ ! -d "${arguments[0]}" || $result != 0 ]] && exit
 
-# Variables and functions
+# Variables
 base_dir=$(readlink -e "$(dirname "$0")/..")
 source_dir="$base_dir/source"
 build_dir="$base_dir/build"
@@ -60,7 +61,11 @@ version=$($build_dir/changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot/distribution/$version}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
-build() { make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" "${@:2}" || exit 1; }
+
+# Colored output and build function
+[[ -t 1 && -z "$no_color" ]] && export PIDGIN_BUILD_COLORS="yes"
+source "$source_dir/colored.sh"
+build() { ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" "${@:2}" || exit 1; }
 
 # Translations template
 if [[ -n "$update_pot" ]]; then
@@ -70,30 +75,42 @@ if [[ -n "$update_pot" ]]; then
     exit
 fi
 
-# GnuPG version and password
-if [[ -n "$sign" ]]; then
-    gpg_version=$(gpg --version | head -1)
-    gpg_version="${gpg_version##* }"
-    [[ "$gpg_version" = 1.* ]] && hash gpg2 2> /dev/null && gpg=gpg2
-    read -s -p "Enter password for GnuPG: " gpg_password; echo
-    $gpg --batch --yes --passphrase "$gpg_password" --output /tmp/test.asc -ab "$0" || exit 1
-    rm /tmp/test.asc
-fi
+# GnuPG version
+gpg_version=$(gpg --version | head -1)
+gpg_version="${gpg_version##* }"
+[[ "$gpg_version" = 1.* ]] && hash gpg2 2> /dev/null && gpg=gpg2
 
-# Authenticode password
-if [[ -n "$cert" ]]; then
-    read -s -p "Enter password for Authenticode: " pfx_password; echo
-    openssl pkcs12 -in "$cert" -nodes -password "pass:$pfx_password" > /dev/null || exit 1
+# Code signing passwords
+if [[ -n "$sign" || -n "$cert" ]]; then
+    step "Configuring passwords"
+    if [[ -n "$sign" ]]; then
+        read -s -p "Enter password for GnuPG: " gpg_password; echo
+        if ! $gpg --batch --yes --passphrase "$gpg_password" --output /tmp/test.asc -ab "$0"; then
+            oops "failed validating GnuPG password"
+            exit 1
+        fi
+        rm /tmp/test.asc
+    fi
+    if [[ -n "$cert" ]]; then
+        read -s -p "Enter password for Authenticode: " pfx_password; echo
+        if ! openssl pkcs12 -in "$cert" -nodes -password "pass:$pfx_password" > /dev/null; then
+            oops "failed validating the Authenticode password"
+            exit 1
+        fi
+    fi
+    echo
 fi
 
 # Pidgin Windev
 if [[ ! -e "$windev" ]]; then
+    step "Downloading Pidgin Windev"
     tarball="$devroot/downloads/pidgin-windev.tar.gz"
     url="http://bazaar.launchpad.net/~renatosilva/pidgin-windev/trunk/tarball/head:"
     wget -nv "$url" -O "$tarball" && bsdtar -xzf "$tarball" --strip-components 3 --directory "$devroot/win32-dev" "~renatosilva/pidgin-windev/trunk/pidgin-windev.sh"
     [[ $? != 0 ]] && exit 1
     rm -f "$tarball"
     echo "Extracted $windev"
+    echo
 fi
 
 # Build environment
@@ -104,40 +121,52 @@ fi
 
 # Cleanup
 if [[ -n "$cleanup" ]]; then
+    step "Cleaning up staging directory"
     if [[ -d "$staging" ]]; then
         cd "$staging"
         build uninstall
         build clean
+        echo
     else
-        echo "Nothing to clean up."
+        oops "cannot clean up missing directory $staging"
     fi
     exit
 fi
 
 # Staging dir
+step "Preparing the staging directory"
 if [[ -n "$reset" ]]; then
-    echo "Removing $staging..."
+    task "Removing $staging"
     rm -rf "$staging"
+    echo
 fi
-echo "Exporting source code to $staging..."
-mkdir -p "$staging"
-cp -rup "$source_dir/"* "$staging"
-"$build_dir/changelog.sh" --html && mv -v "$build_dir/changelog.html" "$staging/CHANGES.html"
-
-# Prepare
-cd "$build_dir"
-branch=$(readlink -m "$(pwd)/..")
-eval $("$windev" "$devroot" --path --system-gcc)
-cd "$staging"
+if [[ ! -d "$staging" ]]; then
+    task "Creating $staging"
+    mkdir -p "$staging"
+else
+    task "Updating $staging"
+fi
+cp -rup "$source_dir/"* "$staging"; echo
+"$build_dir/changelog.sh" --html --output "$staging/CHANGES.html"
 
 # Code signing
-if [[ -n "$cert" ]]; then
-    rm local.mak
-    echo "SIGNTOOL_PFX = $cert" >> local.mak
-    echo "GPG_SIGN = $gpg" >> local.mak
-elif [[ -n "$sign" ]]; then
-    sed -i "s/^GPG_SIGN.*/GPG_SIGN = $gpg/" local.mak
+cd "$staging"
+if [[ -n "$cert" || -n "$sign" ]]; then
+    task "Configuring code signing with GnuPG${cert:+ and Authenticode}"
+    if [[ -n "$cert" ]]; then
+        rm local.mak
+        echo "SIGNTOOL_PFX = $cert" >> local.mak
+        echo "GPG_SIGN = $gpg" >> local.mak
+    else
+        sed -i "s/^GPG_SIGN.*/GPG_SIGN = $gpg/" local.mak
+    fi
+    echo
 fi
+
+# System path
+task "Configuring system path"
+eval $("$windev" "$devroot" --path --system-gcc)
+echo
 
 # GTK+ and dictionary bundles
 mkdir -p "$target"
@@ -156,25 +185,24 @@ if [[ -n "$gtk" || -n "$dictionaries" ]]; then
             mv -v pidgin/win32/nsis/dictionaries.zip$asc "$target/Pidgin Dictionaries.zip$asc"
         done
     fi
+    echo
     exit
 fi
 
 # Source code bundle
 if [[ -n "$source" ]]; then
-    if [[ ! -d "$branch/.bzr" ]]; then
-        echo "Error: cannot create source code bundle because this is not a Bazaar branch."
+    if [[ ! -d "$base_dir/.bzr" ]]; then
+        oops "creation failed, this is not a Bazaar branch"
         exit 1
     fi
-    echo
-    echo "Creating the source code bundle..."
-    build source_code_zip BAZAAR_BRANCH="$branch"
+    build source_code_zip BAZAAR_BRANCH="$base_dir"
     for asc in "" ${sign:+.asc}; do
         mv -v pidgin-*-source.zip$asc "$target/Pidgin $version Source.zip$asc"
     done
-    echo
 fi
 
 # Installers
+pace "Building the installer${offline:+s}"
 build "installer${offline:+s}"
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
@@ -182,4 +210,5 @@ for asc in "" ${sign:+.asc}; do
     mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin Debug Symbols $version.zip$asc"
 done
 build uninstall
-echo "Build finished."
+step "Build finished."
+echo

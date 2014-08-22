@@ -14,6 +14,7 @@
 ##    -u, --update-version         Bump version suffix to RS{day-of-year}.
 ##    -d, --debian                 Generate the Debian package changelog entry.
 ##    -H, --html                   Generate the HTML changelog.
+##        --output=FILE            Save generated changelog to FILE.
 ##
 ##    -v, --version                Print the Pidgin++ version.
 ##    -V, --upstream-version       Print the Pidgin version.
@@ -55,19 +56,22 @@ xsl_parameters="-s version=$full_version -s bugs.url=https://developer.pidgin.im
 # HTML changelog
 if [[ -n "$html" ]]; then
     cd "$build_dir"
-    xmlstarlet transform --omit-decl changelog.html.xsl $xsl_parameters changelog.xml | dos2unix > changelog.unformatted.html
-    xmlstarlet format --html --omit-decl --nocdata --indent-spaces 4 changelog.unformatted.html | dos2unix > changelog.html
-    sed -i -E "s/(<\!\[CDATA\[|(\s{4})?\]\]>)//" changelog.html
-    rm changelog.unformatted.html
-    echo "Created changelog.html"
+    output="${output:-$base_dir/changelog.html}"
+    unformatted="/tmp/changelog.unformatted.html"
+    xmlstarlet transform --omit-decl changelog.html.xsl $xsl_parameters changelog.xml | dos2unix > "$unformatted"
+    xmlstarlet format --html --omit-decl --nocdata --indent-spaces 4 "$unformatted" | dos2unix > "$output"
+    rm "$unformatted"
+    sed -i -E "s/(<\!\[CDATA\[|(\s{4})?\]\]>)//" "$output"
+    echo "Changelog exported to $output"
 fi
 
 # Debian changelog
 if [[ -n "$debian" ]]; then
     cd "$build_dir"
+    output="${output:-$base_dir/changelog.debian.txt}"
     distribution=$(lsb_release --codename --short 2> /dev/null || echo DISTRIBUTION)
     maintainer=$(bzr whoami 2> /dev/null || echo "${DEBFULLNAME:-NAME} <${DEBEMAIL:-EMAIL}>")
     xsl_parameters="$xsl_parameters -s package.version=${ubuntu_package_version:-VERSION} -s distribution=$distribution"
-    xmlstarlet transform --omit-decl changelog.debian.xsl $xsl_parameters -s maintainer="$maintainer" -s date="$(date -R)" changelog.xml | dos2unix > changelog.debian.txt
-    echo "Created changelog.debian.txt"
+    xmlstarlet transform --omit-decl changelog.debian.xsl $xsl_parameters -s maintainer="$maintainer" -s date="$(date -R)" changelog.xml | dos2unix > "$output"
+    echo "Changelog exported to $output"
 fi

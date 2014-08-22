@@ -40,16 +40,28 @@ signtool_command = $(SIGNTOOL) sign \
 
 gpg_sign_command = @$(GPG_SIGN) -ab --batch --yes --passphrase "$(GPG_PASSWORD)" $(1) && $(GPG_SIGN) --verify $(1).asc
 
-# Hide the Authenticode password
-define authenticode_sign
-	@echo Signing $(1) with $(SIGNTOOL)...
-	@$(call signtool_command, $1, $2)
+# Authenticode signing
+define authenticode_sign	
+	$(if $(findstring bypass, $(SIGNTOOL)),
+		@printf "$(if $(findstring line, $(4)),\n)";
+		@./colored.sh note "bypassing Authenticode signing for $(1)";
+		@printf "$(if $(findstring line, $(5)),\n)",
+		@./colored.sh info blue "Signing $(1) with Authenticode";
+		@$(call signtool_command,$1,$2);
+		@printf "$(if $(findstring line, $(3)),\n)"
+	)	
 endef
 
-# Hide the GPG password
-define gpg_sign
-	@echo Signing $(1) with $(GPG_SIGN)...
-	@$(call gpg_sign_command, $1)
+# GPG signing
+define gpg_sign	
+	$(if $(findstring bypass, $(GPG_SIGN)),
+		@printf "$(if $(findstring line, $(3)),\n)";
+		@./colored.sh note "bypassing GPG signing for $(1)";
+		@printf "$(if $(findstring line, $(4)),\n)",
+		@./colored.sh info blue "Signing $(1) with GnuPG";		
+		@$(call gpg_sign_command,$1);
+		@printf "$(if $(findstring line, $(2)),\n)"
+	)
 endef
 
 STRIPPED_RELEASE_DIR = $(PIDGIN_TREE_TOP)/pidgin-$(PIDGIN_VERSION)-win32bin
@@ -109,6 +121,7 @@ ifndef DISABLE_NLS
 endif
 
 install: all $(PIDGIN_INSTALL_DIR)
+	@./colored.sh info "Installing to $(PIDGIN_INSTALL_DIR)"
 	$(MAKE) -C $(PURPLE_TOP) -f $(MINGW_MAKEFILE) install
 	$(MAKE) -C $(PIDGIN_TOP) -f $(MINGW_MAKEFILE) install
 ifndef DISABLE_NLS
@@ -121,26 +134,32 @@ endif
 	cp $(ENCHANT_TOP)/bin/libenchant.dll $(PIDGIN_INSTALL_DIR)/spellcheck
 	cp -R $(ENCHANT_TOP)/lib/enchant/*.dll $(PIDGIN_INSTALL_DIR)/spellcheck/lib/enchant
 	cp $(PIDGIN_INST_DEP_DIR)/exchndl.dll $(PIDGIN_INSTALL_DIR)
+	@./colored.sh info "Selecting the appropriate LibSSP"
 	./getwinssp.sh $(GCC_TOP) $(PIDGIN_INSTALL_DIR)
 	if test -f $(GCC_TOP)/libgcc_s_dw2-1.dll; then cp $(GCC_TOP)/libgcc_s_dw2-1.dll $(PIDGIN_INSTALL_DIR); fi
 	if test -f $(GCC_TOP)/libwinpthread-1.dll; then cp $(GCC_TOP)/libwinpthread-1.dll $(PIDGIN_INSTALL_DIR); fi
 
 gtk_runtime_zip:
+	@./colored.sh info "Obtaining the GTK+ runtime"
 	pidgin/win32/nsis/generate_gtk_zip.sh "`pwd`"
 
 gtk_runtime_zip_force:
+	@./colored.sh pace "Building the GTK+ runtime"
 	pidgin/win32/nsis/generate_gtk_zip.sh "`pwd`" --force
-	$(call gpg_sign, pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip)
-	$(call gpg_sign, pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip)
+	$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip,none,line)
+	$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip,line,none,line)
 
 dictionaries_bundle:
+	@./colored.sh info "Obtaining the dictionaries bundle"
 	pidgin/win32/nsis/generate_dictionaries_zip.sh "`pwd`" "$(PIDGIN_VERSION)"
 
 dictionaries_bundle_force:
+	@./colored.sh pace "Building the dictionaries bundle"
 	pidgin/win32/nsis/generate_dictionaries_zip.sh "`pwd`" "$(PIDGIN_VERSION)" --create
-	$(call gpg_sign, pidgin/win32/nsis/dictionaries.zip)
+	$(call gpg_sign,pidgin/win32/nsis/dictionaries.zip,line)
 
 generate_installer_includes: create_release_install_dir gtk_runtime_zip debug_symbols_zip $(PIDGIN_TREE_TOP)/pidgin/win32/nsis/nsis_translations.desktop
+	@./colored.sh info "Generating installer includes"
 	rm -f pidgin/win32/nsis/pidgin-translations.nsh pidgin/win32/nsis/pidgin-spellcheck.nsh pidgin/win32/nsis/pidgin-spellcheck-preselect.nsh
 	find $(STRIPPED_RELEASE_DIR)/locale -maxdepth 1 -mindepth 1 \
 		-printf '%f\n' | LC_ALL=C sort | while IFS= read -r lang_code; do \
@@ -175,6 +194,7 @@ generate_installer_includes: create_release_install_dir gtk_runtime_zip debug_sy
 		$(PIDGIN_TREE_TOP)/pidgin/win32/nsis/translations
 
 create_release_install_dir: install
+	@./colored.sh info "Creating the installation directory"
 	rm -rf $(STRIPPED_RELEASE_DIR)
 	mkdir $(STRIPPED_RELEASE_DIR)
 	tar -cf - $(PIDGIN_INSTALL_DIR) --exclude=Gtk --exclude=spellcheck/share \
@@ -182,9 +202,10 @@ create_release_install_dir: install
 	find $(STRIPPED_RELEASE_DIR) \( -name '*.dll' -o -name '*.exe' \) \
 	 -not \( -false $(EXTERNAL_DLLS_FIND_EXP) \) \
 	 -exec $(STRIP) --strip-unneeded {} ';'
-	$(call authenticode_sign, $(STRIPPED_RELEASE_DIR)/pidgin.exe, "Pidgin $(PIDGIN_VERSION)")
+	$(call authenticode_sign,$(STRIPPED_RELEASE_DIR)/pidgin.exe,"Pidgin $(PIDGIN_VERSION)")
 
 installer: generate_installer_includes
+	@./colored.sh info "Building the installer"
 	$(eval $@_PIDGIN_VERSION_LOWERCASE := $(shell echo $(PIDGIN_VERSION) | tr [[:upper:]] [[:lower:]]))
 	$(eval $@_DEBUG_SYMBOLS_SHA1SUM := $(shell sha1sum $(DEBUG_SYMBOLS_DIR).zip | sed -e "s/\ .*$$//"))
 	$(eval $@_GTK_SHA1SUM := $(shell sha1sum pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip | sed -e "s/\ .*$$//"))
@@ -192,27 +213,30 @@ installer: generate_installer_includes
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DDEBUG_SYMBOLS_SHA1SUM="$($@_DEBUG_SYMBOLS_SHA1SUM)" -DGTK_SHA1SUM="$($@_GTK_SHA1SUM)"\
 		pidgin/win32/nsis/pidgin-installer.nsi
-	$(call authenticode_sign, pidgin/win32/nsis/pidgin-$(PIDGIN_VERSION).exe, "Pidgin Installer")
 	mv pidgin/win32/nsis/pidgin-$(PIDGIN_VERSION).exe ./
-	$(call gpg_sign, pidgin-$(PIDGIN_VERSION).exe)
+	$(call authenticode_sign,pidgin-$(PIDGIN_VERSION).exe,"Pidgin Installer")
+	$(call gpg_sign,pidgin-$(PIDGIN_VERSION).exe)
 
 installer_offline: generate_installer_includes dictionaries_bundle
+	@./colored.sh info "Building the offline installer"
 	$(eval $@_DEBUG_SYMBOLS_DIR := $(shell echo $(DEBUG_SYMBOLS_DIR) | tr / \\\\))
 	$(eval $@_PIDGIN_VERSION_LOWERCASE := $(shell echo $(PIDGIN_VERSION) | tr [[:upper:]] [[:lower:]]))	
 	$(MAKENSIS) -V3 -DPIDGIN_VERSION="$(PIDGIN_VERSION)" -DPIDGIN_VERSION_LOWERCASE="$($@_PIDGIN_VERSION_LOWERCASE)" -DPIDGIN_PRODUCT_VERSION="$(PIDGIN_PRODUCT_VERSION)" \
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" -DOFFLINE_INSTALLER \
 		pidgin/win32/nsis/pidgin-installer.nsi
-	$(call authenticode_sign, pidgin/win32/nsis/pidgin-$(PIDGIN_VERSION)-offline.exe, "Pidgin Installer")
 	mv pidgin/win32/nsis/pidgin-$(PIDGIN_VERSION)-offline.exe ./
-	$(call gpg_sign, pidgin-$(PIDGIN_VERSION)-offline.exe)
+	$(call authenticode_sign,pidgin-$(PIDGIN_VERSION)-offline.exe,"Pidgin Installer")
+	$(call gpg_sign,pidgin-$(PIDGIN_VERSION)-offline.exe)
 
 installer_zip: create_release_install_dir
+	@./colored.sh info "Building the zip package"
 	rm -f pidgin-$(PIDGIN_VERSION)-win32-bin.zip
 	zip -9 -r pidgin-$(PIDGIN_VERSION)-win32-bin.zip $(STRIPPED_RELEASE_DIR)
-	$(call gpg_sign, pidgin-$(PIDGIN_VERSION)-win32-bin.zip)
+	$(call gpg_sign,pidgin-$(PIDGIN_VERSION)-win32-bin.zip,line,none,line)
 
 debug_symbols_zip: install
+	@./colored.sh info "Building debug symbols"
 	rm -rf $(DEBUG_SYMBOLS_DIR) $(DEBUG_SYMBOLS_DIR).zip
 	mkdir $(DEBUG_SYMBOLS_DIR)
 	tar -cf - `find $(PIDGIN_INSTALL_DIR) \( -name '*.dll' -o -name '*.exe' \) \
@@ -220,20 +244,22 @@ debug_symbols_zip: install
 	 | tar --strip 2 --xform s/$$/.dbgsym/ -xC $(DEBUG_SYMBOLS_DIR) -f -
 	cp $(MEANWHILE_TOP)/bin/libmeanwhile-1.dll.unstripped $(DEBUG_SYMBOLS_DIR)/libmeanwhile-1.dll.dbgsym
 	zip -9 -r $(DEBUG_SYMBOLS_DIR).zip $(DEBUG_SYMBOLS_DIR) 
-	$(call gpg_sign, $(DEBUG_SYMBOLS_DIR).zip)
+	$(call gpg_sign,$(DEBUG_SYMBOLS_DIR).zip)
 
 installers: installer installer_offline debug_symbols_zip installer_zip
 
 source_code_zip:
+	@./colored.sh pace "Building the source code bundle"
 	bzr export --uncommitted --directory $(BAZAAR_BRANCH) --root pidgin-$(PIDGIN_VERSION) pidgin-$(PIDGIN_VERSION)-source.zip
-	$(call gpg_sign, pidgin-$(PIDGIN_VERSION)-source.zip)
+	$(call gpg_sign, pidgin-$(PIDGIN_VERSION)-source.zip,line)
 
 Doxyfile.mingw: Doxyfile.in
 	sed -e "s/@PACKAGE@/pidgin/" -e "s/@VERSION@/$(PIDGIN_VERSION)/" -e "s/@top_srcdir@/$(PIDGIN_TREE_TOP)/g" -e "s/@enable_dot@/NO/" $< > $@
 
 docs: Doxyfile.mingw
-	@echo "Running doxygen..."
+	@./colored.sh info "Executing doxygen"
 	@doxygen Doxyfile.mingw
+	@echo
 
 clean:
 	$(MAKE) -C $(PURPLE_PO_TOP) -f $(MINGW_MAKEFILE) clean
