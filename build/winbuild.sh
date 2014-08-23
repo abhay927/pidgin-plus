@@ -84,7 +84,8 @@ if [[ -n "$update_pot" ]]; then
 fi
 
 # GnuPG version
-gpg_version=$(gpg --version | head -1)
+gpg=gpg
+gpg_version=$($gpg --version | head -1)
 gpg_version="${gpg_version##* }"
 [[ "$gpg_version" = 1.* ]] && hash gpg2 2> /dev/null && gpg=gpg2
 
