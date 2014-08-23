@@ -38,9 +38,13 @@ if [[ -n "$PIDGIN_BUILD_COLORS" ]]; then
 
     # Colored make
     colormake() {
-        make "$@" \
-            2> >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe") \
-            >  >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe")
+        if [[ $(uname -or) != 1.*Msys ]]; then
+            make "$@" 2> >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe") \
+                       > >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe")
+        else
+            # MinGW MSYS does not support process substitution
+            make "$@" 2>&1 | sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe"
+        fi
     }
 fi
 
