@@ -8,6 +8,10 @@
         <change en-us:description="More recent GTK+ (2.24.24)"
                 pt-br:description="GTK+ mais recente (2.24.24)"/>
 
+        <change en-us:description="Really open source"
+                pt-br:description="Código realmente aberto"
+                bug="16285"/>
+
         <change en-us:description="Better Unicode support"
                 pt-br:description="Melhor suporte a Unicode"
                 bug="604"/>
