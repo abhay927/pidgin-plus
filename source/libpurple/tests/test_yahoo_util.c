@@ -164,9 +164,9 @@ START_TEST(test_html_to_codes)
 			yahoo_html_to_codes("<font>nothing</font>"));
 
 	/* font color */
-	assert_string_equal_free("\x1B[#E71414mred\x1B[#000000m",
+	assert_string_equal_free("\x1B[#E71414mred\x1B[#333333m",
 			yahoo_html_to_codes("<font color=\"#E71414\">red</font>"));
-	assert_string_equal_free("\x1B[#F80000mred\x1B[#000000m \x1B[#0000F8mblue\x1B[#000000m black",
+	assert_string_equal_free("\x1B[#F80000mred\x1B[#333333m \x1B[#0000F8mblue\x1B[#333333m black",
 			yahoo_html_to_codes("<font color=\"#F80000\">red</font> <font color=\"#0000F8\">blue</font> black"));
 
 	/* font size */
@@ -176,14 +176,14 @@ START_TEST(test_html_to_codes)
 			yahoo_html_to_codes("<font size=\"6\">test</font>"));
 
 	/* combinations */
-	assert_string_equal_free("\x1B[#F80000m<font size=\"8\">redsmall</font> rednormal\x1B[#000000m",
+	assert_string_equal_free("\x1B[#F80000m<font size=\"8\">redsmall</font> rednormal\x1B[#333333m",
 			yahoo_html_to_codes("<font color=\"#F80000\"><font size=\"1\">redsmall</font> rednormal</font>"));
 
-	assert_string_equal_free("\x1B[#F80000m<font size=\"8\">redsmall</font> \x1B[#00F800mgreennormal\x1B[#F80000m rednormal\x1B[#000000m",
+	assert_string_equal_free("\x1B[#F80000m<font size=\"8\">redsmall</font> \x1B[#00F800mgreennormal\x1B[#F80000m rednormal\x1B[#333333m",
 			yahoo_html_to_codes("<font color=\"#F80000\"><font size=\"1\">redsmall</font> <font color=\"#00F800\">greennormal</font> rednormal</font>"));
 
-	assert_string_equal_free("\x1B[1mbold \x1B[#F80000mred <font face=\"Comic Sans MS\" size=\"20\">larger \x1B[#000000mbacktoblack <font size=\"12\">normalsize</font>\x1B[#F80000m</font>\x1B[#000000m\x1B[x1m",
-			yahoo_html_to_codes("<b>bold <font color=\"#F80000\">red <font face=\"Comic Sans MS\" size=\"5\">larger <font color=\"#000000\">backtoblack <font size=\"3\">normalsize</font></font></font></font></b>"));
+	assert_string_equal_free("\x1B[1mbold \x1B[#F80000mred <font face=\"Comic Sans MS\" size=\"20\">larger \x1B[#333333mbacktoblack <font size=\"12\">normalsize</font>\x1B[#F80000m</font>\x1B[#333333m\x1B[x1m",
+			yahoo_html_to_codes("<b>bold <font color=\"#F80000\">red <font face=\"Comic Sans MS\" size=\"5\">larger <font color=\"#333333\">backtoblack <font size=\"3\">normalsize</font></font></font></font></b>"));
 
 	/* buzz/unknown tags */
 	assert_string_equal_free("<ding>",

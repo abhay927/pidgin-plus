@@ -263,7 +263,7 @@ void yahoo_init_colorht()
 
 	/* the numbers in comments are what gyach uses, but i think they're incorrect */
 #ifdef USE_CSS_FORMATTING
-	g_hash_table_insert(esc_codes_ht, "30", "<span style=\"color: #000000\">"); /* black */
+	g_hash_table_insert(esc_codes_ht, "30", "<span style=\"color: #333333\">"); /* black */
 	g_hash_table_insert(esc_codes_ht, "31", "<span style=\"color: #0000F8\">"); /* blue */
 	g_hash_table_insert(esc_codes_ht, "32", "<span style=\"color: #008080\">"); /* cyan */      /* 00b2b2 */
 	g_hash_table_insert(esc_codes_ht, "33", "<span style=\"color: #808080\">"); /* gray */      /* 808080 */
@@ -274,7 +274,7 @@ void yahoo_init_colorht()
 	g_hash_table_insert(esc_codes_ht, "38", "<span style=\"color: #F80000\">"); /* red */
 	g_hash_table_insert(esc_codes_ht, "39", "<span style=\"color: #808000\">"); /* olive */     /* 546b50 */
 #else
-	g_hash_table_insert(esc_codes_ht, "30", "<font color=\"#000000\">"); /* black */
+	g_hash_table_insert(esc_codes_ht, "30", "<font color=\"#333333\">"); /* black */
 	g_hash_table_insert(esc_codes_ht, "31", "<font color=\"#0000F8\">"); /* blue */
 	g_hash_table_insert(esc_codes_ht, "32", "<font color=\"#008080\">"); /* cyan */      /* 00b2b2 */
 	g_hash_table_insert(esc_codes_ht, "33", "<font color=\"#808080\">"); /* gray */      /* 808080 */
@@ -301,7 +301,7 @@ void yahoo_init_colorht()
 	g_hash_table_insert(esc_codes_ht, "xl", ""); /* link end */
 
 #ifdef USE_CSS_FORMATTING
-	g_hash_table_insert(tags_ht, "black",  "<span style=\"color: #000000\">");
+	g_hash_table_insert(tags_ht, "black",  "<span style=\"color: #333333\">");
 	g_hash_table_insert(tags_ht, "blue",   "<span style=\"color: #0000F8\">");
 	g_hash_table_insert(tags_ht, "cyan",   "<span style=\"color: #008284\">");
 	g_hash_table_insert(tags_ht, "gray",   "<span style=\"color: #848284\">");
@@ -323,7 +323,7 @@ void yahoo_init_colorht()
 	g_hash_table_insert(tags_ht, "/red",    "</span>");
 	g_hash_table_insert(tags_ht, "/yellow", "</span>");
 #else
-	g_hash_table_insert(tags_ht, "black",  "<font color=\"#000000\">");
+	g_hash_table_insert(tags_ht, "black",  "<font color=\"#333333\">");
 	g_hash_table_insert(tags_ht, "blue",   "<font color=\"#0000F8\">");
 	g_hash_table_insert(tags_ht, "cyan",   "<font color=\"#008284\">");
 	g_hash_table_insert(tags_ht, "gray",   "<font color=\"#848284\">");
@@ -745,7 +745,7 @@ static void parse_font_tag(GString *dest, const char *tag_name, const char *tag,
 
 	attribute = g_datalist_get_data(&attributes, "color");
 	if (attribute != NULL) {
-		g_string_append(tmp, *colors ? (*colors)->data : "\033[#000000m");
+		g_string_append(tmp, *colors ? (*colors)->data : "\033[#333333m");
 		g_string_append_printf(dest, "\033[%sm", attribute);
 		*colors = g_slist_prepend(*colors,
 				g_strdup_printf("\033[%sm", attribute));
@@ -756,7 +756,7 @@ static void parse_font_tag(GString *dest, const char *tag_name, const char *tag,
 		 * then we'll pop something that we shouldn't when we hit this
 		 * corresponding </font>. */
 		*colors = g_slist_prepend(*colors,
-				*colors ? g_strdup((*colors)->data) : g_strdup("\033[#000000m"));
+				*colors ? g_strdup((*colors)->data) : g_strdup("\033[#333333m"));
 	}
 
 	attribute = g_datalist_get_data(&attributes, "face");
