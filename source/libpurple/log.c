@@ -1435,7 +1435,7 @@ static gsize html_logger_write(PurpleLog *log, PurpleMessageFlags type,
 		else if (type & PURPLE_MESSAGE_RAW)
 			written += fprintf(data->file, "<font size=\"2\">(%s)</font> %s<br/>\n", date, msg_fixed);
 		else if (type & PURPLE_MESSAGE_ERROR)
-			written += fprintf(data->file, "<font color=\"#FF0000\"><font size=\"2\">(%s)</font><b> %s</b></font><br/>\n", date, msg_fixed);
+			written += fprintf(data->file, "<font color=\"#F80000\"><font size=\"2\">(%s)</font><b> %s</b></font><br/>\n", date, msg_fixed);
 		else if (type & PURPLE_MESSAGE_WHISPER)
 			written += fprintf(data->file, "<font color=\"#6C2585\"><font size=\"2\">(%s)</font><b> %s:</b></font> %s<br/>\n",
 					date, escaped_from, msg_fixed);

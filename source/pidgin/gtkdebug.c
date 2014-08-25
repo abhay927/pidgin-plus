@@ -81,8 +81,8 @@ static const char debug_fg_colors[][8] = {
 	"#666666",    /**< Misc.             */
 	"#000000",    /**< Information.      */
 	"#660000",    /**< Warnings.         */
-	"#FF0000",    /**< Errors.           */
-	"#FF0000",    /**< Fatal errors.     */
+	"#F80000",    /**< Errors.           */
+	"#F80000",    /**< Fatal errors.     */
 };
 
 static DebugWindow *debug_win = NULL;

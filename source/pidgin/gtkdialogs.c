@@ -818,7 +818,7 @@ void pidgin_dialogs_plugins_info(void)
 				"\t<B>Loadable:</B> %s<BR/>\t<B>Loaded:</B> %s<BR/>"
 				"<BR/></FONT>", pname, pauthor ? pauthor : "(null)",
 				pver, pwebsite, pid,
-				punloadable ? "<FONT COLOR=\"#FF0000\"><B>No</B></FONT>" : "Yes",
+				punloadable ? "<FONT COLOR=\"#F80000\"><B>No</B></FONT>" : "Yes",
 				ploaded ? "Yes" : "No");
 	}
 

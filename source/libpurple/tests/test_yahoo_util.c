@@ -60,7 +60,7 @@ START_TEST(test_codes_to_html)
 
 #ifdef USE_CSS_FORMATTING
 	/* font color */
-	assert_string_equal_free("<span style='color: #0000FF'>blue</span>",
+	assert_string_equal_free("<span style='color: #0000F8'>blue</span>",
 			yahoo_codes_to_html("\x1B[31mblue"));
 	assert_string_equal_free("<span style='color: #70ea15'>custom color</span>",
 			yahoo_codes_to_html("\x1B[#70ea15mcustom color"));
@@ -82,12 +82,12 @@ START_TEST(test_codes_to_html)
 			yahoo_codes_to_html("\x1B[35m<font size='15'>test"));
 #else
 	/* font color */
-	assert_string_equal_free("<font color='#0000FF'>blue</font>",
+	assert_string_equal_free("<font color='#0000F8'>blue</font>",
 			yahoo_codes_to_html("\x1B[31mblue"));
 	assert_string_equal_free("<font color='#70ea15'>custom color</font>",
 			yahoo_codes_to_html("\x1B[#70ea15mcustom color"));
 	assert_string_equal_free("test",
-			yahoo_codes_to_html("<ALT #ff0000,#00ff00,#0000ff>test</ALT>"));
+			yahoo_codes_to_html("<ALT #f80000,#00f800,#0000f8>test</ALT>"));
 
 	/* font face */
 	assert_string_equal_free("<font face='Georgia'>test</font>",
@@ -105,7 +105,7 @@ START_TEST(test_codes_to_html)
 	assert_string_equal_free("<font color='#FF0080'><font size='4' absz='15'>test</font></font>",
 			yahoo_codes_to_html("\x1B[35m<font size='15'>test"));
 	assert_string_equal_free(":&lt;",
-			yahoo_codes_to_html("<FADE #ff0000,#00ff00,#0000ff>:<</FADE>"));
+			yahoo_codes_to_html("<FADE #f80000,#00f800,#0000f8>:<</FADE>"));
 #endif /* !USE_CSS_FORMATTING */
 }
 END_TEST
@@ -166,8 +166,8 @@ START_TEST(test_html_to_codes)
 	/* font color */
 	assert_string_equal_free("\x1B[#E71414mred\x1B[#000000m",
 			yahoo_html_to_codes("<font color=\"#E71414\">red</font>"));
-	assert_string_equal_free("\x1B[#FF0000mred\x1B[#000000m \x1B[#0000FFmblue\x1B[#000000m black",
-			yahoo_html_to_codes("<font color=\"#FF0000\">red</font> <font color=\"#0000FF\">blue</font> black"));
+	assert_string_equal_free("\x1B[#F80000mred\x1B[#000000m \x1B[#0000F8mblue\x1B[#000000m black",
+			yahoo_html_to_codes("<font color=\"#F80000\">red</font> <font color=\"#0000F8\">blue</font> black"));
 
 	/* font size */
 	assert_string_equal_free("<font size=\"10\">test</font>",
@@ -176,14 +176,14 @@ START_TEST(test_html_to_codes)
 			yahoo_html_to_codes("<font size=\"6\">test</font>"));
 
 	/* combinations */
-	assert_string_equal_free("\x1B[#FF0000m<font size=\"8\">redsmall</font> rednormal\x1B[#000000m",
-			yahoo_html_to_codes("<font color=\"#FF0000\"><font size=\"1\">redsmall</font> rednormal</font>"));
+	assert_string_equal_free("\x1B[#F80000m<font size=\"8\">redsmall</font> rednormal\x1B[#000000m",
+			yahoo_html_to_codes("<font color=\"#F80000\"><font size=\"1\">redsmall</font> rednormal</font>"));
 
-	assert_string_equal_free("\x1B[#FF0000m<font size=\"8\">redsmall</font> \x1B[#00FF00mgreennormal\x1B[#FF0000m rednormal\x1B[#000000m",
-			yahoo_html_to_codes("<font color=\"#FF0000\"><font size=\"1\">redsmall</font> <font color=\"#00FF00\">greennormal</font> rednormal</font>"));
+	assert_string_equal_free("\x1B[#F80000m<font size=\"8\">redsmall</font> \x1B[#00F800mgreennormal\x1B[#F80000m rednormal\x1B[#000000m",
+			yahoo_html_to_codes("<font color=\"#F80000\"><font size=\"1\">redsmall</font> <font color=\"#00F800\">greennormal</font> rednormal</font>"));
 
-	assert_string_equal_free("\x1B[1mbold \x1B[#FF0000mred <font face=\"Comic Sans MS\" size=\"20\">larger \x1B[#000000mbacktoblack <font size=\"12\">normalsize</font>\x1B[#FF0000m</font>\x1B[#000000m\x1B[x1m",
-			yahoo_html_to_codes("<b>bold <font color=\"#FF0000\">red <font face=\"Comic Sans MS\" size=\"5\">larger <font color=\"#000000\">backtoblack <font size=\"3\">normalsize</font></font></font></font></b>"));
+	assert_string_equal_free("\x1B[1mbold \x1B[#F80000mred <font face=\"Comic Sans MS\" size=\"20\">larger \x1B[#000000mbacktoblack <font size=\"12\">normalsize</font>\x1B[#F80000m</font>\x1B[#000000m\x1B[x1m",
+			yahoo_html_to_codes("<b>bold <font color=\"#F80000\">red <font face=\"Comic Sans MS\" size=\"5\">larger <font color=\"#000000\">backtoblack <font size=\"3\">normalsize</font></font></font></font></b>"));
 
 	/* buzz/unknown tags */
 	assert_string_equal_free("<ding>",

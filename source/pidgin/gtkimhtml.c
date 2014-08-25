@@ -431,7 +431,7 @@ static void gtk_imhtml_size_allocate(GtkWidget *widget, GtkAllocation *alloc)
 #define DEFAULT_HIGHLIGHT_COLOR "#AF7F00"
 #define DEFAULT_ACTION_COLOR "#062585"
 #define DEFAULT_WHISPER_ACTION_COLOR "#6C2585"
-#define DEFAULT_WHISPER_COLOR "#00FF00"
+#define DEFAULT_WHISPER_COLOR "#00F800"
 
 static void (*parent_style_set)(GtkWidget *widget, GtkStyle *prev_style);
 
@@ -1638,7 +1638,7 @@ static void gtk_imhtml_class_init (GtkIMHtmlClass *klass)
 
 	/* Customizable typing notification ... sort of. Example:
 	 *   GtkIMHtml::typing-notification-font = "monospace italic light 8.0"
-	 *   GtkIMHtml::typing-notification-color = "#ff0000"
+	 *   GtkIMHtml::typing-notification-color = "#f80000"
 	 *   GtkIMHtml::typing-notification-enable = 1
 	 */
 	gtk_widget_class_install_style_property(widget_class, g_param_spec_boxed("typing-notification-color",

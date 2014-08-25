@@ -5959,7 +5959,7 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 
 	} else if (flags & PURPLE_MESSAGE_ERROR) {
 		g_snprintf(buf2, sizeof(buf2),
-			   "<FONT COLOR=\"#ff0000\"><FONT %s><FONT SIZE=\"2\"><!--%s --></FONT><B>%s</B></FONT></FONT>",
+			   "<FONT COLOR=\"#f80000\"><FONT %s><FONT SIZE=\"2\"><!--%s --></FONT><B>%s</B></FONT></FONT>",
 			   sml_attrib ? sml_attrib : "", mdate, displaying);
 
 		gtk_imhtml_append_text(GTK_IMHTML(gtkconv->imhtml), buf2, gtk_font_options_all);

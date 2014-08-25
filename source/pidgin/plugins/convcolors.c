@@ -458,7 +458,7 @@ init_plugin(PurplePlugin *plugin)
 	purple_prefs_add_string(PREF_SEND_C, "#909090");
 	purple_prefs_add_string(PREF_RECV_C, "#000000");
 	purple_prefs_add_string(PREF_SYSTEM_C, "#50a050");
-	purple_prefs_add_string(PREF_ERROR_C, "#ff0000");
+	purple_prefs_add_string(PREF_ERROR_C, "#f80000");
 	purple_prefs_add_string(PREF_NICK_C, "#0000dd");
 
 	purple_prefs_add_int(PREF_SEND_F, 0);

@@ -1601,7 +1601,7 @@ static char * trillian_logger_read (PurpleLog *log, PurpleLogReadFlags *flags)
 					"One or more messages may have been undeliverable.")) {
 
 					g_string_append(formatted,
-						"<span style=\"color: #ff0000;\">");
+						"<span style=\"color: #f80000;\">");
 					g_string_append(formatted,
 						_("One or more messages may have been "
 						  "undeliverable."));
@@ -1611,7 +1611,7 @@ static char * trillian_logger_read (PurpleLog *log, PurpleLogReadFlags *flags)
 						"You have been disconnected.")) {
 
 					g_string_append(formatted,
-						"<span style=\"color: #ff0000;\">");
+						"<span style=\"color: #f80000;\">");
 					g_string_append(formatted,
 						_("You were disconnected from the server."));
 					line = "";
@@ -1620,7 +1620,7 @@ static char * trillian_logger_read (PurpleLog *log, PurpleLogReadFlags *flags)
 						"You are currently disconnected.")) {
 
 					g_string_append(formatted,
-						"<span style=\"color: #ff0000;\">");
+						"<span style=\"color: #f80000;\">");
 					line = _("You are currently disconnected. Messages "
 					         "will not be received unless you are "
 					         "logged in.");
@@ -1629,7 +1629,7 @@ static char * trillian_logger_read (PurpleLog *log, PurpleLogReadFlags *flags)
 						"Your previous message has not been sent.")) {
 
 					g_string_append(formatted,
-						"<span style=\"color: #ff0000;\">");
+						"<span style=\"color: #f80000;\">");
 
 					if (purple_str_has_prefix(line,
 						"Your previous message has not been sent.  "
