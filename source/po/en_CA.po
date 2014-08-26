@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2014-08-06 07:35+0000\n"
 "X-Generator: Launchpad (build 17147)\n"
-"Language: Canadian English\n"
+"Language: English (Canada)\n"
 "X-Language: en_CA\n"
 "X-Source-Language: C\n"
 

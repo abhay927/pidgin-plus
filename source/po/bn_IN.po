@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
 "X-Launchpad-Export-Date: 2014-08-06 07:32+0000\n"
 "X-Generator: Launchpad (build 17147)\n"
-"Language: \n"
+"Language: Bengali (India)\n"
 
 msgid "\t_Only when someone says your username"
 msgstr "\tশুধুমাত্র আপনার অ্যাকাউন্টের নাম উল্লিখিত হলে (_O)"

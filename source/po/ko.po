@@ -21,7 +21,7 @@ msgstr ""
 "X-Launchpad-Export-Date: 2014-08-06 07:15+0000\n"
 "X-Generator: Launchpad (build 17147)\n"
 "X-Poedit-Country: KOREA, REPUBLIC OF\n"
-"Language: \n"
+"Language: Korean\n"
 "X-Poedit-Language: Korean\n"
 
 msgid "\t_Only when someone says your username"

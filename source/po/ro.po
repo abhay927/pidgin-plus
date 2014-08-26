@@ -19,7 +19,7 @@ msgstr ""
 "== 0) && (n != 0))) ? 2: 1));\n"
 "X-Launchpad-Export-Date: 2014-08-06 07:24+0000\n"
 "X-Generator: Launchpad (build 17147)\n"
-"Language: ro\n"
+"Language: Romanian\n"
 
 msgid "\t_Only when someone says your username"
 msgstr "\tD_oar când cineva vă spune numele de utilizator"

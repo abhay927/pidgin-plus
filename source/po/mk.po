@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 || n%10==1 ? 0 : 1;\n"
 "X-Launchpad-Export-Date: 2014-08-06 07:17+0000\n"
 "X-Generator: Launchpad (build 17147)\n"
-"Language: mk\n"
+"Language: Macedonian\n"
 
 msgid "\t_Only when someone says your username"
 msgstr "\t_Само кога некој го напишал Вашето име"
