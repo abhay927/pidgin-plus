@@ -168,42 +168,34 @@ static void search_cb(GtkWidget *button, PidginLogViewer *lv)
 	pidgin_clear_cursor(lv->window);
 }
 
-static void destroy_cb(GtkWidget *w, gint resp, struct log_viewer_hash_t *ht) {
-	PidginLogViewer *lv = syslog_viewer;
-
 #ifdef _WIN32
-	if (resp == GTK_RESPONSE_HELP) {
-		GtkTreeSelection *sel;
-		GtkTreeIter iter;
-		GtkTreeModel *model;
-		PurpleLog *log = NULL;
-		char *logdir;
+static void browse_logs_clicked(GtkWidget *widget, PidginLogViewer *lv) {
+	GtkTreeSelection *sel;
+	GtkTreeIter iter;
+	GtkTreeModel *model;
+	PurpleLog *log = NULL;
+	char *logdir;
 
-		if (ht != NULL)
-			lv = g_hash_table_lookup(log_viewers, ht);
-		model = GTK_TREE_MODEL(lv->treestore);
-
-		sel = gtk_tree_view_get_selection(GTK_TREE_VIEW(lv->treeview));
-		if (gtk_tree_selection_get_selected(sel, &model, &iter)) {
-			GValue val;
-
-			val.g_type = 0;
-			gtk_tree_model_get_value (model, &iter, 1, &val);
-			log = g_value_get_pointer(&val);
-			g_value_unset(&val);
-		}
-
-
-		if (log == NULL)
-			logdir = g_build_filename(purple_user_dir(), "logs", NULL);
-		else
-			logdir = purple_log_get_log_dir(log->type, log->name, log->account);
-
-		winpidgin_shell_execute(logdir, "explore", NULL);
-		g_free(logdir);
-		return;
+	model = GTK_TREE_MODEL(lv->treestore);
+	sel = gtk_tree_view_get_selection(GTK_TREE_VIEW(lv->treeview));
+	if (gtk_tree_selection_get_selected(sel, &model, &iter)) {
+		GValue val;
+		val.g_type = 0;
+		gtk_tree_model_get_value (model, &iter, 1, &val);
+		log = g_value_get_pointer(&val);
+		g_value_unset(&val);
 	}
+	if (log == NULL)
+		logdir = g_build_filename(purple_user_dir(), "logs", NULL);
+	else
+		logdir = purple_log_get_log_dir(log->type, log->name, log->account);
+	winpidgin_shell_execute(logdir, "explore", NULL);
+	g_free(logdir);
+}
 #endif
+
+static void destroy_cb(GtkWidget *w, struct log_viewer_hash_t *ht) {
+	PidginLogViewer *lv = syslog_viewer;
 
 	if (ht != NULL) {
 		lv = g_hash_table_lookup(log_viewers, ht);
@@ -529,6 +521,7 @@ static PidginLogViewer *display_log_viewer(struct log_viewer_hash_t *ht, GList *
 {
 	PidginLogViewer *lv;
 	GtkWidget *title_box;
+	GtkWidget *content_box;
 	char *text;
 	GtkWidget *pane;
 	GtkCellRenderer *rend;
@@ -574,28 +567,21 @@ static PidginLogViewer *display_log_viewer(struct log_viewer_hash_t *ht, GList *
 		g_hash_table_insert(log_viewers, ht, lv);
 
 	/* Window ***********/
-	lv->window = gtk_dialog_new_with_buttons(title, NULL, 0,
-					     GTK_STOCK_CLOSE, GTK_RESPONSE_CLOSE, NULL);
-#ifdef _WIN32
-	/* Steal the "HELP" response and use it to trigger browsing to the logs folder */
-	gtk_dialog_add_button(GTK_DIALOG(lv->window), _("_Browse logs folder"), GTK_RESPONSE_HELP);
-#endif
+	lv->window = pidgin_create_window(title, 0, "log_viewer", TRUE);
+	gtk_window_set_default_size(GTK_WINDOW(lv->window), 1200, 800);
+	g_signal_connect(G_OBJECT(lv->window), "destroy", G_CALLBACK(destroy_cb), ht);
+	content_box = gtk_vbox_new(FALSE, PIDGIN_HIG_BOX_SPACE);
+	gtk_container_add(GTK_CONTAINER(lv->window), content_box);
 	gtk_container_set_border_width (GTK_CONTAINER(lv->window), PIDGIN_HIG_BOX_SPACE);
-	gtk_dialog_set_has_separator(GTK_DIALOG(lv->window), FALSE);
-	gtk_box_set_spacing(GTK_BOX(GTK_DIALOG(lv->window)->vbox), 0);
-	g_signal_connect(G_OBJECT(lv->window), "response",
-					 G_CALLBACK(destroy_cb), ht);
-	gtk_window_set_role(GTK_WINDOW(lv->window), "log_viewer");
 
 	/* Icon *************/
 	if (icon != NULL) {
 		title_box = gtk_hbox_new(FALSE, PIDGIN_HIG_BOX_SPACE);
 		gtk_container_set_border_width(GTK_CONTAINER(title_box), PIDGIN_HIG_BOX_SPACE);
-		gtk_box_pack_start(GTK_BOX(GTK_DIALOG(lv->window)->vbox), title_box, FALSE, FALSE, 0);
-
+		gtk_box_pack_start(GTK_BOX(content_box), title_box, FALSE, FALSE, 0);
 		gtk_box_pack_start(GTK_BOX(title_box), icon, FALSE, FALSE, 0);
 	} else
-		title_box = GTK_DIALOG(lv->window)->vbox;
+		title_box = content_box;
 
 	/* Label ************/
 	lv->label = gtk_label_new(NULL);
@@ -610,7 +596,7 @@ static PidginLogViewer *display_log_viewer(struct log_viewer_hash_t *ht, GList *
 	/* Pane *************/
 	pane = gtk_hpaned_new();
 	gtk_container_set_border_width(GTK_CONTAINER(pane), PIDGIN_HIG_BOX_SPACE);
-	gtk_box_pack_start(GTK_BOX(GTK_DIALOG(lv->window)->vbox), pane, TRUE, TRUE, 0);
+	gtk_box_pack_start(GTK_BOX(content_box), pane, TRUE, TRUE, 0);
 
 	/* List *************/
 	lv->treestore = gtk_tree_store_new (2, G_TYPE_STRING, G_TYPE_POINTER);
@@ -645,7 +631,7 @@ static PidginLogViewer *display_log_viewer(struct log_viewer_hash_t *ht, GList *
 		gtk_label_set_markup(GTK_LABEL(size_label), text);
 		/*		gtk_paned_add1(GTK_PANED(pane), size_label); */
 		gtk_misc_set_alignment(GTK_MISC(size_label), 0, 0);
-		gtk_box_pack_end(GTK_BOX(GTK_DIALOG(lv->window)->vbox), size_label, FALSE, FALSE, 0);
+		gtk_box_pack_end(GTK_BOX(content_box), size_label, FALSE, FALSE, 0);
 		g_free(sz_txt);
 		g_free(text);
 	}
@@ -670,6 +656,11 @@ static PidginLogViewer *display_log_viewer(struct log_viewer_hash_t *ht, GList *
 	gtk_box_pack_start(GTK_BOX(hbox), find_button, FALSE, FALSE, 0);
 	g_signal_connect(GTK_ENTRY(lv->entry), "activate", G_CALLBACK(search_cb), lv);
 	g_signal_connect(GTK_BUTTON(find_button), "clicked", G_CALLBACK(search_cb), lv);
+#ifdef _WIN32
+	GtkWidget *browse_logs_button = gtk_button_new_with_mnemonic(_("_Browse logs folder"));
+	g_signal_connect(G_OBJECT(browse_logs_button), "clicked", G_CALLBACK(browse_logs_clicked), lv);
+	gtk_box_pack_start(GTK_BOX(hbox), browse_logs_button, FALSE, FALSE, 0);
+#endif
 
 	select_first_log(lv);
 
