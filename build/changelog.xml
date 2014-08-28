@@ -62,6 +62,9 @@
                 <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-email.png</screenshot>
                 <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-connect.png</screenshot></change>
 
+        <change en-us:description="Maximizable chat history viewer"
+                pt-br:description="Visualizador maximizável do histórico de chats"/>
+
         <change en-us:description="Wider non-ellipsized labels for side-aligned conversation tabs"
                 pt-br:description="Títulos maiores, sem reticências, nas abas de conversa laterais"
                 bug="15347"/>
