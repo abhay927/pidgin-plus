@@ -26,7 +26,12 @@
 #include <windows.h>
 #include <shlobj.h>
 #include <process.h>
+
+/* Not needed in MinGW-w64 */
+#ifndef __MINGW64_VERSION_MAJOR
 #include "wpurpleerror.h"
+#endif
+
 #include "libc_interface.h"
 
 
