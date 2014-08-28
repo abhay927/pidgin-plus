@@ -33,7 +33,7 @@ if [[ -n "$PIDGIN_BUILD_COLORS" ]]; then
 
     # Compiler recipes
     source_dir=$(readlink -f "$(dirname "$BASH_SOURCE")")
-    compiler=$(grep "CC\\s*:=" "$source_dir/libpurple/win32/global.mak" | awk -F':=[[:space:]*]' '{print $2}')
+    compiler=$(grep "CC[[:space:]]*:=" "$source_dir/libpurple/win32/global.mak" | awk -F':=[[:space:]*]' '{print $2}')
     compiler_recipe="s/^($compiler .*)/\n$(printf $gray)\\1$(printf $normal)\n/"
 
     # Colored make
