@@ -22,14 +22,6 @@
 
 #include "internal.h"
 
-/* Other includes */
-#include <string.h>
-#include <errno.h>/* for EAGAIN */
-#include <stdarg.h>
-#include <math.h>
-
-#include <glib.h>
-
 #ifdef _WIN32
 #include "win32dep.h"
 #else
@@ -37,6 +29,14 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #endif
+
+/* Other includes */
+#include <string.h>
+#include <errno.h>/* for EAGAIN */
+#include <stdarg.h>
+#include <math.h>
+
+#include <glib.h>
 
 #include "notify.h"
 #include "plugin.h"

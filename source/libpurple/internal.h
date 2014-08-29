@@ -75,6 +75,10 @@
 #define BUF_LEN MSG_LEN
 #define BUF_LONG BUF_LEN * 2
 
+#ifdef _WIN32
+#include "win32dep.h"
+#endif
+
 #include <sys/stat.h>
 #include <sys/types.h>
 #ifndef _WIN32
@@ -134,10 +138,6 @@
 #endif
 
 #include <glib/gstdio.h>
-
-#ifdef _WIN32
-#include "win32dep.h"
-#endif
 
 #ifdef HAVE_CONFIG_H
 #if SIZEOF_TIME_T == 4
