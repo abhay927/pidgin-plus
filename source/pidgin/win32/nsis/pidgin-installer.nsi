@@ -267,7 +267,7 @@ Section $(GTKSECTIONTITLE) SecGtk
 !ifndef OFFLINE_INSTALLER
   ; We need to download the GTK+ runtime
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/2.10.9-rs226/+download/Pidgin GTK+ Runtime ${GTK_INSTALL_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/2.10.9-rs241/+download/Pidgin GTK+ Runtime ${GTK_INSTALL_VERSION}.zip"
   DetailPrint "Downloading GTK+ Runtime ... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
