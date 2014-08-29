@@ -426,13 +426,6 @@ static void gtk_imhtml_size_allocate(GtkWidget *widget, GtkAllocation *alloc)
 		gtk_imhtml_scroll_to_end(imhtml, FALSE);
 }
 
-#define DEFAULT_SEND_COLOR "#204a87"
-#define DEFAULT_RECV_COLOR "#cc0000"
-#define DEFAULT_HIGHLIGHT_COLOR "#AF7F00"
-#define DEFAULT_ACTION_COLOR "#062585"
-#define DEFAULT_WHISPER_ACTION_COLOR "#6C2585"
-#define DEFAULT_WHISPER_COLOR "#00F800"
-
 static void (*parent_style_set)(GtkWidget *widget, GtkStyle *prev_style);
 
 static void

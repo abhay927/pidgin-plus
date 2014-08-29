@@ -72,7 +72,7 @@
 
 #define CLOSE_CONV_TIMEOUT_SECS  (10 * 60)
 
-#define AUTO_RESPONSE "&lt;AUTO-REPLY&gt; : "
+#define AUTO_RESPONSE "(auto)"
 
 typedef enum
 {
@@ -94,12 +94,6 @@ enum {
 } PidginInfopaneColumns;
 
 #define	PIDGIN_CONV_ALL	((1 << 7) - 1)
-
-/* XXX: These color defines shouldn't really be here. But the nick-color
- * generation algorithm uses them, so keeping these around until we fix that. */
-#define DEFAULT_SEND_COLOR "#204a87"
-#define DEFAULT_HIGHLIGHT_COLOR "#AF7F00"
-
 #define BUDDYICON_SIZE_MIN    32
 #define BUDDYICON_SIZE_MAX    96
 
@@ -5788,6 +5782,8 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 	char *bracket;
 	int tag_count = 0;
 	gboolean is_rtl_message = FALSE;
+	gboolean message_meify;
+	char *message_color = DEFAULT_RECV_COLOR;
 
 	g_return_if_fail(conv != NULL);
 	gtkconv = PIDGIN_CONVERSATION(conv);
@@ -5915,7 +5911,7 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 			tmp = purple_date_format_long(tm);
 		else
 			tmp = purple_time_format(tm);
-		mdate = g_strdup_printf("(%s)", tmp);
+		mdate = g_strdup_printf("%s ", tmp);
 	}
 
 	/* Bi-Directional support - set timestamp direction using unicode characters */
@@ -5952,22 +5948,22 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 		gtk_imhtml_append_text(GTK_IMHTML(gtkconv->imhtml), message, gtk_font_options_all);
 	} else if (flags & PURPLE_MESSAGE_SYSTEM) {
 		g_snprintf(buf2, sizeof(buf2),
-			   "<FONT %s><FONT SIZE=\"2\"><!--%s --></FONT><B>%s</B></FONT>",
-			   sml_attrib ? sml_attrib : "", mdate, displaying);
+			   "<FONT %s COLOR=\"%s\"><FONT SIZE=\"2\"><!--%s --></FONT><I>%s</I></FONT>",
+			   sml_attrib ? sml_attrib : "", DEFAULT_SYSTEM_COLOR, mdate, displaying);
 
 		gtk_imhtml_append_text(GTK_IMHTML(gtkconv->imhtml), buf2, gtk_font_options_all);
 
 	} else if (flags & PURPLE_MESSAGE_ERROR) {
 		g_snprintf(buf2, sizeof(buf2),
-			   "<FONT COLOR=\"#f80000\"><FONT %s><FONT SIZE=\"2\"><!--%s --></FONT><B>%s</B></FONT></FONT>",
-			   sml_attrib ? sml_attrib : "", mdate, displaying);
+			   "<FONT COLOR=\"%s\"><FONT %s><FONT SIZE=\"2\"><!--%s --></FONT><I>%s</I></FONT></FONT>",
+			   DEFAULT_ERROR_COLOR, sml_attrib ? sml_attrib : "", mdate, displaying);
 
 		gtk_imhtml_append_text(GTK_IMHTML(gtkconv->imhtml), buf2, gtk_font_options_all);
 
 	} else if (flags & PURPLE_MESSAGE_NO_LOG) {
 		g_snprintf(buf2, BUF_LONG,
-			   "<B><FONT %s COLOR=\"#777777\">%s</FONT></B>",
-			   sml_attrib ? sml_attrib : "", displaying);
+			   "<I><FONT %s COLOR=\"%s\">%s</FONT></I>",
+			   sml_attrib ? sml_attrib : "", DEFAULT_NO_LOG_COLOR, displaying);
 
 		gtk_imhtml_append_text(GTK_IMHTML(gtkconv->imhtml), buf2, gtk_font_options_all);
 	} else {
@@ -5989,53 +5985,65 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 			str_embed_direction_chars(&alias_escaped);
 
 		str = g_malloc(1024);
+		message_meify = purple_message_meify(new_message, -1 );
 		if (flags & PURPLE_MESSAGE_WHISPER) {
 			/* If we're whispering, it's not an autoresponse. */
-			if (purple_message_meify(new_message, -1 )) {
-				g_snprintf(str, 1024, "***%s", alias_escaped);
+			if (message_meify) {
+				g_snprintf(str, 1024, "<i>%s</i>", alias_escaped);
 				tag_start_offset += 3;
+				tag_end_offset = 4;
 				tagname = "whisper-action-name";
+				message_color = DEFAULT_WHISPER_ACTION_COLOR;
 			}
 			else {
 				g_snprintf(str, 1024, "*%s*:", alias_escaped);
 				tag_start_offset += 1;
 				tag_end_offset = 2;
 				tagname = "whisper-name";
+				message_color = DEFAULT_WHISPER_COLOR;
 			}
 		} else {
-			if (purple_message_meify(new_message, -1)) {
+			if (message_meify) {
 				if (flags & PURPLE_MESSAGE_AUTO_RESP) {
-					g_snprintf(str, 1024, "%s ***%s", AUTO_RESPONSE, alias_escaped);
-					tag_start_offset += strlen(AUTO_RESPONSE) - 6 + 4;
+					g_snprintf(str, 1024, "<i>%s: %s</i>", AUTO_RESPONSE, alias_escaped);
+					tag_start_offset += strlen(AUTO_RESPONSE) + 5;
+					tag_end_offset = 4;
 				} else {
-					g_snprintf(str, 1024, "***%s", alias_escaped);
+					g_snprintf(str, 1024, "<i>%s</i>", alias_escaped);
 					tag_start_offset += 3;
+					tag_end_offset = 4;
 				}
 
-				if (flags & PURPLE_MESSAGE_NICK)
+				if (flags & PURPLE_MESSAGE_NICK) {
 					tagname = "highlight-name";
-				else
+					message_color = DEFAULT_HIGHLIGHT_COLOR;
+				} else {
 					tagname = "action-name";
+					message_color = DEFAULT_ACTION_COLOR;
+				}
 			} else {
 				if (flags & PURPLE_MESSAGE_AUTO_RESP) {
-					g_snprintf(str, 1024, "%s %s", alias_escaped, AUTO_RESPONSE);
-					tag_start_offset += strlen(AUTO_RESPONSE) - 6 + 1;
+					g_snprintf(str, 1024, "%s %s:", alias_escaped, AUTO_RESPONSE);
+					tag_start_offset += strlen(AUTO_RESPONSE) + 2;
 				} else {
 					g_snprintf(str, 1024, "%s:", alias_escaped);
 					tag_end_offset = 1;
 				}
 
-				if (flags & PURPLE_MESSAGE_NICK) {
+				if (flags & PURPLE_MESSAGE_NICK) {					
 					if (type == PURPLE_CONV_TYPE_IM) {
-						tagname = "highlight-name";
+						tagname = "highlight-name";						
 					}
-				} else if (flags & PURPLE_MESSAGE_RECV) {
+					message_color = DEFAULT_HIGHLIGHT_COLOR;
+				} else if (flags & PURPLE_MESSAGE_RECV) {					
 					/* The tagname for chats is handled by get_buddy_tag */
 					if (type == PURPLE_CONV_TYPE_IM) {
 						tagname = "receive-name";
 					}
-				} else if (flags & PURPLE_MESSAGE_SEND) {
+					message_color = DEFAULT_RECV_COLOR;
+				} else if (flags & PURPLE_MESSAGE_SEND) {					
 					tagname = "send-name";
+					message_color = DEFAULT_SEND_COLOR;					
 				} else {
 					purple_debug_error("gtkconv", "message missing flags\n");
 				}
@@ -6050,14 +6058,7 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 			tag = get_buddy_tag(conv, name, flags, TRUE);
 
 		if (GTK_IMHTML(gtkconv->imhtml)->show_comments) {
-			/* The color for the timestamp has to be set in the font-tags, unfortunately.
-			 * Applying the nick-tag to timestamps would work, but that can make it
-			 * bold. I thought applying the "comment" tag again, which has "weight" set
-			 * to PANGO_WEIGHT_NORMAL, would remove the boldness. But it doesn't. So
-			 * this will have to do. I don't terribly like it.  -- sadrul */
-			const char *color = get_text_tag_color(tag);
-			g_snprintf(buf2, BUF_LONG, "<FONT %s%s%s SIZE=\"2\"><!--%s --></FONT>",
-					color ? "COLOR=\"" : "", color ? color : "", color ? "\"" : "", mdate);
+			g_snprintf(buf2, BUF_LONG, "<FONT COLOR=\"%s\" SIZE=\"2\"><!--%s --></FONT>", DEFAULT_SYSTEM_COLOR, mdate);
 			gtk_imhtml_append_text(GTK_IMHTML(gtkconv->imhtml), buf2, gtk_font_options_all | GTK_IMHTML_NO_SCROLL);
 		}
 
@@ -6075,8 +6076,9 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 		g_free(str);
 
 		if(gc){
-			char *pre = g_strdup_printf("<font %s>", sml_attrib ? sml_attrib : "");
-			char *post = "</font>";
+			char *attributes = sml_attrib ? sml_attrib : "";		
+			char *pre = g_strdup_printf("<font %s color=\"%s\">%s", attributes, message_color, message_meify? "<i>" : "");			
+			char *post = message_meify? "</i></font>" : "</font>";
 			int pre_len = strlen(pre);
 			int post_len = strlen(post);
 
@@ -8177,11 +8179,11 @@ pidgin_conversations_init(void)
 			const char *labelname;
 			const char *color;
 		} styles[] = {
-			{"pidgin_tab_label_typing_default", "tab-label-typing", "#4e9a06"},
-			{"pidgin_tab_label_typed_default", "tab-label-typed", "#c4a000"},
-			{"pidgin_tab_label_attention_default", "tab-label-attention", "#006aff"},
-			{"pidgin_tab_label_unreadchat_default", "tab-label-unreadchat", "#cc0000"},
-			{"pidgin_tab_label_event_default", "tab-label-event", "#888a85"},
+			{"pidgin_tab_label_typing_default",      "tab-label-typing",      DEFAULT_TYPING_COLOR},
+			{"pidgin_tab_label_typed_default",       "tab-label-typed",       DEFAULT_TYPED_COLOR},
+			{"pidgin_tab_label_attention_default",   "tab-label-attention",   DEFAULT_HIGHLIGHT_COLOR},
+			{"pidgin_tab_label_unreadchat_default",  "tab-label-unreadchat",  DEFAULT_UNREAD_COLOR},
+			{"pidgin_tab_label_event_default",       "tab-label-event",       DEFAULT_EVENT_COLOR},
 			{NULL, NULL, NULL}
 		};
 		int iter;

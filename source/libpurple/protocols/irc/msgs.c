@@ -1304,6 +1304,7 @@ void irc_msg_privmsg(struct irc_conn *irc, const char *name, const char *from, c
 static void irc_msg_handle_privmsg(struct irc_conn *irc, const char *name, const char *from, const char *to, const char *rawmsg, gboolean notice)
 {
 	PurpleConnection *gc = purple_account_get_connection(irc->account);
+	PurpleMessageFlags flags = 0;
 	PurpleConversation *convo;
 	char *tmp;
 	char *msg;
@@ -1326,6 +1327,7 @@ static void irc_msg_handle_privmsg(struct irc_conn *irc, const char *name, const
 	g_free(msg);
 	msg = tmp;
 	if (notice) {
+		flags |= PURPLE_MESSAGE_SYSTEM;
 		tmp = g_strdup_printf("(notice) %s", msg);
 		g_free(msg);
 		msg = tmp;
@@ -1336,7 +1338,7 @@ static void irc_msg_handle_privmsg(struct irc_conn *irc, const char *name, const
 	} else {
 		convo = purple_find_conversation_with_account(PURPLE_CONV_TYPE_CHAT, irc_nick_skip_mode(irc, to), irc->account);
 		if (convo)
-			serv_got_chat_in(gc, purple_conv_chat_get_id(PURPLE_CONV_CHAT(convo)), nick, 0, msg, time(NULL));
+			serv_got_chat_in(gc, purple_conv_chat_get_id(PURPLE_CONV_CHAT(convo)), nick, flags, msg, time(NULL));
 		else
 			purple_debug_error("irc", "Got a %s on %s, which does not exist\n",
 			                   notice ? "NOTICE" : "PRIVMSG", to);

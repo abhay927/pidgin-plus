@@ -1656,7 +1656,7 @@ static char * trillian_logger_read (PurpleLog *log, PurpleLogReadFlags *flags)
 					if (alias != NULL) {
 						line += strlen(data->their_nickname) + 2;
 						g_string_append_printf(formatted,
-							"<span style=\"color: #A82F2F;\">"
+							"<span style=\"color: #585858;\">"
 							"<b>%s</b></span>: ", alias);
 					}
 				}
@@ -1671,7 +1671,7 @@ static char * trillian_logger_read (PurpleLog *log, PurpleLogReadFlags *flags)
 						acct_name = purple_account_get_username(log->account);
 
 					g_string_append_printf(formatted,
-						"<span style=\"color: #16569E;\">"
+						"<span style=\"color: #006aff;\">"
 						"<b>%s</b></span>:", acct_name);
 				}
 			}
@@ -2030,7 +2030,7 @@ static char *qip_logger_read(PurpleLog *log, PurpleLogReadFlags *flags)
 						    (alias = purple_buddy_get_alias(buddy)))
 						{
 							g_string_append_printf(formatted,
-								"<span style=\"color: #A82F2F;\">"
+								"<span style=\"color: #585858;\">"
 								"<b>%s</b></span>: ", alias);
 						}
 					} else {
@@ -2040,7 +2040,7 @@ static char *qip_logger_read(PurpleLog *log, PurpleLogReadFlags *flags)
 							acct_name = purple_account_get_username(log->account);
 
 						g_string_append_printf(formatted,
-							"<span style=\"color: #16569E;\">"
+							"<span style=\"color: #006aff;\">"
 							"<b>%s</b></span>: ", acct_name);
 					}
 

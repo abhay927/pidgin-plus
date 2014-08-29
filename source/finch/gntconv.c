@@ -940,7 +940,7 @@ finch_write_common(PurpleConversation *conv, const char *who, const char *messag
 
 	if (flags & PURPLE_MESSAGE_AUTO_RESP)
 		gnt_text_view_append_text_with_flags(GNT_TEXT_VIEW(ggconv->tv),
-					_("<AUTO-REPLY> "), GNT_TEXT_FLAG_BOLD);
+					_("(auto) "), GNT_TEXT_FLAG_BOLD);
 
 	if (who && *who && (flags & (PURPLE_MESSAGE_SEND | PURPLE_MESSAGE_RECV)) &&
 			!(flags & PURPLE_MESSAGE_NOTIFY))

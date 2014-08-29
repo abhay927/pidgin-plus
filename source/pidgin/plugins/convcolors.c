@@ -36,6 +36,7 @@
 #include <version.h>
 
 #include <conversation.h>
+#include <gtkimhtml.h>
 #include <gtkconv.h>
 #include <gtkprefs.h>
 #include <gtkutils.h>
@@ -455,17 +456,17 @@ init_plugin(PurplePlugin *plugin)
 	purple_prefs_add_none(PREF_ERROR);
 	purple_prefs_add_none(PREF_NICK);
 
-	purple_prefs_add_string(PREF_SEND_C, "#909090");
-	purple_prefs_add_string(PREF_RECV_C, "#000000");
-	purple_prefs_add_string(PREF_SYSTEM_C, "#50a050");
-	purple_prefs_add_string(PREF_ERROR_C, "#f80000");
-	purple_prefs_add_string(PREF_NICK_C, "#0000dd");
+	purple_prefs_add_string(PREF_SEND_C, DEFAULT_SEND_COLOR);
+	purple_prefs_add_string(PREF_RECV_C, DEFAULT_RECV_COLOR);
+	purple_prefs_add_string(PREF_SYSTEM_C, DEFAULT_SYSTEM_COLOR);
+	purple_prefs_add_string(PREF_ERROR_C, DEFAULT_ERROR_COLOR);
+	purple_prefs_add_string(PREF_NICK_C, DEFAULT_HIGHLIGHT_COLOR);
 
 	purple_prefs_add_int(PREF_SEND_F, 0);
 	purple_prefs_add_int(PREF_RECV_F, 0);
 	purple_prefs_add_int(PREF_SYSTEM_F, FONT_ITALIC);
-	purple_prefs_add_int(PREF_ERROR_F, FONT_BOLD | FONT_UNDERLINE);
-	purple_prefs_add_int(PREF_NICK_F, FONT_BOLD);
+	purple_prefs_add_int(PREF_ERROR_F, 0);
+	purple_prefs_add_int(PREF_NICK_F, 0);
 
 	purple_prefs_add_bool(PREF_SEND_E, TRUE);
 	purple_prefs_add_bool(PREF_RECV_E, TRUE);

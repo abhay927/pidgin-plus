@@ -681,7 +681,7 @@ signed_off_cb(PurpleConnection *gc)
 	if (gc == console->gc) {
 		console->gc = NULL;
 		gtk_imhtml_append_text(GTK_IMHTML(console->imhtml),
-				       _("<font color='#777777'>Logged out.</font>"), 0);
+				       _("<font color='#c8c8c8'>Logged out.</font>"), 0);
 	}
 }
 
@@ -786,7 +786,7 @@ create_console(PurplePluginAction *action)
 	console->imhtml = gtk_imhtml_new(NULL, NULL);
 	if (console->count == 0)
 		gtk_imhtml_append_text(GTK_IMHTML(console->imhtml),
-				       _("<font color='#777777'>Not connected to XMPP</font>"), 0);
+				       _("<font color='#c8c8c8'>Not connected to XMPP</font>"), 0);
 	gtk_box_pack_start(GTK_BOX(vbox), 
 		pidgin_make_scrollable(console->imhtml, GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC, GTK_SHADOW_ETCHED_IN, -1, -1),
 		TRUE, TRUE, 0);

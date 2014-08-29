@@ -195,7 +195,7 @@ char *purple_log_read(PurpleLog *log, PurpleLogReadFlags *flags)
 		purple_str_strip_char(ret, '\r');
 		return ret;
 	}
-	return g_strdup(_("<b><font color=\"red\">The logger has no read function</font></b>"));
+	return g_strdup(_("<i><font color=\"#f80000\">The logger has no read function</font></i>"));
 }
 
 int purple_log_get_size(PurpleLog *log)
@@ -1406,7 +1406,7 @@ static gsize html_logger_write(PurpleLog *log, PurpleMessageFlags type,
 					log->name, date, purple_account_get_username(log->account), prpl);
 
 		written += fprintf(data->file, "%s", header);
-		written += fprintf(data->file, "</title></head><body>");
+		written += fprintf(data->file, "</title></head><body><font face=\"Segoe UI, Ubuntu, Tahoma\">");
 		written += fprintf(data->file, "<h3>%s</h3>\n", header);
 		g_free(header);
 	}
@@ -1431,36 +1431,36 @@ static gsize html_logger_write(PurpleLog *log, PurpleMessageFlags type,
 		written += fprintf(data->file, "---- %s @ %s ----<br/>\n", msg_fixed, date);
 	} else {
 		if (type & PURPLE_MESSAGE_SYSTEM)
-			written += fprintf(data->file, "<font size=\"2\">(%s)</font><b> %s</b><br/>\n", date, msg_fixed);
+			written += fprintf(data->file, "<font color=\"#c8c8c8\" size=\"2\">%s <i>%s</i></font><br/>\n", date, msg_fixed);
 		else if (type & PURPLE_MESSAGE_RAW)
-			written += fprintf(data->file, "<font size=\"2\">(%s)</font> %s<br/>\n", date, msg_fixed);
+			written += fprintf(data->file, "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#585858\" size=\"2\"> <i>%s</i></font><br/>\n", date, msg_fixed);
 		else if (type & PURPLE_MESSAGE_ERROR)
-			written += fprintf(data->file, "<font color=\"#F80000\"><font size=\"2\">(%s)</font><b> %s</b></font><br/>\n", date, msg_fixed);
+			written += fprintf(data->file, "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#F80000\" size=\"2\"> <i>%s</i></font><br/>\n", date, msg_fixed);
 		else if (type & PURPLE_MESSAGE_WHISPER)
-			written += fprintf(data->file, "<font color=\"#6C2585\"><font size=\"2\">(%s)</font><b> %s:</b></font> %s<br/>\n",
+			written += fprintf(data->file, "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#256c85\" size=\"2\"> %s: %s</font><br/>\n",
 					date, escaped_from, msg_fixed);
 		else if (type & PURPLE_MESSAGE_AUTO_RESP) {
 			if (type & PURPLE_MESSAGE_SEND)
-				written += fprintf(data->file, _("<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-REPLY&gt;:</b></font> %s<br/>\n"), date, escaped_from, msg_fixed);
+				written += fprintf(data->file, _("<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" size=\"2\"> %s (auto): %s</font><br/>\n"), date, escaped_from, msg_fixed);
 			else if (type & PURPLE_MESSAGE_RECV)
-				written += fprintf(data->file, _("<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-REPLY&gt;:</b></font> %s<br/>\n"), date, escaped_from, msg_fixed);
+				written += fprintf(data->file, _("<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"), date, escaped_from, msg_fixed);
 		} else if (type & PURPLE_MESSAGE_RECV) {
 			if(purple_message_meify(msg_fixed, -1))
-				written += fprintf(data->file, "<font color=\"#062585\"><font size=\"2\">(%s)</font> <b>***%s</b></font> %s<br/>\n",
+				written += fprintf(data->file, "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" size=\"2\"> <i>%s %s</i></font><br/>\n",
 						date, escaped_from, msg_fixed);
 			else
-				written += fprintf(data->file, "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s:</b></font> %s<br/>\n",
+				written += fprintf(data->file, "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" size=\"2\"> %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n",
 						date, escaped_from, msg_fixed);
 		} else if (type & PURPLE_MESSAGE_SEND) {
 			if(purple_message_meify(msg_fixed, -1))
-				written += fprintf(data->file, "<font color=\"#062585\"><font size=\"2\">(%s)</font> <b>***%s</b></font> %s<br/>\n",
+				written += fprintf(data->file, "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" size=\"2\"> <i>%s %s</i></font><br/>\n",
 						date, escaped_from, msg_fixed);
 			else
-				written += fprintf(data->file, "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s:</b></font> %s<br/>\n",
+				written += fprintf(data->file, "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" size=\"2\"> %s: %s</font><br/>\n",
 						date, escaped_from, msg_fixed);
 		} else {
 			purple_debug_error("log", "Unhandled message type.\n");
-			written += fprintf(data->file, "<font size=\"2\">(%s)</font><b> %s:</b></font> %s<br/>\n",
+			written += fprintf(data->file, "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#f87900\" size=\"2\"> <i>%s: %s</i></font><br/>\n",
 						date, escaped_from, msg_fixed);
 		}
 	}
@@ -1477,7 +1477,7 @@ static void html_logger_finalize(PurpleLog *log)
 	PurpleLogCommonLoggerData *data = log->logger_data;
 	if (data) {
 		if(data->file) {
-			fprintf(data->file, "</body></html>\n");
+			fprintf(data->file, "</font></body></html>\n");
 			fclose(data->file);
 		}
 		g_free(data->path);
@@ -1502,7 +1502,7 @@ static char *html_logger_read(PurpleLog *log, PurpleLogReadFlags *flags)
 	PurpleLogCommonLoggerData *data = log->logger_data;
 	*flags = PURPLE_LOG_READ_NO_NEWLINE;
 	if (!data || !data->path)
-		return g_strdup(_("<font color=\"red\"><b>Unable to find log path!</b></font>"));
+		return g_strdup(_("<font color=\"#f80000\"><i>Unable to find log path!</i></font>"));
 	if (g_file_get_contents(data->path, &read, NULL, NULL)) {
 		char *minus_header = strchr(read, '\n');
 
@@ -1514,7 +1514,7 @@ static char *html_logger_read(PurpleLog *log, PurpleLogReadFlags *flags)
 
 		return minus_header;
 	}
-	return g_strdup_printf(_("<font color=\"red\"><b>Could not read file: %s</b></font>"), data->path);
+	return g_strdup_printf(_("<font color=\"#f80000\"><i>Could not read file: %s</i></font>"), data->path);
 }
 
 static int html_logger_total_size(PurpleLogType type, const char *name, PurpleAccount *account)
@@ -1576,7 +1576,7 @@ static gsize txt_logger_write(PurpleLog *log,
 		if (type & PURPLE_MESSAGE_SEND ||
 			type & PURPLE_MESSAGE_RECV) {
 			if (type & PURPLE_MESSAGE_AUTO_RESP) {
-				written += fprintf(data->file, _("(%s) %s <AUTO-REPLY>: %s\n"), date,
+				written += fprintf(data->file, _("(%s) %s (auto): %s\n"), date,
 						from, stripped);
 			} else {
 				if(purple_message_meify(stripped, -1))
@@ -1635,7 +1635,7 @@ static char *txt_logger_read(PurpleLog *log, PurpleLogReadFlags *flags)
 	PurpleLogCommonLoggerData *data = log->logger_data;
 	*flags = 0;
 	if (!data || !data->path)
-		return g_strdup(_("<font color=\"red\"><b>Unable to find log path!</b></font>"));
+		return g_strdup(_("<font color=\"#f80000\"><i>Unable to find log path!</i></font>"));
 	if (g_file_get_contents(data->path, &read, NULL, NULL)) {
 		minus_header = strchr(read, '\n');
 
@@ -1644,7 +1644,7 @@ static char *txt_logger_read(PurpleLog *log, PurpleLogReadFlags *flags)
 		else
 			return process_txt_log(read, NULL);
 	}
-	return g_strdup_printf(_("<font color=\"red\"><b>Could not read file: %s</b></font>"), data->path);
+	return g_strdup_printf(_("<font color=\"#f80000\"><i>Could not read file: %s</i></font>"), data->path);
 }
 
 static int txt_logger_total_size(PurpleLogType type, const char *name, PurpleAccount *account)

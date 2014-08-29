@@ -35,6 +35,22 @@
 extern "C" {
 #endif
 
+#define DEFAULT_SEND_COLOR "#a8a8a8"
+#define DEFAULT_RECV_COLOR "#585858"
+#define DEFAULT_HIGHLIGHT_COLOR "#006aff"
+#define DEFAULT_ACTION_COLOR "#a8a8a8"
+#define DEFAULT_WHISPER_ACTION_COLOR "#6c2585"
+#define DEFAULT_WHISPER_COLOR "#256c85"
+
+#define DEFAULT_SYSTEM_COLOR "#c8c8c8"
+#define DEFAULT_ERROR_COLOR "#f80000"
+#define DEFAULT_NO_LOG_COLOR "#25856c"
+
+#define DEFAULT_UNREAD_COLOR "#222222"
+#define DEFAULT_TYPING_COLOR "#006aff"
+#define DEFAULT_TYPED_COLOR "#585858"
+#define DEFAULT_EVENT_COLOR "#888a85"
+
 /**************************************************************************
  * @name Structures
  **************************************************************************/

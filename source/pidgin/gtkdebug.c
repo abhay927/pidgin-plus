@@ -77,9 +77,9 @@ typedef struct
 } DebugWindow;
 
 static const char debug_fg_colors[][8] = {
-	"#000000",    /**< All debug levels. */
+	"#333333",    /**< All debug levels. */
 	"#666666",    /**< Misc.             */
-	"#000000",    /**< Information.      */
+	"#333333",    /**< Information.      */
 	"#660000",    /**< Warnings.         */
 	"#F80000",    /**< Errors.           */
 	"#F80000",    /**< Fatal errors.     */
