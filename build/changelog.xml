@@ -65,8 +65,8 @@
         <change en-us:description="New colors and formatting for conversations"
                 pt-br:description="Novas cores e formatação para as conversas"/>
 
-        <change en-us:description="Maximizable chat history viewer"
-                pt-br:description="Visualizador maximizável do histórico de chats"/>
+        <change en-us:description="Improved conversation history viewer"
+                pt-br:description="Visualizador do histórico de conversas aprimorado"/>
 
         <change en-us:description="Proper formatting for IRC channel websites"
                 pt-br:description="Formatação para site do canal nas conversas IRC"

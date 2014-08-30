@@ -532,6 +532,9 @@ static PidginLogViewer *display_log_viewer(struct log_viewer_hash_t *ht, GList *
 	GtkWidget *hbox;
 	GtkWidget *find_button;
 	GtkWidget *size_label;
+#ifdef _WIN32
+	GtkWidget *browse_logs_button;
+#endif
 
 	if (logs == NULL)
 	{
@@ -607,7 +610,7 @@ static PidginLogViewer *display_log_viewer(struct log_viewer_hash_t *ht, GList *
 	gtk_tree_view_append_column (GTK_TREE_VIEW(lv->treeview), col);
 	gtk_tree_view_set_headers_visible (GTK_TREE_VIEW (lv->treeview), FALSE);
 	gtk_paned_add1(GTK_PANED(pane), 
-		pidgin_make_scrollable(lv->treeview, GTK_POLICY_NEVER, GTK_POLICY_ALWAYS, GTK_SHADOW_IN, -1, -1));
+		pidgin_make_scrollable(lv->treeview, GTK_POLICY_NEVER, GTK_POLICY_AUTOMATIC, GTK_SHADOW_IN, -1, -1));
 
 	populate_log_tree(lv);
 
@@ -657,7 +660,7 @@ static PidginLogViewer *display_log_viewer(struct log_viewer_hash_t *ht, GList *
 	g_signal_connect(GTK_ENTRY(lv->entry), "activate", G_CALLBACK(search_cb), lv);
 	g_signal_connect(GTK_BUTTON(find_button), "clicked", G_CALLBACK(search_cb), lv);
 #ifdef _WIN32
-	GtkWidget *browse_logs_button = gtk_button_new_with_mnemonic(_("_Browse logs folder"));
+	browse_logs_button = gtk_button_new_with_mnemonic(_("_Browse logs folder"));
 	g_signal_connect(G_OBJECT(browse_logs_button), "clicked", G_CALLBACK(browse_logs_clicked), lv);
 	gtk_box_pack_start(GTK_BOX(hbox), browse_logs_button, FALSE, FALSE, 0);
 #endif
