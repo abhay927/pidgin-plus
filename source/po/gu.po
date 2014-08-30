@@ -6,16 +6,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-27 13:16-0300\n"
-"PO-Revision-Date: 2014-05-26 08:45+0000\n"
-"Last-Translator: Sweta Kothari <Unknown>\n"
+"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"PO-Revision-Date: 2014-08-30 04:44+0000\n"
+"Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Gujarati\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-06 07:11+0000\n"
-"X-Generator: Launchpad (build 17147)\n"
+"X-Launchpad-Export-Date: 2014-08-30 08:06+0000\n"
+"X-Generator: Launchpad (build 17176)\n"
 "Language: Gujarati\n"
 
 msgid "\t_Only when someone says your username"
@@ -849,8 +849,8 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' આદેશ નિષ્ફળ"
 
 #, c-format
-msgid "(%s) %s <AUTO-REPLY>: %s\n"
-msgstr "(%s) %s <AUTO-REPLY>: %s\n"
+msgid "(%s) %s (auto): %s\n"
+msgstr ""
 
 #, c-format
 msgid "(Code %s)"
@@ -906,6 +906,9 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(તમે કદાચ 'make install' કરવાનું ભૂલી ગયા છો.)"
+
+msgid "(auto) "
+msgstr ""
 
 msgid "(default)"
 msgstr "(મૂળભૂત)"
@@ -1285,9 +1288,6 @@ msgstr ""
 msgid "24 hour time format"
 msgstr ""
 
-msgid "<AUTO-REPLY> "
-msgstr "<AUTO-REPLY> "
-
 #, c-format
 msgid "<I>%s</I> removed all <I>%s's</I> modes"
 msgstr "<I>%s</I> એ બધી <I>%s ની</I> સ્થિતિઓ દૂર કરી નાંખી"
@@ -1321,9 +1321,6 @@ msgid "<b>%d new email.</b>"
 msgid_plural "<b>%d new emails.</b>"
 msgstr[0] "<b>%d નવા ઇમેલ.</b>"
 msgstr[1] "<b>%d નવા ઇમેલો.</b>"
-
-msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-msgstr "<b><font color=\"red\">લૉગર પાસે કોઈ વાંચવાનું વિધેય નથી</font></b>"
 
 #, c-format
 msgid "<b>Account:</b> %s"
@@ -1436,32 +1433,29 @@ msgstr "<br>%s આગળ %s વખતથી"
 
 #, c-format
 msgid ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
+"%s</font><br/>\n"
 msgstr ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
 
 #, c-format
 msgid ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s (auto): %s</font><br/>\n"
 msgstr ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
 
 #, c-format
-msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-msgstr "<font color=\"red\"><b>ફાઈલ વાંચી શક્યા નહિં: %s</b></font>"
+msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
+msgstr ""
 
-msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-msgstr "<font color=\"red\"><b>લૉગ પાથ શોધવામાં અસમર્થ!</b></font>"
+msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
+msgstr ""
 
-msgid "<font color='#777777'>Logged out.</font>"
-msgstr "<font color='#777777'>બહાર નીકળેલ.</font>"
+msgid "<font color='#c8c8c8'>Logged out.</font>"
+msgstr ""
 
-msgid "<font color='#777777'>Not connected to XMPP</font>"
-msgstr "<font color='#777777'>XMPP સાથે જોડાયેલ નથી</font>"
+msgid "<font color='#c8c8c8'>Not connected to XMPP</font>"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1473,6 +1467,9 @@ msgstr ""
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
 msgstr "<h1>%s સાથેનો વાર્તાલાપ</h1>\n"
+
+msgid "<i><font color=\"#f80000\">The logger has no read function</font></i>"
+msgstr ""
 
 msgid "<i>_Italic</i>"
 msgstr "<i>ઇટાલિક(_I)</i>"
@@ -13870,7 +13867,6 @@ msgstr "બંને આઇકન અને લખાણ (_B)"
 msgid "_Browse"
 msgstr "વિચરણ કરો (_B)"
 
-#. Steal the "HELP" response and use it to trigger browsing to the logs folder
 msgid "_Browse logs folder"
 msgstr "લૉગ ફોલ્ડરને બ્રાઉઝ કરો (_B)"
 
@@ -14924,3 +14920,38 @@ msgstr "zl &lt;nick&gt;: વપરાશકર્તા સ્થાનીકૃ
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: વપરાશકર્તા સ્થાનીકૃત કરો"
+
+#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
+#~ msgstr "(%s) %s <AUTO-REPLY>: %s\n"
+
+#~ msgid "<AUTO-REPLY> "
+#~ msgstr "<AUTO-REPLY> "
+
+#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
+#~ msgstr "<b><font color=\"red\">લૉગર પાસે કોઈ વાંચવાનું વિધેય નથી</font></b>"
+
+#~ msgid ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+
+#~ msgid ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+
+#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
+#~ msgstr "<font color=\"red\"><b>ફાઈલ વાંચી શક્યા નહિં: %s</b></font>"
+
+#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+#~ msgstr "<font color=\"red\"><b>લૉગ પાથ શોધવામાં અસમર્થ!</b></font>"
+
+#~ msgid "<font color='#777777'>Logged out.</font>"
+#~ msgstr "<font color='#777777'>બહાર નીકળેલ.</font>"
+
+#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
+#~ msgstr "<font color='#777777'>XMPP સાથે જોડાયેલ નથી</font>"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-27 13:16-0300\n"
-"PO-Revision-Date: 2014-07-20 06:36+0000\n"
+"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"PO-Revision-Date: 2014-08-30 05:26+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Romanian "
 "(http://www.transifex.net/projects/p/pidgin/team/ro/)\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
 "== 0) && (n != 0))) ? 2: 1));\n"
-"X-Launchpad-Export-Date: 2014-08-06 07:24+0000\n"
-"X-Generator: Launchpad (build 17147)\n"
+"X-Launchpad-Export-Date: 2014-08-30 08:20+0000\n"
+"X-Generator: Launchpad (build 17176)\n"
 "Language: Romanian\n"
 
 msgid "\t_Only when someone says your username"
@@ -887,8 +887,8 @@ msgid "'delbuddy' command failed"
 msgstr "Comanda „delbuddy” a eșuat"
 
 #, c-format
-msgid "(%s) %s <AUTO-REPLY>: %s\n"
-msgstr "(%s) %s <Răspuns-Automat>: %s\n"
+msgid "(%s) %s (auto): %s\n"
+msgstr ""
 
 #, c-format
 msgid "(Code %s)"
@@ -944,6 +944,9 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Probabil ați uitat să faceți „make install”.)"
+
+msgid "(auto) "
+msgstr ""
 
 msgid "(default)"
 msgstr "(implicit)"
@@ -1323,9 +1326,6 @@ msgstr "Tip „12 de ore”"
 msgid "24 hour time format"
 msgstr "Tip „24 de ore”"
 
-msgid "<AUTO-REPLY> "
-msgstr "<Răspuns-Automat> "
-
 #, c-format
 msgid "<I>%s</I> removed all <I>%s's</I> modes"
 msgstr "<I>%s</I> a înlăturat toate modurile pentru <I>%s</I>"
@@ -1362,11 +1362,6 @@ msgid_plural "<b>%d new emails.</b>"
 msgstr[0] "<b>un mail nou.</b>"
 msgstr[1] "<b>%d mailuri noi.</b>"
 msgstr[2] "<b>%d de mailuri noi.</b>"
-
-msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-msgstr ""
-"<b><font color=\"red\">Nu există o funcție de citire a "
-"înregistrărilor</font></b>"
 
 #, c-format
 msgid "<b>Account:</b> %s"
@@ -1479,33 +1474,29 @@ msgstr "<br>În %s din %s"
 
 #, c-format
 msgid ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
+"%s</font><br/>\n"
 msgstr ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;Răspuns "
-"automat&gt;:</b></font> %s<br/>\n"
 
 #, c-format
 msgid ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s (auto): %s</font><br/>\n"
 msgstr ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;Răspuns "
-"automat&gt;>:</b></font> %s<br/>\n"
 
 #, c-format
-msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-msgstr "<font color=\"red\"><b>Nu s-a putut citi fișierul: %s</b></font>"
-
-msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
 msgstr ""
-"<font color=\"red\"><b>Nu s-a găsit calea înregistrărilor!</b></font>"
 
-msgid "<font color='#777777'>Logged out.</font>"
-msgstr "<font color='#777777'>Deconectat.</font>"
+msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
+msgstr ""
 
-msgid "<font color='#777777'>Not connected to XMPP</font>"
-msgstr "<font color='#777777'>Neconectat la XMPP</font>"
+msgid "<font color='#c8c8c8'>Logged out.</font>"
+msgstr ""
+
+msgid "<font color='#c8c8c8'>Not connected to XMPP</font>"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1517,6 +1508,9 @@ msgstr ""
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
 msgstr "<h1>Discuție cu %s</h1>\n"
+
+msgid "<i><font color=\"#f80000\">The logger has no read function</font></i>"
+msgstr ""
 
 msgid "<i>_Italic</i>"
 msgstr "<i>_Cursiv</i>"
@@ -14014,7 +14008,6 @@ msgstr "_Iconițe și text"
 msgid "_Browse"
 msgstr "_Navigare"
 
-#. Steal the "HELP" response and use it to trigger browsing to the logs folder
 msgid "_Browse logs folder"
 msgstr "_Navigare director înregistrări"
 
@@ -15097,3 +15090,41 @@ msgstr "zl &lt;nume ales&gt;:  Localizați un utilizator"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nume ales&gt;:  Localizați un utilizator"
+
+#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
+#~ msgstr "(%s) %s <Răspuns-Automat>: %s\n"
+
+#~ msgid "<AUTO-REPLY> "
+#~ msgstr "<Răspuns-Automat> "
+
+#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
+#~ msgstr ""
+#~ "<b><font color=\"red\">Nu există o funcție de citire a "
+#~ "înregistrărilor</font></b>"
+
+#~ msgid ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;Răspuns "
+#~ "automat&gt;:</b></font> %s<br/>\n"
+
+#~ msgid ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;Răspuns "
+#~ "automat&gt;>:</b></font> %s<br/>\n"
+
+#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
+#~ msgstr "<font color=\"red\"><b>Nu s-a putut citi fișierul: %s</b></font>"
+
+#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+#~ msgstr ""
+#~ "<font color=\"red\"><b>Nu s-a găsit calea înregistrărilor!</b></font>"
+
+#~ msgid "<font color='#777777'>Logged out.</font>"
+#~ msgstr "<font color='#777777'>Deconectat.</font>"
+
+#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
+#~ msgstr "<font color='#777777'>Neconectat la XMPP</font>"

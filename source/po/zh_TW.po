@@ -60,16 +60,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-27 13:16-0300\n"
-"PO-Revision-Date: 2014-07-20 06:08+0000\n"
+"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"PO-Revision-Date: 2014-08-30 04:57+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Traditional) <zh-l10n@linux.org.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-06 07:34+0000\n"
-"X-Generator: Launchpad (build 17147)\n"
+"X-Launchpad-Export-Date: 2014-08-30 08:31+0000\n"
+"X-Generator: Launchpad (build 17176)\n"
 "Language: Chinese (Traditional)\n"
 
 msgid "\t_Only when someone says your username"
@@ -866,8 +866,8 @@ msgid "'delbuddy' command failed"
 msgstr "「delbuddy」指令失敗"
 
 #, c-format
-msgid "(%s) %s <AUTO-REPLY>: %s\n"
-msgstr "(%s) %s <自動回覆>：%s\n"
+msgid "(%s) %s (auto): %s\n"
+msgstr ""
 
 #, c-format
 msgid "(Code %s)"
@@ -919,6 +919,9 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "（大概是忘記了執行「make install」了。）"
+
+msgid "(auto) "
+msgstr ""
 
 msgid "(default)"
 msgstr "(預設)"
@@ -1304,9 +1307,6 @@ msgstr "12小時制時間格式"
 msgid "24 hour time format"
 msgstr "24小時制時間格式"
 
-msgid "<AUTO-REPLY> "
-msgstr "<自動回應> "
-
 #, c-format
 msgid "<I>%s</I> removed all <I>%s's</I> modes"
 msgstr "<I>%s</I> 清除了 <I>%s's</I> 所有的模式"
@@ -1343,9 +1343,6 @@ msgstr "使用者 <a href=\"viewinfo\">%s</a>%s%s%s 想要將您（%s）加入�
 msgid "<b>%d new email.</b>"
 msgid_plural "<b>%d new emails.</b>"
 msgstr[0] "<b>%d 封新郵件。</b>"
-
-msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-msgstr "<b><font color=\"red\">這個日誌模組沒有定義「讀取」函數</font></b>"
 
 #, c-format
 msgid "<b>Account:</b> %s"
@@ -1461,33 +1458,29 @@ msgstr "<br>從 %2$s 起已在 %1$s"
 
 #, c-format
 msgid ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
+"%s</font><br/>\n"
 msgstr ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s "
-"&lt;自動回應&gt;:</b></font> %s<br/>\n"
 
 #, c-format
 msgid ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s (auto): %s</font><br/>\n"
 msgstr ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s "
-"&lt;自動回應&gt;:</b></font> %s<br/>\n"
 
 #, c-format
-msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-msgstr "<font color=\"red\"><b>無法讀取檔案：%s</b></font>"
+msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
+msgstr ""
 
-# XXX 暫譯
-msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-msgstr "<font color=\"red\"><b>找不到日誌檔案！</b></font>"
+msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
+msgstr ""
 
-msgid "<font color='#777777'>Logged out.</font>"
-msgstr "<font color='#777777'>已登出。</font>"
+msgid "<font color='#c8c8c8'>Logged out.</font>"
+msgstr ""
 
-msgid "<font color='#777777'>Not connected to XMPP</font>"
-msgstr "<font color='#777777'>未有連線至 XMPP</font>"
+msgid "<font color='#c8c8c8'>Not connected to XMPP</font>"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1499,6 +1492,9 @@ msgstr ""
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
 msgstr "<h1>與 %s 的交談</h1>\n"
+
+msgid "<i><font color=\"#f80000\">The logger has no read function</font></i>"
+msgstr ""
 
 # NOTE「Italic」本來是指某程度上模仿手寫、以曲線為主的字型，「斜體」其實是誤譯，但已根深蒂固，不可能改正
 msgid "<i>_Italic</i>"
@@ -14269,7 +14265,6 @@ msgstr "顯示圖示和文字(_B)"
 msgid "_Browse"
 msgstr "瀏覽(_B)"
 
-#. Steal the "HELP" response and use it to trigger browsing to the logs folder
 msgid "_Browse logs folder"
 msgstr "瀏覽日誌目錄(_B)"
 
@@ -15312,3 +15307,39 @@ msgstr "zl &lt;暱稱&gt;：尋找使用者"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;暱稱&gt;：尋找使用者"
+
+#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
+#~ msgstr "(%s) %s <自動回覆>：%s\n"
+
+#~ msgid "<AUTO-REPLY> "
+#~ msgstr "<自動回應> "
+
+#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
+#~ msgstr "<b><font color=\"red\">這個日誌模組沒有定義「讀取」函數</font></b>"
+
+#~ msgid ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s "
+#~ "&lt;自動回應&gt;:</b></font> %s<br/>\n"
+
+#~ msgid ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s "
+#~ "&lt;自動回應&gt;:</b></font> %s<br/>\n"
+
+#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
+#~ msgstr "<font color=\"red\"><b>無法讀取檔案：%s</b></font>"
+
+# XXX 暫譯
+#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+#~ msgstr "<font color=\"red\"><b>找不到日誌檔案！</b></font>"
+
+#~ msgid "<font color='#777777'>Logged out.</font>"
+#~ msgstr "<font color='#777777'>已登出。</font>"
+
+#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
+#~ msgstr "<font color='#777777'>未有連線至 XMPP</font>"
