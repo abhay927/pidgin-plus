@@ -22,6 +22,7 @@
 ##                          not already built and uploaded. Both binary and
 ##                          source code packages are generated.
 ##
+##         --make=TARGET    Execute an arbitrary makefile target.
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##     -o, --offline        Build both the standard and offline installers.
 ##     -s, --source         Build the source code bundle together with the
@@ -174,6 +175,13 @@ fi
 # System path
 echo "Configuring system path"
 eval $("$windev" "$devroot" --path --system-gcc)
+
+# Arbitrary target
+if [[ -n "$make" ]]; then
+    pace "Executing arbitrary target $make"
+    build "$make"
+    exit
+fi
 
 # GTK+ and dictionary bundles
 mkdir -p "$target"
