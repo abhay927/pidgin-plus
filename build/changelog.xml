@@ -68,13 +68,13 @@
         <change en-us:description="Maximizable chat history viewer"
                 pt-br:description="Visualizador maximizável do histórico de chats"/>
 
+        <change en-us:description="Proper formatting for IRC channel websites"
+                pt-br:description="Formatação para site do canal nas conversas IRC"
+                bug="15248"/>
+
         <change en-us:description="Wider non-ellipsized labels for side-aligned conversation tabs"
                 pt-br:description="Títulos maiores, sem reticências, nas abas de conversa laterais"
                 bug="15347"/>
-
-        <change en-us:description="Avoid printing IRC channel URLs"
-                pt-br:description="Supressão do endereço do canal IRC na janela de conversa"
-                bug="15248"/>
 
         <change en-us:description="Load account icon from config dir for relative paths"
                 pt-br:description="Suporte a caminhos relativos para os ícones de conta"

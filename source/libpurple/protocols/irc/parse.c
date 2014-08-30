@@ -77,6 +77,7 @@ static struct _irc_msg {
 	{ "322", "ncv:", 4, irc_msg_list },		/* List.			*/
 	{ "323", ":", 0, irc_msg_list },		/* End of list.			*/
 	{ "324", "ncv:", 3, irc_msg_chanmode },		/* Channel modes		*/
+	{ "328", "nc:", 3, irc_msg_url },		/* Channel URL			*/
 	{ "331", "nc:", 3, irc_msg_topic },		/* No channel topic		*/
 	{ "332", "nc:", 3, irc_msg_topic },		/* Channel topic		*/
 	{ "333", "ncvv", 4, irc_msg_topicinfo },	/* Topic setter stuff		*/

@@ -189,8 +189,6 @@ void irc_msg_default(struct irc_conn *irc, const char *name, const char *from, c
 	/* We then print "numeric: remainder". */
 	clean = purple_utf8_salvage(end);
 	tmp = g_strdup_printf("%.3s: %s", numeric, clean);
-	if (purple_str_has_prefix(tmp, "328:")) /* Skip channel URL. */
-		return;
 	g_free(clean);
 	purple_conversation_write(convo, "", tmp,
 				  PURPLE_MESSAGE_SYSTEM|PURPLE_MESSAGE_NO_LOG
@@ -658,6 +656,22 @@ void irc_msg_topicinfo(struct irc_conn *irc, const char *name, const char *from,
 	purple_conv_chat_write(PURPLE_CONV_CHAT(convo), "", msg, PURPLE_MESSAGE_SYSTEM | PURPLE_MESSAGE_NO_LINKIFY, time(NULL));
 	g_free(timestamp);
 	g_free(datestamp);
+	g_free(msg);
+}
+
+void irc_msg_url(struct irc_conn *irc, const char *name, const char *from, char **args)
+{
+	PurpleConversation *convo;
+	char *msg;
+
+	convo = purple_find_conversation_with_account(PURPLE_CONV_TYPE_CHAT, args[1], irc->account);
+	if (!convo) {
+		purple_debug(PURPLE_DEBUG_ERROR, "irc", "Got URL for %s, which doesn't exist\n", args[1]);
+		return;
+	}
+
+	msg = g_strdup_printf(_("Website: %s"), args[2]);
+	purple_conv_chat_write(PURPLE_CONV_CHAT(convo), "", msg, PURPLE_MESSAGE_SYSTEM, time(NULL));
 	g_free(msg);
 }
 
