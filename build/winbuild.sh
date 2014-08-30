@@ -43,6 +43,7 @@
 ##         --staging=DIR    Staging directory, defaults to "pidgin.build".
 ##         --directory=DIR  Save result to DIR instead of default location
 ##                          (DEVELOPMENT_ROOT/distribution).
+##      -G, --custom-gcc     Use the downloaded GCC instead of system one.
 ##
 ##         --color=SWITCH   Enable or disable colors in output. SWITCH is either
 ##                          on or off. Default is enabling for terminals.
@@ -62,6 +63,8 @@ source_dir="$base_dir/source"
 build_dir="$base_dir/build"
 sign="${sign:-$cert}"
 sign="${sign:+yes}"
+system_gcc="${custom_gcc+ }"
+system_gcc="${system_gcc:---system-gcc}"
 devroot="${arguments[0]}"
 version=$($build_dir/changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build}"
@@ -146,7 +149,7 @@ fi
 
 # Build environment
 if [[ -n "$prepare" ]]; then
-    "$windev" --link-to-me --for pidgin++ --no-source --system-gcc "$devroot"
+    "$windev" --link-to-me --for pidgin++ --no-source $system_gcc "$devroot"
     exit
 fi
 
@@ -195,7 +198,7 @@ fi
 
 # System path
 echo "Configuring system path"
-eval $("$windev" "$devroot" --path --system-gcc)
+eval $("$windev" "$devroot" --path $system_gcc)
 
 # Arbitrary target
 if [[ -n "$make" ]]; then
@@ -239,7 +242,9 @@ fi
 
 # Installers
 pace "Building the installer${offline:+s}"
-echo "Using GCC $(gcc -dumpversion)"
+gcc_dir=$(dirname $(which gcc))
+gcc_version=$(gcc -dumpversion)
+echo "Using GCC $gcc_version from $gcc_dir"
 build "installer${offline:+s}"
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
