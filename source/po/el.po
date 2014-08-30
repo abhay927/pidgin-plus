@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-27 13:16-0300\n"
-"PO-Revision-Date: 2014-07-20 06:14+0000\n"
+"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"PO-Revision-Date: 2014-08-30 04:45+0000\n"
 "Last-Translator: Panos Bouklis <panos@echidna-band.com>\n"
 "Language-Team: Greek "
 "(http://www.transifex.com/projects/p/pidgin/language/el/)\n"
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-06 07:11+0000\n"
-"X-Generator: Launchpad (build 17147)\n"
+"X-Launchpad-Export-Date: 2014-08-30 08:05+0000\n"
+"X-Generator: Launchpad (build 17176)\n"
 "Language: Greek\n"
 
 msgid "\t_Only when someone says your username"
@@ -881,8 +881,8 @@ msgid "'delbuddy' command failed"
 msgstr "Αποτυχία εντολής 'delbuddy'"
 
 #, c-format
-msgid "(%s) %s <AUTO-REPLY>: %s\n"
-msgstr "(%s) %s <ΑΥΤΟΜΑΤΗ-ΑΠΑΝΤΗΣΗ>: %s\n"
+msgid "(%s) %s (auto): %s\n"
+msgstr ""
 
 #, c-format
 msgid "(Code %s)"
@@ -939,6 +939,9 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Πιθανώς να ξεχάσατε να κάνετε 'make install'.)"
+
+msgid "(auto) "
+msgstr ""
 
 msgid "(default)"
 msgstr "(προεπιλογή)"
@@ -1318,9 +1321,6 @@ msgstr "Μορφή ώρας 12 ωρών"
 msgid "24 hour time format"
 msgstr "Μορφή ώρας 24 ωρών"
 
-msgid "<AUTO-REPLY> "
-msgstr "<ΑΥΤΟΜΑΤΗ-ΑΠΑΝΤΗΣΗ> "
-
 #, c-format
 msgid "<I>%s</I> removed all <I>%s's</I> modes"
 msgstr "<I>%s</I> αφαίρεσε όλες τις καταστάσεις του <I>%s</I>"
@@ -1356,10 +1356,6 @@ msgid "<b>%d new email.</b>"
 msgid_plural "<b>%d new emails.</b>"
 msgstr[0] "<b>Έχετε %d νέο email.</b>"
 msgstr[1] "<b>Έχετε %d νέα email.</b>"
-
-msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-msgstr ""
-"<b><font color=\"red\">Ο καταγραφέας δεν έχει λειτουργία ανάγνωσης</font></b>"
 
 #, c-format
 msgid "<b>Account:</b> %s"
@@ -1472,34 +1468,29 @@ msgstr "<br>Στο %s από %s"
 
 #, c-format
 msgid ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
+"%s</font><br/>\n"
 msgstr ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;ΑΥΤOΜΑΤΗ-"
-"ΑΠΑΝΤΗΣΗ&gt;:</b></font> %s<br/>\n"
 
 #, c-format
 msgid ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s (auto): %s</font><br/>\n"
 msgstr ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;ΑΥΤΟΜΑΤΗ-"
-"ΑΠΑΝΤΗΣΗ&gt;:</b></font> %s<br/>\n"
 
 #, c-format
-msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
+msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
 msgstr ""
-"<font color=\"red\"><b>Δεν ήταν δυνατό να διαβαστεί το αρχείο: %s</b></font>"
 
-msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
 msgstr ""
-"<font color=\"red\"><b>Αδύνατη η εύρεση της διαδρομής καταγραφής!</b></font>"
 
-msgid "<font color='#777777'>Logged out.</font>"
-msgstr "<font color='#777777'>Αποσυνδέθηκε.</font>"
+msgid "<font color='#c8c8c8'>Logged out.</font>"
+msgstr ""
 
-msgid "<font color='#777777'>Not connected to XMPP</font>"
-msgstr "<font color='#777777'>Δεν είναι συνδεδεμένο με το XMPP</font>"
+msgid "<font color='#c8c8c8'>Not connected to XMPP</font>"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1511,6 +1502,9 @@ msgstr ""
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
 msgstr "<h1>Συνομιλία με %s</h1>\n"
+
+msgid "<i><font color=\"#f80000\">The logger has no read function</font></i>"
+msgstr ""
 
 msgid "<i>_Italic</i>"
 msgstr "<i>_Πλάγια</i>"
@@ -14163,7 +14157,6 @@ msgstr "_Κείμενο και εικονίδια"
 msgid "_Browse"
 msgstr "_Περιήγηση"
 
-#. Steal the "HELP" response and use it to trigger browsing to the logs folder
 msgid "_Browse logs folder"
 msgstr "_Εξερεύνηση φακέλου καταγραφών"
 
@@ -15258,3 +15251,41 @@ msgstr "zl &lt;ψευδώνυμο&gt;: Εντοπισμός χρήστη"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ψευδώνυμο&gt;: Εντοπισμός χρήστη"
+
+#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
+#~ msgstr "(%s) %s <ΑΥΤΟΜΑΤΗ-ΑΠΑΝΤΗΣΗ>: %s\n"
+
+#~ msgid "<AUTO-REPLY> "
+#~ msgstr "<ΑΥΤΟΜΑΤΗ-ΑΠΑΝΤΗΣΗ> "
+
+#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
+#~ msgstr ""
+#~ "<b><font color=\"red\">Ο καταγραφέας δεν έχει λειτουργία ανάγνωσης</font></b>"
+
+#~ msgid ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;ΑΥΤOΜΑΤΗ-"
+#~ "ΑΠΑΝΤΗΣΗ&gt;:</b></font> %s<br/>\n"
+
+#~ msgid ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;ΑΥΤΟΜΑΤΗ-"
+#~ "ΑΠΑΝΤΗΣΗ&gt;:</b></font> %s<br/>\n"
+
+#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
+#~ msgstr ""
+#~ "<font color=\"red\"><b>Δεν ήταν δυνατό να διαβαστεί το αρχείο: %s</b></font>"
+
+#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+#~ msgstr ""
+#~ "<font color=\"red\"><b>Αδύνατη η εύρεση της διαδρομής καταγραφής!</b></font>"
+
+#~ msgid "<font color='#777777'>Logged out.</font>"
+#~ msgstr "<font color='#777777'>Αποσυνδέθηκε.</font>"
+
+#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
+#~ msgstr "<font color='#777777'>Δεν είναι συνδεδεμένο με το XMPP</font>"

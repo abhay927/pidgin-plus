@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-27 13:16-0300\n"
+"POT-Creation-Date: 2014-08-28 23:27-0300\n"
 "PO-Revision-Date: 2014-05-29 05:55+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Burmese (Myanmar) "
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-06 07:04+0000\n"
-"X-Generator: Launchpad (build 17147)\n"
+"X-Launchpad-Export-Date: 2014-08-30 07:57+0000\n"
+"X-Generator: Launchpad (build 17176)\n"
 "Language: Burmese\n"
 
 msgid "\t_Only when someone says your username"
@@ -865,8 +865,8 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' ညွှန်ကြားချက် အလုပ်မလုပ်ပါ"
 
 #, c-format
-msgid "(%s) %s <AUTO-REPLY>: %s\n"
-msgstr "(%s) %s <အလိုအလျောက်-အကြောင်းပြန်ကြားချက်> - %s\n"
+msgid "(%s) %s (auto): %s\n"
+msgstr ""
 
 #, c-format
 msgid "(Code %s)"
@@ -922,6 +922,9 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "'make install' လုပ်ဆောင်ရန် မေ့ကျန်ခဲ့တယ်ထင်တယ်။"
+
+msgid "(auto) "
+msgstr ""
 
 msgid "(default)"
 msgstr "(ပုံမှန်)"
@@ -1301,9 +1304,6 @@ msgstr "၁၂ နာရီ အချိန်ပုံစံ"
 msgid "24 hour time format"
 msgstr "၂၄ နာရီ အချိန်ပုံစံ"
 
-msgid "<AUTO-REPLY> "
-msgstr "<အလိုအလျောက်-တုံ့ပြန်ချက်> "
-
 #, c-format
 msgid "<I>%s</I> removed all <I>%s's</I> modes"
 msgstr "<I>%s</I> သည် <I>%s's</I> စနစ် အားလုံးကို ဖယ်ရှားလိုက်သည်"
@@ -1338,11 +1338,6 @@ msgstr ""
 msgid "<b>%d new email.</b>"
 msgid_plural "<b>%d new emails.</b>"
 msgstr[0] "<b>စာအသစ် %d စောင်။</b>"
-
-msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-msgstr ""
-"<b><font color=\"red\">Logger ၌ ဖတ်ရှုနိုင်သော ဆောင်ရွတ်ချက် "
-"မပါရှိပါ။</font></b>"
 
 #, c-format
 msgid "<b>Account:</b> %s"
@@ -1455,33 +1450,29 @@ msgstr "<br>%s ၌ %s ကတည်းက"
 
 #, c-format
 msgid ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
+"%s</font><br/>\n"
 msgstr ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;အလိုအလျှောက် "
-"အကြောင်းပြန်ကြားချက်&gt;:</b></font> %s<br/>\n"
 
 #, c-format
 msgid ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s (auto): %s</font><br/>\n"
 msgstr ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;အလိုအလျောက်-"
-"အကြောင်းပြန်ကြားချက်&gt;:</b></font> %s<br/>\n"
 
 #, c-format
-msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-msgstr "<font color=\"red\"><b>ဖတ်မရသော ဖိုင် - %s</b></font>"
-
-msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
 msgstr ""
-"<font color=\"red\"><b>မှတ်တမ်း လမ်းကြောင်းကို မရှာနိုင်ပါ။</b></font>"
 
-msgid "<font color='#777777'>Logged out.</font>"
-msgstr "<font color='#777777'>ထွက်သွားပြီ။</font>"
+msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
+msgstr ""
 
-msgid "<font color='#777777'>Not connected to XMPP</font>"
-msgstr "<font color='#777777'>XMPP သို့ ဆက်သွယ်မထားပါ။</font>"
+msgid "<font color='#c8c8c8'>Logged out.</font>"
+msgstr ""
+
+msgid "<font color='#c8c8c8'>Not connected to XMPP</font>"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1493,6 +1484,9 @@ msgstr ""
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
 msgstr "<h1>%s နှင့် စကားပြောဆိုခြင်း</h1>\n"
+
+msgid "<i><font color=\"#f80000\">The logger has no read function</font></i>"
+msgstr ""
 
 msgid "<i>_Italic</i>"
 msgstr "_I <i>စာလုံးစောင်း</i>"
@@ -13995,7 +13989,6 @@ msgstr "_B အိုင်ကွန်နှင့် စာသား နှစ�
 msgid "_Browse"
 msgstr "_B ဖွင့်ကြည်ရန်"
 
-#. Steal the "HELP" response and use it to trigger browsing to the logs folder
 msgid "_Browse logs folder"
 msgstr "_B မှတ်တမ်းများ ဖိုင်တွဲကို ဖွင့်ကြည့်ရန်"
 

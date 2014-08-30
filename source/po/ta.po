@@ -11,16 +11,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-27 13:16-0300\n"
-"PO-Revision-Date: 2014-05-26 05:19+0000\n"
+"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"PO-Revision-Date: 2014-08-30 05:06+0000\n"
 "Last-Translator: Felix <ifelix25@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-06 07:28+0000\n"
-"X-Generator: Launchpad (build 17147)\n"
+"X-Launchpad-Export-Date: 2014-08-30 08:25+0000\n"
+"X-Generator: Launchpad (build 17176)\n"
 "X-Poedit-Country: INDIA\n"
 "Language: Tamil\n"
 "X-Poedit-Bookmarks: -1,470,-1,-1,-1,-1,-1,-1,-1,1715\n"
@@ -864,8 +864,8 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' கட்டளை தோல்வியுற்றது"
 
 #, c-format
-msgid "(%s) %s <AUTO-REPLY>: %s\n"
-msgstr "(%s) %s <AUTO-REPLY>: %s\n"
+msgid "(%s) %s (auto): %s\n"
+msgstr ""
 
 #, c-format
 msgid "(Code %s)"
@@ -921,6 +921,9 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(அநேகமாய் நீங்கள் 'நிறுவல் செய்தல்'ஐ மறந்திருக்கலாம்.)"
+
+msgid "(auto) "
+msgstr ""
 
 msgid "(default)"
 msgstr "(முன்னிருப்பு)"
@@ -1300,9 +1303,6 @@ msgstr ""
 msgid "24 hour time format"
 msgstr ""
 
-msgid "<AUTO-REPLY> "
-msgstr "<AUTO-REPLY> "
-
 #, c-format
 msgid "<I>%s</I> removed all <I>%s's</I> modes"
 msgstr "<I>%s</I>  <I>%s's</I>பாணிகள் அனைத்தையும் நீக்கி விட்டார்"
@@ -1336,10 +1336,6 @@ msgid "<b>%d new email.</b>"
 msgid_plural "<b>%d new emails.</b>"
 msgstr[0] "<b>%d புதிய மின்னஞ்சல்.</b>"
 msgstr[1] "<b>%d புதிய மின்னஞ்சல்கள்.</b>"
-
-msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-msgstr ""
-"<b><font color=\"red\">பதிவேட்டில் வாசிக்கும் அமைப்பு இல்லை </font></b>"
 
 #, c-format
 msgid "<b>Account:</b> %s"
@@ -1452,33 +1448,29 @@ msgstr "<br> %s ல் %s லிருந்து"
 
 #, c-format
 msgid ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
+"%s</font><br/>\n"
 msgstr ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
 
 #, c-format
 msgid ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s (auto): %s</font><br/>\n"
 msgstr ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
 
 #, c-format
-msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-msgstr "<font color=\"red\"><b>கோப்பை படிக்க முடியவில்லை: %s</b></font>"
-
-msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
 msgstr ""
-"<font color=\"red\"><b>பதிவிற்கான பாதையை கண்டுபிடிக்க இயலவில்லை!</b></font>"
 
-msgid "<font color='#777777'>Logged out.</font>"
-msgstr "<font color='#777777'>வெளியேறியது.</font>"
+msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
+msgstr ""
 
-msgid "<font color='#777777'>Not connected to XMPP</font>"
-msgstr "<font color='#777777'>XMPPஉடன் இணைக்கபடவில்லை</font>"
+msgid "<font color='#c8c8c8'>Logged out.</font>"
+msgstr ""
+
+msgid "<font color='#c8c8c8'>Not connected to XMPP</font>"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1490,6 +1482,9 @@ msgstr ""
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
 msgstr "<h1>%s உடன் உரையாடல்</h1>\n"
+
+msgid "<i><font color=\"#f80000\">The logger has no read function</font></i>"
+msgstr ""
 
 msgid "<i>_Italic</i>"
 msgstr "<i>சாய்வான (_I)</i>"
@@ -13963,7 +13958,6 @@ msgstr "சின்னம் & உரை இரண்டும் (_B)"
 msgid "_Browse"
 msgstr "உலாவி (_B):"
 
-#. Steal the "HELP" response and use it to trigger browsing to the logs folder
 msgid "_Browse logs folder"
 msgstr "பதிவுகள் கோப்புறையை உலாவி (_B)"
 
@@ -15051,3 +15045,40 @@ msgstr "zl &lt;செல்லப்பெயர்&gt;: பயனாளரை �
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;செல்லப்பெயர்&gt;: பயனாளரை தேடு"
+
+#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
+#~ msgstr "(%s) %s <AUTO-REPLY>: %s\n"
+
+#~ msgid "<AUTO-REPLY> "
+#~ msgstr "<AUTO-REPLY> "
+
+#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
+#~ msgstr ""
+#~ "<b><font color=\"red\">பதிவேட்டில் வாசிக்கும் அமைப்பு இல்லை </font></b>"
+
+#~ msgid ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+
+#~ msgid ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+
+#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
+#~ msgstr "<font color=\"red\"><b>கோப்பை படிக்க முடியவில்லை: %s</b></font>"
+
+#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+#~ msgstr ""
+#~ "<font color=\"red\"><b>பதிவிற்கான பாதையை கண்டுபிடிக்க இயலவில்லை!</b></font>"
+
+#~ msgid "<font color='#777777'>Logged out.</font>"
+#~ msgstr "<font color='#777777'>வெளியேறியது.</font>"
+
+#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
+#~ msgstr "<font color='#777777'>XMPPஉடன் இணைக்கபடவில்லை</font>"

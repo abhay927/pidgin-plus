@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-27 13:16-0300\n"
-"PO-Revision-Date: 2014-07-20 06:33+0000\n"
+"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"PO-Revision-Date: 2014-08-30 05:47+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Lithuanian "
 "(http://www.transifex.com/projects/p/pidgin/language/lt/)\n"
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-08-06 07:17+0000\n"
-"X-Generator: Launchpad (build 17147)\n"
+"X-Launchpad-Export-Date: 2014-08-30 08:13+0000\n"
+"X-Generator: Launchpad (build 17176)\n"
 "Language: Lithuanian\n"
 
 msgid "\t_Only when someone says your username"
@@ -877,8 +877,8 @@ msgid "'delbuddy' command failed"
 msgstr "Komanda „delbuddy“ nepavyko"
 
 #, c-format
-msgid "(%s) %s <AUTO-REPLY>: %s\n"
-msgstr "(%s) %s <AUTOMATINIS-ATSAKYMAS>: %s\n"
+msgid "(%s) %s (auto): %s\n"
+msgstr ""
 
 #, c-format
 msgid "(Code %s)"
@@ -934,6 +934,9 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Turbūt pamiršote paleisti „make install“.)"
+
+msgid "(auto) "
+msgstr ""
 
 msgid "(default)"
 msgstr "(numatytasis)"
@@ -1313,9 +1316,6 @@ msgstr "12 valandų formatas"
 msgid "24 hour time format"
 msgstr "24 valandų formatas"
 
-msgid "<AUTO-REPLY> "
-msgstr "<AUTOMATINIS-ATSAKYMAS> "
-
 #, c-format
 msgid "<I>%s</I> removed all <I>%s's</I> modes"
 msgstr "<i>%s</i> pašalino visas naudotojo <i>%s</i> būsenas"
@@ -1352,11 +1352,6 @@ msgid_plural "<b>%d new emails.</b>"
 msgstr[0] "<b>%d naujas laiškas.</b>"
 msgstr[1] "<b>%d nauji laiškai.</b>"
 msgstr[2] "<b>%d naujų laiškų.</b>"
-
-msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-msgstr ""
-"<b><font color=\"red\">Žurnalų tvarkytuvė neturi skaitymo "
-"funkcijos</font></b>"
 
 #, c-format
 msgid "<b>Account:</b> %s"
@@ -1469,32 +1464,29 @@ msgstr "<br>Prisijungęs prie %s nuo %s"
 
 #, c-format
 msgid ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
+"%s</font><br/>\n"
 msgstr ""
-"<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTOMATINIS "
-"ATSAKYMAS&gt;:</b></font> %s<br/>\n"
 
 #, c-format
 msgid ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-"REPLY&gt;:</b></font> %s<br/>\n"
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s (auto): %s</font><br/>\n"
 msgstr ""
-"<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTOMATINIS "
-"ATSAKYMAS&gt;:</b></font> %s<br/>\n"
 
 #, c-format
-msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-msgstr "<font color=\"red\"><b>Negalima perskaityti failo: %s</b></font>"
+msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
+msgstr ""
 
-msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-msgstr "<font color=\"red\"><b>Negalima rasti žurnalų kelio!</b></font>"
+msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
+msgstr ""
 
-msgid "<font color='#777777'>Logged out.</font>"
-msgstr "<font color='#777777'>Atsijungė.</font>"
+msgid "<font color='#c8c8c8'>Logged out.</font>"
+msgstr ""
 
-msgid "<font color='#777777'>Not connected to XMPP</font>"
-msgstr "<font color='#777777'>Neprisijungta prie XMPP</font>"
+msgid "<font color='#c8c8c8'>Not connected to XMPP</font>"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1506,6 +1498,9 @@ msgstr ""
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
 msgstr "<h1>Pokalbis su %s</h1>\n"
+
+msgid "<i><font color=\"#f80000\">The logger has no read function</font></i>"
+msgstr ""
 
 msgid "<i>_Italic</i>"
 msgstr "<i>_Kursyvas</i>"
@@ -13986,7 +13981,6 @@ msgstr "_Piktogramos ir tekstai"
 msgid "_Browse"
 msgstr "_Naršyti"
 
-#. Steal the "HELP" response and use it to trigger browsing to the logs folder
 msgid "_Browse logs folder"
 msgstr "_Naršyti žurnalų aplanką"
 
@@ -15072,3 +15066,40 @@ msgstr "zl &lt;slapyvardis&gt;:  surasti naudotoją"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;slapyvardis&gt;:  surasti naudotoją"
+
+#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
+#~ msgstr "(%s) %s <AUTOMATINIS-ATSAKYMAS>: %s\n"
+
+#~ msgid "<AUTO-REPLY> "
+#~ msgstr "<AUTOMATINIS-ATSAKYMAS> "
+
+#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
+#~ msgstr ""
+#~ "<b><font color=\"red\">Žurnalų tvarkytuvė neturi skaitymo "
+#~ "funkcijos</font></b>"
+
+#~ msgid ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTOMATINIS "
+#~ "ATSAKYMAS&gt;:</b></font> %s<br/>\n"
+
+#~ msgid ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
+#~ "REPLY&gt;:</b></font> %s<br/>\n"
+#~ msgstr ""
+#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTOMATINIS "
+#~ "ATSAKYMAS&gt;:</b></font> %s<br/>\n"
+
+#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
+#~ msgstr "<font color=\"red\"><b>Negalima perskaityti failo: %s</b></font>"
+
+#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
+#~ msgstr "<font color=\"red\"><b>Negalima rasti žurnalų kelio!</b></font>"
+
+#~ msgid "<font color='#777777'>Logged out.</font>"
+#~ msgstr "<font color='#777777'>Atsijungė.</font>"
+
+#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
+#~ msgstr "<font color='#777777'>Neprisijungta prie XMPP</font>"
