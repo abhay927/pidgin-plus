@@ -20,6 +20,7 @@ source="$(dirname "$0")/../source"
 if [[ -n "$merge" ]]; then
     bzr merge "${from:-lp:~renatosilva/pidgin++/translation}"
     [[ $? = 3 ]] && exit # Not a branch
-    bzr remove "$source/po/ab.po"
-    rm -v "$source/po/ab.po.~"*"~"
+    bzr resolve "$source/po/ab.po"
+    bzr resolve "$source/po/ms.po"
+    bzr resolve "$source/po/my.po"
 fi
