@@ -46,6 +46,9 @@
 ##
 ##         --color=SWITCH   Enable or disable colors in output. SWITCH is either
 ##                          on or off. Default is enabling for terminals.
+##         --encoding=NAME  Convert output from the encoding specified in $LANG
+##                          to NAME. If NAME is "default" then target encoding
+##                          is set to that of the current locale.
 ##
 
 # Parse options
@@ -65,7 +68,7 @@ staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot/distribution/$version}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
 
-# Colored output and build function
+# Colored output
 if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
     echo "Please specify a valid value for --color, see --help."
     exit 1
@@ -74,7 +77,25 @@ if [[ "$color" = on || (-z "$color" && -t 1) ]]; then
     export PIDGIN_BUILD_COLORS="yes"
 fi
 source "$source_dir/colored.sh"
-build() { ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" "${@:2}" || exit 1; }
+
+# Output encoding and build functions
+domake() { ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" "${@:2}"; return $?;}
+if [[ -n "$encoding" ]]; then
+	case "$encoding" in
+	default) iconv="iconv -f ${LANG##*.}" ;;
+		  *) iconv="iconv -f ${LANG##*.} ${encoding:+-t $encoding}" ;;
+	esac
+    if [[ $(uname -or) != 1.*Msys ]]; then
+        mv() { command mv "$@" > >($iconv) 2> >($iconv); }
+        build() { domake "$@" > >($iconv) 2> >($iconv) || exit 1; }
+    else
+        # MinGW MSYS does not support process substitution
+        mv() { command mv "$@" 2>&1 | $iconv; }
+        build() { domake "$@" 2>&1 | $iconv || exit 1; }
+    fi
+else
+	build() { domake "$@" || exit 1; }
+fi
 
 # Translations template
 if [[ -n "$update_pot" ]]; then
