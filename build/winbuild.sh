@@ -218,6 +218,7 @@ fi
 
 # Installers
 pace "Building the installer${offline:+s}"
+echo "Using GCC $(gcc -dumpversion)"
 build "installer${offline:+s}"
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
