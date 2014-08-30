@@ -26,18 +26,18 @@ if [[ -n "$PIDGIN_BUILD_COLORS" ]]; then
         gray="\e[1;30m"
     fi
 
-    # Errors, warnings and notes
-    error="s/^(.*error:)/$(printf $red)\\1$(printf $normal)/i"
-    warning="s/^(.*warning:)/$(printf $yellow)\\1$(printf $normal)/"
-    make="s/^make(\[[0-9]+\])?:/$(printf $blue)make\\1:$(printf $normal)/"
-
-    # Compiler recipes
-    source_dir=$(readlink -f "$(dirname "$BASH_SOURCE")")
-    compiler=$(grep "CC[[:space:]]*:=" "$source_dir/libpurple/win32/global.mak" | awk -F':=[[:space:]*]' '{print $2}')
-    compiler_recipe="s/^($compiler .*)/\n$(printf $gray)\\1$(printf $normal)\n/"
-
     # Colored make
     colormake() {
+        # Errors, warnings and notes
+        local error="s/^(.*error:)/$(printf $red)\\1$(printf $normal)/i"
+        local warning="s/^(.*warning:)/$(printf $yellow)\\1$(printf $normal)/"
+        local make="s/^make(\[[0-9]+\])?:/$(printf $blue)make\\1:$(printf $normal)/"
+
+        # Compiler recipes
+        local source_dir=$(readlink -f "$(dirname "$BASH_SOURCE")")
+        local compiler=$(grep "CC[[:space:]]*:=" "$source_dir/libpurple/win32/global.mak" | awk -F':=[[:space:]*]' '{print $2}')
+        local compiler_recipe="s/^($compiler .*)/\n$(printf $gray)\\1$(printf $normal)\n/"
+
         if [[ $(uname -or) != 1.*Msys ]]; then
             make "$@" 2> >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe") \
                        > >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe")
