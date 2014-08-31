@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"POT-Creation-Date: 2014-08-30 20:34-0300\n"
 "PO-Revision-Date: 2014-05-26 11:22+0000\n"
 "Last-Translator: Éric <Unknown>\n"
 "Language-Team: fr <fr@li.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:17+0000\n"
+"X-Launchpad-Export-Date: 2014-08-31 07:56+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Occitan (post 1500)\n"
 
@@ -12298,6 +12298,10 @@ msgid "Web aware (enabling this will cause you to receive SPAM!)"
 msgstr ""
 
 msgid "Webcams"
+msgstr ""
+
+#, c-format
+msgid "Website: %s"
 msgstr ""
 
 msgid "Welcome back!"

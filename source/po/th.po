@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"POT-Creation-Date: 2014-08-30 20:34-0300\n"
 "PO-Revision-Date: 2014-05-26 05:27+0000\n"
 "Last-Translator: Isriya Paireepairit <markpeak@gmail.com>\n"
 "Language-Team: Thai <l10n@opentle.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:26+0000\n"
+"X-Launchpad-Export-Date: 2014-08-31 08:06+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Thai\n"
 
@@ -12297,6 +12297,10 @@ msgid "Web aware (enabling this will cause you to receive SPAM!)"
 msgstr ""
 
 msgid "Webcams"
+msgstr ""
+
+#, c-format
+msgid "Website: %s"
 msgstr ""
 
 msgid "Welcome back!"

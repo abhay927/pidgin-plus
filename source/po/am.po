@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 0.60\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"POT-Creation-Date: 2014-08-30 20:34-0300\n"
 "PO-Revision-Date: 2014-05-26 04:03+0000\n"
 "Last-Translator: Daniel Yacob <locales@geez.org>\n"
 "Language-Team: Amharic <locales@geez.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 07:53+0000\n"
+"X-Launchpad-Export-Date: 2014-08-31 07:36+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Amharic\n"
 
@@ -12283,6 +12283,10 @@ msgid "Web aware (enabling this will cause you to receive SPAM!)"
 msgstr ""
 
 msgid "Webcams"
+msgstr ""
+
+#, c-format
+msgid "Website: %s"
 msgstr ""
 
 msgid "Welcome back!"

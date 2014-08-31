@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:32+0000\n"
+"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Khmer "
 "(http://www.transifex.com/projects/p/pidgin/language/km/)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:11+0000\n"
+"X-Launchpad-Export-Date: 2014-08-31 07:50+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Khmer\n"
 
@@ -12933,6 +12933,10 @@ msgstr "ការ​យល់​ដឹង​អំពីបណ្ដាញ (ក�
 
 msgid "Webcams"
 msgstr "ម៉ាស៊ីន​ថត​តាមបណ្ដាញ"
+
+#, c-format
+msgid "Website: %s"
+msgstr ""
 
 msgid "Welcome back!"
 msgstr "សូម​ស្វាគមន៍ការ​​ត្រឡប់​មក​វិញ !"

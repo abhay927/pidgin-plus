@@ -62,15 +62,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:22+0000\n"
+"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"PO-Revision-Date: 2014-08-31 02:41+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:29+0000\n"
+"X-Launchpad-Export-Date: 2014-08-31 08:09+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Chinese (Hong Kong)\n"
 
@@ -13324,6 +13324,10 @@ msgstr "允許在網絡上檢視你目前的狀態（會導致你收到垃圾訊
 # NOTE 解「可視像聊天的使用者數目」(marv)
 msgid "Webcams"
 msgstr "可視像聊天"
+
+#, c-format
+msgid "Website: %s"
+msgstr ""
 
 msgid "Welcome back!"
 msgstr "歡迎歸來！"

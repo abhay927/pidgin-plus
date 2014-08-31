@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"POT-Creation-Date: 2014-08-30 20:34-0300\n"
 "PO-Revision-Date: 2014-07-20 06:23+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Burmese (Myanmar) "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Launchpad-Export-Date: 2014-08-30 07:52+0000\n"
+"X-Launchpad-Export-Date: 2014-08-31 07:35+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: my_MM\n"
 
@@ -12964,6 +12964,10 @@ msgstr ""
 
 msgid "Webcams"
 msgstr "ကင်မရာ"
+
+#, c-format
+msgid "Website: %s"
+msgstr ""
 
 msgid "Welcome back!"
 msgstr "ပြန်ကြိုဆိုလျှက်!"

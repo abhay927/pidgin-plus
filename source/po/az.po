@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"POT-Creation-Date: 2014-08-30 20:34-0300\n"
 "PO-Revision-Date: 2014-05-26 04:15+0000\n"
 "Last-Translator: Metin Amiroff <Unknown>\n"
 "Language-Team: Azerbaijani <translation-team-az@lists.sourceforge.net>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 07:55+0000\n"
+"X-Launchpad-Export-Date: 2014-08-31 07:38+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Azerbaijani\n"
 
@@ -12299,6 +12299,10 @@ msgstr ""
 
 msgid "Webcams"
 msgstr "Veb kameraları"
+
+#, c-format
+msgid "Website: %s"
+msgstr ""
 
 msgid "Welcome back!"
 msgstr ""

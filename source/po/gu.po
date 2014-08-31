@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 04:44+0000\n"
+"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"PO-Revision-Date: 2014-08-31 02:52+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Gujarati\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:06+0000\n"
+"X-Launchpad-Export-Date: 2014-08-31 07:46+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Gujarati\n"
 
@@ -12848,6 +12848,10 @@ msgstr "વેબ પરિચિત (આને સક્રિય કરવા�
 
 msgid "Webcams"
 msgstr "વેબકેમ"
+
+#, c-format
+msgid "Website: %s"
+msgstr ""
 
 msgid "Welcome back!"
 msgstr "પાછુ સ્વાગત છે!"

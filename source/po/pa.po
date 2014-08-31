@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:37+0000\n"
+"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"PO-Revision-Date: 2014-08-31 02:30+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Panjabi (Punjabi) "
 "(http://www.transifex.com/projects/p/pidgin/language/pa/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:18+0000\n"
+"X-Launchpad-Export-Date: 2014-08-31 07:57+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Punjabi\n"
 
@@ -12771,6 +12771,10 @@ msgstr "ਵੈੱਬ ਉੱਤੇ ਉਪਲੱਬਧ (ਇਹ ਯੋਗ ਕਰਨ
 
 msgid "Webcams"
 msgstr "ਵੈਬਕੈਮ"
+
+#, c-format
+msgid "Website: %s"
+msgstr ""
 
 msgid "Welcome back!"
 msgstr "ਫੇਰ ਜੀ ਆਇਆਂ ਨੂੰ!"
