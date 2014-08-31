@@ -41,11 +41,13 @@ INCLUDE_PATHS +=	\
 			-I$(GTK_TOP)/include/atk-1.0 \
 			-I$(GTK_TOP)/include/cairo \
 			-I$(GTK_TOP)/lib/gtk-2.0/include \
-			-I$(GTKSPELL_TOP)/include/gtkspell-2.0
+			-I$(GTKSPELL_TOP)/include/gtkspell-2.0 \
+			-I$(WINSPARKLE_TOP)
 
 LIB_PATHS +=		-L$(GTK_TOP)/lib \
 			-L$(PURPLE_TOP) \
-			-L$(PIDGIN_TOP)
+			-L$(PIDGIN_TOP) \
+			-L$(WINSPARKLE_TOP)
 
 ##
 ##  SOURCES, OBJECTS
@@ -127,7 +129,8 @@ PIDGIN_LIBS =	\
 		-lgdk-win32-2.0 \
 		-lgdk_pixbuf-2.0 \
 		-lgdi32 \
-		-lwinmm
+		-lwinmm \
+		-lWinSparkle
 
 include $(PIDGIN_COMMON_RULES)
 

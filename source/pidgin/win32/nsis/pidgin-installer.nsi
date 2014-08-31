@@ -78,7 +78,7 @@ RequestExecutionLevel highest
 ;--------------------------------
 ;Version resource
 VIProductVersion "${PIDGIN_PRODUCT_VERSION}"
-VIAddVersionKey "ProductName" "Pidgin"
+VIAddVersionKey "ProductName" "Pidgin++"
 VIAddVersionKey "FileVersion" "${PIDGIN_VERSION}"
 VIAddVersionKey "ProductVersion" "${PIDGIN_VERSION}"
 VIAddVersionKey "LegalCopyright" ""
@@ -594,6 +594,7 @@ Section Uninstall
     Delete "$INSTDIR\softokn3.dll"
     Delete "$INSTDIR\sqlite3.dll"
     Delete "$INSTDIR\ssl3.dll"
+    Delete "$INSTDIR\winsparkle.dll"
     Delete "$INSTDIR\${PIDGIN_UNINST_EXE}"
     Delete "$INSTDIR\exchndl.dll"
     Delete "$INSTDIR\install.log"

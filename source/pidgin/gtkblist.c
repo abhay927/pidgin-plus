@@ -73,6 +73,7 @@
 #ifdef _WIN32
 #include <windows.h>
 #include <gdk/gdkwin32.h>
+#include <winsparkle.h>
 #endif
 
 typedef struct
@@ -3653,6 +3654,7 @@ static GtkItemFactoryEntry blist_menu[] =
 	/* Help */
 	{ N_("/_Help"), NULL, NULL, 0, "<Branch>", NULL },
 	{ N_("/Help/Online _Help"), "F1", gtk_blist_show_onlinehelp_cb, 0, "<StockItem>", GTK_STOCK_HELP },
+	{ N_("/Help/Check for _Updates..."), NULL, win_sparkle_check_update_with_ui, 0, "<StockItem>", GTK_STOCK_GOTO_BOTTOM },
 	{ "/Help/sep1", NULL, NULL, 0, "<Separator>", NULL },
 	{ N_("/Help/_Debug Window"), NULL, toggle_debug, 0, "<Item>", NULL },
 	{ N_("/Help/_Build Information"), NULL, pidgin_dialogs_buildinfo, 0, "<Item>", NULL },

@@ -5,6 +5,9 @@
               en-us:description="For Windows"
               pt-br:description="Para Windows">
 
+        <change en-us:description="Automated update checking"
+                pt-br:description="Verificação automática de atualizações"/>
+
         <change en-us:description="More recent GTK+ (2.24.24)"
                 pt-br:description="GTK+ mais recente (2.24.24)"/>
 

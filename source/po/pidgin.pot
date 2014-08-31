@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:47-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1055,6 +1055,9 @@ msgid "/Conversation/_Save As..."
 msgstr ""
 
 msgid "/Conversation/_Unblock..."
+msgstr ""
+
+msgid "/Help/Check for _Updates..."
 msgstr ""
 
 msgid "/Help/De_veloper Information"

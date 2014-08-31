@@ -1182,6 +1182,9 @@ msgstr "/Conversa/_Salvar como..."
 msgid "/Conversation/_Unblock..."
 msgstr "/Conversa/_Desbloquear..."
 
+msgid "/Help/Check for _Updates..."
+msgstr "/Ajuda/Verificar at_ualizações..."
+
 msgid "/Help/De_veloper Information"
 msgstr "/Ajuda/Informações sobre desen_volvedores"
 

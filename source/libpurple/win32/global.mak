@@ -24,6 +24,7 @@ TCL_LIB_TOP ?= $(WIN32_DEV_TOP)/tcl-8.4.5
 GSTREAMER_TOP ?= $(WIN32_DEV_TOP)/gstreamer-0.10.13
 GCC_TOP ?= $(shell dirname $(shell which $(CC)))
 CYRUS_SASL_TOP ?= $(WIN32_DEV_TOP)/cyrus-sasl-2.1.25
+WINSPARKLE_TOP ?= $(WIN32_DEV_TOP)/WinSparkle-0.3
 
 # Where we installing this stuff to?
 PIDGIN_INSTALL_DIR := $(PIDGIN_TREE_TOP)/win32-install-dir

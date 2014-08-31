@@ -15,13 +15,13 @@ VS_VERSION_INFO VERSIONINFO
     BEGIN
       BLOCK "040904B0"
       BEGIN
-        VALUE "CompanyName", "The Pidgin developer community"
+        VALUE "CompanyName", "The Pidgin++ developers"
         VALUE "FileDescription", "Pidgin"
         VALUE "FileVersion", "@PIDGIN_VERSION@"
         VALUE "InternalName", "pidgin"
         VALUE "LegalCopyright", "Copyright (C) 1998-2010 The Pidgin developer community (See the COPYRIGHT file in the source distribution)."
         VALUE "OriginalFilename", "@ORIGINAL_FILENAME@"
-        VALUE "ProductName", "Pidgin"
+        VALUE "ProductName", "Pidgin++"
         VALUE "ProductVersion", "@PIDGIN_VERSION@"
       END
     END
