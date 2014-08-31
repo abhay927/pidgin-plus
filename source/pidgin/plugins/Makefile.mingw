@@ -97,7 +97,6 @@ plugins: \
 		markerline.dll \
 		notify.dll \
 		pidginrc.dll \
-		relnot.dll \
 		sendbutton.dll \
 		spellchk.dll \
 		themeedit.dll \
