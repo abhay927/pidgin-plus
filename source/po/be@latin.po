@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin 2.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:18+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Belarusian Latin <be-latin.open-tran.eu>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2014-08-31 08:13+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:12+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Belarusian latin\n"
 
@@ -1118,6 +1118,9 @@ msgstr "/Razmova/_Zapišy jak..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Razmova/_Razblakuj..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr ""
@@ -3174,20 +3177,6 @@ msgstr "Pravier pravy i znoŭ paŭtary sprobu."
 msgid "Checks for new local mail."
 msgstr "Praviaraje novuju lakalnuju poštu."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Peryjadyčna praviaraje najaŭnaść novych vydańniaŭ i infarmuje karystalnika "
-"ab źmienach."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Peryjadyčna praviaraje najaŭnaść novych vydańniaŭ."
-
 msgid "Choose Location..."
 msgstr "Abiary pałažeńnie..."
 
@@ -4085,9 +4074,6 @@ msgstr ""
 
 #, c-format
 msgid "Download %s: %s"
-msgstr ""
-
-msgid "Download Now"
 msgstr ""
 
 msgid "Draw Markerline in "
@@ -6280,9 +6266,6 @@ msgstr "Apošni log"
 msgid "Lastlog plugin."
 msgstr "Plugin apošniaha logu."
 
-msgid "Later"
-msgstr ""
-
 msgid "Latest News"
 msgstr "Apošnija naviny"
 
@@ -7152,9 +7135,6 @@ msgstr "Novaja asoba"
 
 msgid "New Pounces"
 msgstr ""
-
-msgid "New Version Available"
-msgstr "Dastupnaja novaja versija"
 
 msgid "New _Message..."
 msgstr ""
@@ -8818,15 +8798,6 @@ msgstr ""
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr ""
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Infarmavańnie ab vydańni"
 
 msgid "Relieved"
 msgstr ""
@@ -13218,10 +13189,6 @@ msgid "You can sign out from other locations here"
 msgstr ""
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr ""
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr ""
 
@@ -14785,40 +14752,3 @@ msgstr "zl &lt;mianuška&gt;: Znajdzi karystalnika"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;mianuška&gt;: Znajdzi karystalnika"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AŬTA-ADKAZ>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AŬTA-ADKAZ> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">Časapiśnik nia maje funkcyi čytańnia</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AŬTA-"
-#~ "ADKAZ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AŬTA-"
-#~ "ADKAZ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Niemahčyma pračytać fajł: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Niemahčyma znajści ściežku da logaŭ!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Vyjšaŭ.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Nie spałučany z XMPP</font>"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 08:05+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:04+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Telugu\n"
 
@@ -1163,6 +1163,9 @@ msgstr "/సంభాషణ/ఇలా దాచుము... (_S)"
 
 msgid "/Conversation/_Unblock..."
 msgstr "/సంభాషణ/సాగేలా చూడు... (_U)"
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr ""
@@ -3265,20 +3268,6 @@ msgstr "అనుమతులను సరిచూచుకొని మరల�
 msgid "Checks for new local mail."
 msgstr "కొత్త స్థానిక జాబులు."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"కొత్తవాటి కొరకు నియత కాలాల్లో చెక్ చేస్తుంది అలాగే వినియోగదారునికి "
-"లాగ్‌మార్పును  సూచింస్తుంది."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "కొత్తవాటి కొరకు నియత కాలాల్లో చెక్ చేస్తుంది."
-
 msgid "Choose Location..."
 msgstr "స్థానమును యెంచుకొనుము..."
 
@@ -4184,9 +4173,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "%s డౌన్‌లోడుచేయి: %s"
-
-msgid "Download Now"
-msgstr "ఇప్పుడు డౌన్‌లోడ్‌చేయి"
 
 msgid "Draw Markerline in "
 msgstr "మార్కర్ లైన్ గీయు "
@@ -6379,9 +6365,6 @@ msgstr "చివరిలాగ్"
 msgid "Lastlog plugin."
 msgstr "చివరిలాగ్ ప్లగ్ ఇన్"
 
-msgid "Later"
-msgstr "తర్వాత"
-
 msgid "Latest News"
 msgstr "తాజా సమాచారం"
 
@@ -7255,9 +7238,6 @@ msgstr "కొత్త వ్యక్తి"
 
 msgid "New Pounces"
 msgstr "కొత్త పౌన్సెస్"
-
-msgid "New Version Available"
-msgstr "కొత్త వెర్షన్ అందుబాటులోఉంది."
 
 msgid "New _Message..."
 msgstr "కొత్త సందేశం... (_M)"
@@ -8934,15 +8914,6 @@ msgstr ""
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "రిలే సర్వర్ (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "నోటిఫికేషన్ జారీ చేయండి."
 
 msgid "Relieved"
 msgstr ""
@@ -13376,10 +13347,6 @@ msgid "You can sign out from other locations here"
 msgstr ""
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "మీరు ఈ రోజు %s %sకు నవీకరించబడ గలరు."
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr "%s యొక్క బదిలీకరణను మీరు రద్దుచేసినారు"
 
@@ -14973,38 +14940,3 @@ msgstr "zl &lt;ఉపనామం&gt;: వినియోగదారుని �
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ఉపనామం&gt;: వినియోగదారుని అన్వేషించుము."
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <ఆటో రిప్లై>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<ఆటో-రిప్లై> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">లాగర్‌లో రీడ్ ఫంక్షన్ లేదు.</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;ఆటో‌రిప్లై "
-#~ "&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;ఆటో‌రిప్లై "
-#~ "&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>ఫైలును రీడ్ చేయడం సాధ్యపడలేదు: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>లాగ్ పాత్‌ను కనుగొనడంలో వైఫల్యం </b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<ఫాంట్ రంగు='#777777'>లాగ్అవుటైన.</ఫాంట్>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<ఫాంట్ రంగు='#777777'>XMPPకి అనుసంధానం కాలేదు</ఫాంట్>"

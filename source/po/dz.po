@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:03+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: <pgeygel@dit.gov.bt>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:42+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:37+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "X-Poedit-Country: BHUTAN\n"
 "Language: Dzongkha\n"
@@ -1083,6 +1083,9 @@ msgid "/Conversation/_Save As..."
 msgstr "/གྲོས་གླེང་/ བཟུམ་སྦེ་སྲུང་བཞག་འབད(_S)"
 
 msgid "/Conversation/_Unblock..."
+msgstr ""
+
+msgid "/Help/Check for _Updates..."
 msgstr ""
 
 msgid "/Help/De_veloper Information"
@@ -3137,20 +3140,6 @@ msgstr ""
 msgid "Checks for new local mail."
 msgstr "ཉེ་གནས་ཡིག་འཕྲིན་གསརཔ་གི་དོན་ལུ་ ཞིབ་དཔྱད་འབདཝ་ཨིན།"
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"གསརཔ་ གསར་བཏོན་གྱི་དོན་ལུ་འཕྲལ་འཕྲལ་འབད་ཞིབ་དཔྱད་འབདཝ་ཨིན། "
-"དེ་ལས་དྲན་དེབ་བསྒྱུར་བཅོས་དང་བཅས་ལག་ལེན་པ་བརྡ་བསྐུལ་འབདཝ་ཨིན།"
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "གསརཔ་ གསར་བཏོན་གྱི་དོན་ལུ་འཕྲལ་འཕྲལ་འབད་ཞིབ་དཔྱད་འབདཝ་ཨིན།"
-
 msgid "Choose Location..."
 msgstr ""
 
@@ -4039,9 +4028,6 @@ msgstr ""
 
 #, c-format
 msgid "Download %s: %s"
-msgstr ""
-
-msgid "Download Now"
 msgstr ""
 
 msgid "Draw Markerline in "
@@ -6232,9 +6218,6 @@ msgstr "མཇུག་གི་ལོག"
 msgid "Lastlog plugin."
 msgstr ""
 
-msgid "Later"
-msgstr ""
-
 msgid "Latest News"
 msgstr "མཐའ་མཇུག་གི་གནས་ཚུལ་ཚུ།"
 
@@ -7110,9 +7093,6 @@ msgstr "གང་ཟག་གསརཔ།"
 
 msgid "New Pounces"
 msgstr ""
-
-msgid "New Version Available"
-msgstr "ཐོན་རིམ་གསརཔ་ཐོབ་ཚུགས།"
 
 msgid "New _Message..."
 msgstr ""
@@ -8776,15 +8756,6 @@ msgstr ""
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr ""
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "བརྡ་བསྐུལ་གསར་བཏོན་འབད་ནི།"
 
 msgid "Relieved"
 msgstr ""
@@ -13205,10 +13176,6 @@ msgid "You can sign out from other locations here"
 msgstr ""
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr ""
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr ""
 
@@ -14799,33 +14766,3 @@ msgstr "zl &lt;ནིཀ&gt;:ལག་ལེན་པ་ག་ཡོད་བལ
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ནིཀ&gt;:ལག་ལེན་པ་ག་ཡོད་བལྟ།"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <རང་བཞིན-ལན>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<རང་བཏིན་-ལན་གསལ།> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">དྲན་དེབ་བཀོད་མི་ལུ་ལྷག་ནིའི་བྱ་བ་མིན་འདུག</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;རང་བཞིན - "
-#~ "ལན&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;རང་བཞིན-"
-#~ "ལན&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>ཡིག་སྣོད་ལྷག་མ་ཚུགས: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>དྲན་དེབ་ཀྱི་འགྲུལ་ལམ་འཚོལ་མ་ཐོབ!</b></font>"

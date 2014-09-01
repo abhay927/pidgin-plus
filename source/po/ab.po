@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-07-20 06:23+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Burmese (Myanmar) "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:35+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:27+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: my_MM\n"
 
@@ -1174,6 +1174,9 @@ msgstr "_S /စကားပြောဆိုမှု/သိမ်းဆည်�
 
 msgid "/Conversation/_Unblock..."
 msgstr "_U /စကားပြောဆိုမှု/ပြန်ဖွင့်ရန်..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "_V /အကူအညီ/စီစဉ်​ဖန်တီးသူ အချက်အလက်"
@@ -3284,20 +3287,6 @@ msgstr "ခွင့်ပြုချက်များကို စစ်ဆ�
 msgid "Checks for new local mail."
 msgstr "စက်တွင်း စာအသစ် စစ်ဆေးမှုများ"
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"ထုတ်ပြန်ချက် အသစ်များကို ပုံမှန် စစ်ဆေးပြီး ChangeLog ဖြင့် သုံးစွဲသူကို "
-"အသိပေးပါ။"
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "ထုတ်ပြန်ချက် အသစ်ကို ပုံမှန် စစ်ဆေးပါ။"
-
 msgid "Choose Location..."
 msgstr "ဖိုင်​နေရာ ရွေးရန်..."
 
@@ -4203,9 +4192,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "ဒေါင်းလုဒ် ဆွဲရန် %s - %s"
-
-msgid "Download Now"
-msgstr "အခု ဒေါင်းလုဒ် ဆွဲရန်"
 
 msgid "Draw Markerline in "
 msgstr "အမှတ်လိုင်း ဆွဲရန် "
@@ -6412,9 +6398,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Lastlog ပလပ်အင်။"
 
-msgid "Later"
-msgstr "နောက်မှ"
-
 msgid "Latest News"
 msgstr "နောက်ဆုံးသတင်းများ"
 
@@ -7290,9 +7273,6 @@ msgstr "လူသစ်"
 
 msgid "New Pounces"
 msgstr "လက်တို့မှု အသစ်များ"
-
-msgid "New Version Available"
-msgstr "ဗားရှင်း အသစ် ရနိုင်သည်"
 
 msgid "New _Message..."
 msgstr "_M ပေးစာ အသစ်..."
@@ -8968,15 +8948,6 @@ msgstr "အနားယူသည်"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Relay ဆာဗာ (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "အသိပေးချက် ထုတ်ပြန်ရန်"
 
 msgid "Relieved"
 msgstr "စိတ်သက်သာရာရသည်"
@@ -13471,10 +13442,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "ဤနေရာကနေ အခြားတည်နေရာများမှ သင် ထွက်ခွာနိုင်သည်"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "%s %s အဆင့်သို့ သင် အဆင့်မြှင့်နိုင်သည်။"
 
 #, c-format
 msgid "You cancelled the transfer of %s"

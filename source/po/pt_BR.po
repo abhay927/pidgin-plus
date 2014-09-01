@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
-"PO-Revision-Date: 2014-08-31 02:50+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 14:12+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Renato Silva <br.renatosilva@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 08:10+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:09+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Brazilian Portuguese\n"
 
@@ -873,7 +873,7 @@ msgstr "O comando 'delbuddy' falhou"
 
 #, c-format
 msgid "(%s) %s (auto): %s\n"
-msgstr ""
+msgstr "(%s) %s (auto): %s\n"
 
 #, c-format
 msgid "(Code %s)"
@@ -931,7 +931,7 @@ msgid "(You probably forgot to 'make install'.)"
 msgstr "(Provavelmente você esqueceu de digitar 'make install')"
 
 msgid "(auto) "
-msgstr ""
+msgstr "(auto) "
 
 msgid "(default)"
 msgstr "(padrão)"
@@ -1181,6 +1181,9 @@ msgstr "/Conversa/_Salvar como..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Conversa/_Desbloquear..."
+
+msgid "/Help/Check for _Updates..."
+msgstr "/Ajuda/Verificar at_ualizações..."
 
 msgid "/Help/De_veloper Information"
 msgstr "/Ajuda/Informações sobre desen_volvedores"
@@ -1462,25 +1465,33 @@ msgid ""
 "size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
 "%s</font><br/>\n"
 msgstr ""
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
+"%s</font><br/>\n"
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
 "size=\"2\"> %s (auto): %s</font><br/>\n"
 msgstr ""
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s (auto): %s</font><br/>\n"
 
 #, c-format
 msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
 msgstr ""
+"<font color=\"#f80000\"><i>Não foi possível ler o arquivo: %s</i></font>"
 
 msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
 msgstr ""
+"<font color=\"#f80000\"><i>Não foi possível encontrar o arquivo de "
+"histórico!</i></font>"
 
 msgid "<font color='#c8c8c8'>Logged out.</font>"
-msgstr ""
+msgstr "<font color='#c8c8c8'>Deslogado.</font>"
 
 msgid "<font color='#c8c8c8'>Not connected to XMPP</font>"
-msgstr ""
+msgstr "<font color='#c8c8c8'>Não conectado ao XMPP</font>"
 
 #, c-format
 msgid ""
@@ -1498,6 +1509,8 @@ msgstr "<h1>Conversas com %s</h1>\n"
 
 msgid "<i><font color=\"#f80000\">The logger has no read function</font></i>"
 msgstr ""
+"<i><font color=\"#f80000\">O gerador de históricos não possui nenhuma função "
+"de leitura</font></i>"
 
 msgid "<i>_Italic</i>"
 msgstr "<i>_Itálico</i>"
@@ -1681,7 +1694,7 @@ msgid "A non-recoverable Farsight2 error has occurred."
 msgstr "Um erro não recuperado Farsight2 ocorreu."
 
 msgid "A non-recoverable Farstream error has occurred."
-msgstr ""
+msgstr "Um erro não recuperável do Farstream ocorreu."
 
 msgid "A server is required to connect this account"
 msgstr "Um servidor é necessário para conectar esta conta"
@@ -2069,7 +2082,7 @@ msgid "Allow only the users on my buddy list"
 msgstr "Permitir apenas os usuários na minha lista de amigos"
 
 msgid "Allow plaintext SASL auth over unencrypted connection"
-msgstr ""
+msgstr "Permitir autenticação SASL em conexão não criptografada"
 
 msgid "Allow plaintext auth over unencrypted streams"
 msgstr "Permitir autenticação em texto puro sobre fluxos não criptografados"
@@ -2190,7 +2203,7 @@ msgstr "Não foi encontrado um endereço de Email para este amigo."
 
 #. could not be decrypted
 msgid "An encrypted message was received which could not be decrypted."
-msgstr ""
+msgstr "Uma mensagem criptografada recebida não pôde ser descriptografada."
 
 msgid "An error occurred while opening the file."
 msgstr "Ocorreu um erro na abertura do arquivo."
@@ -2359,7 +2372,7 @@ msgid "Assamese"
 msgstr "Assamês"
 
 msgid "Asturian"
-msgstr ""
+msgstr "Asturiano"
 
 msgid "At a party"
 msgstr "Em festa"
@@ -2413,7 +2426,7 @@ msgid "Auth User"
 msgstr "Usuário de autenticação"
 
 msgid "Authenticate with SASL"
-msgstr ""
+msgstr "Autenticar com SASL"
 
 msgid "Authenticating"
 msgstr "Autenticando"
@@ -2880,7 +2893,7 @@ msgid "Bulgarian"
 msgstr "Búlgaro"
 
 msgid "Burmese"
-msgstr ""
+msgstr "Birmanês"
 
 msgid "Busted SNAC payload"
 msgstr "Carga de SNAC excedida"
@@ -3279,10 +3292,10 @@ msgstr "Emblema de sala de bate-papo"
 
 #. Alerts
 msgid "Chatroom alerts"
-msgstr ""
+msgstr "Alertas de bate-papo"
 
 msgid "Chatroom message alerts _only where someone says your username"
-msgstr ""
+msgstr "Alertas de bate-papo _somente quando alguém menciona seu nome"
 
 msgid "Chats"
 msgstr "Bate-papos"
@@ -3302,20 +3315,6 @@ msgstr "Verifique as permissões e tente novamente."
 
 msgid "Checks for new local mail."
 msgstr "Verifica novos emails locais."
-
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Verifica periodicamente por novas versões e notifica o usuário com a lista "
-"de alterações."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Verifica periodicamente por novas versões."
 
 msgid "Choose Location..."
 msgstr "Escolher Localização..."
@@ -4159,7 +4158,7 @@ msgid "Division"
 msgstr "Divisão"
 
 msgid "Divorced"
-msgstr ""
+msgstr "Divorciado"
 
 #. 3
 msgid "Do Not Disturb"
@@ -4218,14 +4217,11 @@ msgid "Don't use encryption"
 msgstr "Não usar criptografia"
 
 msgid "Don't want to say"
-msgstr ""
+msgstr "Não quero dizer"
 
 #, c-format
 msgid "Download %s: %s"
 msgstr "Download %s: %s"
-
-msgid "Download Now"
-msgstr "Faça o Download Agora"
 
 msgid "Draw Markerline in "
 msgstr "Desenhar linha em "
@@ -4383,7 +4379,7 @@ msgid "Enforce that passwords are used only once."
 msgstr "Forçar que senhas são usadas somente uma vez."
 
 msgid "Engaged"
-msgstr ""
+msgstr "Noivo"
 
 msgid "Enter Password"
 msgstr "Digite a senha"
@@ -4883,7 +4879,7 @@ msgstr "Não foi possível obter nome do serv: %s"
 
 #, c-format
 msgid "Failed to initialize SASL authentication: %s"
-msgstr ""
+msgstr "Falha ao inicializar autenticação SASL: %s"
 
 msgid "Failed to join buddy in chat"
 msgstr "Falha ao ingressar amigo no bate-papo"
@@ -5632,7 +5628,7 @@ msgid "Host Unknown"
 msgstr "Host desconhecido"
 
 msgid "Host name"
-msgstr ""
+msgstr "Nome do host"
 
 msgid "Hostname"
 msgstr "Nome do host"
@@ -5821,7 +5817,7 @@ msgid "Iconify on Away"
 msgstr "Minimizar enquanto ausente"
 
 msgid "Ident name"
-msgstr ""
+msgstr "Identificação"
 
 #. Never know what those translations might end up like...
 #. Idle stuff
@@ -5906,7 +5902,7 @@ msgid "In Love"
 msgstr "Apaixonado"
 
 msgid "In a relationship"
-msgstr ""
+msgstr "Em um relacionamento"
 
 msgid "In awe"
 msgstr "Admirado"
@@ -5944,7 +5940,7 @@ msgid "Incorrect password"
 msgstr "Senha incorreta"
 
 msgid "Incorrect username or password"
-msgstr "Nome de usuário ou senha incorreto(a)"
+msgstr "Nome de usuário ou senha incorretos"
 
 msgid "Increase Font Size"
 msgstr "Aumentar tamanho da fonte"
@@ -6152,7 +6148,7 @@ msgid "Invalid username"
 msgstr "Nome de usuário inválido"
 
 msgid "Invalid username or password"
-msgstr "Nome de usuário ou senha inválido(a)"
+msgstr "Nome de usuário ou senha inválidos"
 
 msgid "Invert"
 msgstr "Inverter"
@@ -6231,7 +6227,7 @@ msgid "Is no longer idle"
 msgstr "Não estiver mais inativo"
 
 msgid "It's complicated"
-msgstr ""
+msgstr "É complicado"
 
 msgid "Italian"
 msgstr "Italiano"
@@ -6433,15 +6429,12 @@ msgstr "Último registro"
 msgid "Lastlog plugin."
 msgstr "Plug-in Lastlog"
 
-msgid "Later"
-msgstr "Depois"
-
 msgid "Latest News"
 msgstr "Última(s) notícia(s)"
 
 #. Launcher integration
 msgid "Launcher Icon"
-msgstr ""
+msgstr "Ícone do Lançador"
 
 msgid "Layout"
 msgstr "Layout"
@@ -6664,7 +6657,7 @@ msgid "Login error: %s (%i)"
 msgstr "Erro de login: %s (%i)"
 
 msgid "Login name"
-msgstr ""
+msgstr "Login"
 
 msgid "Logo"
 msgstr "Logotipo"
@@ -6829,7 +6822,7 @@ msgid "Markerline"
 msgstr "Marcatexto"
 
 msgid "Married"
-msgstr ""
+msgstr "Casado"
 
 msgid "Master archive is misconfigured"
 msgstr "O arquivo mestre está mal configurado"
@@ -7031,7 +7024,7 @@ msgstr "Mensagem:"
 
 #. Messaging menu integration
 msgid "Messaging Menu"
-msgstr ""
+msgstr "Menu de Mensagens"
 
 #. The names of IM clients are marked for translation at the request of
 #. translators who wanted to transliterate them.  Many translators
@@ -7318,9 +7311,6 @@ msgstr "Nova pessoa"
 
 msgid "New Pounces"
 msgstr "Nova ação de usuário"
-
-msgid "New Version Available"
-msgstr "Nova versão disponível"
 
 msgid "New _Message..."
 msgstr "Nova mensagem..."
@@ -8268,9 +8258,7 @@ msgid "Please Update the necessary fields."
 msgstr "Por favor, atualize os campos necessários."
 
 msgid "Please authorize me so I can add you to my buddy list."
-msgstr ""
-"Por favor, me autorize para que eu possa adicioná-lo(a) à minha lista de "
-"amigos."
+msgstr "Por favor, me autorize a te adicionar à minha lista de amigos."
 
 msgid "Please enter a buddy to pounce."
 msgstr "Favor digitar o amigo que terá a ação."
@@ -8670,13 +8658,13 @@ msgstr "Fornece integração com o Evolution."
 
 #. *  description
 msgid "Provides integration with Unity's messaging menu and launcher."
-msgstr ""
+msgstr "Oferece integração com o menu de mensagens e o lançador do Unity."
 
 #. *< name
 #. *< version
 #. *  summary
 msgid "Provides integration with Unity."
-msgstr ""
+msgstr "Oferece integração com o Unity"
 
 msgid ""
 "Provides options specific to Pidgin for Windows, such as buddy list docking."
@@ -9000,7 +8988,7 @@ msgstr "Mensagem de rejeição"
 
 #. relationship status
 msgid "Relationship Status"
-msgstr ""
+msgstr "Status de relacionamento"
 
 msgid "Relaxed"
 msgstr "Relaxado"
@@ -9008,15 +8996,6 @@ msgstr "Relaxado"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Servidor de Relay (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Notificação de nova versão"
 
 msgid "Relieved"
 msgstr "Aliviado"
@@ -9305,21 +9284,23 @@ msgstr "Autenticação SASL mal sucedida"
 
 #, c-format
 msgid "SASL authentication failed: %s"
-msgstr ""
+msgstr "Falha na autenticação SASL: %s"
 
 msgid "SASL authentication failed: Initializing SASL failed."
-msgstr ""
+msgstr "Falha na autenticação SASL: a inicialização falhou."
 
 msgid ""
 "SASL authentication failed: No worthy authentication mechanisms found."
 msgstr ""
+"Falha na autenticação SASL: nenhum mecanismo de autenticação adequado foi "
+"encontrado."
 
 msgid "SASL authentication failed: No worthy mechanisms found"
-msgstr ""
+msgstr "Falha na autenticação SASL: nenhum mecanismo adequado foi encontrado"
 
 msgid ""
 "SASL authentication failed: Server does not support SASL authentication."
-msgstr ""
+msgstr "Falha na autenticação SASL: recurso não suportado pelo servidor."
 
 #, c-format
 msgid "SASL error: %s"
@@ -9817,13 +9798,13 @@ msgstr ""
 "por número"
 
 msgid "Separated"
-msgstr ""
+msgstr "Separado"
 
 msgid "Serbian"
 msgstr "Sérvio"
 
 msgid "Serbian Latin"
-msgstr ""
+msgstr "Sérvio latino"
 
 msgid "Serious"
 msgstr "Sério"
@@ -10109,6 +10090,7 @@ msgstr "Exibir informações _detalhadas"
 
 msgid "Show _elapsed time for unread conversations in messaging menu"
 msgstr ""
+"Mostrar o tempo _decorrido para conversas não lidas no menu de mensagens"
 
 msgid "Show _formatting on incoming messages"
 msgstr "Mostrar _formatação nas mensagens recebidas"
@@ -10129,13 +10111,13 @@ msgid "Show headline in status text"
 msgstr "Exibir frase na mensagem de status"
 
 msgid "Show number of _unread messages for conversations in messaging menu"
-msgstr ""
+msgstr "Exibir o número de conversas _não lidas no menu de mensagens"
 
 msgid "Show number of unread _messages on launcher icon"
-msgstr ""
+msgstr "Exibir o número de _mensagens não lidas no ícone do lançador"
 
 msgid "Show number of unread co_nversations on launcher icon"
-msgstr ""
+msgstr "Exibir o número de _conversas não lidas no ícone do lançador"
 
 msgid "Show status to:"
 msgstr "Mostrar status para:"
@@ -10198,7 +10180,7 @@ msgid "Simplified Chinese"
 msgstr "Chinês Simplificado"
 
 msgid "Single"
-msgstr ""
+msgstr "Solteiro"
 
 #. TODO: Find what the handle ought to be
 msgid "Single-use Certificate Verification"
@@ -10825,6 +10807,8 @@ msgid ""
 "The account has disconnected and you are no longer in this chat. You will "
 "automatically rejoin the chat when the account reconnects."
 msgstr ""
+"A conta foi desconectada e você não está mais neste bate-papo. Você "
+"retornará automaticamente quando a conta for reconectada."
 
 msgid ""
 "The account has disconnected and you are no longer in this chat. You will be "
@@ -11294,15 +11278,15 @@ msgid ""
 "following reason:\n"
 "%s"
 msgstr ""
-"O usuário %u negou seu pedido para adicioná-lo(a) à sua lista de amigos com "
-"o seguinte motivo:\n"
+"O usuário %u negou seu pedido para adicioná-lo à sua lista de amigos pelo "
+"seguinte motivo:\n"
 "%s"
 
 #. Someone has granted you authorization
 #, c-format
 msgid "The user %u has granted your request to add them to your buddy list."
 msgstr ""
-"O usuário %u aceitou seu pedido para adicioná-lo(a) à sua lista de amigos."
+"O usuário %u aceitou seu pedido para adicioná-lo à sua lista de amigos."
 
 msgid "The user has blocked you"
 msgstr "O usuário bloqueou você"
@@ -11616,7 +11600,7 @@ msgstr "Tópico"
 
 #, c-format
 msgid "Topic for %s set by %s at %s on %s"
-msgstr ""
+msgstr "Tópico de %s definido por %s às %s de %s"
 
 msgid "Topic too long"
 msgstr "Tópico muito extenso"
@@ -11852,7 +11836,7 @@ msgstr "Não foi possível recuperar lista de amigos"
 
 #. file read error
 msgid "Unable to access the local file"
-msgstr ""
+msgstr "Não foi possível acessar o arquivo local"
 
 #. only notify the user about problems adding to the friends list
 #. * maybe we should do something else for other lists, but it probably
@@ -12141,7 +12125,7 @@ msgstr ""
 
 #, c-format
 msgid "Unable to initiate media with %s: resource is not online"
-msgstr ""
+msgstr "Não foi possível iniciar mídia com %s: o recurso não está online"
 
 #, c-format
 msgid "Unable to initiate media with %s: user is not online"
@@ -12188,6 +12172,8 @@ msgstr "Não foi possível abrir URL"
 
 msgid "Unable to open URL: the 'Manual' browser command seems invalid."
 msgstr ""
+"Não é possível abrir o endereço: o comando manual para o navegador parece "
+"inválido."
 
 msgid "Unable to open a listening port."
 msgstr "Não foi possível abrir uma porta para escuta."
@@ -12240,7 +12226,7 @@ msgstr "Não foi possível salvar nova conta"
 
 #. file write error
 msgid "Unable to save the file"
-msgstr ""
+msgstr "Não foi possível salvar o arquivo"
 
 msgid "Unable to send email"
 msgstr "Não foi possível enviar email."
@@ -12405,7 +12391,7 @@ msgstr "Unidade"
 #. *< priority
 #. *< id
 msgid "Unity Integration"
-msgstr ""
+msgstr "Integração com Unity"
 
 msgid "Unknown"
 msgstr "Desconhecido"
@@ -13011,7 +12997,7 @@ msgstr "Webcams"
 
 #, c-format
 msgid "Website: %s"
-msgstr ""
+msgstr "Website: %s"
 
 msgid "Welcome back!"
 msgstr "Bem vindo de volta!"
@@ -13122,7 +13108,7 @@ msgid "Whole words only"
 msgstr "Apenas palavras inteiras"
 
 msgid "Widowed"
-msgstr ""
+msgstr "Viúvo"
 
 msgid "Windows Live ID authentication:Invalid response"
 msgstr "Autenticação do Windows Live ID:Resposta inválida"
@@ -13517,10 +13503,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "Você pode se desconectar de outros locais aqui"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Você pode atualizar para %s %s hoje."
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -14106,7 +14088,7 @@ msgid "_Disable"
 msgstr "_Desativar"
 
 msgid "_Disable launcher integration"
-msgstr ""
+msgstr "_Desabilitar integração com o lançador"
 
 msgid "_Dockable Buddy List"
 msgstr "Lista de _amigos ancorável"
@@ -15119,42 +15101,3 @@ msgstr "zl &lt;usuário&gt;:  Localiza o usuário"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;usuário&gt;: Localiza o usuário"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-RESPOSTA>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-RESPOSTA> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">O gerador de histórico não tem funções de "
-#~ "leitura</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "RESPOSTA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "RESPOSTA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Não foi possível ler o arquivo: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Não foi possível encontrar o caminho do "
-#~ "histórico!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "\"<font color='#777777'>Desconectado.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Não conectado ao XMPP</font>"

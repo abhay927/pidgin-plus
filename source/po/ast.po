@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:28+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Asturian "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:37+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:30+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Asturian\n"
 
@@ -1102,6 +1102,9 @@ msgid "/Conversation/_Save As..."
 msgstr ""
 
 msgid "/Conversation/_Unblock..."
+msgstr ""
+
+msgid "/Help/Check for _Updates..."
 msgstr ""
 
 msgid "/Help/De_veloper Information"
@@ -3127,18 +3130,6 @@ msgstr ""
 msgid "Checks for new local mail."
 msgstr ""
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Comprueba davezu por versiones nueves."
-
 msgid "Choose Location..."
 msgstr "Esbillar cartafueyu..."
 
@@ -4028,9 +4019,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr ""
-
-msgid "Download Now"
-msgstr "Baxar agora"
 
 msgid "Draw Markerline in "
 msgstr ""
@@ -6193,9 +6181,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Plugin Lastlog."
 
-msgid "Later"
-msgstr "Sero"
-
 msgid "Latest News"
 msgstr "Caberes anuncies"
 
@@ -7042,9 +7027,6 @@ msgstr ""
 
 msgid "New Pounces"
 msgstr ""
-
-msgid "New Version Available"
-msgstr "Disponible versión nueva"
 
 msgid "New _Message..."
 msgstr ""
@@ -8703,15 +8685,6 @@ msgstr "Relaxáu"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr ""
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Notificación de versión nueva"
 
 msgid "Relieved"
 msgstr "Alliviáu"
@@ -13028,10 +13001,6 @@ msgid "You can sign out from other locations here"
 msgstr "Pequí pues desconeutate dende otros llugares"
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Pues anovar güei a %s %s."
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr "Atayesti la tresferencia de %s"
 
@@ -14517,41 +14486,3 @@ msgstr "zl &lt;alcuñu&gt;: Llocalizar usuariu"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;alcuñu&gt;: Llocalizar usuariu"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-REPLY>: %s⏎\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-REPLY> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">El rexistrador nun tien función de llectura</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Nun pue lleese'l ficheru: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>¡Nun pue alcontrase'l cartafueyu de "
-#~ "rexistros!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Desconeutáu.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Non coneutáu a XMPP</font>"

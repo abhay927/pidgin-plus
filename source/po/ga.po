@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:44+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:41+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Irish\n"
 
@@ -1197,6 +1197,9 @@ msgstr "/Comhrá/_Sábháil Mar..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Comhrá/_Bain Cosc..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Cabhair/Eolas d'_Fhorbróirí"
@@ -3316,20 +3319,6 @@ msgstr "Féach an bhfuil cead agat agus bain triail eile as."
 msgid "Checks for new local mail."
 msgstr "Seiceálann sé an bhfuil ríomhphost nua agat."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Lorgaíonn sé leaganacha nua go rialta, agus taispeánann sé an ChangeLog don "
-"úsáideoir."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Lorgaíonn sé leaganacha nua go rialta."
-
 msgid "Choose Location..."
 msgstr "Roghnaigh Suíomh..."
 
@@ -4235,9 +4224,6 @@ msgstr "Níor mhaith liom a rá"
 #, c-format
 msgid "Download %s: %s"
 msgstr "Íosluchtaigh %s: %s"
-
-msgid "Download Now"
-msgstr "Íosluchtaigh Anois"
 
 msgid "Draw Markerline in "
 msgstr "Cuir Líne Mharcóra i "
@@ -6433,9 +6419,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Breiseán Lastlog."
 
-msgid "Later"
-msgstr "Ar Ball"
-
 msgid "Latest News"
 msgstr "An Nuacht Is Déanaí"
 
@@ -7327,9 +7310,6 @@ msgstr "Duine Nua"
 
 msgid "New Pounces"
 msgstr "Forráin Nua"
-
-msgid "New Version Available"
-msgstr "Leagan Nua Ar Fáil"
 
 msgid "New _Message..."
 msgstr "_Teachtaireacht Nua..."
@@ -9011,15 +8991,6 @@ msgstr "Ar Mo Shuaimhneas"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Freastalaí Athsheachadáin (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Fógra: Leagan Nua"
 
 msgid "Relieved"
 msgstr "Fuascailte"
@@ -13538,10 +13509,6 @@ msgid "You can sign out from other locations here"
 msgstr "Is féidir logáil amach ó áiteanna eile anseo"
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Is féidir leat %s %s a shuiteáil inniu."
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr "Chealaigh tú aistriú %s"
 
@@ -15155,41 +15122,3 @@ msgstr "zl &lt;leasainm&gt;: Aimsigh úsáideoir"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;leasainm&gt;: Aimsigh úsáideoir"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <UATH-FHREAGRA>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<UATH-FHREAGRA> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">Ní féidir leis an logálaí léamh</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;UATH-"
-#~ "FHREAGRA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;UATH-"
-#~ "FHREAGRA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Níorbh fhéidir an comhad a léamh: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Ní féidir comhadlann na logchomhad a "
-#~ "aimsiú!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Logáilte amach.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Gan ceangal le XMPP</font>"

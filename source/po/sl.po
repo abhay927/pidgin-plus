@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Slovenian "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Launchpad-Export-Date: 2014-08-31 08:02+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:01+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Slovenian\n"
 
@@ -1200,6 +1200,9 @@ msgstr "/Pogovor/_Shrani kot ..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Pogovor/Pre_kliči zavrnitev ..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Pomoč/Podatki o _razvijalcih"
@@ -3306,20 +3309,6 @@ msgstr "Preveri dovoljenja in poskusi znova."
 msgid "Checks for new local mail."
 msgstr "Preveri morebitno novoprispelo pošto."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Preverja, ali je na voljo nova različica in uporabika seznanja z dnevnikom "
-"sprememb."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Preverjaj, ali je na voljo nova različica."
-
 msgid "Choose Location..."
 msgstr "Izberi mesto ..."
 
@@ -4222,9 +4211,6 @@ msgstr "Ne želim o tem"
 #, c-format
 msgid "Download %s: %s"
 msgstr "Prenesi %s: %s"
-
-msgid "Download Now"
-msgstr "Prenesi zdaj"
 
 msgid "Draw Markerline in "
 msgstr "Nariši označevalno črto v "
@@ -6417,9 +6403,6 @@ msgstr "Lastlog (Zadnji dnevnik)"
 msgid "Lastlog plugin."
 msgstr "Vtičnik Lastlog."
 
-msgid "Later"
-msgstr "Kasneje"
-
 msgid "Latest News"
 msgstr "Zadnje novice"
 
@@ -7294,9 +7277,6 @@ msgstr "Nova oseba"
 
 msgid "New Pounces"
 msgstr "Nova opozorila prijatelja"
-
-msgid "New Version Available"
-msgstr "Na voljo je nova različica."
 
 msgid "New _Message..."
 msgstr "Novo s_poročilo ..."
@@ -8967,15 +8947,6 @@ msgstr "Sproščen"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Relejski strežnik (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Obvestilo o izdaji"
 
 msgid "Relieved"
 msgstr "Odleglo mi je"
@@ -13457,10 +13428,6 @@ msgid "You can sign out from other locations here"
 msgstr "Tukaj se lahko odjavite z drugih mest"
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Danes lahko nadgradite %s na različico %s."
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr "Preklicali ste prenos %s"
 
@@ -15064,38 +15031,3 @@ msgstr "zl &lt;vzdevek&gt;: Najdi uporabnika"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;vzdevek&gt;: Najdi uporabnika"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-REPLY>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<SAMODEJNI ODGOVOR> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">Beleženje nima možnosti branja</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;SAMODEJNI "
-#~ "ODGOVOR&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;SAMODEJNI "
-#~ "ODGOVOR&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Ni mogoče brati datoteke: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>Ni mogoče najti poti do dnevnika!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Odjavljeni.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>V XMPP niste prijavljeni</font>"

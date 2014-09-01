@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Dutch "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:41+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:37+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Dutch\n"
 
@@ -1177,6 +1177,9 @@ msgstr "/Gesprek/Opslaan _als..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Gesprek/_Deblokkeren..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Hulp/Ont_wikkelaarsinformatie"
@@ -3290,20 +3293,6 @@ msgstr "Controleer permissies en probeer het opnieuw."
 msgid "Checks for new local mail."
 msgstr "Controleert op lokale e-mail."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Controleert regelmatig of er een nieuwe versie beschikbaar is en presenteert "
-"de veranderingen aan de gebruiker."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Controleert regelmatig of er een nieuwe versie beschikbaar is."
-
 msgid "Choose Location..."
 msgstr "Kies locatie..."
 
@@ -4209,9 +4198,6 @@ msgstr "Zeg ik liever niet"
 #, c-format
 msgid "Download %s: %s"
 msgstr "Download %s: %s"
-
-msgid "Download Now"
-msgstr "Download nu"
 
 msgid "Draw Markerline in "
 msgstr "Teken Markeerlijn in: "
@@ -6404,9 +6390,6 @@ msgstr "Geschiedenis"
 msgid "Lastlog plugin."
 msgstr "Geschiedenis plug-in."
 
-msgid "Later"
-msgstr "Later"
-
 msgid "Latest News"
 msgstr "Laatste nieuws"
 
@@ -7283,9 +7266,6 @@ msgstr "Nieuw persoon"
 
 msgid "New Pounces"
 msgstr "Nieuwe Alarmeringen"
-
-msgid "New Version Available"
-msgstr "Nieuwe versie beschikbaar"
 
 msgid "New _Message..."
 msgstr "Nieuw _bericht..."
@@ -8961,15 +8941,6 @@ msgstr "Ontspannen"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Relay Server (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Melding bij nieuwe versie van Pidgin"
 
 msgid "Relieved"
 msgstr "Opgelucht"
@@ -13479,10 +13450,6 @@ msgid "You can sign out from other locations here"
 msgstr "U kunt u hier bij andere locaties afmelden."
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Nieuwe versie %s %s nu beschikbaar."
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr "U annuleerde de overdracht van %s"
 
@@ -15084,38 +15051,3 @@ msgstr "zl &lt;nick&gt;: Gebruiker zoeken"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: Gebruiker zoeken"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-ANTWOORD>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-ANTWOORD> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">De logger heeft geen leesfunctie</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "ANTWOORD&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "ANTWOORD&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Kan bestand niet lezen: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>Kan pad naar logboek niet vinden!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Afgemeld.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Niet verbonden met XMPP</font>"

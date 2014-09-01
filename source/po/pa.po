@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:30+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Panjabi (Punjabi) "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:57+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:55+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Punjabi\n"
 
@@ -1156,6 +1156,9 @@ msgstr "/ਗੱਲਬਾਤ/...ਵਜੋਂ ਸੰਭਾਲੋ(_S)"
 
 msgid "/Conversation/_Unblock..."
 msgstr "/ਗੱਲਬਾਤ/...ਪਾਬੰਦੀ ਹਟਾਓ(_U)"
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/ਮੱਦਦ/ਡਿਵੈਲਪਰ ਜਾਣਕਾਰੀ(_v)"
@@ -3247,18 +3250,6 @@ msgstr "ਅਧਿਕਾਰਾਂ ਦੀ ਜਾਂਚ ਕਰਕੇ ਮੁੜ-ਟ�
 msgid "Checks for new local mail."
 msgstr "ਨਵੀਆਂ ਲੋਕਲ ਆਉਣ ਵਾਲੀਆਂ ਮੇਲਾਂ ਦੀ ਜਾਂਚ"
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr "ਨਵੀਂ ਵਰਜਨ ਲਈ ਨਿਯਮਤ ਜਾਂਚ ਕਰੋ ਅਤੇ ਯੂਜ਼ਰ ਨੂੰ ChangeLog ਲਈ ਵੇਖੋ।"
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "ਨਵੀਂ ਵਰਜਨ ਲਈ ਨਿਯਮਤ ਜਾਂਚ ਕਰੋ।"
-
 msgid "Choose Location..."
 msgstr "ਟਿਕਾਣਾ ਚੁਣੋ..."
 
@@ -4157,9 +4148,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "%s ਡਾਊਨਲੋਡ: %s"
-
-msgid "Download Now"
-msgstr "ਹੁਣੇ ਡਾਊਨਲੋਡ"
 
 msgid "Draw Markerline in "
 msgstr "ਮਾਰਕ-ਲਾਈਨ ਬਣਾਓ "
@@ -6343,9 +6331,6 @@ msgstr "ਆਖਰੀ-ਲਾਗ"
 msgid "Lastlog plugin."
 msgstr "ਆਖਰੀ-ਲਾਗ ਪਲੱਗਇਨ"
 
-msgid "Later"
-msgstr "ਬਾਅਦ ਵਿੱਚ"
-
 msgid "Latest News"
 msgstr "ਤਾਜ਼ੀਆਂ ਖਬਰਾਂ"
 
@@ -7211,9 +7196,6 @@ msgstr "ਨਵਾਂ ਵਿਅਕਤੀ"
 
 msgid "New Pounces"
 msgstr "ਨਵਾਂ ਪਉਨਸ"
-
-msgid "New Version Available"
-msgstr "ਨਵਾਂ ਵਰਜਨ ਉਪਲੱਬਧ ਹੈ"
 
 msgid "New _Message..."
 msgstr "ਨਵਾਂ ਸੁਨੇਹਾ(_M)..."
@@ -8871,15 +8853,6 @@ msgstr "ਸੁਸਤ"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "ਰੀਲੇਅ ਸਰਵਰ (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "ਜਾਰੀ ਸੂਚਨਾ"
 
 msgid "Relieved"
 msgstr "ਆਰਾਮ 'ਚ"
@@ -13272,10 +13245,6 @@ msgid "You can sign out from other locations here"
 msgstr "ਤੁਸੀਂ ਹੋਰ ਟਿਕਾਣਿਆਂ ਤੋਂ ਇੱਥੋਂ ਸਾਈਨ ਆਉਟ ਕਰ ਸਕਦੇ ਹੋ"
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "ਤੁਸੀਂ ਅੱਜ %s %s ਲਈ ਅੱਪਗਰੇਡ ਕੀਤਾ ਹੈ।"
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr "ਤੁਸੀਂ %s ਲਈ ਟਰਾਂਸਫਰ ਰੱਦ ਕੀਤਾ"
 
@@ -14836,38 +14805,3 @@ msgstr "zl &lt;nick&gt;: ਯੂਜ਼ਰ ਖੋਜੋ"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: ਯੂਜ਼ਰ ਖੋਜ"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-REPLY>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-REPLY> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">ਲਾਗਰ ਕੋਲ ਪੜਨ ਲਈ ਕੋਈ ਫੰਕਸ਼ਨ ਨਹੀਂ ਹੈ</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;ਸਵੈ-"
-#~ "ਜਵਾਬ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;ਸਵੈ-"
-#~ "ਜਵਾਬ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>ਫਾਇਲ ਪੜੀ ਨਹੀਂ ਜਾ ਸਕੀ: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>ਲਾਗ ਮਾਰਗ ਖੋਜਣ ਲਈ ਅਸਫਲ!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>ਲਾਗਆਉਟ।</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>XMPP ਨਾਲ ਕੁਨੈਕਟ ਨਹੀਂ ਹੈ</font>"

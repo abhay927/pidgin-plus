@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Galician <g11n@mancomun.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:45+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:42+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Galician\n"
 
@@ -1160,6 +1160,9 @@ msgstr "/Conversa/_Gardar como..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Conversa/_Desbloquear..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr ""
@@ -3258,20 +3261,6 @@ msgstr "Verifique os permisos e ténteo de novo."
 msgid "Checks for new local mail."
 msgstr "Comproba se hai correo local novo."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Comproba periodicamente se hai novas versións dispoñíbeis e notifica ao "
-"usuario co rexistro de cambios."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Comproba periodicamente a existencia de novas versións."
-
 msgid "Choose Location..."
 msgstr "Seleccionar localización..."
 
@@ -4175,9 +4164,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "Descarga de %s: %s"
-
-msgid "Download Now"
-msgstr "Descargar agora"
 
 msgid "Draw Markerline in "
 msgstr "Debuxar o subliñado en "
@@ -6368,9 +6354,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Complemento de Lastlog."
 
-msgid "Later"
-msgstr "Máis tarde"
-
 msgid "Latest News"
 msgstr "Últimas novas"
 
@@ -7252,9 +7235,6 @@ msgstr "Nova persoa"
 
 msgid "New Pounces"
 msgstr "Novo aviso do seu contacto"
-
-msgid "New Version Available"
-msgstr "Nova versión dispoñíbel"
 
 msgid "New _Message..."
 msgstr "Nova _mensaxe..."
@@ -8927,15 +8907,6 @@ msgstr ""
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Servidor de reenvío (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Notificación de versións"
 
 msgid "Relieved"
 msgstr ""
@@ -13385,10 +13356,6 @@ msgid "You can sign out from other locations here"
 msgstr ""
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Pode actualizar hoxe á %s %s."
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr ""
 
@@ -14963,41 +14930,3 @@ msgstr "zl &lt;alias&gt;: Localizar un usuario"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;alias&gt;: Localizar un usuario"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <RESPOSTA AUTOMÁTICA>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<RESPOSTA AUTOMÁTICA> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">O rexistro non ten función de lectura</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;RESPOSTA "
-#~ "AUTOMÁTICA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;RESPOSTA "
-#~ "AUTOMÁTICA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Non se puido ler o ficheiro: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Non se puido encontrar o camiño do "
-#~ "rexistro!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Desconectado.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Non conectado ao XMPP</font>"

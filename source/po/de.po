@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:27+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:44+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:41+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: German\n"
 
@@ -1198,6 +1198,9 @@ msgstr "/Unterhaltung/S_peichern als..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Unterhaltung/_Entsperren..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Hilfe/_Entwickler-Informationen"
@@ -3319,20 +3322,6 @@ msgstr "Überprüfen Sie die Berechtigungen und versuchen Sie es erneut."
 msgid "Checks for new local mail."
 msgstr "Überprüft, ob es neue lokale Mails gibt."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Prüft regelmäßig, ob neue Versionen verfügbar sind und zeigt die Änderungen "
-"an."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Prüft regelmäßig, ob neue Versionen verfügbar sind."
-
 msgid "Choose Location..."
 msgstr "Wählen Sie einen Ort..."
 
@@ -4251,9 +4240,6 @@ msgstr "Das möchte ich nicht sagen"
 #, c-format
 msgid "Download %s: %s"
 msgstr "Download %s: %s"
-
-msgid "Download Now"
-msgstr "Jetzt herunterladen"
 
 msgid "Draw Markerline in "
 msgstr "Zeichne eine Markierungslinie in "
@@ -6461,9 +6447,6 @@ msgstr "Verlauf"
 msgid "Lastlog plugin."
 msgstr "Verlauf-Plugin."
 
-msgid "Later"
-msgstr "Später"
-
 msgid "Latest News"
 msgstr "Letzte Neuigkeiten"
 
@@ -7360,9 +7343,6 @@ msgstr "Neue Person"
 
 msgid "New Pounces"
 msgstr "Neuer Alarm"
-
-msgid "New Version Available"
-msgstr "Neue Version verfügbar"
 
 msgid "New _Message..."
 msgstr "_Neue Nachricht..."
@@ -9063,15 +9043,6 @@ msgstr "Entspannt"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Relay-Server (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Release-Benachrichtigung"
 
 msgid "Relieved"
 msgstr "Erleichtert"
@@ -13610,10 +13581,6 @@ msgid "You can sign out from other locations here"
 msgstr "Sie können andere Orte von hier abmelden"
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Sie können heute auf %s %s aktualisieren."
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr "Sie haben die Dateiübertragung von %s abgebrochen"
 
@@ -15245,40 +15212,3 @@ msgstr "zl &lt;Spitzname&gt;: Benutzer suchen"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;Spitzname&gt;: Benutzer suchen"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-REPLY>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-REPLY> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">Der Logger hat keine Lesefunktion</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Kann folgende Datei nicht lesen: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Kann den Mitschnitt-Pfad nicht finden!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Abgemeldet.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Nicht mit XMPP verbunden</font>"

@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:40+0000\n"
 "Last-Translator: cubells <vicent@vcubells.net>\n"
 "Language-Team: Catalan <tradgnome@softcatala.net>\n"
@@ -39,7 +39,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 08:13+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:12+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Catalan (Valencian)\n"
 
@@ -1204,6 +1204,9 @@ msgstr "/Conversa/Anomena i al_ça..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Conversa/Desb_loca..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Ajuda/Informació sobre els d_esenvolupadors"
@@ -3333,20 +3336,6 @@ msgstr "Comproveu-ne el permís i proveu-ho de nou."
 msgid "Checks for new local mail."
 msgstr "Comprova si hi ha correu nou a la màquina local."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Comprova periòdicament si hi ha versions noves i vos ho notifica juntament "
-"amb el seu registre de canvis."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Comprova periòdicament si hi ha versions noves."
-
 msgid "Choose Location..."
 msgstr "Escolliu una ubicació..."
 
@@ -4260,9 +4249,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "Baixada %s: %s"
-
-msgid "Download Now"
-msgstr "Baixa-la ara"
 
 msgid "Draw Markerline in "
 msgstr "Dibuixa la línia de marca a "
@@ -6475,9 +6461,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Connector lastlog."
 
-msgid "Later"
-msgstr "Més tard"
-
 msgid "Latest News"
 msgstr "Notícies recents"
 
@@ -7371,9 +7354,6 @@ msgstr "Persona nova"
 
 msgid "New Pounces"
 msgstr "Avisos nous"
-
-msgid "New Version Available"
-msgstr "Nova versió disponible"
 
 msgid "New _Message..."
 msgstr "_Missatge nou..."
@@ -9063,15 +9043,6 @@ msgstr "Relaxat"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Servidor repetidor (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Notificació de versions noves"
 
 msgid "Relieved"
 msgstr "Alleujat"
@@ -13567,10 +13538,6 @@ msgid "You can sign out from other locations here"
 msgstr "Podeu desconnectar-vos d'altres ubicacions ací"
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Podeu actualitzar-vos a %s %s hui."
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr "Heu cancel·lat la transferència de %s"
 
@@ -15160,40 +15127,3 @@ msgstr "zl &lt;sobrenom&gt;: localitza l'usuari"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;sobrenom&gt;: localitza l'usuari"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <RESPOSTA-AUTOMÀTICA>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<RESPOSTA-AUTOMÀTICA> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">El registrador no té cap funció de lectura</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "RESPOSTA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "RESPOSTA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>No s'ha pogut llegir el fitxer: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>No s'ha pogut trobar la ruta del registre.</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Desconnectat.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>No esteu connectat a XMPP</font>"

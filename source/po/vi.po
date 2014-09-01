@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CVS Version of Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Nguyen Vu Hung <vuhung16plus@gmail.com>\n"
 "Language-Team: Du an MOST <du-an-most@lists.hanoilug.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-31 08:08+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:06+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Vietnamese\n"
 
@@ -1154,6 +1154,9 @@ msgstr "/Cuộc thoại/_Lưu dạng..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Cuộc thoại/Bỏ _chặn..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Trợ giúp/Thông tin nhà _phát triển"
@@ -3251,20 +3254,6 @@ msgstr "Hãy kiểm tra quyền hạn, rồi thử lại."
 msgid "Checks for new local mail."
 msgstr "Kiểm tra có thư cục bộ mới"
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Kiểm tra phiên bản mới theo định kỳ và thông báo về thay đổi của phiên bản "
-"mới cho người dùng."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Kiểm tra phiên bản mới theo định kỳ."
-
 msgid "Choose Location..."
 msgstr "Chọn địa chỉ..."
 
@@ -4165,9 +4154,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "Tải về %s: %s"
-
-msgid "Download Now"
-msgstr "Tải về ngay"
 
 msgid "Draw Markerline in "
 msgstr "Vẽ đường ngụ ý trong "
@@ -6363,9 +6349,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Phần bổ sung lastlog."
 
-msgid "Later"
-msgstr "Về sau"
-
 msgid "Latest News"
 msgstr "Tin tức"
 
@@ -7245,9 +7228,6 @@ msgstr "Người dùng mới"
 
 msgid "New Pounces"
 msgstr "Thông báo mới"
-
-msgid "New Version Available"
-msgstr "Hiện đang có phiên bản mới"
 
 msgid "New _Message..."
 msgstr "tin nhắn _mới..."
@@ -8923,15 +8903,6 @@ msgstr "Thanh thản"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Máy phục vụ tiếp lại (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Thông báo phát hành"
 
 msgid "Relieved"
 msgstr "Yên lòng"
@@ -13358,10 +13329,6 @@ msgid "You can sign out from other locations here"
 msgstr "Bạn có thể đăng xuất từ khác địa điểm khác ở đây"
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Hôm nay bạn có dịp nâng cấp lên %s %s."
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr "Bạn đã thôi tiến trình truyền %s"
 
@@ -14959,40 +14926,3 @@ msgstr "zl &lt;tên hiệu&gt;: (viết tắt) Định vị người dùng"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;tên hiệu&gt;: Định vị người dùng"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <Trả Lời-Tự Động>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<TỰ_ĐỘNG_ĐÁP_ỨNG> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">Trình ghi lưu không có chức năng đọc</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;Trả-Lời-Tự-"
-#~ "Động&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;Trả-Lời-Tự-"
-#~ "Động&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Không thể đọc tập tin: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Không tìm được đường dẫn tới bản ghi.</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Đã đăng xuất.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Chưa kết nối tới XMPP</font>"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:28+0000\n"
 "Last-Translator: Stéphane Fillod <f8cfe@free.fr>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:42+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:38+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Esperanto\n"
 
@@ -1084,6 +1084,9 @@ msgstr "/Konversacio/_Konservu Kiel..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/KConversacio/_Malbloku..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr ""
@@ -3118,19 +3121,6 @@ msgstr ""
 msgid "Checks for new local mail."
 msgstr ""
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Kontrolu ofte por noaj eldonoj kaj avizu la uzanton kun la ŝanĝprotokolo."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Kontrolu ofte por novaj eldonoj"
-
 msgid "Choose Location..."
 msgstr "Elektu Lokon..."
 
@@ -4005,9 +3995,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr ""
-
-msgid "Download Now"
-msgstr "Elŝuti Nun"
 
 msgid "Draw Markerline in "
 msgstr ""
@@ -6147,9 +6134,6 @@ msgstr "Lastprotokolo"
 msgid "Lastlog plugin."
 msgstr "Lastaprotokolo kromaĵo."
 
-msgid "Later"
-msgstr "Poste"
-
 msgid "Latest News"
 msgstr "Lastaj Novaĵoj"
 
@@ -6978,9 +6962,6 @@ msgstr "Nova persono"
 
 msgid "New Pounces"
 msgstr ""
-
-msgid "New Version Available"
-msgstr "Nova Versio Disponebla"
 
 msgid "New _Message..."
 msgstr "Nova _Mesaĝo..."
@@ -8623,15 +8604,6 @@ msgstr ""
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr ""
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Eldonavizo"
 
 msgid "Relieved"
 msgstr ""
@@ -12883,10 +12855,6 @@ msgid "You can sign out from other locations here"
 msgstr ""
 
 #, c-format
-msgid "You can upgrade to %s %s today."
-msgstr ""
-
-#, c-format
 msgid "You cancelled the transfer of %s"
 msgstr ""
 
@@ -14331,27 +14299,3 @@ msgstr ""
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr ""
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AŬTO-RESPONDO>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AŬTO-RESPONDO> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">La protokolilo ne havas legkapablon</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AŬTO-"
-#~ "RESPONDO&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AŬTO-"
-#~ "RESPONDO&gt;:</b></font> %s<br/>\n"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-30 20:34-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-31 07:50+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:47+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Kannada\n"
 
@@ -1198,6 +1198,9 @@ msgstr "/ಮಾತುಕತೆ/ಹೀಗೆ ಉಳಿಸು(_S)..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/ಮಾತುಕತೆ/ತಡೆಗಟ್ಟಿದ್ದನ್ನು ತೆಗೆದುಹಾಕು(_U)..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/ಸಹಾಯ/ ವಿಕಸನಗಾರರ ಮಾಹಿತಿ(_v)"
@@ -3314,20 +3317,6 @@ msgstr "ಅನುಮತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ನಂ�
 msgid "Checks for new local mail."
 msgstr "ಹೊಸ ಸ್ಥಳೀಯ ಅಂಚೆಗಾಗಿ ಪರೀಕ್ಷಿಸುತ್ತದೆ."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"ಹೊಸ ಬಿಡುಗಡೆಗಳಿಗಾಗಿ ಆಗಾಗ ಪರೀಕ್ಷಿಸುತ್ತದೆ ಮತ್ತು ಬಳಕೆದಾರನಿಗೆ ChangeLog ನೊಂದಿಗೆ "
-"ತಿಳಿಸುತ್ತದೆ."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "ಹೊಸ ಬಿಡುಗಡೆಗಳಿಗಾಗಿ ಆಗಾಗ ಪರೀಕ್ಷಿಸುತ್ತದೆ"
-
 msgid "Choose Location..."
 msgstr "ಸ್ಥಳವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ..."
 
@@ -4236,9 +4225,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "%s ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ : %s"
-
-msgid "Download Now"
-msgstr "ಈಗಲೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
 
 msgid "Draw Markerline in "
 msgstr "ಗುರುತುರೇಖೆಯನ್ನು ಇಲ್ಲಿ ಎಳೆಯಿರಿ "
@@ -6443,9 +6429,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "ಲಾಸ್ಟ್‌ಲಾಗ್ ಪ್ಲಗ್ಇನ್."
 
-msgid "Later"
-msgstr "ನಂತರ"
-
 msgid "Latest News"
 msgstr "ಇತ್ತೀಚಿನ ಸುದ್ದಿ"
 
@@ -7329,9 +7312,6 @@ msgstr "ಹೊಸ ವ್ಯಕ್ತಿ"
 
 msgid "New Pounces"
 msgstr "ಹೊಸ ತಟ್ಟನೆ ಕಾಣಿಸುವಿಕೆಗಳು"
-
-msgid "New Version Available"
-msgstr "ಹೊಸ ಆವೃತ್ತಿ ಲಭ್ಯ."
 
 msgid "New _Message..."
 msgstr "ಹೊಸ ಸಂದೇಶ(_M)..."
@@ -9017,15 +8997,6 @@ msgstr "ಶಾಂತ"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "ರಿಲೆ ಪರಿಚಾರಕ (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "ಬಿಡುಗಡೆಯ ಸೂಚನೆ"
 
 msgid "Relieved"
 msgstr "ನಿರಮ್ಮಳವಾದ"
@@ -13518,10 +13489,6 @@ msgstr ""
 msgid "You can sign out from other locations here"
 msgstr ""
 
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "ನೀವು ಇಂದು %s %s ಗೆ ನವೀಕರಿಸಬಹುದು."
-
 # , c-format
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -15144,40 +15111,3 @@ msgstr "zl &lt;nick&gt;: ಬಳಕೆದಾರರನ್ನು ಪತ್ತೆಮ
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ಅಡ್ಡಹೆಸರು&gt;: ಬಳಕೆದಾರರನ್ನು ಪತ್ತೆಮಾಡಿ"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <ತಂತಾನೇ-ಉತ್ತರ>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<ತಂತಾನೇ-ಉತ್ತರಿಸು> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">ದಾಖಲೆಗಾರನಲ್ಲಿ ಯಾವುದೆ ಓದುವ ಕ್ರಿಯೆ ಇಲ್ಲ</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;ತಂತಾನೆ-"
-#~ "ಉತ್ತರ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;ತಂತಾನೆ-"
-#~ "ಉತ್ತರ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>%s ಕಡತ ಓದಲು ಆಗಲಿಲ್ಲ</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>ದಾಖಲೆಯ ಮಾರ್ಗವನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>ಹೊರ ನಿರ್ಗಮಿಸಿದೆ.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>XMPP ಗೆ ಸಂಪರ್ಕಿತಗೊಂಡಿಲ್ಲ</font>"
