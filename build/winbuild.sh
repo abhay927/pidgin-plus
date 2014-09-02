@@ -178,9 +178,9 @@ if [[ ! -d "$staging" ]]; then
     mkdir -p "$staging"
 else
     echo "Updating $staging"
+    rm -f "$staging/local.mak"
 fi
 cp -rup "$source_dir/"* "$staging"
-cp -p "$source_dir/local.mak" "$staging"
 "$build_dir/changelog.sh" --html --output "$staging/CHANGES.html"
 
 # Code signing
@@ -188,11 +188,10 @@ cd "$staging"
 if [[ -n "$cert" || -n "$sign" ]]; then
     echo "Configuring code signing with GnuPG${cert:+ and Authenticode}"
     if [[ -n "$cert" ]]; then
-        rm local.mak
-        echo "SIGNTOOL_PFX = $cert" >> local.mak
+        echo "SIGNTOOL_PFX = $cert" > local.mak
         echo "GPG_SIGN = $gpg" >> local.mak
     else
-        sed -i "s/^GPG_SIGN.*/GPG_SIGN = $gpg/" local.mak
+        echo "GPG_SIGN = $gpg" > local.mak
     fi
 fi
 
