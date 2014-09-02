@@ -23,6 +23,7 @@
 ##                          source code packages are generated.
 ##
 ##         --make=TARGET    Execute an arbitrary makefile target.
+##         --no-bonjour     Disable the Bonjour protocol.
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##     -o, --offline        Build both the standard and offline installers.
 ##     -s, --source         Build the source code bundle together with the
@@ -82,7 +83,12 @@ fi
 source "$source_dir/colored.sh"
 
 # Output encoding and build functions
-domake() { ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" "${@:2}"; return $?;}
+domake() {
+    ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
+        SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
+        ${no_bonjour:+DISABLE_BONJOUR=yes} "${@:2}"
+    return $?
+}
 if [[ -n "$encoding" ]]; then
 	case "$encoding" in
 	default) iconv="iconv -f ${LANG##*.}" ;;
