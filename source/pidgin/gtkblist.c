@@ -3653,7 +3653,9 @@ static GtkItemFactoryEntry blist_menu[] =
 	{ N_("/Tools/Mute _Sounds"), NULL, pidgin_blist_mute_sounds_cb, 0, "<CheckItem>", NULL },
 	/* Help */
 	{ N_("/_Help"), NULL, NULL, 0, "<Branch>", NULL },
+#ifdef _WIN32
 	{ N_("/Help/Online _Help"), "F1", gtk_blist_show_onlinehelp_cb, 0, "<StockItem>", GTK_STOCK_HELP },
+#endif
 	{ N_("/Help/Check for _Updates..."), NULL, win_sparkle_check_update_with_ui, 0, "<StockItem>", GTK_STOCK_GOTO_BOTTOM },
 	{ "/Help/sep1", NULL, NULL, 0, "<Separator>", NULL },
 	{ N_("/Help/_Debug Window"), NULL, toggle_debug, 0, "<Item>", NULL },
