@@ -130,7 +130,8 @@ PIDGIN_LIBS =	\
 		-lgdk_pixbuf-2.0 \
 		-lgdi32 \
 		-lwinmm \
-		-lWinSparkle
+		-lWinSparkle \
+		-lcomctl32
 
 include $(PIDGIN_COMMON_RULES)
 

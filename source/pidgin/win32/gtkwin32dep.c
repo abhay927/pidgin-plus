@@ -37,6 +37,7 @@
 #include <gtk/gtk.h>
 #include <gdk/gdkwin32.h>
 #include <winsparkle.h>
+#include <commctrl.h>
 
 #include "debug.h"
 #include "notify.h"
@@ -388,9 +389,15 @@ winpidgin_conv_im_blink(PurpleAccount *account, const char *who, char **message,
 void winpidgin_init(HINSTANCE hint) {
 	typedef void (__cdecl* LPFNSETLOGFILE)(const LPCSTR);
 	LPFNSETLOGFILE MySetLogFile;
+	INITCOMMONCONTROLSEX icc;
 	gchar *exchndl_dll_path;
 
 	purple_debug_info("winpidgin", "winpidgin_init start\n");
+
+	/* Enable visual styles */
+	icc.dwSize = sizeof(icc);
+	icc.dwICC = ICC_STANDARD_CLASSES;
+	InitCommonControlsEx(&icc);
 
 	exe_hInstance = hint;
 
