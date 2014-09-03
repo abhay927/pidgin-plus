@@ -11,15 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:33+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:36+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:23+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:00+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Slovak\n"
 
@@ -1180,6 +1180,9 @@ msgstr "/Rozhovor/_Uložiť ako..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Rozhovor/_Odblokovať..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Pomocník/Informácie o _vývojarovi"
@@ -3270,20 +3273,6 @@ msgstr "Skontrolujte prístupové práva a skúste to znovu."
 msgid "Checks for new local mail."
 msgstr "Kontrola novej miestnej pošty."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Pravidelne kontroluje dostupnosť novej verzie a upozorní používateľa "
-"zoznamom zmien."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Pravidelne kontroluje dostupnosť novej verzie."
-
 msgid "Choose Location..."
 msgstr "Vyberte umiestnenie..."
 
@@ -4183,9 +4172,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "Sťahovanie %s: %s"
-
-msgid "Download Now"
-msgstr "Stiahnuť teraz"
 
 msgid "Draw Markerline in "
 msgstr "Vykreslovať deliacu čiaru "
@@ -6376,9 +6362,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Modul Lastlog."
 
-msgid "Later"
-msgstr "Neskôr"
-
 msgid "Latest News"
 msgstr "Aktuálne novinky"
 
@@ -7251,9 +7234,6 @@ msgstr "Nová osoba"
 
 msgid "New Pounces"
 msgstr "Nové sledovania"
-
-msgid "New Version Available"
-msgstr "Nová verzia je k dispozícii"
 
 msgid "New _Message..."
 msgstr "Nová _správa..."
@@ -8934,15 +8914,6 @@ msgstr "Oddýchnutý"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Relay Server (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Upozornenie na novú verziu"
 
 msgid "Relieved"
 msgstr "Uvoľnený"
@@ -12892,6 +12863,10 @@ msgstr "Na webe (zapnutie tejto možnosti spôsobí, že budete dostávať SPAM!
 msgid "Webcams"
 msgstr "Webkamery"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr "Vitajte späť!"
 
@@ -13385,10 +13360,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "Tu sa môžete odhlásiť z iných miest"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Dnes môžete prejsť na %s %s."
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -14972,39 +14943,3 @@ msgstr "zl &lt;prezývka&gt;: Nájsť používateľa"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;prezývka&gt;: Nájsť používateľa"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTOMATICKÁ ODPOVEĎ>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTOMATICKÁ ODPOVEĎ> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">Záznamník nepodporuje čítanie</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTOMATICKÁ "
-#~ "ODPOVEĎ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTOMATICKÁ "
-#~ "ODPOVEĎ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Nepodarilo sa čítať súbor: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Nepodarilo sa nájsť cestu k záznamu!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Odhlásený.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Neprihlásený ku XMPP</font>"

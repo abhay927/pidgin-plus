@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:03+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:27+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:05+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Ukrainian\n"
 
@@ -1179,6 +1179,9 @@ msgstr "/Розмова/Зберегти _як..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Розмова/_Розблокувати..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "Довідка/Відомості про _розробників"
@@ -3280,20 +3283,6 @@ msgstr "Перевірити права та спробувати знову."
 msgid "Checks for new local mail."
 msgstr "Перевіряє наявність нової локальної пошти."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Періодично перевіряє наявність нових версій, та сповіщає про них "
-"користувача, виводячи перелік змін."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Періодично перевіряє наявність нових версій."
-
 msgid "Choose Location..."
 msgstr "Виберіть місцезнаходження..."
 
@@ -4195,9 +4184,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "Звантаження %s: %s"
-
-msgid "Download Now"
-msgstr "Звантажити зараз"
 
 msgid "Draw Markerline in "
 msgstr "Малювати підкреслювальну лінію у "
@@ -6392,9 +6378,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Додаток \"Останній журнал\"."
 
-msgid "Later"
-msgstr "Пізніше"
-
 msgid "Latest News"
 msgstr "Останні новини"
 
@@ -7272,9 +7255,6 @@ msgstr "Нова особа"
 
 msgid "New Pounces"
 msgstr "Нове стеження"
-
-msgid "New Version Available"
-msgstr "Доступна нова версія"
 
 msgid "New _Message..."
 msgstr "_Нове повідомлення..."
@@ -8952,15 +8932,6 @@ msgstr "Розслаблений"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Транзитний сервер (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Сповіщення про випуск"
 
 msgid "Relieved"
 msgstr "Заспокоєний"
@@ -12937,6 +12908,10 @@ msgstr ""
 msgid "Webcams"
 msgstr "Веб-камери"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr "З поверненням!"
 
@@ -13436,10 +13411,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "Тут ви можете вийти з іншого місцезнаходження"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Ви можете сьогодні оновитися до %s %s."
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -15062,41 +15033,3 @@ msgstr "zl &lt;прізвисько&gt;: Знайти користувача"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;прізвисько&gt;: Знайти користувача"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <АВТО-ВІДПОВІДЬ>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<АВТОВІДПОВІДЬ> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">У послузі ведення журналу відсутня функція "
-#~ "читання</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s "
-#~ "&lt;АВТО_ВІДПОВІДЬ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s "
-#~ "&lt;АВТО_ВІДПОВІДЬ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Не вдається прочитати файл: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Не вдається знайти шлях до журналу!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Вийшов.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Не з'єднаний з XMPP</font>"

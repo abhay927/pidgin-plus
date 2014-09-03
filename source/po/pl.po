@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:31+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish "
 "(http://www.transifex.com/projects/p/pidgin/language/pl/)\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:19+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:56+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Polish\n"
 
@@ -1205,6 +1205,9 @@ msgstr "/Rozmowa/Zapi_sz jako..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Rozmowa/Od_blokuj..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Pomoc/Infor_macje o programistach"
@@ -3316,20 +3319,6 @@ msgstr "Proszę sprawdzić uprawnienia i spróbować ponownie."
 msgid "Checks for new local mail."
 msgstr "Sprawdza, czy jest nowa lokalna poczta."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Sprawdza okresowo nowe wydania i powiadamia użytkownika wyświetlając listę "
-"zmian."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Sprawdza okresowo nowe wydania."
-
 msgid "Choose Location..."
 msgstr "Wybierz położenie..."
 
@@ -4232,9 +4221,6 @@ msgstr "Nie chcę podać"
 #, c-format
 msgid "Download %s: %s"
 msgstr "Pobierz %s: %s"
-
-msgid "Download Now"
-msgstr "Pobierz teraz"
 
 msgid "Draw Markerline in "
 msgstr "Rysowanie odkreślenia w "
@@ -6433,9 +6419,6 @@ msgstr "Ostatni dziennik"
 msgid "Lastlog plugin."
 msgstr "Wtyczka ostatniego dziennika."
 
-msgid "Later"
-msgstr "Później"
-
 msgid "Latest News"
 msgstr "Ostatnie aktualności"
 
@@ -7316,9 +7299,6 @@ msgstr "Nowa osoba"
 
 msgid "New Pounces"
 msgstr "Nowe przechwytywanie zdarzeń"
-
-msgid "New Version Available"
-msgstr "Dostępna jest nowa wersja"
 
 msgid "New _Message..."
 msgstr "Nowa wiado_mość..."
@@ -8997,15 +8977,6 @@ msgstr "Rozluźniony"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Serwer przekaźnika (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Powiadomienie o wydaniu"
 
 msgid "Relieved"
 msgstr "Czuje ulgę"
@@ -13022,6 +12993,10 @@ msgstr ""
 msgid "Webcams"
 msgstr "Kamery internetowe"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr "Witaj z powrotem!"
 
@@ -13522,10 +13497,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "Tutaj można wylogować się z innych położeń"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Można zaktualizować do %s %s."
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -15146,39 +15117,3 @@ msgstr "zl &lt;pseudonim&gt;: ustala położenie użytkownika"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;pseudonim&gt;: ustala położenie użytkownika"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <ODPOWIEDŹ-AUTOMATYCZNA>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<ODPOWIEDŹ-AUTOMATYCZNA> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">Dziennik nie ma funkcji odczytu</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;ODPOWIEDŹ-"
-#~ "AUTOMATYCZNA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;ODPOWIEDŹ-"
-#~ "AUTOMATYCZNA&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Nie można odczytać pliku: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Nie można odnaleźć ścieżki dziennika.</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Wylogowano.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Nie połączono z XMPP</font>"

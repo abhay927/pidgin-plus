@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:04+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 12:24+0000\n"
 "Last-Translator: Anthony Harrington <untaintableangel@ubuntu.com>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:30+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:09+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: English (United Kingdom)\n"
 
@@ -858,7 +858,7 @@ msgstr "'delbuddy' command failed"
 
 #, c-format
 msgid "(%s) %s (auto): %s\n"
-msgstr ""
+msgstr "(%s) %s (auto): %s\n"
 
 #, c-format
 msgid "(Code %s)"
@@ -916,7 +916,7 @@ msgid "(You probably forgot to 'make install'.)"
 msgstr "(You probably forgot to 'make install'.)"
 
 msgid "(auto) "
-msgstr ""
+msgstr "(auto) "
 
 msgid "(default)"
 msgstr "(default)"
@@ -1166,6 +1166,9 @@ msgstr "/Conversation/_Save As..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Conversation/_Unblock..."
+
+msgid "/Help/Check for _Updates..."
+msgstr "/Help/Check for _Updates..."
 
 msgid "/Help/De_veloper Information"
 msgstr "/Help/De_veloper Information"
@@ -1447,25 +1450,30 @@ msgid ""
 "size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
 "%s</font><br/>\n"
 msgstr ""
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
+"%s</font><br/>\n"
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
 "size=\"2\"> %s (auto): %s</font><br/>\n"
 msgstr ""
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s (auto): %s</font><br/>\n"
 
 #, c-format
 msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
-msgstr ""
+msgstr "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
 
 msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
-msgstr ""
+msgstr "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
 
 msgid "<font color='#c8c8c8'>Logged out.</font>"
-msgstr ""
+msgstr "<font color='#c8c8c8'>Logged out.</font>"
 
 msgid "<font color='#c8c8c8'>Not connected to XMPP</font>"
-msgstr ""
+msgstr "<font color='#c8c8c8'>Not connected to XMPP</font>"
 
 #, c-format
 msgid ""
@@ -1483,6 +1491,7 @@ msgstr "<h1>Conversation with %s</h1>\n"
 
 msgid "<i><font color=\"#f80000\">The logger has no read function</font></i>"
 msgstr ""
+"<i><font color=\"#f80000\">The logger has no read function</font></i>"
 
 msgid "<i>_Italic</i>"
 msgstr "<i>_Italic</i>"
@@ -3262,20 +3271,6 @@ msgstr "Check permissions and try again."
 msgid "Checks for new local mail."
 msgstr "Checks for new local mail."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Checks periodically for new releases."
-
 msgid "Choose Location..."
 msgstr "Choose Location..."
 
@@ -4177,9 +4172,6 @@ msgstr "Don't want to say"
 #, c-format
 msgid "Download %s: %s"
 msgstr "Download %s: %s"
-
-msgid "Download Now"
-msgstr "Download Now"
 
 msgid "Draw Markerline in "
 msgstr "Draw Markerline in "
@@ -6377,9 +6369,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Lastlog plug-in."
 
-msgid "Later"
-msgstr "Later"
-
 msgid "Latest News"
 msgstr "Latest News"
 
@@ -7248,9 +7237,6 @@ msgstr "New Person"
 
 msgid "New Pounces"
 msgstr "New Pounces"
-
-msgid "New Version Available"
-msgstr "New Version Available"
 
 msgid "New _Message..."
 msgstr "New _Message..."
@@ -8925,15 +8911,6 @@ msgstr "Relaxed"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Relay Server (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Release Notification"
 
 msgid "Relieved"
 msgstr "Relieved"
@@ -12870,6 +12847,10 @@ msgstr "Web aware (enabling this will cause you to receive spam!)"
 msgid "Webcams"
 msgstr "Webcams"
 
+#, c-format
+msgid "Website: %s"
+msgstr "Website: %s"
+
 msgid "Welcome back!"
 msgstr "Welcome back!"
 
@@ -13364,10 +13345,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "You can sign out from other locations here"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "You can upgrade to %s %s today."
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -14936,38 +14913,3 @@ msgstr "zl &lt;nick&gt;: Locate user"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: Locate user"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-REPLY>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-REPLY> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">The logger has no read function</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Could not read file: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>Unable to find log path!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Logged out.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Not connected to XMPP</font>"

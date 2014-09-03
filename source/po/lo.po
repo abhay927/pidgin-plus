@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
 "PO-Revision-Date: 2014-05-26 10:09+0000\n"
 "Last-Translator: Anousak <anousak@gmail.com>\n"
 "Language-Team: Lao <lo@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:12+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:49+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Lao\n"
 
@@ -1058,6 +1058,9 @@ msgid "/Conversation/_Save As..."
 msgstr ""
 
 msgid "/Conversation/_Unblock..."
+msgstr ""
+
+msgid "/Help/Check for _Updates..."
 msgstr ""
 
 msgid "/Help/De_veloper Information"
@@ -3067,18 +3070,6 @@ msgstr ""
 msgid "Checks for new local mail."
 msgstr ""
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr ""
-
 msgid "Choose Location..."
 msgstr ""
 
@@ -3952,9 +3943,6 @@ msgstr ""
 
 #, c-format
 msgid "Download %s: %s"
-msgstr ""
-
-msgid "Download Now"
 msgstr ""
 
 msgid "Draw Markerline in "
@@ -6093,9 +6081,6 @@ msgstr ""
 msgid "Lastlog plugin."
 msgstr ""
 
-msgid "Later"
-msgstr ""
-
 msgid "Latest News"
 msgstr ""
 
@@ -6917,9 +6902,6 @@ msgid "New Person"
 msgstr ""
 
 msgid "New Pounces"
-msgstr ""
-
-msgid "New Version Available"
 msgstr ""
 
 msgid "New _Message..."
@@ -8545,15 +8527,6 @@ msgstr ""
 
 #. TURN server
 msgid "Relay Server (TURN)"
-msgstr ""
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
 msgstr ""
 
 msgid "Relieved"
@@ -12288,6 +12261,10 @@ msgstr ""
 msgid "Webcams"
 msgstr ""
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr ""
 
@@ -12738,10 +12715,6 @@ msgid ""
 msgstr ""
 
 msgid "You can sign out from other locations here"
-msgstr ""
-
-#, c-format
-msgid "You can upgrade to %s %s today."
 msgstr ""
 
 #, c-format

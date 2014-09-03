@@ -42,15 +42,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:29+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 07:59+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:36+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Danish\n"
 "X-Poedit-Language: Danish\n"
@@ -1205,6 +1205,9 @@ msgstr "/Samtale/Gem _som..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Samtale/_Frigiv..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Hjælp/_Udviklerinformation"
@@ -3308,20 +3311,6 @@ msgstr "Kontrollér rettigheder og prøv igen."
 msgid "Checks for new local mail."
 msgstr "Tjekker efter lokal e-post."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Tjekker periodisk efter nye udgivelser og viser brugeren hvilke ændringer, "
-"der er i den nye udgivelse."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Tjekker periodisk efter nye udgivelser."
-
 msgid "Choose Location..."
 msgstr "Vælg placering..."
 
@@ -4222,9 +4211,6 @@ msgstr "Vil ikke oplyse"
 #, c-format
 msgid "Download %s: %s"
 msgstr "Hent %s: %s"
-
-msgid "Download Now"
-msgstr "Hent nu"
 
 msgid "Draw Markerline in "
 msgstr "Tegn markeringslinje i "
@@ -6420,9 +6406,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Lastlog-udvidelsesmodul."
 
-msgid "Later"
-msgstr "Senere"
-
 msgid "Latest News"
 msgstr "Seneste nyt"
 
@@ -7295,9 +7278,6 @@ msgstr "Ny person"
 
 msgid "New Pounces"
 msgstr "Nye logind-praj"
-
-msgid "New Version Available"
-msgstr "Ny version tilgængelig"
 
 msgid "New _Message..."
 msgstr "Ny _besked..."
@@ -8972,15 +8952,6 @@ msgstr "Afslappet"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Videregivelsesserver (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Påmindelse om nye udgivelser"
 
 msgid "Relieved"
 msgstr "Lettet"
@@ -12951,6 +12922,10 @@ msgstr ""
 msgid "Webcams"
 msgstr "Webkameraer"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr "Velkommen tilbage!"
 
@@ -13446,10 +13421,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "Du kan logge af andre placeringer her"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Du kan opgradere til %s %s i dag."
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -15041,38 +15012,3 @@ msgstr "zl &lt;navn&gt;: Find bruger"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;navn&gt;: Find bruger"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-SVAR>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-SVAR> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">Loggeren har ingen læsefunktion</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "SVAR&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "SVAR&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Kunne ikke læse filen: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>Kunne ikke finde logsti!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Loggede ud.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Ikke forbundet til XMPP</font>"

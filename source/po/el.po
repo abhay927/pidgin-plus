@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 04:45+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:52+0000\n"
 "Last-Translator: Panos Bouklis <panos@echidna-band.com>\n"
 "Language-Team: Greek "
 "(http://www.transifex.com/projects/p/pidgin/language/el/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:05+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:42+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Greek\n"
 
@@ -1191,6 +1191,9 @@ msgstr "/Συνομιλία/_Αποθήκευση ως..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Συνομιλία/_Ακύρωση αποκλεισμού..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Βοήθεια/Πληροφορίες υπεύθυνων _ανάπτυξης"
@@ -3331,20 +3334,6 @@ msgstr "Ελέγξτε τις άδειες και δοκιμάστε ξανά."
 msgid "Checks for new local mail."
 msgstr "Ελέγχει για νέα τοπική αλληλογραφία."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Ελέγχει περιοδικά για νέες εκδόσεις και ειδοποιεί το χρήστη μέσω του "
-"ChangeLog."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Ελέγχει περιοδικά για νέες εκδόσεις."
-
 msgid "Choose Location..."
 msgstr "Επιλέξτε τοποθεσία..."
 
@@ -4257,9 +4246,6 @@ msgstr "Δεν απαντώ"
 #, c-format
 msgid "Download %s: %s"
 msgstr "Λήψη %s: %s"
-
-msgid "Download Now"
-msgstr "Λήψη τώρα"
 
 msgid "Draw Markerline in "
 msgstr "Σχεδιασμός γραμμής σε "
@@ -6467,9 +6453,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Πρόσθετο lastlog."
 
-msgid "Later"
-msgstr "Αργότερα"
-
 msgid "Latest News"
 msgstr "Τελευταία νέα"
 
@@ -7354,9 +7337,6 @@ msgstr "Νέο άτομο"
 
 msgid "New Pounces"
 msgstr "Νέες εφορμήσεις"
-
-msgid "New Version Available"
-msgstr "Νέα έκδοση διαθέσιμη"
 
 msgid "New _Message..."
 msgstr "_Νέο μήνυμα..."
@@ -9056,15 +9036,6 @@ msgstr "Ξεκούραστος"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Εξυπηρετητής αναμετάδοσης (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Ειδοποίηση έκδοσης"
 
 msgid "Relieved"
 msgstr "Ανακουφισμένος"
@@ -13115,6 +13086,10 @@ msgstr ""
 msgid "Webcams"
 msgstr "Ιστοκάμερες"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr "Καλώς ήρθατε πίσω!"
 
@@ -13622,10 +13597,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "Εδώ μπορείτε να αποσυνδεθείτε από άλλες τοποθεσίες"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Μπορείτε να κάνετε αναβάθμιση σε %s %s σήμερα."
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -15251,41 +15222,3 @@ msgstr "zl &lt;ψευδώνυμο&gt;: Εντοπισμός χρήστη"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ψευδώνυμο&gt;: Εντοπισμός χρήστη"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <ΑΥΤΟΜΑΤΗ-ΑΠΑΝΤΗΣΗ>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<ΑΥΤΟΜΑΤΗ-ΑΠΑΝΤΗΣΗ> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">Ο καταγραφέας δεν έχει λειτουργία ανάγνωσης</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;ΑΥΤOΜΑΤΗ-"
-#~ "ΑΠΑΝΤΗΣΗ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;ΑΥΤΟΜΑΤΗ-"
-#~ "ΑΠΑΝΤΗΣΗ&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Δεν ήταν δυνατό να διαβαστεί το αρχείο: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Αδύνατη η εύρεση της διαδρομής καταγραφής!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Αποσυνδέθηκε.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>Δεν είναι συνδεδεμένο με το XMPP</font>"

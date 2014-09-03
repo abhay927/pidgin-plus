@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin-1.30\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:28+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Kaladan <kaladan@gmail.com>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 07:57+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:33+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Bulgarian\n"
 
@@ -1060,6 +1060,9 @@ msgid "/Conversation/_Save As..."
 msgstr "/Разговор/_Запазване като..."
 
 msgid "/Conversation/_Unblock..."
+msgstr ""
+
+msgid "/Help/Check for _Updates..."
 msgstr ""
 
 msgid "/Help/De_veloper Information"
@@ -3080,20 +3083,6 @@ msgstr ""
 msgid "Checks for new local mail."
 msgstr "Проверка за нова локална е-поща."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Периодична проверка за нови версии и известяване потребителя в дневника за "
-"промените."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Периодична проверка за нови версии на програмата."
-
 msgid "Choose Location..."
 msgstr ""
 
@@ -3967,9 +3956,6 @@ msgstr ""
 
 #, c-format
 msgid "Download %s: %s"
-msgstr ""
-
-msgid "Download Now"
 msgstr ""
 
 msgid "Draw Markerline in "
@@ -6116,9 +6102,6 @@ msgstr ""
 msgid "Lastlog plugin."
 msgstr ""
 
-msgid "Later"
-msgstr ""
-
 msgid "Latest News"
 msgstr "Последни новини"
 
@@ -6942,9 +6925,6 @@ msgstr "Нов потребител"
 
 msgid "New Pounces"
 msgstr ""
-
-msgid "New Version Available"
-msgstr "Има нова версия на Pidgin"
 
 msgid "New _Message..."
 msgstr ""
@@ -8582,15 +8562,6 @@ msgstr ""
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr ""
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Известяване за нови версии"
 
 msgid "Relieved"
 msgstr ""
@@ -12346,6 +12317,10 @@ msgstr ""
 msgid "Webcams"
 msgstr "Уеб камери"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr ""
 
@@ -12807,10 +12782,6 @@ msgid ""
 msgstr ""
 
 msgid "You can sign out from other locations here"
-msgstr ""
-
-#, c-format
-msgid "You can upgrade to %s %s today."
 msgstr ""
 
 #, c-format
@@ -14268,10 +14239,3 @@ msgstr ""
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr ""
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <автоматичен отговор>: %s\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>Файлът не може да бъде прочетен: %s</b></font>"

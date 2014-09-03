@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:32+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Hebrew "
 "(http://www.transifex.com/projects/p/pidgin/language/he/)\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:07+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:43+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Hebrew\n"
 
@@ -1143,6 +1143,9 @@ msgstr "/שיחה/שמור _בשם..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/שיחה/הסרת חס_ימה..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/עזרה/אודות המפת_חים"
@@ -3215,19 +3218,6 @@ msgstr "יש לבדוק הרשאות ולנסות בשנית."
 msgid "Checks for new local mail."
 msgstr "בדוק עבור דואר מקומי חדש"
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"בודק מדי פעם אם יצאו גרסאות חדשות ומודיע למשתמש, בצירוף רשימת השינויים."
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "בודק מדי-פעם אם יצאו גרסאות חדשות."
-
 msgid "Choose Location..."
 msgstr "בחירת מיקום..."
 
@@ -4123,9 +4113,6 @@ msgstr "אין ברצוני להגיד"
 #, c-format
 msgid "Download %s: %s"
 msgstr "הורדת %s: %s"
-
-msgid "Download Now"
-msgstr "הורד כעת"
 
 msgid "Draw Markerline in "
 msgstr "צייר קו-סימון ב "
@@ -6302,9 +6289,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "תוסף Lastlog."
 
-msgid "Later"
-msgstr "מאוחר יותר"
-
 msgid "Latest News"
 msgstr "אחרונות חדשות"
 
@@ -7166,9 +7150,6 @@ msgstr "אישיות חדשה"
 
 msgid "New Pounces"
 msgstr "צור תגובות פעילות חדשות"
-
-msgid "New Version Available"
-msgstr "קיימת גירסה חדשה"
 
 msgid "New _Message..."
 msgstr "הודעה _חדשה..."
@@ -8821,15 +8802,6 @@ msgstr "רגיעה"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "שרת העברה (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "התרעה על גרסאות חדשות"
 
 msgid "Relieved"
 msgstr "הורדת לחץ"
@@ -12672,6 +12644,10 @@ msgstr "מכיר-אינטרנט (הפעלה של זה תביא לדואר שלך
 msgid "Webcams"
 msgstr "מצלמות אינטרנט"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr "ברוך שובך!"
 
@@ -13146,10 +13122,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "ניתן לנתק כאן את החיבורים ממיקומים אחרים"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "ניתן לשדרג אל %s %s היום."
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -14671,38 +14643,3 @@ msgstr "zl &lt;שם כינוי&gt;: איתור משתמש"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;שם כינוי&gt;: איתור משתמש"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <מענה-אוטומטי>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<מענה-אוטומטי> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">לתוכנת הרישום אין פונקצית קריאה</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;מענה "
-#~ "אוטומטי&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;מענה "
-#~ "אוטומטי&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>לא ניתן לקרוא קובץ: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>לא ניתן למצוא את נתיב הרישום!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>נותקה.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>לא מחובר אל XMPP</font>"

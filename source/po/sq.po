@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:08+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:46+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Albanian "
 "(http://www.transifex.com/projects/p/pidgin/language/sq/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-08-30 07:53+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:28+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Albanian\n"
 
@@ -1173,6 +1173,9 @@ msgstr "/Bashkëbisedim/_Ruajeni Si..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/Bashkëbisedim/_Zhbllokoni..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/Ndihmë/Të dhëna _Zhvilluesi"
@@ -3281,20 +3284,6 @@ msgstr "Kontrolloni lejet dhe riprovoni."
 msgid "Checks for new local mail."
 msgstr "Kontrollon për postë të re vendore."
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr ""
-"Kontrollon periodikisht për versione të rinj dhe njofton përdoruesin me "
-"Shënime Ndryshimi"
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "Kontrollon periodikisht për versione të rinj"
-
 msgid "Choose Location..."
 msgstr "Zgjidhni Vend..."
 
@@ -4198,9 +4187,6 @@ msgstr "Nuk dua të them"
 #, c-format
 msgid "Download %s: %s"
 msgstr "Shkarkim i %s: %s"
-
-msgid "Download Now"
-msgstr "Shkarkoje Tani"
 
 msgid "Draw Markerline in "
 msgstr "bashkëbisedim. "
@@ -6396,9 +6382,6 @@ msgstr "Lastlog"
 msgid "Lastlog plugin."
 msgstr "Shtojcë për \"lastlog\"."
 
-msgid "Later"
-msgstr "Më vonë"
-
 msgid "Latest News"
 msgstr "Të reja më të Fundit"
 
@@ -7275,9 +7258,6 @@ msgstr "Person i Ri"
 
 msgid "New Pounces"
 msgstr "Cytje të Reja"
-
-msgid "New Version Available"
-msgstr "Version i Ri i Mundshëm"
 
 msgid "New _Message..."
 msgstr "_Mesazh i Ri..."
@@ -8968,15 +8948,6 @@ msgstr "I shlodhur"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "Shërbyes Relay (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "Njoftim Versioni"
 
 msgid "Relieved"
 msgstr "I lehtësuar"
@@ -12963,6 +12934,10 @@ msgstr "Web aware (aktivizimi i kësaj do të bëjë që t'ju vijë SPAM!)"
 msgid "Webcams"
 msgstr "Kamera web"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr "Mirë se vini sërish!"
 
@@ -13460,10 +13435,6 @@ msgstr ""
 
 msgid "You can sign out from other locations here"
 msgstr "Këtu mund të dilni prej vendesh të tjera"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "Mund ta përmirësoni me %s %s që sot."
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -15057,40 +15028,3 @@ msgstr "zl &lt;nofkë&gt;: Pikas përdorues"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nofkë&gt;: Pikas përdorues"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <VETË-PËRGJIGJU>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<VETËPËRGJIGJU> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr ""
-#~ "<b><font color=\"red\">Regjistruesi nuk ka funksion leximi</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;VETË-"
-#~ "PËRGJIGJU&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;VETË-"
-#~ "PËRGJIGJU&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>Nuk mund të lexojë kartelë: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>I pazoti të gjejë shteg regjistrimi!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>I dalë.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>I palidhur te XMPP</font>"

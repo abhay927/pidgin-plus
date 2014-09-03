@@ -60,15 +60,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 04:57+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Traditional) <zh-l10n@linux.org.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:31+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 09:10+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Chinese (Traditional)\n"
 
@@ -1177,6 +1177,9 @@ msgstr "/交談/另存新檔(_S)..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/交談/解除封鎖(_B)..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "/說明/開發者名單(_V)"
@@ -3349,18 +3352,6 @@ msgstr "請先檢查權限，然後重試。"
 msgid "Checks for new local mail."
 msgstr "檢查本地端的新郵件。"
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr "不時查看有沒有新版本。一發現有，就隨即連同該版本的功能說明一併通知使用者。"
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "不時查看有沒有新版本。"
-
 # NOTE 這是選擇目錄／檔案夾的彈出視窗
 msgid "Choose Location..."
 msgstr "請選擇目錄..."
@@ -4307,9 +4298,6 @@ msgstr ""
 #, c-format
 msgid "Download %s: %s"
 msgstr "下載 %s，請瀏覽 %s"
-
-msgid "Download Now"
-msgstr "立即下載"
 
 #  FIXME 暫譯 - ambrose 20070415
 msgid "Draw Markerline in "
@@ -6646,10 +6634,6 @@ msgstr ""
 msgid "Lastlog plugin."
 msgstr "Lastlog 模組。"
 
-# NOTE 這個「Later」是指「稍後下載」（即說：我知道有新版本了，稍後我會下載，暫時別煩我）
-msgid "Later"
-msgstr "稍後下載"
-
 msgid "Latest News"
 msgstr "最新消息"
 
@@ -7554,9 +7538,6 @@ msgstr "新增連絡人"
 # XXX 暫譯，譯文有待改進 - acli 20090730
 msgid "New Pounces"
 msgstr "新發生的好友狀態捕捉"
-
-msgid "New Version Available"
-msgstr "有新版本"
 
 msgid "New _Message..."
 msgstr "新訊息(_M)..."
@@ -9310,15 +9291,6 @@ msgstr "輕鬆"
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "中繼伺服器 (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "新版本通知"
 
 # NOTE XMPP 情緒值，譯文的準確性應以 http://xmpp.org/extensions/xep-0107.html 為準
 msgid "Relieved"
@@ -13323,6 +13295,10 @@ msgstr "允許在網路上檢視您目前的狀態（會導致您收到垃圾訊
 msgid "Webcams"
 msgstr "可視像聊天"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr "歡迎歸來！"
 
@@ -13789,10 +13765,6 @@ msgstr "您可以透過檔案傳輸，或者把它當成是你的好友圖示等
 
 msgid "You can sign out from other locations here"
 msgstr "您可在這裡登出其他所在位置"
-
-#, c-format
-msgid "You can upgrade to %s %s today."
-msgstr "%s 現已可升級至 %s 版。"
 
 #, c-format
 msgid "You cancelled the transfer of %s"
@@ -15307,39 +15279,3 @@ msgstr "zl &lt;暱稱&gt;：尋找使用者"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;暱稱&gt;：尋找使用者"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <自動回覆>：%s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<自動回應> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">這個日誌模組沒有定義「讀取」函數</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s "
-#~ "&lt;自動回應&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s "
-#~ "&lt;自動回應&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>無法讀取檔案：%s</b></font>"
-
-# XXX 暫譯
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>找不到日誌檔案！</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>已登出。</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>未有連線至 XMPP</font>"

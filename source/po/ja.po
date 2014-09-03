@@ -11,15 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-28 23:27-0300\n"
-"PO-Revision-Date: 2014-08-30 05:56+0000\n"
+"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"PO-Revision-Date: 2014-08-31 02:12+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-30 08:09+0000\n"
+"X-Launchpad-Export-Date: 2014-09-01 08:46+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
 "Language: Japanese\n"
 
@@ -1094,6 +1094,9 @@ msgstr "/会話/別名で保存(_S)..."
 
 msgid "/Conversation/_Unblock..."
 msgstr "/会話/拒否の解除(_U)..."
+
+msgid "/Help/Check for _Updates..."
+msgstr ""
 
 msgid "/Help/De_veloper Information"
 msgstr "ヘルプ/開発者情報(_V)"
@@ -3128,18 +3131,6 @@ msgstr "権限を確認して再度試してください。"
 msgid "Checks for new local mail."
 msgstr "新しいローカル・メールをチェックします"
 
-#. *  description
-msgid ""
-"Checks periodically for new releases and notifies the user with the "
-"ChangeLog."
-msgstr "最新リリースを周期的にチェックして変更履歴 (ChangeLog) をユーザに通知します。"
-
-#. *< name
-#. *< version
-#. *  summary
-msgid "Checks periodically for new releases."
-msgstr "最新リリースの情報を周期的にチェックします"
-
 msgid "Choose Location..."
 msgstr "場所の選択..."
 
@@ -4029,9 +4020,6 @@ msgstr ""
 
 #, c-format
 msgid "Download %s: %s"
-msgstr ""
-
-msgid "Download Now"
 msgstr ""
 
 msgid "Draw Markerline in "
@@ -6194,9 +6182,6 @@ msgstr "最後のログ"
 msgid "Lastlog plugin."
 msgstr "Lastlog のプラグインです"
 
-msgid "Later"
-msgstr ""
-
 msgid "Latest News"
 msgstr "最新ニュース"
 
@@ -7046,9 +7031,6 @@ msgstr "新しい仲間"
 
 msgid "New Pounces"
 msgstr ""
-
-msgid "New Version Available"
-msgstr "最新バージョンのお知らせ"
 
 msgid "New _Message..."
 msgstr "新しいメッセージ(_M)..."
@@ -8683,15 +8665,6 @@ msgstr ""
 #. TURN server
 msgid "Relay Server (TURN)"
 msgstr "中継サーバ (TURN)"
-
-#. *< type
-#. *< ui_requirement
-#. *< flags
-#. *< dependencies
-#. *< priority
-#. *< id
-msgid "Release Notification"
-msgstr "リリース通知"
 
 msgid "Relieved"
 msgstr ""
@@ -12462,6 +12435,10 @@ msgstr "ウェブは知っている (これを有効にすると SPAM を受け�
 msgid "Webcams"
 msgstr "ウェブカム"
 
+#, c-format
+msgid "Website: %s"
+msgstr ""
+
 msgid "Welcome back!"
 msgstr ""
 
@@ -12917,10 +12894,6 @@ msgid ""
 msgstr "この画像をファイルとして転送したり、あるいはこのユーザの仲間アイコンに利用できます。"
 
 msgid "You can sign out from other locations here"
-msgstr ""
-
-#, c-format
-msgid "You can upgrade to %s %s today."
 msgstr ""
 
 #, c-format
@@ -14399,38 +14372,3 @@ msgstr "zl &lt;あだ名&gt;: ユーザの所在地を確認します"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;あだ名&gt;: ユーザの所在地を確認します"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-REPLY>: %s\n"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-REPLY> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">ログ記録には読み込み関数がありません</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>ファイルを読み込めませんでした: %s</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>ログ・ファイルが見つかりません!</b></font>"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>サイン・アウトしました</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>XMPP に接続していません</font>"
