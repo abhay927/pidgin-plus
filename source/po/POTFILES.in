@@ -58,6 +58,7 @@ libpurple/plugins/ciphertest.c
 libpurple/plugins/dbus-example.c
 libpurple/plugins/filectl.c
 libpurple/plugins/idle.c
+libpurple/plugins/irchelper.c
 libpurple/plugins/ipc-test-client.c
 libpurple/plugins/ipc-test-server.c
 libpurple/plugins/joinpart.c
@@ -243,6 +244,7 @@ pidgin/plugins/gtk-signals-test.c
 pidgin/plugins/gtkbuddynote.c
 pidgin/plugins/history.c
 pidgin/plugins/iconaway.c
+pidgin/plugins/ircaway.c
 pidgin/plugins/mailchk.c
 pidgin/plugins/markerline.c
 pidgin/plugins/musicmessaging/musicmessaging.c

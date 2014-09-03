@@ -15,6 +15,9 @@
                 pt-br:description="Melhor suporte a Unicode"
                 bug="604"/>
 
+        <change en-us:description="Additional plugins for IRC including bouncer support"
+                pt-br:description="Plugins adicionais para IRC incluindo suporte a bouncers"/>
+
         <change en-us:description="Really offline installer"
                 pt-br:description="Instalador realmente offline"
                 bug="14970"/>

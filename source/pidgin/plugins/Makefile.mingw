@@ -94,6 +94,7 @@ plugins: \
 		gtkbuddynote.dll \
 		history.dll \
 		iconaway.dll \
+		ircaway.dll \
 		markerline.dll \
 		notify.dll \
 		pidginrc.dll \

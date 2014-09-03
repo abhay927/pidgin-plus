@@ -82,7 +82,24 @@ if [[ "$color" = on || (-z "$color" && -t 1) ]]; then
 fi
 source "$source_dir/colored.sh"
 
-# Output encoding and build functions
+# Download functions
+bazaar_download() {
+    tarball="$devroot/downloads/$2"
+    url="http://bazaar.launchpad.net/~renatosilva/$1/tarball/head:"
+    wget --quiet "$url" -O "$tarball" && bsdtar -xzf "$tarball" --strip-components 3 --directory "$3" "~renatosilva/$1/$4"
+    if [[ $? != 0 ]]; then
+        oops "failed downloading to $3/$4"
+        exit 1
+    fi
+}
+download_irc_plugins() {
+    echo "Integrating the irchelper and ircaway plugins"
+    bazaar_download "pidgin-ircaway/trunk" "ircaway.tar.gz" "$1/pidgin/plugins" ircaway.c "$2"
+    bazaar_download "purple-plugin-pack/irchelper" "irchelper.tar.gz" "$1/libpurple/plugins" irchelper.c "$2"
+    [[ "$2" = temporary ]] && trap "rm -f '$1/pidgin/plugins/ircaway.c' '$1/libpurple/plugins/irchelper.c'" EXIT
+}
+
+# Build functions and output encoding
 domake() {
     ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
         SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
@@ -109,6 +126,8 @@ fi
 # Translations template
 if [[ -n "$update_pot" ]]; then
     cd "$source_dir/po"
+    download_irc_plugins "$source_dir" temporary
+    echo "Updating the translation template"
     intltool_home=$(readlink -e "$devroot/win32-dev/intltool_"*)
     PATH="$PATH:$intltool_home/bin" XGETTEXT_ARGS="--no-location --sort-output" intltool-update --pot
     exit
@@ -144,12 +163,9 @@ fi
 # Pidgin Windev
 if [[ ! -e "$windev" ]]; then
     step "Downloading Pidgin Windev"
-    tarball="$devroot/downloads/pidgin-windev.tar.gz"
-    url="http://bazaar.launchpad.net/~renatosilva/pidgin-windev/trunk/tarball/head:"
-    wget -nv "$url" -O "$tarball" && bsdtar -xzf "$tarball" --strip-components 3 --directory "$devroot/win32-dev" "~renatosilva/pidgin-windev/trunk/pidgin-windev.sh"
-    [[ $? != 0 ]] && exit 1
-    rm -f "$tarball"
-    echo "Extracted $windev"
+    echo "Downloading latest revision from Launchpad"
+    bazaar_download "pidgin-windev/trunk" "pidgin-windev.tar.gz" "$devroot/win32-dev" pidgin-windev.sh
+    echo "Extracted to $windev"
     echo
 fi
 
@@ -188,6 +204,7 @@ else
 fi
 cp -rup "$source_dir/"* "$staging"
 "$build_dir/changelog.sh" --html --output "$staging/CHANGES.html"
+download_irc_plugins "$staging"
 
 # Code signing
 cd "$staging"
