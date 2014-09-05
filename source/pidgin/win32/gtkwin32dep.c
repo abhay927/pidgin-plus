@@ -21,7 +21,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02111-1301  USA
  *
  */
-#define _WIN32_IE 0x500
+#define _WIN32_IE 0x501
 #ifndef WINVER
 #define WINVER 0x0500 /* W2K */
 #endif
