@@ -369,6 +369,34 @@ purple_log_get_log_dir(PurpleLogType type, const char *name, PurpleAccount *acco
 	return dir;
 }
 
+void
+get_server_timestamp(char **message, char **timestamp)
+{
+	GRegex *regex;
+	GMatchInfo *match;
+	char *new_timestamp;
+	char *new_message;
+	char *prefix;
+
+	regex = g_regex_new("^(.*)(\\[[0-9][0-9]:[0-9][0-9]:[0-9][0-9]\\]) (.+)", 0, 0, NULL);
+	g_regex_match(regex, *message, 0, &match);
+	if (g_match_info_matches(match)) {
+		prefix = g_match_info_fetch(match, 1);
+		new_timestamp = g_match_info_fetch(match, 2);
+		new_message = g_match_info_fetch(match, 3);
+		if (prefix != NULL) {
+			new_message = g_strconcat(prefix, new_message, NULL);
+			g_free(prefix);
+		}
+		if (new_timestamp != NULL)
+			*timestamp = new_timestamp;
+		if (new_message != NULL)
+			*message = new_message;
+	}
+	g_match_info_free(match);
+	g_regex_unref(regex);
+}
+
 /****************************************************************************
  * LOGGER FUNCTIONS *********************************************************
  ****************************************************************************/
@@ -1320,6 +1348,7 @@ static void xml_logger_write(PurpleLog *log,
 		return;
 
 	date = log_get_timestamp(log, time);
+	get_server_timestamp(&message, &date);
 
 	purple_markup_html_to_xhtml(message, &xhtml, NULL);
 	if (from)
@@ -1416,6 +1445,8 @@ static gsize html_logger_write(PurpleLog *log, PurpleMessageFlags type,
 		return 0;
 
 	escaped_from = g_markup_escape_text(from, -1);
+	date = log_get_timestamp(log, time);
+	get_server_timestamp(&message, &date);
 
 	image_corrected_msg = convert_image_tags(log, message);
 	purple_markup_html_to_xhtml(image_corrected_msg, &msg_fixed, NULL);
@@ -1424,8 +1455,6 @@ static gsize html_logger_write(PurpleLog *log, PurpleMessageFlags type,
 	 * this saves a needless strdup(). */
 	if (image_corrected_msg != message)
 		g_free(image_corrected_msg);
-
-	date = log_get_timestamp(log, time);
 
 	if(log->type == PURPLE_LOG_SYSTEM){
 		written += fprintf(data->file, "---- %s @ %s ----<br/>\n", msg_fixed, date);
@@ -1567,8 +1596,9 @@ static gsize txt_logger_write(PurpleLog *log,
 	if(!data->file)
 		return 0;
 
-	stripped = purple_markup_strip_html(message);
 	date = log_get_timestamp(log, time);
+	get_server_timestamp(&message, &date);
+	stripped = purple_markup_strip_html(message);
 
 	if(log->type == PURPLE_LOG_SYSTEM){
 		written += fprintf(data->file, "---- %s @ %s ----\n", stripped, date);

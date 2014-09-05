@@ -339,6 +339,17 @@ gboolean purple_log_delete(PurpleLog *log);
 char *purple_log_get_log_dir(PurpleLogType type, const char *name, PurpleAccount *account);
 
 /**
+ * Parses the ZNC buffer playback timestamps. If the message starts with a
+ * timestamp in the default ZNC format [%H:%M:%S], then that is assumed as the
+ * original timestamp for the message, rather than when ZNC sent the message to
+ * the client. This is not needed if IRCv3 server-time is implemented.
+ *
+ * @param message             The message that may have the timestamp removed.
+ * @param timestamp           The timestamp that may be replaced.
+ */
+void get_server_timestamp(char **message, char **timestamp);
+
+/**
  * Implements GCompareFunc for PurpleLogs
  *
  * @param y                   A PurpleLog

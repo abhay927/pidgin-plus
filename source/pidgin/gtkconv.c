@@ -5757,38 +5757,6 @@ str_embed_direction_chars(char **str)
 #endif
 }
 
-/* Parse ZNC buffer playback timestamps. If the message starts with a timestamp
-   in the default ZNC format [%H:%M:%S], then that is assumed as the original
-   timestamp for the message, rather than when ZNC sent the message to the
-   client. This is not needed if IRCv3 server-time is implemented. */
-static void
-get_server_timestamp(char **message, char **timestamp)
-{
-	GRegex *regex;
-	GMatchInfo *match;
-	char *new_timestamp;
-	char *new_message;
-	char *prefix;
-
-	regex = g_regex_new("^(.*)(\\[[0-9][0-9]:[0-9][0-9]:[0-9][0-9]\\]) (.+)", 0, 0, NULL);
-	g_regex_match(regex, *message, 0, &match);
-	if (g_match_info_matches(match)) {
-		prefix = g_match_info_fetch(match, 1);
-		new_timestamp = g_match_info_fetch(match, 2);
-		new_message = g_match_info_fetch(match, 3);
-		if (prefix != NULL) {
-			new_message = g_strconcat(prefix, new_message, NULL);
-			g_free(prefix);
-		}
-		if (new_timestamp != NULL)
-			*timestamp = new_timestamp;
-		if (new_message != NULL)
-			*message = new_message;
-	}
-	g_match_info_free(match);
-	g_regex_unref(regex);
-}
-
 static void
 pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *alias,
 						const char *message, PurpleMessageFlags flags,
