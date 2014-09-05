@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-03 17:55-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -21,8 +21,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:32+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-05 00:33+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: BANGLADESH\n"
 "Language: Bengali\n"
 "X-Poedit-Language: Bengali\n"
@@ -1021,6 +1021,15 @@ msgstr "+++ %s লগআউট করেছে"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s লগইন করেছে"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/অ্যাকাউন্ট"
@@ -2569,6 +2578,10 @@ msgstr "যাচাইকৃত ডোমেইন"
 msgid "Auth User"
 msgstr "যাচাইকৃত ব্যবহারকারী"
 
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
+
 msgid "Authenticate with SASL"
 msgstr ""
 
@@ -2910,6 +2923,9 @@ msgstr "উভয়"
 
 msgid "Bottom"
 msgstr "নীচ"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "ব্রাউজ... (_o)"
@@ -3446,6 +3462,9 @@ msgstr "%s এর জন্য ব্যবহাকারী তথ্য প�
 msgid "Changes to privacy settings take effect immediately."
 msgstr "গোপনীয়তার বিন্যাসের পরিবর্তনগুলো তাৎ‍ক্ষণিকভাবে কার্যকর হবে।"
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "চ্যানেল"
 
@@ -3534,6 +3553,9 @@ msgstr "আড্ডাবাজ"
 # tithi
 msgid "Check permissions and try again."
 msgstr "অনুমতি যাচাই করে আবার চেষ্টা করুন।"
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "নতুন স্থানীয় মেইলের জন্য পরীক্ষা করে।"
@@ -4409,6 +4431,9 @@ msgstr "অনুমোদন করা হবে না"
 msgid "Disappointed"
 msgstr "নিরাশ"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "সার্ভার দ্বারা বিচ্ছিন্ন"
 
@@ -4898,6 +4923,15 @@ msgstr "বন্ধু যোগ করার সময় ত্রুটি দ�
 
 msgid "Error adding group"
 msgstr "দল যোগ করার সময় ত্রুটি দেখা দিয়েছে"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "পাসওয়ার্ড পরিবর্তনে ত্রুটি"
@@ -5704,6 +5738,9 @@ msgstr "গ্যালিশিয়"
 msgid "Game Title"
 msgstr "খেলার শিরোনাম"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "খেলা"
 
@@ -5911,6 +5948,9 @@ msgstr "HTTP প্রক্সি সংযোগে ত্রুটি %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "আংশিক অপারেটর"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 # tithi
 msgid "Handshake Acknowledged, Sending Login"
@@ -6220,6 +6260,15 @@ msgstr "IPC পরীক্ষণ ক্লায়েন্ট"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC পরীক্ষণ সার্ভার"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7966,12 +8015,21 @@ msgstr "ডাকনাম"
 msgid "Nick Said"
 msgstr "ডাকনাম বলা হয়েছে"
 
+msgid "Nick away suffix"
+msgstr ""
+
 # tithi
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "MUC-বহিঃস্থ আড্ডার আসরে ডাকনাম পরিবর্তন সমর্থিত নয়"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "ডাকনাম বা চ্যানেল সাময়িকভাবে অনুপস্থিত"
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -8529,6 +8587,9 @@ msgstr "অপারেটিং সিস্টেম"
 #. A user in a chat room who has special privileges.
 msgid "Operator"
 msgstr "অপারেটর"
+
+msgid "Operator password"
+msgstr ""
 
 # and this
 #. Optional Information section
@@ -9488,6 +9549,9 @@ msgstr "Purple-এর D-BUS সার্ভার নিম্নল্লিখ
 #. choose to leave them alone.  Choose what's best for your language.
 msgid "QIP"
 msgstr "QIP"
+
+msgid "QuakeNet Authentication Error"
+msgstr ""
 
 msgid "Question dialog"
 msgstr "জিজ্ঞাসা ডায়ালগ"
@@ -14673,6 +14737,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 # tithi
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
@@ -14712,6 +14783,9 @@ msgstr "আপনাকে তিরস্কার করা হয়েছে: (
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "%1$s (%2$s) আপনাকে নিষ্ক্রিয় করে দিয়েছে"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "আপনি একটি চিত্র টেনে এনেছেন"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-03 17:55-0300\n"
 "PO-Revision-Date: 2014-08-31 02:18+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Lithuanian "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:50+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-05 00:48+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Lithuanian\n"
 
 msgid "\t_Only when someone says your username"
@@ -965,6 +965,15 @@ msgstr "+++ %s atsijungė"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s prisijungė"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Paskyros"
@@ -2404,6 +2413,10 @@ msgstr "Sritis prieigos teisės tikrinimui"
 msgid "Auth User"
 msgstr "Naudotojas prieigos teisės tikrinimui"
 
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
+
 msgid "Authenticate with SASL"
 msgstr "Nustatyti tapatybę su SASL"
 
@@ -2706,6 +2719,9 @@ msgstr "abipusė"
 
 msgid "Bottom"
 msgstr "apačioje"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "_Naršyti...."
@@ -3200,6 +3216,9 @@ msgstr "Pakeisti naudotojo %s informaciją"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Privatumo nuostatų pakeitimai iš karto tampa aktyvūs"
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanalas"
 
@@ -3283,6 +3302,9 @@ msgstr "Plepiai nusiteikęs"
 
 msgid "Check permissions and try again."
 msgstr "Patikrinkite teises ir bandykite iš naujo."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Patikrina, ar negautas naujas vietinis paštas."
@@ -4068,6 +4090,9 @@ msgstr "Neleisti"
 msgid "Disappointed"
 msgstr "Nusivylęs"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Atjungtas serverio"
 
@@ -4515,6 +4540,15 @@ msgstr "Bičiulio pridėjimo klaida"
 
 msgid "Error adding group"
 msgstr "Grupės sukūrimo klaida"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Slaptažodžio keitimo klaida"
@@ -5263,6 +5297,9 @@ msgstr "Galeganų kalba"
 msgid "Game Title"
 msgstr "Žaidimo pavadinimas"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Žaidimai"
 
@@ -5448,6 +5485,9 @@ msgstr "HTTP įgaliotojo serverio jungties klaida %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Pusiau operatorius"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Pasisveikinimas patvirtintas, siunčiama prisijungimo informacija"
@@ -5723,6 +5763,15 @@ msgstr "Testinis IPC klientas"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Testinis IPC serveris"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7310,11 +7359,20 @@ msgstr "Vardas"
 msgid "Nick Said"
 msgstr "Pasakytas vardas"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Ne MUC kambariuose vardo keitimas nėra palaikomas"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Vardas ar kanalas yra laikinai neprieinamas."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7828,6 +7886,9 @@ msgstr "Operacinė sistema"
 #. A user in a chat room who has special privileges.
 msgid "Operator"
 msgstr "Operatorius"
+
+msgid "Operator password"
+msgstr ""
 
 #. Optional Information section
 msgid "Optional information:"
@@ -8710,6 +8771,9 @@ msgstr ""
 #. choose to leave them alone.  Choose what's best for your language.
 msgid "QIP"
 msgstr "QIP"
+
+msgid "QuakeNet Authentication Error"
+msgstr ""
 
 msgid "Question dialog"
 msgstr "Klausimo dialogo langas"
@@ -13463,6 +13527,13 @@ msgstr[0] "Jūs turite %i pasiūlytą draugą."
 msgstr[1] "Jūs turite %i pasiūlytus draugus."
 msgstr[2] "Jūs turite %i pasiūlytų draugų."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13493,6 +13564,9 @@ msgstr "Tave išspyrė (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Jus išmetė %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Jūs atitempėte pele paveiksliuką"

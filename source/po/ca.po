@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-03 17:55-0300\n"
 "PO-Revision-Date: 2014-08-31 02:10+0000\n"
 "Last-Translator: Josep Puigdemont <josep.puigdemont@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.net>\n"
@@ -39,8 +39,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:35+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-05 00:35+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Catalan\n"
 
 msgid "\t_Only when someone says your username"
@@ -982,6 +982,15 @@ msgstr "+++ %s se n'ha anat"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s s'ha connectat"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Comptes"
@@ -2446,6 +2455,10 @@ msgstr "Domini Auth"
 msgid "Auth User"
 msgstr "Usuari Auth"
 
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
+
 msgid "Authenticate with SASL"
 msgstr ""
 
@@ -2753,6 +2766,9 @@ msgstr "Ambdós"
 
 msgid "Bottom"
 msgstr "A baix"
+
+msgid "Bounced domain"
+msgstr ""
 
 # Sense accelerador expressament (josep)
 msgid "Br_owse..."
@@ -3252,6 +3268,9 @@ msgstr "Canvia la informació d'usuari de %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Els canvis en les opcions de privadesa es realitzen immediatament."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Canal"
 
@@ -3337,6 +3356,9 @@ msgstr "Xerraire"
 
 msgid "Check permissions and try again."
 msgstr "Comproveu-ne el permís i proveu-ho de nou."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Comprova si hi ha correu nou a la màquina local."
@@ -4133,6 +4155,9 @@ msgstr "Denega"
 msgid "Disappointed"
 msgstr "Decebut"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "El servidor us ha desconnectat"
 
@@ -4585,6 +4610,15 @@ msgstr "S'ha produït un error en afegir un amic"
 
 msgid "Error adding group"
 msgstr "S'ha produït un error en afegir el grup"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "S'ha produït un error en canviar la contrasenya"
@@ -5346,6 +5380,9 @@ msgstr "Gallec"
 msgid "Game Title"
 msgstr "Títol del joc"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Jocs"
 
@@ -5533,6 +5570,9 @@ msgstr "Error en la connexió al servidor intermediari d'HTTP %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Mig operador"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr ""
@@ -5810,6 +5850,15 @@ msgstr "Client de proves d'IPC"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Servidor de proves d'IPC"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7423,11 +7472,20 @@ msgstr "Sobrenom"
 msgid "Nick Said"
 msgstr "S'ha dit el sobrenom"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "El canvi de sobrenom no està permès en sales de xat no-MUC"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "El sobrenom o el canal no estan disponibles, temporalment."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7942,6 +8000,9 @@ msgstr "Sistema operatiu"
 #. A user in a chat room who has special privileges.
 msgid "Operator"
 msgstr "Operador"
+
+msgid "Operator password"
+msgstr ""
 
 #. Optional Information section
 msgid "Optional information:"
@@ -8836,6 +8897,9 @@ msgstr ""
 #. choose to leave them alone.  Choose what's best for your language.
 msgid "QIP"
 msgstr "QIP"
+
+msgid "QuakeNet Authentication Error"
+msgstr ""
 
 msgid "Question dialog"
 msgstr "Diàleg de pregunta"
@@ -13602,6 +13666,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] "Se us ha suggerit %i amic."
 msgstr[1] "Se us han suggerit %i amics."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13632,6 +13703,9 @@ msgstr "Us han fet fora: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "%s us ha matat (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Heu arrossegat una imatge"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-03 17:55-0300\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 09:04+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-05 01:01+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Telugu\n"
 
 msgid "\t_Only when someone says your username"
@@ -942,6 +942,15 @@ msgstr "+++ %s సైన్డ్ ఆఫ్"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s సైన్డ్ ఆన్"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/ఖాతాలు"
@@ -2382,6 +2391,10 @@ msgstr "ప్రమాణీకరణ పొందిన డొమైన్"
 msgid "Auth User"
 msgstr "ప్రమాణీకరణ పొందిన వినియోగదారు"
 
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
+
 msgid "Authenticate with SASL"
 msgstr ""
 
@@ -2687,6 +2700,9 @@ msgstr "రెండూ"
 
 msgid "Bottom"
 msgstr "దిగువ"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "బ్రౌజ్... (_o)"
@@ -3181,6 +3197,9 @@ msgstr "%s కోసం వినియోగదారు సమాచారా�
 msgid "Changes to privacy settings take effect immediately."
 msgstr "రహస్య సెట్టింగులకు చేసిన మార్పులు వెంటనే అమల్లోకి వస్తాయి."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "ఛానల్"
 
@@ -3264,6 +3283,9 @@ msgstr "చాటీ"
 
 msgid "Check permissions and try again."
 msgstr "అనుమతులను సరిచూచుకొని మరలా ప్రయత్నించుము."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "కొత్త స్థానిక జాబులు."
@@ -4053,6 +4075,9 @@ msgstr "నిషెధించు"
 msgid "Disappointed"
 msgstr ""
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "సెర్వర్‌నుండి వేరైనది."
 
@@ -4500,6 +4525,15 @@ msgstr "మిత్రుని చేర్చడంలో లోపం"
 
 msgid "Error adding group"
 msgstr "సమూహమును చేర్చడంలో లోపం"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "పాసవర్డ్‌ను మార్చుతున్నప్పుడు పొరపాటు"
@@ -5247,6 +5281,9 @@ msgstr "Galician"
 msgid "Game Title"
 msgstr "ఆట శీర్షిక"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "ఆటలు"
 
@@ -5432,6 +5469,9 @@ msgstr "ప్రాక్సీ కనెక్షన్ పొరపాటు 
 #. that an operator has.
 msgid "Half Operator"
 msgstr "హాఫ్ ఆపరేటర్"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "హ్యాండ్ షేక్ జరిగినట్టు సమాచారం అందింది, లాగ్ ఇన్ పంపడం జరుగుతోంది"
@@ -5706,6 +5746,15 @@ msgstr "IPC టెస్ట్ క్లయింట్"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC టెస్ట్ సర్వర్"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7297,11 +7346,20 @@ msgstr "నిక్"
 msgid "Nick Said"
 msgstr "నిక్ చెప్పారు"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "non-MUC చాట్‌ రూమ్ లలో ముద్దు పేరులో మార్పులకు మద్దతు లేదు"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "నిక్ లేదా చానల్ తాత్కాలికంగా అందుబాటులో లేదు."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7814,6 +7872,9 @@ msgstr "ఆపరేటింగు సిస్టమ్"
 #. A user in a chat room who has special privileges.
 msgid "Operator"
 msgstr "ఆపరేటర్"
+
+msgid "Operator password"
+msgstr ""
 
 #. Optional Information section
 msgid "Optional information:"
@@ -8700,6 +8761,9 @@ msgstr ""
 #. choose to leave them alone.  Choose what's best for your language.
 msgid "QIP"
 msgstr "QIP"
+
+msgid "QuakeNet Authentication Error"
+msgstr ""
 
 msgid "Question dialog"
 msgstr "ప్రశ్న డైలాగ్"
@@ -13400,6 +13464,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13430,6 +13501,9 @@ msgstr "మీరు గెంటివేయబడ్డారు: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "మిమ్మల్ని %s చంపినాడు (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "మీరు చిత్రాన్ని తెచ్చివేశారు"

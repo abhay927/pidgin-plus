@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin Urdu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-03 17:55-0300\n"
 "PO-Revision-Date: 2014-08-31 02:41+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: C-DAC,Gist,Urdu Team / BharateeyaOO.o <info.gist@cdac.in / "
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 09:06+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-05 01:03+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: INDIA\n"
 "Language: Urdu\n"
 "X-Poedit-Language: Urdu\n"
@@ -871,6 +871,15 @@ msgstr "+++ %sسائن آف ہوچكا"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s سائن آن ہوچكا"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/اكاؤنٹس"
@@ -2255,6 +2264,10 @@ msgstr "مستندڈومین"
 msgid "Auth User"
 msgstr "مستندصارف"
 
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
+
 msgid "Authenticate with SASL"
 msgstr ""
 
@@ -2557,6 +2570,9 @@ msgstr "دونوں"
 
 msgid "Bottom"
 msgstr "نیچے"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Br_owse..."
@@ -3055,6 +3071,9 @@ msgstr "%sکے لئے صارف معلومات تبدیل کریں"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "پرایوسی سیٹینگس کے لئے تبدیلیاں فوری طور پر اثر لیتیں ہیں۔"
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr ""
 
@@ -3133,6 +3152,9 @@ msgid "Chatty"
 msgstr "باتونی"
 
 msgid "Check permissions and try again."
+msgstr ""
+
+msgid "Check your password."
 msgstr ""
 
 msgid "Checks for new local mail."
@@ -3903,6 +3925,9 @@ msgstr "اجازت نہ دو"
 msgid "Disappointed"
 msgstr ""
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "سرور سے منقطع کیا گیا"
 
@@ -4338,6 +4363,15 @@ msgstr "خامی بڈی ملارہا ہے"
 
 msgid "Error adding group"
 msgstr "خامی گروپ ملارہا ہے"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "خامی خفیہ لفظ تبدیل کرنا"
@@ -5077,6 +5111,9 @@ msgstr "گیلیشین"
 msgid "Game Title"
 msgstr ""
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "کھیل"
 
@@ -5261,6 +5298,9 @@ msgstr "HTTP پراكسی كنیكشن خامی %d"
 #. A half operator is someone who has a subset of the privileges
 #. that an operator has.
 msgid "Half Operator"
+msgstr ""
+
+msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
@@ -5536,6 +5576,15 @@ msgstr "IPC ٹیسٹ کلائنٹ"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC ٹیسٹ سرور"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7111,11 +7160,20 @@ msgstr "نک"
 msgid "Nick Said"
 msgstr "ٹھیك وقت پركہاگیا"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "نک تبدیلیnon-MUC کمرہ گفتگو میں معاون نہیں"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "نک یا چینل عارضی طور پر غیر دستیاب۔"
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7620,6 +7678,9 @@ msgstr "آپریٹینگ سسٹم"
 
 #. A user in a chat room who has special privileges.
 msgid "Operator"
+msgstr ""
+
+msgid "Operator password"
 msgstr ""
 
 #. Optional Information section
@@ -8484,6 +8545,9 @@ msgstr ""
 #. translators who wanted to transliterate them.  Many translators
 #. choose to leave them alone.  Choose what's best for your language.
 msgid "QIP"
+msgstr ""
+
+msgid "QuakeNet Authentication Error"
 msgstr ""
 
 msgid "Question dialog"
@@ -13087,6 +13151,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13117,6 +13188,9 @@ msgstr ""
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "آپ  %s (%s)کے ذریعے ختم کئے جا چکے"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 # msgstr "گائم فولڈ رٹرانسفر نہیں کر سکا ۔آپ کو انفرادی طور پر فائلیں بھیجنے کی ضرورت ہے"
 msgid "You have dragged an image"

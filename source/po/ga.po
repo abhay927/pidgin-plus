@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-03 17:55-0300\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:41+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-05 00:41+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Irish\n"
 
 msgid "\t_Only when someone says your username"
@@ -976,6 +976,15 @@ msgstr "+++ Logáil %s amach"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ Logáil %s isteach"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Cuntais"
@@ -2431,6 +2440,10 @@ msgstr "Fearann"
 msgid "Auth User"
 msgstr "Úsáideoir"
 
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
+
 msgid "Authenticate with SASL"
 msgstr "Fíordheimhniú trí SASL"
 
@@ -2737,6 +2750,9 @@ msgstr "Araon"
 
 msgid "Bottom"
 msgstr "Bun"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Bra_bhsáil..."
@@ -3231,6 +3247,9 @@ msgstr "Athraigh eolas úsáideora le haghaidh %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Cuirfear socruithe nua príobháideachta i bhfeidhm láithreach."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Cainéal"
 
@@ -3315,6 +3334,9 @@ msgstr "Cainteach"
 
 msgid "Check permissions and try again."
 msgstr "Féach an bhfuil cead agat agus bain triail eile as."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Seiceálann sé an bhfuil ríomhphost nua agat."
@@ -4101,6 +4123,9 @@ msgstr "Ná Ceadaigh"
 msgid "Disappointed"
 msgstr "Díomách"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Dícheangailte ag an bhfreastalaí"
 
@@ -4552,6 +4577,15 @@ msgstr "Earráid agus cara á chur leis"
 
 msgid "Error adding group"
 msgstr "Earráid agus grúpa á chur leis"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Earráid agus focal faire á athrú"
@@ -5299,6 +5333,9 @@ msgstr "Gailísis"
 msgid "Game Title"
 msgstr "Teideal an Chluiche"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Cluichí"
 
@@ -5484,6 +5521,9 @@ msgstr "Earráid %d ag ceangal le seachfhreastalaí HTTP"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Leathoibreoir"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Bhí an croitheadh láimhe faighte; logáil isteach á seoladh"
@@ -5758,6 +5798,15 @@ msgstr "Cliant Tástála IPC"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Freastalaí Tástála IPC"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7369,11 +7418,20 @@ msgstr "Leasainm"
 msgid "Nick Said"
 msgstr "Do Leasainm Luaite"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Is féidir leasainm a athrú i seomraí MUC amháin"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Níl an leasainm nó an cainéal ar fáil go sealadach."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7888,6 +7946,9 @@ msgstr "Córas Oibriúcháin"
 #. A user in a chat room who has special privileges.
 msgid "Operator"
 msgstr "Oibreoir"
+
+msgid "Operator password"
+msgstr ""
 
 #. Optional Information section
 msgid "Optional information:"
@@ -8774,6 +8835,9 @@ msgstr "Níl an freastalaí D-BUS Purple ar siúl ar na cúiseanna thíos"
 #. choose to leave them alone.  Choose what's best for your language.
 msgid "QIP"
 msgstr "QIP"
+
+msgid "QuakeNet Authentication Error"
+msgstr ""
 
 msgid "Question dialog"
 msgstr "Dialóg cheiste"
@@ -13563,6 +13627,13 @@ msgstr[0] "Tá %i chara molta agat."
 msgstr[1] "Tá %i chara molta agat."
 msgstr[2] "Tá %i chara molta agat."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13593,6 +13664,9 @@ msgstr "Bhí tú ciceáilte amach: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Bhí tú maraithe ag %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Tharraing tú íomhá"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-03 17:55-0300\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:47+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-05 00:46+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Kannada\n"
 
 msgid "\t_Only when someone says your username"
@@ -977,6 +977,15 @@ msgstr "+++ %s ಹೊರಹೋದರು"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s ಒಳಬಂದಿದ್ದಾರೆ"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/ಖಾತೆಗಳು"
@@ -2423,6 +2432,10 @@ msgstr "ಡೊಮೈನ್ ದೃಢೀಕರಣ"
 msgid "Auth User"
 msgstr "ಬಳಕೆದಾರ ದೃಢೀಕರಣ"
 
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
+
 msgid "Authenticate with SASL"
 msgstr ""
 
@@ -2731,6 +2744,9 @@ msgstr "ಎರಡೂ"
 
 msgid "Bottom"
 msgstr "ಕೆಳಗೆ"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "ಜಾಲವೀಕ್ಷಣೆ(_o)..."
@@ -3229,6 +3245,9 @@ msgstr "%s ಬಳಕೆದಾರ ಮಾಹಿತಿ ಬದಲಾಯಿಸಿ"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "ಖಾಸಗಿತನದ ನಿಶ್ಚಯಗಳು ಕೂಡಲೇ ಜಾರಿಗೆ ಬರುತ್ತವೆ."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "ವಾಹಿನಿ"
 
@@ -3313,6 +3332,9 @@ msgstr "ಚಾಟಿ"
 
 msgid "Check permissions and try again."
 msgstr "ಅನುಮತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ನಂತರ ಮುಂದುವರೆಯಿರಿ."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "ಹೊಸ ಸ್ಥಳೀಯ ಅಂಚೆಗಾಗಿ ಪರೀಕ್ಷಿಸುತ್ತದೆ."
@@ -4105,6 +4127,9 @@ msgstr "ಅನುಮತಿಸದಿರಿ"
 msgid "Disappointed"
 msgstr "ನಿರಾಶೆಗೊಂಡ"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "ಪರಿಚಾರಕದಿಂದ ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ"
 
@@ -4553,6 +4578,15 @@ msgstr "ಸ್ನೇಹಿತರನ್ನು ಪಟ್ಟಿಗೆ ಸೇರಿ�
 
 msgid "Error adding group"
 msgstr "ಗುಂಪನ್ನು ಪಟ್ಟಿಗೆ ಸೇರಿಸುವಾಗ ದೋಷ"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಿಸುವಲ್ಲಿ ದೋಷ"
@@ -5306,6 +5340,9 @@ msgstr "ಗ್ಯಾಲಿಶಿಯನ್"
 msgid "Game Title"
 msgstr "ಆಟದ ಶೀರ್ಷಿಕೆ"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "ಆಟಗಳು"
 
@@ -5491,6 +5528,9 @@ msgstr "HTTP ಪ್ರಾಕ್ಸಿ ಸಂಪರ್ಕ ದೋಷ %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "ಅರೆ ಕಾರ್ಯನಿರ್ವಾಹಕ"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr ""
@@ -5766,6 +5806,15 @@ msgstr "IPC ಪರೀಕ್ಷಾ ಕ್ಲೈಂಟ್"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC ಪರೀಕ್ಷಾ ಪರಿಚಾರಕ"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7371,11 +7420,20 @@ msgstr "ಅಡ್ಡಹೆಸರು"
 msgid "Nick Said"
 msgstr "ಅಡ್ಡಹೆಸರನ್ನು ಹೇಳಲಾಗಿದೆ"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "MUC ಅಲ್ಲದೆ ಮಾತುಕತೆಕೋಣೆಗಳಲ್ಲಿ ಅಡ್ಡಹೆಸರನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "ಅಡ್ಡಹೆಸರು ಅಥವ ವಾಹಿನಿಯು(ಚಾನಲ್) ತಾತ್ಕಾಲಿಕವಾಗಿ ಅಲಭ್ಯವಾಗಿದೆ."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7891,6 +7949,9 @@ msgstr "ಕಾರ್ಯಾಚರಣೆ ವ್ಯವಸ್ಥೆ"
 #. A user in a chat room who has special privileges.
 msgid "Operator"
 msgstr "ನಿರ್ವಾಹಕ"
+
+msgid "Operator password"
+msgstr ""
 
 #. Optional Information section
 msgid "Optional information:"
@@ -8775,6 +8836,9 @@ msgstr ""
 #. choose to leave them alone.  Choose what's best for your language.
 msgid "QIP"
 msgstr "QIP"
+
+msgid "QuakeNet Authentication Error"
+msgstr ""
 
 msgid "Question dialog"
 msgstr "ಪ್ರಶ್ನೆಯ ಸಂವಾದ"
@@ -13543,6 +13607,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13573,6 +13644,9 @@ msgstr "ನಿಮ್ಮನ್ನು ಹೊರಗಟ್ಟಲಾಗಿದೆ: (%s
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "%s ರವರು ನಿಮ್ಮನ್ನು ಅಂತ್ಯಗೊಳಿಸಿದ್ದಾರೆ (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "ನೀವು ಒಂದು ಚಿತ್ರವನ್ನು ಎಳೆದು ಸೇರಿಸಿದ್ದೀರಿ"

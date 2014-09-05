@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
-"PO-Revision-Date: 2014-08-31 12:24+0000\n"
+"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"PO-Revision-Date: 2014-09-03 21:38+0000\n"
 "Last-Translator: Anthony Harrington <untaintableangel@ubuntu.com>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 09:09+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-05 01:06+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: English (United Kingdom)\n"
 
 msgid "\t_Only when someone says your username"
@@ -945,6 +945,21 @@ msgstr "+++ %s signed off"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s signed on"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
 
 msgid "/Accounts"
 msgstr "/Accounts"
@@ -2391,6 +2406,10 @@ msgstr "Auth Domain"
 msgid "Auth User"
 msgstr "Auth User"
 
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr "Auth name"
+
 msgid "Authenticate with SASL"
 msgstr "Authenticate with SASL"
 
@@ -2693,6 +2712,9 @@ msgstr "Both"
 
 msgid "Bottom"
 msgstr "Bottom"
+
+msgid "Bounced domain"
+msgstr "Bounced domain"
 
 msgid "Br_owse..."
 msgstr "Br_owse..."
@@ -3186,6 +3208,9 @@ msgstr "Change user information for %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Changes to privacy settings take effect immediately."
 
+msgid "Changes your nick to indicate you are away."
+msgstr "Changes your nick to indicate you are away."
+
 msgid "Channel"
 msgstr "Channel:"
 
@@ -3267,6 +3292,9 @@ msgstr "Chatty"
 
 msgid "Check permissions and try again."
 msgstr "Check permissions and try again."
+
+msgid "Check your password."
+msgstr "Check your password."
 
 msgid "Checks for new local mail."
 msgstr "Checks for new local mail."
@@ -4051,6 +4079,9 @@ msgstr "Disallow"
 msgid "Disappointed"
 msgstr "Disappointed"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr "Disconnect ghosts (Duplicate nicknames)"
+
 msgid "Disconnected by server"
 msgstr "Disconnected by server"
 
@@ -4504,6 +4535,15 @@ msgstr "Error adding buddy"
 
 msgid "Error adding group"
 msgstr "Error adding group"
+
+msgid "Error authenticating with AuthServ"
+msgstr "Error authenticating with AuthServ"
+
+msgid "Error authenticating with NickServ"
+msgstr "Error authenticating with NickServ"
+
+msgid "Error authenticating with Q"
+msgstr "Error authenticating with Q"
 
 msgid "Error changing password"
 msgstr "Error changing password"
@@ -5251,6 +5291,9 @@ msgstr "Galician"
 msgid "Game Title"
 msgstr "Game Title"
 
+msgid "GameSurge Authentication Error"
+msgstr "GameSurge Authentication Error"
+
 msgid "Games"
 msgstr "Games"
 
@@ -5436,6 +5479,9 @@ msgstr "HTTP proxy connection error %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Half Operator"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr "Handles the rough edges of the IRC protocol."
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Handshake Acknowledged, Sending Login"
@@ -5710,6 +5756,15 @@ msgstr "IPC Test Client"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC Test Server"
+
+msgid "IRC Away"
+msgstr "IRC Away"
+
+msgid "IRC Away Nick"
+msgstr "IRC Away Nick"
+
+msgid "IRC Helper"
+msgstr "IRC Helper"
 
 #. *< type
 #. *< ui_requirement
@@ -7296,11 +7351,20 @@ msgstr "Nick"
 msgid "Nick Said"
 msgstr "Nick Said"
 
+msgid "Nick away suffix"
+msgstr "Nick away suffix"
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Nick changing not supported in non-MUC chatrooms"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Nick or channel is temporarily unavailable."
+
+msgid "Nick password"
+msgstr "Nick password"
+
+msgid "NickServ Authentication Error"
+msgstr "NickServ Authentication Error"
 
 #. General
 msgid "Nickname"
@@ -7812,6 +7876,9 @@ msgstr "Operating System"
 #. A user in a chat room who has special privileges.
 msgid "Operator"
 msgstr "Operator"
+
+msgid "Operator password"
+msgstr "Operator password"
 
 #. Optional Information section
 msgid "Optional information:"
@@ -8696,6 +8763,9 @@ msgstr "Purple's D-BUS server is not running for the reason listed below"
 #. choose to leave them alone.  Choose what's best for your language.
 msgid "QIP"
 msgstr "QIP"
+
+msgid "QuakeNet Authentication Error"
+msgstr "QuakeNet Authentication Error"
 
 msgid "Question dialog"
 msgstr "Question dialog"
@@ -13396,6 +13466,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] "You have %i suggested friend."
 msgstr[1] "You have %i suggested friends."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr "You have been added to the access list with an access level of %s."
+
+msgid "You have been added to the access list."
+msgstr "You have been added to the access list."
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13425,6 +13502,9 @@ msgstr "You have been kicked: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "You have been killed by %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr "You have been removed from the access list."
 
 msgid "You have dragged an image"
 msgstr "You have dragged an image"
