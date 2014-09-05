@@ -6019,7 +6019,7 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 			str_embed_direction_chars(&alias_escaped);
 
 		str = g_malloc(1024);
-		message_meify = purple_message_meify(new_message, -1 );
+		message_meify = purple_message_meify(new_message, -1);
 		if (flags & PURPLE_MESSAGE_WHISPER) {
 			/* If we're whispering, it's not an autoresponse. */
 			if (message_meify) {
