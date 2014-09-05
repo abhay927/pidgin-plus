@@ -74,6 +74,9 @@
                 pt-br:description="Formatação para site do canal nas conversas IRC"
                 bug="15248"/>
 
+        <change en-us:description="Proper formatting for ZNC buffer playback timestamps"
+                pt-br:description="Formatação para hora das mensagens na reprodução de buffers do ZNC"/>
+
         <change en-us:description="Wider non-ellipsized labels for side-aligned conversation tabs"
                 pt-br:description="Títulos maiores, sem reticências, nas abas de conversa laterais"
                 bug="15347"/>

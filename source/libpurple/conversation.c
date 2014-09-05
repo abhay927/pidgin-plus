@@ -1571,6 +1571,16 @@ purple_conv_chat_write(PurpleConvChat *chat, const char *who, const char *messag
 
 			if (purple_utf8_has_word(message, chat->nick))
 				flags |= PURPLE_MESSAGE_NICK;
+
+			/* Highlight ZNC buffer playback notification as a system message.
+			   This is not needed if IRCv3 server-time is implemented. */
+			if (purple_strequal(who, "***")) {
+				flags |= PURPLE_MESSAGE_SYSTEM;
+				if (g_ascii_strcasecmp(message, "buffer playback...") == 0)
+					message = _("Start of buffer playback");
+				else if (g_ascii_strcasecmp(message, "playback complete.") == 0)
+					message = _("End of buffer playback");
+			}
 		}
 	}
 

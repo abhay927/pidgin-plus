@@ -4372,6 +4372,9 @@ msgstr "Finalizar sessão de MI direta"
 msgid "End of ban list"
 msgstr "Fim da lista de banidos"
 
+msgid "End of buffer playback"
+msgstr "Fim do buffer de mensagens"
+
 #. *< name
 #. *< version
 #. *  summary
@@ -10343,6 +10346,9 @@ msgstr "Começar a desenhar"
 #. Installer Subsection Text
 msgid "Start Menu"
 msgstr "Menu Iniciar"
+
+msgid "Start of buffer playback"
+msgstr "Início do buffer de mensagens"
 
 msgid "Started typing"
 msgstr "Começou a digitar"
