@@ -42,7 +42,8 @@
 #define IRC_DEFAULT_AUTODETECT FALSE
 #define IRC_DEFAULT_ALIAS "purple"
 
-#define IRC_DEFAULT_QUIT "Leaving."
+#define IRC_DEFAULT_QUIT "leaving"
+#define IRC_DEFAULT_PART "leaving"
 
 #define IRC_INITIAL_BUFSIZE 1024
 

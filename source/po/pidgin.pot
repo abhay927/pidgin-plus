@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-06 12:47-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7651,6 +7651,9 @@ msgstr ""
 msgid "Paging"
 msgstr ""
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr ""
 
@@ -8396,6 +8399,9 @@ msgstr ""
 
 #, c-format
 msgid "Quietest"
+msgstr ""
+
+msgid "Quit message"
 msgstr ""
 
 #. Raise window method button
@@ -11931,10 +11937,6 @@ msgstr ""
 msgid "Use Perfect Forward Secrecy"
 msgstr ""
 
-#.
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#.
 msgid "Use SSL"
 msgstr ""
 
