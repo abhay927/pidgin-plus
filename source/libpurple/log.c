@@ -1606,28 +1606,28 @@ static gsize txt_logger_write(PurpleLog *log,
 		if (type & PURPLE_MESSAGE_SEND ||
 			type & PURPLE_MESSAGE_RECV) {
 			if (type & PURPLE_MESSAGE_AUTO_RESP) {
-				written += fprintf(data->file, _("(%s) %s (auto): %s\n"), date,
+				written += fprintf(data->file, _("%s %s (auto): %s\n"), date,
 						from, stripped);
 			} else {
 				if(purple_message_meify(stripped, -1))
-					written += fprintf(data->file, "(%s) ***%s %s\n", date, from,
+					written += fprintf(data->file, "%s ***%s %s\n", date, from,
 							stripped);
 				else
-					written += fprintf(data->file, "(%s) %s: %s\n", date, from,
+					written += fprintf(data->file, "%s %s: %s\n", date, from,
 							stripped);
 			}
 		} else if (type & PURPLE_MESSAGE_SYSTEM ||
 			type & PURPLE_MESSAGE_ERROR ||
 			type & PURPLE_MESSAGE_RAW)
-			written += fprintf(data->file, "(%s) %s\n", date, stripped);
+			written += fprintf(data->file, "%s %s\n", date, stripped);
 		else if (type & PURPLE_MESSAGE_NO_LOG) {
 			/* This shouldn't happen */
 			g_free(stripped);
 			return written;
 		} else if (type & PURPLE_MESSAGE_WHISPER)
-			written += fprintf(data->file, "(%s) *%s* %s", date, from, stripped);
+			written += fprintf(data->file, "%s *%s* %s", date, from, stripped);
 		else
-			written += fprintf(data->file, "(%s) %s%s %s\n", date, from ? from : "",
+			written += fprintf(data->file, "%s %s%s %s\n", date, from ? from : "",
 					from ? ":" : "", stripped);
 	}
 	g_free(date);
