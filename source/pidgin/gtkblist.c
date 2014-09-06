@@ -837,6 +837,29 @@ static void gtk_blist_show_systemlog_cb(void)
 	pidgin_syslog_show();
 }
 
+static void gtk_blist_check_application_updates_cb()
+{
+	int response;
+	PidginBuddyList *gtkblist;
+	GtkWindow *blist_window;
+	GtkWidget *dialog;
+
+	gtkblist = PIDGIN_BLIST(purple_get_blist());
+	blist_window = gtkblist ? GTK_WINDOW(gtkblist->window) : NULL;
+
+	if (!purple_prefs_get_bool("/purple/network/app_updates")) {
+		dialog = gtk_message_dialog_new(GTK_WINDOW(blist_window),
+			GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_QUESTION, GTK_BUTTONS_YES_NO,
+			_("This will bypass your proxy settings, continue?"));
+		response = gtk_dialog_run(GTK_DIALOG(dialog));
+		gtk_widget_destroy(dialog);
+		if (response == GTK_RESPONSE_YES)
+			win_sparkle_check_update_with_ui();
+	} else {
+		win_sparkle_check_update_with_ui();
+	}
+}
+
 static void gtk_blist_show_onlinehelp_cb(void)
 {
 	purple_notify_uri(NULL, PURPLE_WEBSITE "documentation");
@@ -3656,7 +3679,7 @@ static GtkItemFactoryEntry blist_menu[] =
 #ifdef _WIN32
 	{ N_("/Help/Online _Help"), "F1", gtk_blist_show_onlinehelp_cb, 0, "<StockItem>", GTK_STOCK_HELP },
 #endif
-	{ N_("/Help/Check for _Updates..."), NULL, win_sparkle_check_update_with_ui, 0, "<StockItem>", GTK_STOCK_GOTO_BOTTOM },
+	{ N_("/Help/Check for _Updates..."), NULL, gtk_blist_check_application_updates_cb, 0, "<StockItem>", GTK_STOCK_GOTO_BOTTOM },
 	{ "/Help/sep1", NULL, NULL, 0, "<Separator>", NULL },
 	{ N_("/Help/_Debug Window"), NULL, toggle_debug, 0, "<Item>", NULL },
 	{ N_("/Help/_Build Information"), NULL, pidgin_dialogs_buildinfo, 0, "<Item>", NULL },

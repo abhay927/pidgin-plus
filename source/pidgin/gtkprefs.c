@@ -1714,7 +1714,7 @@ network_page(void)
 {
 	GtkWidget *ret;
 	GtkWidget *vbox, *hbox, *entry;
-	GtkWidget *label, *auto_ip_checkbox, *ports_checkbox, *spin_button;
+	GtkWidget *label, *auto_ip_checkbox, *ports_checkbox, *spin_button, *app_updates_checkbox;
 	GtkSizeGroup *sg;
 
 	ret = gtk_vbox_new(FALSE, PIDGIN_HIG_CAT_SPACE);
@@ -1822,10 +1822,17 @@ network_page(void)
 		"/purple/network/turn_username", sg);
 	pidgin_prefs_labeled_password(hbox, _("Pass_word:"),
 		"/purple/network/turn_password", NULL);
-
-	gtk_widget_show_all(ret);
+	
 	g_object_unref(sg);
 
+	/* Application update checking */
+	vbox = pidgin_make_frame(ret, _("Application updates"));
+	app_updates_checkbox = pidgin_prefs_checkbox("Automatically check for _new versions", "/purple/network/app_updates", vbox);
+	label = gtk_label_new(NULL);
+	gtk_label_set_markup(GTK_LABEL(label), _("<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"));
+	gtk_container_add(GTK_CONTAINER(vbox), label);	
+
+	gtk_widget_show_all(ret);
 	return ret;
 }
 

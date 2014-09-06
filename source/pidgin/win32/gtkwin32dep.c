@@ -433,8 +433,10 @@ void winpidgin_init(HINSTANCE hint) {
 void winpidgin_post_init(void) {
 
 	/* Automated application update */
-	win_sparkle_set_appcast_url("http://pidgin.renatosilva.me/update.xml");
-	win_sparkle_init();
+	if (purple_prefs_get_bool("/purple/network/app_updates")) {
+		win_sparkle_set_appcast_url("http://pidgin.renatosilva.me/update.xml");
+		win_sparkle_init();
+	}
 
 	purple_prefs_add_none(PIDGIN_PREFS_ROOT "/win32");
 	purple_prefs_add_bool(PIDGIN_PREFS_ROOT "/win32/blink_im", TRUE);
@@ -450,7 +452,9 @@ void winpidgin_post_init(void) {
 void winpidgin_cleanup(void) {
 	purple_debug_info("winpidgin", "winpidgin_cleanup\n");
 
-	win_sparkle_cleanup();
+	if (purple_prefs_get_bool("/purple/network/app_updates"))
+		win_sparkle_cleanup();
+
 	if(messagewin_hwnd)
 		DestroyWindow(messagewin_hwnd);
 
