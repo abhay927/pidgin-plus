@@ -72,8 +72,6 @@
 
 #define CLOSE_CONV_TIMEOUT_SECS  (10 * 60)
 
-#define AUTO_RESPONSE "(auto)"
-
 typedef enum
 {
 	PIDGIN_CONV_SET_TITLE			= 1 << 0,

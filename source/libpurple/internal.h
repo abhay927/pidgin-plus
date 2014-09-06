@@ -160,6 +160,8 @@
 #define PURPLE_WEBSITE "http://pidgin.im/"
 #define PURPLE_DEVEL_WEBSITE "http://developer.pidgin.im/"
 
+#define AUTO_RESPONSE "(auto)"
+
 
 /* INTERNAL FUNCTIONS */
 
