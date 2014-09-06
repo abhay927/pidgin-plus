@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.ui.no>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:53+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:04+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Norwegian Bokmal\n"
 
@@ -1552,6 +1552,10 @@ msgstr "<span size='smaller'>_Mindre</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Gjennomstrek</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Eksempel: stunserver.org</span>"
 
@@ -2240,6 +2244,10 @@ msgstr "Fremstå som pålogget"
 
 msgid "Appear Permanently Offline"
 msgstr "Fremstå som permanent avlogget"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Bruk"
@@ -4326,6 +4334,9 @@ msgstr "Avslutt direkte lynmelding-økt"
 
 msgid "End of ban list"
 msgstr "Slutt på utestengingslista"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10299,6 +10310,9 @@ msgstr "Start kruseduller"
 msgid "Start Menu"
 msgstr "Startmeny"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Startet å skrive"
 
@@ -11427,6 +11441,9 @@ msgstr "Dette brukernavnet er tilgjengelig. Vil du sette det?"
 
 msgid "This username is unavailable."
 msgstr "Dette brukernavnet er utilgjengelig."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

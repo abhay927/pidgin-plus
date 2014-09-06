@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Slovenian "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:59+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:12+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Slovenian\n"
 
@@ -1599,6 +1599,10 @@ msgstr "<span size='smaller'>_Manjše</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Prečrtano</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Primer: stunserver.org</span>"
 
@@ -2295,6 +2299,10 @@ msgstr "Izgledaj povezan"
 
 msgid "Appear Permanently Offline"
 msgstr "Izgledaj stalno povezan"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Uporabi"
@@ -4385,6 +4393,9 @@ msgstr "Končaj sejo neposrednega sporočanja"
 
 msgid "End of ban list"
 msgstr "Konec seznama prepovedi"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10350,6 +10361,9 @@ msgstr "Začni Doodlati"
 msgid "Start Menu"
 msgstr "Začetni meni"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Začel je tipkati"
 
@@ -11509,6 +11523,9 @@ msgstr "To uporabniško ime je na voljo. Ga želite nastaviti?"
 
 msgid "This username is unavailable."
 msgstr "To uporabniško ime ni na voljo."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

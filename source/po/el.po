@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:52+0000\n"
 "Last-Translator: Panos Bouklis <panos@echidna-band.com>\n"
 "Language-Team: Greek "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:42+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:52+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Greek\n"
 
@@ -1590,6 +1590,10 @@ msgstr "<span size='smaller'>_Μικρότερα</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Διαγράμμιση</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Παράδειγμα: stunserver.org</span>"
 
@@ -2310,6 +2314,10 @@ msgstr "Εμφάνιση ως συνδεδεμένος"
 
 msgid "Appear Permanently Offline"
 msgstr "Εμφάνιση ως μόνιμα αποσυνδεδεμένος"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Εφαρμογή"
@@ -4423,6 +4431,9 @@ msgstr "Τερματισμός απευθείας συνεδρίας άμεσω�
 
 msgid "End of ban list"
 msgstr "Τέλος λίστας αποκλεισμών"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10466,6 +10477,9 @@ msgstr "Ξεκίνα το Doodling"
 msgid "Start Menu"
 msgstr "Μενού έναρξης"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Ξεκίνησε να πληκτρολογεί"
 
@@ -11646,6 +11660,9 @@ msgstr "Αυτό το όνομα χρήστη είναι διαθέσιμο. Θ�
 
 msgid "This username is unavailable."
 msgstr "Αυτό το όνομα χρήστη δεν είναι διαθέσιμο."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

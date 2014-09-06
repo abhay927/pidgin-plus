@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:16+0000\n"
 "Last-Translator: Arangel Angov <ufo@linux.net.mk>\n"
 "Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 || n%10==1 ? 0 : 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:49+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:59+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Macedonian\n"
 
@@ -1496,6 +1496,10 @@ msgstr "<span size='smaller'>_Помало</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span size='larger'>Прешкртано</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Пример: stunserver.org</span>"
 
@@ -2164,6 +2168,10 @@ msgstr "Покажи се онлајн"
 
 msgid "Appear Permanently Offline"
 msgstr "Покажи се привремено офлајн"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Примени"
@@ -4247,6 +4255,9 @@ msgstr ""
 
 msgid "End of ban list"
 msgstr "Крај на листата"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10208,6 +10219,9 @@ msgstr "Започни со дудлање"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11326,6 +11340,9 @@ msgstr "Ова корисничко име е достапно. Дали сак�
 
 msgid "This username is unavailable."
 msgstr "Ова корисничко име не е достапно."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

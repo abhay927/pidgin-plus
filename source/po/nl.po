@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Dutch "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:37+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:47+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Dutch\n"
 
@@ -1574,6 +1574,10 @@ msgstr "<span size='smaller'>_Kleiner</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Doorstrepen</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Bijvoorbeeld: stunserver.org</span>"
 
@@ -2279,6 +2283,10 @@ msgstr "Online weergeven"
 
 msgid "Appear Permanently Offline"
 msgstr "Altijd offline weergeven"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Toepassen"
@@ -4370,6 +4378,9 @@ msgstr "Beëindig Direct IM sessie"
 
 msgid "End of ban list"
 msgstr "Einde van blokkeerlijst"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10351,6 +10362,9 @@ msgstr "Begin met Schetsen"
 msgid "Start Menu"
 msgstr "Start Menu"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Gestart met typen"
 
@@ -11517,6 +11531,9 @@ msgstr "Deze gebruikersnaam is beschikbaar. Wilt u deze gebruiken?"
 
 msgid "This username is unavailable."
 msgstr "Deze gebruikersnaam is niet beschikbaar."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

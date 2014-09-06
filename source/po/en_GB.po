@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-09-03 21:38+0000\n"
 "Last-Translator: Anthony Harrington <untaintableangel@ubuntu.com>\n"
 "Language-Team: English (United Kingdom) "
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 01:06+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:21+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: English (United Kingdom)\n"
 
@@ -1577,6 +1577,10 @@ msgstr "<span size='smaller'>_Smaller</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Strikethrough</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Example: stunserver.org</span>"
 
@@ -2266,6 +2270,10 @@ msgstr "Appear Online"
 
 msgid "Appear Permanently Offline"
 msgstr "Appear Permanently Offline"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Apply"
@@ -4352,6 +4360,9 @@ msgstr "End Direct IM Session"
 
 msgid "End of ban list"
 msgstr "End of ban list"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10315,6 +10326,9 @@ msgstr "Start Doodling"
 msgid "Start Menu"
 msgstr "Start Menu"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Started typing"
 
@@ -11450,6 +11464,9 @@ msgstr "This username is available. Would you like to set it?"
 
 msgid "This username is unavailable."
 msgstr "This username is not available."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

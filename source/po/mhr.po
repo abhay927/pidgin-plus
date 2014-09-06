@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:25+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Mari <muter@lists.linux-ink.ru>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-05 01:10+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:24+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "Language: Mari (Meadow)\n"
@@ -1523,6 +1523,10 @@ msgstr "<span size='smaller'>_Изирак</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Удыралме</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Шынамат: stunserver.org</span>"
 
@@ -2196,6 +2200,10 @@ msgstr "Вотышто коеш"
 
 msgid "Appear Permanently Offline"
 msgstr "Эре вотышто огыл"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Кучылташ тӱҥалаш"
@@ -4276,6 +4284,9 @@ msgstr ""
 
 msgid "End of ban list"
 msgstr "Чарымаш лӱмерын мучашыже"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10233,6 +10244,9 @@ msgstr "Пашадыме лиймым тӱҥалаш"
 msgid "Start Menu"
 msgstr "Тӱҥалтыш полдыш"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Савыкташ тӱҥалын"
 
@@ -11329,6 +11343,9 @@ msgstr "Тиде пайдаланыше лӱм лиймеямде. Тый туд
 
 msgid "This username is unavailable."
 msgstr "Тиде пайдаланыше лӱм лиймеямде огыл."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

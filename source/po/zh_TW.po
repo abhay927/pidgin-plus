@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Traditional) <zh-l10n@linux.org.tw>\n"
@@ -68,7 +68,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-05 01:07+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:21+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Chinese (Traditional)\n"
 
@@ -1579,6 +1579,10 @@ msgstr "<span size='smaller'>縮小(_S)</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>刪除線</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">例：stunserver.org</span>"
 
@@ -2288,6 +2292,10 @@ msgstr "報稱上線"
 #  NOTE 參閱 "Appear Offline"
 msgid "Appear Permanently Offline"
 msgstr "長期報稱離線"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "套用"
@@ -4482,6 +4490,9 @@ msgstr "結束即時訊息工作階段"
 # XXX 「禁止清單」不知是什麼東西，是否應譯「黑名單」？？ - acli 20080511
 msgid "End of ban list"
 msgstr "禁止清單完"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10766,6 +10777,9 @@ msgstr "開始 Doodle"
 msgid "Start Menu"
 msgstr "開始選單"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "開始輸入"
 
@@ -11865,6 +11879,9 @@ msgstr "您可取得這個使用者名稱，您要使用這個使用者名稱嗎
 
 msgid "This username is unavailable."
 msgstr "這個使用者名稱已無法取得。"
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

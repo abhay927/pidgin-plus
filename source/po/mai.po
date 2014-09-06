@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin_mai\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:50+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Maithili <http://code.google.com/p/bhashaghar>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:49+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:00+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Maithili\n"
 
@@ -1479,6 +1479,10 @@ msgstr "<span size='smaller'>बेसी छोट (_S)</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>आर पार काटू</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">उदाहरण: stunserver.org</span>"
 
@@ -2136,6 +2140,10 @@ msgstr "औनलाइन रहू"
 
 msgid "Appear Permanently Offline"
 msgstr "स्थायी आफलाइन रहू"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "लागू करू"
@@ -4212,6 +4220,9 @@ msgid "End Direct IM Session"
 msgstr ""
 
 msgid "End of ban list"
+msgstr ""
+
+msgid "End of buffer playback"
 msgstr ""
 
 #. *< name
@@ -10115,6 +10126,9 @@ msgstr "डूडलिंग शुरू करू"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11206,6 +11220,9 @@ msgstr "ई प्रयोक्तानाम उपलब्ध अछि. �
 
 msgid "This username is unavailable."
 msgstr "ई प्रयोक्तानाम नहि मोजुद अछि."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

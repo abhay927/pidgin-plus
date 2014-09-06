@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:03+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: <pgeygel@dit.gov.bt>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:37+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:47+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: BHUTAN\n"
 "Language: Dzongkha\n"
@@ -1469,6 +1469,10 @@ msgstr ""
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr ""
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">དཔེར་བརྗོད།: stunserver.org</span>"
 
@@ -2134,6 +2138,10 @@ msgstr "གློག་ཐོག་འབྱུང་།"
 
 msgid "Appear Permanently Offline"
 msgstr "རྟག་བརྟན་གློག་ལམ་མེདཔ་སྦེ་འབྱུང་།"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "འཇུག་སྤྱོད་འབད།"
@@ -4202,6 +4210,9 @@ msgid "End Direct IM Session"
 msgstr ""
 
 msgid "End of ban list"
+msgstr ""
+
+msgid "End of buffer playback"
 msgstr ""
 
 #. *< name
@@ -10164,6 +10175,9 @@ msgstr "ཌུཌ་ལིང་ འགོ་བཙུགས།"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11281,6 +11295,9 @@ msgid "This username is available. Would you like to set it?"
 msgstr ""
 
 msgid "This username is unavailable."
+msgstr ""
+
+msgid "This will bypass your proxy settings, continue?"
 msgstr ""
 
 #, c-format

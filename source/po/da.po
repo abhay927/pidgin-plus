@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -50,7 +50,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:36+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:46+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Danish\n"
 "X-Poedit-Language: Danish\n"
@@ -1603,6 +1603,10 @@ msgstr "<span size='smaller'>_Mindre</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Gennemstreg</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Eksempel: stunserver.org</span>"
 
@@ -2298,6 +2302,10 @@ msgstr "Virk tilkoblet"
 
 msgid "Appear Permanently Offline"
 msgstr "Virk permanent afkoblet"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Anvend"
@@ -4384,6 +4392,9 @@ msgstr "Afslut direkte besked-session"
 
 msgid "End of ban list"
 msgstr "Slut på udvisningsliste"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10362,6 +10373,9 @@ msgstr "Start med at \"Doodle\""
 msgid "Start Menu"
 msgstr "Startmenu"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Startede med at skrive"
 
@@ -11511,6 +11525,9 @@ msgstr "Dette brugernavn er tilgængeligt. Vil du benytte det?"
 
 msgid "This username is unavailable."
 msgstr "Dette brugernavn er ikke tilgængeligt."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

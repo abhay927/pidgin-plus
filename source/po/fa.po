@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Persian "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:55+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:06+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Persian\n"
 
@@ -1480,6 +1480,10 @@ msgstr ""
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr ""
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">مثال: stunserver.org</span>"
 
@@ -2139,6 +2143,10 @@ msgstr "به نظر برخط"
 
 msgid "Appear Permanently Offline"
 msgstr "همیشه به نظر برون‌خط"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "اِعمال"
@@ -4207,6 +4215,9 @@ msgid "End Direct IM Session"
 msgstr ""
 
 msgid "End of ban list"
+msgstr ""
+
+msgid "End of buffer playback"
 msgstr ""
 
 #. *< name
@@ -10116,6 +10127,9 @@ msgstr ""
 msgid "Start Menu"
 msgstr "منوى آغاز"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11196,6 +11210,9 @@ msgid "This username is available. Would you like to set it?"
 msgstr ""
 
 msgid "This username is unavailable."
+msgstr ""
+
+msgid "This will bypass your proxy settings, continue?"
 msgstr ""
 
 #, c-format

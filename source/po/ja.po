@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:12+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:46+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:55+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Japanese\n"
 
@@ -1486,6 +1486,10 @@ msgstr "<span size='smaller'>小(_S)</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr ""
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">例: stunserver.org</span>"
 
@@ -2137,6 +2141,10 @@ msgstr "オンラインのようです"
 
 msgid "Appear Permanently Offline"
 msgstr "一時的にオフラインのようです"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "適用"
@@ -4193,6 +4201,9 @@ msgstr ""
 
 msgid "End of ban list"
 msgstr "締め出しの一覧終わり"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10044,6 +10055,9 @@ msgstr "いたずら書きする"
 msgid "Start Menu"
 msgstr "スタートアップ"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11086,6 +11100,9 @@ msgid "This username is available. Would you like to set it?"
 msgstr ""
 
 msgid "This username is unavailable."
+msgstr ""
+
+msgid "This will bypass your proxy settings, continue?"
 msgstr ""
 
 #, c-format

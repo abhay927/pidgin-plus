@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:33+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:44+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: BANGLADESH\n"
 "Language: Bengali\n"
@@ -1665,6 +1665,10 @@ msgstr "<span size='smaller'>অপেক্ষাকৃত ছোট (_S)</span
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>অবচ্ছেদন রেখা</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 # tithi
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">উদাহরণ: stunserver.org</span>"
@@ -2425,6 +2429,10 @@ msgstr "অনলাইনে দেখান"
 # tithi
 msgid "Appear Permanently Offline"
 msgstr "স্থায়ীভাবে অফলাইনে দেখান"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "প্রয়োগ"
@@ -4729,6 +4737,9 @@ msgstr "সরাসরি IM সেশন সমাপ্ত করা হব�
 
 msgid "End of ban list"
 msgstr "নিষিদ্ধ তালিকা সমাপ্ত"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -11238,6 +11249,9 @@ msgstr "হিজিবিজি কাজ করা শুরু করুন"
 msgid "Start Menu"
 msgstr "প্রারম্ভিক মেনু"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "টাইপ শুরু করেছে"
 
@@ -12522,6 +12536,9 @@ msgstr "এই নামটি অব্যবহৃত। আপনি কি �
 
 msgid "This username is unavailable."
 msgstr "এই ব্যহারকারীর নামটি অনুপস্থিত।"
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 # tithi
 #, c-format

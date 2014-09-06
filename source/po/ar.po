@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:15+0000\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
 "3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:30+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:42+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Arabic\n"
 "X-Poedit-Language: Arabic\n"
@@ -1548,6 +1548,10 @@ msgstr "<span size='smaller'>أ_صغر</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>عبره خط</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">مثال: stunserver.org</span>"
 
@@ -2212,6 +2216,10 @@ msgstr "ابد متصلا"
 
 msgid "Appear Permanently Offline"
 msgstr "ابد غير متصل للأبد"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "طبّق"
@@ -4278,6 +4286,9 @@ msgstr ""
 
 msgid "End of ban list"
 msgstr "نهاية قائمة الحظر"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10166,6 +10177,9 @@ msgstr "إبدأ Doodling"
 msgid "Start Menu"
 msgstr "قائمة ابدأ"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11268,6 +11282,9 @@ msgstr "اسم المستخدم متاح. أتريد استخدامه؟"
 
 msgid "This username is unavailable."
 msgstr "اسم المستخدم هذا غير متاح."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

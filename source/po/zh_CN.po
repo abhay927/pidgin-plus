@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-05 01:08+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:22+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Chinese (Simplified)\n"
 
@@ -1490,6 +1490,10 @@ msgstr "<span size='smaller'>较小(_S)</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>删除线</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">例如：stunserver.org</span>"
 
@@ -2150,6 +2154,10 @@ msgstr "对其隐身可见"
 
 msgid "Appear Permanently Offline"
 msgstr "显示为临时离线"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "应用"
@@ -4205,6 +4213,9 @@ msgstr "结束二人世界直连聊天"
 
 msgid "End of ban list"
 msgstr "封禁列表结束"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10054,6 +10065,9 @@ msgstr ""
 msgid "Start Menu"
 msgstr "开始菜单"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "开始打字"
 
@@ -11086,6 +11100,9 @@ msgstr "此用户名可用。您是否想设置为这个用户名？"
 
 msgid "This username is unavailable."
 msgstr "该用户名不可用。"
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

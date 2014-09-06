@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:41+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:51+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Irish\n"
 
@@ -1595,6 +1595,10 @@ msgstr "<span size='smaller'>Níos _Lú</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Líne Tríd</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Mar shampla: stunserver.org</span>"
 
@@ -2297,6 +2301,10 @@ msgstr "Taispeáin nuair a bhím ar líne"
 
 msgid "Appear Permanently Offline"
 msgstr "Taispeáin As Líne i gCónaí"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Cuir i bhfeidhm"
@@ -4397,6 +4405,9 @@ msgstr "Cuir deireadh leis an seisiún díreach TM"
 
 msgid "End of ban list"
 msgstr "Deireadh an liosta coiscthe"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10408,6 +10419,9 @@ msgstr "Tosaigh Scriobláil"
 msgid "Start Menu"
 msgstr "Roghchlár Tosaithe"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Clóscríobh tosaithe"
 
@@ -11572,6 +11586,9 @@ msgstr "Tá an t-ainm úsáideora seo ar fáil. An bhfuil fonn ort é a úsáid?
 
 msgid "This username is unavailable."
 msgstr "Níl an t-ainm úsáideora seo ar fáil."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

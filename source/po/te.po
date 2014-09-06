@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 01:01+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:15+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Telugu\n"
 
@@ -1560,6 +1560,10 @@ msgstr "<span size='smaller'>చిన్న (_S)</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>కొట్టివేయి</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<స్పాన్ స్టైల్=\"ఇటాలిక్\">ఉదాహరణ: stunserver.org</span>"
 
@@ -2256,6 +2260,10 @@ msgstr "ఆన్ లైన్ లో ఉన్నట్టు చూపండ�
 
 msgid "Appear Permanently Offline"
 msgstr "శాశ్వతంగా ఆఫ్ లైన్ గా కనిపించు"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "అనుసంధించుట"
@@ -4347,6 +4355,9 @@ msgstr "డైరెక్ట్ IM సెషన్‌ను ముగించ�
 
 msgid "End of ban list"
 msgstr "నిషేదపు జాబితా అంతం"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10317,6 +10328,9 @@ msgstr "డూడ్లింగ్ ప్రారంభించు"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "టైపింగ్ ప్రారంభించబడెను"
 
@@ -11442,6 +11456,9 @@ msgstr "వినియోగదారిపేరు అందుబాటు�
 
 msgid "This username is unavailable."
 msgstr "ఈ వినియోగదారిపేరు అందుబాటులో లేదు."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

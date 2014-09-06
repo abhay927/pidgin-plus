@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:32+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: GTP Korean <gnome-kr-translation@gnome.or.kr>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:47+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:57+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: KOREA, REPUBLIC OF\n"
 "Language: Korean\n"
@@ -1462,6 +1462,10 @@ msgstr "<span size='smaller'>작게(_S)</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>취소줄</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">예: stunserver.org</span>"
 
@@ -2110,6 +2114,10 @@ msgstr "온라인으로 표시"
 
 msgid "Appear Permanently Offline"
 msgstr "일시적으로 오프라인으로 표시"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "적용"
@@ -4155,6 +4163,9 @@ msgid "End Direct IM Session"
 msgstr ""
 
 msgid "End of ban list"
+msgstr ""
+
+msgid "End of buffer playback"
 msgstr ""
 
 #. *< name
@@ -10004,6 +10015,9 @@ msgstr "낙서 시작"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11045,6 +11059,9 @@ msgid "This username is available. Would you like to set it?"
 msgstr ""
 
 msgid "This username is unavailable."
+msgstr ""
+
+msgid "This will bypass your proxy settings, continue?"
 msgstr ""
 
 #, c-format

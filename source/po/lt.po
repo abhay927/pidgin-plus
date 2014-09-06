@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:18+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Lithuanian "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:48+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:59+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Lithuanian\n"
 
@@ -1583,6 +1583,10 @@ msgstr "<span size='smaller'>_Mažesnis</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Perbraukimas</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\\\"italic\\\">Pavyzdžiui: stunserver.org</span>"
 
@@ -2278,6 +2282,10 @@ msgstr "Atrodyti prisijungusiu"
 
 msgid "Appear Permanently Offline"
 msgstr "Atrodyti atsijungusiu"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Vykdyti"
@@ -4361,6 +4369,9 @@ msgstr "Pabaigti tiesioginio ryšio seansą"
 
 msgid "End of ban list"
 msgstr "Draudimų sąrašo pabaiga"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10340,6 +10351,9 @@ msgstr "Pradėti paišinėjimą"
 msgid "Start Menu"
 msgstr "pradiniame meniu"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "pradeda rašyti"
 
@@ -11492,6 +11506,9 @@ msgstr "Šis naudotojo vardas laisvas.  Ar norite juo pasivadinti?"
 
 msgid "This username is unavailable."
 msgstr "Šis naudotojo vardas užimtas."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

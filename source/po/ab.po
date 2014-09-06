@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-07-20 06:23+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Burmese (Myanmar) "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:27+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:40+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: my_MM\n"
 
@@ -1575,6 +1575,10 @@ msgstr "_S <span size='smaller'> ပိုသေးသော အရွယ်</sp
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'> ဖြတ်လိုင်း</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">ဥပမာ - stunserver.org</span>"
 
@@ -2275,6 +2279,10 @@ msgstr "အွန်​လိုင်း ရှိပုံပေါ်သည�
 
 msgid "Appear Permanently Offline"
 msgstr "အမြဲတမ်း အော့ဖ်လိုင်း ရောက်နေပုံပေါ်သည်"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "အသုံးချရန်"
@@ -4367,6 +4375,9 @@ msgstr "တိုက်ရိုက် IM လုပ်ဆောင်မှု �
 
 msgid "End of ban list"
 msgstr "ပိတ်ဆို့မှု စာရင်း အဆုံး"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10360,6 +10371,9 @@ msgstr "Doodle ပြုလုပ်မှု စတင်ရန်"
 msgid "Start Menu"
 msgstr "အဖွင့် မီနူး"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "စတင် စာရိုက်နေသည်"
 
@@ -11516,6 +11530,9 @@ msgstr "ဤသုံးစွဲသူအမည် ရနိုင်သည်�
 
 msgid "This username is unavailable."
 msgstr "ဤသုံးစွဲသူအမည် မရနိုင်ပါ။"
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 01:00+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:14+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Swedish\n"
 
@@ -1562,6 +1562,10 @@ msgstr "<span size='smaller'>_Mindre</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Genomstruket</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Exempel: stunserver.org</span>"
 
@@ -2253,6 +2257,10 @@ msgstr "Verka vara ansluten"
 
 msgid "Appear Permanently Offline"
 msgstr "Verka vara permanent frånkopplad"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Verkställ"
@@ -4345,6 +4353,9 @@ msgstr "Avsluta direkt-IM session"
 
 msgid "End of ban list"
 msgstr "Slut på Bannlysningslista"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10332,6 +10343,9 @@ msgstr "Starta kladda"
 msgid "Start Menu"
 msgstr "Startmeny"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Började skriva"
 
@@ -11462,6 +11476,9 @@ msgstr "Detta användarnamn är tillgängligt. Vill du ange det?"
 
 msgid "This username is unavailable."
 msgstr "Detta användarnamn är inte tillgängligt."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Galician <g11n@mancomun.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:42+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:52+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Galician\n"
 
@@ -1554,6 +1554,10 @@ msgstr "<span size='smaller'>Máis _pequeno</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Riscado</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Exemplo: stunserver.org</span>"
 
@@ -2246,6 +2250,10 @@ msgstr "Aparecer conectado"
 
 msgid "Appear Permanently Offline"
 msgstr "Aparecer permanentemente desconectado"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Aplicar"
@@ -4338,6 +4346,9 @@ msgstr ""
 
 msgid "End of ban list"
 msgstr "Fin da lista de expulsados"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10310,6 +10321,9 @@ msgstr "Comezar o Doodle"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Comezou a escribir"
 
@@ -11444,6 +11458,9 @@ msgstr "Este nome de usuario está dispoñíbel. Quere configuralo?"
 
 msgid "This username is unavailable."
 msgstr "Este nome de usuario non está dispoñibel."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:28+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Asturian "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:31+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:42+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Asturian\n"
 
@@ -1477,6 +1477,10 @@ msgstr ""
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr ""
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr ""
 
@@ -2129,6 +2133,10 @@ msgstr "Apaecer en llinia"
 
 msgid "Appear Permanently Offline"
 msgstr "Apaecer siempres en llinia"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr ""
@@ -4193,6 +4201,9 @@ msgstr ""
 
 msgid "End of ban list"
 msgstr "Final de la llista d'espulsaos"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10073,6 +10084,9 @@ msgstr ""
 msgid "Start Menu"
 msgstr "Menú d'aniciu"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11132,6 +11146,9 @@ msgstr ""
 
 msgid "This username is unavailable."
 msgstr "Esti viesu d'usuariu nun ta disponible."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

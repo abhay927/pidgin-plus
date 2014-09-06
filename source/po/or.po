@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: or\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:16+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:54+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:05+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Oriya\n"
 
@@ -1570,6 +1570,10 @@ msgstr "<span size='smaller'>କ୍ଷୁଦ୍ରତର (_S)</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>ଷ୍ଟ୍ରାଇକଥ୍ରୋ</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<ବିସ୍ତାର  ଶୈଳୀ=\"ଇଟାଲିକ\">ଉଦାହରଣ: ସ୍ଟନ୍‌ସର୍ଭର.org</ବିସ୍ତାର>"
 
@@ -2266,6 +2270,10 @@ msgstr "ଅନ-ଲାଇନ ଦୃଶ୍ଯ ହୁଅ"
 
 msgid "Appear Permanently Offline"
 msgstr "ସ୍ଥାଯୀ ଭାବରେ ଅଫ-ଲାଇନ ଦୃଶ୍ଯ ହୁଅ"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "ପ୍ରଯୋଗ କର"
@@ -4359,6 +4367,9 @@ msgstr "ସିଧାସଳଖ IM ଅଧିବେଶନକୁ ସମାପ୍ତ 
 
 msgid "End of ban list"
 msgstr "ବାରଣ ତାଲିକାର ଶେଷ"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10329,6 +10340,9 @@ msgstr "ଡୁଡଲିଙ୍ଗ ଆରମ୍ଭ କର"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "ଟାଇପ କରିବା ଆରମ୍ଭ କରିଛି"
 
@@ -11475,6 +11489,9 @@ msgstr "ଏହି ଚାଳକନାମଟି ଉପଲବ୍ଧ ଅଟେ। �
 
 msgid "This username is unavailable."
 msgstr "ଏହି ଚାଳକନାମଟି ଉପଲବ୍ଧ ନାହିଁ।"
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

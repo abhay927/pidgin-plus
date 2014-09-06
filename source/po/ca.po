@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:10+0000\n"
 "Last-Translator: Josep Puigdemont <josep.puigdemont@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.net>\n"
@@ -39,7 +39,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:35+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:46+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Catalan\n"
 
@@ -1607,6 +1607,10 @@ msgstr "<span size='smaller'>Més _petita</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span size='larger'>Ratlla</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Exemple: stunserver.org</span>"
 
@@ -2315,6 +2319,10 @@ msgstr "Simula estar en línia"
 
 msgid "Appear Permanently Offline"
 msgstr "Simula estar permanentment fora de línia"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Aplica"
@@ -4431,6 +4439,9 @@ msgstr "Finalitzar la sessió de MI directa"
 
 msgid "End of ban list"
 msgstr "Final de la llista de bandejats"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10475,6 +10486,9 @@ msgstr "Comença a dibuixar"
 msgid "Start Menu"
 msgstr "Menu d'inici"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Hagi començat a escriure"
 
@@ -11626,6 +11640,9 @@ msgstr "Aquest nom d'usuari està disponible. Voleu fer-lo servir?"
 
 msgid "This username is unavailable."
 msgstr "Aquest nom d'usuari no està disponible."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Khmer "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:47+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:56+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Khmer\n"
 
@@ -1548,6 +1548,10 @@ msgstr "<span size='smaller'>តូចជាង</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>បន្ទាត់​ឆូត</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">ឧទាហរណ៍ ៖ stunserver.org</span>"
 
@@ -2245,6 +2249,10 @@ msgstr "បង្ហាញ​លើ​បណ្ដាញ"
 
 msgid "Appear Permanently Offline"
 msgstr "បង្ហាញ​នៅ​ក្រៅ​បណ្ដាញ​ជា​អចិន្ត្រៃយ៍"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "អនុវត្ត"
@@ -4346,6 +4354,9 @@ msgstr "បញ្ចប់​សម័យ IM ដោយ​ផ្ទាល់"
 
 msgid "End of ban list"
 msgstr "ចុច​បញ្ជី​ហាមឃាត់"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10345,6 +10356,9 @@ msgstr "ចាប់ផ្ដើម Doodling"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "បាន​ចាប់ផ្ដើម​វាយ"
 
@@ -11489,6 +11503,9 @@ msgstr "មាន​ឈ្មោះ​អ្នកប្រើ​នេះ ។ �
 
 msgid "This username is unavailable."
 msgstr "ឈ្មោះ​អ្នក​ប្រើ​នេះ​មិនអាច​ប្រើបានទេ ។"
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

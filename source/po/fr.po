@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: fr <fr@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 00:40+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 07:49+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: French\n"
 
@@ -1588,6 +1588,10 @@ msgstr "<span size='smaller'>Pl_us petit</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Barré</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Exemple : stunserver.org</span>"
 
@@ -2293,6 +2297,10 @@ msgstr "Apparaître connecté"
 
 msgid "Appear Permanently Offline"
 msgstr "Apparaître toujours déconnecté"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Appliquer"
@@ -4386,6 +4394,9 @@ msgstr "Terminer la connexion directe"
 
 msgid "End of ban list"
 msgstr "Fin de la liste des bannis"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10396,6 +10407,9 @@ msgstr "Commencer à griffonner"
 msgid "Start Menu"
 msgstr "Menu Démarrer"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Commence à écrire"
 
@@ -11558,6 +11572,9 @@ msgstr "Ce nom d'utilisateur est disponible. Voulez-vous l'utiliser ?"
 
 msgid "This username is unavailable."
 msgstr "Ce nom d'utilisateur n'est pas disponible."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"

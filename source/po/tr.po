@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: <tr@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-05 01:02+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:17+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: TURKEY\n"
 "Language: Turkish\n"
@@ -1458,6 +1458,10 @@ msgstr "<span size='smaller'>Daha _Küçük</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Üzeri çizili</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Örnek: stunserver.org</span>"
 
@@ -2113,6 +2117,10 @@ msgstr "Çevrimiçi"
 
 msgid "Appear Permanently Offline"
 msgstr "Sürekli Çevrimdışı görün"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Uygula"
@@ -4175,6 +4183,9 @@ msgid "End Direct IM Session"
 msgstr ""
 
 msgid "End of ban list"
+msgstr ""
+
+msgid "End of buffer playback"
 msgstr ""
 
 #. *< name
@@ -10068,6 +10079,9 @@ msgstr "Karalamaya Başla"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11130,6 +11144,9 @@ msgid "This username is available. Would you like to set it?"
 msgstr ""
 
 msgid "This username is unavailable."
+msgstr ""
+
+msgid "This will bypass your proxy settings, continue?"
 msgstr ""
 
 #, c-format

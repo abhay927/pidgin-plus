@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CVS Version of Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-03 17:55-0300\n"
+"POT-Creation-Date: 2014-09-05 21:14-0300\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Nguyen Vu Hung <vuhung16plus@gmail.com>\n"
 "Language-Team: Du an MOST <du-an-most@lists.hanoilug.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-05 01:04+0000\n"
+"X-Launchpad-Export-Date: 2014-09-06 08:18+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Vietnamese\n"
 
@@ -1549,6 +1549,10 @@ msgstr "<span size='smaller'>_Nhỏ hơn</span>"
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Gạch đè</span>"
 
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Ví dụ : stunserver.org</span>"
 
@@ -2240,6 +2244,10 @@ msgstr "Hình như trực tuyến"
 
 msgid "Appear Permanently Offline"
 msgstr "Hình như ngoại tuyến bền bỉ"
+
+#. Application update checking
+msgid "Application updates"
+msgstr ""
 
 msgid "Apply"
 msgstr "Áp dụng"
@@ -4327,6 +4335,9 @@ msgstr "Kết thúc buổi hợp Tin nhắn Trực tiếp"
 
 msgid "End of ban list"
 msgstr "Kết thúc danh sách cấm"
+
+msgid "End of buffer playback"
+msgstr ""
 
 #. *< name
 #. *< version
@@ -10304,6 +10315,9 @@ msgstr "Bắt đầu vẽ"
 msgid "Start Menu"
 msgstr "Thực đơn khởi chạy"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Đã bắt đầu gõ phím"
 
@@ -11422,6 +11436,9 @@ msgstr "Tên người dùng này sẵn có để dùng. Bạn có muốn đặt 
 
 msgid "This username is unavailable."
 msgstr "Không thể đặt tên người dùng này."
+
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"
