@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:51+0000\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@canonical.com>\n"
 "Language-Team: \n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-06 07:49+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:14+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Finnish\n"
 
@@ -229,6 +229,10 @@ msgstr ""
 "  -h, --help          näytä tämä ohje ja poistu\n"
 "  -n, --nologin       älä kirjaudu automaattisesti\n"
 "  -v, --version       näytä nykyinen versionumero ja poistu\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -864,10 +868,6 @@ msgid "'delbuddy' command failed"
 msgstr "\"delbuddy\"-komento epäonnistui"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Koodi %s)"
 
@@ -922,9 +922,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Unohdit luultavasti suorittaa \"make install\".)"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(oletus)"
@@ -1464,14 +1461,13 @@ msgstr "<br>Paikassa: %s saapunut: %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8003,6 +7999,9 @@ msgstr "Hakulaiteportti"
 msgid "Paging"
 msgstr "Kaukohaku"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "paštu"
 
@@ -8777,6 +8776,9 @@ msgstr "Hiljaisempi"
 #, c-format
 msgid "Quietest"
 msgstr "Hiljaisin"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12509,10 +12511,6 @@ msgstr "Käytä HTTP-yhteystapaa"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Käytä täydellistä jatkosalaisuutta (PFS)"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Käytä SSL:ää"
 

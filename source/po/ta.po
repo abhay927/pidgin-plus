@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Felix <ifelix25@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-06 08:15+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:38+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: INDIA\n"
 "Language: Tamil\n"
@@ -229,6 +229,10 @@ msgstr ""
 "  -h, --help          இந்த உதவியைக் காட்டி வெளியேறு\n"
 "  -n, --nologin       தானியங்கியாக உள் நுழையாதே\n"
 "   -v, --version       நடப்பு பதிப்பை காட்டி வெளியேறு\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -864,10 +868,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' கட்டளை தோல்வியுற்றது"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(குறியீடு %s)"
 
@@ -921,9 +921,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(அநேகமாய் நீங்கள் 'நிறுவல் செய்தல்'ஐ மறந்திருக்கலாம்.)"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(முன்னிருப்பு)"
@@ -1461,14 +1458,13 @@ msgstr "<br> %s ல் %s லிருந்து"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8033,6 +8029,9 @@ msgstr "அழைப்பி தளம்"
 msgid "Paging"
 msgstr "அழைப்பு"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "பாஷ்டோ"
 
@@ -8817,6 +8816,9 @@ msgstr "மிக அமைதியான"
 #, c-format
 msgid "Quietest"
 msgstr "மிகமிக அமைதியான"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12581,10 +12583,6 @@ msgstr "ஹெச்டிடிபி முறையை பயன்படு�
 msgid "Use Perfect Forward Secrecy"
 msgstr "சரியான முன்னோக்கு இரகசியத்தை பயன்படுத்து"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "எஸ்எஸ்எல் பயன்படுத்து"
 

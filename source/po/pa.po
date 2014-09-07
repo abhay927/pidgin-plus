@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:30+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Panjabi (Punjabi) "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-06 08:06+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:30+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Punjabi\n"
 
@@ -224,6 +224,10 @@ msgstr ""
 "  -h, --help          display this help and exit\n"
 "  -n, --nologin       don't automatically login\n"
 "  -v, --version       display the current version and exit\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -849,10 +853,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' ਕਮਾਂਡ ਫੇਲ੍ਹ ਹੋਈ"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(ਕੋਡ %s)"
 
@@ -904,9 +904,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(ਸ਼ਾਇਦ ਤੁਸੀਂ 'make install' ਕਰਨਾ ਭੁੱਲ ਗਏ ਹੋ')"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(ਡਿਫਾਲਟ)"
@@ -1446,14 +1443,13 @@ msgstr "<br>%s ਉੱਤੇ %s ਤੋਂ"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -7962,6 +7958,9 @@ msgstr "ਪੇਜ਼ਰ ਪੋਰਟ"
 msgid "Paging"
 msgstr "ਪੇਜ਼ਿੰਗ"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "ਪੁਸ਼ਤੋ"
 
@@ -8734,6 +8733,9 @@ msgstr "ਬਹੁਤ ਖਾਮੋਸ਼"
 #, c-format
 msgid "Quietest"
 msgstr "ਸਭ ਤੋਂ ਖਾਮੋਸ਼"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12438,10 +12440,6 @@ msgstr "HTTP ਢੰਗ ਵਰਤੋਂ"
 msgid "Use Perfect Forward Secrecy"
 msgstr "ਵਧੀਆ ਫਾਰਵਰਡ ਸੁਰੱਖਿਆ ਵਰਤੋਂ"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "SSL ਵਰਤੋਂ"
 

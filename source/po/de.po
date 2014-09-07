@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:27+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-06 07:51+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:16+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: German\n"
 
@@ -229,6 +229,10 @@ msgstr ""
 "  -h, --help          zeigt diese Hilfe und beendet das Programm\n"
 "  -n, --nologin       nicht automatisch anmelden\n"
 "  -v, --version       zeigt aktuelle Version und beendet das Programm\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -889,10 +893,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy'-Kommando gescheitert"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Code %s)"
 
@@ -946,9 +946,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Sie haben wahrscheinlich vergessen 'make install' aufzurufen.)"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(Standard)"
@@ -1488,14 +1485,13 @@ msgstr "<br>Bei %s seit %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8117,6 +8113,9 @@ msgstr "Pager-Port"
 msgid "Paging"
 msgstr "Funkruf"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "Paschtu"
 
@@ -8920,6 +8919,9 @@ msgstr "Leiser"
 #, c-format
 msgid "Quietest"
 msgstr "Am leisesten"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12762,10 +12764,6 @@ msgstr "Benutze HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Benutze perfekt fortgesetzte Geheimhaltung (PFS)"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Benutze SSL"
 

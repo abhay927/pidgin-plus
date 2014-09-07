@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:52+0000\n"
 "Last-Translator: Panos Bouklis <panos@echidna-band.com>\n"
 "Language-Team: Greek "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-06 07:52+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:18+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Greek\n"
 
@@ -228,6 +228,10 @@ msgstr ""
 "  -h, --help          εμφάνιση αυτής της βοήθειας και έξοδος\n"
 "  -n, --nologin       χωρίς αυτόματη είσοδο\n"
 "  -v, --version       εμφάνιση τρέχουσας έκδοσης και έξοδος\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -881,10 +885,6 @@ msgid "'delbuddy' command failed"
 msgstr "Αποτυχία εντολής 'delbuddy'"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Κωδικός %s)"
 
@@ -939,9 +939,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Πιθανώς να ξεχάσατε να κάνετε 'make install'.)"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(προεπιλογή)"
@@ -1481,14 +1478,13 @@ msgstr "<br>Στο %s από %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8109,6 +8105,9 @@ msgstr "Θύρα τηλεειδοποιητή"
 msgid "Paging"
 msgstr "Σελιδοποίηση"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "Παστού"
 
@@ -8914,6 +8913,9 @@ msgstr "Περισσότερο ήσυχος"
 #, c-format
 msgid "Quietest"
 msgstr "Τελείως ήσυχος"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12775,10 +12777,6 @@ msgstr "Χρήση μεθόδου HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Χρήση άψογης μυστικότητας προώθησης"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Χρήση SSL"
 

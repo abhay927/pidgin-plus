@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Persian "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-06 08:06+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:30+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Persian\n"
 
@@ -199,6 +199,10 @@ msgstr ""
 "  -h, --help          نمایش این راهنما و خروج\n"
 "  -n, --nologin       به صورت خودکار وارد سیستم نشود\n"
 "  -v, --version       نمایش نسخهٔ فعلی و خروج\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -789,10 +793,6 @@ msgid "'delbuddy' command failed"
 msgstr "فرمان «delbuddy» شکست خورد"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(کد %s)"
 
@@ -846,9 +846,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(احتمالاً  «make install» یادتان رفت.)"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(پیش‌فرض)"
@@ -1385,14 +1382,13 @@ msgstr "<br>در %s از %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -7826,6 +7822,9 @@ msgstr "درگاه پِی‌جو"
 msgid "Paging"
 msgstr "در حال پی‌جویی"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "پشتو"
 
@@ -8601,6 +8600,9 @@ msgstr "بی‌سروصداتر"
 #, c-format
 msgid "Quietest"
 msgstr "بی‌سرو‌صداترین"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12247,10 +12249,6 @@ msgstr "استفاده از روش HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr ""
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "از SSL استفاده شود"
 

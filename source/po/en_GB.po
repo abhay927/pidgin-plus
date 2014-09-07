@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
-"PO-Revision-Date: 2014-09-03 21:38+0000\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
+"PO-Revision-Date: 2014-09-06 10:12+0000\n"
 "Last-Translator: Anthony Harrington <untaintableangel@ubuntu.com>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-06 08:21+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:42+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: English (United Kingdom)\n"
 
@@ -223,6 +223,10 @@ msgstr ""
 "  -h, --help          display this help and exit\n"
 "  -n, --nologin       don't automatically login\n"
 "  -v, --version       display the current version and exit\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -857,10 +861,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' command failed"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr "(%s) %s (auto): %s\n"
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Code %s)"
 
@@ -914,9 +914,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(You probably forgot to 'make install'.)"
-
-msgid "(auto) "
-msgstr "(auto) "
 
 msgid "(default)"
 msgstr "(default)"
@@ -1462,20 +1459,14 @@ msgstr "<br>At %s since %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
-"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
-"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
 
 #, c-format
 msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
@@ -1580,6 +1571,7 @@ msgstr "<span strikethrough='true'>Strikethrough</span>"
 msgid ""
 "<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
 msgstr ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Example: stunserver.org</span>"
@@ -2273,7 +2265,7 @@ msgstr "Appear Permanently Offline"
 
 #. Application update checking
 msgid "Application updates"
-msgstr ""
+msgstr "Application updates"
 
 msgid "Apply"
 msgstr "Apply"
@@ -4362,7 +4354,7 @@ msgid "End of ban list"
 msgstr "End of ban list"
 
 msgid "End of buffer playback"
-msgstr ""
+msgstr "End of buffer playback"
 
 #. *< name
 #. *< version
@@ -8012,6 +8004,9 @@ msgstr "Pager port"
 msgid "Paging"
 msgstr "Paging"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "Pashto"
 
@@ -8798,6 +8793,9 @@ msgstr "Quieter"
 #, c-format
 msgid "Quietest"
 msgstr "Quietest"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10327,7 +10325,7 @@ msgid "Start Menu"
 msgstr "Start Menu"
 
 msgid "Start of buffer playback"
-msgstr ""
+msgstr "Start of buffer playback"
 
 msgid "Started typing"
 msgstr "Started typing"
@@ -11466,7 +11464,7 @@ msgid "This username is unavailable."
 msgstr "This username is not available."
 
 msgid "This will bypass your proxy settings, continue?"
-msgstr ""
+msgstr "This will bypass your proxy settings. Continue?"
 
 #, c-format
 msgid "Thread creation failure: %s"
@@ -12546,10 +12544,6 @@ msgstr "Use HTTP Method"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Use Perfect Forward Secrecy"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Use SSL"
 

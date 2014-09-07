@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-06 07:44+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:09+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: BANGLADESH\n"
 "Language: Bengali\n"
@@ -242,6 +242,10 @@ msgstr ""
 "  -h, --help          এই সহায়তা প্রদর্শন করে প্রস্থান করুন\n"
 "  -n, --nologin       স্বয়ংক্রিয়ভাবে লগইন করা হবে না\n"
 "  -v, --version       বর্তমান সংস্করণ প্রদর্শন করে প্রস্থান করুন\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -924,10 +928,6 @@ msgstr "'addbuddy' কমান্ডটি ব্যর্থ হয়েছ�
 msgid "'delbuddy' command failed"
 msgstr "'delbuddy' কমান্ড ব্যর্থ হয়েছে"
 
-#, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
 # tithi
 #, c-format
 msgid "(Code %s)"
@@ -988,9 +988,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(আপনি সম্ভবত 'make install' করতে ভুলে গেছেন।)"
-
-msgid "(auto) "
-msgstr ""
 
 # tithi mark
 msgid "(default)"
@@ -1550,14 +1547,13 @@ msgstr "<br>%1$s তে %2$s থেকে"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8734,6 +8730,9 @@ msgstr "পেইজার পোর্ট"
 msgid "Paging"
 msgstr "পেজিং"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "পশতু"
 
@@ -9586,6 +9585,9 @@ msgstr "অপেক্ষাকৃত চুপচাপ"
 #, c-format
 msgid "Quietest"
 msgstr "একদম চুপচাপ"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -13722,10 +13724,6 @@ msgstr "HTTP পদ্ধতি ব্যবহার করা হবে"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Perfect Forward Secrecy ব্যবহার"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "SSL ব্যবহার করা হবে"
 

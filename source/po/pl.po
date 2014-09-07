@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish "
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-06 08:07+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:31+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Polish\n"
 
@@ -247,6 +247,10 @@ msgstr ""
 "  -h, --help          wyświetla tę pomoc i kończy pracę\n"
 "  -n, --nologin       bez automatycznego logowania\n"
 "  -v, --version       wyświetla bieżącą wersję i kończy pracę\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -896,10 +900,6 @@ msgid "'delbuddy' command failed"
 msgstr "Polecenie \"delbuddy\" się nie powiodło"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Kod %s)"
 
@@ -953,9 +953,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Prawdopodobnie zapomniano o wykonaniu polecenia \"make install\")"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(domyślnie)"
@@ -1496,14 +1493,13 @@ msgstr "<br>Przy %s od %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8072,6 +8068,9 @@ msgstr "Port pagera"
 msgid "Paging"
 msgstr "Stronicowanie"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "pasztuński"
 
@@ -8858,6 +8857,9 @@ msgstr "Ciszej"
 #, c-format
 msgid "Quietest"
 msgstr "Najciszej"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12682,10 +12684,6 @@ msgstr "Użycie metody HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Użycie doskonałej magii przekierowania"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Użycie SSL"
 

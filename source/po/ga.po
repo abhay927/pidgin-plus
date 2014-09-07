@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2014-09-06 07:51+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:16+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Irish\n"
 
@@ -237,6 +237,10 @@ msgstr ""
 "  -h, --help          taispeáin an chabhair seo agus scoir\n"
 "  -n, --nologin       ná logáil isteach go huathoibríoch\n"
 "  -v, --version       taispeáin an leagan agus scoir\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -889,10 +893,6 @@ msgid "'delbuddy' command failed"
 msgstr "Theip ar ordú 'delbuddy'"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Cód %s)"
 
@@ -945,9 +945,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Is dócha go ndearna tú dearmad 'make install' a dhéanamh.)"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(réamhshocrú)"
@@ -1488,14 +1485,13 @@ msgstr "<br>Ag %s ó %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8082,6 +8078,9 @@ msgstr "Port glaoire"
 msgid "Paging"
 msgstr "Glaoch"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "Paistis"
 
@@ -8870,6 +8869,9 @@ msgstr "Níos Ciúine"
 #, c-format
 msgid "Quietest"
 msgstr "Is Ciúine"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12692,10 +12694,6 @@ msgstr "Úsáid modh HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Úsáid Slánrúndacht Ar Aghaidh"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Úsáid SSL"
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Dutch "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-06 07:47+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:12+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Dutch\n"
 
@@ -229,6 +229,10 @@ msgstr ""
 "  -h, --help          deze hulptekst weergeven\n"
 "  -n, --nologin       niet automatisch aanmelden\n"
 "  -v, --version       versie-info weergeven\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -868,10 +872,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' opdracht mislukt"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Code %s)"
 
@@ -925,9 +925,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(U bent waarschijnlijk 'make install' vergeten.)"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(standaard)"
@@ -1467,14 +1464,13 @@ msgstr "<br> Om %s sinds %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8038,6 +8034,9 @@ msgstr "Semafoon-poort"
 msgid "Paging"
 msgstr "Semafoon"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "Pasjtoe"
 
@@ -8821,6 +8820,9 @@ msgstr "Stiller"
 #, c-format
 msgid "Quietest"
 msgstr "Stilst"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12634,10 +12636,6 @@ msgstr "HTTP-methode gebruiken"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Perfecte doorstuur-secretie gebruiken"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "SSL gebruiken"
 

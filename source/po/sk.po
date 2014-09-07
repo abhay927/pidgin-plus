@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:36+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Launchpad-Export-Date: 2014-09-06 08:12+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:35+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Slovak\n"
 
@@ -234,6 +234,10 @@ msgstr ""
 "  -h, --help          zobrazí túto pomoc a skončí\n"
 "  -n, --nologin       neprihlasovať automaticky\n"
 "  -v, --version       zobrazí verziu programu a skončí\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -871,10 +875,6 @@ msgid "'delbuddy' command failed"
 msgstr "príkaz „delbuddy“ zlyhal"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Kód %s)"
 
@@ -927,9 +927,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Pravdepodobne ste zabudli na „make install“.)"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(predvolené)"
@@ -1469,14 +1466,13 @@ msgstr "<br>Na %s od %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8007,6 +8003,9 @@ msgstr "Port záznamníku"
 msgid "Paging"
 msgstr "Stránkovanie"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "paštčina"
 
@@ -8795,6 +8794,9 @@ msgstr "Tichšia"
 #, c-format
 msgid "Quietest"
 msgstr "Najtichšia"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12554,10 +12556,6 @@ msgstr "Používať HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Použiť vlastnosť Perfect Forward Secrecy"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Používať SSL"
 

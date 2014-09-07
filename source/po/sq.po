@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:46+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Albanian "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-06 07:41+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:05+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Albanian\n"
 
@@ -224,6 +224,10 @@ msgstr ""
 "  -h, --help          shfaq këtë ndihmë dhe dil\n"
 "  -n, --nologin       mos u fut vetvetiu\n"
 "  -v, --version       shfaq versionin e çastit dhe dil\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -864,10 +868,6 @@ msgid "'delbuddy' command failed"
 msgstr "Urdhri 'delbuddy' dështoi"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Kod %s)"
 
@@ -921,9 +921,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Ka të ngjarë harruat të bënit 'make install'.)"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(parazgjedhje)"
@@ -1463,14 +1460,13 @@ msgstr "<br>Në %s që prej %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8030,6 +8026,9 @@ msgstr "Portë faquesi"
 msgid "Paging"
 msgstr "Nr. faquesi"
 
+msgid "Part message"
+msgstr ""
+
 msgid "Pashto"
 msgstr "Pashtune"
 
@@ -8828,6 +8827,9 @@ msgstr "Më butë"
 #, c-format
 msgid "Quietest"
 msgstr "Më i buti"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12625,10 +12627,6 @@ msgstr "Përdor Metodë HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Përdor Sekret të Përkryer Përcjelljesh"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Përdor SSL"
 

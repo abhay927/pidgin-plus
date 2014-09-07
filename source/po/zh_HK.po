@@ -62,7 +62,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 21:14-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:41+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -70,7 +70,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-06 08:20+0000\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:42+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Chinese (Hong Kong)\n"
 
@@ -262,6 +262,10 @@ msgstr ""
 "  -h, --help          顯示輔助訊息並離開\n"
 "  -n, --nologin       不自動登入\n"
 "  -v, --version       顯示版本訊息並離開\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -868,10 +872,6 @@ msgid "'delbuddy' command failed"
 msgstr "「delbuddy」指令失敗"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(代碼 %s)"
 
@@ -921,9 +921,6 @@ msgstr "(UTC)"
 
 msgid "(You probably forgot to 'make install'.)"
 msgstr "（大概是忘記了執行「make install」了。）"
-
-msgid "(auto) "
-msgstr ""
 
 msgid "(default)"
 msgstr "(預設)"
@@ -1473,14 +1470,13 @@ msgstr "<br>從 %2$s 起已在 %1$s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -8365,6 +8361,9 @@ msgstr "傳呼系統通訊埠"
 msgid "Paging"
 msgstr "傳呼"
 
+msgid "Part message"
+msgstr ""
+
 #  NOTE「普什圖」在三地都看來是較正常的譯法
 #  NOTE 參見 http://www.cnscode.org.tw/cnscode/lang.jsp?qrytype=char&keyword=P&page=2
 msgid "Pashto"
@@ -9161,6 +9160,9 @@ msgstr "再小聲"
 #, c-format
 msgid "Quietest"
 msgstr "最小聲"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -12964,10 +12966,6 @@ msgstr "使用 HTTP 方式"
 msgid "Use Perfect Forward Secrecy"
 msgstr "使用完全向前保密 (PFS)"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "使用 SSL"
 
