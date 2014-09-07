@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:18+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Lithuanian "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:50+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:24+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Lithuanian\n"
 
 msgid "\t_Only when someone says your username"
@@ -235,6 +235,10 @@ msgstr ""
 "  -h, --help              parodyti šią pagalbą ir baigti\n"
 "  -n, --nologin           automatiškai neprisijungti\n"
 "  -v, --version           parodyti šios programos versiją ir baigti\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -877,10 +881,6 @@ msgid "'delbuddy' command failed"
 msgstr "Komanda „delbuddy“ nepavyko"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Kodas %s)"
 
@@ -935,9 +935,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Turbūt pamiršote paleisti „make install“.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(numatytasis)"
 
@@ -965,6 +962,15 @@ msgstr "+++ %s atsijungė"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s prisijungė"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Paskyros"
@@ -1468,14 +1474,13 @@ msgstr "<br>Prisijungęs prie %s nuo %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1573,6 +1578,10 @@ msgstr "<span size='smaller'>_Mažesnis</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Perbraukimas</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\\\"italic\\\">Pavyzdžiui: stunserver.org</span>"
@@ -2270,6 +2279,10 @@ msgstr "Atrodyti prisijungusiu"
 msgid "Appear Permanently Offline"
 msgstr "Atrodyti atsijungusiu"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Vykdyti"
 
@@ -2403,6 +2416,10 @@ msgstr "Sritis prieigos teisės tikrinimui"
 
 msgid "Auth User"
 msgstr "Naudotojas prieigos teisės tikrinimui"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr "Nustatyti tapatybę su SASL"
@@ -2706,6 +2723,9 @@ msgstr "abipusė"
 
 msgid "Bottom"
 msgstr "apačioje"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "_Naršyti...."
@@ -3200,6 +3220,9 @@ msgstr "Pakeisti naudotojo %s informaciją"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Privatumo nuostatų pakeitimai iš karto tampa aktyvūs"
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanalas"
 
@@ -3283,6 +3306,9 @@ msgstr "Plepiai nusiteikęs"
 
 msgid "Check permissions and try again."
 msgstr "Patikrinkite teises ir bandykite iš naujo."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Patikrina, ar negautas naujas vietinis paštas."
@@ -4068,6 +4094,9 @@ msgstr "Neleisti"
 msgid "Disappointed"
 msgstr "Nusivylęs"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Atjungtas serverio"
 
@@ -4337,6 +4366,9 @@ msgstr "Pabaigti tiesioginio ryšio seansą"
 msgid "End of ban list"
 msgstr "Draudimų sąrašo pabaiga"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4515,6 +4547,15 @@ msgstr "Bičiulio pridėjimo klaida"
 
 msgid "Error adding group"
 msgstr "Grupės sukūrimo klaida"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Slaptažodžio keitimo klaida"
@@ -5263,6 +5304,9 @@ msgstr "Galeganų kalba"
 msgid "Game Title"
 msgstr "Žaidimo pavadinimas"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Žaidimai"
 
@@ -5448,6 +5492,9 @@ msgstr "HTTP įgaliotojo serverio jungties klaida %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Pusiau operatorius"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Pasisveikinimas patvirtintas, siunčiama prisijungimo informacija"
@@ -5723,6 +5770,15 @@ msgstr "Testinis IPC klientas"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Testinis IPC serveris"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7310,11 +7366,20 @@ msgstr "Vardas"
 msgid "Nick Said"
 msgstr "Pasakytas vardas"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Ne MUC kambariuose vardo keitimas nėra palaikomas"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Vardas ar kanalas yra laikinai neprieinamas."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7829,6 +7894,9 @@ msgstr "Operacinė sistema"
 msgid "Operator"
 msgstr "Operatorius"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Nebūtina informacija:"
@@ -7949,6 +8017,9 @@ msgstr "Pranešimų gaviklio prievadas"
 
 msgid "Paging"
 msgstr "Žinutės į pranešimų gaviklį"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Puštūnų kalba"
@@ -8711,6 +8782,9 @@ msgstr ""
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "Klausimo dialogo langas"
 
@@ -8731,6 +8805,9 @@ msgstr "Tyliau"
 #, c-format
 msgid "Quietest"
 msgstr "Tyliausiai"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10276,6 +10353,9 @@ msgstr "Pradėti paišinėjimą"
 msgid "Start Menu"
 msgstr "pradiniame meniu"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "pradeda rašyti"
 
@@ -11429,6 +11509,9 @@ msgstr "Šis naudotojo vardas laisvas.  Ar norite juo pasivadinti?"
 msgid "This username is unavailable."
 msgstr "Šis naudotojo vardas užimtas."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Nepavyko sukurti gijos: %s"
@@ -12510,10 +12593,6 @@ msgstr "Naudoti HTTP metodą"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Naudoti „Perfect Forward Secrecy“ (PFC)"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Naudoti SSL"
 
@@ -13463,6 +13542,13 @@ msgstr[0] "Jūs turite %i pasiūlytą draugą."
 msgstr[1] "Jūs turite %i pasiūlytus draugus."
 msgstr[2] "Jūs turite %i pasiūlytų draugų."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13493,6 +13579,9 @@ msgstr "Tave išspyrė (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Jus išmetė %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Jūs atitempėte pele paveiksliuką"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:30+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Panjabi (Punjabi) "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:55+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:30+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Punjabi\n"
 
 msgid "\t_Only when someone says your username"
@@ -224,6 +224,10 @@ msgstr ""
 "  -h, --help          display this help and exit\n"
 "  -n, --nologin       don't automatically login\n"
 "  -v, --version       display the current version and exit\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -849,10 +853,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' ਕਮਾਂਡ ਫੇਲ੍ਹ ਹੋਈ"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(ਕੋਡ %s)"
 
@@ -905,9 +905,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(ਸ਼ਾਇਦ ਤੁਸੀਂ 'make install' ਕਰਨਾ ਭੁੱਲ ਗਏ ਹੋ')"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(ਡਿਫਾਲਟ)"
 
@@ -935,6 +932,15 @@ msgstr "+++ %s ਬੰਦ ਕਰ ਗਿਆ/ਗਈ"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s ਦਾਖਲ ਹੋਇਆ/ਹੋਈ"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/ਅਕਾਊਂਟ"
@@ -1437,14 +1443,13 @@ msgstr "<br>%s ਉੱਤੇ %s ਤੋਂ"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1543,6 +1548,10 @@ msgstr "<span size='smaller'>ਛੋਟਾ(_S)</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>ਵਿੰਨ੍ਹੋ</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">ਜਿਵੇਂ: stunserver.org</span>"
@@ -2233,6 +2242,10 @@ msgstr "ਆਨਲਾਈਨ ਜਾਪਦਾ ਹੈ"
 msgid "Appear Permanently Offline"
 msgstr "ਪੱਕਾ ਆਫਲਾਈਨ ਜਾਪਦਾ ਹੈ"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "ਲਾਗੂ ਕਰੋ"
 
@@ -2368,6 +2381,10 @@ msgstr "ਪਰਮਾਣਿਤ ਡੋਮੇਨ"
 
 msgid "Auth User"
 msgstr "ਪਰਮਾਣਿਤ ਯੂਜ਼ਰ"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2671,6 +2688,9 @@ msgstr "ਦੋਨੋਂ"
 
 msgid "Bottom"
 msgstr "ਹੇਠਾਂ"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "ਝਲਕ(_o)..."
@@ -3164,6 +3184,9 @@ msgstr "%s ਲਈ ਯੂਜ਼ਰ ਸੁਨੇਹਾ ਤਬਦੀਲ"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "ਰਹੱਸ ਵਿਵਸਥਾ ਤਰੁੰਤ ਪ੍ਰਭਾਵੀ ਹੋ ਜਾਵੇਗੀ।"
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "ਚੈਨਲ"
 
@@ -3246,6 +3269,9 @@ msgstr "ਚੈਟੀ"
 
 msgid "Check permissions and try again."
 msgstr "ਅਧਿਕਾਰਾਂ ਦੀ ਜਾਂਚ ਕਰਕੇ ਮੁੜ-ਟਰਾਈ ਕਰੋ।"
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "ਨਵੀਆਂ ਲੋਕਲ ਆਉਣ ਵਾਲੀਆਂ ਮੇਲਾਂ ਦੀ ਜਾਂਚ"
@@ -4027,6 +4053,9 @@ msgstr "ਪਾਬੰਦੀ"
 msgid "Disappointed"
 msgstr "ਨਿਰਾਸ਼"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "ਸਰਵਰ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਖਤਮ"
 
@@ -4296,6 +4325,9 @@ msgstr "ਸਿੱਧਾ IM ਸ਼ੈਸ਼ਨ ਬੰਦ ਕੀਤਾ"
 msgid "End of ban list"
 msgstr "ਪਾਬੰਦੀ ਲਿਸਟ ਦਾ ਅੰਤ"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4470,6 +4502,15 @@ msgstr "ਬੱਡੀ ਸ਼ਾਮਲ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
 msgid "Error adding group"
 msgstr "ਗਰੁੱਪ ਜੋੜਨ ਦੌਰਾਨ ਗਲਤੀ"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "ਪਾਸਵਰਡ ਬਦਲਣ ਦੌਰਾਨ ਗਲਤੀ"
@@ -5214,6 +5255,9 @@ msgstr "ਗਾਲਿਸਿਕ"
 msgid "Game Title"
 msgstr "ਖੇਡ ਟਾਈਟਲ"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "ਖੇਡਾਂ"
 
@@ -5399,6 +5443,9 @@ msgstr "HTTP ਪਰਾਕਸੀ ਕੁਨੈਕਸ਼ਨ ਗਲਤੀ %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "ਅੱਧਾ ਓਪਰੇਟਰ"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "ਹੈਂਡਸ਼ੇਕ ਜਵਾਬ ਮਿਲਿਆ, ਲਾਗਇਨ ਭੇਜਿਆ ਜਾ ਰਿਹਾ ਹੈ"
@@ -5673,6 +5720,15 @@ msgstr "IPC ਟੈਸਟ ਕਲਾਇਟ"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC ਟੈਸਟ ਸਰਵਰ"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7255,11 +7311,20 @@ msgstr "ਨਾਂ"
 msgid "Nick Said"
 msgstr "ਨਾਂ ਨੇ ਕਿਹਾ"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "ਗ਼ੈਰ-MUC ਚੈਟ-ਰੂਮਾਂ ਲਈ ਨਾਂ ਬਦਲਣਾ ਸਹਿਯੋਗੀ ਨਹੀਂ ਹੈ।"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "ਨਾਂ ਜਾਂ ਚੈਨਲ ਆਰਜ਼ੀ ਤੌਰ 'ਤੇ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ।"
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7769,6 +7834,9 @@ msgstr "ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ"
 msgid "Operator"
 msgstr "ਓਪਰੇਟਰ"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "ਚੋਣਵੀਂ ਜਾਣਕਾਰੀ:"
@@ -7889,6 +7957,9 @@ msgstr "ਪੇਜ਼ਰ ਪੋਰਟ"
 
 msgid "Paging"
 msgstr "ਪੇਜ਼ਿੰਗ"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "ਪੁਸ਼ਤੋ"
@@ -8639,6 +8710,9 @@ msgstr "ਹੇਠ ਦਿੱਤੇ ਕਾਰਨ ਕਰਕੇ ਪਰਪਲ ਦਾ 
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "ਸਵਾਲ ਡਾਈਲਾਗ"
 
@@ -8659,6 +8733,9 @@ msgstr "ਬਹੁਤ ਖਾਮੋਸ਼"
 #, c-format
 msgid "Quietest"
 msgstr "ਸਭ ਤੋਂ ਖਾਮੋਸ਼"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10179,6 +10256,9 @@ msgstr "ਘੁੱਗੂ ਘਾਂਘੜੇ ਸ਼ੁਰੂ"
 msgid "Start Menu"
 msgstr "ਸਟਾਰਟ ਮੇਨੂ"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "ਲਿਖਣਾ ਸ਼ੁਰੂ ਕੀਤਾ"
 
@@ -11295,6 +11375,9 @@ msgstr "ਇਹ ਯੂਜ਼ਰ ਨਾਂ ਉਪਲੱਬਧ ਹੈ। ਕੀ ਤ
 msgid "This username is unavailable."
 msgstr "ਇਹ ਯੂਜ਼ਰ ਨਾਂ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ।"
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "ਥਰਿੱਡ ਬਣਾਉਣ ਲਈ ਫੇਲ੍ਹ: %s"
@@ -12357,10 +12440,6 @@ msgstr "HTTP ਢੰਗ ਵਰਤੋਂ"
 msgid "Use Perfect Forward Secrecy"
 msgstr "ਵਧੀਆ ਫਾਰਵਰਡ ਸੁਰੱਖਿਆ ਵਰਤੋਂ"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "SSL ਵਰਤੋਂ"
 
@@ -13295,6 +13374,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] "ਤੁਹਾਨੂੰ %i ਦੋਸਤ ਸੁਝਾਇਆ ਗਿਆ ਹੈ।"
 msgstr[1] "ਤੁਹਾਨੂੰ %i ਦੋਸਤ ਸੁਝਾਏ ਗਏ ਹਨ।"
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13324,6 +13410,9 @@ msgstr "ਤੁਹਾਨੂੰ ਠੁੱਡਾ ਮਾਰਿਆ: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "ਤੁਹਾਨੂੰ %s (%s) ਨੇ ਬਾਹਰ ਕੱਢ ਕੇ ਮਾਰਿਆ"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "ਤੁਸੀਂ ਇੱਕ ਚਿੱਤਰ ਸੁੱਟਿਆ"

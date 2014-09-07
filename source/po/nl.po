@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Dutch "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:37+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:12+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Dutch\n"
 
 msgid "\t_Only when someone says your username"
@@ -229,6 +229,10 @@ msgstr ""
 "  -h, --help          deze hulptekst weergeven\n"
 "  -n, --nologin       niet automatisch aanmelden\n"
 "  -v, --version       versie-info weergeven\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -868,10 +872,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' opdracht mislukt"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Code %s)"
 
@@ -926,9 +926,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(U bent waarschijnlijk 'make install' vergeten.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(standaard)"
 
@@ -956,6 +953,15 @@ msgstr "+++ %s is afgemeld"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s is aangemeld"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Accounts"
@@ -1458,14 +1464,13 @@ msgstr "<br> Om %s sinds %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1564,6 +1569,10 @@ msgstr "<span size='smaller'>_Kleiner</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Doorstrepen</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Bijvoorbeeld: stunserver.org</span>"
@@ -2271,6 +2280,10 @@ msgstr "Online weergeven"
 msgid "Appear Permanently Offline"
 msgstr "Altijd offline weergeven"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Toepassen"
 
@@ -2409,6 +2422,10 @@ msgstr "Domein"
 
 msgid "Auth User"
 msgstr "Gebruiker"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr "Authenticatie met SASL"
@@ -2714,6 +2731,9 @@ msgstr "Beide"
 
 msgid "Bottom"
 msgstr "Onder"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Bl_aderen..."
@@ -3207,6 +3227,9 @@ msgstr "Gebruikersinformatie aanpassen voor %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Veranderingen aan privacy-instellingen worden direct doorgevoerd."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanaal"
 
@@ -3289,6 +3312,9 @@ msgstr "Babbelziek"
 
 msgid "Check permissions and try again."
 msgstr "Controleer permissies en probeer het opnieuw."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Controleert op lokale e-mail."
@@ -4077,6 +4103,9 @@ msgstr "Weigeren"
 msgid "Disappointed"
 msgstr "Teleurgesteld"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Verbinding verbroken door server"
 
@@ -4346,6 +4375,9 @@ msgstr "Beëindig Direct IM sessie"
 msgid "End of ban list"
 msgstr "Einde van blokkeerlijst"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4523,6 +4555,15 @@ msgstr "Fout bij toevoegen vriend"
 
 msgid "Error adding group"
 msgstr "Fout bij toevoegen van groep"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Fout bij veranderen van wachtwoord"
@@ -5272,6 +5313,9 @@ msgstr "Gallicisch"
 msgid "Game Title"
 msgstr "Game Titel"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Spelletjes"
 
@@ -5457,6 +5501,9 @@ msgstr "HTTP-proxy verbindingsfout %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Half Operator"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Handshake bevestigd. Bezig met Aanmelden"
@@ -5731,6 +5778,15 @@ msgstr "IPC test cliënt"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC testserver"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7325,11 +7381,20 @@ msgstr "Nick"
 msgid "Nick Said"
 msgstr "Nick gezegd"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Verandering van nick niet toegestaan in non-MUC chatruimtes"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Nick of Kanaal is tijdelijk niet bereikbaar."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7845,6 +7910,9 @@ msgstr "Besturingssysteem"
 msgid "Operator"
 msgstr "Operator"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Optionele informatie:"
@@ -7965,6 +8033,9 @@ msgstr "Semafoon-poort"
 
 msgid "Paging"
 msgstr "Semafoon"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Pasjtoe"
@@ -8726,6 +8797,9 @@ msgstr "Purple's D-BUS server is niet actief vanwege de volgende reden"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "Dialoogvenster voor vragen"
 
@@ -8746,6 +8820,9 @@ msgstr "Stiller"
 #, c-format
 msgid "Quietest"
 msgstr "Stilst"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10287,6 +10364,9 @@ msgstr "Begin met Schetsen"
 msgid "Start Menu"
 msgstr "Start Menu"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Gestart met typen"
 
@@ -11454,6 +11534,9 @@ msgstr "Deze gebruikersnaam is beschikbaar. Wilt u deze gebruiken?"
 msgid "This username is unavailable."
 msgstr "Deze gebruikersnaam is niet beschikbaar."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Aanmaken thread mislukt: %s"
@@ -12553,10 +12636,6 @@ msgstr "HTTP-methode gebruiken"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Perfecte doorstuur-secretie gebruiken"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "SSL gebruiken"
 
@@ -13499,6 +13578,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] "Je hebt %i voorgestelde vriend."
 msgstr[1] "Je hebt %i voorgestelde vrienden."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13528,6 +13614,9 @@ msgstr "U bent eruit gegooid:(%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "U bent vernietigd door %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "U heeft een afbeelding hierheen gesleept"

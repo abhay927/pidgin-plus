@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Romanian "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
 "== 0) && (n != 0))) ? 2: 1));\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:58+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:32+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Romanian\n"
 
 msgid "\t_Only when someone says your username"
@@ -237,6 +237,10 @@ msgstr ""
 "  -h, --help          arată aceste mesaje de ajutor\n"
 "  -n, --nologin       fără autentificare automată\n"
 "  -v, --version       arată versiunea curentă\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -887,10 +891,6 @@ msgid "'delbuddy' command failed"
 msgstr "Comanda „delbuddy” a eșuat"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Cod %s)"
 
@@ -945,9 +945,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Probabil ați uitat să faceți „make install”.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(implicit)"
 
@@ -975,6 +972,15 @@ msgstr "+++ %s s-a deconectat"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s s-a autentificat"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Conturi"
@@ -1478,14 +1484,13 @@ msgstr "<br>În %s din %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1585,6 +1590,10 @@ msgstr "<span size='smaller'>M_icșorat</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Tăiat</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Exemplu: stunserver.org</span>"
@@ -2280,6 +2289,10 @@ msgstr "Apar online"
 msgid "Appear Permanently Offline"
 msgstr "Par totdeauna offline"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Aplică"
 
@@ -2417,6 +2430,10 @@ msgstr "Autentificare domeniu"
 
 msgid "Auth User"
 msgstr "Autentificare utilizator"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2721,6 +2738,9 @@ msgstr "Ambele"
 
 msgid "Bottom"
 msgstr "Jos"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Navi_gare..."
@@ -3215,6 +3235,9 @@ msgstr "Modificare detalii pentru %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Opțiunile de securitate intră în acțiune instantaneu."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Canal"
 
@@ -3298,6 +3321,9 @@ msgstr "Cu chef de vorbă"
 
 msgid "Check permissions and try again."
 msgstr "Verificați drepturile și reîncercați."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Verifică mailul local."
@@ -4083,6 +4109,9 @@ msgstr "Refuză"
 msgid "Disappointed"
 msgstr "Dezamăgit"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Deconectat de server"
 
@@ -4352,6 +4381,9 @@ msgstr "Termină discuția directă"
 msgid "End of ban list"
 msgstr "Sfârșitul listei de utilizatori blocați"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4530,6 +4562,15 @@ msgstr "Eroare la adăugarea contactului"
 
 msgid "Error adding group"
 msgstr "Eroare la adăugarea grupului"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Eroare la schimbarea parolei"
@@ -5280,6 +5321,9 @@ msgstr "Galiciană"
 msgid "Game Title"
 msgstr "Numele jocului"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Jocuri"
 
@@ -5466,6 +5510,9 @@ msgstr "Eroare la conectarea la serverul proxy HTTP: %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Sub-operator"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Negociere confirmată, se trimit informațiile de autentificare"
@@ -5740,6 +5787,15 @@ msgstr "Client de test IPC"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Server de test IPC"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7338,12 +7394,21 @@ msgstr "Pseudonim"
 msgid "Nick Said"
 msgstr "Pseudonim spus"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr ""
 "Schimbarea pseudonimului nu e suportată în canalele de chat de tip non-MUC"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Pseudonimul sau canalul sunt temporar indisponibile."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7856,6 +7921,9 @@ msgstr "Sistem de operare"
 msgid "Operator"
 msgstr "Operator"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Detalii opționale:"
@@ -7976,6 +8044,9 @@ msgstr "Port pager"
 
 msgid "Paging"
 msgstr "Pager"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Pashto"
@@ -8742,6 +8813,9 @@ msgstr "Serverul D-BUS Purple nu este pornit din următoarele motive:"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "Dialog de interogare"
 
@@ -8762,6 +8836,9 @@ msgstr "Mai încet"
 #, c-format
 msgid "Quietest"
 msgstr "Foarte încet"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10295,6 +10372,9 @@ msgstr "Mâzgălituri"
 msgid "Start Menu"
 msgstr "Meniu Start"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "A început să tasteze"
 
@@ -11452,6 +11532,9 @@ msgstr "Acest nume de utilizator este disponibil. Doriți să-l folosiți?"
 msgid "This username is unavailable."
 msgstr "Acest nume de utilizator nu este disponibil."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Eroare la crearea firului de execuție: %s"
@@ -12536,10 +12619,6 @@ msgstr "Utilizează metoda HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Utilizează „Perfect Forward Secrecy”"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Utilizare SSL"
 
@@ -13495,6 +13574,13 @@ msgstr[0] "Vi se sugerează %i prieten"
 msgstr[1] "Vi se sugerează %i prieteni"
 msgstr[2] "Vi se sugerează %i de prieteni"
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13524,6 +13610,9 @@ msgstr "Ați fost dat afară: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Ați fost eliminat de %s: (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Ați tras și plasat o imagine"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:18+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:46+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:21+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Italian\n"
 
 msgid "\t_Only when someone says your username"
@@ -224,6 +224,10 @@ msgstr ""
 "  -h, --help          mostra questo aiuto ed esce\n"
 "  -n, --nologin       non effettuare il login automatico\n"
 "  -v, --version       mostra la versione attuale ed esce\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -870,10 +874,6 @@ msgid "'delbuddy' command failed"
 msgstr "Comando 'delbuddy' fallito"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Codice %s)"
 
@@ -929,9 +929,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Hai probabilmente dimenticato il comando 'make install'.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(predefinito)"
 
@@ -959,6 +956,15 @@ msgstr "+++ %s si è disconnesso"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s si è connesso"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Account"
@@ -1461,14 +1467,13 @@ msgstr "<br>A %s da %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1568,6 +1573,10 @@ msgstr "<span size='smaller'>Più _piccolo</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Barrato</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Esempio: stunserver.org</span>"
@@ -2278,6 +2287,10 @@ msgstr "Mostrati come in linea"
 msgid "Appear Permanently Offline"
 msgstr "Appari permanentemente come non in linea"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Applica"
 
@@ -2414,6 +2427,10 @@ msgstr "Dominio Auth"
 
 msgid "Auth User"
 msgstr "Utente Auth"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2720,6 +2737,9 @@ msgstr "Entrambi"
 
 msgid "Bottom"
 msgstr "In basso"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "_Sfoglia..."
@@ -3218,6 +3238,9 @@ msgid "Changes to privacy settings take effect immediately."
 msgstr ""
 "Le modifiche alle impostazioni della privacy hanno effetto immediato."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Canale"
 
@@ -3302,6 +3325,9 @@ msgstr "In chat"
 
 msgid "Check permissions and try again."
 msgstr "Verifica i permessi e riprova."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Controlla se ci sono nuovi messaggi di posta."
@@ -4091,6 +4117,9 @@ msgstr "Vieta"
 msgid "Disappointed"
 msgstr "Deluso"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Disconnesso dal server"
 
@@ -4362,6 +4391,9 @@ msgstr "Termina la sessione di messaggi immediati diretti"
 msgid "End of ban list"
 msgstr "Fine della lista dei ban"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4540,6 +4572,15 @@ msgstr "Errore nell'aggiunta del contatto"
 
 msgid "Error adding group"
 msgstr "Errore nell'aggiunta del gruppo"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Errore nella modifica della password"
@@ -5289,6 +5330,9 @@ msgstr "Galiziano"
 msgid "Game Title"
 msgstr "Nome del gioco"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Giochi"
 
@@ -5474,6 +5518,9 @@ msgstr "Errore di connessione al proxy HTTP: %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Mezzo operatore"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Handshake riconosciuto. Invio del login in corso"
@@ -5749,6 +5796,15 @@ msgstr "Test client IPC"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Test server IPC"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7356,12 +7412,21 @@ msgstr "Nickname"
 msgid "Nick Said"
 msgstr "È stato pronunciato il tuo nickname"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr ""
 "La modifica del nick non è supportata nelle stanze di discussione non MUC"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Il nick o il canale è temporaneamente non disponibile."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7879,6 +7944,9 @@ msgstr "Sistema operativo"
 msgid "Operator"
 msgstr "Operatore"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Informazioni opzionali:"
@@ -7999,6 +8067,9 @@ msgstr "Porta Yahoo Pager"
 
 msgid "Paging"
 msgstr "Numero del pager"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Pashto"
@@ -8763,6 +8834,9 @@ msgstr "Il server D-BUS di Purple non è in esecuzione per il seguente motivo"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "Finestra di richiesta"
 
@@ -8783,6 +8857,9 @@ msgstr "Più basso"
 #, c-format
 msgid "Quietest"
 msgstr "Bassissimo"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10332,6 +10409,9 @@ msgstr "Inizia a scarabocchiare"
 msgid "Start Menu"
 msgstr "Menu Avvio"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Ha iniziato a scrivere"
 
@@ -11491,6 +11571,9 @@ msgstr "Il nome utente è disponibile. Vuoi impostare questo nome?"
 msgid "This username is unavailable."
 msgstr "Questo nome utente non è disponibile."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Creazione del thread fallita: %s"
@@ -12590,10 +12673,6 @@ msgstr "Usa il metodo HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Usa PFS (Perfect Forward Secrecy)"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Utilizza SSL"
 
@@ -13534,6 +13613,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13563,6 +13649,9 @@ msgstr "Sei stato cacciato: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Sei stato ucciso (kill) da %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Hai trascinato un'immagine"

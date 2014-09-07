@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:41+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:16+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Irish\n"
 
 msgid "\t_Only when someone says your username"
@@ -237,6 +237,10 @@ msgstr ""
 "  -h, --help          taispeáin an chabhair seo agus scoir\n"
 "  -n, --nologin       ná logáil isteach go huathoibríoch\n"
 "  -v, --version       taispeáin an leagan agus scoir\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -889,10 +893,6 @@ msgid "'delbuddy' command failed"
 msgstr "Theip ar ordú 'delbuddy'"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Cód %s)"
 
@@ -946,9 +946,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Is dócha go ndearna tú dearmad 'make install' a dhéanamh.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(réamhshocrú)"
 
@@ -976,6 +973,15 @@ msgstr "+++ Logáil %s amach"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ Logáil %s isteach"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Cuntais"
@@ -1479,14 +1485,13 @@ msgstr "<br>Ag %s ó %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1585,6 +1590,10 @@ msgstr "<span size='smaller'>Níos _Lú</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Líne Tríd</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Mar shampla: stunserver.org</span>"
@@ -2289,6 +2298,10 @@ msgstr "Taispeáin nuair a bhím ar líne"
 msgid "Appear Permanently Offline"
 msgstr "Taispeáin As Líne i gCónaí"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Cuir i bhfeidhm"
 
@@ -2430,6 +2443,10 @@ msgstr "Fearann"
 
 msgid "Auth User"
 msgstr "Úsáideoir"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr "Fíordheimhniú trí SASL"
@@ -2737,6 +2754,9 @@ msgstr "Araon"
 
 msgid "Bottom"
 msgstr "Bun"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Bra_bhsáil..."
@@ -3231,6 +3251,9 @@ msgstr "Athraigh eolas úsáideora le haghaidh %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Cuirfear socruithe nua príobháideachta i bhfeidhm láithreach."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Cainéal"
 
@@ -3315,6 +3338,9 @@ msgstr "Cainteach"
 
 msgid "Check permissions and try again."
 msgstr "Féach an bhfuil cead agat agus bain triail eile as."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Seiceálann sé an bhfuil ríomhphost nua agat."
@@ -4101,6 +4127,9 @@ msgstr "Ná Ceadaigh"
 msgid "Disappointed"
 msgstr "Díomách"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Dícheangailte ag an bhfreastalaí"
 
@@ -4373,6 +4402,9 @@ msgstr "Cuir deireadh leis an seisiún díreach TM"
 msgid "End of ban list"
 msgstr "Deireadh an liosta coiscthe"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4552,6 +4584,15 @@ msgstr "Earráid agus cara á chur leis"
 
 msgid "Error adding group"
 msgstr "Earráid agus grúpa á chur leis"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Earráid agus focal faire á athrú"
@@ -5299,6 +5340,9 @@ msgstr "Gailísis"
 msgid "Game Title"
 msgstr "Teideal an Chluiche"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Cluichí"
 
@@ -5484,6 +5528,9 @@ msgstr "Earráid %d ag ceangal le seachfhreastalaí HTTP"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Leathoibreoir"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Bhí an croitheadh láimhe faighte; logáil isteach á seoladh"
@@ -5758,6 +5805,15 @@ msgstr "Cliant Tástála IPC"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Freastalaí Tástála IPC"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7369,11 +7425,20 @@ msgstr "Leasainm"
 msgid "Nick Said"
 msgstr "Do Leasainm Luaite"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Is féidir leasainm a athrú i seomraí MUC amháin"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Níl an leasainm nó an cainéal ar fáil go sealadach."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7889,6 +7954,9 @@ msgstr "Córas Oibriúcháin"
 msgid "Operator"
 msgstr "Oibreoir"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Faisnéis roghnach:"
@@ -8009,6 +8077,9 @@ msgstr "Port glaoire"
 
 msgid "Paging"
 msgstr "Glaoch"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Paistis"
@@ -8775,6 +8846,9 @@ msgstr "Níl an freastalaí D-BUS Purple ar siúl ar na cúiseanna thíos"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "Dialóg cheiste"
 
@@ -8795,6 +8869,9 @@ msgstr "Níos Ciúine"
 #, c-format
 msgid "Quietest"
 msgstr "Is Ciúine"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10344,6 +10421,9 @@ msgstr "Tosaigh Scriobláil"
 msgid "Start Menu"
 msgstr "Roghchlár Tosaithe"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Clóscríobh tosaithe"
 
@@ -11509,6 +11589,9 @@ msgstr "Tá an t-ainm úsáideora seo ar fáil. An bhfuil fonn ort é a úsáid?
 msgid "This username is unavailable."
 msgstr "Níl an t-ainm úsáideora seo ar fáil."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Níorbh fhéidir snáithe a chruthú: %s"
@@ -12611,10 +12694,6 @@ msgstr "Úsáid modh HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Úsáid Slánrúndacht Ar Aghaidh"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Úsáid SSL"
 
@@ -13563,6 +13642,13 @@ msgstr[0] "Tá %i chara molta agat."
 msgstr[1] "Tá %i chara molta agat."
 msgstr[2] "Tá %i chara molta agat."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13593,6 +13679,9 @@ msgstr "Bhí tú ciceáilte amach: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Bhí tú maraithe ag %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Tharraing tú íomhá"

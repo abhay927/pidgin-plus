@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:51+0000\n"
 "Last-Translator: Tony Sam <samant.ua@mail.ru>\n"
 "Language-Team: \n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:58+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:33+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Russian\n"
 
 msgid "\t_Only when someone says your username"
@@ -237,6 +237,10 @@ msgstr ""
 "  -h, --help          показать эту справку и выйти\n"
 "  -n, --nologin       не входить автоматически\n"
 "  -v, --version       показать текущую версию и выйти\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -874,10 +878,6 @@ msgid "'delbuddy' command failed"
 msgstr "команда 'delbuddy' не удалась"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Код %s)"
 
@@ -932,9 +932,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Может вы забыли сделать 'make install'.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(по умолчанию)"
 
@@ -962,6 +959,15 @@ msgstr "+++ %s вышел"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s вошёл"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Учётные записи"
@@ -1465,14 +1471,13 @@ msgstr "<br>В %s с %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1571,6 +1576,10 @@ msgstr "<span size='smaller'>_Меньший</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Перечёркнутый</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Пример: stunserver.org</span>"
@@ -2267,6 +2276,10 @@ msgstr "Видимый для всех"
 msgid "Appear Permanently Offline"
 msgstr "Постоянно появляется не в сети"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Применить"
 
@@ -2402,6 +2415,10 @@ msgstr "Домен авторизации"
 
 msgid "Auth User"
 msgstr "Пользователь авторизации"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr "Аутентификация через SASL"
@@ -2707,6 +2724,9 @@ msgstr "Обе"
 
 msgid "Bottom"
 msgstr "Внизу"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "От_крыть..."
@@ -3200,6 +3220,9 @@ msgstr "Изменить информацию о %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Изменения настроек конфиденциальности вступают в силу немедленно."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Канал"
 
@@ -3282,6 +3305,9 @@ msgstr "Готов пообщаться"
 
 msgid "Check permissions and try again."
 msgstr "Проверьте права и попробуйте снова."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Проверяет наличие новой локальной почты."
@@ -4068,6 +4094,9 @@ msgstr "Не разрешать"
 msgid "Disappointed"
 msgstr "Разочарованный"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Соединение разорвано сервером"
 
@@ -4337,6 +4366,9 @@ msgstr "Закончить прямое соединение общения"
 msgid "End of ban list"
 msgstr "Конец списка запретов"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4515,6 +4547,15 @@ msgstr "Ошибка добавления собеседника"
 
 msgid "Error adding group"
 msgstr "Ошибка при добавлении группы"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Ошибка изменения пароля"
@@ -5263,6 +5304,9 @@ msgstr "Галисийский"
 msgid "Game Title"
 msgstr "Название игры"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Игры"
 
@@ -5448,6 +5492,9 @@ msgstr "Ошибка соединения с HTTP-прокси %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Полу-оператор"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Рукопожатие признано, Отправка имени входа"
@@ -5722,6 +5769,15 @@ msgstr "Тестовый клиент IPC"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Тестовый сервер IPC"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7324,11 +7380,20 @@ msgstr "Псевдоним"
 msgid "Nick Said"
 msgstr "Произнесено имя"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Изменение псевдонима не поддерживается в чатах не-MUC"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Псевдоним или канал временно недоступен."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7844,6 +7909,9 @@ msgstr "Операционная система"
 msgid "Operator"
 msgstr "Оператор"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Необязательная информация:"
@@ -7964,6 +8032,9 @@ msgstr "Порт пейджера"
 
 msgid "Paging"
 msgstr "По страницам"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Пашто"
@@ -8726,6 +8797,9 @@ msgstr "D-BUS сервер Purple'а не запускается по причи
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "Диалоговое окно с вопросом"
 
@@ -8746,6 +8820,9 @@ msgstr "Тихо-тихо"
 #, c-format
 msgid "Quietest"
 msgstr "Едва слышно"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10289,6 +10366,9 @@ msgstr "Начать бездельничать"
 msgid "Start Menu"
 msgstr "Меню кнопки ''Пуск''"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Начал печатать"
 
@@ -11447,6 +11527,9 @@ msgstr "Это имя пользователя доступно. Вы хотит
 msgid "This username is unavailable."
 msgstr "Это имя пользователя недоступно."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Ошибка создания нити: %s"
@@ -12533,10 +12616,6 @@ msgstr "Использовать метод HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Использовать превосходную передовую секретность"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Использовать SSL"
 
@@ -13477,6 +13556,13 @@ msgstr[0] "Вам предложен %i друг."
 msgstr[1] "Вам предложено %i друга."
 msgstr[2] "Вам предложено %i друзей."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13506,6 +13592,9 @@ msgstr "Вас выгнали: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Вы были убиты оператором %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Вы перетащили изображение"

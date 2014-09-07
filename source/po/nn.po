@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:36+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Norwegian Nynorsk "
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:53+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:28+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Norwegian Nynorsk\n"
 
 msgid "\t_Only when someone says your username"
@@ -224,6 +224,10 @@ msgstr ""
 "  -h, --help          vis denne hjelpa og avslutt\n"
 "  -n, --nologin       loggar ikkje på automatisk\n"
 "  -v, --version       vis noverande utgåve og avslutt\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -864,10 +868,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy'-kommandoen feila"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Kode %s)"
 
@@ -921,9 +921,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Du har truleg gløymt å kjøra 'make install')"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(standard)"
 
@@ -951,6 +948,15 @@ msgstr "+++ %s logga av"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s logga på"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Kontoar"
@@ -1453,14 +1459,13 @@ msgstr "<br>På %s sidan %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1559,6 +1564,10 @@ msgstr "<span size='smaller'>_Mindre</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Gjennomstreking</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Døme: stunserver.org</span>"
@@ -2251,6 +2260,10 @@ msgstr "Framstå som tilkopla"
 msgid "Appear Permanently Offline"
 msgstr "Verkar alltid vera fråkopla"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Bruk"
 
@@ -2386,6 +2399,10 @@ msgstr "Autentiseringsdomene"
 
 msgid "Auth User"
 msgstr "Autentiser brukar"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr "Autentiser med SASL"
@@ -2689,6 +2706,9 @@ msgstr "Begge"
 
 msgid "Bottom"
 msgstr "Nedst"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Bl_a gjennom …"
@@ -3183,6 +3203,9 @@ msgstr "Endra brukaropplysningane til %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Endringar i personvernet blir tekne i bruk med ein gong."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanal"
 
@@ -3266,6 +3289,9 @@ msgstr "Pratsam"
 
 msgid "Check permissions and try again."
 msgstr "Sjå over rettane og prøv igjen."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Ser etter ny, lokal e-post."
@@ -4049,6 +4075,9 @@ msgstr "Nekt"
 msgid "Disappointed"
 msgstr "Skuffa"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Fråkopla av tenaren"
 
@@ -4317,6 +4346,9 @@ msgstr "Avslutt direktelynmeldingsøkta"
 msgid "End of ban list"
 msgstr "Slutt på utestengingslista"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4493,6 +4525,15 @@ msgstr "Klarte ikkje å leggja til vennen"
 
 msgid "Error adding group"
 msgstr "Klarte ikkje å leggja til gruppe"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Klarte ikkje å endra passordet"
@@ -5245,6 +5286,9 @@ msgstr "Galisisk"
 msgid "Game Title"
 msgstr "Speltittel"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Spel"
 
@@ -5430,6 +5474,9 @@ msgstr "Feil i ambandet mot HTTP-mellomtenaren: %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Halv-operatør"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Protokollsjekken er godteken, sender pålogging"
@@ -5704,6 +5751,15 @@ msgstr "IPC-testklient"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC-testtenar"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7291,11 +7347,20 @@ msgstr "Kallenamn"
 msgid "Nick Said"
 msgstr "Kallenamnet sa"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Ein kan ikkje endra kallenamn i praterom som ikkje støttar MUC"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Kallenamn eller kanal er mellombels utilgjengeleg."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7810,6 +7875,9 @@ msgstr "Operativsystem"
 msgid "Operator"
 msgstr "Operatør"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Tilleggsinformasjon:"
@@ -7930,6 +7998,9 @@ msgstr "S_økjeport"
 
 msgid "Paging"
 msgstr "Søking"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Pashto"
@@ -8687,6 +8758,9 @@ msgstr ""
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "Spørjevindauge"
 
@@ -8707,6 +8781,9 @@ msgstr "Stillare"
 #, c-format
 msgid "Quietest"
 msgstr "Stillaste"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10229,6 +10306,9 @@ msgstr "Laga krusedullar"
 msgid "Start Menu"
 msgstr "Startmeny"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Starta å skriva"
 
@@ -11358,6 +11438,9 @@ msgstr "Brukarnamnet er tilgjengeleg. Vil du lagra det no?"
 msgid "This username is unavailable."
 msgstr "Brukarnamnet er ikkje tilgjengeleg."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Klarte ikkje å laga tråd: %s"
@@ -12440,10 +12523,6 @@ msgstr "Bruk HTTP-metode"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Bruk Perfect Forward Secrecy"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Bruk SSL"
 
@@ -13376,6 +13455,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] "Du har %i føreslegen venn."
 msgstr[1] "Du har %i føreslegne venner."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13405,6 +13491,9 @@ msgstr "Du er blitt sparka ut av: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Du er blitt kverka av %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Du har drege eit biete"

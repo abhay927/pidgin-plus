@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Hebrew "
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:43+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:19+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Hebrew\n"
 
 msgid "\t_Only when someone says your username"
@@ -220,6 +220,10 @@ msgstr ""
 "  -h, --help          הצג הודעה זו וצא\n"
 "  -n, --nologin       אל תתחבר אוטומטית\n"
 "  -v, --version       הצג את הגירסא של התוכנה וצא\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -837,10 +841,6 @@ msgid "'delbuddy' command failed"
 msgstr "פקודת 'delbuddy' נכשלה"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(קוד %s)"
 
@@ -892,9 +892,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(כנראה שכחת לעשות 'make install'.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "ברירת המחדל))"
 
@@ -922,6 +919,15 @@ msgstr "+++ %s התנתק"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s התחבר"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/חשבונות"
@@ -1424,14 +1430,13 @@ msgstr "<br>ב-%s מאז %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1528,6 +1533,10 @@ msgstr "<span size='smaller'>קט_ן יותר</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>קו מחיקה</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">לדוגמא: stunserver.org</span>"
@@ -2208,6 +2217,10 @@ msgstr "נראה מחובר"
 msgid "Appear Permanently Offline"
 msgstr "נראה מנותק לעד"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "החל"
 
@@ -2338,6 +2351,10 @@ msgstr "דומיין לאימות"
 
 msgid "Auth User"
 msgstr "משתמש לאימות"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr "אימות עם SASL"
@@ -2641,6 +2658,9 @@ msgstr "שניהם"
 
 msgid "Bottom"
 msgstr "למטה"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "עי_ון..."
@@ -3134,6 +3154,9 @@ msgstr "שנה פרטי משתמש עבור %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "שינויים בהעדפות הפרטיות חלים מיד."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "ערוץ"
 
@@ -3214,6 +3237,9 @@ msgstr "פטפטן"
 
 msgid "Check permissions and try again."
 msgstr "יש לבדוק הרשאות ולנסות בשנית."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "בדוק עבור דואר מקומי חדש"
@@ -3994,6 +4020,9 @@ msgstr "אל תאפשר"
 msgid "Disappointed"
 msgstr "אכזבה"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "נותק ע\"י השרת"
 
@@ -4261,6 +4290,9 @@ msgstr "סיים חיבור IM ישיר"
 msgid "End of ban list"
 msgstr "סוף רשימת חרמים"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4433,6 +4465,15 @@ msgstr "שגיאה בהוספת איש קשר"
 
 msgid "Error adding group"
 msgstr "שגיאה בהוספת קבוצה"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "שגיאה במהלך שינוי הססמה"
@@ -5176,6 +5217,9 @@ msgstr "גליסיאנית"
 msgid "Game Title"
 msgstr "שם המשחק"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "משחקים"
 
@@ -5361,6 +5405,9 @@ msgstr "שגיאה בשרת התיווך של HTTP %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "חצי-מפעיל"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "התקבלה תשובה לבקשת תקשורת, שולח פרטי כניסה"
@@ -5635,6 +5682,15 @@ msgstr "לקוח לבדיקת IPC"
 #. *< id
 msgid "IPC Test Server"
 msgstr "שרת בדיקת IPC"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7209,11 +7265,20 @@ msgstr "כינוי"
 msgid "Nick Said"
 msgstr "שם נאמר"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "לא ניתן לשנות את כינוי המשתמש בחדרי צ'אט של מסוג MUC"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "שם הכינוי או הערוץ לא זמינים כרגע."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7723,6 +7788,9 @@ msgstr "מערכת הפעלה"
 msgid "Operator"
 msgstr "מפעיל"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "מידע נוסף:"
@@ -7843,6 +7911,9 @@ msgstr "יציאת Pager"
 
 msgid "Paging"
 msgstr "מדפדף"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "פאשטוזית (אירנית)"
@@ -8588,6 +8659,9 @@ msgstr "שרת ה- D-BUS של Purple אינה פועלת עקב הסיבות ש�
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "חלון שאלה"
 
@@ -8608,6 +8682,9 @@ msgstr "יותר שקט"
 #, c-format
 msgid "Quietest"
 msgstr "הכי שקט"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10126,6 +10203,9 @@ msgstr "התחל לקשקש"
 msgid "Start Menu"
 msgstr "תפריט ההתחל"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "התחיל/ה להקליד"
 
@@ -11209,6 +11289,9 @@ msgstr "שם המשתמש הינו זמין. האם ברצונך להשתמש ב
 msgid "This username is unavailable."
 msgstr "שם משתמש זה אינו זמין."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "כשל בעת יצירת חוט-תהליך חדש: %s"
@@ -12256,10 +12339,6 @@ msgstr "השתמש בשיטת HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "השתמש בסודיות קדימה מושלמת"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "השתמש ב-SSL"
 
@@ -13172,6 +13251,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] "יש לך המלצה %i לחבר."
 msgstr[1] "יש לך %i המלצות לחברים."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13201,6 +13287,9 @@ msgstr "נבעטת: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "נהרגת ע\"י %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "גררת תמונה"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:51+0000\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@canonical.com>\n"
 "Language-Team: \n"
@@ -21,8 +21,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:39+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:14+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Finnish\n"
 
 msgid "\t_Only when someone says your username"
@@ -229,6 +229,10 @@ msgstr ""
 "  -h, --help          näytä tämä ohje ja poistu\n"
 "  -n, --nologin       älä kirjaudu automaattisesti\n"
 "  -v, --version       näytä nykyinen versionumero ja poistu\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -864,10 +868,6 @@ msgid "'delbuddy' command failed"
 msgstr "\"delbuddy\"-komento epäonnistui"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Koodi %s)"
 
@@ -923,9 +923,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Unohdit luultavasti suorittaa \"make install\".)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(oletus)"
 
@@ -953,6 +950,15 @@ msgstr "+++ %s kirjautui ulos"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s kirjautui sisään"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Käyttäjätilit"
@@ -1455,14 +1461,13 @@ msgstr "<br>Paikassa: %s saapunut: %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1561,6 +1566,10 @@ msgstr "<span size='smaller'>_Pienempi</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Yliviivaa</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Esimerkki: stunserver.org</span>"
@@ -2249,6 +2258,10 @@ msgstr "Näytä linjoilla olevalta"
 msgid "Appear Permanently Offline"
 msgstr "Näytä pysyvästi poissa linjoilta olevalta"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Toteuta"
 
@@ -2383,6 +2396,10 @@ msgstr "Todennus/verkkoalue"
 
 msgid "Auth User"
 msgstr "Todennus/käyttäjä"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2688,6 +2705,9 @@ msgstr "molemmille"
 
 msgid "Bottom"
 msgstr "Alhaalla"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "S_elaa"
@@ -3183,6 +3203,9 @@ msgstr "Vaihda käyttäjätietoja - %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Muutokset yksityisyysasetuksiin tulevat voimaan heti."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanava"
 
@@ -3264,6 +3287,9 @@ msgstr "Juttelutuulella"
 
 msgid "Check permissions and try again."
 msgstr "Tarkista oikeudet ja yritä uudelleen."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Tarkistaa paikallisen koneen sähköpostin."
@@ -4049,6 +4075,9 @@ msgstr "Kiellä"
 msgid "Disappointed"
 msgstr "Pettynyt"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Palvelin katkaisi yhteyden"
 
@@ -4318,6 +4347,9 @@ msgstr "Lopeta suora pikaviestiyhteys"
 msgid "End of ban list"
 msgstr "Estolistan loppu"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4496,6 +4528,15 @@ msgstr "Virhe lisättäessä tuttavaa"
 
 msgid "Error adding group"
 msgstr "Virhe lisättäessä ryhmää"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Virhe vaihdettaessa salasanaa"
@@ -5241,6 +5282,9 @@ msgstr "galego"
 msgid "Game Title"
 msgstr "Pelin nimi"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Pelit"
 
@@ -5426,6 +5470,9 @@ msgstr "HTTP-välipalvelimen yhteysvirhe %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Puolioperaattori"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Kättely vahvistettu, kirjaudutaan"
@@ -5700,6 +5747,15 @@ msgstr "IPC-testiasiakasohjelma"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC-testipalvelin"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7291,11 +7347,20 @@ msgstr "Kutsumanimi"
 msgid "Nick Said"
 msgstr "Sanoi"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Kutsumanimeä ei voi muuttaa muissa kuin MUC-keskusteluhuoneissa"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Kutsumanimi tai kanava ei tilapäisesti ole käytössä."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7810,6 +7875,9 @@ msgstr "Käyttöjärjestelmä"
 msgid "Operator"
 msgstr "Operaattori"
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Valinnaisia tietoja:"
@@ -7930,6 +7998,9 @@ msgstr "Hakulaiteportti"
 
 msgid "Paging"
 msgstr "Kaukohaku"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "paštu"
@@ -8682,6 +8753,9 @@ msgstr "Purplen D-BUS-palvelin ei ole käynnissä alla mainitusta syystä"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr "Kysymysvalintaikkuna"
 
@@ -8702,6 +8776,9 @@ msgstr "Hiljaisempi"
 #, c-format
 msgid "Quietest"
 msgstr "Hiljaisin"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10233,6 +10310,9 @@ msgstr "Aloita piirtely"
 msgid "Start Menu"
 msgstr "Käynnistysvalikko"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "alkoi kirjoittaa"
 
@@ -11350,6 +11430,9 @@ msgstr "Tämä käyttäjänimi on saatavilla. Haluatko ottaa sen käyttöön?"
 msgid "This username is unavailable."
 msgstr "Tämä käyttäjänimi ei ole saatavilla."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Säikeen luonti epäonnistui: %s"
@@ -12428,10 +12511,6 @@ msgstr "Käytä HTTP-yhteystapaa"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Käytä täydellistä jatkosalaisuutta (PFS)"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Käytä SSL:ää"
 
@@ -13367,6 +13446,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13397,6 +13483,9 @@ msgstr "Sinut on potkaistu kanavalta: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Sinut on poistanut %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Olet raahannut kuvan"

@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Traditional) <zh-l10n@linux.org.tw>\n"
@@ -68,8 +68,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-01 09:10+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:43+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Chinese (Traditional)\n"
 
 msgid "\t_Only when someone says your username"
@@ -260,6 +260,10 @@ msgstr ""
 "  -h, --help          顯示輔助訊息並離開\n"
 "  -n, --nologin       不自動登入\n"
 "  -v, --version       顯示版本訊息並離開\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -866,10 +870,6 @@ msgid "'delbuddy' command failed"
 msgstr "「delbuddy」指令失敗"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(代碼 %s)"
 
@@ -920,9 +920,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "（大概是忘記了執行「make install」了。）"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(預設)"
 
@@ -951,6 +948,15 @@ msgstr "+++ %s 登出"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s 登入"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/帳號"
@@ -1462,14 +1468,13 @@ msgstr "<br>從 %2$s 起已在 %1$s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1569,6 +1574,10 @@ msgstr "<span size='smaller'>縮小(_S)</span>"
 #  NOTE 這看來是一般PO檔的譯法（印刷術語看來也沒有既有譯法）
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>刪除線</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">例：stunserver.org</span>"
@@ -2280,6 +2289,10 @@ msgstr "報稱上線"
 msgid "Appear Permanently Offline"
 msgstr "長期報稱離線"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "套用"
 
@@ -2417,6 +2430,10 @@ msgstr "認證域名"
 
 msgid "Auth User"
 msgstr "認證使用者"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2763,6 +2780,9 @@ msgstr "訂閱及發出狀態資訊通知（已互相認證）"
 
 msgid "Bottom"
 msgstr "視窗下方"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "瀏覽(_O)..."
@@ -3269,6 +3289,9 @@ msgstr "更改 %s 的個人資訊"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "隱私設定將立刻生效。"
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "頻道"
 
@@ -3348,6 +3371,9 @@ msgstr "想聊天"
 
 msgid "Check permissions and try again."
 msgstr "請先檢查權限，然後重試。"
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "檢查本地端的新郵件。"
@@ -4168,6 +4194,9 @@ msgstr "不允許"
 msgid "Disappointed"
 msgstr "失望"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "伺服器中斷了連線"
 
@@ -4458,6 +4487,9 @@ msgstr "結束即時訊息工作階段"
 msgid "End of ban list"
 msgstr "禁止清單完"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4626,6 +4658,15 @@ msgstr "新增好友途中發生了錯誤"
 
 msgid "Error adding group"
 msgstr "新增群組發生了錯誤"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "修改密碼期間出現錯誤"
@@ -5410,6 +5451,9 @@ msgstr "加里西亞文"
 msgid "Game Title"
 msgstr "遊戲名稱"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "遊戲"
 
@@ -5610,6 +5654,9 @@ msgstr "HTTP 代理伺服器連線錯誤 %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "助理"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr ""
 
 # NOTE 見cnscode.org.tw
 msgid "Handshake Acknowledged, Sending Login"
@@ -5913,6 +5960,15 @@ msgstr "IPC 測試用戶端"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC 測試伺服器"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7600,6 +7656,9 @@ msgstr "暱稱"
 msgid "Nick Said"
 msgstr "暱稱被提及"
 
+msgid "Nick away suffix"
+msgstr ""
+
 # XXX 暫譯
 # NOTE 據 faceprint (模組作者) 稱，MUC 是一種新的聊天室協定，
 # NOTE 較舊式的「Group Chat」有更多功能
@@ -7609,6 +7668,12 @@ msgstr "在非 MUC 模式的聊天室內不支援修改暱稱"
 #  NOTE「暫時無法使用」應該比「暫時不存在」通順
 msgid "Nick or channel is temporarily unavailable."
 msgstr "暫時無法使用該個暱稱或頻道。"
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -8161,6 +8226,9 @@ msgstr "作業系統"
 msgid "Operator"
 msgstr "管理員"
 
+msgid "Operator password"
+msgstr ""
+
 #  NOTE 選擇性資訊
 #. Optional Information section
 msgid "Optional information:"
@@ -8290,6 +8358,9 @@ msgstr "傳呼系統通訊埠"
 
 msgid "Paging"
 msgstr "傳呼"
+
+msgid "Part message"
+msgstr ""
 
 #  NOTE「普什圖」在三地都看來是較正常的譯法
 #  NOTE 參見 http://www.cnscode.org.tw/cnscode/lang.jsp?qrytype=char&keyword=P&page=2
@@ -9062,6 +9133,9 @@ msgstr "因下列原因，Purple 的 D-BUS 伺服器未有執行"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 #  XXX 這譯文絶對有問題，但想不到怎樣譯較好 - ambrose 20090730
 msgid "Question dialog"
 msgstr "提問視窗"
@@ -9084,6 +9158,9 @@ msgstr "再小聲"
 #, c-format
 msgid "Quietest"
 msgstr "最小聲"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10702,6 +10779,9 @@ msgstr "開始 Doodle"
 msgid "Start Menu"
 msgstr "開始選單"
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "開始輸入"
 
@@ -11802,6 +11882,9 @@ msgstr "您可取得這個使用者名稱，您要使用這個使用者名稱嗎
 msgid "This username is unavailable."
 msgstr "這個使用者名稱已無法取得。"
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "無法建立執行緒：%s"
@@ -12881,10 +12964,6 @@ msgstr "使用 HTTP 方式"
 msgid "Use Perfect Forward Secrecy"
 msgstr "使用完全向前保密 (PFS)"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "使用 SSL"
 
@@ -13809,6 +13888,13 @@ msgid "You have %i suggested friend."
 msgid_plural "You have %i suggested friends."
 msgstr[0] "您有 %i 個好友建議。"
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13836,6 +13922,9 @@ msgstr "您已被踢出：(%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "您被 %s 從網路上移除 (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "您拖曳了一個影像"

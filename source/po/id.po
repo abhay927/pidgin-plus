@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Rai S. Regawa <raireg@yahoo.com>\n"
 "Language-Team: Rai S. Regawa <raireg@yahoo.com>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:45+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:20+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: INDONESIA\n"
 "Language: Indonesian\n"
 "X-Poedit-Language: Indonesian\n"
@@ -192,6 +192,10 @@ msgid ""
 "  -h, --help          display this help and exit\n"
 "  -n, --nologin       don't automatically login\n"
 "  -v, --version       display the current version and exit\n"
+msgstr ""
+
+#, c-format
+msgid "%s %s %s: %s\n"
 msgstr ""
 
 #, c-format
@@ -786,10 +790,6 @@ msgid "'delbuddy' command failed"
 msgstr "perintah delbuddy' gagal"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr ""
 
@@ -844,9 +844,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Kemungkinan lupa untuk 'make install'.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(standar)"
 
@@ -874,6 +871,15 @@ msgstr "+++ %s keluar"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s tergabung"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Akun-akun"
@@ -1373,14 +1379,13 @@ msgstr "<br>Pada %s sejak %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1468,6 +1473,10 @@ msgstr "<span size='smaller'>_Lebih Kecil</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Coret</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Contoh: stunserver.org</span>"
@@ -2128,6 +2137,10 @@ msgstr "Tampak Online"
 msgid "Appear Permanently Offline"
 msgstr "Tampak Offline Secara Permanen"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Terapkan"
 
@@ -2263,6 +2276,10 @@ msgstr "Otorisasi Domain"
 
 msgid "Auth User"
 msgstr "Otorisasi Pengguna"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2567,6 +2584,9 @@ msgstr "Keduanya"
 
 msgid "Bottom"
 msgstr "Bawah"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Br_owse..."
@@ -3060,6 +3080,9 @@ msgstr "Rubah informasi pengguna untuk %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Rubah ke pengaturan privasi untuk berlaku segera."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr ""
 
@@ -3140,6 +3163,9 @@ msgid "Chatty"
 msgstr "Sedang Ingin Ngobrol"
 
 msgid "Check permissions and try again."
+msgstr ""
+
+msgid "Check your password."
 msgstr ""
 
 msgid "Checks for new local mail."
@@ -3923,6 +3949,9 @@ msgstr "Tidak Mengijinkan"
 msgid "Disappointed"
 msgstr ""
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Diputuskan oleh server"
 
@@ -4193,6 +4222,9 @@ msgstr ""
 msgid "End of ban list"
 msgstr ""
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4359,6 +4391,15 @@ msgstr "Kesalahan dalam menambahkan teman"
 
 msgid "Error adding group"
 msgstr "Kesalahan dalam menambahkan kelompok"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Kesalahan penggantian kata sandi"
@@ -5104,6 +5145,9 @@ msgstr "Galicia"
 msgid "Game Title"
 msgstr ""
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Permainan"
 
@@ -5288,6 +5332,9 @@ msgstr "Kesalahan sambungan HTTP proxy %d"
 #. A half operator is someone who has a subset of the privileges
 #. that an operator has.
 msgid "Half Operator"
+msgstr ""
+
+msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
@@ -5563,6 +5610,15 @@ msgstr "Klien Penguji IPC"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Sever Penguji IPC"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7144,12 +7200,21 @@ msgstr "Nama Panggilan"
 msgid "Nick Said"
 msgstr "Nama Panggilan Mengatakan"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr ""
 "Penggantian nama panggilan tidak didukung dalam kamar percakapan non-MUC"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Nama panggilan atau saluran sementara tidak tersedia."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7660,6 +7725,9 @@ msgstr "Sistem Operasi"
 msgid "Operator"
 msgstr ""
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Informasi Pilihan:"
@@ -7780,6 +7848,9 @@ msgstr "Port Penyeranta"
 
 msgid "Paging"
 msgstr "Memanggil"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Pasto"
@@ -8531,6 +8602,9 @@ msgstr ""
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr ""
 
@@ -8551,6 +8625,9 @@ msgstr "Lebih hening"
 #, c-format
 msgid "Quietest"
 msgstr "Paling hening"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10085,6 +10162,9 @@ msgstr "Mulai Doodling"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11190,6 +11270,9 @@ msgstr ""
 msgid "This username is unavailable."
 msgstr ""
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Kegagalan pembuatan thread: %s"
@@ -12248,10 +12331,6 @@ msgstr "Gunakan Metode HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Gunakan Rahasia Penerusan Sempurna"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Gunakan SSL"
 
@@ -13173,6 +13252,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13203,6 +13289,9 @@ msgstr ""
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Anda telah dimatikan oleh %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Anda telah menarik gambar"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:28+0000\n"
 "Last-Translator: Stéphane Fillod <f8cfe@free.fr>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:38+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:13+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Esperanto\n"
 
 msgid "\t_Only when someone says your username"
@@ -205,6 +205,10 @@ msgstr ""
 "  -h, --help          vidigu tiun helpon kaj finu\n"
 "  -n, --nologin       ne aŭtomate ensalutu\n"
 "  -v, --version       vidigu la aktualan version kaj finu\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -783,10 +787,6 @@ msgid "'delbuddy' command failed"
 msgstr ""
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Kodo %s)"
 
@@ -833,9 +833,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Probable vi forgesis 'make install'.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(apriora)"
 
@@ -863,6 +860,15 @@ msgstr "+++ %s malsalutis"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s ensalutis"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Kontoj"
@@ -1363,14 +1369,13 @@ msgstr "<br>Ĉe %s ek de %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1459,6 +1464,10 @@ msgstr "<span size='smaller'>Pli _Malgranda</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Trastrekita</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Ekzemplo: stunserver.org</span>"
@@ -2117,6 +2126,10 @@ msgstr "Aperas Enreta"
 msgid "Appear Permanently Offline"
 msgstr "Aperas Ĉiama Senkonekta"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Apliku"
 
@@ -2248,6 +2261,10 @@ msgid "Auth Domain"
 msgstr ""
 
 msgid "Auth User"
+msgstr ""
+
+#. Register protocol preferences.
+msgid "Auth name"
 msgstr ""
 
 msgid "Authenticate with SASL"
@@ -2550,6 +2567,9 @@ msgstr "Ambaŭ"
 
 msgid "Bottom"
 msgstr "Malsupre"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Fol_iumi..."
@@ -3043,6 +3063,9 @@ msgstr "Ŝanĝu uzanto-informon de %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Ŝanĝoj al privatecaj agordoj efikas tuj."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanalo"
 
@@ -3116,6 +3139,9 @@ msgid "Chatty"
 msgstr "Babilema"
 
 msgid "Check permissions and try again."
+msgstr ""
+
+msgid "Check your password."
 msgstr ""
 
 msgid "Checks for new local mail."
@@ -3878,6 +3904,9 @@ msgstr "Malpermesu"
 msgid "Disappointed"
 msgstr ""
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr ""
 
@@ -4143,6 +4172,9 @@ msgstr ""
 msgid "End of ban list"
 msgstr ""
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4301,6 +4333,15 @@ msgstr "Eraro aldonante kunul"
 
 msgid "Error adding group"
 msgstr "Eraro aldonante grupo"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Erara ŝanĝante pasvorton"
@@ -5024,6 +5065,9 @@ msgstr "Galega"
 msgid "Game Title"
 msgstr "Ludo Titolo"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Ludoj"
 
@@ -5208,6 +5252,9 @@ msgstr "HTTP prokura konekteraro %d"
 #. A half operator is someone who has a subset of the privileges
 #. that an operator has.
 msgid "Half Operator"
+msgstr ""
+
+msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
@@ -5483,6 +5530,15 @@ msgstr "IPC Provo Kliento"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC Provoservilo"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7021,11 +7077,20 @@ msgstr "Karesnomo"
 msgid "Nick Said"
 msgstr "Karesnomo Diris"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr ""
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Karesnomo aŭ kanalo estas provizore ne disponebla."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7531,6 +7596,9 @@ msgstr ""
 msgid "Operator"
 msgstr ""
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Opcia informo:"
@@ -7650,6 +7718,9 @@ msgid "Pager port"
 msgstr "Paĝila pordo"
 
 msgid "Paging"
+msgstr ""
+
+msgid "Part message"
 msgstr ""
 
 msgid "Pashto"
@@ -8392,6 +8463,9 @@ msgstr ""
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr ""
 
@@ -8412,6 +8486,9 @@ msgstr "Pli Malaŭte"
 #, c-format
 msgid "Quietest"
 msgstr "Pli Malaŭta"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -9921,6 +9998,9 @@ msgstr ""
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr "Ektajpas"
 
@@ -10958,6 +11038,9 @@ msgstr ""
 msgid "This username is unavailable."
 msgstr "Tiu uzantonomo ne disponeblas."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr ""
@@ -11994,10 +12077,6 @@ msgstr "Uzu HTTP-an metodon"
 msgid "Use Perfect Forward Secrecy"
 msgstr ""
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Uzu SSL-n"
 
@@ -12899,6 +12978,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -12925,6 +13011,9 @@ msgstr "Vi estas forigita: (%s)"
 
 #, c-format
 msgid "You have been killed by %s (%s)"
+msgstr ""
+
+msgid "You have been removed from the access list."
 msgstr ""
 
 msgid "You have dragged an image"

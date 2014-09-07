@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:44+0000\n"
 "Last-Translator: Miloš Popović <gpopac@gmail.com>\n"
 "Language-Team: Serbian <gnome@prevod.org>\n"
@@ -22,8 +22,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    "
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-01 09:13+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:45+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Serbian Latin\n"
 
 msgid "\t_Only when someone says your username"
@@ -231,6 +231,10 @@ msgstr ""
 "  -h, --help          prikaži ovu pomoć i izađi\n"
 "  -n, --nologin       nemoj se automatski prijavljivati\n"
 "  -v, --version       prikaži trenutnu verziju i izađi\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -843,10 +847,6 @@ msgid "'delbuddy' command failed"
 msgstr "komanda brisanja drugara neuspela"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(kôd %s)"
 
@@ -901,9 +901,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Verovatno ste zaboravili da pokrenete „make install“.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(podrazumevano)"
 
@@ -931,6 +928,15 @@ msgstr "+++ %s se odjavio(la)"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s se prijavio(la)"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Nalozi"
@@ -1432,14 +1438,13 @@ msgstr "<br>U %s od %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1537,6 +1542,10 @@ msgstr "<span size='smaller'>_Umanjeno</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Precrtano</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Primer: stunserver.org</span>"
@@ -2210,6 +2219,10 @@ msgstr "Pravi se povezan"
 msgid "Appear Permanently Offline"
 msgstr "Pravi se potpuno nepovezan"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Primeni"
 
@@ -2344,6 +2357,10 @@ msgstr "Ovlasti domen"
 
 msgid "Auth User"
 msgstr "Ovlasti korisnika"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2648,6 +2665,9 @@ msgstr "Oba"
 
 msgid "Bottom"
 msgstr "Na dnu"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Pregleda_j..."
@@ -3141,6 +3161,9 @@ msgstr "Izmeni podatke o korisniku za %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Izmene postavki privatnosti se primenjuju trenutno."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanal"
 
@@ -3222,6 +3245,9 @@ msgstr "Pričljiv"
 
 msgid "Check permissions and try again."
 msgstr "Proverite dozvole i pokušajte ponovo."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Proverava da li je pristigla nova lokalna pošta."
@@ -4004,6 +4030,9 @@ msgstr "Zabrani"
 msgid "Disappointed"
 msgstr ""
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Server Vas je isključio"
 
@@ -4275,6 +4304,9 @@ msgstr ""
 msgid "End of ban list"
 msgstr "Kraj spiska izbačenih"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4450,6 +4482,15 @@ msgstr "Greška pri dodavanju drugara"
 
 msgid "Error adding group"
 msgstr "Greška pri dodavanju grupe"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Greška pri izmeni lozinke"
@@ -5196,6 +5237,9 @@ msgstr "galicijski"
 msgid "Game Title"
 msgstr "Naziv igre"
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Igre"
 
@@ -5381,6 +5425,9 @@ msgstr "Greška pri povezivanju posrednika %d"
 #. A half operator is someone who has a subset of the privileges
 #. that an operator has.
 msgid "Half Operator"
+msgstr ""
+
+msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
@@ -5658,6 +5705,15 @@ msgstr "Probni program za MPK"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Probni server za MPK"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7248,11 +7304,20 @@ msgstr "Nadimak"
 msgid "Nick Said"
 msgstr "Druj je rekao"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Promena nadimka nije podržana u pričaonicama koje nisu MUC."
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Nadimak ili kanal je privremeno nedostupan."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7762,6 +7827,9 @@ msgstr "Operativni sistem"
 msgid "Operator"
 msgstr ""
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Dodatni podaci"
@@ -7882,6 +7950,9 @@ msgstr "Port za pejdžer"
 
 msgid "Paging"
 msgstr "Zapisivanje"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "pašto"
@@ -8627,6 +8698,9 @@ msgstr "Purple-ov D-BUS server nije pokrenut iz sledećih razloga"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr ""
 
@@ -8647,6 +8721,9 @@ msgstr "Tiše"
 #, c-format
 msgid "Quietest"
 msgstr "Najtiše"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10173,6 +10250,9 @@ msgstr "Počni crtati"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11288,6 +11368,9 @@ msgstr "Ovo korisničko ime je dostupno. Da li želite da ga uzmete?"
 msgid "This username is unavailable."
 msgstr "Ovo korisničko ine nije dostupno."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Neuspelo pravljenje niti: %s"
@@ -12339,10 +12422,6 @@ msgstr "Koristi HTTP režim"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Koristi najbolju tajnost prosleđivanja"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Koristi SSL"
 
@@ -13260,6 +13339,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13289,6 +13375,9 @@ msgstr ""
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Uklonio vas je %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Dovukli ste sliku"

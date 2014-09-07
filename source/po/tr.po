@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: <tr@li.org>\n"
@@ -21,8 +21,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 09:05+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:39+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: TURKEY\n"
 "Language: Turkish\n"
 "X-Poedit-Language: Turkish\n"
@@ -195,6 +195,10 @@ msgid ""
 "  -h, --help          display this help and exit\n"
 "  -n, --nologin       don't automatically login\n"
 "  -v, --version       display the current version and exit\n"
+msgstr ""
+
+#, c-format
+msgid "%s %s %s: %s\n"
 msgstr ""
 
 #, c-format
@@ -773,10 +777,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' komutu başarısız oldu"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr ""
 
@@ -825,9 +825,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Muhtemelen'make install' komutunu vermeyi unuttunuz.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(öntanımlı)"
 
@@ -855,6 +852,15 @@ msgstr "+++ %s çıkış yaptı"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s giriş yaptı"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Hesaplar"
@@ -1354,14 +1360,13 @@ msgstr "<br> %s'de %s'den beri"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1448,6 +1453,10 @@ msgstr "<span size='smaller'>Daha _Küçük</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Üzeri çizili</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Örnek: stunserver.org</span>"
@@ -2105,6 +2114,10 @@ msgstr "Çevrimiçi"
 msgid "Appear Permanently Offline"
 msgstr "Sürekli Çevrimdışı görün"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Uygula"
 
@@ -2242,6 +2255,10 @@ msgstr "Makine Kimliğini Doğrula"
 
 msgid "Auth User"
 msgstr "Kullanıcı Kimliğini Doğrula"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2549,6 +2566,9 @@ msgstr "İkisi de"
 
 msgid "Bottom"
 msgstr "Alt"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Gö_zat..."
@@ -3041,6 +3061,9 @@ msgstr "%s için kullanıcı bilgilerini değiştir"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Gizlilikteki değişiklikler anında aktif olur."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanal"
 
@@ -3115,6 +3138,9 @@ msgid "Chatty"
 msgstr "Konuşkan"
 
 msgid "Check permissions and try again."
+msgstr ""
+
+msgid "Check your password."
 msgstr ""
 
 msgid "Checks for new local mail."
@@ -3885,6 +3911,9 @@ msgstr "İzin verme"
 msgid "Disappointed"
 msgstr ""
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Sunucu bağlantısı kesildi"
 
@@ -4152,6 +4181,9 @@ msgstr ""
 msgid "End of ban list"
 msgstr ""
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4312,6 +4344,15 @@ msgstr "Kişi ekleme hatası"
 
 msgid "Error adding group"
 msgstr "Grup ekleme hatası"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Parola değiştirilirken hata"
@@ -5051,6 +5092,9 @@ msgstr "Galiçyaca"
 msgid "Game Title"
 msgstr ""
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Oyunlar"
 
@@ -5235,6 +5279,9 @@ msgstr "HTTP Proxy bağlantı hatası %d"
 #. A half operator is someone who has a subset of the privileges
 #. that an operator has.
 msgid "Half Operator"
+msgstr ""
+
+msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
@@ -5510,6 +5557,15 @@ msgstr "IPC Test İstemcisi"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC Test Sunucusu"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7086,11 +7142,20 @@ msgstr "Takma isim"
 msgid "Nick Said"
 msgstr "Takma Ad Söylüyor"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Takma ad değiştirmek MUC olmayan sohbet odalarında desteklenmiyor"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Takma ad veya kanal geçici olarak hizmet dışı."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7598,6 +7663,9 @@ msgstr "İşletim Sistemi"
 msgid "Operator"
 msgstr ""
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "İsteğe bağlı bilgi:"
@@ -7718,6 +7786,9 @@ msgstr "Çağrı cihazı portu"
 
 msgid "Paging"
 msgstr "Sayfalama"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Pashto"
@@ -8461,6 +8532,9 @@ msgstr "Purple D-BUS sunucusu aşağıdaki nedenden dolayı çalışmıyor"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr ""
 
@@ -8481,6 +8555,9 @@ msgstr "Daha Düşük"
 #, c-format
 msgid "Quietest"
 msgstr "En Düşük"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10004,6 +10081,9 @@ msgstr "Karalamaya Başla"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11068,6 +11148,9 @@ msgstr ""
 msgid "This username is unavailable."
 msgstr ""
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "İş parçacığı (thread) oluşturma işlemi başarısız oldu: %s"
@@ -12113,10 +12196,6 @@ msgstr "HTTP Metodunu Kullan"
 msgid "Use Perfect Forward Secrecy"
 msgstr ""
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "SSL Kullan"
 
@@ -13029,6 +13108,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13059,6 +13145,9 @@ msgstr ""
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "%s tarafından atıldınız. (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Bir resim sürüklediniz."

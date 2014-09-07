@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:16+0000\n"
 "Last-Translator: Arangel Angov <ufo@linux.net.mk>\n"
 "Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 || n%10==1 ? 0 : 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 08:50+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:25+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Macedonian\n"
 
 msgid "\t_Only when someone says your username"
@@ -205,6 +205,10 @@ msgid ""
 "  -h, --help          display this help and exit\n"
 "  -n, --nologin       don't automatically login\n"
 "  -v, --version       display the current version and exit\n"
+msgstr ""
+
+#, c-format
+msgid "%s %s %s: %s\n"
 msgstr ""
 
 #, c-format
@@ -802,10 +806,6 @@ msgid "'delbuddy' command failed"
 msgstr ""
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr ""
 
@@ -860,9 +860,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Најверојатно сте заборавиле 'make install'.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(стандардно)"
 
@@ -890,6 +887,15 @@ msgstr "+++ %s се одјави"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s се најави"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Сметки"
@@ -1390,14 +1396,13 @@ msgstr "<br>На %s од %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1486,6 +1491,10 @@ msgstr "<span size='smaller'>_Помало</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span size='larger'>Прешкртано</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Пример: stunserver.org</span>"
@@ -2156,6 +2165,10 @@ msgstr "Покажи се онлајн"
 msgid "Appear Permanently Offline"
 msgstr "Покажи се привремено офлајн"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Примени"
 
@@ -2294,6 +2307,10 @@ msgstr "Домен за проверка"
 
 msgid "Auth User"
 msgstr "Автентицирај корисник"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2598,6 +2615,9 @@ msgstr "Двете"
 
 msgid "Bottom"
 msgstr "Дно"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Р_азгледај..."
@@ -3092,6 +3112,9 @@ msgstr "Промени корисничко инфо за %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Промените во поставувањата за приватноста стапуваат во сила веднаш."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Канал:"
 
@@ -3174,6 +3197,9 @@ msgstr "Ми се прави муабет"
 
 msgid "Check permissions and try again."
 msgstr "Проверете ги пермисиите и пробајте пак."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Проверува нова локална пошта."
@@ -3952,6 +3978,9 @@ msgstr "Не дозволувај"
 msgid "Disappointed"
 msgstr ""
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Исклучен од серверот"
 
@@ -4223,6 +4252,9 @@ msgstr ""
 msgid "End of ban list"
 msgstr "Крај на листата"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4399,6 +4431,15 @@ msgstr "Грешка при додавање на пријателот"
 
 msgid "Error adding group"
 msgstr "Грешка при додавање на групата"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Грешка во промената на лозинката"
@@ -5145,6 +5186,9 @@ msgstr "Galician"
 msgid "Game Title"
 msgstr ""
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Игри"
 
@@ -5329,6 +5373,9 @@ msgstr "Грешки при поврзување со HTTP proxy-то %d"
 #. A half operator is someone who has a subset of the privileges
 #. that an operator has.
 msgid "Half Operator"
+msgstr ""
+
+msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
@@ -5604,6 +5651,15 @@ msgstr "IPC тест клиент"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC тест сервер"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7190,12 +7246,21 @@ msgstr "Прекар"
 msgid "Nick Said"
 msgstr "Прекарот рече"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr ""
 "Промената на прекарот не е дозволена во соби за разговор кои не се MUC"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Прекарот или каналот е привремено недостапен."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7706,6 +7771,9 @@ msgstr "Оперативен систем"
 msgid "Operator"
 msgstr ""
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Изборни информации:"
@@ -7826,6 +7894,9 @@ msgstr "Порта на пејџер"
 
 msgid "Paging"
 msgstr "Пејџинг"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Pashto"
@@ -8591,6 +8662,9 @@ msgstr ""
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr ""
 
@@ -8611,6 +8685,9 @@ msgstr "Потивко"
 #, c-format
 msgid "Quietest"
 msgstr "Најтивко"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10144,6 +10221,9 @@ msgstr "Започни со дудлање"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11263,6 +11343,9 @@ msgstr "Ова корисничко име е достапно. Дали сак�
 msgid "This username is unavailable."
 msgstr "Ова корисничко име не е достапно."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Креирањето на нишката не успеа: %s"
@@ -12324,10 +12407,6 @@ msgstr "Користи го HTTP методот"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Користи совершена тајност при препраќање"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Користи SSL"
 
@@ -13253,6 +13332,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13282,6 +13368,9 @@ msgstr ""
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Бевте уништени од %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Влечевте слика"

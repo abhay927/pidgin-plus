@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin 2.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
 "PO-Revision-Date: 2014-08-31 02:18+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Belarusian Latin <be-latin.open-tran.eu>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2014-09-01 09:12+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:44+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: Belarusian latin\n"
 
 msgid "\t_Only when someone says your username"
@@ -209,6 +209,10 @@ msgid ""
 "  -h, --help          display this help and exit\n"
 "  -n, --nologin       don't automatically login\n"
 "  -v, --version       display the current version and exit\n"
+msgstr ""
+
+#, c-format
+msgid "%s %s %s: %s\n"
 msgstr ""
 
 #, c-format
@@ -809,10 +813,6 @@ msgid "'delbuddy' command failed"
 msgstr "Niaŭdałaje vykanańnie zahadu \"delbuddy\""
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr ""
-
-#, c-format
 msgid "(Code %s)"
 msgstr ""
 
@@ -867,9 +867,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(Ty mabyć zabyŭsia vykanać 'make install'.)"
 
-msgid "(auto) "
-msgstr ""
-
 msgid "(default)"
 msgstr "(zmoŭčany)"
 
@@ -897,6 +894,15 @@ msgstr "+++ %s vychodzić"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s uvachodzić"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
 
 msgid "/Accounts"
 msgstr "/Konty"
@@ -1398,14 +1404,13 @@ msgstr "<br>Na %s ad %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
 
 #, c-format
@@ -1494,6 +1499,10 @@ msgstr "<span size='smaller'>_Mienšy</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span size='larger'>Pierakreśleny</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Prykład: stunserver.org</span>"
@@ -2162,6 +2171,10 @@ msgstr "Źjaŭlajsia ŭ sietcy"
 msgid "Appear Permanently Offline"
 msgstr "Budź stała pa-za sietkaj"
 
+#. Application update checking
+msgid "Application updates"
+msgstr ""
+
 msgid "Apply"
 msgstr "Užyj"
 
@@ -2295,6 +2308,10 @@ msgstr "Aŭtaryzuj damen"
 
 msgid "Auth User"
 msgstr "Aŭtaryzuj karystalnika"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr ""
 
 msgid "Authenticate with SASL"
 msgstr ""
@@ -2599,6 +2616,9 @@ msgstr "Dvuchbakovaja"
 
 msgid "Bottom"
 msgstr "Unizie"
+
+msgid "Bounced domain"
+msgstr ""
 
 msgid "Br_owse..."
 msgstr "Ah_ladaj..."
@@ -3092,6 +3112,9 @@ msgstr "Źmiani źviestki karystalnika dla %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Źmieny tajemnaści adrazu pačynajuć dziejničać."
 
+msgid "Changes your nick to indicate you are away."
+msgstr ""
+
 msgid "Channel"
 msgstr "Kanał"
 
@@ -3173,6 +3196,9 @@ msgstr "Chaču pahavaryć"
 
 msgid "Check permissions and try again."
 msgstr "Pravier pravy i znoŭ paŭtary sprobu."
+
+msgid "Check your password."
+msgstr ""
 
 msgid "Checks for new local mail."
 msgstr "Praviaraje novuju lakalnuju poštu."
@@ -3956,6 +3982,9 @@ msgstr "Zabarani"
 msgid "Disappointed"
 msgstr ""
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr ""
+
 msgid "Disconnected by server"
 msgstr "Adłučany serveram"
 
@@ -4227,6 +4256,9 @@ msgstr ""
 msgid "End of ban list"
 msgstr "Kaniec śpisu banaŭ"
 
+msgid "End of buffer playback"
+msgstr ""
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4403,6 +4435,15 @@ msgstr "Pamyłka pry dadańni siabra"
 
 msgid "Error adding group"
 msgstr "Pamyłka pry dadańni hrupy"
+
+msgid "Error authenticating with AuthServ"
+msgstr ""
+
+msgid "Error authenticating with NickServ"
+msgstr ""
+
+msgid "Error authenticating with Q"
+msgstr ""
 
 msgid "Error changing password"
 msgstr "Pamyłka źmieny parolu"
@@ -5149,6 +5190,9 @@ msgstr "Halickaja"
 msgid "Game Title"
 msgstr ""
 
+msgid "GameSurge Authentication Error"
+msgstr ""
+
 msgid "Games"
 msgstr "Hulni"
 
@@ -5333,6 +5377,9 @@ msgstr "Pamyłka spałučeńnia %d z HTTP proxy"
 #. A half operator is someone who has a subset of the privileges
 #. that an operator has.
 msgid "Half Operator"
+msgstr ""
+
+msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
 msgid "Handshake Acknowledged, Sending Login"
@@ -5608,6 +5655,15 @@ msgstr "Testavy klijent IPC"
 #. *< id
 msgid "IPC Test Server"
 msgstr "Testavy server IPC"
+
+msgid "IRC Away"
+msgstr ""
+
+msgid "IRC Away Nick"
+msgstr ""
+
+msgid "IRC Helper"
+msgstr ""
 
 #. *< type
 #. *< ui_requirement
@@ -7194,11 +7250,20 @@ msgstr "Mianuška"
 msgid "Nick Said"
 msgstr "Pramoviŭ mianušku"
 
+msgid "Nick away suffix"
+msgstr ""
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Źmiena mianuški nie padtrymvajecca dla nia-MUC pakojaŭ"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Mianuška albo kanał časova niedastupnyja."
+
+msgid "Nick password"
+msgstr ""
+
+msgid "NickServ Authentication Error"
+msgstr ""
 
 #. General
 msgid "Nickname"
@@ -7710,6 +7775,9 @@ msgstr "Aperacyjnaja systema"
 msgid "Operator"
 msgstr ""
 
+msgid "Operator password"
+msgstr ""
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Dadatkovyja źviestki:"
@@ -7830,6 +7898,9 @@ msgstr "Port pagera"
 
 msgid "Paging"
 msgstr "Pejdžynh"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Pashto"
@@ -8583,6 +8654,9 @@ msgstr "D-BUS server Purple'a nie pracuje z nastupnaje pryčyny"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr ""
+
 msgid "Question dialog"
 msgstr ""
 
@@ -8603,6 +8677,9 @@ msgstr "Cišejšaja"
 #, c-format
 msgid "Quietest"
 msgstr "Najcišejšaja"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10133,6 +10210,9 @@ msgstr "Pačni durnotu"
 msgid "Start Menu"
 msgstr ""
 
+msgid "Start of buffer playback"
+msgstr ""
+
 msgid "Started typing"
 msgstr ""
 
@@ -11248,6 +11328,9 @@ msgstr "Hetaja nazva karystalnika volnaja. Chočaš jaje ŭžyć?"
 msgid "This username is unavailable."
 msgstr "Hetaja nazva karystalnika zaniataja."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr ""
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Pamyłka stvareńnia nici: %s"
@@ -12306,10 +12389,6 @@ msgstr "Užyj metad HTTP"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Užyj vydatnuju krajnuju sakretnaść"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Užyj SSL"
 
@@ -13237,6 +13316,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] ""
 msgstr[1] ""
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr ""
+
+msgid "You have been added to the access list."
+msgstr ""
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13266,6 +13352,9 @@ msgstr ""
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "Ciabie zabiŭ %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr ""
 
 msgid "You have dragged an image"
 msgstr "Ty pieraciahnuŭ vyjavu"

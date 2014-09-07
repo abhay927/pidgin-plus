@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-31 07:50-0300\n"
-"PO-Revision-Date: 2014-08-31 12:24+0000\n"
+"POT-Creation-Date: 2014-09-06 16:27-0300\n"
+"PO-Revision-Date: 2014-09-06 10:12+0000\n"
 "Last-Translator: Anthony Harrington <untaintableangel@ubuntu.com>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-01 09:09+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
+"X-Launchpad-Export-Date: 2014-09-07 07:42+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 "Language: English (United Kingdom)\n"
 
 msgid "\t_Only when someone says your username"
@@ -223,6 +223,10 @@ msgstr ""
 "  -h, --help          display this help and exit\n"
 "  -n, --nologin       don't automatically login\n"
 "  -v, --version       display the current version and exit\n"
+
+#, c-format
+msgid "%s %s %s: %s\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -857,10 +861,6 @@ msgid "'delbuddy' command failed"
 msgstr "'delbuddy' command failed"
 
 #, c-format
-msgid "(%s) %s (auto): %s\n"
-msgstr "(%s) %s (auto): %s\n"
-
-#, c-format
 msgid "(Code %s)"
 msgstr "(Code %s)"
 
@@ -915,9 +915,6 @@ msgstr "(UTC)"
 msgid "(You probably forgot to 'make install'.)"
 msgstr "(You probably forgot to 'make install'.)"
 
-msgid "(auto) "
-msgstr "(auto) "
-
 msgid "(default)"
 msgstr "(default)"
 
@@ -945,6 +942,21 @@ msgstr "+++ %s signed off"
 #, c-format
 msgid "+++ %s signed on"
 msgstr "+++ %s signed on"
+
+msgid ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
+msgstr ""
+"- Transparent authentication with a variety of services.\n"
+"- Suppression of various useless messages.\n"
+"\n"
+"This is a patched version by Renato Silva, adding the following:\n"
+"- Doubled identify and ghost killing timeouts.\n"
+"- Bouncer support through account preference."
 
 msgid "/Accounts"
 msgstr "/Accounts"
@@ -1447,20 +1459,14 @@ msgstr "<br>At %s since %s"
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
-"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
-"size=\"2\"> %s (auto):</font><font color=\"#585858\" size=\"2\"> "
-"%s</font><br/>\n"
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
+"size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
-"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
-"size=\"2\"> %s (auto): %s</font><br/>\n"
 
 #, c-format
 msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
@@ -1561,6 +1567,11 @@ msgstr "<span size='smaller'>_Smaller</span>"
 
 msgid "<span strikethrough='true'>Strikethrough</span>"
 msgstr "<span strikethrough='true'>Strikethrough</span>"
+
+msgid ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
+msgstr ""
+"<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"
 
 msgid "<span style=\"italic\">Example: stunserver.org</span>"
 msgstr "<span style=\"italic\">Example: stunserver.org</span>"
@@ -2252,6 +2263,10 @@ msgstr "Appear Online"
 msgid "Appear Permanently Offline"
 msgstr "Appear Permanently Offline"
 
+#. Application update checking
+msgid "Application updates"
+msgstr "Application updates"
+
 msgid "Apply"
 msgstr "Apply"
 
@@ -2390,6 +2405,10 @@ msgstr "Auth Domain"
 
 msgid "Auth User"
 msgstr "Auth User"
+
+#. Register protocol preferences.
+msgid "Auth name"
+msgstr "Auth name"
 
 msgid "Authenticate with SASL"
 msgstr "Authenticate with SASL"
@@ -2693,6 +2712,9 @@ msgstr "Both"
 
 msgid "Bottom"
 msgstr "Bottom"
+
+msgid "Bounced domain"
+msgstr "Bounced domain"
 
 msgid "Br_owse..."
 msgstr "Br_owse..."
@@ -3186,6 +3208,9 @@ msgstr "Change user information for %s"
 msgid "Changes to privacy settings take effect immediately."
 msgstr "Changes to privacy settings take effect immediately."
 
+msgid "Changes your nick to indicate you are away."
+msgstr "Changes your nick to indicate you are away."
+
 msgid "Channel"
 msgstr "Channel:"
 
@@ -3267,6 +3292,9 @@ msgstr "Chatty"
 
 msgid "Check permissions and try again."
 msgstr "Check permissions and try again."
+
+msgid "Check your password."
+msgstr "Check your password."
 
 msgid "Checks for new local mail."
 msgstr "Checks for new local mail."
@@ -4051,6 +4079,9 @@ msgstr "Disallow"
 msgid "Disappointed"
 msgstr "Disappointed"
 
+msgid "Disconnect ghosts (Duplicate nicknames)"
+msgstr "Disconnect ghosts (Duplicate nicknames)"
+
 msgid "Disconnected by server"
 msgstr "Disconnected by server"
 
@@ -4322,6 +4353,9 @@ msgstr "End Direct IM Session"
 msgid "End of ban list"
 msgstr "End of ban list"
 
+msgid "End of buffer playback"
+msgstr "End of buffer playback"
+
 #. *< name
 #. *< version
 #. *  summary
@@ -4504,6 +4538,15 @@ msgstr "Error adding buddy"
 
 msgid "Error adding group"
 msgstr "Error adding group"
+
+msgid "Error authenticating with AuthServ"
+msgstr "Error authenticating with AuthServ"
+
+msgid "Error authenticating with NickServ"
+msgstr "Error authenticating with NickServ"
+
+msgid "Error authenticating with Q"
+msgstr "Error authenticating with Q"
 
 msgid "Error changing password"
 msgstr "Error changing password"
@@ -5251,6 +5294,9 @@ msgstr "Galician"
 msgid "Game Title"
 msgstr "Game Title"
 
+msgid "GameSurge Authentication Error"
+msgstr "GameSurge Authentication Error"
+
 msgid "Games"
 msgstr "Games"
 
@@ -5436,6 +5482,9 @@ msgstr "HTTP proxy connection error %d"
 #. that an operator has.
 msgid "Half Operator"
 msgstr "Half Operator"
+
+msgid "Handles the rough edges of the IRC protocol."
+msgstr "Handles the rough edges of the IRC protocol."
 
 msgid "Handshake Acknowledged, Sending Login"
 msgstr "Handshake Acknowledged, Sending Login"
@@ -5710,6 +5759,15 @@ msgstr "IPC Test Client"
 #. *< id
 msgid "IPC Test Server"
 msgstr "IPC Test Server"
+
+msgid "IRC Away"
+msgstr "IRC Away"
+
+msgid "IRC Away Nick"
+msgstr "IRC Away Nick"
+
+msgid "IRC Helper"
+msgstr "IRC Helper"
 
 #. *< type
 #. *< ui_requirement
@@ -7296,11 +7354,20 @@ msgstr "Nick"
 msgid "Nick Said"
 msgstr "Nick Said"
 
+msgid "Nick away suffix"
+msgstr "Nick away suffix"
+
 msgid "Nick changing not supported in non-MUC chatrooms"
 msgstr "Nick changing not supported in non-MUC chatrooms"
 
 msgid "Nick or channel is temporarily unavailable."
 msgstr "Nick or channel is temporarily unavailable."
+
+msgid "Nick password"
+msgstr "Nick password"
+
+msgid "NickServ Authentication Error"
+msgstr "NickServ Authentication Error"
 
 #. General
 msgid "Nickname"
@@ -7813,6 +7880,9 @@ msgstr "Operating System"
 msgid "Operator"
 msgstr "Operator"
 
+msgid "Operator password"
+msgstr "Operator password"
+
 #. Optional Information section
 msgid "Optional information:"
 msgstr "Optional information:"
@@ -7933,6 +8003,9 @@ msgstr "Pager port"
 
 msgid "Paging"
 msgstr "Paging"
+
+msgid "Part message"
+msgstr ""
 
 msgid "Pashto"
 msgstr "Pashto"
@@ -8697,6 +8770,9 @@ msgstr "Purple's D-BUS server is not running for the reason listed below"
 msgid "QIP"
 msgstr "QIP"
 
+msgid "QuakeNet Authentication Error"
+msgstr "QuakeNet Authentication Error"
+
 msgid "Question dialog"
 msgstr "Question dialog"
 
@@ -8717,6 +8793,9 @@ msgstr "Quieter"
 #, c-format
 msgid "Quietest"
 msgstr "Quietest"
+
+msgid "Quit message"
+msgstr ""
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -10245,6 +10324,9 @@ msgstr "Start Doodling"
 msgid "Start Menu"
 msgstr "Start Menu"
 
+msgid "Start of buffer playback"
+msgstr "Start of buffer playback"
+
 msgid "Started typing"
 msgstr "Started typing"
 
@@ -11381,6 +11463,9 @@ msgstr "This username is available. Would you like to set it?"
 msgid "This username is unavailable."
 msgstr "This username is not available."
 
+msgid "This will bypass your proxy settings, continue?"
+msgstr "This will bypass your proxy settings. Continue?"
+
 #, c-format
 msgid "Thread creation failure: %s"
 msgstr "Thread creation failure: %s"
@@ -12459,10 +12544,6 @@ msgstr "Use HTTP Method"
 msgid "Use Perfect Forward Secrecy"
 msgstr "Use Perfect Forward Secrecy"
 
-#. 
-#. option = purple_account_option_string_new(_("Quit message"), "quitmsg", IRC_DEFAULT_QUIT);
-#. prpl_info.protocol_options = g_list_append(prpl_info.protocol_options, option);
-#. 
 msgid "Use SSL"
 msgstr "Use SSL"
 
@@ -13396,6 +13477,13 @@ msgid_plural "You have %i suggested friends."
 msgstr[0] "You have %i suggested friend."
 msgstr[1] "You have %i suggested friends."
 
+#, c-format
+msgid "You have been added to the access list with an access level of %s."
+msgstr "You have been added to the access list with an access level of %s."
+
+msgid "You have been added to the access list."
+msgstr "You have been added to the access list."
+
 msgid ""
 "You have been connecting and disconnecting too frequently. Wait ten minutes "
 "and try again. If you continue to try, you will need to wait even longer."
@@ -13425,6 +13513,9 @@ msgstr "You have been kicked: (%s)"
 #, c-format
 msgid "You have been killed by %s (%s)"
 msgstr "You have been killed by %s (%s)"
+
+msgid "You have been removed from the access list."
+msgstr "You have been removed from the access list."
 
 msgid "You have dragged an image"
 msgstr "You have dragged an image"
