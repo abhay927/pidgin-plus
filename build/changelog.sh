@@ -13,6 +13,7 @@
 ##
 ##    -u, --update-version         Bump version suffix to RS{day-of-year}.
 ##    -d, --debian                 Generate the Debian package changelog entry.
+##    -m, --markdown               Generate the Markdown changelog.
 ##    -H, --html                   Generate the HTML changelog.
 ##        --output=FILE            Save generated changelog to FILE.
 ##
@@ -62,6 +63,15 @@ if [[ -n "$html" ]]; then
     xmlstarlet format --html --omit-decl --nocdata --indent-spaces 4 "$unformatted" | dos2unix > "$output"
     rm "$unformatted"
     sed -i -E "s/(<\!\[CDATA\[|(\s{4})?\]\]>)//" "$output"
+    echo "Changelog exported to $output"
+fi
+
+# Markdown changelog
+if [[ -n "$markdown" ]]; then
+    cd "$build_dir"
+    output="${output:-$base_dir/changelog.md}"
+    xsl_parameters="$xsl_parameters -s screenshots.url=http://pidgin.renatosilva.me"
+    xmlstarlet transform --omit-decl changelog.markdown.xsl $xsl_parameters changelog.xml | dos2unix > "$output"
     echo "Changelog exported to $output"
 fi
 
