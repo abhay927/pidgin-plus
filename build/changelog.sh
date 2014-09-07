@@ -47,6 +47,7 @@ fi
 full_version="${pidgin_version}-${custom_version}"
 xsl_parameters="-s version=$full_version -s bugs.url=https://developer.pidgin.im/ticket"
 [[ $(uname -s) = Linux ]] && ubuntu_package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${custom_version,,}\+){0,1}/-${custom_version,,}+/")
+[[ -n "$output" ]] && output=$(readlink -f "$output")
 
 # Versions
 [[ -n "$version"              ]] &&  printf "${full_version:+$full_version\n}"
