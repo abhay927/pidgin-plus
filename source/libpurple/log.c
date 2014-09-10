@@ -378,7 +378,7 @@ get_server_timestamp(char **message, char **timestamp)
 	char *new_message;
 	char *prefix;
 
-	regex = g_regex_new("^(.*)(\\[[0-9][0-9]:[0-9][0-9]:[0-9][0-9]\\]) (.+)", 0, 0, NULL);
+	regex = g_regex_new("^(.*)(\\[.*[0-9][0-9]:[0-9][0-9]:[0-9][0-9]\\]) (.+)", 0, 0, NULL);
 	g_regex_match(regex, *message, 0, &match);
 	if (g_match_info_matches(match)) {
 		prefix = g_match_info_fetch(match, 1);
