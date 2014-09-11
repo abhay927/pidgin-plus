@@ -188,11 +188,10 @@ void irc_msg_default(struct irc_conn *irc, const char *name, const char *from, c
 
 	/* We then print "numeric: remainder". */
 	clean = purple_utf8_salvage(end);
-	tmp = g_strdup_printf("%.3s: %s", numeric, clean);
+	tmp = g_strdup_printf(_("Unrecognized numeric %.3s: %s"), numeric, clean);
 	g_free(clean);
 	purple_conversation_write(convo, "", tmp,
-				  PURPLE_MESSAGE_SYSTEM|PURPLE_MESSAGE_NO_LOG
-				  |PURPLE_MESSAGE_RAW|PURPLE_MESSAGE_NO_LINKIFY,
+				  PURPLE_MESSAGE_SYSTEM|PURPLE_MESSAGE_NO_LOG|PURPLE_MESSAGE_NO_LINKIFY,
 				  time(NULL));
 	g_free(tmp);
 	return;
