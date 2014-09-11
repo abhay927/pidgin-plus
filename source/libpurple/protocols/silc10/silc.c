@@ -399,7 +399,7 @@ silcpurple_close(PurpleConnection *gc)
 	}
 
 	if(!ui_name || !ui_website) {
-		ui_name = "Pidgin";
+		ui_name = APPLICATION_NAME;
 		ui_website = PURPLE_WEBSITE;
 	}
 	quit_msg = g_strdup_printf(_("Download %s: %s"),
@@ -1576,7 +1576,7 @@ static PurpleCmdRet silcpurple_cmd_quit(PurpleConversation *conv,
 	}
 
 	if(!ui_name || !ui_website) {
-		ui_name = "Pidgin";
+		ui_name = APPLICATION_NAME;
 		ui_website = PURPLE_WEBSITE;
 	}
 	quit_msg = g_strdup_printf(_("Download %s: %s"),

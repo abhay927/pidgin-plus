@@ -434,7 +434,7 @@ void winpidgin_post_init(void) {
 
 	/* Automated application update */
 	if (purple_prefs_get_bool("/purple/network/app_updates")) {
-		win_sparkle_set_appcast_url("http://pidgin.renatosilva.me/update.xml");
+		win_sparkle_set_appcast_url(APPLICATION_WEBSITE "/update.xml");
 		win_sparkle_init();
 	}
 

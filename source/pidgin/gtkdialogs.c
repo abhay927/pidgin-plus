@@ -505,10 +505,14 @@ void pidgin_dialogs_about(void)
 
 	g_string_append_printf(str,
 		_("Welcome to %s, a modified version of Pidgin.<br>"
-		  "\t<b>Website:</b> <a href=\"http://pidgin.renatosilva.me\">http://pidgin.renatosilva.me</a><br>"
-		  "\t<b>Development:</b> <a href=\"http://launchpad.net/pidgin++\">http://launchpad.net/pidgin++</a><br>"
-		  "\t<b>Translations:</b> <a href=\"https://translations.launchpad.net/pidgin++\">https://translations.launchpad.net/pidgin++</a><br>"
-		  "\t<b>Support:</b> <a href=\"https://answers.launchpad.net/pidgin++\">https://answers.launchpad.net/pidgin++</a><br><br>"), APPLICATION_NAME);
+		  "\t<b>Website:</b> <a href=\"%s\">%s</a><br>"
+		  "\t<b>Development:</b> <a href=\"%s\">%s</a><br>"
+		  "\t<b>Translations:</b> <a href=\"%s\">%s</a><br>"
+		  "\t<b>Support:</b> <a href=\"%s\">%s</a><br><br>"), APPLICATION_NAME
+		  APPLICATION_WEBSITE, APPLICATION_WEBSITE,
+		  APPLICATION_WEBSITE_DEVEL, APPLICATION_WEBSITE_DEVEL,
+		  APPLICATION_WEBSITE_TRANSLATIONS, APPLICATION_WEBSITE_TRANSLATIONS,
+		  APPLICATION_WEBSITE_SUPPORT, APPLICATION_WEBSITE_SUPPORT);
 
 	g_string_append_printf(str,
 		_("%s is a messaging client based on libpurple which is capable of "

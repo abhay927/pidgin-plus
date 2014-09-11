@@ -372,8 +372,8 @@ static GHashTable *pidgin_ui_get_info(void)
 
 		g_hash_table_insert(ui_info, "name", (char*)APPLICATION_NAME);
 		g_hash_table_insert(ui_info, "version", VERSION);
-		g_hash_table_insert(ui_info, "website", "http://pidgin.renatosilva.me");
-		g_hash_table_insert(ui_info, "dev_website", "http://launchpad.net/pidgin++");
+		g_hash_table_insert(ui_info, "website", APPLICATION_WEBSITE);
+		g_hash_table_insert(ui_info, "dev_website", APPLICATION_WEBSITE_DEVEL);
 		g_hash_table_insert(ui_info, "client_type", "pc");
 
 		/*

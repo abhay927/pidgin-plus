@@ -36,7 +36,7 @@ GTK_INSTALL_VERSION = $(shell pidgin/win32/nsis/generate_gtk_zip.sh --gtk-versio
 signtool_command = $(SIGNTOOL) sign \
 				    //f "$(SIGNTOOL_PFX)" //p "$(SIGNTOOL_PASSWORD)" \
 				    //t "http://timestamp.verisign.com/scripts/timstamp.dll" \
-				    //du "http://pidgin.renatosilva.me" //d $(2) $(1)
+				    //du "$(APPLICATION_WEBSITE)" //d $(2) $(1)
 
 gpg_sign_command = @$(GPG_SIGN) -ab --batch --yes --passphrase "$(GPG_PASSWORD)" $(1) && $(GPG_SIGN) --verify $(1).asc
 
@@ -214,7 +214,9 @@ installer: generate_installer_includes
 	$(eval $@_GTK_SHA1SUM := $(shell sha1sum pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip | sed -e "s/\ .*$$//"))
 	$(MAKENSIS) -V3 -DPIDGIN_VERSION="$(APPLICATION_VERSION)" -DPIDGIN_VERSION_LOWERCASE="$($@_PIDGIN_VERSION_LOWERCASE)" -DPRODUCT_VERSION="$(PRODUCT_VERSION)" \
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
+		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
 		-DDEBUG_SYMBOLS_SHA1SUM="$($@_DEBUG_SYMBOLS_SHA1SUM)" -DGTK_SHA1SUM="$($@_GTK_SHA1SUM)"\
+
 		pidgin/win32/nsis/pidgin-installer.nsi
 	mv pidgin/win32/nsis/pidgin-$(APPLICATION_VERSION).exe ./
 	$(call authenticode_sign,pidgin-$(APPLICATION_VERSION).exe,"Pidgin Installer")
@@ -226,6 +228,7 @@ installer_offline: generate_installer_includes dictionaries_bundle
 	$(eval $@_PIDGIN_VERSION_LOWERCASE := $(shell echo $(APPLICATION_VERSION) | tr [[:upper:]] [[:lower:]]))	
 	$(MAKENSIS) -V3 -DPIDGIN_VERSION="$(APPLICATION_VERSION)" -DPIDGIN_VERSION_LOWERCASE="$($@_PIDGIN_VERSION_LOWERCASE)" -DPRODUCT_VERSION="$(PRODUCT_VERSION)" \
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
+		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
 		-DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" -DOFFLINE_INSTALLER \
 		pidgin/win32/nsis/pidgin-installer.nsi
 	mv pidgin/win32/nsis/pidgin-$(APPLICATION_VERSION)-offline.exe ./

@@ -52,7 +52,6 @@ RequestExecutionLevel highest
 ;--------------------------------
 ;Defines
 
-!define APPLICATION_NAME			"Pidgin++"
 !define PIDGIN_NSIS_INCLUDE_PATH		"."
 
 ; Remove these and the stuff that uses them at some point
@@ -122,7 +121,7 @@ ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
   ;!define MUI_FINISHPAGE_RUN			"$INSTDIR\pidgin.exe"
   ;!define MUI_FINISHPAGE_RUN_NOTCHECKED
   !define MUI_FINISHPAGE_LINK			$(PIDGINFINISHVISITWEBSITE)
-  !define MUI_FINISHPAGE_LINK_LOCATION		"http://pidgin.renatosilva.me"
+  !define MUI_FINISHPAGE_LINK_LOCATION		"${APPLICATION_WEBSITE}"
   !define MUI_FINISHPAGE_SHOWREADME
   !define MUI_FINISHPAGE_SHOWREADME_FUNCTION	"ShowChanges"
   !define MUI_FINISHPAGE_SHOWREADME_TEXT	$(PIDGINREADCHANGES)

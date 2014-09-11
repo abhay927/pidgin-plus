@@ -157,9 +157,14 @@
 #define purple_strlcpy(dest, src) g_strlcpy(dest, src, sizeof(dest))
 #define purple_strlcat(dest, src) g_strlcat(dest, src, sizeof(dest))
 
-#define APPLICATION_NAME "Pidgin++"
-#define PURPLE_WEBSITE "http://pidgin.im/"
-#define PURPLE_DEVEL_WEBSITE "http://developer.pidgin.im/"
+#define APPLICATION_NAME                  "Pidgin++"
+#define APPLICATION_WEBSITE               "http://pidgin.renatosilva.me"
+#define APPLICATION_WEBSITE_DEVEL         "https://launchpad.net/pidgin++"
+#define APPLICATION_WEBSITE_TRANSLATIONS  "https://translations.launchpad.net/pidgin++"
+#define APPLICATION_WEBSITE_SUPPORT       "https://answers.launchpad.net/pidgin++"
+
+#define PURPLE_WEBSITE                    APPLICATION_WEBSITE
+#define PURPLE_DEVEL_WEBSITE              APPLICATION_WEBSITE_DEVEL
 
 #define AUTO_RESPONSE "(auto)"
 
