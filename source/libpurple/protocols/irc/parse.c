@@ -583,7 +583,7 @@ char *irc_parse_ctcp(struct irc_conn *irc, const char *from, const char *to, con
 			g_free(buf);
 		}
 	} else if (!strncmp(cur, "VERSION", 7) && !notice) {
-		buf = irc_format(irc, "vt:", "NOTICE", from, "\001VERSION " PIDGIN_NAME "\001");
+		buf = irc_format(irc, "vt:", "NOTICE", from, "\001VERSION " APPLICATION_NAME "\001");
 		irc_send(irc, buf);
 		g_free(buf);
 	} else if (!strncmp(cur, "DCC SEND ", 9)) {

@@ -168,7 +168,7 @@ static void systray_init_icon(HWND hWnd) {
 	_nicon_data.uFlags = NIF_ICON | NIF_MESSAGE | NIF_TIP;
 	_nicon_data.uCallbackMessage = WM_TRAYMESSAGE;
 	_nicon_data.hIcon = NULL;
-	w = g_utf8_to_utf16(PIDGIN_NAME, -1, NULL, NULL, NULL);
+	w = g_utf8_to_utf16(APPLICATION_NAME, -1, NULL, NULL, NULL);
 	wcsncpy(_nicon_data.szTip, w, sizeof(_nicon_data.szTip) / sizeof(wchar_t));
 	g_free(w);
 	Shell_NotifyIconW(NIM_ADD, &_nicon_data);
@@ -568,7 +568,7 @@ static void winpidgin_tray_set_tooltip(gchar *tooltip) {
 	const char *value = tooltip;
 	wchar_t *w;
 	if (value == NULL) {
-		value = PIDGIN_NAME;
+		value = APPLICATION_NAME;
 	}
 	w = g_utf8_to_utf16(value, -1, NULL, NULL, NULL);
 	wcsncpy(_nicon_data.szTip, w, sizeof(_nicon_data.szTip) / sizeof(wchar_t));

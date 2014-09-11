@@ -5833,7 +5833,7 @@ static void pidgin_blist_show(PurpleBuddyList *list)
 					       "You have no accounts enabled. Enable your IM accounts from the "
 					       "<b>Accounts</b> window at <b>Accounts->Manage Accounts</b>. Once you "
 					       "enable accounts, you'll be able to sign on, set your status, "
-					       "and talk to your friends."), PIDGIN_NAME);
+					       "and talk to your friends."), APPLICATION_NAME);
 	pretty = pidgin_make_pretty_arrows(tmp);
 	g_free(tmp);
 	label = gtk_label_new(NULL);

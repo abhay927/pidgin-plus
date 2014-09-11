@@ -50,7 +50,7 @@
 #ifndef _WIN32
 # define PIDGIN_ALERT_TITLE ""
 #else
-# define PIDGIN_ALERT_TITLE PIDGIN_NAME
+# define PIDGIN_ALERT_TITLE APPLICATION_NAME
 #endif
 
 /*

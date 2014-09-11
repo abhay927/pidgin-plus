@@ -2231,7 +2231,7 @@ create_accounts_list(AccountsWindow *dialog)
 
 						 "You can come back to this window to add, edit, or remove "
 						 "accounts from <b>Accounts->Manage Accounts</b> in the Buddy "
-						 "List window"), PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME);
+						 "List window"), APPLICATION_NAME, APPLICATION_NAME, APPLICATION_NAME);
 	pretty = pidgin_make_pretty_arrows(tmp);
 	g_free(tmp);
 	gtk_label_set_markup(GTK_LABEL(label), pretty);

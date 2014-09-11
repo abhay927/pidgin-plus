@@ -615,8 +615,6 @@ msgstr "%s 轟了您一下！"
 msgid "%s invited you to view his/her webcam, but this is not yet supported."
 msgstr "%s 邀請您看他（她）的 webcam，但目前還沒有這個功能的支援。"
 
-# XXX 要校對一下這個 - 20100503 acli
-# NOTE 所有 %s 都是 PIDGIN_NAME，沒有檔名
 #, c-format
 msgid ""
 "%s is a messaging client based on libpurple which is capable of connecting "

@@ -370,7 +370,7 @@ static GHashTable *pidgin_ui_get_info(void)
 	if(NULL == ui_info) {
 		ui_info = g_hash_table_new(g_str_hash, g_str_equal);
 
-		g_hash_table_insert(ui_info, "name", (char*)PIDGIN_NAME);
+		g_hash_table_insert(ui_info, "name", (char*)APPLICATION_NAME);
 		g_hash_table_insert(ui_info, "version", VERSION);
 		g_hash_table_insert(ui_info, "website", "http://pidgin.renatosilva.me");
 		g_hash_table_insert(ui_info, "dev_website", "http://launchpad.net/pidgin++");
@@ -425,10 +425,10 @@ show_usage(const char *name, gboolean terse)
 	char *text;
 
 	if (terse) {
-		text = g_strdup_printf(_("%s %s. Try `%s -h' for more information.\n"), PIDGIN_NAME, DISPLAY_VERSION, name);
+		text = g_strdup_printf(_("%s %s. Try `%s -h' for more information.\n"), APPLICATION_NAME, DISPLAY_VERSION, name);
 	} else {
 		GString *str = g_string_new(NULL);
-		g_string_append_printf(str, "%s %s\n", PIDGIN_NAME, DISPLAY_VERSION);
+		g_string_append_printf(str, "%s %s\n", APPLICATION_NAME, DISPLAY_VERSION);
 		g_string_append_printf(str, _("Usage: %s [OPTION]...\n\n"), name);
 		g_string_append_printf(str, "  -c, --config=%s    %s\n",
 				_("DIR"), _("use DIR for config files"));
@@ -525,7 +525,7 @@ int main(int argc, char *argv[])
 	/* Initialize GThread before calling any Glib or GTK+ functions. */
 	g_thread_init(NULL);
 
-	g_set_prgname(PIDGIN_NAME);
+	g_set_prgname(APPLICATION_NAME);
 
 #ifdef ENABLE_NLS
 	bindtextdomain(PACKAGE, LOCALEDIR);
@@ -553,7 +553,7 @@ int main(int argc, char *argv[])
 			"and post the backtrace from the core file.  If you do not know\n"
 			"how to get the backtrace, please read the instructions at\n"
 			"%swiki/GetABacktrace\n"),
-			PIDGIN_NAME, DISPLAY_VERSION, PURPLE_DEVEL_WEBSITE, PURPLE_DEVEL_WEBSITE
+			APPLICATION_NAME, DISPLAY_VERSION, PURPLE_DEVEL_WEBSITE, PURPLE_DEVEL_WEBSITE
 		);
 
 		/* we have to convert the message (UTF-8 to console
@@ -709,7 +709,7 @@ int main(int argc, char *argv[])
 	}
 	/* show version message */
 	if (opt_version) {
-		printf("%s %s (libpurple %s)\n", PIDGIN_NAME, DISPLAY_VERSION,
+		printf("%s %s (libpurple %s)\n", APPLICATION_NAME, DISPLAY_VERSION,
 		                                 purple_core_get_version());
 #ifdef HAVE_SIGNAL_H
 		g_free(segfault_message);
@@ -747,7 +747,7 @@ int main(int argc, char *argv[])
 	if (!gui_check) {
 		char *display = gdk_get_display();
 
-		printf("%s %s\n", PIDGIN_NAME, DISPLAY_VERSION);
+		printf("%s %s\n", APPLICATION_NAME, DISPLAY_VERSION);
 
 		g_warning("cannot open display: %s", display ? display : "unset");
 		g_free(display);
@@ -758,7 +758,7 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	g_set_application_name(PIDGIN_NAME);
+	g_set_application_name(APPLICATION_NAME);
 
 #ifdef _WIN32
 	winpidgin_init(hint);
@@ -778,7 +778,7 @@ int main(int argc, char *argv[])
 		                                0,
 		                                GTK_MESSAGE_ERROR,
 		                                GTK_BUTTONS_CLOSE,
-		                                text, PIDGIN_NAME,
+		                                text, APPLICATION_NAME,
 		                                old, purple_user_dir());
 		g_free(old);
 
