@@ -64,7 +64,7 @@ CC_HARDENING_OPTIONS ?= -Wstack-protector -fwrapv -fno-strict-overflow -Wno-miss
 LD_HARDENING_OPTIONS ?= -Wl,--dynamicbase -Wl,--nxcompat
 
 
-PIDGIN_NAME := $(shell grep '\#define PIDGIN_NAME' $(PIDGIN_TOP)/pidgin.h | awk -F'"' '{ print $$2 }' )
+PIDGIN_NAME := $(shell grep '\#define PIDGIN_NAME' $(PURPLE_TOP)/internal.h | awk -F'"' '{ print $$2 }' )
 
 # parse the version number from the configure.ac file if it is newer
 #m4_define([purple_major_version], [2])

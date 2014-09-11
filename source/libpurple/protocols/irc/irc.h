@@ -42,8 +42,8 @@
 #define IRC_DEFAULT_AUTODETECT FALSE
 #define IRC_DEFAULT_ALIAS "purple"
 
-#define IRC_DEFAULT_QUIT "http://pidgin.renatosilva.me - Pidgin++"
-#define IRC_DEFAULT_PART "http://pidgin.renatosilva.me - Pidgin++"
+#define IRC_DEFAULT_QUIT "http://pidgin.renatosilva.me - " PIDGIN_NAME
+#define IRC_DEFAULT_PART "http://pidgin.renatosilva.me - " PIDGIN_NAME
 
 #define IRC_INITIAL_BUFSIZE 1024
 
