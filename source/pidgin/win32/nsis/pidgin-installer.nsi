@@ -19,9 +19,9 @@ Var WARNED_GTK_STATE
 Name $name
 
 !ifdef OFFLINE_INSTALLER
-OutFile "pidgin-${PIDGIN_VERSION}-offline.exe"
+OutFile "pidgin-${APPLICATION_VERSION}-offline.exe"
 !else
-OutFile "pidgin-${PIDGIN_VERSION}.exe"
+OutFile "pidgin-${APPLICATION_VERSION}.exe"
 !endif
 
 SetCompressor /SOLID lzma
@@ -71,7 +71,7 @@ RequestExecutionLevel highest
 !define PERL_REG_KEY				"SOFTWARE\Perl"
 !define PERL_DLL				"perl510.dll"
 
-!define DOWNLOADER_URL				"https://pidgin.im/win32/download_redir.php?version=${PIDGIN_VERSION}"
+!define DOWNLOADER_URL				"https://pidgin.im/win32/download_redir.php?version=${APPLICATION_VERSION}"
 
 !define MEMENTO_REGISTRY_ROOT			HKLM
 !define MEMENTO_REGISTRY_KEY			"${PIDGIN_UNINSTALL_KEY}"
@@ -80,8 +80,8 @@ RequestExecutionLevel highest
 ;Version resource
 VIProductVersion "${PIDGIN_PRODUCT_VERSION}"
 VIAddVersionKey "ProductName" "${APPLICATION_NAME}"
-VIAddVersionKey "FileVersion" "${PIDGIN_VERSION}"
-VIAddVersionKey "ProductVersion" "${PIDGIN_VERSION}"
+VIAddVersionKey "FileVersion" "${APPLICATION_VERSION}"
+VIAddVersionKey "ProductVersion" "${APPLICATION_VERSION}"
 VIAddVersionKey "LegalCopyright" ""
 !ifdef OFFLINE_INSTALLER
 VIAddVersionKey "FileDescription" "Pidgin Installer (Offline)"
@@ -317,10 +317,10 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKLM "${HKLM_APP_PATHS_KEY}" "" "$INSTDIR\pidgin.exe"
     WriteRegStr HKLM "${HKLM_APP_PATHS_KEY}" "Path" "$INSTDIR\Gtk\bin"
     WriteRegStr HKLM ${PIDGIN_REG_KEY} "" "$INSTDIR"
-    WriteRegStr HKLM ${PIDGIN_REG_KEY} "Version" "${PIDGIN_VERSION}"
+    WriteRegStr HKLM ${PIDGIN_REG_KEY} "Version" "${APPLICATION_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME}"
-    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${PIDGIN_VERSION}"
+    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${APPLICATION_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKLM "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
     WriteRegDWORD HKLM "${PIDGIN_UNINSTALL_KEY}" "NoRepair" 1
@@ -331,10 +331,10 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
 
   pidgin_hkcu:
     WriteRegStr HKCU ${PIDGIN_REG_KEY} "" "$INSTDIR"
-    WriteRegStr HKCU ${PIDGIN_REG_KEY} "Version" "${PIDGIN_VERSION}"
+    WriteRegStr HKCU ${PIDGIN_REG_KEY} "Version" "${APPLICATION_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME}"
-    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${PIDGIN_VERSION}"
+    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${APPLICATION_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKCU "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
     WriteRegDWORD HKCU "${PIDGIN_UNINSTALL_KEY}" "NoRepair" 1
@@ -490,7 +490,7 @@ Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
 !else
   ; We need to download the debug symbols
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${PIDGIN_VERSION_LOWERCASE}/+download/Pidgin Debug Symbols ${PIDGIN_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${PIDGIN_VERSION_LOWERCASE}/+download/Pidgin Debug Symbols ${APPLICATION_VERSION}.zip"
   DetailPrint "Downloading Debug Symbols... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
@@ -602,7 +602,7 @@ Section Uninstall
     Delete "${CHANGELOG}"
 
     ; Remove the debug symbols
-    RMDir /r "$INSTDIR\pidgin-${PIDGIN_VERSION}-dbgsym"
+    RMDir /r "$INSTDIR\pidgin-${APPLICATION_VERSION}-dbgsym"
 
     ; Remove the local GTK+ copy (if we're not just upgrading)
     ${GetParameters} $R0
@@ -983,7 +983,7 @@ Function .onInit
   IfErrors 0 +2
   Call RunCheck
 
-  StrCpy $name "Pidgin ${PIDGIN_VERSION}"
+  StrCpy $name "Pidgin ${APPLICATION_VERSION}"
 
   ;Try to copy the old Gaim installer Lang Reg. key
   ;(remove it after we're done to prevent this being done more than once)
@@ -1114,7 +1114,7 @@ FunctionEnd
 Function un.onInit
 
   Call un.RunCheck
-  StrCpy $name "Pidgin ${PIDGIN_VERSION}"
+  StrCpy $name "Pidgin ${APPLICATION_VERSION}"
 ;LogSet on
 
   ; Get stored language preference

@@ -21,12 +21,12 @@ VS_VERSION_INFO VERSIONINFO
       BEGIN
         VALUE "CompanyName", "The open source community"
         VALUE "FileDescription", "@APPLICATION_NAME@"
-        VALUE "FileVersion", "@PIDGIN_VERSION@"
+        VALUE "FileVersion", "@APPLICATION_VERSION@"
         VALUE "InternalName", "pidgin"
         VALUE "LegalCopyright", "Copyright (C) 1998-2014 The @APPLICATION_NAME@ developer community"
         VALUE "OriginalFilename", "@ORIGINAL_FILENAME@"
         VALUE "ProductName", "@APPLICATION_NAME@"
-        VALUE "ProductVersion", "@PIDGIN_VERSION@"
+        VALUE "ProductVersion", "@APPLICATION_VERSION@"
       END
     END
     BLOCK "VarFileInfo"

@@ -144,7 +144,7 @@ all: $(EXE_TARGET).exe $(PIDGIN_TARGET).dll
 	$(MAKE) -C $(PIDGIN_PLUGINS_TOP) -f $(MINGW_MAKEFILE)
 
 win32/pidgin_exe_rc.rc: win32/pidgin_exe_rc.rc.in $(PIDGIN_TREE_TOP)/VERSION
-	sed -e 's/@PIDGIN_VERSION@/$(PIDGIN_VERSION)/g' \
+	sed -e 's/@APPLICATION_VERSION@/$(APPLICATION_VERSION)/g' \
 	    -e 's/@ORIGINAL_FILENAME@/$(EXE_NAME)/' \
 	    -e 's/@APPLICATION_NAME@/$(APPLICATION_NAME)/g' \
 	    $@.in > $@
@@ -158,7 +158,7 @@ install: install_shallow all
 	$(MAKE) -C $(PIDGIN_PIXMAPS_TOP) -f $(MINGW_MAKEFILE) install
 
 win32/pidgin_dll_rc.rc: win32/pidgin_dll_rc.rc.in $(PIDGIN_TREE_TOP)/VERSION
-	sed -e 's/@PIDGIN_VERSION@/$(PIDGIN_VERSION)/g' \
+	sed -e 's/@APPLICATION_VERSION@/$(APPLICATION_VERSION)/g' \
 	    -e 's/@APPLICATION_NAME@/$(APPLICATION_NAME)/g' \
 	    $@.in > $@
 

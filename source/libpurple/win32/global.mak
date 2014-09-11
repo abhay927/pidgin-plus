@@ -71,18 +71,18 @@ APPLICATION_NAME := $(shell grep '\#define APPLICATION_NAME' $(PURPLE_TOP)/inter
 #m4_define([purple_minor_version], [0])
 #m4_define([purple_micro_version], [0])
 #m4_define([purple_version_suffix], [devel])
-PIDGIN_VERSION := $(shell \
+APPLICATION_VERSION := $(shell \
   if [ ! $(PIDGIN_TREE_TOP)/VERSION -nt $(PIDGIN_TREE_TOP)/configure.ac ]; then \
     awk 'BEGIN {FS="[\\(\\)\\[\\]]"} /^m4_define..purple_(major|minor)_version/ {printf("%s.",$$5);} /^m4_define..purple_micro_version/ {printf("%s",$$5);} /^m4_define..purple_version_suffix/ {printf("%s",$$5); exit}' \
       $(PIDGIN_TREE_TOP)/configure.ac > $(PIDGIN_TREE_TOP)/VERSION; \
   fi; \
   cat $(PIDGIN_TREE_TOP)/VERSION \
 )
-PURPLE_VERSION := $(PIDGIN_VERSION)
+PURPLE_VERSION := $(APPLICATION_VERSION)
 ifdef EXTRAVERSION
-DISPLAY_VERSION := $(PIDGIN_VERSION)-$(EXTRAVERSION)
+DISPLAY_VERSION := $(APPLICATION_VERSION)-$(EXTRAVERSION)
 else
-DISPLAY_VERSION := $(PIDGIN_VERSION)
+DISPLAY_VERSION := $(APPLICATION_VERSION)
 endif
 
 CYRUS_SASL ?= 1
