@@ -508,7 +508,7 @@ void pidgin_dialogs_about(void)
 		  "\t<b>Website:</b> <a href=\"%s\">%s</a><br>"
 		  "\t<b>Development:</b> <a href=\"%s\">%s</a><br>"
 		  "\t<b>Translations:</b> <a href=\"%s\">%s</a><br>"
-		  "\t<b>Support:</b> <a href=\"%s\">%s</a><br><br>"), APPLICATION_NAME
+		  "\t<b>Support:</b> <a href=\"%s\">%s</a><br><br>"), APPLICATION_NAME,
 		  APPLICATION_WEBSITE, APPLICATION_WEBSITE,
 		  APPLICATION_WEBSITE_DEVEL, APPLICATION_WEBSITE_DEVEL,
 		  APPLICATION_WEBSITE_TRANSLATIONS, APPLICATION_WEBSITE_TRANSLATIONS,
