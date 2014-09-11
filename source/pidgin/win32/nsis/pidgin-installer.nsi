@@ -489,7 +489,7 @@ Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
 !else
   ; We need to download the debug symbols
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${PIDGIN_VERSION_LOWERCASE}/+download/Pidgin Debug Symbols ${APPLICATION_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${APPLICATION_VERSION_LOWERCASE}/+download/Pidgin Debug Symbols ${APPLICATION_VERSION}.zip"
   DetailPrint "Downloading Debug Symbols... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
