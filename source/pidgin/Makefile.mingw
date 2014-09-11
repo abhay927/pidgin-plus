@@ -146,6 +146,7 @@ all: $(EXE_TARGET).exe $(PIDGIN_TARGET).dll
 win32/pidgin_exe_rc.rc: win32/pidgin_exe_rc.rc.in $(PIDGIN_TREE_TOP)/VERSION
 	sed -e 's/@PIDGIN_VERSION@/$(PIDGIN_VERSION)/g' \
 	    -e 's/@ORIGINAL_FILENAME@/$(EXE_NAME)/' \
+	    -e 's/@PIDGIN_NAME@/$(PIDGIN_NAME)/g' \
 	    $@.in > $@
 
 install_shallow: $(PIDGIN_INSTALL_DIR) $(EXE_TARGET).exe $(PIDGIN_TARGET).dll
@@ -158,6 +159,7 @@ install: install_shallow all
 
 win32/pidgin_dll_rc.rc: win32/pidgin_dll_rc.rc.in $(PIDGIN_TREE_TOP)/VERSION
 	sed -e 's/@PIDGIN_VERSION@/$(PIDGIN_VERSION)/g' \
+	    -e 's/@PIDGIN_NAME@/$(PIDGIN_NAME)/g' \
 	    $@.in > $@
 
 $(EXE_OBJECTS) $(PIDGIN_OBJECTS): $(PIDGIN_CONFIG_H)

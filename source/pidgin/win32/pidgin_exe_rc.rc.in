@@ -2,6 +2,7 @@
 #include <winuser.h>
 #include "resource.h"
 #include "version.h"
+#include "pidgin.h"
 
 CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "pidgin++.manifest.xml"
 
@@ -18,13 +19,13 @@ VS_VERSION_INFO VERSIONINFO
     BEGIN
       BLOCK "040904B0"
       BEGIN
-        VALUE "CompanyName", "The Pidgin++ developers"
-        VALUE "FileDescription", "Pidgin"
+        VALUE "CompanyName", "The open source community"
+        VALUE "FileDescription", "@PIDGIN_NAME@"
         VALUE "FileVersion", "@PIDGIN_VERSION@"
         VALUE "InternalName", "pidgin"
-        VALUE "LegalCopyright", "Copyright (C) 1998-2010 The Pidgin developer community (See the COPYRIGHT file in the source distribution)."
+        VALUE "LegalCopyright", "Copyright (C) 1998-2014 The @PIDGIN_NAME@ developer community"
         VALUE "OriginalFilename", "@ORIGINAL_FILENAME@"
-        VALUE "ProductName", "Pidgin++"
+        VALUE "ProductName", "@PIDGIN_NAME@"
         VALUE "ProductVersion", "@PIDGIN_VERSION@"
       END
     END

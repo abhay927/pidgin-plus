@@ -21,6 +21,7 @@
  *
  */
 #include "internal.h"
+#include "pidgin.h"
 #include <gtk/gtk.h>
 #include <gdk/gdkwin32.h>
 
@@ -194,9 +195,9 @@ winprefs_set_autostart(GtkWidget *w) {
 	if(gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(w)))
 		runval = g_strdup_printf("\"%s" G_DIR_SEPARATOR_S "pidgin.exe\"", wpurple_install_dir());
 
-	if(!wpurple_write_reg_string(HKEY_CURRENT_USER, RUNKEY, "Pidgin", runval)
+	if(!wpurple_write_reg_string(HKEY_CURRENT_USER, RUNKEY, PIDGIN_NAME, runval)
 		/* For Win98 */
-		&& !wpurple_write_reg_string(HKEY_LOCAL_MACHINE, RUNKEY, "Pidgin", runval))
+		&& !wpurple_write_reg_string(HKEY_LOCAL_MACHINE, RUNKEY, PIDGIN_NAME, runval))
 			purple_debug_error(WINPREFS_PLUGIN_ID, "Could not set registry key value\n");
 
 	g_free(runval);
@@ -281,8 +282,8 @@ static GtkWidget* get_config_frame(PurplePlugin *plugin) {
 	button = gtk_check_button_new_with_mnemonic(tmp);
 	g_free(tmp);
 	gtk_box_pack_start(GTK_BOX(vbox), button, FALSE, FALSE, 0);
-	if ((run_key_val = wpurple_read_reg_string(HKEY_CURRENT_USER, RUNKEY, "Pidgin"))
-			|| (run_key_val = wpurple_read_reg_string(HKEY_LOCAL_MACHINE, RUNKEY, "Pidgin"))) {
+	if ((run_key_val = wpurple_read_reg_string(HKEY_CURRENT_USER, RUNKEY, PIDGIN_NAME))
+			|| (run_key_val = wpurple_read_reg_string(HKEY_LOCAL_MACHINE, RUNKEY, PIDGIN_NAME))) {
 		gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(button), TRUE);
 		g_free(run_key_val);
 	}

@@ -525,7 +525,7 @@ int main(int argc, char *argv[])
 	/* Initialize GThread before calling any Glib or GTK+ functions. */
 	g_thread_init(NULL);
 
-	g_set_prgname("Pidgin");
+	g_set_prgname(PIDGIN_NAME);
 
 #ifdef ENABLE_NLS
 	bindtextdomain(PACKAGE, LOCALEDIR);

@@ -52,6 +52,7 @@ RequestExecutionLevel highest
 ;--------------------------------
 ;Defines
 
+!define PIDGIN_NAME				"Pidgin++"
 !define PIDGIN_NSIS_INCLUDE_PATH		"."
 
 ; Remove these and the stuff that uses them at some point
@@ -78,7 +79,7 @@ RequestExecutionLevel highest
 ;--------------------------------
 ;Version resource
 VIProductVersion "${PIDGIN_PRODUCT_VERSION}"
-VIAddVersionKey "ProductName" "Pidgin++"
+VIAddVersionKey "ProductName" "${PIDGIN_NAME}"
 VIAddVersionKey "FileVersion" "${PIDGIN_VERSION}"
 VIAddVersionKey "ProductVersion" "${PIDGIN_VERSION}"
 VIAddVersionKey "LegalCopyright" ""
@@ -177,7 +178,7 @@ Section -SecUninstallOldPidgin
   StrCpy $R4 ${PIDGIN_REG_KEY}
   StrCpy $R5 ${PIDGIN_UNINSTALL_KEY}
   StrCpy $R6 ${PIDGIN_UNINST_EXE}
-  StrCpy $R7 "Pidgin"
+  StrCpy $R7 ${PIDGIN_NAME}
 
   start_comparison:
   ;If pidgin is currently set to run on startup,
@@ -318,7 +319,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKLM ${PIDGIN_REG_KEY} "" "$INSTDIR"
     WriteRegStr HKLM ${PIDGIN_REG_KEY} "Version" "${PIDGIN_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
-    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "Pidgin"
+    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${PIDGIN_NAME}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${PIDGIN_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKLM "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
@@ -332,7 +333,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKCU ${PIDGIN_REG_KEY} "" "$INSTDIR"
     WriteRegStr HKCU ${PIDGIN_REG_KEY} "Version" "${PIDGIN_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
-    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "Pidgin"
+    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${PIDGIN_NAME}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${PIDGIN_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKCU "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
@@ -378,9 +379,9 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
 
     ; If we previously had pidgin set up to run on startup, make it do so again
     StrCmp $STARTUP_RUN_KEY "HKCU" +1 +2
-    WriteRegStr HKCU "${STARTUP_RUN_KEY}" "Pidgin" "$INSTDIR\pidgin.exe"
+    WriteRegStr HKCU "${STARTUP_RUN_KEY}" "${PIDGIN_NAME}" "$INSTDIR\pidgin.exe"
     StrCmp $STARTUP_RUN_KEY "HKLM" +1 +2
-    WriteRegStr HKLM "${STARTUP_RUN_KEY}" "Pidgin" "$INSTDIR\pidgin.exe"
+    WriteRegStr HKLM "${STARTUP_RUN_KEY}" "${PIDGIN_NAME}" "$INSTDIR\pidgin.exe"
 
   done:
 SectionEnd ; end of default Pidgin section
@@ -545,8 +546,8 @@ Section Uninstall
 
   cont_uninstall:
     ; The WinPrefs plugin may have left this behind..
-    DeleteRegValue HKCU "${STARTUP_RUN_KEY}" "Pidgin"
-    DeleteRegValue HKLM "${STARTUP_RUN_KEY}" "Pidgin"
+    DeleteRegValue HKCU "${STARTUP_RUN_KEY}" "${PIDGIN_NAME}"
+    DeleteRegValue HKLM "${STARTUP_RUN_KEY}" "${PIDGIN_NAME}"
     ; Remove Language preference info
     DeleteRegValue HKCU "${PIDGIN_REG_KEY}" "${MUI_LANGDLL_REGISTRY_VALUENAME}"
 

@@ -504,11 +504,11 @@ void pidgin_dialogs_about(void)
 		PIDGIN_NAME, DISPLAY_VERSION, purple_core_get_version(), REVISION);
 
 	g_string_append_printf(str,
-		_("Welcome to Pidgin++, a modified version of Pidgin.<br>"
+		_("Welcome to %s, a modified version of Pidgin.<br>"
 		  "\t<b>Website:</b> <a href=\"http://pidgin.renatosilva.me\">http://pidgin.renatosilva.me</a><br>"
 		  "\t<b>Development:</b> <a href=\"http://launchpad.net/pidgin++\">http://launchpad.net/pidgin++</a><br>"
 		  "\t<b>Translations:</b> <a href=\"https://translations.launchpad.net/pidgin++\">https://translations.launchpad.net/pidgin++</a><br>"
-		  "\t<b>Support:</b> <a href=\"https://answers.launchpad.net/pidgin++\">https://answers.launchpad.net/pidgin++</a><br><br>"));
+		  "\t<b>Support:</b> <a href=\"https://answers.launchpad.net/pidgin++\">https://answers.launchpad.net/pidgin++</a><br><br>"), PIDGIN_NAME);
 
 	g_string_append_printf(str,
 		_("%s is a messaging client based on libpurple which is capable of "

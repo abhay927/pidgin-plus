@@ -1,6 +1,7 @@
 #include <winver.h>
 #include "version.h"
 #include "resource.h"
+#include "pidgin.h"
 
 VS_VERSION_INFO VERSIONINFO
   FILEVERSION PURPLE_MAJOR_VERSION,PURPLE_MINOR_VERSION,PURPLE_MICRO_VERSION,0
@@ -15,13 +16,13 @@ VS_VERSION_INFO VERSIONINFO
     BEGIN
       BLOCK "040904B0"
       BEGIN
-        VALUE "CompanyName", "The Pidgin++ developers"
+        VALUE "CompanyName", "The open source community"
         VALUE "FileDescription", "GTK+ Pidgin Library"
         VALUE "FileVersion", "@PIDGIN_VERSION@"
         VALUE "InternalName", "libpidgin"
-        VALUE "LegalCopyright", "Copyright (C) 1998-2010 The Pidgin developer community (See the COPYRIGHT file in the source distribution)."
+        VALUE "LegalCopyright", "Copyright (C) 1998-2014 The @PIDGIN_NAME@ developer community"
         VALUE "OriginalFilename", "pidgin.dll"
-        VALUE "ProductName", "Pidgin++"
+        VALUE "ProductName", "@PIDGIN_NAME@"
         VALUE "ProductVersion", "@PIDGIN_VERSION@"
       END
     END

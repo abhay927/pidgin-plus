@@ -665,7 +665,7 @@ pidgin_request_action_with_icon(const char *title, const char *primary,
 						gdk_pixbuf_scale_simple(pixbuf, scaled_width, scaled_height,
 						    GDK_INTERP_BILINEAR);
 
-				purple_debug_info("pidgin",
+				purple_debug_info("gtkrequest",
 				    "dialog icon was too large, scaled it down\n");
 				if (scaled) {
 					g_object_unref(pixbuf);
@@ -675,7 +675,7 @@ pidgin_request_action_with_icon(const char *title, const char *primary,
 			img = gtk_image_new_from_pixbuf(pixbuf);
 			g_object_unref(pixbuf);
 		} else {
-			purple_debug_info("pidgin", "failed to parse dialog icon\n");
+			purple_debug_info("gtkrequest", "failed to parse dialog icon\n");
 		}
 	}
 
