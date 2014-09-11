@@ -433,7 +433,7 @@ pidgin_logo_versionize(GdkPixbuf **original, GtkWidget *widget) {
 
 /* Note: Frees 'string' */
 static GtkWidget *
-pidgin_build_help_dialog(const char *title, const char *role, GString *string)
+pidgin_build_help_dialog(const char *title, const char *role, GString *string, gint width, gint height)
 {
 	GtkWidget *win, *vbox, *frame, *logo, *imhtml, *button;
 	GdkPixbuf *pixbuf;
@@ -443,7 +443,7 @@ pidgin_build_help_dialog(const char *title, const char *role, GString *string)
 
 	win = pidgin_create_dialog(title, PIDGIN_HIG_BORDER, role, TRUE);
 	vbox = pidgin_dialog_get_vbox_with_properties(GTK_DIALOG(win), FALSE, PIDGIN_HIG_BORDER);
-	gtk_window_set_default_size(GTK_WINDOW(win), 450, 450);
+	gtk_window_set_default_size(GTK_WINDOW(win), width? width : 600, height? height : 600);
 
 	/* Generate a logo with a version number */
 	filename = g_build_filename(DATADIR, "pixmaps", "pidgin", "logo.png", NULL);
@@ -500,10 +500,15 @@ void pidgin_dialogs_about(void)
 	str = g_string_sized_new(4096);
 
 	g_string_append_printf(str,
-		_("<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package "
-		"revision %s</i><br><br><font color='red'>Modified version with no "
-		"support from the official team.</font><br><br>"), PIDGIN_NAME,
-		DISPLAY_VERSION, purple_core_get_version(), REVISION);
+		_("<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision %s</i><br><br>"),
+		PIDGIN_NAME, DISPLAY_VERSION, purple_core_get_version(), REVISION);
+
+	g_string_append_printf(str,
+		_("Welcome to Pidgin++, a modified version of Pidgin.<br>"
+		  "\t<b>Website:</b> <a href=\"http://pidgin.renatosilva.me\">http://pidgin.renatosilva.me</a><br>"
+		  "\t<b>Development:</b> <a href=\"http://launchpad.net/pidgin++\">http://launchpad.net/pidgin++</a><br>"
+		  "\t<b>Translations:</b> <a href=\"https://translations.launchpad.net/pidgin++\">https://translations.launchpad.net/pidgin++</a><br>"
+		  "\t<b>Support:</b> <a href=\"https://answers.launchpad.net/pidgin++\">https://answers.launchpad.net/pidgin++</a><br><br>"));
 
 	g_string_append_printf(str,
 		_("%s is a messaging client based on libpurple which is capable of "
@@ -512,11 +517,11 @@ void pidgin_dialogs_about(void)
 		  "redistributed,  under the terms of the GPL version 2 (or later).  "
 		  "A copy of the GPL is distributed with %s.  %s is copyrighted by "
 		  "its contributors, a list of whom is also distributed with %s.  "
-		  "There is no warranty for %s.<BR><BR>"), PIDGIN_NAME, PIDGIN_NAME,
+		  "There is no warranty for %s."), PIDGIN_NAME, PIDGIN_NAME,
 		PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME, PIDGIN_NAME);
 
 	tmp = g_strdup_printf(_("About %s"), PIDGIN_NAME);
-	about = pidgin_build_help_dialog(tmp, "about", str);
+	about = pidgin_build_help_dialog(tmp, "about", str, 0, 550);
 	g_signal_connect(G_OBJECT(about), "destroy", G_CALLBACK(gtk_widget_destroyed), &about);
 	g_free(tmp);
 }
@@ -707,7 +712,7 @@ if (purple_plugins_find_with_id("core-tcl") != NULL) {
 	/* End of not to be translated section */
 
 	tmp = g_strdup_printf(_("%s Build Information"), PIDGIN_NAME);
-	buildinfo = pidgin_build_help_dialog(tmp, "buildinfo", str);
+	buildinfo = pidgin_build_help_dialog(tmp, "buildinfo", str, 0, 710);
 	g_signal_connect(G_OBJECT(buildinfo), "destroy", G_CALLBACK(gtk_widget_destroyed), &buildinfo);
 	g_free(tmp);
 }
@@ -749,7 +754,7 @@ void pidgin_dialogs_developers(void)
 	add_developers(str, retired_patch_writers);
 
 	tmp = g_strdup_printf(_("%s Developer Information"), PIDGIN_NAME);
-	developer_info = pidgin_build_help_dialog(tmp, "developer_info", str);
+	developer_info = pidgin_build_help_dialog(tmp, "developer_info", str, 0, 0);
 	g_signal_connect(G_OBJECT(developer_info), "destroy", G_CALLBACK(gtk_widget_destroyed), &developer_info);
 	g_free(tmp);
 }
@@ -779,7 +784,7 @@ void pidgin_dialogs_translators(void)
 	add_translators(str, past_translators);
 
 	tmp = g_strdup_printf(_("%s Translator Information"), PIDGIN_NAME);
-	translator_info = pidgin_build_help_dialog(tmp, "translator_info", str);
+	translator_info = pidgin_build_help_dialog(tmp, "translator_info", str, 0, 0);
 	g_signal_connect(G_OBJECT(translator_info), "destroy", G_CALLBACK(gtk_widget_destroyed), &translator_info);
 	g_free(tmp);
 }
@@ -822,7 +827,7 @@ void pidgin_dialogs_plugins_info(void)
 				ploaded ? "Yes" : "No");
 	}
 
-	plugins_info = pidgin_build_help_dialog(title, "plugins_info", str);
+	plugins_info = pidgin_build_help_dialog(title, "plugins_info", str, 0, 0);
 	g_signal_connect(G_OBJECT(plugins_info), "destroy",
 			G_CALLBACK(gtk_widget_destroyed), &plugins_info);
 	g_free(title);

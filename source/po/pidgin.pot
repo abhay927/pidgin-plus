@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-06 16:27-0300\n"
+"POT-Creation-Date: 2014-09-10 20:07-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -526,7 +526,7 @@ msgid ""
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
 "copyrighted by its contributors, a list of whom is also distributed with "
-"%s.  There is no warranty for %s.<BR><BR>"
+"%s.  There is no warranty for %s."
 msgstr ""
 
 #, c-format
@@ -1363,8 +1363,7 @@ msgstr ""
 #, c-format
 msgid ""
 "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision %s</"
-"i><br><br><font color='red'>Modified version with no support from the "
-"official team.</font><br><br>"
+"i><br><br>"
 msgstr ""
 
 #, c-format
@@ -12326,6 +12325,17 @@ msgid "Website: %s"
 msgstr ""
 
 msgid "Welcome back!"
+msgstr ""
+
+#, c-format
+msgid ""
+"Welcome to Pidgin++, a modified version of Pidgin.<br>\t<b>Website:</b> <a "
+"href=\"http://pidgin.renatosilva.me\">http://pidgin.renatosilva.me</a><br>"
+"\t<b>Development:</b> <a href=\"http://launchpad.net/pidgin++\">http://"
+"launchpad.net/pidgin++</a><br>\t<b>Translations:</b> <a href=\"https://"
+"translations.launchpad.net/pidgin++\">https://translations.launchpad.net/"
+"pidgin++</a><br>\t<b>Support:</b> <a href=\"https://answers.launchpad.net/"
+"pidgin++\">https://answers.launchpad.net/pidgin++</a><br><br>"
 msgstr ""
 
 msgid "Went away"
