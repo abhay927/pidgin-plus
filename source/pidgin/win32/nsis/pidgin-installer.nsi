@@ -78,7 +78,7 @@ RequestExecutionLevel highest
 
 ;--------------------------------
 ;Version resource
-VIProductVersion "${PIDGIN_PRODUCT_VERSION}"
+VIProductVersion "${PRODUCT_VERSION}"
 VIAddVersionKey "ProductName" "${APPLICATION_NAME}"
 VIAddVersionKey "FileVersion" "${APPLICATION_VERSION}"
 VIAddVersionKey "ProductVersion" "${APPLICATION_VERSION}"

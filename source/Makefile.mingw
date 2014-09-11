@@ -10,7 +10,7 @@ include $(PIDGIN_TREE_TOP)/libpurple/win32/global.mak
 
 # Generate a X.X.X.X version for the installer file versioning header
 # The last digit will be 99 for a final release, 0 for dev or unknown, or the beta number
-PIDGIN_PRODUCT_VERSION = $(shell \
+PRODUCT_VERSION = $(shell \
 awk 'BEGIN {FS="."} { \
     if (int($$3) == $$3) { \
         $$4 = "99"; \
@@ -212,7 +212,7 @@ installer: generate_installer_includes
 	$(eval $@_PIDGIN_VERSION_LOWERCASE := $(shell echo $(APPLICATION_VERSION) | tr [[:upper:]] [[:lower:]]))
 	$(eval $@_DEBUG_SYMBOLS_SHA1SUM := $(shell sha1sum $(DEBUG_SYMBOLS_DIR).zip | sed -e "s/\ .*$$//"))
 	$(eval $@_GTK_SHA1SUM := $(shell sha1sum pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip | sed -e "s/\ .*$$//"))
-	$(MAKENSIS) -V3 -DPIDGIN_VERSION="$(APPLICATION_VERSION)" -DPIDGIN_VERSION_LOWERCASE="$($@_PIDGIN_VERSION_LOWERCASE)" -DPIDGIN_PRODUCT_VERSION="$(PIDGIN_PRODUCT_VERSION)" \
+	$(MAKENSIS) -V3 -DPIDGIN_VERSION="$(APPLICATION_VERSION)" -DPIDGIN_VERSION_LOWERCASE="$($@_PIDGIN_VERSION_LOWERCASE)" -DPRODUCT_VERSION="$(PRODUCT_VERSION)" \
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DDEBUG_SYMBOLS_SHA1SUM="$($@_DEBUG_SYMBOLS_SHA1SUM)" -DGTK_SHA1SUM="$($@_GTK_SHA1SUM)"\
 		pidgin/win32/nsis/pidgin-installer.nsi
@@ -224,7 +224,7 @@ installer_offline: generate_installer_includes dictionaries_bundle
 	@./colored.sh info "Building the offline installer"
 	$(eval $@_DEBUG_SYMBOLS_DIR := $(shell echo $(DEBUG_SYMBOLS_DIR) | tr / \\\\))
 	$(eval $@_PIDGIN_VERSION_LOWERCASE := $(shell echo $(APPLICATION_VERSION) | tr [[:upper:]] [[:lower:]]))	
-	$(MAKENSIS) -V3 -DPIDGIN_VERSION="$(APPLICATION_VERSION)" -DPIDGIN_VERSION_LOWERCASE="$($@_PIDGIN_VERSION_LOWERCASE)" -DPIDGIN_PRODUCT_VERSION="$(PIDGIN_PRODUCT_VERSION)" \
+	$(MAKENSIS) -V3 -DPIDGIN_VERSION="$(APPLICATION_VERSION)" -DPIDGIN_VERSION_LOWERCASE="$($@_PIDGIN_VERSION_LOWERCASE)" -DPRODUCT_VERSION="$(PRODUCT_VERSION)" \
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" -DOFFLINE_INSTALLER \
 		pidgin/win32/nsis/pidgin-installer.nsi
