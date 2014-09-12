@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-06 16:27-0300\n"
+"POT-Creation-Date: 2014-09-11 12:56-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Hebrew "
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-07 07:19+0000\n"
+"X-Launchpad-Export-Date: 2014-09-12 07:16+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Hebrew\n"
 
@@ -591,13 +591,8 @@ msgid ""
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
 "copyrighted by its contributors, a list of whom is also distributed with %s. "
-" There is no warranty for %s.<BR><BR>"
+" There is no warranty for %s."
 msgstr ""
-"%s הינה תוכנת הודעות המבוססת על libpurple ומסוגלת להתחבר למספר שירותי הודעות "
-"בו-זמנית.  %s נכתבה בשפת C ובעזרת GTK+.  %s יצאה לאור, וניתן לערוך ולהפיץ "
-"אותה, תחת תנאי הרשיון GPL גרסה 2 (והלאה).  יש העתק של הרישיון GPL המופץ עם "
-"%s.  %s מוגנת תחת זכויות יוצריה, אשר רשימתם גם היא מופצת עם %s.  אין אחריות "
-"עבור %s.&lt;BR&gt;&lt;BR&gt;"
 
 #, c-format
 msgid "%s is no longer away."
@@ -1455,8 +1450,7 @@ msgstr ""
 #, c-format
 msgid ""
 "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
-"%s</i><br><br><font color='red'>Modified version with no support from the "
-"official team.</font><br><br>"
+"%s</i><br><br>"
 msgstr ""
 
 #, c-format
@@ -4431,15 +4425,14 @@ msgstr "שגיאה בשינוי המידע של החשבון"
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
 "Error Downloading the GTK+ Runtime from the URL below. This is required for "
-"Pidgin to function. If retrying fails, you may need to use the offline "
-"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"the application to function. If retrying fails, you may need to use the "
+"offline installer.$\\r$\\r$R2"
 msgstr ""
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
 "Error Installing Debug Symbols from the URL below. If retrying fails, you "
-"may need to use the offline installer from "
-"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"may need to use the offline installer.$\\r$\\r$R2"
 msgstr ""
 
 msgid "Error Messages"
@@ -8057,11 +8050,6 @@ msgstr "טלפון"
 
 msgid "Photo"
 msgstr "תצלום"
-
-#. Translators may want to transliterate the name.
-#. It is not to be translated.
-msgid "Pidgin"
-msgstr "פידג'ין"
 
 msgid "Pidgin Buddylist Theme Editor"
 msgstr "עורך המוטיבים של רשימת החברים בפידג'ין"
@@ -12243,6 +12231,10 @@ msgstr "פרוק תוספים"
 msgid "Unread Messages"
 msgstr "הודעות שלא נקראו"
 
+#, c-format
+msgid "Unrecognized numeric %.3s: %s"
+msgstr ""
+
 msgid "Unregister"
 msgstr "הסר רישום"
 
@@ -12729,6 +12721,14 @@ msgstr ""
 
 msgid "Welcome back!"
 msgstr "ברוך שובך!"
+
+#, c-format
+msgid ""
+"Welcome to %s, a modified version of Pidgin.<br>\t<b>Website:</b> <a "
+"href=\"%s\">%s</a><br>\t<b>Development:</b> <a href=\"%s\">%s</a><br>\t"
+"<b>Translations:</b> <a href=\"%s\">%s</a><br>\t<b>Support:</b> <a "
+"href=\"%s\">%s</a><br><br>"
+msgstr ""
 
 msgid "Went away"
 msgstr "נעשה מרוחק"

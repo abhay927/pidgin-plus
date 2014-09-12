@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-06 16:27-0300\n"
+"POT-Creation-Date: 2014-09-11 12:56-0300\n"
 "PO-Revision-Date: 2014-08-31 02:36+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Norwegian Nynorsk "
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-07 07:28+0000\n"
+"X-Launchpad-Export-Date: 2014-09-12 07:24+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Norwegian Nynorsk\n"
 
@@ -606,14 +606,8 @@ msgid ""
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
 "copyrighted by its contributors, a list of whom is also distributed with %s. "
-" There is no warranty for %s.<BR><BR>"
+" There is no warranty for %s."
 msgstr ""
-"%s er ein meldingsklient basert på libpurple. Han er i stand til å kopla seg "
-"opp mot fleire meldingstenester samstundes. %s er skriven i C ved å nytta "
-"GTK+. %s er gjeven ut og kan endrast og vidareformidlast i samsvar med "
-"vilkåra i GPL (utgåve 2 eller seinare). Ein kopi av GPL-avtalen kjem saman "
-"med %s. Opphavsretten til %s ligg hos bidragsytarane. %s har ei fullstendig "
-"liste over desse. %s kjem utan noka som helst form for garanti.<BR><BR>"
 
 #, c-format
 msgid "%s is no longer away."
@@ -1484,8 +1478,7 @@ msgstr ""
 #, c-format
 msgid ""
 "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
-"%s</i><br><br><font color='red'>Modified version with no support from the "
-"official team.</font><br><br>"
+"%s</i><br><br>"
 msgstr ""
 
 #, c-format
@@ -4491,15 +4484,14 @@ msgstr "Feil ved endring av kontoinformasjon"
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
 "Error Downloading the GTK+ Runtime from the URL below. This is required for "
-"Pidgin to function. If retrying fails, you may need to use the offline "
-"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"the application to function. If retrying fails, you may need to use the "
+"offline installer.$\\r$\\r$R2"
 msgstr ""
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
 "Error Installing Debug Symbols from the URL below. If retrying fails, you "
-"may need to use the offline installer from "
-"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"may need to use the offline installer.$\\r$\\r$R2"
 msgstr ""
 
 msgid "Error Messages"
@@ -8144,11 +8136,6 @@ msgstr "Telefon"
 
 msgid "Photo"
 msgstr "Bilete"
-
-#. Translators may want to transliterate the name.
-#. It is not to be translated.
-msgid "Pidgin"
-msgstr "Pidgin"
 
 msgid "Pidgin Buddylist Theme Editor"
 msgstr "Pidgin vennelistedraktbehandlar"
@@ -12426,6 +12413,10 @@ msgstr "Last ut programtillegg"
 msgid "Unread Messages"
 msgstr "Ulesne meldingar"
 
+#, c-format
+msgid "Unrecognized numeric %.3s: %s"
+msgstr ""
+
 msgid "Unregister"
 msgstr "Avregistrer"
 
@@ -12915,6 +12906,14 @@ msgstr ""
 
 msgid "Welcome back!"
 msgstr "Velkomen tilbake."
+
+#, c-format
+msgid ""
+"Welcome to %s, a modified version of Pidgin.<br>\t<b>Website:</b> <a "
+"href=\"%s\">%s</a><br>\t<b>Development:</b> <a href=\"%s\">%s</a><br>\t"
+"<b>Translations:</b> <a href=\"%s\">%s</a><br>\t<b>Support:</b> <a "
+"href=\"%s\">%s</a><br><br>"
+msgstr ""
 
 msgid "Went away"
 msgstr "Gjekk vekk"

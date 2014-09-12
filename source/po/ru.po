@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-06 16:27-0300\n"
+"POT-Creation-Date: 2014-09-11 12:56-0300\n"
 "PO-Revision-Date: 2014-08-31 02:51+0000\n"
 "Last-Translator: Tony Sam <samant.ua@mail.ru>\n"
 "Language-Team: \n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-07 07:33+0000\n"
+"X-Launchpad-Export-Date: 2014-09-12 07:29+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Russian\n"
 
@@ -616,14 +616,8 @@ msgid ""
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
 "copyrighted by its contributors, a list of whom is also distributed with %s. "
-" There is no warranty for %s.<BR><BR>"
+" There is no warranty for %s."
 msgstr ""
-"%s - клиент обмена сообщениями, основанный на библиотеке libpurple, которая "
-"позволяет одновременно подключаться по нескольким службам. %s написан на С с "
-"использованием GTK+. %s выпущен, и может быть изменён или перераспределён, "
-"по условиям GPL версии 2 (или поздней).  Копия GPL распространяется вместе с "
-"%s. Права на %s защищены его участниками, список которых также "
-"распространяется с %s.  Гарантия на %s не предоставляется. <BR><BR>"
 
 #, c-format
 msgid "%s is no longer away."
@@ -1496,8 +1490,7 @@ msgstr ""
 #, c-format
 msgid ""
 "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
-"%s</i><br><br><font color='red'>Modified version with no support from the "
-"official team.</font><br><br>"
+"%s</i><br><br>"
 msgstr ""
 
 #, c-format
@@ -4513,15 +4506,14 @@ msgstr "Ошибка изменения информации об учётной
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
 "Error Downloading the GTK+ Runtime from the URL below. This is required for "
-"Pidgin to function. If retrying fails, you may need to use the offline "
-"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"the application to function. If retrying fails, you may need to use the "
+"offline installer.$\\r$\\r$R2"
 msgstr ""
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
 "Error Installing Debug Symbols from the URL below. If retrying fails, you "
-"may need to use the offline installer from "
-"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"may need to use the offline installer.$\\r$\\r$R2"
 msgstr ""
 
 msgid "Error Messages"
@@ -8178,11 +8170,6 @@ msgstr "Телефон"
 
 msgid "Photo"
 msgstr "Фотография"
-
-#. Translators may want to transliterate the name.
-#. It is not to be translated.
-msgid "Pidgin"
-msgstr "Pidgin"
 
 msgid "Pidgin Buddylist Theme Editor"
 msgstr "Редактор тем списка собеседников Pidgin"
@@ -12519,6 +12506,10 @@ msgstr "Выгрузить модули"
 msgid "Unread Messages"
 msgstr "Непрочитанные сообщения"
 
+#, c-format
+msgid "Unrecognized numeric %.3s: %s"
+msgstr ""
+
 msgid "Unregister"
 msgstr "Отменить регистрацию"
 
@@ -13009,6 +13000,14 @@ msgstr ""
 
 msgid "Welcome back!"
 msgstr "Добро пожаловать назад!"
+
+#, c-format
+msgid ""
+"Welcome to %s, a modified version of Pidgin.<br>\t<b>Website:</b> <a "
+"href=\"%s\">%s</a><br>\t<b>Development:</b> <a href=\"%s\">%s</a><br>\t"
+"<b>Translations:</b> <a href=\"%s\">%s</a><br>\t<b>Support:</b> <a "
+"href=\"%s\">%s</a><br><br>"
+msgstr ""
 
 msgid "Went away"
 msgstr "Отошёл"
