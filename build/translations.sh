@@ -14,7 +14,7 @@
 ##         --from=BRANCH  Alternative branch to merge with.
 ##
 
-eval "$(from="$0" easyoptions.rb "$@" || echo exit 1)"
+source easyoptions || exit
 source="$(dirname "$0")/../source"
 
 if [[ -n "$merge" ]]; then

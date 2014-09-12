@@ -54,7 +54,7 @@
 ##
 
 # Parse options
-eval "$(from="$0" easyoptions.rb "$@"; echo result=$?)"
+source easyoptions; result=$?
 [[ ! -d "${arguments[0]}" && $result  = 0 ]] && echo "No valid development root specified, see --help."
 [[ ! -d "${arguments[0]}" || $result != 0 ]] && exit
 

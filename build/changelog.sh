@@ -24,7 +24,7 @@
 ##                                 including the epoch component.
 ##
 
-eval "$(from="$0" easyoptions.rb "$@" || echo exit 1)"
+source easyoptions || exit
 base_dir=$(readlink -e "$(dirname "$0")/..")
 source_dir="$base_dir/source"
 build_dir="$base_dir/build"
