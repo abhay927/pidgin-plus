@@ -258,7 +258,7 @@ if [[ -n "$source" ]]; then
     fi
     build source_code_zip BAZAAR_BRANCH="$base_dir"
     for asc in "" ${sign:+.asc}; do
-        mv -v pidgin-*-source.zip$asc "$target/Pidgin $version Source.zip$asc"
+        mv -v pidgin++_*_source.zip$asc "$target/Pidgin++ $version Source.zip$asc"
     done
 fi
 
@@ -271,7 +271,7 @@ build "installer${offline:+s}"
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin++_*_offline.exe$asc "$target/Pidgin++ $version Offline Setup.exe$asc"
     mv -v pidgin++_*.exe$asc "$target/Pidgin++ $version Setup.exe$asc"
-    mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin Debug Symbols $version.zip$asc"
+    mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin++ Debug Symbols $version.zip$asc"
 done
 build uninstall
 step "Build finished."

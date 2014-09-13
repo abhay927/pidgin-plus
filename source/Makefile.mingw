@@ -255,8 +255,8 @@ installers: installer installer_offline debug_symbols_zip installer_zip
 
 source_code_zip:
 	@./colored.sh pace "Building the source code bundle"
-	bzr export --uncommitted --directory $(BAZAAR_BRANCH) --root pidgin-$(APPLICATION_VERSION) pidgin-$(APPLICATION_VERSION)-source.zip
-	$(call gpg_sign, pidgin-$(APPLICATION_VERSION)-source.zip,line)
+	bzr export --uncommitted --directory $(BAZAAR_BRANCH) --root pidgin++_$(APPLICATION_VERSION) pidgin++_$(APPLICATION_VERSION)_source.zip
+	$(call gpg_sign, pidgin++_$(APPLICATION_VERSION)_source.zip,line)
 
 Doxyfile.mingw: Doxyfile.in
 	sed -e "s/@PACKAGE@/pidgin/" -e "s/@VERSION@/$(APPLICATION_VERSION)/" -e "s/@top_srcdir@/$(PIDGIN_TREE_TOP)/g" -e "s/@enable_dot@/NO/" $< > $@
