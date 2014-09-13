@@ -14,7 +14,7 @@ VS_VERSION_INFO VERSIONINFO
     BEGIN
       BLOCK "040904B0"
       BEGIN
-        VALUE "CompanyName", "The open source community"
+        VALUE "CompanyName", "The Open Source Community"
         VALUE "FileDescription", "LibPurple Library"
         VALUE "FileVersion", "@PURPLE_VERSION@"
         VALUE "InternalName", "libpurple"

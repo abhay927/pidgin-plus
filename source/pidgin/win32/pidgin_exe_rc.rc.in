@@ -19,7 +19,7 @@ VS_VERSION_INFO VERSIONINFO
     BEGIN
       BLOCK "040904B0"
       BEGIN
-        VALUE "CompanyName", "The open source community"
+        VALUE "CompanyName", "The Open Source Community"
         VALUE "FileDescription", "@APPLICATION_NAME@"
         VALUE "FileVersion", "@APPLICATION_VERSION@"
         VALUE "InternalName", "pidgin"
