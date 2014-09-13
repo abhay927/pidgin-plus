@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-06 16:27-0300\n"
+"POT-Creation-Date: 2014-09-11 12:56-0300\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-07 07:22+0000\n"
+"X-Launchpad-Export-Date: 2014-09-12 07:19+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Kannada\n"
 
@@ -610,15 +610,8 @@ msgid ""
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
 "copyrighted by its contributors, a list of whom is also distributed with %s. "
-" There is no warranty for %s.<BR><BR>"
+" There is no warranty for %s."
 msgstr ""
-"%s ಎನ್ನುವುದು ಒಂದು libpurple ಆಧರಿತವಾದಂತಹ ಅನೇಕ ಸಂದೇಶ ಸೇವೆಗಳೊಂದಿಗೆ ಒಮ್ಮೆಲೆ "
-"ಸಂಪರ್ಕಸಾಧಿಸಲು ಸಮರ್ಥವಾದ ತಂತ್ರಾಂಶವಾಗಿದೆ. %s ಅನ್ನು GTK+ ನಲ್ಲಿ ಬರೆಯಲಾಗಿದೆ. %s "
-"ಅನ್ನು ಬಿಡುಗಡೆಗೊಳಿಸಲಾಗಿದೆ ಹಾಗು ಅದನ್ನು ನೀವು GPL ಆವೃತ್ತಿ 2 ರ (ಅಥವ ನಂತರದ) ನಿಯಮಗಳ "
-"ಅಡಿಯಲ್ಲಿ ಮಾರ್ಪಡಿಸಬಹುದಾಗಿದೆ ಹಾಗು ಮರಳಿ ಹಂಚಬಹುದಾಗಿರುತ್ತದೆ.  %s ನೊಂದಿಗೆ GPL ನ "
-"ಒಂದು ಪ್ರತಿಯನ್ನು ಒದಗಿಸಲಾಗಿರುತ್ತದೆ.  %s ನ ಹಕ್ಕುಗಳು ಇದಕ್ಕೆ ದೇಣಿಗೆ(ನೆರವು) "
-"ನೀಡಿದವರದ್ದಾಗಿರುತ್ತದೆ.  ದೇಣಿಗೆ ನೀಡಿದವರ ಒಂದು ಸಂಪೂರ್ಣ ಪಟ್ಟಿಯನ್ನು %s ನೊಂದಿಗೆ "
-"ನೀಡಲಾಗಿದೆ.  %s ಯಾವುದೆ ರೀತಿಯ ವಾರಂಟಿ ಇರುವುದಿಲ್ಲ.<BR><BR>"
 
 #, c-format
 msgid "%s is no longer away."
@@ -1511,8 +1504,7 @@ msgstr ""
 #, c-format
 msgid ""
 "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
-"%s</i><br><br><font color='red'>Modified version with no support from the "
-"official team.</font><br><br>"
+"%s</i><br><br>"
 msgstr ""
 
 #, c-format
@@ -4551,15 +4543,14 @@ msgstr "ಖಾತೆಮಾಹಿತಿ ಬದಲಿಸುವಲ್ಲಿ ದೋ�
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
 "Error Downloading the GTK+ Runtime from the URL below. This is required for "
-"Pidgin to function. If retrying fails, you may need to use the offline "
-"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"the application to function. If retrying fails, you may need to use the "
+"offline installer.$\\r$\\r$R2"
 msgstr ""
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
 "Error Installing Debug Symbols from the URL below. If retrying fails, you "
-"may need to use the offline installer from "
-"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"may need to use the offline installer.$\\r$\\r$R2"
 msgstr ""
 
 msgid "Error Messages"
@@ -8226,11 +8217,6 @@ msgstr "ದೂರವಾಣಿ ಸಂಖ್ಯೆ"
 
 msgid "Photo"
 msgstr "ಭಾವಚಿತ್ರ"
-
-#. Translators may want to transliterate the name.
-#. It is not to be translated.
-msgid "Pidgin"
-msgstr "ಪಿಜಿನ್"
 
 msgid "Pidgin Buddylist Theme Editor"
 msgstr "ಪಿಜಿನ್ ಸ್ನೇಹಿತರ ಪಟ್ಟಿ ಪರಿಸರವಿನ್ಯಾಸ(ತೀಮ್) ಸಂಪಾದಕ"
@@ -12584,6 +12570,10 @@ msgstr "ಪ್ಲಗ್ಗಿನ್‍ಗಳನ್ನು  ತೆಗೆದುಹ�
 msgid "Unread Messages"
 msgstr "ಓದಿರದ ಸಂದೇಶಗಳು"
 
+#, c-format
+msgid "Unrecognized numeric %.3s: %s"
+msgstr ""
+
 msgid "Unregister"
 msgstr "ನೋಂದಣಿ ತೆಗೆದು ಹಾಕಿ"
 
@@ -13074,6 +13064,14 @@ msgstr ""
 
 msgid "Welcome back!"
 msgstr "ಮರಳಿ ಸ್ವಾಗತ!"
+
+#, c-format
+msgid ""
+"Welcome to %s, a modified version of Pidgin.<br>\t<b>Website:</b> <a "
+"href=\"%s\">%s</a><br>\t<b>Development:</b> <a href=\"%s\">%s</a><br>\t"
+"<b>Translations:</b> <a href=\"%s\">%s</a><br>\t<b>Support:</b> <a "
+"href=\"%s\">%s</a><br><br>"
+msgstr ""
 
 msgid "Went away"
 msgstr "ಆಚೆ ಹೋದರು"

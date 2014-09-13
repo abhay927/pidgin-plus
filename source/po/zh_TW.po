@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-06 16:27-0300\n"
+"POT-Creation-Date: 2014-09-11 12:56-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Traditional) <zh-l10n@linux.org.tw>\n"
@@ -68,7 +68,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-07 07:43+0000\n"
+"X-Launchpad-Export-Date: 2014-09-12 07:39+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Chinese (Traditional)\n"
 
@@ -622,11 +622,8 @@ msgid ""
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
 "copyrighted by its contributors, a list of whom is also distributed with %s. "
-" There is no warranty for %s.<BR><BR>"
+" There is no warranty for %s."
 msgstr ""
-"%s 是一個以 C、GTK+ 和 libpurple 為基礎的 GUI 訊息程式，提供同時連線至多種訊息服務的功能。%s 以 "
-"GPL（第二版或較新版本）發放，倘若您希望修改或發佈 %s，只需按照 GPL 條款即可。%s 是有版權的著作，版權歸全部貢獻者共同所有。%s "
-"內已附有一份 GPL 和一份貢獻者名單。%s%0.0s 恕不提供任何功能上的保證。<BR><BR>"
 
 #, c-format
 msgid "%s is no longer away."
@@ -1491,8 +1488,7 @@ msgstr ""
 #, c-format
 msgid ""
 "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
-"%s</i><br><br><font color='red'>Modified version with no support from the "
-"official team.</font><br><br>"
+"%s</i><br><br>"
 msgstr ""
 
 #, c-format
@@ -4620,15 +4616,14 @@ msgstr "更改帳號資訊錯誤"
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
 "Error Downloading the GTK+ Runtime from the URL below. This is required for "
-"Pidgin to function. If retrying fails, you may need to use the offline "
-"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"the application to function. If retrying fails, you may need to use the "
+"offline installer.$\\r$\\r$R2"
 msgstr ""
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
 "Error Installing Debug Symbols from the URL below. If retrying fails, you "
-"may need to use the offline installer from "
-"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"may need to use the offline installer.$\\r$\\r$R2"
 msgstr ""
 
 msgid "Error Messages"
@@ -8508,12 +8503,6 @@ msgstr "電話"
 
 msgid "Photo"
 msgstr "照片"
-
-#  TODO Untranslated - This will need to be translated (NOT transliterated) for Chinese, but that'd be too much work
-#. Translators may want to transliterate the name.
-#. It is not to be translated.
-msgid "Pidgin"
-msgstr "Pidgin"
 
 msgid "Pidgin Buddylist Theme Editor"
 msgstr "Pidgin 好友清單主題編輯器"
@@ -12857,6 +12846,10 @@ msgstr "卸載模組"
 msgid "Unread Messages"
 msgstr "未讀訊息"
 
+#, c-format
+msgid "Unrecognized numeric %.3s: %s"
+msgstr ""
+
 msgid "Unregister"
 msgstr "移除註冊"
 
@@ -13378,6 +13371,14 @@ msgstr ""
 
 msgid "Welcome back!"
 msgstr "歡迎歸來！"
+
+#, c-format
+msgid ""
+"Welcome to %s, a modified version of Pidgin.<br>\t<b>Website:</b> <a "
+"href=\"%s\">%s</a><br>\t<b>Development:</b> <a href=\"%s\">%s</a><br>\t"
+"<b>Translations:</b> <a href=\"%s\">%s</a><br>\t<b>Support:</b> <a "
+"href=\"%s\">%s</a><br><br>"
+msgstr ""
 
 msgid "Went away"
 msgstr "離開"

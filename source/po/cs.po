@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-06 16:27-0300\n"
+"POT-Creation-Date: 2014-09-11 12:56-0300\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: dvx <david@konstrukce-cad.com>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-07 07:11+0000\n"
+"X-Launchpad-Export-Date: 2014-09-12 07:10+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Czech\n"
 
@@ -606,14 +606,8 @@ msgid ""
 "is released, and may be modified and redistributed,  under the terms of the "
 "GPL version 2 (or later).  A copy of the GPL is distributed with %s.  %s is "
 "copyrighted by its contributors, a list of whom is also distributed with %s. "
-" There is no warranty for %s.<BR><BR>"
+" There is no warranty for %s."
 msgstr ""
-"%s je modulární klient IM založený na libpurple, schopný zároveň používat "
-"několik služeb pro přenos zpráv.  %s je napsán v C pomocí GTK+. %s můžete "
-"vydávat, upravovat a dále šířit pod podmínkami GPL (verze 2 nebo novější). "
-"Kopie GPL je distribuována s %s. Copyright %s vlastní jeho spoluautoři, "
-"úplný seznam spoluautorů je distribuován s %s. Pro %s neposkytujeme žádnou "
-"záruku.<BR><BR>"
 
 #, c-format
 msgid "%s is no longer away."
@@ -1478,8 +1472,7 @@ msgstr ""
 #, c-format
 msgid ""
 "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
-"%s</i><br><br><font color='red'>Modified version with no support from the "
-"official team.</font><br><br>"
+"%s</i><br><br>"
 msgstr ""
 
 #, c-format
@@ -4479,15 +4472,14 @@ msgstr "Chyba při změně informací o účtu"
 #. $R2 will display the URL that the GTK+ Runtime failed to download from
 msgid ""
 "Error Downloading the GTK+ Runtime from the URL below. This is required for "
-"Pidgin to function. If retrying fails, you may need to use the offline "
-"installer from http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"the application to function. If retrying fails, you may need to use the "
+"offline installer.$\\r$\\r$R2"
 msgstr ""
 
 #. $R2 will display the URL that the Debug Symbols failed to download from
 msgid ""
 "Error Installing Debug Symbols from the URL below. If retrying fails, you "
-"may need to use the offline installer from "
-"http://launchpad.net/pidgin++/+download .$\\r$\\r$R2"
+"may need to use the offline installer.$\\r$\\r$R2"
 msgstr ""
 
 msgid "Error Messages"
@@ -8121,11 +8113,6 @@ msgstr "Telefon"
 
 msgid "Photo"
 msgstr "Foto"
-
-#. Translators may want to transliterate the name.
-#. It is not to be translated.
-msgid "Pidgin"
-msgstr "Pidgin"
 
 msgid "Pidgin Buddylist Theme Editor"
 msgstr "Editor seznamu kamarádů Pidgina"
@@ -12397,6 +12384,10 @@ msgstr "Odebrat zásuvné moduly"
 msgid "Unread Messages"
 msgstr "Nepřečtené zprávy"
 
+#, c-format
+msgid "Unrecognized numeric %.3s: %s"
+msgstr ""
+
 msgid "Unregister"
 msgstr "Zrušit registraci"
 
@@ -12885,6 +12876,14 @@ msgstr ""
 
 msgid "Welcome back!"
 msgstr "Vítej zpět!"
+
+#, c-format
+msgid ""
+"Welcome to %s, a modified version of Pidgin.<br>\t<b>Website:</b> <a "
+"href=\"%s\">%s</a><br>\t<b>Development:</b> <a href=\"%s\">%s</a><br>\t"
+"<b>Translations:</b> <a href=\"%s\">%s</a><br>\t<b>Support:</b> <a "
+"href=\"%s\">%s</a><br><br>"
+msgstr ""
 
 msgid "Went away"
 msgstr "Odešel pryč"
