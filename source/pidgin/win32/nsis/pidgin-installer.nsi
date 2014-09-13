@@ -177,7 +177,7 @@ Section -SecUninstallOldPidgin
   StrCpy $R4 ${PIDGIN_REG_KEY}
   StrCpy $R5 ${PIDGIN_UNINSTALL_KEY}
   StrCpy $R6 ${PIDGIN_UNINST_EXE}
-  StrCpy $R7 ${APPLICATION_NAME}
+  StrCpy $R7 "${APPLICATION_NAME}"
 
   start_comparison:
   ;If pidgin is currently set to run on startup,
