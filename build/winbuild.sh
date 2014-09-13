@@ -269,8 +269,8 @@ gcc_version=$(gcc -dumpversion)
 echo "Using GCC $gcc_version from $gcc_dir"
 build "installer${offline:+s}"
 for asc in "" ${sign:+.asc}; do
-    [[ -n "$offline" ]] && mv -v pidgin-*-offline.exe$asc "$target/Pidgin $version Offline Setup.exe$asc"
-    mv -v pidgin-*.exe$asc "$target/Pidgin $version Setup.exe$asc"
+    [[ -n "$offline" ]] && mv -v pidgin++_*_offline.exe$asc "$target/Pidgin++ $version Offline Setup.exe$asc"
+    mv -v pidgin++_*.exe$asc "$target/Pidgin++ $version Setup.exe$asc"
     mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin Debug Symbols $version.zip$asc"
 done
 build uninstall

@@ -217,9 +217,9 @@ installer: generate_installer_includes
 		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
 		-DDEBUG_SYMBOLS_SHA1SUM="$($@_DEBUG_SYMBOLS_SHA1SUM)" -DGTK_SHA1SUM="$($@_GTK_SHA1SUM)"\
 		pidgin/win32/nsis/pidgin-installer.nsi
-	mv pidgin/win32/nsis/pidgin-$(APPLICATION_VERSION).exe ./
-	$(call authenticode_sign,pidgin-$(APPLICATION_VERSION).exe,"Pidgin Installer")
-	$(call gpg_sign,pidgin-$(APPLICATION_VERSION).exe)
+	mv pidgin/win32/nsis/pidgin++_$(APPLICATION_VERSION).exe ./
+	$(call authenticode_sign,pidgin++_$(APPLICATION_VERSION).exe,"Pidgin++ Installer")
+	$(call gpg_sign,pidgin++_$(APPLICATION_VERSION).exe)
 
 installer_offline: generate_installer_includes dictionaries_bundle
 	@./colored.sh info "Building the offline installer"
@@ -230,9 +230,9 @@ installer_offline: generate_installer_includes dictionaries_bundle
 		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
 		-DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" -DOFFLINE_INSTALLER \
 		pidgin/win32/nsis/pidgin-installer.nsi
-	mv pidgin/win32/nsis/pidgin-$(APPLICATION_VERSION)-offline.exe ./
-	$(call authenticode_sign,pidgin-$(APPLICATION_VERSION)-offline.exe,"Pidgin Installer")
-	$(call gpg_sign,pidgin-$(APPLICATION_VERSION)-offline.exe)
+	mv pidgin/win32/nsis/pidgin++_$(APPLICATION_VERSION)_offline.exe ./
+	$(call authenticode_sign,pidgin++_$(APPLICATION_VERSION)_offline.exe,"Pidgin++ Installer")
+	$(call gpg_sign,pidgin++_$(APPLICATION_VERSION)_offline.exe)
 
 installer_zip: create_release_install_dir
 	@./colored.sh info "Building the zip package"
@@ -271,7 +271,7 @@ clean:
 	$(MAKE) -C $(PIDGIN_TOP) -f $(MINGW_MAKEFILE) clean
 	$(MAKE) -C $(PURPLE_TOP) -f $(MINGW_MAKEFILE) clean
 	$(MAKE) -C share/ca-certs -f $(MINGW_MAKEFILE) clean
-	rm -f $(PIDGIN_CONFIG_H) $(PIDGIN_REVISION_H) $(PIDGIN_REVISION_RAW_TXT) ./VERSION pidgin-$(APPLICATION_VERSION)*.exe pidgin-$(APPLICATION_VERSION)-win32-bin.zip $(DEBUG_SYMBOLS_DIR).zip
+	rm -f $(PIDGIN_CONFIG_H) $(PIDGIN_REVISION_H) $(PIDGIN_REVISION_RAW_TXT) ./VERSION pidgin++_$(APPLICATION_VERSION)*.exe pidgin-$(APPLICATION_VERSION)-win32-bin.zip $(DEBUG_SYMBOLS_DIR).zip
 	rm -rf doc/html Doxyfile.mingw
 
 uninstall:

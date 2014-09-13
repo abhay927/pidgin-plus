@@ -19,9 +19,9 @@ Var WARNED_GTK_STATE
 Name $name
 
 !ifdef OFFLINE_INSTALLER
-OutFile "pidgin-${APPLICATION_VERSION}-offline.exe"
+OutFile "pidgin++_${APPLICATION_VERSION}_offline.exe"
 !else
-OutFile "pidgin-${APPLICATION_VERSION}.exe"
+OutFile "pidgin++_${APPLICATION_VERSION}.exe"
 !endif
 
 SetCompressor /SOLID lzma
