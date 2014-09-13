@@ -2,8 +2,8 @@
 
 [Meta]
 RootName: @pidgin.im/pidgin:$SOFTWAREVERSION
-DisplayName: Pidgin Internet Messenger
-ShortName: Pidgin
+DisplayName: Pidgin++ Internet Messenger
+ShortName: Pidgin++
 Maintainer: The open source community
 Packager: Tim Ringenbach <marv_sf@users.sourceforge.net>
 Summary: A GTK+ based multiprotocol instant messaging client

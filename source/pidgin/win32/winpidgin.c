@@ -498,13 +498,13 @@ static void winpidgin_add_stuff_to_path() {
 static BOOL winpidgin_set_running(BOOL fail_if_running) {
 	HANDLE h;
 
-	if ((h = CreateMutexW(NULL, FALSE, L"pidgin_is_running"))) {
+	if ((h = CreateMutexW(NULL, FALSE, L"pidgin++_is_running"))) {
 		DWORD err = GetLastError();
 		if (err == ERROR_ALREADY_EXISTS) {
 			if (fail_if_running) {
 				HWND msg_win;
 
-				printf("An instance of Pidgin is already running.\n");
+				printf("An instance of the application is already running.\n");
 
 				if((msg_win = FindWindowExW(NULL, NULL, L"WinpidginMsgWinCls", NULL)))
 					if(SendMessage(msg_win, PIDGIN_WM_FOCUS_REQUEST, (WPARAM) NULL, (LPARAM) NULL))
@@ -513,13 +513,12 @@ static BOOL winpidgin_set_running(BOOL fail_if_running) {
 				/* If we get here, the focus request wasn't successful */
 
 				MessageBoxW(NULL,
-					L"An instance of Pidgin is already running",
+					L"An instance of Pidgin++ is already running",
 					NULL, MB_OK | MB_TOPMOST);
-
 				return FALSE;
 			}
 		} else if (err != ERROR_SUCCESS)
-			printf("Error (%u) accessing \"pidgin_is_running\" mutex.\n", (UINT) err);
+			printf("Error (%u) accessing \"pidgin++_is_running\" mutex.\n", (UINT) err);
 	}
 	return TRUE;
 }
@@ -550,7 +549,7 @@ static void handle_protocol(wchar_t *cmd) {
 	}
 
 	if (!(msg_win = FindWindowExW(NULL, NULL, L"WinpidginMsgWinCls", NULL))) {
-		printf("Unable to find an instance of Pidgin to handle protocol message.\n");
+		printf("Unable to find an instance of the application to handle the protocol message.\n");
 		return;
 	}
 
@@ -571,7 +570,7 @@ static void handle_protocol(wchar_t *cmd) {
 	if (!(process = OpenProcess(PROCESS_VM_OPERATION | PROCESS_VM_WRITE, FALSE, pid))) {
 		DWORD dw = GetLastError();
 		const wchar_t *err_msg = get_win32_error_message(dw);
-		wprintf(L"Unable to open Pidgin process. (%u) %s\n", (UINT) dw, err_msg);
+		wprintf(L"Unable to open the application process. (%u) %s\n", (UINT) dw, err_msg);
 		return;
 	}
 
@@ -582,7 +581,7 @@ static void handle_protocol(wchar_t *cmd) {
 	if ((remote_msg = (char*) VirtualAllocEx(process, NULL, len + 1, MEM_COMMIT, PAGE_READWRITE))) {
 		if (WriteProcessMemory(process, remote_msg, utf8msg, len, &len_written)) {
 			if (!SendMessageA(msg_win, PIDGIN_WM_PROTOCOL_HANDLE, len_written, (LPARAM) remote_msg))
-				printf("Unable to send protocol message to Pidgin instance.\n");
+				printf("Unable to send protocol message to the application instance.\n");
 		} else {
 			DWORD dw = GetLastError();
 			const wchar_t *err_msg = get_win32_error_message(dw);

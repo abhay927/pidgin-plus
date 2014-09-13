@@ -205,7 +205,7 @@ create_release_install_dir: install
 	find $(STRIPPED_RELEASE_DIR) \( -name '*.dll' -o -name '*.exe' \) \
 	 -not \( -false $(EXTERNAL_DLLS_FIND_EXP) \) \
 	 -exec $(STRIP) --strip-unneeded {} ';'
-	$(call authenticode_sign,$(STRIPPED_RELEASE_DIR)/pidgin.exe,"Pidgin $(APPLICATION_VERSION)")
+	$(call authenticode_sign,$(STRIPPED_RELEASE_DIR)/pidgin.exe,"Pidgin++ $(APPLICATION_VERSION)")
 
 installer: generate_installer_includes
 	@./colored.sh info "Building the installer"

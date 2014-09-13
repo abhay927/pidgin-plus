@@ -1,6 +1,6 @@
 [Icon Theme]
-Name=Pidgin
-Comment=Icon theme for Pidgin tray icons
+Name=Pidgin++
+Comment=Icon theme for Pidgin++ tray icons
 Hidden=True
 Directories=16x16/actions,16x16/status,22x22/actions,22x22/status,32x32/actions,32x32/status,48x48/actions,48x48/status,scalable/actions,scalable/status
 

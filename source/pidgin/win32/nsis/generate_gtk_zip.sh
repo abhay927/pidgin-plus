@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# This script generates the GTK+ runtime bundle to be included in Pidgin
-# installer, if not already built and uploaded, and if Pidgin version is
-# suffixed with "devel" or --force has been specified.
+# This script generates the GTK+ runtime bundle to be included in the Windows
+# installer, if not already built and uploaded, and if the application version
+# is suffixed with "devel" or --force has been specified.
 
 # Bundle version and expected SHA-1 hash
 bundle_sha1sum=e4a3e3f37b8b7bda02d98674f4034a57cfe4255c
@@ -14,10 +14,10 @@ if [[ "$1" = --gtk-version ]]; then
     exit
 fi
 
-# Pidgin base directory
+# Base directory
 pidgin_base="$1"
 if [ ! -e "$pidgin_base/ChangeLog" ]; then
-    oops "$(basename $0) must have the pidgin base dir specified as a parameter"
+    oops "$(basename $0) must have the base directory specified as a parameter"
     exit 1
 fi
 
@@ -30,7 +30,7 @@ stage_dir=$(readlink -f $pidgin_base/pidgin/win32/nsis/gtk_runtime_stage)
 zip_binary="$pidgin_base/pidgin/win32/nsis/gtk-runtime-$bundle_version.zip"
 zip_source="$pidgin_base/pidgin/win32/nsis/gtk-runtime-$bundle_version-source.zip"
 fedora_base_url="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m"
-pidgin_version=$(<$pidgin_base/VERSION)
+application_version=$(<$pidgin_base/VERSION)
 
 # Libraries
 packages=("$fedora_base_url/mingw32-atk-2.12.0-2.fc21.noarch.rpm         name:ATK         version:2.12.0-2    sha1sum:b45a978edb3de3d6a0445df88de23ca619e21730,93c7cb44d5a6789a7f95c066dc81267fe1dcf949"
@@ -205,9 +205,9 @@ fi
 # If the sha1sum check fails and not forcing, then quit
 # If the sha1sum check fails and forcing, then continue bundle creation
 
-[[ "$pidgin_version" == *"devel" || "$2" = --force ]] && force="yes"
+[[ "$application_version" == *"devel" || "$2" = --force ]] && force="yes"
 if ! check_sha1sum "$zip_binary" "$bundle_sha1sum" ${force:-quit}; then
-    echo "Continuing GTK+ Bundle creation for Pidgin ${pidgin_version}${force:+ (--force has been specified)}"
+    echo "Continuing GTK+ Bundle creation for Pidgin++ ${application_version}${force:+ (--force has been specified)}"
 else
     echo "Extracting $zip_binary"
     cd "$pidgin_base/pidgin/win32/nsis"

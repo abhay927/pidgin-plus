@@ -59,8 +59,8 @@ RequestExecutionLevel highest
 !define OLD_GAIM_UNINSTALL_KEY			"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Gaim"
 !define OLD_GAIM_UNINST_EXE			"gaim-uninst.exe"
 
-!define PIDGIN_REG_KEY				"SOFTWARE\pidgin"
-!define PIDGIN_UNINSTALL_KEY			"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pidgin"
+!define PIDGIN_REG_KEY				"SOFTWARE\Pidgin++"
+!define PIDGIN_UNINSTALL_KEY			"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Pidgin++"
 
 !define HKLM_APP_PATHS_KEY			"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\pidgin.exe"
 !define STARTUP_RUN_KEY				"SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
@@ -83,9 +83,9 @@ VIAddVersionKey "FileVersion" "${APPLICATION_VERSION}"
 VIAddVersionKey "ProductVersion" "${APPLICATION_VERSION}"
 VIAddVersionKey "LegalCopyright" ""
 !ifdef OFFLINE_INSTALLER
-VIAddVersionKey "FileDescription" "Pidgin Installer (Offline)"
+VIAddVersionKey "FileDescription" "Pidgin++ Installer (Offline)"
 !else
-VIAddVersionKey "FileDescription" "Pidgin Installer"
+VIAddVersionKey "FileDescription" "Pidgin++ Installer"
 !endif
 
 ;--------------------------------
@@ -391,12 +391,12 @@ SectionEnd ; end of default Pidgin section
 SectionGroup /e $(PIDGINSHORTCUTSSECTIONTITLE) SecShortcuts
   Section /o $(PIDGINDESKTOPSHORTCUTSECTIONTITLE) SecDesktopShortcut
     SetOverwrite on
-    CreateShortCut "$DESKTOP\Pidgin.lnk" "$INSTDIR\pidgin.exe"
+    CreateShortCut "$DESKTOP\Pidgin++.lnk" "$INSTDIR\pidgin.exe"
     SetOverwrite off
   SectionEnd
   Section $(PIDGINSTARTMENUSHORTCUTSECTIONTITLE) SecStartMenuShortcut
     SetOverwrite on
-    CreateShortCut "$SMPROGRAMS\Pidgin.lnk" "$INSTDIR\pidgin.exe"
+    CreateShortCut "$SMPROGRAMS\Pidgin++.lnk" "$INSTDIR\pidgin.exe"
     SetOverwrite off
   SectionEnd
 SectionGroupEnd
@@ -489,7 +489,7 @@ Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
 !else
   ; We need to download the debug symbols
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${APPLICATION_VERSION_LOWERCASE}/+download/Pidgin Debug Symbols ${APPLICATION_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${APPLICATION_VERSION_LOWERCASE}/+download/Pidgin++ Debug Symbols ${APPLICATION_VERSION}.zip"
   DetailPrint "Downloading Debug Symbols... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
@@ -618,8 +618,8 @@ Section Uninstall
     RMDir "$INSTDIR"
 
     ; Shortcuts..
-    Delete "$DESKTOP\Pidgin.lnk"
-    Delete "$SMPROGRAMS\Pidgin.lnk"
+    Delete "$DESKTOP\Pidgin++.lnk"
+    Delete "$SMPROGRAMS\Pidgin++.lnk"
 
     Goto done
 
@@ -939,7 +939,7 @@ Function ${UN}RunCheck
   ; Close the Handle (needed if we're retrying)
   IntCmp $R1 0 +2
     System::Call 'kernel32::CloseHandle(i $R1) i .R1'
-  System::Call 'kernel32::CreateMutexA(i 0, i 0, t "pidgin_is_running") i .R1 ?e'
+  System::Call 'kernel32::CreateMutexA(i 0, i 0, t "pidgin++_is_running") i .R1 ?e'
   Pop $R0
   IntCmp $R0 0 +3 ;This could check for ERROR_ALREADY_EXISTS(183), but lets just assume
     MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(PIDGINISRUNNING) /SD IDCANCEL IDRETRY retry_runcheck
@@ -982,7 +982,7 @@ Function .onInit
   IfErrors 0 +2
   Call RunCheck
 
-  StrCpy $name "Pidgin ${APPLICATION_VERSION}"
+  StrCpy $name "Pidgin++ ${APPLICATION_VERSION}"
 
   ;Try to copy the old Gaim installer Lang Reg. key
   ;(remove it after we're done to prevent this being done more than once)
@@ -1006,11 +1006,11 @@ Function .onInit
   ReadRegStr $R0 HKCU "${PIDGIN_REG_KEY}" "${MUI_LANGDLL_REGISTRY_VALUENAME}"
   IfErrors done_preselecting_shortcuts
     ;Does the Desktop shortcut exist?
-    GetFileTime "$DESKTOP\Pidgin.lnk" $R0 $R0
+    GetFileTime "$DESKTOP\Pidgin++.lnk" $R0 $R0
     IfErrors +1 +5
     ClearErrors
     SetShellVarContext "all"
-    GetFileTime "$DESKTOP\Pidgin.lnk" $R0 $R0
+    GetFileTime "$DESKTOP\Pidgin++.lnk" $R0 $R0
     IfErrors preselect_startmenu_shortcut ;Desktop Shortcut if off by default
     !insertmacro SelectSection ${SecDesktopShortcut}
   preselect_startmenu_shortcut:
@@ -1018,11 +1018,11 @@ Function .onInit
     SetShellVarContext "current"
     ClearErrors
     ;Does the StartMenu shortcut exist?
-    GetFileTime "$SMPROGRAMS\Pidgin.lnk" $R0 $R0
+    GetFileTime "$SMPROGRAMS\Pidgin++.lnk" $R0 $R0
     IfErrors +1 done_preselecting_shortcuts ;StartMenu Shortcut is on by default
     ClearErrors
     SetShellVarContext "all"
-    GetFileTime "$SMPROGRAMS\Pidgin.lnk" $R0 $R0
+    GetFileTime "$SMPROGRAMS\Pidgin++.lnk" $R0 $R0
     IfErrors +1 done_preselecting_shortcuts ;StartMenu Shortcut is on by default
     !insertmacro UnselectSection ${SecStartMenuShortcut}
   done_preselecting_shortcuts:
@@ -1080,13 +1080,13 @@ Function .onInit
   Pop $R0
 
   StrCmp $R0 "HKLM" 0 user_dir
-    StrCpy $INSTDIR "$PROGRAMFILES\Pidgin"
+    StrCpy $INSTDIR "$PROGRAMFILES\Pidgin++"
     Goto instdir_done
   user_dir:
     Push $SMPROGRAMS
     ${GetParent} $SMPROGRAMS $R2
     ${GetParent} $R2 $R2
-    StrCpy $INSTDIR "$R2\Pidgin"
+    StrCpy $INSTDIR "$R2\Pidgin++"
 
   instdir_done:
 ;LogSet on
@@ -1113,7 +1113,7 @@ FunctionEnd
 Function un.onInit
 
   Call un.RunCheck
-  StrCpy $name "Pidgin ${APPLICATION_VERSION}"
+  StrCpy $name "Pidgin++ ${APPLICATION_VERSION}"
 ;LogSet on
 
   ; Get stored language preference
