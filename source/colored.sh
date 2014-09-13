@@ -29,8 +29,8 @@ if [[ -n "$PIDGIN_BUILD_COLORS" ]]; then
     # Colored make
     colormake() {
         # Errors, warnings and notes
-        local error="s/^(.*error:)/$(printf $red)\\1$(printf $normal)/i"
-        local warning="s/^(.*warning:)/$(printf $yellow)\\1$(printf $normal)/"
+        local error="s/(^error|^.*[^a-z]error:)/$(printf $red)\\1$(printf $normal)/i"
+        local warning="s/(^warning|^.*[^a-z]warning:)/$(printf $yellow)\\1$(printf $normal)/"
         local make="s/^make(\[[0-9]+\])?:/$(printf $blue)make\\1:$(printf $normal)/"
 
         # Compiler recipes
