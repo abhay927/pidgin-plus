@@ -34,16 +34,6 @@ suffix_pattern='m4_define\(\[purple_version_suffix\], \[.(.*)\]\)'
 pidgin_version=$(grep -E "$version_pattern" "$source_dir/configure" | sed -r s/"$version_pattern"/'\1'/)
 custom_version=$(grep -E "$suffix_pattern" "$source_dir/configure.ac" | sed -r s/"$suffix_pattern"/'\1'/)
 
-# Bump version suffix
-if [[ -n "$update_version" ]]; then
-    new_custom_version="RS$(date +%j)"
-    if [[ $new_custom_version != $custom_version ]]; then
-        sed -ri "s/$suffix_pattern/m4_define([purple_version_suffix], [-$new_custom_version])/" "$source_dir/configure.ac"
-        echo "Version bumped to $new_custom_version"
-        custom_version="$new_custom_version"
-    fi
-fi
-
 full_version="${pidgin_version}-${custom_version}"
 xsl_parameters="-s version=$full_version -s bugs.url=https://developer.pidgin.im/ticket"
 [[ $(uname -s) = Linux ]] && ubuntu_package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${custom_version,,}\+){0,1}/-${custom_version,,}+/")
@@ -54,6 +44,16 @@ xsl_parameters="-s version=$full_version -s bugs.url=https://developer.pidgin.im
 [[ -n "$upstream_version"     ]] &&  printf "${pidgin_version:+$pidgin_version\n}"
 [[ -n "$package_version"      ]] &&  printf "${ubuntu_package_version:+${ubuntu_package_version#*:}\n}"
 [[ -n "$package_version_full" ]] &&  printf "${ubuntu_package_version:+${ubuntu_package_version}\n}"
+
+# Bump version suffix
+if [[ -n "$update_version" ]]; then
+    new_custom_version="RS$(date +%j)"
+    if [[ $new_custom_version != $custom_version ]]; then
+        sed -ri "s/$suffix_pattern/m4_define([purple_version_suffix], [-$new_custom_version])/" "$source_dir/configure.ac"
+        echo "Version bumped to $new_custom_version"
+        custom_version="$new_custom_version"
+    fi
+fi
 
 # HTML changelog
 if [[ -n "$html" ]]; then
