@@ -232,11 +232,6 @@ gboolean pidgin_blist_node_is_contact_expanded(PurpleBlistNode *node);
  */
 void pidgin_blist_toggle_visibility(void);
 
-#ifdef _WIN32
-void pidgin_blist_force_visibility(void);
-gboolean is_blist_visible(void);
-#endif
-
 /**
  * Increases the reference count of visibility managers. Callers should
  * call the complementary remove function when no longer managing
