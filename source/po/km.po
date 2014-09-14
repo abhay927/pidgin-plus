@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Khmer "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:19+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:06+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Khmer\n"
 
@@ -302,6 +302,10 @@ msgstr ""
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1647,7 +1651,7 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "កំណែ​រមូរ​ផ្ដេក​របស់​បញ្ជីមិត្តភក្ដិ ។"
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
 
 msgid ""
@@ -2198,7 +2202,7 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "កម្មវិធីជំនួយ​គំរូ​ដែល​ធ្វើការ - សូម​សេចក្ដិពិពណ៌នា ​​​។"
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
 
@@ -3743,7 +3747,7 @@ msgid "Cool Link 3"
 msgstr "តំណ ៣"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
+msgid "Core Pidgin++ files and dlls"
 msgstr ""
 
 msgid "Could not change nick"
@@ -3860,14 +3864,14 @@ msgid "Create _this new account on the server"
 msgstr "បង្កើត​គណនី​ថ្មី​នៅ​លើ​ម៉ាស៊ីនបម្រើ"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
+msgid "Create a Start Menu entry for Pidgin++"
 msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "បង្កើត​ថត​ថ្មី​សម្រាប់​អ្នក​ប្រើ​នីមួយៗ"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
 msgstr ""
 
 msgid "Create conference with user"
@@ -8186,13 +8190,6 @@ msgstr "កម្មវិធី​ជំនួយ GTK+ ការ​ត្រួ
 msgid "Pidgin Icon Theme Editor"
 msgstr "កម្មវិធីកែសម្រួល​ស្បែក​រូបតំណាង Pidgin"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr ""
-
-msgid "Pidgin Internet Messenger"
-msgstr "កម្មវិធី​ផ្ញើសារ​អ៊ីនធឺណិត​របស់ Pidgin"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8209,17 +8206,21 @@ msgstr "កម្មវិធី​កែ​សម្រួល​ស្បែក
 msgid "Pidgin Theme Editor."
 msgstr "កម្មវិធី​កែសម្រួល​ស្បែក​របស់ Pidgin ​​​​​​។"
 
-msgid "Pidgin Tooltip"
-msgstr "ព័ត៌មាន​ជំនួយ Pidgin"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "សញ្ញាអារម្មណ៍​របស់ Pidgin"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10047,7 +10048,7 @@ msgid "Shortcuts"
 msgstr ""
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
+msgid "Shortcuts for starting Pidgin++"
 msgstr ""
 
 msgid "Show"
@@ -10945,14 +10946,17 @@ msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr ""
 "ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង \"ymsgr\" URLs ប្រសិន​បើ​បានបើក ។"
 
-msgid "The default Pidgin buddy list theme"
-msgstr "ស្បែក​បញ្ជី​មិត្តភក្ដិ​ Pidgin លំនាំដើម"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "ស្បែល​សំឡេង Pidgin លំនាំដើម"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "ស្បែក​រូបតំណាង​ស្ថានភាព Pidgin លំនាំដើម"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11236,8 +11240,8 @@ msgid "The two PINs you entered do not match."
 msgstr "PIN ពីរ ដែល​អ្នក​បាន​បញ្ចូល​​​មិន​ត្រូវ​គ្នា ។"
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
 
 #. Denied
@@ -12327,7 +12331,7 @@ msgstr ""
 "ហើយ​​មានតែ​អក្សរ លេខ និង​ចន្លោះ​មិនឃើញ ឬ​មាន​តែ​លេខ​ប៉ុណ្ណោះ ។"
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
 
@@ -12875,7 +12879,7 @@ msgid "Visible List"
 msgstr ""
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
+msgid "Visit the Pidgin++ webpage"
 msgstr ""
 
 msgid "Visited Hyperlink Color"

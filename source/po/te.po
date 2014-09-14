@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:33+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:23+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Telugu\n"
 
@@ -311,6 +311,10 @@ msgstr ""
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1657,7 +1661,7 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "మిత్రుల లిస్ట్ సమతల స్క్రోలింగ్ వెర్షన్."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
 
 msgid ""
@@ -2209,7 +2213,7 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "ప్లగ్‌ఇన్‌కు ఇదొక సజీవ ఉదాహరణ - దీని వివరణను చూడండి."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
 
@@ -3745,7 +3749,7 @@ msgid "Cool Link 3"
 msgstr "కూల్ లింక్ 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
+msgid "Core Pidgin++ files and dlls"
 msgstr ""
 
 msgid "Could not change nick"
@@ -3862,14 +3866,14 @@ msgid "Create _this new account on the server"
 msgstr "ఈ కొత్త ఖాతాను సేవికపై సృష్టించుము (_t)"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
+msgid "Create a Start Menu entry for Pidgin++"
 msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "ప్రతి వినియోగదారుని కొరకు కొత్త డైరెక్టరీను సృష్టించుము"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
 msgstr ""
 
 msgid "Create conference with user"
@@ -8166,13 +8170,6 @@ msgstr "పిడ్గిన్ GTK+ థీమ్ కంట్రోల్"
 msgid "Pidgin Icon Theme Editor"
 msgstr "పిడ్గిన్ ప్రతిమ థీమ్ సరికూర్పరి"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr ""
-
-msgid "Pidgin Internet Messenger"
-msgstr "పిడ్జిన్ ఇంటర్నెట్ మెసెంజర్"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8189,17 +8186,21 @@ msgstr "పిడ్గిన్ థీమ్ సరికూర్పరి"
 msgid "Pidgin Theme Editor."
 msgstr "పిడ్గిన్ థీమ్ సరికూర్పరి."
 
-msgid "Pidgin Tooltip"
-msgstr "పిడ్గిన్ సాధనచిట్కా(టూల్‌టిప్)"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "పిడ్గిన్ స్మైలీలు"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "పింగ్"
@@ -10021,7 +10022,7 @@ msgid "Shortcuts"
 msgstr ""
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
+msgid "Shortcuts for starting Pidgin++"
 msgstr ""
 
 msgid "Show"
@@ -10900,14 +10901,17 @@ msgstr "URLs సాధ్యమైతే, \"xmpp\" హ్యాండిల్ �
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "URLs సాధ్యమైతే, \"ymsgr\" హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "అప్రమేయ పిడిగిన్ మిత్రుల జాబితా థీమ్"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "అప్రమేయ పిడ్గిన్ శబ్ధపు థీమ్"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "అప్రమేయ పిడ్గిన్ స్థితి ప్రతిమ థీమ్"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11196,8 +11200,8 @@ msgid "The two PINs you entered do not match."
 msgstr "మీరు ప్రవేశపెట్టిన రెండు PINలు సరిపోలుటలేదు."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
 
 #. Denied
@@ -12271,7 +12275,7 @@ msgstr ""
 "కలిగివుండాలి లేదా అంకెలను మాత్రమే కలిగివుండాలి."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
 
@@ -12821,7 +12825,7 @@ msgid "Visible List"
 msgstr ""
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
+msgid "Visit the Pidgin++ webpage"
 msgstr ""
 
 msgid "Visited Hyperlink Color"

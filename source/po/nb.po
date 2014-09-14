@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.ui.no>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:25+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:13+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Norwegian Bokmal\n"
 
@@ -320,6 +320,10 @@ msgstr ""
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1646,8 +1650,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "En horisontalt rullende versjon av kontaktlisten."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Et GUI-verktøy for flere ulike plattformer, brukes av Pidgin."
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2193,9 +2197,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Et eksempeltillegg som gjør noe - se beskrivelsen."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
-msgstr "En instans av Pidgin kjører fra før. Avslutt Pidgin og prøv igjen."
+msgstr ""
 
 msgid "An internal MXit server error occurred."
 msgstr "En intern feil i MXit-tjener har inntruffet."
@@ -3727,8 +3731,8 @@ msgid "Cool Link 3"
 msgstr "Kul lenke 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Pidgins kjernefiler og dll'er"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Klarte ikke endre kallenavn"
@@ -3843,15 +3847,15 @@ msgid "Create _this new account on the server"
 msgstr "Opprett denne _nye kontoen på tjeneren"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Legg til Pidgin i Startmenyen"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Opprett en ny mappe for hver bruker"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Lag en snarvei til Pidgin på Skrivebordet"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Opprett konferanse med bruker"
@@ -8143,13 +8147,6 @@ msgstr "Pidgin GTK+ Tema Kontroll"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Editor for Pidgin-ikontema"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin Hurtigmeldingsklient (obligatorisk)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin Lynmeldingsklient"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8166,17 +8163,21 @@ msgstr "Editor for Pidgin-tema"
 msgid "Pidgin Theme Editor."
 msgstr "Editor for Pidgin-tema."
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgin verktøytips"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "Pidgin smileys"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10003,8 +10004,8 @@ msgid "Shortcuts"
 msgstr "Snarveier"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Snarveier for å starte Pidgin"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Vis"
@@ -10886,14 +10887,17 @@ msgstr "Kommando for å håndtere «xmpp»-URLer, hvis aktivert."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "Kommando for å håndtere «ymsgr»-URLer, hvis aktivert."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Standard kontaktliste for Pidgin"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Standard Pidgin lyd"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Standardtema for ikon i Pidgin"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11177,11 +11181,9 @@ msgid "The two PINs you entered do not match."
 msgstr "De nye PIN-kodene du tastet inn stemmer ikke overens."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Avinstalleringsprogrammet kunne ikke finne noen registeroppføring for "
-"Pidgin.$\\rTrolig har en annen bruker avinstallert denne applikasjonen."
 
 #. Denied
 #, c-format
@@ -12253,7 +12255,7 @@ msgstr ""
 "bokstaver, tall og mellomrom, eller bare inneholde tall."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
 
@@ -12801,8 +12803,8 @@ msgid "Visible List"
 msgstr ""
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Besøk Pidgin for Windows' Nettside"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Farge på besøkte lenker"

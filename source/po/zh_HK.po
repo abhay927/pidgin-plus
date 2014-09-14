@@ -62,7 +62,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:41+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -70,7 +70,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:37+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:27+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Chinese (Hong Kong)\n"
 
@@ -343,6 +343,10 @@ msgstr "%s 開發者名單"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "%s 模組資訊"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1667,10 +1671,9 @@ msgstr "羣組名稱「%s」已經存在於你的好友清單中。"
 msgid "A horizontal scrolling version of the buddy list."
 msgstr "好友清單的水平捲動版本"
 
-# XXX 要覆查譯文 - acli 20100527
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Pidgin 使用的一個跨平台 GUI 組件"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 # FIXME 暫譯 - 20061028
 msgid ""
@@ -2228,9 +2231,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "範例模組————請看介紹。"
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
-msgstr "Pidgin 正在執行，請結束 Pidgin 後重試。"
+msgstr ""
 
 msgid "An internal MXit server error occurred."
 msgstr "MXit 的伺服器發生了內部錯誤。"
@@ -3845,8 +3848,8 @@ msgid "Cool Link 3"
 msgstr "酷連結(三)"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Pidgin 核心檔案及 DLL"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "無法更改網名"
@@ -3960,18 +3963,17 @@ msgstr "產生 SILC 配對密碼匙..."
 msgid "Create _this new account on the server"
 msgstr "在伺服器上建立這個新帳號(_T)"
 
-# XXX 要覆查譯文 - acli 20100527
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "為 Pidgin 在開始選單建立捷徑"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 # XXX 20080810 acli
 msgid "Create a new directory for each user"
 msgstr "給每個使用者建立該使用者專用的目綠"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "為 Pidgin 在桌面上建立捷徑"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "與使用者建立會議室"
@@ -8524,13 +8526,6 @@ msgstr "Pidgin GTK+ 佈景主題設定"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidgin 圖示主題編輯器"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin 網絡即時通（必須安裝）"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin 網絡即時通"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8547,21 +8542,21 @@ msgstr "Pidgin 主題編輯器"
 msgid "Pidgin Theme Editor."
 msgstr "Pidgin 主題編輯器。"
 
-# NOTE 譯文改動 by c9s (http://developer.pidgin.im/ticket/7917) - 20090226 acli
-msgid "Pidgin Tooltip"
-msgstr "Pidgin 工具提示"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
 
-# XXX 要覆查譯文 - acli 20100527
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
+
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin 需要兼容的 GTK+ 執行環境才能運作，但系統內似乎還沒有安裝兼容的 GTK+ 執行環境。$\\r你確定不要安裝 GTK+ 執行環境？"
 
-# NOTE 這是「Default」表情主題的說明
-msgid "Pidgin smileys"
-msgstr "為 Pidgin 特別設計的表情圖示"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10453,8 +10448,8 @@ msgid "Shortcuts"
 msgstr "捷徑"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "啟動 Pidgin 的捷徑"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "顯示"
@@ -11356,14 +11351,17 @@ msgstr "處理「xmpp」網址的指令（如有啟用）"
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "處理「ymsgr」網址的指令（如有啟用）"
 
-msgid "The default Pidgin buddy list theme"
-msgstr "預設的 Pidgin 好友清單主題"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "預設的 Pidgin 音效主題"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "預設的 Pidgin 狀態圖示主題"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11624,11 +11622,10 @@ msgstr "主題：%s"
 msgid "The two PINs you entered do not match."
 msgstr "兩個密碼並不相符。"
 
-# XXX 要覆查譯文 - acli 20100527
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
-msgstr "解除安裝程式無法找到 Pidgin 的登錄機碼。$\\r安裝 Pidgin 的很可能是另一個使用者。"
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
+msgstr ""
 
 #. Denied
 #, c-format
@@ -12666,11 +12663,10 @@ msgid ""
 "numbers and spaces, or contain only numbers."
 msgstr "無法以 %s 身份登入，因為這個帳號是無效的。帳號必須為有效電郵地址；或者以英文字母起始，並只含英文字母、數字及空白；或者只由數字組成。"
 
-# XXX 要覆查譯文 - acli 20100527
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
-msgstr "無法移除目前的 Pidgin 版本，新版本會在不移除舊版本的情況下被安裝。"
+msgstr ""
 
 msgid "Unable to validate certificate"
 msgstr "無法驗證證書"
@@ -13250,8 +13246,8 @@ msgid "Visible List"
 msgstr "「報稱上線」清單"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "瀏覽 Pidgin 官方網站"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "瀏覽過的超連結顏色"

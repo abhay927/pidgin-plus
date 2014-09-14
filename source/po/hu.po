@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:03+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Hungarian "
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:17+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:03+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Hungarian\n"
 
@@ -314,6 +314,10 @@ msgstr "%s fejlesztői információi"
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1654,8 +1658,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Vízszintesen gördülő partnerlista."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "A Pidgin által használt, többplatformos GUI eszközkészlet"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2209,11 +2213,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Példa bővítmény, ami csinál valamit - nézze meg a leírást."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Jelenleg fut a Pidgin egy példánya. Lépjen ki a Pidginból és azután próbálja "
-"újra."
 
 msgid "An internal MXit server error occurred."
 msgstr "Belső MXit kiszolgálóhiba történt."
@@ -3748,8 +3750,8 @@ msgid "Cool Link 3"
 msgstr "Érdekes link 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Pidgin fájlok és dll-ek"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Nem sikerült megváltoztatni a becenevet"
@@ -3864,15 +3866,15 @@ msgid "Create _this new account on the server"
 msgstr "Ezen új fió_k létrehozása a kiszolgálón"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Start Menü bejegyzés létrehozása a Pidginhez"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Új könyvtár létrehozása minden felhasználóhoz"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Parancsikon létrehozása a Pidginhez az asztalon"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Konferencia létrehozása a következő felhasználóval"
@@ -8166,13 +8168,6 @@ msgstr "Pidgin GTK+ témavezérlés"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidgin ikontéma-szerkesztő"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin azonnali üzenő kliens (szükséges)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin üzenetküldő"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8189,20 +8184,21 @@ msgstr "Pidgin témaszerkesztő"
 msgid "Pidgin Theme Editor."
 msgstr "Pidgin témaszerkesztő."
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgin buboréksúgó"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"A Pidgin egy kompatibilis GTK+ futtatókörnyezet meglétét igényli (úgy tűnik, "
-"ez nincs jelen).$\\rBiztos benne, hogy kihagyja a GTK+ futtatókörnyezet "
-"telepítését?"
 
-msgid "Pidgin smileys"
-msgstr "Pidgin hangulatjelek"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10033,8 +10029,8 @@ msgid "Shortcuts"
 msgstr "Parancsikonok"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Parancsikonok a Pidgin indításához"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Megjelenítés"
@@ -10929,14 +10925,17 @@ msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr ""
 "Az „ymsgr” URL címek kezelésére használt parancs, ha engedélyezve van."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Az alapértelmezett Pidgin partnerlistatéma"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Az alapértelmezett Pidgin hangtéma"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Az alapértelmezett Pidgin állapotikon-téma"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11226,11 +11225,9 @@ msgid "The two PINs you entered do not match."
 msgstr "A megadott két PIN nem egyezik."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Az eltávolító nem találta a Pidgin registry bejegyzéseket.$\\rValószínüleg "
-"egy másik felhasználó telepítette az alkalmazást."
 
 #. Denied
 #, c-format
@@ -12318,11 +12315,9 @@ msgstr ""
 "tartalmazhatnak."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"A Pidgin jelenleg telepített változata nem távolítható el. Az új verzió a "
-"jelenleg telepített verzió eltávolítása nélkül kerül telepítésre."
 
 msgid "Unable to validate certificate"
 msgstr "A tanúsítvány nem ellenőrizhető"
@@ -12872,8 +12867,8 @@ msgid "Visible List"
 msgstr "Látható számukra"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "A Pidgin weboldalának felkeresése"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Meglátogatott hiperhivatkozás színe"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:07+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:51+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "X-Poedit-Country: BANGLADESH\n"
 "Language: Bengali\n"
@@ -336,6 +336,10 @@ msgstr "ডেভলপার তথ্য %s"
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 # Translated by snigdha
@@ -1759,10 +1763,9 @@ msgstr "'%s' নামের একটি দল আপনার বন্ধু
 msgid "A horizontal scrolling version of the buddy list."
 msgstr "বন্ধুতালিকার একটি অনুভূমিক স্ক্রলিং সংস্করণ।"
 
-# snigdha
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "পিজিন GUI টুলকিট ব্যবহার করে যা একটি মাল্টি-প্ল্যাটফর্ম টুলকিট"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 # tithi
 msgid ""
@@ -2358,13 +2361,10 @@ msgstr ""
 msgid "An example plugin that does stuff - see the description."
 msgstr "অনেক কিছু করে এমন একটি উদাহরণ প্লাগইন - বর্ণনা দেখুন।"
 
-# snigdha
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"পিজিনের একটি ইন্সটেন্স বর্তমানে চালু আছে। অনুগ্রহ করে পিজিন বন্ধ করুন এবং "
-"পুনরায় চালান।"
 
 # Translated by sadia
 msgid "An internal MXit server error occurred."
@@ -4048,10 +4048,9 @@ msgstr "দারুন লিংক ২"
 msgid "Cool Link 3"
 msgstr "দারুন লিংক ৩"
 
-# snigdha
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "মূল পিজিন ফাইল এবং dlls"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "ডাকনাম পরিবর্তন করা সম্ভব হয়নি"
@@ -4178,18 +4177,16 @@ msgstr "SILC কী যুগল তৈরি..."
 msgid "Create _this new account on the server"
 msgstr "সার্ভারে এই নতুন অ্যাকাউন্টটি তৈরি করা হবে (_t)"
 
-# snigdha
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "পিজিনের জন্য প্রারম্ভিক মেনু ভুক্তি তৈরি করুন"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "প্রত্যেক ব্যবহারকারীর জন্য একটি নতুন ডিরেক্টরি তৈরি করা হবে"
 
-# snigdha
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "ডেক্সটপে পিজিনের জন্য একটি শর্টকাট তৈরি করুন"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 # tithi
 msgid "Create conference with user"
@@ -8898,13 +8895,6 @@ msgstr "পিজিন GTK+ থীম নিয়ন্ত্রণ"
 msgid "Pidgin Icon Theme Editor"
 msgstr "পিজিন আইকন থীম সম্পাদক"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "পিজিন তাৎক্ষণিক বার্তা ক্লায়েন্ট (আবশ্যকীয়)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "পিজিন ইন্টারনেট বার্তাবাহক"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8921,22 +8911,21 @@ msgstr "পিজিন থীম সম্পাদক"
 msgid "Pidgin Theme Editor."
 msgstr "পিজিন থীম সম্পাদক।"
 
-msgid "Pidgin Tooltip"
-msgstr "পিজিন টুলটিপ"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
 
-# snigdha
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
+
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"পিজিনের জন্য একটি সঙ্গতিপূর্ন GTK+রানটাইম (যা ইতোমধ্যে উপস্থিত আছে বলে মনে "
-"হয়না) অত্যাবশ্যকীয়।$\\r আপনি কি নিশ্চিত যে আপনি GTK+রানটাইম ইনস্টল বাদ দিয়ে "
-"যেতে চান?"
 
-# tithi
-msgid "Pidgin smileys"
-msgstr "পিজিন স্মাইলি"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "পিং করুন"
@@ -10908,10 +10897,9 @@ msgstr "শর্টকাট টেক্সট"
 msgid "Shortcuts"
 msgstr "শর্টকাটসমূহ"
 
-# snigdha
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "পিজিন আরম্ভ করার শর্টকাট"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 # tithi
 msgid "Show"
@@ -11906,17 +11894,17 @@ msgstr "যদি সক্রিয় থাকে,  \"xmpp\" এর URL ন�
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "যদি সক্রিয় থাকে, \"ymsgr\" এর URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ড।"
 
-# Translated by sadia
-msgid "The default Pidgin buddy list theme"
-msgstr "পিজিনে পূর্বনির্ধারিত বন্ধু তালিকার থীম"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-# Translated by sadia
-msgid "The default Pidgin sound theme"
-msgstr "পিজিনে পূর্বনির্ধারিত সাউন্ড থীম"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-# Translated by sadia
-msgid "The default Pidgin status icon theme"
-msgstr "পিজিনে পূর্বনির্ধারিত স্ট্যাটাস আইকন থীম"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 # tithi
 #, c-format
@@ -12237,13 +12225,10 @@ msgstr "বিষয়বস্তু হলো: %s"
 msgid "The two PINs you entered do not match."
 msgstr "আপনি যে দুটি PIN প্রবেশ করিয়েছেন তা মিলছে না।"
 
-# snigdha
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"আনইন্সটলার পিজিনের জন্য রেজিস্ট্র ভুক্তি খুঁজে পায়নি।$\\rআরেকজন ব্যবহারকারী "
-"এই অ্যাপ্লিকেশনটি ইন্সটল করে ফেলার সম্ভাবনা রয়েছে।"
 
 # tithi
 #. Denied
@@ -13412,13 +13397,10 @@ msgstr ""
 "দ্বারা শুরু হলে, শুধুমাত্র বর্ণ, সংখ্যা এবং স্পেস দ্বারা গঠিত হবে, বা "
 "শুধুমাত্র সংখ্যা দ্বারা গঠিত হবে।"
 
-# snigdha
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"পিজিনে বিদ্যমান ইন্সটল করা সংস্করণটি আনইন্সটল করা যাচ্ছে না। বর্তমানে ইন্সটল "
-"করা সংস্করণটি অপসারন না করেই নতুন সংস্করণটি ইন্সটল করতে হবে।"
 
 # Translated by sadia
 msgid "Unable to validate certificate"
@@ -14014,10 +13996,9 @@ msgstr "ওয়েব প্রোফাইল প্রদর্শন"
 msgid "Visible List"
 msgstr "দৃশ্যমান তালিকা"
 
-# snigdha
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "পিজিনের ওয়েব পেজ দেখুন"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "পরিদর্শিত হাইপারলিংক রং"

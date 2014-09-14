@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Hebrew "
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:16+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:02+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Hebrew\n"
 
@@ -315,6 +315,10 @@ msgstr "%s פרטי מפתח"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "מידע אודות התוסף %s"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1624,8 +1628,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "גירסא מאוזנת (במקום מאונכת) של אנשי הקשר, שמעבירה את כולם בסך."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "מולטי-פלטפורמי, בו נעזר פידג'ין GUI כלי"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2164,9 +2168,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "תוסף הדגמא שעושה דברים - ראה תיאור."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
-msgstr "עותק של פידג'ין כבר רץ. יש לסגור את פידג'ין ולנסות שנית."
+msgstr ""
 
 msgid "An internal MXit server error occurred."
 msgstr "אירעה שגיאה פנימית בשרת ה-MXit."
@@ -3686,8 +3690,8 @@ msgid "Cool Link 3"
 msgstr "קישור מגניב 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr ".בסיסיים DLL-ו Pidgin קבצי"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "אין אפשרות לשנות כינוי"
@@ -3799,15 +3803,15 @@ msgid "Create _this new account on the server"
 msgstr "צור חשבון חדש זה על השרת"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "צור קיצור-דרך עבור פידג'ין בתפריט ההתחל"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "צור ספרייה חדשה עבור כל משתמש"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "צור קיצור-דרך עבור פידג'ין על שולחן העבודה"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "צור שיחת ועידה עם המשתמש"
@@ -8069,13 +8073,6 @@ msgstr "בקרת מוטיבים של GTK+ בפידג'ין"
 msgid "Pidgin Icon Theme Editor"
 msgstr "עורך מוטיבים של סמלים בפידג'ין"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "(חובה) .Pidgin תוכנת"
-
-msgid "Pidgin Internet Messenger"
-msgstr "פידג'ין למסרים באינטרנט"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8092,19 +8089,21 @@ msgstr "עורך מוטיבים בפידג'ין"
 msgid "Pidgin Theme Editor."
 msgstr "עורך מוטיבים בפידג'ין."
 
-msgid "Pidgin Tooltip"
-msgstr "מידעון פידג'ין"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"לפידג'ין נחוצה סביבת הרצה של GTK+ (אשר ככל הנראה אינה מותקנת).$\\rהאם ברצונך "
-"לדלג על שלב התקנת GTK+?"
 
-msgid "Pidgin smileys"
-msgstr "חייכני פידג'ין"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "פינג"
@@ -9890,8 +9889,8 @@ msgid "Shortcuts"
 msgstr "קיצורי דרך"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "קיצורי-דרך להפעלת פידג'ין"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "הצג"
@@ -10758,14 +10757,17 @@ msgstr "הפקודה לטיפול בכתובות \"xmpp\", אם הופעלה."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "הפקודה לטיפול בכתובות \"ymsgr\", אם הופעלה."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "ערכת המוטיבים המובנית עבור רשימת החברים בפידג'ין"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "ערכת הצלילים המובנית של פידג'ין"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "ערכת הצלמיות המובנית של פידג'ין"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11035,11 +11037,9 @@ msgid "The two PINs you entered do not match."
 msgstr "שני ה-PIN שהזנת אינם זהים."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-".GTK+ ההתקנה לא מצאה את הרישומים של$\\r.יכול להיות שמשמתמש אחר התקין את "
-"התוכנה הזאת"
 
 #. Denied
 #, c-format
@@ -12062,11 +12062,9 @@ msgstr ""
 "ורווחים, או לחילופין להכיל אך ורק מספרים."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"לא מסוגל להסיר את הגירסא המותקנת של פידג'ין. הגירסא החדשה תותקן ללא הסרת "
-"הגרסא המותקנת."
 
 msgid "Unable to validate certificate"
 msgstr "לא ניתן לאמת את התעודה"
@@ -12609,8 +12607,8 @@ msgid "Visible List"
 msgstr "רשימת נראה"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr ".Pidginבקרו באתר של"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "צבע קישורים שביקרת"

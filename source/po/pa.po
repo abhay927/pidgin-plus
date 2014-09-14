@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:30+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Panjabi (Punjabi) "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:26+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:14+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Punjabi\n"
 
@@ -317,6 +317,10 @@ msgstr "%s ਡਿਵੈਲਪਰ ਜਾਣਕਾਰੀ"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "%s ਪਲੱਗਇਨ ਜਾਣਕਾਰੀ"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1647,8 +1651,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "ਬੱਡੀ ਖੋਜੀ ਦਾ ਖਿਤਿਜੀ ਸਕਰੋਲਿੰਗ ਵਰਜਨ ਹੈ"
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "ਮਲਟੀ-ਪਲੇਟਫਾਰਮ GUI ਟੂਲਕਿੱਟ, ਪਿਡਗਿਨ ਵਲੋਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2194,9 +2198,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "ਇੱਕ ਉਦਾਹਰਨ ਪਲੱਗਇਨ ਹੈ - ਵੇਰਵਾ ਵੇਖੋ।"
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
-msgstr "ਪਿਡਗਿਨ ਇਸ ਸਮੇਂ ਚੱਲ ਰਿਹਾ ਹੈ। ਪਿਡਗਿਨ ਬੰਦ ਕਰਕੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
+msgstr ""
 
 msgid "An internal MXit server error occurred."
 msgstr "ਅੰਦਰੂਨੀ MXit ਸਰਵਰ ਗਲਤੀ ਆਈ ਹੈ।"
@@ -3723,8 +3727,8 @@ msgid "Cool Link 3"
 msgstr "ਵਧੀਆ ਲਿੰਕ 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "ਕੋਰ ਪਿਡਗਿਨ ਫਾਇਲਾਂ ਤੇ dll"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "ਨਾਂ ਬਦਲਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
@@ -3837,15 +3841,15 @@ msgid "Create _this new account on the server"
 msgstr "ਸਰਵਰ ਉੱਤੇ ਇਹ ਨਵਾਂ ਅਕਾਊਂਟ ਬਣਾਓ(_t)"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "ਪਿਡਗਿਨ ਲਈ ਸਟਾਰਟ ਮੇਨੂ ਐਂਟਰੀ ਬਣਾਓ"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "ਹਰੇਕ ਯੂਜ਼ਰ ਲਈ ਵੱਖਰੀ ਡਾਇਰੈਕਟਰੀ ਬਣਾਓ"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "ਪਿਡਗਿਨ ਲਈ ਡੈਸਕਟਾਪ ਉੱਤੇ ਸ਼ਾਰਟਕੱਟ ਬਣਾਓ"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "ਯੂਜ਼ਰ ਨਾਲ ਕਾਨਫਰੰਸ ਕਰੋ"
@@ -8120,13 +8124,6 @@ msgstr "ਪਿਡਗਿਨ GTK+ ਸਰੂਪ ਕੰਟਰੋਲ"
 msgid "Pidgin Icon Theme Editor"
 msgstr "ਪਿਡਗਿਨ ਆਈਕਾਨ ਥੀਮ ਐਡੀਟਰ"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "ਪਿਡਗਿਨ ਤੁਰੰਤ ਇੰਟਰਨੈਟ ਮੈਸੰਜ਼ਰ (ਲਾਜ਼ਮੀ)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "ਪਿਡਗਿਨ ਇੰਟਰਨੈਟ ਮੈਸੰਜ਼ਰ"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8143,19 +8140,21 @@ msgstr "ਪਲੱਗਇਨ ਥੀਮ ਐਡੀਟਰ"
 msgid "Pidgin Theme Editor."
 msgstr "ਪਿਡਗਿਨ ਥੀਮ ਐਡੀਟਰ।"
 
-msgid "Pidgin Tooltip"
-msgstr "ਪਿਡਗਿਨ ਟੂਲਟਿੱਪ"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"ਪਿਡਗਿਨ ਲਈ ਅਨੁਕੂਲ GTK+ ਰਨਟਾਈਮ ਚਾਹੀਦਾ ਹੈ (ਜੋ ਕਿ ਹਾਲੇ ਮੌਜੂਦ ਨਹੀਂ ਜਾਪਦਾ ਹੈ।)$\\"
-"rਕੀ ਤੁਸੀਂ GTK+ ਰਨਟਾਈਮ ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ ਨੂੰ ਛੱਡਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-msgid "Pidgin smileys"
-msgstr "ਪਿਡਗਿਨ ਸਮਾਇਲੀ"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "ਪਿੰਗ"
@@ -9949,8 +9948,8 @@ msgid "Shortcuts"
 msgstr "ਸ਼ਾਰਟਕੱਟ"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "ਪਿਡਗਿਨ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸ਼ਾਰਟਕੱਟ"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "ਵੇਖੋ"
@@ -10821,14 +10820,17 @@ msgstr "\"xmpp\" URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤ�
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "\"ymsgr\" URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।"
 
-msgid "The default Pidgin buddy list theme"
-msgstr "ਡਿਫਾਲਟ ਪਿਡਗਿਨ ਬੱਡੀਲਿਸਟ ਥੀਮ ਐਡੀਟਰ"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "ਡਿਫਾਲਟ ਪਿਡਗਿਨ ਸਾਊਂਡ ਥੀਮ"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "ਡਿਫਾਲਟ ਪਿਡਗਿਨ ਹਾਲਤ ਆਈਕਾਨ ਥੀਮ"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11116,11 +11118,9 @@ msgid "The two PINs you entered do not match."
 msgstr "ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੇ ਦੋਵੇਂ ਪਿੰਨ ਆਪਸ 'ਚ ਮਿਲਦੇ ਨਹੀਂ ਹਨ।"
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"ਅਣ-ਇੰਸਟਾਲਰ ਪਿਡਗਿਨ ਲਈ ਰਿਜਸਟਰੀ ਐਂਟਰੀਆਂ ਨਹੀਂ ਲੱਭ ਸਕਿਆ।$\\rਇੰਝ ਜਾਪਦਾ ਹੈ ਕਿ ਹੋਰ "
-"ਯੂਜ਼ਰ ਨੇ ਇਹ ਐਪਲੀਕੇਸ਼ਨ ਇੰਸਟਾਲ ਕੀਤੀ ਹੈ।"
 
 #. Denied
 #, c-format
@@ -12165,11 +12165,9 @@ msgstr ""
 "ਅੱਖਰ, ਨੰਬਰ, ਖਾਲੀ ਥਾਂ ਜਾਂ ਕੁਝ ਨੰਬਰ ਹੀ ਹੋ ਸਕਦੇ ਹਨ।"
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"ਪਿਡਗਿਨ ਦੇ ਮੌਜੂਦਾ ਇੰਸਟਾਲ ਵਰਜਨ ਨੂੰ ਹਟਾਉਣ ਲਈ ਅਸਮਰੱਥ ਹੈ। ਨਵਾਂ ਵਰਜਨ ਮੌਜੂਦਾ ਇੰਸਟਾਲ "
-"ਵਰਜਨ ਨੂੰ ਬਿਨਾਂ ਹਟਾਏ ਹੀ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾਵੇਗਾ।"
 
 msgid "Unable to validate certificate"
 msgstr "ਸਰਟੀਫਿਕੇਟ ਪਰਮਾਣਕਿਤਾ ਲਈ ਅਸਮਰੱਥ"
@@ -12715,8 +12713,8 @@ msgid "Visible List"
 msgstr "ਦਿੱਖ ਲਿਸਟ"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "ਪਿਡਗਿਨ ਵੈੱਬ ਪੇਜ਼ ਉੱਤੇ ਜਾਓ"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "ਖੋਲ੍ਹੇ ਗਏ ਹਾਈਪਰਲਿੰਕ ਰੰਗ"

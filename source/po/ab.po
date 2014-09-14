@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-07-20 06:23+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Burmese (Myanmar) "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:02+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:47+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: my_MM\n"
 
@@ -315,6 +315,10 @@ msgstr "%s ပြုလုပ်ဖန်တီးသူ အချက်အလ�
 #, c-format
 msgid "%s Plugin Information"
 msgstr "%s ပလပ်အင်ဆိုင်ရာ အချက်အလက်"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1666,8 +1670,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "မိတ်ဆွေစာရင်းပါ ရေပြင်ညီအတိုင်း လှည့်​​သော ဗားရှင်း။"
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Pidgin အသုံးပြုသော၊ အစုံသုံး GUI ကိရိယာစုံ"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2219,11 +2223,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "လုပ်ငန်း ဆောင်ရွတ်သော နမူနာ ပလပ်အင် - ရှင်းပြချက် ကြည့်ရှုပါ။"
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Pidgin မှ အစိတ်အပိုင်း တစ်ခုသည် လောလောဆယ် အလုပ်လုပ်နေသည်။ Pidgin ကို "
-"ပိတ်ပြီး ထပ်ကြိုးစားကြည့်ပါ။"
 
 msgid "An internal MXit server error occurred."
 msgstr "MXit ဆာဗာ အတွင်းပိုင်း၌ ချို့ယွင်းချက် ဖြစ်နေသည်။"
@@ -3757,8 +3759,8 @@ msgid "Cool Link 3"
 msgstr "ကောင်းမွန်သော လင့်ခ် ၃"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "ပင်မ Pidgin ဖိုင်များနှင့် dll များ"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "အမည်ပြောင်ကို ပြောင်းမရပါ"
@@ -3873,15 +3875,15 @@ msgid "Create _this new account on the server"
 msgstr "_T ဤဆာဗာတွင် အကောင့်သစ် ဖန်တီးရန်"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Pidgin အတွက် အဖွင့်မီနူး တစ်ခု ဖန်တီးရန်"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "သုံးစွဲသူ တစ်ဦးချင်းအတွက် ဖိုင်တွဲ အသစ် တစ်ခု ဖန်တီးရန်"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "အလုပ်ခုံပေါ်တွင် Pidgin အတွက် ဖြတ်လမ်း တစ်ခု ဖန်တီးရန်"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "သုံးစွဲသူနှင့် ဆွေးနွေးခန်း ဖန်တီးရန်"
@@ -8194,13 +8196,6 @@ msgstr "Pidgin GTK+ Theme အထိန်း"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidgin အိုင်ကွန် Theme အယ်ဒီတာ"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin လက်ငင်း စာတိုပေးပို့စနစ် (လိုအပ်သည်)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "ပင်ဂျင်း အင်တာနက် မစ်ဆင်းဂျာ"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8217,19 +8212,21 @@ msgstr "Pidgin Theme အယ်ဒီတာ"
 msgid "Pidgin Theme Editor."
 msgstr "Pidgin Theme အယ်ဒီတာ။"
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgin လမ်းညွှန်စာ"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin သည် လိုက်ဖက်သော GTK+ Runtime (လောလောဆယ် ရှိနေသည့် ပုံမပေါ်ပါ) တစ်ခု "
-"လိုအပ်နေသည်။ .$\\r GTK+ Runtime ထည့်သွင်းမှုကို ကျော်သွားလိုသလား?"
 
-msgid "Pidgin smileys"
-msgstr "Pidgin ရုပ်ပြောင်များ"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "ဆက်သွယ်ရန်"
@@ -10055,8 +10052,8 @@ msgid "Shortcuts"
 msgstr "ဖြတ်လမ်းများ"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Pidgin စဖွင့်မည့် ဖြတ်လမ်းများ"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "ဖော်ပြရန်"
@@ -10960,14 +10957,17 @@ msgstr ""
 "အကယ်၍ ဖွင့်ထားပါက၊ \"ymsgr\" URLs ကို ကိုင်တွယ်ရာတွင် သုံးစွဲသော "
 "ညွှန်ကြားချက်။"
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Pidgin မိတ်ဆွေစာရင်း ပုံမှန် theme"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Pidgin ပုံမှန် အသံ theme"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Pidgin အနေအထားပြ အိုင်ကွန် ပုံမှန် theme"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11256,11 +11256,9 @@ msgid "The two PINs you entered do not match."
 msgstr "သင် ရေးထည့်သော PIN ၂ ခု ကိုက်ညီမှု မရှိပါ။"
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"uninstaller သည် Pidgin အတွက် registry entries ကို ရှာမတွေ့ပါ။$\\rIt အခြား "
-"သုံးစွဲသူသည် ဤဆော့ဝဲကို သွင်းထားခဲ့ခြင်း ဖြစ်နိုင်သည်။"
 
 #. Denied
 #, c-format
@@ -12340,11 +12338,9 @@ msgstr ""
 "ဖြစ်ရမည်။"
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"လက်ရှိ သွင်းထားသော Pidgin ဗားရှင်းကို ဖယ်ထုတ်၍ မရပါ။ လက်ရှိ သွင်းထားသော "
-"ဗားရှင်းကို မဖယ်ရှားပဲ ဗာရှင်းအသစ်ကို ထည့်သွင်းသွားမည်။"
 
 msgid "Unable to validate certificate"
 msgstr "အသိအမှတ်ပြုလွှာကို အတည်မပြုနိုင်ပါ"
@@ -12899,8 +12895,8 @@ msgid "Visible List"
 msgstr "မြင်နိုင်သော စာရင်း"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Pidgin ကွန်ရက် စာမျက်နှာကို သွားပါ"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "နှိပ်ပြီးသော Hyperlink အရောင်"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:46+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Albanian "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:03+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:48+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Albanian\n"
 
@@ -322,6 +322,10 @@ msgstr "Të dhëna Zhvilluesi %s"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "Të dhëna Shtojce %s"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1658,8 +1662,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Një version rrëshqitjeje vertikale për listë shokësh."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Një grupmjetesh ndërplatformësh GUI, i përdorur nga Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2214,11 +2218,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Shtojcë shembull që bën gjëra - shihni përshkrimin"
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Ka një instancë të Pidgin-it në xhirim e sipër.  Ju lutemi, dilni prej "
-"Pidgin-it dhe riprovoni."
 
 msgid "An internal MXit server error occurred."
 msgstr "Ndodhi një gabim i brendshëm shërbyesi MXit."
@@ -3754,8 +3756,8 @@ msgid "Cool Link 3"
 msgstr "Lidhje \"Cool\" 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Kartelat dhe dll-të bazë të Pidgin-it"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "S'mundi të ndryshojë nofkë"
@@ -3870,15 +3872,15 @@ msgid "Create _this new account on the server"
 msgstr "Krijo te shërbyesi _këtë llogari të re"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Krijo një zë Menuje Nisjeje për Pidgin-n"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Krijo drejtori të re për secilin përdorues"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Krijo në Desktop një shkurtire për Pidgin-in"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Hap konferencë me përdoruesin"
@@ -8181,14 +8183,6 @@ msgstr "Kontroll Teme Pidgin GTK+"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Përpunues Teme Ikonash Pidgin"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr ""
-"Klienti Pidgin për ShKëmbim Mesazhesh të Atypëratyshëm (i domosdoshëm)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin Internet Messenger"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8205,19 +8199,21 @@ msgstr "Përpunues Teme Pidgin"
 msgid "Pidgin Theme Editor."
 msgstr "Përpunues Teme Pidgin."
 
-msgid "Pidgin Tooltip"
-msgstr "Ndihmëza Pidgin-i"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin-i lyp një GTK+ Runtime (që nuk duket se e keni).$\\rJeni i sigurt që "
-"dëshironi të anashkaloni instalimin e GTK+ Runtime?"
 
-msgid "Pidgin smileys"
-msgstr "Emotikone Pidgin-i"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10054,8 +10050,8 @@ msgid "Shortcuts"
 msgstr "Shkurtore"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Shkurtore për nisjen e Pidgin-it"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Shfaq"
@@ -10963,14 +10959,17 @@ msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr ""
 "Urdhri i përdorur për të trajtuar URL-ra \"ymsgr\", në qoftë i aktivizuar."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Tema parazgjedhje e Pidgin-it për lista shokësh"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Tema parazgjedhje e Pidgin-it për tingujt"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Tema parazgjedhje e Pidgin-it për ikona gjendjeje"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11263,11 +11262,9 @@ msgid "The two PINs you entered do not match."
 msgstr "Dy PIN-et që dhatë nuk përputhen."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"instaluesi nuk gjeti dot zërat e regjistrit për Pidgin-in.$\\rKa gjasa që "
-"këtë zbatim ta ketë instaluar një përdorues tjetër."
 
 #. Denied
 #, c-format
@@ -12343,11 +12340,9 @@ msgstr ""
 "hapësira, ose të përmbajnë vetëm numra."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"I pazoti të çinstaloj versionin e tanishëm të Pidgin-it. Versioni i ri do të "
-"instalohet pa hequr versionin e tanishëm."
 
 msgid "Unable to validate certificate"
 msgstr "I pazoti të vleftësojë dëshmi"
@@ -12897,8 +12892,8 @@ msgid "Visible List"
 msgstr "Listë e Dukshme"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Vizitoni Faqen Web të Pidgin-it"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Ngjyrë Tejlidhjesh të Vizituara"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:18+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Lithuanian "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:21+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:08+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Lithuanian\n"
 
@@ -332,6 +332,10 @@ msgstr "%s Kūrėjų informacija"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "%s Įskiepio informacija"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1671,9 +1675,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Horizontalus slenkantis bičiulių sąrašo variantas."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
-"Daugiaplatforminis naudotojo sąsajos priemonių komplektas, naudojamas Pidgin."
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2223,11 +2226,9 @@ msgstr ""
 "Pavyzdinis papildinys, kuris daro šį bei tą – skaitykite jo aprašymą."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Šiuo metu Pidgin yra paleistas. Uždarykite šią programą ir pabandykite iš "
-"naujo."
 
 msgid "An internal MXit server error occurred."
 msgstr "Įvyko vidinė MXit serverio klaida."
@@ -3756,8 +3757,8 @@ msgid "Cool Link 3"
 msgstr "Puiki nuoroda 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Pagrindiniai Pidgin failai ir DLL bibliotekos"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Vardo pakeisti nepavyko"
@@ -3872,15 +3873,15 @@ msgid "Create _this new account on the server"
 msgstr "Sukur_ti šią naują paskyrą serveryje"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Sukurti pradinio meniu įrašą, skirtą Pidgin."
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Sukurti po naują aplanką kiekvienam naudotojui"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Sukurti nuorodą į Pidgin darbastalyje."
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Sukurti konferenciją su naudotoju"
@@ -8174,13 +8175,6 @@ msgstr "Pidgin GTK+ apipavidalinimo parinktys"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidgin piktogramų apipavidalinimo redaktorius"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin pokalbių kliento programa (būtina)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin pokalbiai internete"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8197,19 +8191,21 @@ msgstr "Pidgin apipavidalinimo redaktorius"
 msgid "Pidgin Theme Editor."
 msgstr "Pidgin apipavidalinimo redaktorius"
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgin mygtukų etiketės"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin reikalauja suderinamumo su GTK+ Runtime (kurio atrodo nėra).$\\rAr "
-"tikrai norite praleisti GTK+ Runtime diegimą?"
 
-msgid "Pidgin smileys"
-msgstr "Pidgin šypsenėlės"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Skimbtelėti"
@@ -10038,8 +10034,8 @@ msgid "Shortcuts"
 msgstr "Nuorodos"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Pidgin paleidimo nuorodos"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Rodyti"
@@ -10935,14 +10931,17 @@ msgstr "Komanda „xmpp“ universaliųjų adresų apdorojimui, jei aktyvuota."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "Komanda „ysmgr“ universaliųjų adresų apdorojimui, jei aktyvuota."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Numatytoji Pidgin bičiulių sąrašo tema"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Numatytoji Pidgin garsų tema"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Numatytoji Pidgin būsenos piktogramų tema"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11240,11 +11239,9 @@ msgid "The two PINs you entered do not match."
 msgstr "Jūsų įvesti PIN nesutampa."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Išdiegimo programa nerado Pidgin registro įrašų.$\\rTikėtina, kad progama "
-"buvo įdiegta kito naudotojo."
 
 #. Denied
 #, c-format
@@ -12312,11 +12309,9 @@ msgstr ""
 "raides, skaitmenis ir tarpus, arba turėti tik skaitmenis."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Nepavyko išdiegti anksčiau įdiegtos Pidgin versijos.  Nauja versija bus "
-"įdiegta neišdiegus senosios."
 
 msgid "Unable to validate certificate"
 msgstr "Nepavyko patikrinti liudijimo"
@@ -12865,8 +12860,8 @@ msgid "Visible List"
 msgstr "Matomų sąrašas"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Aplankyti Pidgin tinklalapį"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Aplankyhto hipersaito spalva"
