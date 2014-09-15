@@ -93,6 +93,7 @@ bazaar_download() {
     fi
 }
 download_irc_plugins() {
+    [[ -f "$1/pidgin/plugins/ircaway.c" && -f "$1/libpurple/plugins/irchelper.c" ]] && return
     echo "Integrating the irchelper and ircaway plugins"
     bazaar_download "pidgin-ircaway/trunk" "ircaway.tar.gz" "$1/pidgin/plugins" ircaway.c "$2"
     bazaar_download "purple-plugin-pack/irchelper" "irchelper.tar.gz" "$1/libpurple/plugins" irchelper.c "$2"
