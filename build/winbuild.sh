@@ -44,7 +44,7 @@
 ##         --staging=DIR    Staging directory, defaults to "pidgin.build".
 ##         --directory=DIR  Save result to DIR instead of default location
 ##                          (DEVELOPMENT_ROOT/distribution).
-##      -G, --custom-gcc     Use the downloaded GCC instead of system one.
+##     -G, --custom-gcc     Use the downloaded GCC instead of system one.
 ##
 ##         --color=SWITCH   Enable or disable colors in output. SWITCH is either
 ##                          on or off. Default is enabling for terminals.
