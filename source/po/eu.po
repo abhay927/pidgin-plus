@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: <en@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:07+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:51+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Basque\n"
 
@@ -300,6 +300,10 @@ msgstr ""
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1633,8 +1637,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Lagun-zerrendaren bertsio korrigarri horizontala."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Plataforma anitzeko GUI tresna-sorta, Pidgin-ek erabilia"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2181,9 +2185,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Plugin baten adibidea - ikus azalpena."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
-msgstr "Pidgin istantzia bat dago martxan. Pidgin itxi eta berriro saiatu."
+msgstr ""
 
 msgid "An internal MXit server error occurred."
 msgstr ""
@@ -3722,8 +3726,8 @@ msgid "Cool Link 3"
 msgstr "Esteka Bikaina 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Funtsezko Pidgin fitxategi eta dll-ak"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Ezin izan da ezizena aldatu"
@@ -3838,15 +3842,15 @@ msgid "Create _this new account on the server"
 msgstr "Kontu berri hau sortu _zerbitzarian"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Pidgin-entzako lasterbidea Abio-Menuan"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Direktorio berria sortu erabiltzaile bakoitzarentzat"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Pidgin-entzako lasterbidea Mahaigainean"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Erabiltzailerarekin konferentzia sortu"
@@ -8138,13 +8142,6 @@ msgstr "Pidgin GTK+ Gaien Kontrola"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidgin Ikono-Gaien Editorea"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin Istanteko Mezularitza Bezeroa (beharrezkoa)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin Internet-Mezularia"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8161,17 +8158,21 @@ msgstr "Pidgin Gai-Editorea"
 msgid "Pidgin Theme Editor."
 msgstr "Pidgin Gai-Editorea."
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgin Aholkua"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "Pidgin smiley-ak"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -9982,8 +9983,8 @@ msgid "Shortcuts"
 msgstr "Lasterbideak"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Pidgin abiarazteko lasterbideak"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Erakutsi"
@@ -10858,13 +10859,16 @@ msgstr "\"xmpp\" URLak kudeatzeko erabilitako agindua, gaituz gero."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "\"ymsgr\" URLak kudeatzeko erabilitako agindua, gaituz gero."
 
-msgid "The default Pidgin buddy list theme"
+#, c-format
+msgid "The default %s buddy list theme"
 msgstr ""
 
-msgid "The default Pidgin sound theme"
+#, c-format
+msgid "The default %s sound theme"
 msgstr ""
 
-msgid "The default Pidgin status icon theme"
+#, c-format
+msgid "The default %s status icon theme"
 msgstr ""
 
 #, c-format
@@ -11148,11 +11152,9 @@ msgid "The two PINs you entered do not match."
 msgstr ""
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Ezin izan dira Pidgin-en erregistro-sarrerak aurkitu.$\\rZiurrenik, beste "
-"erabiltzaile batek instalatu zuen aplikazio hau."
 
 #. Denied
 #, c-format
@@ -12219,11 +12221,9 @@ msgstr ""
 "zenbakiak bakarrik."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Ezin izan da jadanik instalatuta zegoen Pidgin bertsioa kendu. Aurreko "
-"bertsioa kendu gabe instalatuko da bertsio berria."
 
 msgid "Unable to validate certificate"
 msgstr "Ezin zertifikatua balioztatu"
@@ -12773,8 +12773,8 @@ msgid "Visible List"
 msgstr ""
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Pidgin Webgunera etorri"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Bisitatutako Hiperesteken Kolorea"

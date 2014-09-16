@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:19+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:06+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Kannada\n"
 
@@ -319,6 +319,10 @@ msgstr "%s ವಿಕಸನಗಾರರ ಮಾಹಿತಿ"
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1685,7 +1689,7 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "ಗೆಳೆಯರ ಪಟ್ಟಿಯ ಅಡ್ಡ ಚಲನಾ ಆವೃತ್ತಿ."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
 
 msgid ""
@@ -2239,7 +2243,7 @@ msgstr ""
 "ಆ ಕೆಲಸಗಳನ್ನು ನಿರ್ವಹಿಸುವ ಪ್ಲಗ್ಗಿನ್ನಿನ ಒಂದು ಉದಾಹರಣೆಗಾಗಿ - ಉದಾಹರಣೆಯನ್ನು ನೋಡಿ."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
 
@@ -3789,8 +3793,8 @@ msgid "Cool Link 3"
 msgstr "ಒಳ್ಳೆಯ ಕೊಂಡಿ ೩"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "ಪ್ರಮುಖ ಪಿಜಿನ್ ಕಡತಗಳು ಹಾಗು dllಗಳು"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "ಅಡ್ಡಹೆಸರನ್ನು ಬದಲಿಸಲು ಆಗಲಿಲ್ಲ"
@@ -3907,15 +3911,15 @@ msgid "Create _this new account on the server"
 msgstr "ಪರಿಚಾರಕದಲ್ಲಿ(ಸರ್ವರ್) ಈ ಖಾತೆಯನ್ನು ರಚಿಸಿ(_t)"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "ಪಿಜಿನ್‌ಗಾಗಿ ಒಂದು ಆರಂಭದ ಮೆನು ನಮೂದನ್ನು ರಚಿಸು"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "ಪ್ರತಿಯೊಬ್ಬ ಬಳಕೆದಾರರಿಗೂ ಒಂದು ಹೊಸ ಕೋಶವನ್ನು ರಚಿಸಿ"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "ಗಣಕತೆರೆಯಲ್ಲಿ ಪಿಜಿನ್‌ನ ಒಂದು ಶಾರ್ಟ-ಕಟ್‌ ಅನ್ನು ರಚಿಸು"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "ಬಳಕೆದಾರರೊಂದಿಗೆ ಸಮ್ಮೇಳನವನ್ನು ರಚಿಸಿ"
@@ -8236,13 +8240,6 @@ msgstr "ಪಿಜಿನ್ GTK+ ಪರಿಸರವಿನ್ಯಾಸ(ತೀಮ�
 msgid "Pidgin Icon Theme Editor"
 msgstr "ಪಿಜಿನ್ ಚಿಹ್ನೆ ಪರಿಸರವಿನ್ಯಾಸ(ತೀಮ್) ಸಂಪಾದಕ"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "ಪಿಜಿನ್ ಇನ್‌ಸ್ಟಂಟ್ ಮೆಸೇಜಿಂಗ್ ಕ್ಲೈಂಟ್ (ಅಗತ್ಯವಿದೆ)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "ಪಿಜಿನ್ ಇಂಟರ್ನೆಟ್ ಮೆಸೆಂಜರ್"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8259,17 +8256,21 @@ msgstr "ಪಿಜಿನ್ ಪರಿಸರವಿನ್ಯಾಸ(ತೀಮ್) �
 msgid "Pidgin Theme Editor."
 msgstr "ಪಿಜಿನ್ ಪರಿಸರವಿನ್ಯಾಸ(ತೀಮ್) ಸಂಪಾದಕ."
 
-msgid "Pidgin Tooltip"
-msgstr "ಪಿಜಿನ್ ಉಪಕರಣಸಲಹೆ"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "ಪಿಜಿನ್ ಸ್ಮೈಲಿಗಳು"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "ಪಿಂಗ್"
@@ -10112,8 +10113,8 @@ msgid "Shortcuts"
 msgstr "ಶಾರ್ಟ್-ಕಟ್‌ಗಳು"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "ಪಿಜಿನ್ ಅನ್ನು ಆರಂಭಿಸಲು ಶಾರ್ಟ್-ಕಟ್‌ಗಳು"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "ತೋರಿಸು"
@@ -11007,14 +11008,17 @@ msgstr "ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು \"x
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು \"ymsgr\" URLಗಳನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಪಿಜಿನ್ ಗೆಳೆಯರ ಪಟ್ಟಿಯ ಪರಿಸರವಿನ್ಯಾಸ"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಪಿಜಿನ್ ಧ್ವನಿ ಪರಿಸರವಿನ್ಯಾಸ"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಪಿಜಿನ್ ಸ್ಥಿತಿ ಚಿಹ್ನೆಯ ಪರಿಸರವಿನ್ಯಾಸ"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11305,8 +11309,8 @@ msgid "The two PINs you entered do not match."
 msgstr "ನೀವು ನಮೂದಿಸಿದ ಎರಡು PIN ತಾಳೆಯಾಗುತ್ತಿಲ್ಲ."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
 
 #. Denied
@@ -12399,7 +12403,7 @@ msgstr ""
 "ಅಂಕೆಗಳನ್ನು ಮಾತ್ರ ಹೊಂದಿರಬೇಕು."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
 
@@ -12951,8 +12955,8 @@ msgid "Visible List"
 msgstr ""
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "ಪಿಜಿನ್ ಜಾಲಪುಟಕ್ಕೆ ಭೇಟಿಕೊಡಿ"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "ಭೇಟಿ ನೀಡಲಾದ ಜಾಲಕೊಂಡಿಯ ಬಣ್ಣ"

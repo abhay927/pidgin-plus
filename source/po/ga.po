@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:14+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:59+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Irish\n"
 
@@ -337,6 +337,10 @@ msgstr "%s: Eolas le haghaidh Forbróirí"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "%s: Eolas faoi Bhreiseáin"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1685,8 +1689,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Leagan den liosta cairde a scrollaíonn go cothrománach."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Bosca uirlisí ilardáin GUI, úsáidte ag Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2242,10 +2246,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Breiseán samplach a dhéanann rudaí - féach an cur síos."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Tá Pidgin ar siúl faoi láthair. Scoir de Pidgin agus déan iarracht eile."
 
 msgid "An internal MXit server error occurred."
 msgstr "Tharla earráid inmheánach sa bhfreastalaí MXit."
@@ -3787,8 +3790,8 @@ msgid "Cool Link 3"
 msgstr "Nasc Suimiúil 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Bunchomhaid agus dll-anna Pidgin"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Níorbh fhéidir an leasainm a athrú"
@@ -3904,15 +3907,15 @@ msgid "Create _this new account on the server"
 msgstr "Cru_thaigh an cuntas nua ar an bhfreastalaí"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Cuir Pidgin sa Roghchlár Tosaithe"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Cruthaigh comhadlann nua do gach úsáideoir"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Cruthaigh nasc le Pidgin ar an Deasc"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Tosaigh glao comhdhála le húsáideoir"
@@ -8233,13 +8236,6 @@ msgstr "Rialú Téama GTK+ i bPidgin"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Eagarthóir Téama Deilbhíní Pidgin"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Cliant Teachtaireachtaí Meandaracha Pidgin (riachtanach)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Teachtaire Idirlín Pidgin"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8256,20 +8252,21 @@ msgstr "Eagarthóir Téamaí Pidgin"
 msgid "Pidgin Theme Editor."
 msgstr "Eagarthóir Téamaí Pidgin."
 
-msgid "Pidgin Tooltip"
-msgstr "Leid Pidgin"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Teastaíonn leabharlann ama rite GTK+ ó Phidgin (agus níl a leithéid ann de "
-"réir cosúlachta).$\\rAn bhfuil tú cinnte nár mhaith leat an leabharlann ama "
-"rite GTK+ a shuiteáil?"
 
-msgid "Pidgin smileys"
-msgstr "Straoiseoga Pidgin"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Pingigh"
@@ -10106,8 +10103,8 @@ msgid "Shortcuts"
 msgstr "Aicearraí"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Aicearraí chun Pidgin a thosú"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Taispeáin"
@@ -11013,14 +11010,17 @@ msgstr "An t-ordú chun URLanna \"xmpp\" a láimhseáil."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "An t-ordú chun URLanna \"ymsgr\" a láimhseáil."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Téama réamhshocraithe liostaí cairde le haghaidh Pidgin"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Téama réamhshocraithe fuaime le haghaidh Pidgin"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Téama réamhshocraithe deilbhíní stádais le haghaidh Pidgin"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11316,11 +11316,9 @@ msgid "The two PINs you entered do not match."
 msgstr "Ní ionann an dá UAP a chuir tú isteach."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Níorbh fhéidir leis an díshuiteálaí iontrálacha Pidgin a aimsiú sa "
-"chlárlann.$\\rIs dócha gurbh é úsáideoir eile a shuiteáil an feidhmchlár seo."
 
 #. Denied
 #, c-format
@@ -12410,11 +12408,9 @@ msgstr ""
 "litreacha, uimhreacha agus spásanna."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Ní féidir an leagan de Pidgin atá ann faoi láthair a dhíshuiteáil. "
-"Suiteálfar an leagan nua gan an seanleagan a dhíshuiteáil."
 
 msgid "Unable to validate certificate"
 msgstr "Ní féidir an teastas a bhailíochtú"
@@ -12962,8 +12958,8 @@ msgid "Visible List"
 msgstr "Liosta Infheicthe"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Déan cuairt ar Leathanach Gréasáin Pidgin"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Dath Hipearnasc Cliceáilte"

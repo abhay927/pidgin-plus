@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Estonian "
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:12+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:56+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Estonian\n"
 
@@ -306,6 +306,10 @@ msgstr "%s Arendaja Info"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "Plugina \"%s\" andmed"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1621,7 +1625,7 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Horisontalselt keriv versioon sõbranimekirjast."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
 
 msgid ""
@@ -2167,7 +2171,7 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Näidisplugin, mis teeb midagi - vaata kirjeldust."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
 
@@ -3689,7 +3693,7 @@ msgid "Cool Link 3"
 msgstr "Lahe viit nr 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
+msgid "Core Pidgin++ files and dlls"
 msgstr ""
 
 msgid "Could not change nick"
@@ -3801,15 +3805,15 @@ msgid "Create _this new account on the server"
 msgstr "See on _uus konto ja tuleb serverisse luua"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Pidgini jaoks Start menüü kirje loomine"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Iga kasutaja jaoks loodakse uus kataloog"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Pidgini jaoks töölauaviida loomine"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr ""
@@ -8071,13 +8075,6 @@ msgstr "Pidgini GTK+ teemajuhtija"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidgini ikooniteema redaktor"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr ""
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin, Interneti sõnumivahetus"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8094,17 +8091,21 @@ msgstr "Pidgini teemaredaktor"
 msgid "Pidgin Theme Editor."
 msgstr "Pidgini teemaredaktor."
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgini vihje"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "Pidgini tujunäod"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -9895,8 +9896,8 @@ msgid "Shortcuts"
 msgstr "Otseteed"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Otseteed Pidgini käivituseks"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Näita"
@@ -10764,14 +10765,17 @@ msgstr "\"xmpp\" URL-ide käsitlemise käsk (kui on lubatud)."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "\"ymsgr\" URL-ide käsitlemise käsk (kui on lubatud)."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Pidgini sõbranimekirja vaikimisi teema"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Pidgini vaikimisi heliteema"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Pidgini olekuikooni vaikimisi teema"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11029,11 +11033,9 @@ msgid "The two PINs you entered do not match."
 msgstr "Sinu sisestatud PIN-id ei klapi omavahel."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Eemaldamisprogrammil pole võimalik Pidgini registrivõtmed leida.$\\rPaistab "
-"sedamoodi, et selle rakenduse on paigaldanud mõni teine kasutaja."
 
 #. Denied
 #, c-format
@@ -12071,11 +12073,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Käesolevat Pidgini versiooni ei õnnestu eemaldada. Uus versioon "
-"paigaldatakse hetkel paigaldatud versiooni eemaldamiseta."
 
 msgid "Unable to validate certificate"
 msgstr "Sertifikaati pole võimalik valideerida"
@@ -12622,8 +12622,8 @@ msgid "Visible List"
 msgstr ""
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Külasta Pidgini kodulehekülge"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Külastatud hüperviida värvus"

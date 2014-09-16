@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -50,7 +50,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:10+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:54+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Danish\n"
 "X-Poedit-Language: Danish\n"
@@ -355,6 +355,10 @@ msgstr "Udviklerinformation om %s"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "%s udvidelsesinformation"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1691,10 +1695,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "En vandret rullende version af vennelisten."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
-"Et udviklingsværktøj til grafiske grænseflader på tværs af platforme, som "
-"bruges af Pidgin"
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2243,11 +2245,9 @@ msgstr ""
 "Et eksempel-udvidelsesmodul, der gør forskellige ting - se beskrivelsen."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Der kører allerede en instans af Pidgin. Vær venlig at afslutte Pidgin og "
-"prøv igen."
 
 msgid "An internal MXit server error occurred."
 msgstr "Der opstod en intern MXit-serverfejl."
@@ -3781,8 +3781,8 @@ msgid "Cool Link 3"
 msgstr "Sej henvisning 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Pidgins kernefiler og -biblioteker"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Kunne ikke ændre alias"
@@ -3896,15 +3896,15 @@ msgid "Create _this new account on the server"
 msgstr "Opret _denne nye konto på serveren"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Opret Pidgin i startmenuen"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Opret et ny mappe for hver bruger"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Opret en genvej til Pidgin på skrivebordet"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Opret konference med bruger"
@@ -8204,13 +8204,6 @@ msgstr "GTK+-temakontrol til Pidgin"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidgins ikontemaredigering"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin - klient til internetbeskeder (nødvendig)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin - Internetbeskeder"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8227,20 +8220,21 @@ msgstr "Pidgins temaredigering"
 msgid "Pidgin Theme Editor."
 msgstr "Pidgins temaredigering."
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgin-værktøjstip"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin har brug for et kompatibelt GTK+-kørselsmiljø (hvilket ikke ser ud "
-"til at være til stede).$\\rEr du sikker på at du vil spring installeringen "
-"af et GTK+-kørselsmiljø over?"
 
-msgid "Pidgin smileys"
-msgstr "Pidgin-smileyer"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10058,8 +10052,8 @@ msgid "Shortcuts"
 msgstr "Genveje"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Genveje til at starte Pidgin"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Vis"
@@ -10955,14 +10949,17 @@ msgstr "Kommandoen til at håndtere \"xmpp\"-adresser, hvis aktiveret."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "Kommandoen til at håndtere \"ymsgr\"-adresser, hvis aktiveret."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Pidgins standardtema til venneliste"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Pidgins standardlydtema"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Pidgins standard-statusikontema"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11254,11 +11251,9 @@ msgid "The two PINs you entered do not match."
 msgstr "De to indtastede PIN-koder er ikke ens."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Afinstallationen kunne ikke finde Pidgin i registreringsdatabasen.$\\rEn "
-"anden bruger har sandsynligvis installeret dette program."
 
 # "them" lader til at være politisk korrekt for "him/her"
 #. Denied
@@ -12331,11 +12326,9 @@ msgstr ""
 "og kun indeholde bogstaver, tal eller mellemrum, eller kun indeholde tal."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Kan ikke afinstallere den nuværende version af Pidgin. Den nye version vil "
-"blive installeret uden at fjerne den nuværende version."
 
 msgid "Unable to validate certificate"
 msgstr "Gyldigheden af certifikatet kunne ikke fastslås"
@@ -12883,8 +12876,8 @@ msgid "Visible List"
 msgstr "Synlige-listen"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Besøg Pidgins hjemmeside"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Farve på besøgt henvisning"

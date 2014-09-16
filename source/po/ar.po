@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:15+0000\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
 "3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:05+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:49+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Arabic\n"
 "X-Poedit-Language: Arabic\n"
@@ -332,6 +332,10 @@ msgstr ""
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1639,8 +1643,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "نسخة من قائمة الأصدقاء تمتد أفقيا."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "عدّة واجهة رسوميّة متعددة المنصات، يستخدمها بِدْجِن."
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2165,9 +2169,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "ملحقة نموذجية تقوم ببعض الأشياء - انظر الوصف."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
-msgstr "بِدْجِن يعمل حاليا.  من فضلك أغلق بِدْجن ثم أعد المحاولة."
+msgstr ""
 
 msgid "An internal MXit server error occurred."
 msgstr ""
@@ -3683,8 +3687,8 @@ msgid "Cool Link 3"
 msgstr "رابط رائع 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "و ملفات لُب بِدْجِن dll"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "تعذّر تغيير الكنية"
@@ -3797,15 +3801,15 @@ msgid "Create _this new account on the server"
 msgstr "أنشئ _هذا الحساب الجديد على الخادوم"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "أنشئ مُدخلة لبدجن في قائمة ابدأ"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "أنشيء دليلا جديدا لكل مستخدم"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "أنشئ اختصارا لبِدْجِن على سطح المكتب"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "أقم اجتماعا مع المستخدم"
@@ -8065,13 +8069,6 @@ msgstr "تحكمات تيمات جتك+ لبِدْجِن"
 msgid "Pidgin Icon Theme Editor"
 msgstr ""
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "عميل التراسل الفوري بِدْجِن (مطلوب)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "مرسال الإنترنت بِدْجِن"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8088,17 +8085,21 @@ msgstr ""
 msgid "Pidgin Theme Editor."
 msgstr ""
 
-msgid "Pidgin Tooltip"
-msgstr "تلميحة بِدْجِن"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "بسمات بِدْجِن"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "بِنْج"
@@ -9871,8 +9872,8 @@ msgid "Shortcuts"
 msgstr "الاختصارات"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "اختصارات لبدأ بِدْجِن"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "أظهر"
@@ -10752,13 +10753,16 @@ msgstr "الأمر المستخدم لمعالجة مسارات \"xmpp\"، في 
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "الأمر المستخدم لمعالجة مسارات \"ymsgr\"، في حال تمكينها."
 
-msgid "The default Pidgin buddy list theme"
+#, c-format
+msgid "The default %s buddy list theme"
 msgstr ""
 
-msgid "The default Pidgin sound theme"
+#, c-format
+msgid "The default %s sound theme"
 msgstr ""
 
-msgid "The default Pidgin status icon theme"
+#, c-format
+msgid "The default %s status icon theme"
 msgstr ""
 
 #, c-format
@@ -11039,11 +11043,9 @@ msgid "The two PINs you entered do not match."
 msgstr ""
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"لم يُعثر المثبت على خانات السجل الخاصة ببدجن.$\\rغالبا ثبت هذا البرنامج "
-"مستخدم آخر."
 
 #. Denied
 #, c-format
@@ -12067,11 +12069,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"تعذّر إزالة نسخة بدجن المثبّتة. ثتُثبّت النسخة الحديثة بدون إزالة النسخة "
-"المثبّتة مسبقا."
 
 msgid "Unable to validate certificate"
 msgstr ""
@@ -12612,8 +12612,8 @@ msgid "Visible List"
 msgstr ""
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "قم بزيارة صفحة بدجن على الوِب"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "لون الروابط الفائقة المزارة"

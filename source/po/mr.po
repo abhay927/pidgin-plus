@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:13+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Marathi <maajhe-sanganak@freelists.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:23+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:10+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Marathi\n"
 
@@ -313,6 +313,10 @@ msgstr "%s डेव्हलपर माहिती"
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1641,7 +1645,7 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "बड्डी यादीची आडव्या स्वरूपातील सरकणारी आवृत्ती."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
 
 msgid ""
@@ -2194,7 +2198,7 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "अस्सल गुणधर्म असलेले प्लगईनचे उदहारण  - विवरण पहा."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
 
@@ -3726,7 +3730,7 @@ msgid "Cool Link 3"
 msgstr "स्थिर दुवा 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
+msgid "Core Pidgin++ files and dlls"
 msgstr ""
 
 msgid "Could not change nick"
@@ -3842,14 +3846,14 @@ msgid "Create _this new account on the server"
 msgstr "सर्व्हर वरील नवीन खाते निर्माण करा (_t)"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
+msgid "Create a Start Menu entry for Pidgin++"
 msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "प्रत्येक वापरकर्त्यासाठी नवीन डिरेक्ट्री निर्माण करा"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
 msgstr ""
 
 msgid "Create conference with user"
@@ -8133,13 +8137,6 @@ msgstr "Pidgin GTK+ विषय नियंत्रण"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidgin चिन्ह कल्पना संपादक"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr ""
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin इंटरनेट संदेशवाहक"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8156,17 +8153,21 @@ msgstr "Pidgin कल्पना संपादक"
 msgid "Pidgin Theme Editor."
 msgstr "Pidgin कल्पना संपादक."
 
-msgid "Pidgin Tooltip"
-msgstr "idgin टूलटिप"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "Pidgin स्माईलीज्"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "पिंग"
@@ -9979,7 +9980,7 @@ msgid "Shortcuts"
 msgstr ""
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
+msgid "Shortcuts for starting Pidgin++"
 msgstr ""
 
 msgid "Show"
@@ -10856,14 +10857,17 @@ msgstr "जर सक्षम असेल, तर  \"xmpp\" URLs ना हा
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "जर सक्षम असेल, तर   \"ymsgr\" URLs ना हाताळण्यासाठी वापरलेले आदेश."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "पूर्वनिर्धारीत Pidgin बड्डी सूची कल्पना"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "पूर्वनिर्धारीत Pidgin आवाज कल्पना"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "पूर्वनिर्धारीत Pidgin स्थिती चिन्ह कल्पना"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11150,8 +11154,8 @@ msgid "The two PINs you entered do not match."
 msgstr "दिलेले दोन PINs जुळत नाही."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
 
 #. Denied
@@ -12216,7 +12220,7 @@ msgstr ""
 "क्रमांक व स्पेसेस, किंवा फक्त क्रमांक समाविष्टीत असायला हवे."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
 
@@ -12766,7 +12770,7 @@ msgid "Visible List"
 msgstr ""
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
+msgid "Visit the Pidgin++ webpage"
 msgstr ""
 
 msgid "Visited Hyperlink Color"

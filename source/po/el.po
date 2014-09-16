@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:52+0000\n"
 "Last-Translator: Panos Bouklis <panos@echidna-band.com>\n"
 "Language-Team: Greek "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:15+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:00+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Greek\n"
 
@@ -328,6 +328,10 @@ msgstr "Πληροφορίες υπεύθυνων ανάπτυξης του %s"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "Πληροφορίες προσθέτου %s"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1684,10 +1688,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Μία οριζόντια έκδοση της λίστας φίλων."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
-"Μία εργαλειοθήκη GUI για πολλές πλατφόρμες, η οποία χρησιμοποιείται από το "
-"Pidgin"
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2254,11 +2256,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Ένα πρόσθετο-παράδειγμα που κάνει διάφορα - βλέπε περιγραφή."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Τρέχει ήδη ένα στιγμιότυπο του Pidgin.  Παρακαλούμε κλείστε το Pidgin και "
-"δοκιμάστε ξανά."
 
 msgid "An internal MXit server error occurred."
 msgstr "Συνέβη ένα εσωτερικό σφάλμα εξυπηρετητή MXit."
@@ -3809,8 +3809,8 @@ msgid "Cool Link 3"
 msgstr "Προτεινόμενος σύνδεσμος 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Κύρια αρχεία και dll του Pidgin"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Δεν ήταν δυνατή η αλλαγή του ψευδωνύμου"
@@ -3926,15 +3926,15 @@ msgid "Create _this new account on the server"
 msgstr "Δημιουργία αυτού του νέου _λογαριασμού στον εξυπηρετητή"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Δημιουργία εγγραφής για το Pidgin στο μενού Έναρξη"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Δημιουργία ενός νέου καταλόγου για κάθε χρήστη"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Δημιουργία συντόμευσης του Pidgin στην Επιφάνεια Εργασίας"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Δημιουργία συζήτησης με το χρήστη"
@@ -8260,13 +8260,6 @@ msgstr "Έλεγχος θεμάτων Pidgin GTK+"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Έλεγχος θεμάτων εικονιδίων Pidgin"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Πελάτης άμεσων μηνυμάτων Pidgin (απαιτείται)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Αποστολέας μηνυμάτων διαδικτύου Pidgin"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8283,19 +8276,21 @@ msgstr "Επεξεργαστής θεμάτων Pidgin"
 msgid "Pidgin Theme Editor."
 msgstr "Επεξεργαστής θεμάτων Pidgin"
 
-msgid "Pidgin Tooltip"
-msgstr "Συμβουλές Pidgin"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Το Pidgin απαιτεί ένα συμβατό GTK+ Runtime (το οποίο δε φαίνεται να "
-"υπάρχει).$\\rΘέλετε σίγουρα να παραλείψετε την εγκατάσταση του GTK+ Runtime;"
 
-msgid "Pidgin smileys"
-msgstr "Φατσούλες Pidgin"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10158,8 +10153,8 @@ msgid "Shortcuts"
 msgstr "Συντομεύσεις"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Συντομεύσεις για την εκκίνηση του Pidgin"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Εμφάνιση"
@@ -11083,14 +11078,17 @@ msgstr ""
 "Η εντολή που χρησιμοποιείται για τη διαχείριση των \"ymsgr\" URLs, αν είναι "
 "ενεργοποιημένα."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Το προεπιλεγμένο θέμα της λίστας φίλων Pidgin"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Το προεπιλεγμένο θέμα ήχων του Pidgin"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Το προεπιλεγμένο θέμα εικονιδίων κατάστασης του Pidgin"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11386,11 +11384,9 @@ msgid "The two PINs you entered do not match."
 msgstr "Τα δύο PIN που εισάγατε δεν ταιριάζουν."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Η απεγκατάσταση δεν μπόρεσε να βρει εγγραφές μητρώου για το Pidgin.$\\rΕίναι "
-"πιθανό ένας άλλος χρήστης να εγκατέστησε αυτή την εφαρμογή."
 
 #. Denied
 #, c-format
@@ -12490,11 +12486,9 @@ msgstr ""
 "κενά, είτε να περιέχουν μόνο αριθμούς."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Αδυναμία απεγκατάστασης της ήδη εγκατεστημένης έκδοσης του Pidgin. Η νέα "
-"έκδοση θα εγκατασταθεί χωρίς να γίνει αφαίρεση της τρέχουσας έκδοσης."
 
 msgid "Unable to validate certificate"
 msgstr "Αδυναμία επιβεβαίωσης του πιστοποιητικού"
@@ -13047,8 +13041,8 @@ msgid "Visible List"
 msgstr "Ορατή λίστα"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Επίσκεψη της ιστοσελίδας του Pidgin"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Χρώμα υπερσυνδέσμου που έχετε επισκεφτεί"

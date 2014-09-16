@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:51+0000\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@canonical.com>\n"
 "Language-Team: \n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:12+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:57+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Finnish\n"
 
@@ -322,6 +322,10 @@ msgstr "%s – kehittäjätiedot"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "%s – liitännäisen tiedot"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1656,8 +1660,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Vaakatasossa rullaava versio tuttavista."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Pidginin käyttämä monialustainen käyttöliittymäkirjasto"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2201,10 +2205,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Esimerkkiliitännäinen joka tekee jotain - katso kuvaus."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Pidgin on tällä hetkellä käynnissä. Poistu Pidginistä ja yritä uudelleen."
 
 msgid "An internal MXit server error occurred."
 msgstr ""
@@ -3735,8 +3738,8 @@ msgid "Cool Link 3"
 msgstr "Linkki 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Pidginin ytimen tiedostot ja kirjastot"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Ei kyetty muuttamaan kutsumanimeä"
@@ -3851,15 +3854,15 @@ msgid "Create _this new account on the server"
 msgstr "Luo _tämä uusi käyttäjätili palvelimelle"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Tee Pidgin-pikakuvake käynnistysvalikkoon"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Luo uusi hakemisto jokaiselle käyttäjälle"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Tee Pidgin-pikakuvake työpöydälle"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Aloita neuvottelu käyttäjän kanssa"
@@ -8153,13 +8156,6 @@ msgstr "Pidgin GTK+-teemanhallinta"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidginin kuvaketeemaeditori"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin-pikaviestin (vaaditaan)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin-pikaviestin"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8176,17 +8172,21 @@ msgstr "Pidginin teemaeditori"
 msgid "Pidgin Theme Editor."
 msgstr "Pidginin teemaeditori."
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgin-työkaluvihje"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "Pidgin-hymiöt"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -9993,8 +9993,8 @@ msgid "Shortcuts"
 msgstr "Pikakuvakkeet"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Pikakuvakkeet Pidginin käynnistämiseksi"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Näytä"
@@ -10870,14 +10870,17 @@ msgstr "Komento jota käytetään \"xmpp\"-URLien käsittelyyn, jos käytössä.
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "Komento jota käytetään \"ymsgr\"-URLien käsittelyyn, jos käytössä."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Pidginin oletustuttavaluetteloteema"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Pidginin oletusääniteema"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Pidginin oletustilakuvaketeema"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11161,11 +11164,9 @@ msgid "The two PINs you entered do not match."
 msgstr ""
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Asennuksen poistaja ei löytänyt rekisteristä tietoja Pidginista.$\\rOn "
-"todennäköistä että joku muu käyttäjä on asentanut ohjelman."
 
 #. Denied
 #, c-format
@@ -12230,7 +12231,7 @@ msgstr ""
 "numeroita."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
 
@@ -12780,8 +12781,8 @@ msgid "Visible List"
 msgstr "Näkyvissä (keille)"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Vieraile Pidginin WWW-sivustolla"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Vieraillun hyperlinkin väri"

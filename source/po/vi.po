@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CVS Version of Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Nguyen Vu Hung <vuhung16plus@gmail.com>\n"
 "Language-Team: Du an MOST <du-an-most@lists.hanoilug.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:36+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:26+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Vietnamese\n"
 
@@ -308,6 +308,10 @@ msgstr "Thông tin nhà phát triển %s"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "Thông tin plugin %s"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1634,8 +1638,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Thanh cuộn ngang danh sách bạn bè."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Bộ công cụ GUI hỗ trợ nhiều hệ điều hành, được dùng bởi Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2186,9 +2190,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Một phần bổ sung thí dụ mà làm gì — xem mô tả."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
-msgstr "Một thực thể Pidgin đang chạy. Hãy tắt Pidgin và thử lại."
+msgstr ""
 
 msgid "An internal MXit server error occurred."
 msgstr "Gặp một lỗi máy phục vụ MXit nội bộ."
@@ -3722,8 +3726,8 @@ msgid "Cool Link 3"
 msgstr "Liên kết ưa thích 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Tệp và dll chính của Pidgin Core."
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Không thể thay đổi tên hiệu"
@@ -3837,15 +3841,15 @@ msgid "Create _this new account on the server"
 msgstr "_Tạo tài khoản mới này trên máy phục vụ"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Tạo Thực đơn Khởi động cho Pidgin"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Tạo một thư mục mới cho mỗi người dùng"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Tạo lối tắt cho Pidgin trên Màn hình nền"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Tạo cuộc hội thảo với người dùng"
@@ -8155,13 +8159,6 @@ msgstr "Điều khiển sắc thái GTK+ Pidgin"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Bộ Sửa Sắc thái Biểu tượng Pidgin"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Tin nhắn Pidgin (bắt buộc)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Tin Nhắn Pidgin"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8178,19 +8175,21 @@ msgstr "Bộ Sửa Sắc thái Pidgin"
 msgid "Pidgin Theme Editor."
 msgstr "Bộ Sửa Sắc thái Pidgin."
 
-msgid "Pidgin Tooltip"
-msgstr "Gợi ý Công cụ Pidgin"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin đòi hỏi GTK+ Runtime tương thích (có vẻ như chưa cài đặt).$\\r Bạn "
-"muốn bỏ không cài GTK+ Runtime?"
 
-msgid "Pidgin smileys"
-msgstr "Hình cười Pidgin"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 # Name: don't translate/Tên: đừng dịch
 msgid "Ping"
@@ -10001,8 +10000,8 @@ msgid "Shortcuts"
 msgstr "Lối tắt"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Lối tắt khởi động Pidgin"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Hiện"
@@ -10878,14 +10877,17 @@ msgstr "Lệnh dùng để quản lý địa chỉ URL « xmpp », nếu bật."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "Lệnh dùng để quản lý địa chỉ URL « ymsgr », nếu bật."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Sắc thái danh sách bạn chát Pidgin mặc định"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Sắc thái âm thanh Pidgin mặc định"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Sắc thái biểu tượng trạng thái Pidgin mặc định"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11170,11 +11172,9 @@ msgid "The two PINs you entered do not match."
 msgstr "Bạn đã gõ hai mã PIN không trùng."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Trình gỡ bỏ phần mềm không tìm thấy registry cho Pidgin.$\\r Có vẻ rằng một "
-"người dùng khác đã cài chương trình này."
 
 #. Denied
 #, c-format
@@ -12244,11 +12244,9 @@ msgstr ""
 "chứa chữ cái, chữ số và khoảng trống, hoặc chỉ chứa chữ số."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Không thể gỡ bỏ Pidgin. Sẽ cài song song, không gỡ bỏ phiên bản Pidgin hiện "
-"tại."
 
 msgid "Unable to validate certificate"
 msgstr "Không thể thẩm tra chứng nhận"
@@ -12794,8 +12792,8 @@ msgid "Visible List"
 msgstr "Danh sách hiện"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Tới trang chủ của Pidgin"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Màu siêu liên kết đã thăm"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: dvx <david@konstrukce-cad.com>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:10+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:54+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Czech\n"
 
@@ -325,6 +325,10 @@ msgstr "Informace o vývojářích %s"
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1648,8 +1652,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Vodorovně se posunující verze seznamu kamarádů."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Multi-platform GUI toolkit používaný Pidginem"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2193,10 +2197,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Ukázkový zásuvný modul, který něco dělá - viz popis."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Pidgin je aktuálně spuštěn. Prosím ukončete Pidgin a zkuste to znovu."
 
 msgid "An internal MXit server error occurred."
 msgstr "Došlo k vnitřní chybě MXit serveru."
@@ -3724,8 +3727,8 @@ msgid "Cool Link 3"
 msgstr "Skvělý odkaz 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Základní soubory a DLL pro Pidgin"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Nemohu změnit přezdívku"
@@ -3839,15 +3842,15 @@ msgid "Create _this new account on the server"
 msgstr "Vytvořit _tento nový účet na serveru"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Vytvořit položku v menu Start pro Pidgin"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Vytvořit nový adresář pro každého uživatele"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Vytvořit zástupce na ploše pro Pidgin"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Vytvořit konferenci s uživatelem"
@@ -8132,13 +8135,6 @@ msgstr "Ovládání tématu GTK+ Pidginu"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Editor témat ikon Pidgina"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin Instant Messaging Client (nutné)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin Internet Messenger"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8155,19 +8151,21 @@ msgstr "Editor témat Pidgina"
 msgid "Pidgin Theme Editor."
 msgstr "Editor témat Pidgina."
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgin tipy"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin potřebuje kompatabilní GTK+ Runtime (vypadá to, že momentálně "
-"chybí).$\\rJste si jistí přeskočením instalace GTK+ Runtime?"
 
-msgid "Pidgin smileys"
-msgstr "Smajlíky Pidginu"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -9974,8 +9972,8 @@ msgid "Shortcuts"
 msgstr "Zástupci"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Zástupce pro spuštění Pidgin"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Zobrazit"
@@ -10856,14 +10854,17 @@ msgstr "Příkaz používaný pro obsluhu URL \"xmpp\", je-li povolen."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "Příkaz používaný pro obsluhu URL \"ymsgr\", je-li povolen."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Výchozí téma seznamu kamarádů Pidgina"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Výchozí zvukové téma Pidgina"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Výchozí téma stavových ikon Pidgina"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11153,11 +11154,9 @@ msgid "The two PINs you entered do not match."
 msgstr "PINy nesouhlasí."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Odinstalční proces nemůže najít záznamy pro Pidgin v registrech.$\\"
-"rPravděpodobně instalaci této aplikace provedl jiný uživatel."
 
 #. Denied
 #, c-format
@@ -12215,11 +12214,9 @@ msgstr ""
 "jen číslice, písmena a mezery, nebo obsahovat jen číslice."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Nemohu odinstalovat aktuálně nainstalovanou verzi Pidgin. Nová verze bude "
-"nainstalována bez odstranění aktuálně nainstalované verze."
 
 msgid "Unable to validate certificate"
 msgstr "Nemohu ověřit certifikát"
@@ -12764,8 +12761,8 @@ msgid "Visible List"
 msgstr "Seznam viditelných"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Navštívit Pidgin Web Page"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Barva navštívených odkazů"

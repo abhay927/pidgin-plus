@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Romanian "
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
 "== 0) && (n != 0))) ? 2: 1));\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:28+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:17+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Romanian\n"
 
@@ -331,6 +331,10 @@ msgstr "Informații despre dezvoltatorii %s"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "Detalii despre modulul %s"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1683,8 +1687,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "O versiune glisantă pe orizontală a listei de contacte."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Un mediu de dezvoltare multiplatformă utilizat de Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2232,11 +2236,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Un exemplu funcțional de modul - a se vedea descrierea."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"O instanţă a programului Pidgin este deja pornită. Închideţi-o şi încercaţi "
-"din nou."
 
 msgid "An internal MXit server error occurred."
 msgstr "A apărut o eroare internă de server MXit."
@@ -3770,8 +3772,8 @@ msgid "Cool Link 3"
 msgstr "Adresă interesantă 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Fişiere Pidgin şi dll-uri"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Nu s-a putut schimba pseudonimul"
@@ -3886,15 +3888,15 @@ msgid "Create _this new account on the server"
 msgstr "Creează acest _nou cont pe server"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Creează o intrare Pidgin în meniul Start"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Creează un nou director pentru fiecare utilizator"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Creează iconiţe Pidgin pe Desktop"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Inițializați o conferință cu acest utilizator"
@@ -8200,13 +8202,6 @@ msgstr "Modificare a temei GTK+ în Pidgin"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Editor de teme de iconițe Pidgin"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Clientul de mesagerie instant Pidgin (obligatoriu)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Mesagerul Pidgin"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8223,19 +8218,21 @@ msgstr "Editor de teme Pidgin"
 msgid "Pidgin Theme Editor."
 msgstr "Editor de teme Pidgin."
 
-msgid "Pidgin Tooltip"
-msgstr "Indiciu Pidgin"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin necesită o instalare GTK+ compatibilă (care nu pare să fie prezentă "
-"deja).$\\rSigur doriţi să omiteţi instalarea bibliotecilor GTK+?"
 
-msgid "Pidgin smileys"
-msgstr "Iconițe simbolice Pidgin"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10056,8 +10053,8 @@ msgid "Shortcuts"
 msgstr "Scurtături"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Scurtături pentru pornirea Pidgin"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Arată"
@@ -10954,14 +10951,17 @@ msgstr "Comanda utilizată pentru URL-urile „xmpp”, în caz de activare"
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "Comanda utilizată pentru URL-urile „ymsgr”, în caz de activare"
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Tema implicită Pidgin pentru lista de contacte"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Tema implicită Pidgin pentru sunete"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Tema implicită Pidgin pentru iconița de stare"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11258,11 +11258,9 @@ msgid "The two PINs you entered do not match."
 msgstr "Cele două PIN-uri introduse nu se potrivesc."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Programul de dezinstalare nu a găsit intrări Pidgin în regiştri.$\\rProbabil "
-"un alt utilizator a instalat această aplicaţie."
 
 #. Denied
 #, c-format
@@ -12336,11 +12334,9 @@ msgstr ""
 "numere."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Nu s-a putut dezinstala versiunea curent instalată de Pidgin. Noua versiune "
-"va fi instalată peste versiunea curent instalată."
 
 msgid "Unable to validate certificate"
 msgstr "Nu s-a putut valida certificatul"
@@ -12889,8 +12885,8 @@ msgid "Visible List"
 msgstr "Listă de vizibilitate"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Vizitaţi pagina de web Pidgin"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Culoarea adresei web vizitate"

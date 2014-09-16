@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:28+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Asturian "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:06+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 07:50+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Asturian\n"
 
@@ -288,6 +288,10 @@ msgstr ""
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1563,7 +1567,7 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr ""
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
 
 msgid ""
@@ -2082,7 +2086,7 @@ msgid "An example plugin that does stuff - see the description."
 msgstr ""
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
 
@@ -3602,8 +3606,8 @@ msgid "Cool Link 3"
 msgstr ""
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Ficheros del nucleu Pidgin y DLLs"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Nun pudo camudase l'alcuñu"
@@ -3712,15 +3716,15 @@ msgid "Create _this new account on the server"
 msgstr "Crear _esta nueva cuenta nel sirvidor"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Crear una entrada nel menú d'aniciu pa Pidgin"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Crear un cartafueyu nuevu pa cada usuariu"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Crear un atayu nel escritoriu pa Pidgin"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Crear conferencia col usuariu"
@@ -7954,13 +7958,6 @@ msgstr ""
 msgid "Pidgin Icon Theme Editor"
 msgstr "Editor d'iconos de tema Pidgin"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Veceru de mensaxería nel intre Pidgin (requeríu)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Mensaxeru d'internet Pidgin"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -7977,16 +7974,20 @@ msgstr "Editor de temes Pidgin"
 msgid "Pidgin Theme Editor."
 msgstr "Editor de temes Pidgin."
 
-msgid "Pidgin Tooltip"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
 msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
+msgid "Pidgin++ smileys"
 msgstr ""
 
 msgid "Ping"
@@ -9780,7 +9781,7 @@ msgid "Shortcuts"
 msgstr "Atayos"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
+msgid "Shortcuts for starting Pidgin++"
 msgstr ""
 
 msgid "Show"
@@ -10650,13 +10651,16 @@ msgstr "El comandu usáu pa remanar enllaces \"xmpp\", si ta habilitáu."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "El comandu usáu pa remanar enllaces \"ymsgr\", si ta habilitáu."
 
-msgid "The default Pidgin buddy list theme"
+#, c-format
+msgid "The default %s buddy list theme"
 msgstr ""
 
-msgid "The default Pidgin sound theme"
+#, c-format
+msgid "The default %s sound theme"
 msgstr ""
 
-msgid "The default Pidgin status icon theme"
+#, c-format
+msgid "The default %s status icon theme"
 msgstr ""
 
 #, c-format
@@ -10916,8 +10920,8 @@ msgid "The two PINs you entered do not match."
 msgstr "Los dos PINS que punxisti nun coinciden."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
 
 #. Denied
@@ -11950,7 +11954,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
 
@@ -12493,8 +12497,8 @@ msgid "Visible List"
 msgstr "Llista visible"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Visitar la páxina web de Pidgin"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr ""

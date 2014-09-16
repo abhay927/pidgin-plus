@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:06+0000\n"
 "Last-Translator: Adolfo Jayme <fitoschido@gmail.com>\n"
 "Language-Team: Spanish team <es@li.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:31+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:21+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Spanish\n"
 "X-POFile-SpellExtra: LRO LRM Nepalés Secret lx multi\n"
@@ -371,6 +371,10 @@ msgstr "Información de desarrollo de %s"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "Información del complemento %s"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1721,8 +1725,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Una versión horizontal deslizante de la lista de amigos."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Una suite de herramientas GUI multi-plataforma, utilizada por Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2278,11 +2282,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Un ejemplo de complemento que hace cosas - consulte la descripción."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Ya hay una instancia de Pidgin ejecutándose. Por favor, salga de Pidgin e "
-"inténtelo de nuevo."
 
 msgid "An internal MXit server error occurred."
 msgstr "Se produjo un error interno en el servidor MXit."
@@ -3827,8 +3829,8 @@ msgid "Cool Link 3"
 msgstr "Enlace interesante 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Ficheros y dlls principales de Core"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "No se pudo cambiar el alias"
@@ -3945,15 +3947,15 @@ msgid "Create _this new account on the server"
 msgstr "Crear es_ta nueva cuenta en el servidor"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Crear una entrada en el Menú de Inicio para Pidgin"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Crear un directorio para cada usuario"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Crear un icono para Pidgin en el Escritorio"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Crear conferencia con el usuario"
@@ -8281,13 +8283,6 @@ msgstr "Control de tema GTK+ de Pidgin"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Editor de temas de iconos de Pidgin"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Cliente de mensajería instantánea de Pidgin (necesario)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Cliente de mensajería de Internet Pidgin"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8304,20 +8299,21 @@ msgstr "Editor de temas de Pidgin"
 msgid "Pidgin Theme Editor."
 msgstr "Editor de temas de Pidgin."
 
-msgid "Pidgin Tooltip"
-msgstr "Consejos de Pidgin"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin necesita un entorno de ejecución compatible GTK+ (que no parece que "
-"esté disponible).$\\r¿Está seguro que quiere omitir el paso de instalación "
-"del entorno de ejecución de GTK+?"
 
-msgid "Pidgin smileys"
-msgstr "Emoticonos de Pidgin"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10167,8 +10163,8 @@ msgid "Shortcuts"
 msgstr "Atajos"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Atajos para ejecutar Pidgin"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Mostrar"
@@ -11076,14 +11072,17 @@ msgstr "La orden para gestionar URLs «xmpp», si se activan."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "La orden para gestionar URLs «ymsgr», si se activan."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "El tema para por omisión para lista de amigos de Pidgin"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "El tema de sonido de Pidgin por omisión"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "El tema de estado de Pidgin por omisión"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11375,11 +11374,9 @@ msgid "The two PINs you entered do not match."
 msgstr "Las dos PINes que introdujo no coinciden."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"El desinstalador no pudo encontrar las entradas en el registro de Pidgin.$\\"
-"rEs probable que otro usuario instalara la aplicación."
 
 #. Denied
 #, c-format
@@ -12461,12 +12458,9 @@ msgstr ""
 "números."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"No se puede desinstalar con la versión que actualmente está instalada de "
-"Pidgin. La nueva versión se instalará sin eliminar la versión actualmente "
-"instalada."
 
 msgid "Unable to validate certificate"
 msgstr "Imposible validar el certificado"
@@ -13017,8 +13011,8 @@ msgid "Visible List"
 msgstr "Lista visible"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Visite la página Web de Pidgin"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Color de hiperenlace visitado"

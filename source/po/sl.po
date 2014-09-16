@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Slovenian "
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:31+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:21+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Slovenian\n"
 
@@ -349,6 +349,10 @@ msgstr "Podatki o razvijalcih %s"
 #, c-format
 msgid "%s Plugin Information"
 msgstr "Podatki o vtičniku %s"
+
+#, c-format
+msgid "%s Tooltip"
+msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
@@ -1688,8 +1692,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "Vodoravna inačica seznama prijateljev."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Več-platformsko orodje za vmesnike, ki ga uporablja Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2240,11 +2244,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "Vzorčni vtičnik, ki počne razne stvari - oglejte si opis."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"Trenutno že teče ena različica Pidgina. Prosimo, zaprite aplikacijo in "
-"poskusite znova."
 
 msgid "An internal MXit server error occurred."
 msgstr "Prišlo je do notranje napake strežnika MXit."
@@ -3780,8 +3782,8 @@ msgid "Cool Link 3"
 msgstr "Zanimiva povezava št. 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Temeljne datoteke in knjižnice za Pidgin"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "Vzdevka ni bilo mogoče spremeniti"
@@ -3896,15 +3898,15 @@ msgid "Create _this new account on the server"
 msgstr "_Ustvari ta nov račun na strežniku"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "Ustvari izbiro Pidgin v meniju Start"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "Ustvari novo mapo za vsakega uporabnika"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "Ustvari bližnjico za Pidgin na namizju"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "Ustvari konferenčni pogovor z uporabnikom"
@@ -8198,13 +8200,6 @@ msgstr "Nadzor teme Pidgin GTK+ v Pidginu"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Urejevalnik tem ikon Pidgin"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin - odjemalec za klepet (zahtevano)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Spletni sel Pidgin"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8221,19 +8216,21 @@ msgstr "Urejevalnik tem Pidgin"
 msgid "Pidgin Theme Editor."
 msgstr "Urejevalnik tem Pidgin."
 
-msgid "Pidgin Tooltip"
-msgstr "Namig Pidgin"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
-"Pidgin potrebuje združljivo izvajalno okolje GTK+ (ki očitno ni na voljo).$\\"
-"rSte prepričani, da želite preskočiti nameščanje izvajalnega okolja GTK+?"
 
-msgid "Pidgin smileys"
-msgstr "Smejčki Pidgin"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -10049,8 +10046,8 @@ msgid "Shortcuts"
 msgstr "Tipke za bližnjice"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "Bližnjice za zagon Pidgina"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "Pokaži"
@@ -10949,14 +10946,17 @@ msgstr "Ukaz za ravnanje z URL-ji \"xmpp\", če je to omogočeno."
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "Ukaz za ravnanje z URL-ji \"ymsgr\", če je to omogočeno."
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Privzeta tema seznama prijateljev Pidgin"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Privzeta zvočna tema za Pidgin"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Privzeta tema ikon stanja za Pidgin"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -11256,11 +11256,9 @@ msgid "The two PINs you entered do not match."
 msgstr "Vnesena PIN-a se ne ujemata."
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"Vnosov za Pidgin v registru ni mogoče najti.$\\rNajverjetneje je ta program "
-"namestil drug uporabnik."
 
 #. Denied
 #, c-format
@@ -12336,11 +12334,9 @@ msgstr ""
 "sestavljena zgolj iz števil."
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"Trenutno nameščene različice Pidgina ni mogoče odstraniti. Nova različica bo "
-"nameščena brez odstranitve trenutno nameščene različice."
 
 msgid "Unable to validate certificate"
 msgstr "Ni možno overiti digitalnega potrdila"
@@ -12888,8 +12884,8 @@ msgid "Visible List"
 msgstr "Seznam vidnih"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "Obiščite spletno stran Pidgin"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "Barva obiskane povezave"

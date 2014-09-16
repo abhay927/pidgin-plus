@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:39+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:30+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Chinese (Simplified)\n"
 
@@ -297,6 +297,10 @@ msgstr "%s 开放者信息"
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1576,8 +1580,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "好友列表的水平滚动版本。"
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
-msgstr "Pidgin 所用的多平台 GUI 工具包"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
+msgstr ""
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2100,9 +2104,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "一个范例插件 - 参看描述。"
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
-msgstr "Pidgin 的实例正在运行中。请退出 Pidgin 然后再试一次。"
+msgstr ""
 
 msgid "An internal MXit server error occurred."
 msgstr "发生了 MXit 服务器内部错误。"
@@ -3615,8 +3619,8 @@ msgid "Cool Link 3"
 msgstr "酷链接 3"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "Pidgin 核心文件和 DLLs"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "无法更改昵称"
@@ -3723,15 +3727,15 @@ msgid "Create _this new account on the server"
 msgstr "在服务器上创建此新帐号(_T)"
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "在开始菜单中创建 Pidgin 的快捷方式"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "为每个用户创建新目录"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "在桌面上创建 Pidgin 的快捷方式"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "创建与用户的会议"
@@ -7958,13 +7962,6 @@ msgstr "Pidgin GTK+ 主题控制"
 msgid "Pidgin Icon Theme Editor"
 msgstr "Pidgin 图标主题编辑器"
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "Pidgin 即时通讯程序(必需)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "Pidgin 互联网通讯程序"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -7981,17 +7978,21 @@ msgstr "Pidgin 主题编辑器"
 msgid "Pidgin Theme Editor."
 msgstr "Pidgin 主题编辑器。"
 
-msgid "Pidgin Tooltip"
-msgstr "Pidgin 工具提示"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
+msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
-msgstr "Pidgin 需要一个兼容的 GTK+ 运行时(您的系统上没有安装)。$\\r您确定不安装 GTK+ 运行时吗？"
+msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "Pidgin 表情"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "Ping"
@@ -9757,8 +9758,8 @@ msgid "Shortcuts"
 msgstr "快捷方式"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "启动 Pidgin 的快捷方式"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "显示"
@@ -10601,14 +10602,17 @@ msgstr "如果启用的话，用于处理“xmpp”URL 的命令。"
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr "如果启用的话，用于处理“ymsgr”URL 的命令。"
 
-msgid "The default Pidgin buddy list theme"
-msgstr "Pidgin 好友列表默认主题"
+#, c-format
+msgid "The default %s buddy list theme"
+msgstr ""
 
-msgid "The default Pidgin sound theme"
-msgstr "Pidgin 默认声音主题"
+#, c-format
+msgid "The default %s sound theme"
+msgstr ""
 
-msgid "The default Pidgin status icon theme"
-msgstr "Pidgin 状态图标默认主题"
+#, c-format
+msgid "The default %s status icon theme"
+msgstr ""
 
 #, c-format
 msgid "The email address for %s is %s"
@@ -10864,9 +10868,9 @@ msgid "The two PINs you entered do not match."
 msgstr "两次输入的 PIN 不相同。"
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
-msgstr "卸载程序找不到 Pidgin 的注册表项目。$\\r可能是另外的用户安装了此程序。"
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
+msgstr ""
 
 #. Denied
 #, c-format
@@ -11861,9 +11865,9 @@ msgstr ""
 "无法登录: 无法以 %s 登录，原因是用户名无效。用户名必须是有效的电子邮件地址，或者以字母开头，且只能包含字母、数字和空格，或者只包含数字。"
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
-msgstr "无法卸载已安装版本的 Pidgin，新版将不删除已有文件而直接安装。"
+msgstr ""
 
 msgid "Unable to validate certificate"
 msgstr "无法验证证书"
@@ -12403,8 +12407,8 @@ msgid "Visible List"
 msgstr "隐身可见列表"
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "访问 Pidgin 网站"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr "访问过的超级链接颜色"

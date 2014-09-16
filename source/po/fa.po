@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 12:56-0300\n"
+"POT-Creation-Date: 2014-09-13 13:21-0300\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Persian "
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-12 07:27+0000\n"
+"X-Launchpad-Export-Date: 2014-09-14 08:15+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Persian\n"
 
@@ -278,6 +278,10 @@ msgstr ""
 
 #, c-format
 msgid "%s Plugin Information"
+msgstr ""
+
+#, c-format
+msgid "%s Tooltip"
 msgstr ""
 
 #, c-format
@@ -1566,9 +1570,8 @@ msgid "A horizontal scrolling version of the buddy list."
 msgstr "نسخهٔ افقی و لغزان فهرست رفقا."
 
 #. Installer Subsection Detailed Description
-msgid "A multi-platform GUI toolkit, used by Pidgin"
+msgid "A multi-platform GUI toolkit, used by Pidgin++"
 msgstr ""
-"جعبه‌ابزار رابط کاربر گرافيکى چند بسترى که پيجين از آن استفاده مى‌کند"
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -2090,11 +2093,9 @@ msgid "An example plugin that does stuff - see the description."
 msgstr "یک متصل شوندهٔ نمونه که شیرین‌کاری می‌کند ـ شرح را ببینید."
 
 msgid ""
-"An instance of Pidgin is currently running.  Please exit Pidgin and try "
+"An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try "
 "again."
 msgstr ""
-"برنامه پيجين از قبل در حال اجرا است. لطفاً از پيجين خارج شود و دوباره سعى "
-"کنيد."
 
 msgid "An internal MXit server error occurred."
 msgstr ""
@@ -3612,8 +3613,8 @@ msgid "Cool Link 3"
 msgstr "پیوند باحال ۳"
 
 #. Installer Subsection Detailed Description
-msgid "Core Pidgin files and dlls"
-msgstr "پرونده‌ها و DLLهاى اصلى پيجين"
+msgid "Core Pidgin++ files and dlls"
+msgstr ""
 
 msgid "Could not change nick"
 msgstr "عوض کردن لقب ممکن نیست"
@@ -3726,15 +3727,15 @@ msgid "Create _this new account on the server"
 msgstr ""
 
 #. Installer Subsection Detailed Description
-msgid "Create a Start Menu entry for Pidgin"
-msgstr "ايجاد مورد براى پيجين در منو آغاز"
+msgid "Create a Start Menu entry for Pidgin++"
+msgstr ""
 
 msgid "Create a new directory for each user"
 msgstr "ایجاد پوشه جدید برای هر کاربر"
 
 #. Installer Subsection Detailed Description
-msgid "Create a shortcut to Pidgin on the Desktop"
-msgstr "ايجاد ميان‌بُر به پيجين روى روميزى"
+msgid "Create a shortcut to Pidgin++ on the Desktop"
+msgstr ""
 
 msgid "Create conference with user"
 msgstr "ایجاد کنفرانس با کاربر"
@@ -7984,13 +7985,6 @@ msgstr "کنترل تم GTK+‎ پیجین"
 msgid "Pidgin Icon Theme Editor"
 msgstr ""
 
-#. Installer Subsection Text
-msgid "Pidgin Instant Messaging Client (required)"
-msgstr "کارگير پيغام‌رسان اينترنتى پيجين (اجبارى)"
-
-msgid "Pidgin Internet Messenger"
-msgstr "پیغام‌رسان اینترنتی پیجین"
-
 #. *< type
 #. *< ui_requirement
 #. *< flags
@@ -8007,17 +8001,21 @@ msgstr ""
 msgid "Pidgin Theme Editor."
 msgstr ""
 
-msgid "Pidgin Tooltip"
+#. Installer Subsection Text
+msgid "Pidgin++ Instant Messaging Client (required)"
+msgstr ""
+
+msgid "Pidgin++ Internet Messenger"
 msgstr ""
 
 msgid ""
-"Pidgin requires a compatible GTK+ Runtime (which doesn't appear to be "
+"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
 "already present).$\\rAre you sure you want to skip installing the GTK+ "
 "Runtime?"
 msgstr ""
 
-msgid "Pidgin smileys"
-msgstr "شکلک‌‌های پیجین"
+msgid "Pidgin++ smileys"
+msgstr ""
 
 msgid "Ping"
 msgstr "‏Ping"
@@ -9820,8 +9818,8 @@ msgid "Shortcuts"
 msgstr "میان‌بُرها"
 
 #. Installer Subsection Detailed Description
-msgid "Shortcuts for starting Pidgin"
-msgstr "ميان‌بُرهاى راه‌اندازى پيجين"
+msgid "Shortcuts for starting Pidgin++"
+msgstr ""
 
 msgid "Show"
 msgstr "نمایشِ..."
@@ -10684,13 +10682,16 @@ msgstr ""
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
 msgstr ""
 
-msgid "The default Pidgin buddy list theme"
+#, c-format
+msgid "The default %s buddy list theme"
 msgstr ""
 
-msgid "The default Pidgin sound theme"
+#, c-format
+msgid "The default %s sound theme"
 msgstr ""
 
-msgid "The default Pidgin status icon theme"
+#, c-format
+msgid "The default %s status icon theme"
 msgstr ""
 
 #, c-format
@@ -10962,11 +10963,9 @@ msgid "The two PINs you entered do not match."
 msgstr ""
 
 msgid ""
-"The uninstaller could not find registry entries for Pidgin.$\\rIt is likely "
-"that another user installed this application."
+"The uninstaller could not find registry entries for Pidgin++.$\\rIt is "
+"likely that another user installed this application."
 msgstr ""
-"حذف‌کننده نمى‌تواند مداخل registery پيچين را پيدا کند.$\\r ممکن است کاربر "
-"ديگرى اين برنامه را نصب کرده باشد."
 
 #. Denied
 #, c-format
@@ -11977,11 +11976,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Unable to uninstall the currently installed version of Pidgin. The new "
+"Unable to uninstall the currently installed version of Pidgin++. The new "
 "version will be installed without removing the currently installed version."
 msgstr ""
-"حذف نسخه‌اى از پيجين که در حال حاضر نصب است ممکن نيست. نسخه جديد بدون حذف "
-"نسخه موجود نصب مى‌شود."
 
 msgid "Unable to validate certificate"
 msgstr ""
@@ -12524,8 +12521,8 @@ msgid "Visible List"
 msgstr ""
 
 #. Text displayed on Installer Finish Page
-msgid "Visit the Pidgin Web Page"
-msgstr "صفحه وبى پيجين را ببينيد"
+msgid "Visit the Pidgin++ webpage"
+msgstr ""
 
 msgid "Visited Hyperlink Color"
 msgstr ""
