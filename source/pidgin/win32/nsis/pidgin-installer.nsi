@@ -19,9 +19,9 @@ Var WARNED_GTK_STATE
 Name $name
 
 !ifdef OFFLINE_INSTALLER
-OutFile "pidgin++_${APPLICATION_VERSION}_offline.exe"
+OutFile "pidgin++_${DISPLAY_VERSION}_offline.exe"
 !else
-OutFile "pidgin++_${APPLICATION_VERSION}.exe"
+OutFile "pidgin++_${DISPLAY_VERSION}.exe"
 !endif
 
 SetCompressor /SOLID lzma
@@ -70,7 +70,7 @@ RequestExecutionLevel highest
 !define PERL_REG_KEY				"SOFTWARE\Perl"
 !define PERL_DLL				"perl510.dll"
 
-!define DOWNLOADER_URL				"https://pidgin.im/win32/download_redir.php?version=${APPLICATION_VERSION}"
+!define DOWNLOADER_URL				"https://pidgin.im/win32/download_redir.php?version=${UPSTREAM_VERSION}"
 
 !define MEMENTO_REGISTRY_ROOT			HKLM
 !define MEMENTO_REGISTRY_KEY			"${PIDGIN_UNINSTALL_KEY}"
@@ -80,7 +80,7 @@ RequestExecutionLevel highest
 VIProductVersion "${PRODUCT_VERSION}"
 VIAddVersionKey "ProductName" "${APPLICATION_NAME}"
 VIAddVersionKey "FileVersion" "${APPLICATION_VERSION}"
-VIAddVersionKey "ProductVersion" "${APPLICATION_VERSION}"
+VIAddVersionKey "ProductVersion" "${DISPLAY_VERSION}"
 VIAddVersionKey "LegalCopyright" ""
 !ifdef OFFLINE_INSTALLER
 VIAddVersionKey "FileDescription" "Pidgin++ Installer (Offline)"
@@ -319,7 +319,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKLM ${PIDGIN_REG_KEY} "Version" "${APPLICATION_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME}"
-    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${APPLICATION_VERSION}"
+    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${DISPLAY_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKLM "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
     WriteRegDWORD HKLM "${PIDGIN_UNINSTALL_KEY}" "NoRepair" 1
@@ -333,7 +333,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKCU ${PIDGIN_REG_KEY} "Version" "${APPLICATION_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME}"
-    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${APPLICATION_VERSION}"
+    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${DISPLAY_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKCU "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
     WriteRegDWORD HKCU "${PIDGIN_UNINSTALL_KEY}" "NoRepair" 1
@@ -489,7 +489,7 @@ Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
 !else
   ; We need to download the debug symbols
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${APPLICATION_VERSION_LOWERCASE}/+download/Pidgin++ Debug Symbols ${APPLICATION_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${DISPLAY_VERSION}/+download/Pidgin++ Debug Symbols ${DISPLAY_VERSION}.zip"
   DetailPrint "Downloading Debug Symbols... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
@@ -601,7 +601,7 @@ Section Uninstall
     Delete "${CHANGELOG}"
 
     ; Remove the debug symbols
-    RMDir /r "$INSTDIR\pidgin-${APPLICATION_VERSION}-dbgsym"
+    RMDir /r "$INSTDIR\pidgin-${DISPLAY_VERSION}-dbgsym"
 
     ; Remove the local GTK+ copy (if we're not just upgrading)
     ${GetParameters} $R0
@@ -982,7 +982,7 @@ Function .onInit
   IfErrors 0 +2
   Call RunCheck
 
-  StrCpy $name "Pidgin++ ${APPLICATION_VERSION}"
+  StrCpy $name "Pidgin++ ${DISPLAY_VERSION}"
 
   ;Try to copy the old Gaim installer Lang Reg. key
   ;(remove it after we're done to prevent this being done more than once)
@@ -1113,7 +1113,7 @@ FunctionEnd
 Function un.onInit
 
   Call un.RunCheck
-  StrCpy $name "Pidgin++ ${APPLICATION_VERSION}"
+  StrCpy $name "Pidgin++ ${DISPLAY_VERSION}"
 ;LogSet on
 
   ; Get stored language preference

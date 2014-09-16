@@ -1,1 +1,1 @@
-#define REVISION "unknown"
+#define REVISION _("<unknown version>")

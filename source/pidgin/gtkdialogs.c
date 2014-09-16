@@ -486,6 +486,23 @@ pidgin_build_help_dialog(const char *title, const char *role, GString *string, g
 	return win;
 }
 
+const gchar *get_upstream_version(void)
+{
+	GRegex *regex;
+	GMatchInfo *match;
+	gchar *result;
+
+	result = NULL;
+	regex = g_regex_new("^(.*)\\+.*", 0, 0, NULL);
+	g_regex_match(regex, VERSION, 0, &match);
+	if (g_match_info_matches(match))
+		result = g_match_info_fetch(match, 1);
+
+	g_match_info_free(match);
+	g_regex_unref(regex);
+	return result? result : purple_markup_escape_text(_("<unknown version>"), -1);
+}
+
 void pidgin_dialogs_about(void)
 {
 	GString *str;
@@ -500,8 +517,12 @@ void pidgin_dialogs_about(void)
 	str = g_string_sized_new(4096);
 
 	g_string_append_printf(str,
-		_("<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision %s</i><br><br>"),
-		APPLICATION_NAME, DISPLAY_VERSION, purple_core_get_version(), REVISION);
+		_("<font size='4'><b>%s %s</b></font><br>"
+		  "\tBased on Pidgin <i>%s</i><br>"
+		  "\tLibpurple <i>%s</i><br>"
+		  "\tPackage revision <i>%s</i><br><br>"),
+		APPLICATION_NAME, DISPLAY_VERSION, get_upstream_version(),
+		purple_core_get_version(), purple_markup_escape_text(REVISION, -1));
 
 	g_string_append_printf(str,
 		_("Welcome to %s, a modified version of Pidgin.<br>"

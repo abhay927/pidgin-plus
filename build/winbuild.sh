@@ -264,7 +264,7 @@ if [[ -n "$source" ]]; then
 fi
 
 # Installers
-pace "Building the installer${offline:+s}"
+pace "Building the installer${offline:+s} for $version"
 gcc_dir=$(dirname $(which gcc))
 gcc_version=$(gcc -dumpversion)
 echo "Using GCC $gcc_version from $gcc_dir"

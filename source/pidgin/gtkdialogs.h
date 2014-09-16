@@ -42,6 +42,8 @@ void pidgin_dialogs_im_with_user(PurpleAccount *, const char *);
 void pidgin_dialogs_info(void);
 void pidgin_dialogs_log(void);
 
+const gchar *get_upstream_version(void);
+
 #if !(defined PIDGIN_DISABLE_DEPRECATED) || (defined _PIDGIN_GTKDIALOGS_C_)
 /**
  * @deprecated This function is no longer used and will be removed in
