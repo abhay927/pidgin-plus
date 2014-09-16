@@ -151,6 +151,7 @@ install: install_shallow all
 
 ./win32/libpurplerc.rc: ./win32/libpurplerc.rc.in $(PIDGIN_TREE_TOP)/VERSION
 	sed -e 's/@PURPLE_VERSION@/$(PURPLE_VERSION)/g' \
+	    -e 's/@DISPLAY_VERSION@/$(DISPLAY_VERSION)/g' \
 	    $@.in > $@
 
 $(OBJECTS): $(PURPLE_CONFIG_H) $(PURPLE_VERSION_H) $(PURPLE_PURPLE_H)
