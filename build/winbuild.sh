@@ -59,7 +59,8 @@ source easyoptions; result=$?
 [[ ! -d "${arguments[0]}" || $result != 0 ]] && exit
 
 # Variables
-base_dir=$(readlink -e "$(dirname "$0")/..")
+cd "$(dirname "$0")/.."
+base_dir=$(readlink -e $(pwd))
 source_dir="$base_dir/source"
 build_dir="$base_dir/build"
 sign="${sign:-$cert}"
