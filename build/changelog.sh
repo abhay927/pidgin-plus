@@ -67,7 +67,11 @@ fi
 
 xsl_parameters="-s version=$display_version -s bugs.url=https://developer.pidgin.im/ticket"
 [[ $(uname -s) = Linux ]] && ubuntu_package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${display_version,,}\+){0,1}/-${display_version,,}+/")
-[[ -n "$output" ]] && output=$(readlink -f "$output")
+if [[ -n "$output" ]]; then
+    cd "$(dirname "$output")" || exit
+    output="$(pwd)/$(basename "$output")"
+    output=$(readlink -f "$output")
+fi
 
 # HTML changelog
 if [[ -n "$html" ]]; then
