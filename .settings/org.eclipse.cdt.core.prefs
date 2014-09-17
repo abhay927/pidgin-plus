@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1214699942/DEVROOT/delimiter=;
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1214699942/DEVROOT/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1214699942/DEVROOT/value=D\:/Pidgin.buildbox/msys1
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1214699942/STAGING/delimiter=;
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1214699942/STAGING/operation=append
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1214699942/STAGING/value=pidgin.eclipse
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1214699942/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.mingw.base.1214699942/appendContributed=true
