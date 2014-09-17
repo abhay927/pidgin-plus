@@ -7,8 +7,8 @@
 ##
 ## This is the builder script for Pidgin++ on Windows. Source code will be
 ## exported to an appropriate staging directory within the specified development
-## root. Result is a standard installer (without GTK+) placed alongside the
-## staging directory by default.
+## root. Default output is a standard installer (without GTK+), placed under the
+## distribution subdirectory in the development root.
 ##
 ## Usage:
 ##     @script.name DEVELOPMENT_ROOT [options]
