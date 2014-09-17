@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-13 13:21-0300\n"
+"POT-Creation-Date: 2014-09-16 17:45-0300\n"
 "PO-Revision-Date: 2014-08-31 02:52+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Gujarati\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-14 08:01+0000\n"
+"X-Launchpad-Export-Date: 2014-09-17 07:58+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Gujarati\n"
 
@@ -1465,8 +1465,8 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
-"%s</i><br><br>"
+"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
 #, c-format
@@ -1577,6 +1577,9 @@ msgstr ""
 
 msgid "<u>_Underline</u>"
 msgstr "<u>નીચે લીટી કરો (_U)</u>"
+
+msgid "<unknown version>"
+msgstr ""
 
 msgid "A Little About Me"
 msgstr "મારા વિશે થોડું"

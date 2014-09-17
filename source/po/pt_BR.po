@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-13 13:21-0300\n"
-"PO-Revision-Date: 2014-09-13 22:26+0000\n"
+"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"PO-Revision-Date: 2014-09-17 00:33+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Renato Silva <br.renatosilva@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2014-09-14 08:28+0000\n"
+"X-Launchpad-Export-Date: 2014-09-17 08:22+0000\n"
 "X-Generator: Launchpad (build 17196)\n"
 "Language: Brazilian Portuguese\n"
 
@@ -1509,11 +1509,11 @@ msgstr "<font color='#c8c8c8'>Não conectado ao XMPP</font>"
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
-"%s</i><br><br>"
+"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
-"<font size='4'><b>%s %s</b></font><br><i>libpurple %s, revisão de pacote "
-"%s</i><br><br>"
+"<font size='4'><b>%s %s</b></font><br>\tBaseado no Pidgin <i>%s</i><br>\t"
+"Libpurple <i>%s</i><br>\tRevisão de pacote <i>%s</i><br><br>"
 
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
@@ -1628,6 +1628,9 @@ msgstr ""
 
 msgid "<u>_Underline</u>"
 msgstr "<u>_Sublinhado</u>"
+
+msgid "<unknown version>"
+msgstr "<versão desconhecida>"
 
 msgid "A Little About Me"
 msgstr "Um pouco sobre mim"
@@ -15206,3 +15209,11 @@ msgstr "zl &lt;usuário&gt;:  Localiza o usuário"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;usuário&gt;: Localiza o usuário"
+
+#, c-format
+#~ msgid ""
+#~ "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, package revision "
+#~ "%s</i><br><br>"
+#~ msgstr ""
+#~ "<font size='4'><b>%s %s</b></font><br><i>libpurple %s, revisão de pacote "
+#~ "%s</i><br><br>"
