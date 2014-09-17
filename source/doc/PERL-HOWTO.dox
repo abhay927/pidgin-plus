@@ -245,7 +245,7 @@ sub plugin_load {
 	print "Testing Purple::Conversation->new()...";
 	$conv2 = Purple::Conversation->new(1, $account, "Test Conversation 2");
 	if ($conv2) { print "ok.\n"; } else { print "fail.\n"; }
-	
+
 	# Second we create a window to display the conversations in.
 	#  Note that the package here is Pidgin::Conversation::Window
 	print "Testing Pidgin::Conversation::Window->new()...\n";

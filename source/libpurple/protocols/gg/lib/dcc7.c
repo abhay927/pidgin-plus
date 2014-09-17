@@ -5,7 +5,7 @@
  *                          Tomasz Chiliński <chilek@chilan.com>
  *                          Adam Wysocki <gophi@ekg.chmurka.net>
  *                          Bartłomiej Zimoń <uzi18@o2.pl>
- *  
+ *
  *  Thanks to Jakub Zawadzki <darkjames@darkjames.ath.cx>
  *
  *  This program is free software; you can redistribute it and/or modify
@@ -268,7 +268,7 @@ static int gg_dcc7_listen(struct gg_dcc7 *dcc, uint32_t addr, uint16_t port)
 	dcc->fd = fd;
 	dcc->local_addr = sin.sin_addr.s_addr;
 	dcc->local_port = ntohs(sin.sin_port);
-	
+
 	dcc->state = GG_STATE_LISTENING;
 	dcc->check = GG_CHECK_READ;
 	dcc->timeout = GG_DCC7_TIMEOUT_FILE_ACK;
@@ -300,7 +300,7 @@ static int gg_dcc7_listen_and_send_info(struct gg_dcc7 *dcc)
 
 	if (gg_dcc7_listen(dcc, dcc->sess->client_addr, dcc->sess->client_port) == -1)
 		return -1;
-	
+
 	if (dcc->sess->external_port != 0)
 		external_port = dcc->sess->external_port;
 	else
@@ -308,7 +308,7 @@ static int gg_dcc7_listen_and_send_info(struct gg_dcc7 *dcc)
 
 	if (dcc->sess->external_addr != 0)
 		external_addr = dcc->sess->external_addr;
-	else 
+	else
 		external_addr = dcc->local_addr;
 
 	addr.s_addr = external_addr;
@@ -380,7 +380,7 @@ static int gg_dcc7_request_id(struct gg_session *sess, uint32_t type)
 		errno = EINVAL;
 		return -1;
 	}
-	
+
 	memset(&pkt, 0, sizeof(pkt));
 	pkt.type = gg_fix32(type);
 
@@ -641,7 +641,7 @@ int gg_dcc7_handle_id(struct gg_session *sess, struct gg_event *e, const void *p
 
 		if (tmp->state != GG_STATE_REQUESTING_ID || tmp->dcc_type != gg_fix32(p->type))
 			continue;
-		
+
 		tmp->cid = p->id;
 
 		switch (tmp->dcc_type) {
@@ -700,9 +700,9 @@ int gg_dcc7_handle_accept(struct gg_session *sess, struct gg_event *e, const voi
 		e->event.dcc7_error = GG_ERROR_DCC7_HANDSHAKE;
 		return 0;
 	}
-	
+
 	// XXX czy dla odwrotnego połączenia powinniśmy wywołać już zdarzenie GG_DCC7_ACCEPT?
-	
+
 	dcc->offset = gg_fix32(p->offset);
 	dcc->state = GG_STATE_WAITING_FOR_INFO;
 
@@ -732,7 +732,7 @@ int gg_dcc7_handle_info(struct gg_session *sess, struct gg_event *e, const void 
 		gg_debug_session(sess, GG_DEBUG_MISC, "// gg_dcc7_handle_info() unknown dcc session\n");
 		return 0;
 	}
-	
+
 	if (dcc->state == GG_STATE_CONNECTED) {
 		gg_debug_session(sess, GG_DEBUG_MISC, "// gg_dcc7_handle_info() state is already connected\n");
 		return 0;
@@ -827,7 +827,7 @@ int gg_dcc7_handle_info(struct gg_session *sess, struct gg_event *e, const void 
 		dcc->fd = -1;
 		dcc->reverse = 1;
 	}
-	
+
 	if (dcc->type == GG_SESSION_DCC7_SEND) {
 		e->type = GG_EVENT_DCC7_ACCEPT;
 		e->event.dcc7_accept.dcc7 = dcc;
@@ -871,7 +871,7 @@ int gg_dcc7_handle_reject(struct gg_session *sess, struct gg_event *e, const voi
 		gg_debug_session(sess, GG_DEBUG_MISC, "// gg_dcc7_handle_reject() unknown dcc session\n");
 		return 0;
 	}
-	
+
 	if (dcc->state != GG_STATE_WAITING_FOR_ACCEPT) {
 		gg_debug_session(sess, GG_DEBUG_MISC, "// gg_dcc7_handle_reject() invalid state\n");
 		e->type = GG_EVENT_DCC7_ERROR;
@@ -911,7 +911,7 @@ int gg_dcc7_handle_new(struct gg_session *sess, struct gg_event *e, const void *
 				gg_debug_session(sess, GG_DEBUG_MISC, "// gg_dcc7_handle_new() not enough memory\n");
 				return -1;
 			}
-			
+
 			memset(dcc, 0, sizeof(struct gg_dcc7));
 			dcc->type = GG_SESSION_DCC7_GET;
 			dcc->dcc_type = GG_DCC7_TYPE_FILE;
@@ -943,7 +943,7 @@ int gg_dcc7_handle_new(struct gg_session *sess, struct gg_event *e, const void *
 				gg_debug_session(sess, GG_DEBUG_MISC, "// gg_dcc7_handle_packet() not enough memory\n");
 				return -1;
 			}
-			
+
 			memset(dcc, 0, sizeof(struct gg_dcc7));
 
 			dcc->type = GG_SESSION_DCC7_VOICE;
@@ -978,7 +978,7 @@ int gg_dcc7_handle_new(struct gg_session *sess, struct gg_event *e, const void *
 /**
  * \internal Ustawia odpowiednie stany wewnętrzne w zależności od rodzaju
  * połączenia.
- * 
+ *
  * \param dcc Struktura połączenia
  *
  * \return 0 jeśli się powiodło, -1 w przypadku błędu.
@@ -1371,7 +1371,7 @@ struct gg_event *gg_dcc7_watch_fd(struct gg_dcc7 *dcc)
 				e->event.dcc_error = GG_ERROR_DCC7_RELAY;
 				return e;
 			}
-			
+
 			dcc->state = GG_STATE_CONNECTING_RELAY;
 			dcc->check = GG_CHECK_WRITE;
 			dcc->timeout = GG_DEFAULT_TIMEOUT;
@@ -1389,7 +1389,7 @@ struct gg_event *gg_dcc7_watch_fd(struct gg_dcc7 *dcc)
 			struct gg_dcc7_relay_req pkt;
 
 			gg_debug_dcc(dcc, GG_DEBUG_MISC, "// gg_dcc7_watch_fd() GG_STATE_CONNECTING_RELAY\n");
-			
+
 			if (getsockopt(dcc->fd, SOL_SOCKET, SO_ERROR, &res, &res_size) != 0 || res != 0) {
 				gg_debug_dcc(dcc, GG_DEBUG_MISC, "// gg_dcc7_watch_fd() connection failed (errno=%d, %s)\n", res, strerror(res));
 				e->type = GG_EVENT_DCC7_ERROR;
@@ -1477,7 +1477,7 @@ struct gg_event *gg_dcc7_watch_fd(struct gg_dcc7 *dcc)
 				addr.s_addr = srv.addr;
 				gg_debug_dcc(dcc, GG_DEBUG_MISC, "//    %s %d %d\n", inet_ntoa(addr), gg_fix16(srv.port), srv.family);
 			}
-			
+
 			dcc->relay = 1;
 
 			for (; dcc->relay_index < dcc->relay_count; dcc->relay_index++) {

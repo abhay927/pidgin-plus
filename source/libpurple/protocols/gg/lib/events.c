@@ -156,7 +156,7 @@ void gg_event_free(struct gg_event *e)
 
 			break;
 		}
-	
+
 		case GG_EVENT_MULTILOGON_INFO:
 		{
 			int i;

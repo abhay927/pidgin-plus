@@ -17,7 +17,7 @@
 # Updated by Mark Doliner, 15 October 2002
 # Changes:
 #  * Modified to work with the changed perl interface of gaim 0.60
-#  * Fixed a bug where your info would be set to nothing if you had 
+#  * Fixed a bug where your info would be set to nothing if you had
 #    no pre and no post message
 # AIM: lbdash
 #

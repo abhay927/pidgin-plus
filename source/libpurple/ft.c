@@ -1103,7 +1103,7 @@ purple_xfer_write(PurpleXfer *xfer, const guchar *buffer, gsize size)
 	if (r >= 0 && (purple_xfer_get_bytes_sent(xfer)+r) >= purple_xfer_get_size(xfer) &&
 		!purple_xfer_is_completed(xfer))
 		purple_xfer_set_completed(xfer, TRUE);
-	
+
 
 	return r;
 }

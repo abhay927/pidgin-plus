@@ -133,7 +133,7 @@ Code_t ZParseLocations(notice,zald,nlocs,user)
     __locate_next = 0;
     *nlocs = __locate_num;
     if (user) {
-	size_t len;    
+	size_t len;
 	if (zald) {
 	    len = strlen(zald->user) + 1;
 	    if ((*user = (char *) malloc(len)) == NULL)

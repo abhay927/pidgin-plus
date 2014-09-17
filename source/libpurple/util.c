@@ -3728,7 +3728,7 @@ find_header_content(const char *data, gsize data_len, const char *header)
 	return NULL;
 }
 
-static gsize 
+static gsize
 parse_content_len(const char *data, gsize data_len)
 {
 	gsize content_len = 0;

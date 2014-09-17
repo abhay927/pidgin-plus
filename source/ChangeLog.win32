@@ -106,7 +106,7 @@ version 2.3.1 (12/7/2007):
 	* No changes
 
 version 2.3.0 (11/24/2007):
-	* Updated GTK+ to 2.12.1 (This was actually included in 2.2.2, but 
+	* Updated GTK+ to 2.12.1 (This was actually included in 2.2.2, but
 	  didn't get into the Changelog.)
 	* Upgrade SILC to use the 1.1.5 toolkit
 
@@ -305,7 +305,7 @@ version 0.73 (11/21/2003):
 	* Installer translations for: Spanish.
 
 version 0.72 (10/31/2003):
-	* Fix for bug #808562 - LANG needs to be set before gtk_init, when 
+	* Fix for bug #808562 - LANG needs to be set before gtk_init, when
 	  setting text widgets to RTL or LTR.
 	* New dll hell avoidance policies.. hopefully this time as many bases
 	  are covered as can be.
@@ -334,7 +334,7 @@ version 0.69 (09/24/2003):
 
 version 0.68 (09/01/2003):
 	* Installer translations for: Bulgarian and Traditional Chinese.
-	* No Perl plugin support, due to the re-write. (It should be back in 
+	* No Perl plugin support, due to the re-write. (It should be back in
 	  the next release).
 	* Executable pounces now working (Thanks to Kevin Stange).
 
@@ -354,7 +354,7 @@ version 0.66 (07/18/2003):
 	* Windows files join the source distribution.
 
 version 0.65 (07/16/2003):
-	* WinGaim plugins can now be built with gcc stabs debugging info, 
+	* WinGaim plugins can now be built with gcc stabs debugging info,
           allowing for more informative crash dumps.
 	* Buddy List DnD bug fixed.
 	* The systray code is now integrated into the docklet plugin, bringing
@@ -365,8 +365,8 @@ version 0.64 (05/30/3003)
 	* File transfer fixed for win32
 
 version 0.63 (05/16/2003)
-	* Gaim installer re-written. Our own GTK+ installer is now bundled 
-	  with the Gaim installer (installs to the same location as the 
+	* Gaim installer re-written. Our own GTK+ installer is now bundled
+	  with the Gaim installer (installs to the same location as the
 	  dropline version).  Installer gives user the choice to install one
 	  of three GTK+ theme engines, including GTK-Wimp.  Installations
 	  should now work for all users on multi-user machines (including

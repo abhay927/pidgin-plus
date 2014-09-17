@@ -18,7 +18,7 @@ def ensureimconversation(conversation, account, name):
     if conversation != 0:
         return conversation
     else:
-        # 1 = PURPLE_CONV_IM 
+        # 1 = PURPLE_CONV_IM
         return purple.PurpleConversationNew(1, account, name)
 
 def receivedimmsg(account, name, message, conversation, flags):
@@ -41,14 +41,14 @@ def receivedimmsg(account, name, message, conversation, flags):
         window = purple.PurpleConversationGetWindow(conversation)
         purple.PurpleConvWindowRaise(window)
 
-    if code == 103:                     # close 
+    if code == 103:                     # close
         purple.PurpleConversationDestroy(conversation)
 
     if code == 104:                     # abuse
         im = purple.PurpleConversationGetImData(conversation)
         purple.PurpleConvImSend(im, "Go away you f...")
-                                 
-        
+
+
 def buddysignedon(buddyid):
     alias = purple.PurpleBuddyGetAlias(buddyid)
     text = "%s is online" % alias
@@ -63,7 +63,7 @@ def buddysignedon(buddyid):
         name = purple.PurpleBuddyGetName(buddyid)
         account = purple.PurpleBuddyGetAccount(buddyid)
         purple.PurpleConversationNew(1, account, name)
-    
+
 
 bus = dbus.SessionBus()
 obj = bus.get_object("im.pidgin.purple.PurpleService", "/im/pidgin/purple/PurpleObject")

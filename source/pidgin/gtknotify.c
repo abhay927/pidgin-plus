@@ -1713,7 +1713,7 @@ pidgin_create_notification_dialog(PidginNotifyType type)
 	gtk_label_set_line_wrap(GTK_LABEL(label), TRUE);
 	gtk_misc_set_alignment(GTK_MISC(label), 0, 0);
 	gtk_box_pack_start(GTK_BOX(vbox), label, FALSE, FALSE, 0);
-	gtk_box_pack_start(GTK_BOX(vbox), 
+	gtk_box_pack_start(GTK_BOX(vbox),
 		pidgin_make_scrollable(spec_dialog->treeview, GTK_POLICY_AUTOMATIC, GTK_POLICY_ALWAYS, GTK_SHADOW_IN, -1, -1),
 		TRUE, TRUE, 2);
 

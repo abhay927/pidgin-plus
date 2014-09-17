@@ -20,7 +20,7 @@
  * \file message.c
  *
  * \brief Obsługa wiadomości
- * 
+ *
  * Plik zawiera funkcje dotyczące obsługi "klasy" gg_message_t, które
  * w przyszłości zostaną dołączone do API. Obecnie używane są funkcje
  * konwersji między tekstem z atrybutami i HTML.
@@ -76,7 +76,7 @@ void gg_message_free(gg_message_t *gm)
 	if (gm == NULL) {
 		errno = EINVAL;
 		return;
-	}	
+	}
 
 	free(gm->text);
 	free(gm->text_converted);
@@ -118,7 +118,7 @@ int gg_message_set_recipients(gg_message_t *gm, const uin_t *recipients, size_t 
 	if (recipient_count >= INT_MAX / sizeof(uin_t)) {
 		errno = EINVAL;
 		return -1;
-	}	
+	}
 
 	if ((recipients == NULL) || (recipient_count == 0)) {
 		free(gm->recipients);
@@ -137,7 +137,7 @@ int gg_message_set_recipients(gg_message_t *gm, const uin_t *recipients, size_t 
 		gm->recipients = tmp;
 		gm->recipient_count = recipient_count;
 	}
-	
+
 	return 0;
 }
 
@@ -355,7 +355,7 @@ int gg_message_get_attributes(gg_message_t *gm, const char **attributes, size_t 
 
 /**
  * \internal Dodaje tekst na koniec bufora.
- * 
+ *
  * \param dst Wskaźnik na bufor roboczy
  * \param pos Wskaźnik na aktualne położenie w buforze roboczym
  * \param src Dodawany tekst
@@ -482,9 +482,9 @@ size_t gg_message_text_to_html(char *dst, const char *src, const char *format, s
 				if (dst != NULL) {
 					sprintf(&dst[len], img_fmt,
 						format_[format_idx + 9],
-						format_[format_idx + 8], 
+						format_[format_idx + 8],
 						format_[format_idx + 7],
-						format_[format_idx + 6], 
+						format_[format_idx + 6],
 						format_[format_idx + 5],
 						format_[format_idx + 4],
 						format_[format_idx + 3],
@@ -657,7 +657,7 @@ size_t gg_message_html_to_text(char *dst, const char *html)
 
 	if (dst != NULL)
 		dst[len] = 0;
-	
+
 	return len;
 }
 

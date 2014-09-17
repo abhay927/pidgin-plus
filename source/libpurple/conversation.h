@@ -540,7 +540,7 @@ const char *purple_conv_chat_cb_get_attribute(PurpleConvChatBuddy *cb, const cha
  * @return A list of the attributes of a chat buddy.
  */
 GList *purple_conv_chat_cb_get_attribute_keys(PurpleConvChatBuddy *cb);
-	
+
 /**
  * Set an attribute of a chat buddy
  *

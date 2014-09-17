@@ -66,7 +66,7 @@ typedef void  (*PurpleSrvTxtQueryFailedCallback) (PurpleSrvTxtQueryData *query_d
 typedef struct
 {
 	/** If implemented, return TRUE if the UI takes responsibility for SRV
-	  * queries. When returning FALSE, the standard implementation is used. 
+	  * queries. When returning FALSE, the standard implementation is used.
 	  * These callbacks MUST be called asynchronously. */
 	gboolean (*resolve)(PurpleSrvTxtQueryData *query_data,
 	                    PurpleSrvTxtQueryResolvedCallback resolved_cb,

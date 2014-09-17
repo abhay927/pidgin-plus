@@ -1963,7 +1963,7 @@ create_stream(PurpleMediaBackendFs2 *self,
 			relay_info = append_relay_info(relay_info, turn_ip, port, username,
 				password, "udp");
 		}
-		
+
 		/* TCP */
 		port = purple_prefs_get_int("/purple/network/turn_port_tcp");
 		if (port > 0) {
@@ -2178,7 +2178,7 @@ purple_media_backend_fs2_codecs_ready(PurpleMediaBackend *self,
 				PURPLE_MEDIA_SEND_VIDEO)) {
 #ifdef HAVE_FARSIGHT
 			g_object_get(session->session,
-					"codecs-ready", &ret, NULL);	
+					"codecs-ready", &ret, NULL);
 #else
 			GList *codecs = NULL;
 

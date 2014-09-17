@@ -348,14 +348,14 @@ static void ggp_action_change_status_broadcasting_ok(PurpleConnection *gc, Purpl
 	PurpleStatus *status;
 
 	selected_field = purple_request_fields_get_choice(fields, "status_broadcasting");
-	
+
 	if (selected_field == 0)
 		info->status_broadcasting = TRUE;
 	else
 		info->status_broadcasting = FALSE;
-	
+
 	status = purple_account_get_active_status(account);
-	
+
 	ggp_set_status(account, status);
 }
 
@@ -363,7 +363,7 @@ static void ggp_action_change_status_broadcasting(PurplePluginAction *action)
 {
 	PurpleConnection *gc = (PurpleConnection *)action->context;
 	GGPInfo *info = gc->proto_data;
-	
+
 	PurpleRequestFields *fields;
 	PurpleRequestFieldGroup *group;
 	PurpleRequestField *field;
@@ -371,7 +371,7 @@ static void ggp_action_change_status_broadcasting(PurplePluginAction *action)
 	fields = purple_request_fields_new();
 	group = purple_request_field_group_new(NULL);
 	purple_request_fields_add_group(fields, group);
-	
+
 	field = purple_request_field_choice_new("status_broadcasting", _("Show status to:"), 0);
 	purple_request_field_choice_add(field, _("All people"));
 	purple_request_field_choice_add(field, _("Only buddies"));
@@ -465,9 +465,9 @@ static void ggp_add_deny(PurpleConnection *gc, const char *who)
 {
 	GGPInfo *info = gc->proto_data;
 	uin_t uin = ggp_str_to_uin(who);
-	
+
 	purple_debug_info("gg", "ggp_add_deny: %u\n", uin);
-	
+
 	gg_remove_notify_ex(info->session, uin, GG_USER_NORMAL);
 	gg_add_notify_ex(info->session, uin, GG_USER_BLOCKED);
 }
@@ -476,9 +476,9 @@ static void ggp_rem_deny(PurpleConnection *gc, const char *who)
 {
 	GGPInfo *info = gc->proto_data;
 	uin_t uin = ggp_str_to_uin(who);
-	
+
 	purple_debug_info("gg", "ggp_rem_deny: %u\n", uin);
-	
+
 	gg_remove_notify_ex(info->session, uin, GG_USER_BLOCKED);
 	gg_add_notify_ex(info->session, uin, GG_USER_NORMAL);
 }
@@ -1249,17 +1249,17 @@ static void ggp_xml_event_handler(PurpleConnection *gc, char *data)
 	while (xmlnode_next_event != NULL)
 	{
 		xmlnode *xmlnode_current_event = xmlnode_next_event;
-		
+
 		xmlnode *xmlnode_type;
 		char *event_type_raw;
 		int event_type = 0;
-		
+
 		xmlnode *xmlnode_sender;
 		char *event_sender_raw;
 		uin_t event_sender = 0;
 
 		xmlnode_next_event = xmlnode_get_next_twin(xmlnode_next_event);
-		
+
 		xmlnode_type = xmlnode_get_child(xmlnode_current_event, "type");
 		if (xmlnode_type == NULL)
 			continue;
@@ -1267,7 +1267,7 @@ static void ggp_xml_event_handler(PurpleConnection *gc, char *data)
 		if (event_type_raw != NULL)
 			event_type = atoi(event_type_raw);
 		g_free(event_type_raw);
-		
+
 		xmlnode_sender = xmlnode_get_child(xmlnode_current_event, "sender");
 		if (xmlnode_sender != NULL)
 		{
@@ -1276,7 +1276,7 @@ static void ggp_xml_event_handler(PurpleConnection *gc, char *data)
 				event_sender = ggp_str_to_uin(event_sender_raw);
 			g_free(event_sender_raw);
 		}
-		
+
 		switch (event_type)
 		{
 			case 28: /* avatar update */
@@ -1291,7 +1291,7 @@ static void ggp_xml_event_handler(PurpleConnection *gc, char *data)
 					event_type, event_sender);
 		}
 	}
-	
+
 	out:
 		if (xml)
 			xmlnode_free(xml);
@@ -1700,7 +1700,7 @@ static void ggp_login(PurpleAccount *account)
 	info->pending_richtext_messages = NULL;
 	info->pending_images = g_hash_table_new(g_direct_hash, g_direct_equal);
 	info->status_broadcasting = purple_account_get_bool(account, "status_broadcasting", TRUE);
-	
+
 	gc->proto_data = info;
 
 	glp->uin = ggp_get_uin(account);
@@ -1716,7 +1716,7 @@ static void ggp_login(PurpleAccount *account)
 
 	glp->async = 1;
 	glp->status = ggp_to_gg_status(status, &glp->status_descr);
-	
+
 	encryption_type = purple_account_get_string(account, "encryption", "none");
 	purple_debug_info("gg", "Requested encryption type: %s\n", encryption_type);
 	if (strcmp(encryption_type, "opportunistic_tls") == 0)
@@ -1727,7 +1727,7 @@ static void ggp_login(PurpleAccount *account)
 
 	if (!info->status_broadcasting)
 		glp->status = glp->status|GG_STATUS_FRIENDS_MASK;
-	
+
 	address = purple_account_get_string(account, "gg_server", "");
 	if (address && *address) {
 		/* TODO: Make this non-blocking */
@@ -1928,20 +1928,20 @@ static int ggp_send_im(PurpleConnection *gc, const char *who, const char *msg,
 static unsigned int ggp_send_typing(PurpleConnection *gc, const char *name, PurpleTypingState state)
 {
 	int dummy_length; // we don't send real length of typed message
-	
+
 	if (state == PURPLE_TYPED) // not supported
 		return 1;
-	
+
 	if (state == PURPLE_TYPING)
 		dummy_length = (int)g_random_int();
 	else // PURPLE_NOT_TYPING
 		dummy_length = 0;
-	
+
 	gg_typing_notification(
 		((GGPInfo*)gc->proto_data)->session,
 		ggp_str_to_uin(name),
-		dummy_length); 
-	
+		dummy_length);
+
 	return 1; // wait 1 second before another notification
 }
 
@@ -2029,7 +2029,7 @@ static void ggp_set_status(PurpleAccount *account, PurpleStatus *status)
 
 	if (!info->status_broadcasting)
 		new_status = new_status|GG_STATUS_FRIENDS_MASK;
-	
+
 	if (new_msg == NULL) {
 		gg_change_status(info->session, new_status);
 	} else {

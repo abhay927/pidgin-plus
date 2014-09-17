@@ -246,7 +246,7 @@ purple_certificate_verify(verifier, subject_name, cert_chain, cb, cb_data)
 		d = g_new0(struct cb_data, 1);
 		d->cb = newSVsv(ST(3));
 		d->user_data = newSVsv(cb_data);
-		
+
 		purple_certificate_verify(verifier, subject_name, l, (PurpleCertificateVerifiedCallback) cb_cert_verify, d);
 
 		g_list_free(l);

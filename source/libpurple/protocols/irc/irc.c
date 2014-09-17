@@ -83,7 +83,7 @@ static void irc_view_motd(PurplePluginAction *action)
 	text = g_strdup_printf("<font face=\"monospace\">%s</font>", irc->motd->str);
 	purple_notify_formatted(gc, title, title, NULL, text, NULL, NULL);
 	g_free(title);
-	g_free(text);	
+	g_free(text);
 }
 
 static int do_send(struct irc_conn *irc, const char *buf, gsize len)
@@ -158,7 +158,7 @@ int irc_send_len(struct irc_conn *irc, const char *buf, int buflen)
  	char *tosend= g_strdup(buf);
 
 	purple_signal_emit(_irc_plugin, "irc-sending-text", purple_account_get_connection(irc->account), &tosend);
-	
+
 	if (tosend == NULL)
 		return 0;
 

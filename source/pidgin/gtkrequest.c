@@ -435,7 +435,7 @@ pidgin_request_input(const char *title, const char *primary,
 			if (purple_prefs_get_bool(PIDGIN_PREFS_ROOT "/conversations/spellcheck"))
 				pidgin_setup_gtkspell(GTK_TEXT_VIEW(entry));
 
-			gtk_box_pack_start(GTK_BOX(vbox), 
+			gtk_box_pack_start(GTK_BOX(vbox),
 				pidgin_make_scrollable(entry, GTK_POLICY_NEVER, GTK_POLICY_ALWAYS, GTK_SHADOW_IN, 320, 130),
 				TRUE, TRUE, 0);
 		}
@@ -1260,8 +1260,8 @@ pidgin_request_fields(const char *title, const char *primary,
 		GtkWidget *hbox_for_spacing, *vbox_for_spacing;
 
 		hbox_for_spacing = gtk_hbox_new(FALSE, PIDGIN_HIG_BORDER);
-		gtk_box_pack_start(GTK_BOX(vbox), 
-			pidgin_make_scrollable(hbox_for_spacing, GTK_POLICY_NEVER, GTK_POLICY_AUTOMATIC, GTK_SHADOW_NONE, -1, 200), 
+		gtk_box_pack_start(GTK_BOX(vbox),
+			pidgin_make_scrollable(hbox_for_spacing, GTK_POLICY_NEVER, GTK_POLICY_AUTOMATIC, GTK_SHADOW_NONE, -1, 200),
 			TRUE, TRUE, 0);
 		gtk_widget_show(hbox_for_spacing);
 

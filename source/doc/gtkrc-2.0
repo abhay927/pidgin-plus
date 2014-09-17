@@ -88,9 +88,9 @@ binding "my-bindings"
 # Ctrl-Shift-v for normal 'Paste'
 	bind "<ctrl><shift>v" { "paste" ("html") }
 }
-  
+
 widget "*pidgin_conv_entry" binding "my-bindings"
- 
+
 # This lets you edit your Pidgin key bindings from within Pidgin,
 # by hovering over a menu item and hitting a key combo.
 gtk-can-change-accels = 1

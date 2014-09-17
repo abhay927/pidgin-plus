@@ -93,7 +93,7 @@
   Although it doesn't exist yet, in time there will be a plugin database
   on the Pidgin website, where users can download and install new plugins.
   Plugins will be accessed by your plugin ID, which is one reason why it
-  must be unique. 
+  must be unique.
 
  */
 

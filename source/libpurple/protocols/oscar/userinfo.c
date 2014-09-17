@@ -432,7 +432,7 @@ oscar_user_info_display_icq(OscarData *od, struct aim_icq_info *info)
 		tm->tm_mon  = (int)info->birthmonth - 1;
 		tm->tm_year = (int)info->birthyear - 1900;
 
-		/* Ignore dst setting of today to avoid timezone shift between 
+		/* Ignore dst setting of today to avoid timezone shift between
 		 * dates in summer and winter time. */
 		tm->tm_isdst = -1;
 

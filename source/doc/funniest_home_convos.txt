@@ -1,4 +1,4 @@
-All IM names have been changed, so we don't get sued or nothing.  We get some 
+All IM names have been changed, so we don't get sued or nothing.  We get some
 interesting convos....
 
 17:58:27 Luser: You do any GTK programming?
@@ -75,7 +75,7 @@ I was going to ask him is microscopic.
 19:49:13 Zilding: hehe sounds like fun.  When are they coming?
 19:49:24 ZFriend: after their tea time
 19:49:55 Zilding: Okay.  Are they bringing the herring or should I make a run?
-19:50:10 ZFriend: the herring is not provided 
+19:50:10 ZFriend: the herring is not provided
 19:50:31 Zilding: Ok cool.  Well thank you, Miss Mander Oracle :)
 19:50:54 ZFriend: :)
 
@@ -104,10 +104,10 @@ I was going to ask him is microscopic.
 13:35:35 WinFreak: could u help me out with gaim..i kno i'm retarded  ROFL
 13:35:54 WinFreak : after you unzip it what do u do?
 13:36:36 RobFlynn: You have gaim-0.9.5.tar.gz?
-13:36:40 WinFreak : yeah 
+13:36:40 WinFreak : yeah
 13:36:43 RobFlynn: first do: tar xvzf gaim-0.9.5.tar.gz
 13:36:47 RobFlynn: then go into that directory and type:
-13:36:49 RobFlynn: ./configure                                                 
+13:36:49 RobFlynn: ./configure
 13:36:52 RobFlynn: then type: make
 13:37:10 WinFreak : tar xvzf...is that on ur webpage?
 13:40:00 RobFlynn: Umm ...
@@ -159,11 +159,11 @@ Flyn Orange: There are some truly cool people out there.
 00:03:43 Flyn Orange: *shoots you with silly string*
 00:03:55 RobFlynn: HELP! I AM COVERED IN NEONG REEN STRING
 00:06:54 Flyn Orange: NEONG REEN, Taiwan (AP) -
-                      Despite the recent economical collapses suffered due to 
+                      Despite the recent economical collapses suffered due to
                       massive geological activity over the last month, the very
-                      profitable gag-manufacturer of Silly String has 
-                      maintained production through the turmoil. Still 
-                      employing 324 workers and a management team of 15 
+                      profitable gag-manufacturer of Silly String has
+                      maintained production through the turmoil. Still
+                      employing 324 workers and a management team of 15
                       Slinkies, there is no risk of a price hike in cans of
                       Silly String over the next few months...
 
@@ -473,10 +473,10 @@ not :)
 
 --
 
-14:07 <elb> rizzo: I actually prefer elb, and used it for a long time -- but 
+14:07 <elb> rizzo: I actually prefer elb, and used it for a long time -- but
             switched to Paco-Paco because people kept asking me what an 'elb'
             was
-14:08 <rizzo> elb: tell them it's short for "elbow", and don't explain any 
+14:08 <rizzo> elb: tell them it's short for "elbow", and don't explain any
               further
 14:08 <elb> rizzo: I actually had people ASK about that
 14:08 <elb> 'is your nick elbow?'
@@ -492,14 +492,14 @@ not :)
 
 19:01 <user> whoa
 19:01 <user> okay
-19:01 <user> now when i try to go into the left over files after the 
+19:01 <user> now when i try to go into the left over files after the
              uninstall
-19:01 <user> something is seriously wrong because it says "the files on the 
+19:01 <user> something is seriously wrong because it says "the files on the
              c drive are not formatted, would you like to format?"
-19:03 <user> manually deleting the folder from command gives me a "Data 
+19:03 <user> manually deleting the folder from command gives me a "Data
              error (cyclic redundancy check)."
 19:03 <elb> remember, one line per thought
-19:03 <elb> and yes, you have something wrong with your computer, we've 
+19:03 <elb> and yes, you have something wrong with your computer, we've
             established that
 19:03 <user> its functioning just fine
 

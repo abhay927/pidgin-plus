@@ -12,22 +12,22 @@ public class GetBuddyBack : Plugin
 	public void HandleSig(object[] args)
 	{
 		Buddy buddy = (Buddy)args[0];
-		
+
 		Debug.debug(Debug.INFO, "buddyback", "buddy " + buddy.Name + " is back!\n");
 	}
-	
+
 	public override void Load()
 	{
 		Debug.debug(Debug.INFO, "buddyback", "loading...\n");
-		
+
 		/*Signal.connect(BuddyList.GetHandle(), this, "buddy-back", new Signal.Handler(HandleSig));*/
 		BuddyList.OnBuddyStatusChanged.connect(this, new Signal.Handler(HandleSig));
 	}
-	
+
 	public override void Unload()
 	{
 	}
-	
+
 	public override void Destroy()
 	{
 	}

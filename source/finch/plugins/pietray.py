@@ -12,9 +12,9 @@
 #      the tooltip.
 #    - It can blink on unread IM/Chat messages, and it allows canging
 #      the preference for that.
-# 
+#
 # It requires GTK+ 2.10 or above, since it uses GtkStatusIcon.
-# 
+#
 # Sadrul <sadrul@pidgin.im>
 
 import pygtk

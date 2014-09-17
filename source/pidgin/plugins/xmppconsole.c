@@ -787,7 +787,7 @@ create_console(PurplePluginAction *action)
 	if (console->count == 0)
 		gtk_imhtml_append_text(GTK_IMHTML(console->imhtml),
 				       _("<font color='#c8c8c8'>Not connected to XMPP</font>"), 0);
-	gtk_box_pack_start(GTK_BOX(vbox), 
+	gtk_box_pack_start(GTK_BOX(vbox),
 		pidgin_make_scrollable(console->imhtml, GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC, GTK_SHADOW_ETCHED_IN, -1, -1),
 		TRUE, TRUE, 0);
 

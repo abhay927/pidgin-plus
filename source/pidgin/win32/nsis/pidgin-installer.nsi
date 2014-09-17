@@ -479,7 +479,7 @@ SectionGroup $(PIDGINSPELLCHECKSECTIONTITLE) SecSpellCheck
 SectionGroupEnd
 
 Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
-  
+
   InitPluginsDir
   StrCpy $R1 "$PLUGINSDIR\dbgsym.zip"
 

@@ -42,7 +42,7 @@ FunctionEnd
 ; After calling, the top of the Stack will contain the result of the check:
 ;   PIDGIN_VERSION_OK - If the installed Pidgin version is compatible w/ the version specified
 ;   PIDGIN_VERSION_INCOMPATIBLE - If the installed Pidgin version isn't compatible w/ the version specified
-;   PIDGIN_VERSION_UNDEFINED - If the installed Pidgin version can't be determined 
+;   PIDGIN_VERSION_UNDEFINED - If the installed Pidgin version can't be determined
 Function CheckPidginVersion
   ; Save the Variable values that we will use in the stack
   Push $R4
@@ -58,7 +58,7 @@ Function CheckPidginVersion
   Pop $R0
 
   ;If they are exactly the same, we don't need to look at anything else
-  StrCmp $R0 $R4 checkPidginVersion_VersionOK 
+  StrCmp $R0 $R4 checkPidginVersion_VersionOK
 
   ; Versions are in the form of X.Y.Z
   ; If X is different or plugin's Y > pidgin's Y, then we shouldn't install

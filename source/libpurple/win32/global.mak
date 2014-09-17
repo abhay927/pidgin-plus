@@ -101,7 +101,7 @@ CFLAGS += -O2 -Wall $(GCCWARNINGS) $(CC_HARDENING_OPTIONS) -pipe -mms-bitfields 
 
 # If not specified, dlls are built with the default base address of 0x10000000.
 # When loaded into a process address space a dll will be rebased if its base
-# address colides with the base address of an existing dll.  To avoid rebasing 
+# address colides with the base address of an existing dll.  To avoid rebasing
 # we do the following.  Rebasing can slow down the load time of dlls and it
 # also renders debug info useless.
 DLL_LD_FLAGS += -Wl,--enable-auto-image-base -Wl,--enable-auto-import $(LD_HARDENING_OPTIONS) -lssp

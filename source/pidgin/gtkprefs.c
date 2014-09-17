@@ -1822,7 +1822,7 @@ network_page(void)
 		"/purple/network/turn_username", sg);
 	pidgin_prefs_labeled_password(hbox, _("Pass_word:"),
 		"/purple/network/turn_password", NULL);
-	
+
 	g_object_unref(sg);
 
 	/* Application update checking */
@@ -1830,7 +1830,7 @@ network_page(void)
 	app_updates_checkbox = pidgin_prefs_checkbox("Automatically check for _new versions", "/purple/network/app_updates", vbox);
 	label = gtk_label_new(NULL);
 	gtk_label_set_markup(GTK_LABEL(label), _("<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"));
-	gtk_container_add(GTK_CONTAINER(vbox), label);	
+	gtk_container_add(GTK_CONTAINER(vbox), label);
 
 	gtk_widget_show_all(ret);
 	return ret;

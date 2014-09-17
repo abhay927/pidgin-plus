@@ -19,7 +19,7 @@ Purple::StoredImage
 purple_imgstore_find_by_id(id)
 	int id
 
-gconstpointer 
+gconstpointer
 purple_imgstore_get_data(i)
 	Purple::StoredImage i
 
@@ -27,7 +27,7 @@ const char *
 purple_imgstore_get_filename(i)
 	Purple::StoredImage i
 
-size_t 
+size_t
 purple_imgstore_get_size(i)
 	Purple::StoredImage i
 

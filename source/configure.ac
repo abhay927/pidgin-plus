@@ -607,7 +607,7 @@ Use --disable-cap if you do not need the Contact Availability Prediction plugin.
 ])
 			fi])
 	fi
-        
+
 
 else # GTK
 	enable_cap=no
@@ -1337,7 +1337,7 @@ if test "x$GCC" = "xyes"; then
 fi
 
 if test "x$SUNCC" = "xyes"; then
-        CFLAGS="$CFLAGS -features=extensions" 
+        CFLAGS="$CFLAGS -features=extensions"
 fi
 AC_SUBST(CFLAGS)
 

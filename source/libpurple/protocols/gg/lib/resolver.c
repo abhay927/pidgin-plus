@@ -598,7 +598,7 @@ static void gg_resolve_win32thread_cleanup(void **priv_data, int force)
  *
  * Połączenia asynchroniczne nie mogą blokować procesu w trakcie rozwiązywania
  * nazwy serwera. W tym celu tworzony jest potok, nowy proces i dopiero w nim
- * przeprowadzane jest rozwiązywanie nazwy. Deskryptor strony do odczytu 
+ * przeprowadzane jest rozwiązywanie nazwy. Deskryptor strony do odczytu
  * zapisuje się w strukturze sieci i czeka na dane w postaci struktury
  * \c in_addr. Jeśli nie znaleziono nazwy, zwracana jest \c INADDR_NONE.
  *
@@ -939,7 +939,7 @@ gg_resolver_t gg_session_get_resolver(struct gg_session *gs)
  *  - \c "int force" &mdash; flaga mówiąca o tym, że zasoby są zwalniane przed zakończeniem rozwiązywania nazwy, np. z powodu zamknięcia sesji.
  *
  * Własny kod rozwiązywania nazwy powinien stworzyć potok, parę gniazd lub
- * inny deskryptor pozwalający na co najmniej jednostronną komunikację i 
+ * inny deskryptor pozwalający na co najmniej jednostronną komunikację i
  * przekazać go w parametrze \c fd. Po zakończeniu rozwiązywania nazwy,
  * powinien wysłać otrzymany adres IP w postaci sieciowej (big-endian) do
  * deskryptora. Jeśli rozwiązywanie nazwy się nie powiedzie, należy wysłać

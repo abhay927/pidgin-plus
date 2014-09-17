@@ -37,7 +37,7 @@ The simplest way to compile this package is:
 	 This summary will also appear in the help->about dialog.
 
   2. Type `make' to compile the package.  On some systems, you may need
-     to use `gmake' instead. 
+     to use `gmake' instead.
 
   3. Optionally, type `make check' to run any self-tests that come with
      the package.
@@ -54,7 +54,7 @@ The simplest way to compile this package is:
      for the package's developers.  If you use it, you may have to get
      all sorts of other programs in order to regenerate files that came
      with the distribution.
-	 
+
   6. If you have *not* run make distclean, you can use the target
      `make uninstall` to remove the files installed by `make install`.
 
@@ -148,11 +148,11 @@ compile.
 
 	`--enable-gnutls=yes,no' will enable or disable the use of gnutls for ssl support.  Disabling both gnutls and nss will mean you cannot use either MSN or Google Talk.  There is no static option for gnutls at this time.
 
-	`--enable-nss=yes,no,static'  will enable or disable the use of nss for ssl support.  This is the only option for ssl support if you are attempting to compile a static version of Pidgin or Finch.  
+	`--enable-nss=yes,no,static'  will enable or disable the use of nss for ssl support.  This is the only option for ssl support if you are attempting to compile a static version of Pidgin or Finch.
 
 Optional Packages:
 
-	`--with-silc-includes=DIR' 	and `--with-silc-libs=DIR' can be used if your silc libraries are installed to a location not in your path. 
+	`--with-silc-includes=DIR' 	and `--with-silc-libs=DIR' can be used if your silc libraries are installed to a location not in your path.
 
 	`--with-static-prpls' takes a list of comma separated protocols to build in statically (rather than as plugins).  Use this with care.
 
@@ -220,4 +220,4 @@ operates.
      Print the version of Autoconf used to generate the `configure'
      script, and exit.
 
-`configure' also accepts some other, not widely useful, options.  Many of these are related to having various optional libaries installed to locations outside of your path.  
+`configure' also accepts some other, not widely useful, options.  Many of these are related to having various optional libaries installed to locations outside of your path.

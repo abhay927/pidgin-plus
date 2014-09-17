@@ -452,7 +452,7 @@ tls_peers_mgmt_build(void)
 	g_signal_connect(G_OBJECT(select), "changed",
 			 G_CALLBACK(tls_peers_mgmt_select_chg_cb), NULL);
 
-	gtk_box_pack_start(GTK_BOX(mgmt_widget), 
+	gtk_box_pack_start(GTK_BOX(mgmt_widget),
 			pidgin_make_scrollable(GTK_WIDGET(listview), GTK_POLICY_AUTOMATIC, GTK_POLICY_ALWAYS, GTK_SHADOW_IN, -1, -1),
 			TRUE, TRUE, /* Take up lots of space */
 			0);

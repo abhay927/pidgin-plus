@@ -5968,8 +5968,8 @@ static void pidgin_blist_show(PurpleBuddyList *list)
 	gtk_tree_view_set_search_equal_func(GTK_TREE_VIEW(gtkblist->treeview),
 			pidgin_blist_search_equal_func, NULL, NULL);
 
-	gtk_box_pack_start(GTK_BOX(gtkblist->vbox), 
-		pidgin_make_scrollable(gtkblist->treeview, GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC, GTK_SHADOW_NONE, -1, -1), 
+	gtk_box_pack_start(GTK_BOX(gtkblist->vbox),
+		pidgin_make_scrollable(gtkblist->treeview, GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC, GTK_SHADOW_NONE, -1, -1),
 		TRUE, TRUE, 0);
 
 	sep = gtk_hseparator_new();

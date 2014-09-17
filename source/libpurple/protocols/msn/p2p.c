@@ -430,7 +430,7 @@ msn_p2p_info_create_ack(MsnP2PInfo *old_info, MsnP2PInfo *new_info)
 					if (old->opcode & P2P_OPCODE_SYN) {
 						msn_tlv_t *ack_tlv;
 						new->opcode |= P2P_OPCODE_RAK;
-						
+
 						ack_tlv = msn_tlv_gettlv(old->header_tlv, P2P_HEADER_TLV_TYPE_PEER_INFO, 1);
 						if (ack_tlv) {
 							msn_tlvlist_add_tlv(&new->header_tlv, ack_tlv);

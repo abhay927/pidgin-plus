@@ -7,7 +7,7 @@ namespace Purple {
 		private string description;
 		private string author;
 		private string homepage;
-		
+
 		public PluginInfo(string id, string name, string version, string summary,
 						  string description, string author, string homepage)
 		{
@@ -17,7 +17,7 @@ namespace Purple {
 			this.summary = summary;
 			this.description = description;
 			this.author = author;
-			this.homepage = homepage;	
+			this.homepage = homepage;
 		}
 
 		public string Id {
@@ -48,7 +48,7 @@ namespace Purple {
 			get { return homepage; }
 		}
 	}
-	
+
 	abstract public class Plugin {
 		private PluginInfo info;
 

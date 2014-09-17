@@ -309,7 +309,7 @@ wpurple_inet_pton(int af, const char *src, void *dst)
 		struct sockaddr_in sin;
 	} sa;
 	size_t srcsize;
-	
+
 	switch(af)
 	{
 		case AF_INET:
@@ -324,13 +324,13 @@ wpurple_inet_pton(int af, const char *src, void *dst)
 			errno = WSAEPFNOSUPPORT;
 			return -1;
 	}
-	
+
 	if (WSAStringToAddress(src, af, NULL, (struct sockaddr *) &sa, &srcsize) != 0)
 	{
 		errno = WSAGetLastError();
 		return -1;
 	}
-	
+
 	switch(af)
 	{
 		case AF_INET:
@@ -340,7 +340,7 @@ wpurple_inet_pton(int af, const char *src, void *dst)
 			memcpy(dst, &sa.sin6.sin6_addr, sizeof(sa.sin6.sin6_addr));
 		break;
 	}
-	
+
 	return 1;
 }
 

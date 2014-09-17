@@ -23,7 +23,7 @@ NEEDED_DLLS = \
 			$(NSS_TOP)/lib/smime3.dll \
 			$(NSS_TOP)/lib/softokn3.dll \
                         $(NSS_TOP)/lib/sqlite3.dll \
-			$(NSS_TOP)/lib/ssl3.dll 
+			$(NSS_TOP)/lib/ssl3.dll
 
 ##
 ## INCLUDE PATHS

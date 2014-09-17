@@ -472,7 +472,7 @@ static int gg_session_handle_dcc7_accept(struct gg_session *gs, uint32_t type, c
 
 /**
  * \internal Obsługuje pakiet GG_DCC7_NEW.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_dcc7_new(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -484,7 +484,7 @@ static int gg_session_handle_dcc7_new(struct gg_session *gs, uint32_t type, cons
 
 /**
  * \internal Obsługuje pakiet GG_DCC7_REJECT.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_dcc7_reject(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -496,7 +496,7 @@ static int gg_session_handle_dcc7_reject(struct gg_session *gs, uint32_t type, c
 
 /**
  * \internal Obsługuje pakiet GG_DCC7_INFO.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_dcc7_info(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -586,7 +586,7 @@ static void gg_image_queue_parse(struct gg_event *e, const char *p, unsigned int
 
 /**
  * \internal Analizuje informacje rozszerzone wiadomości.
- * 
+ *
  * \param sess Struktura sesji.
  * \param e Struktura zdarzenia.
  * \param sender Numer nadawcy.
@@ -792,7 +792,7 @@ static int gg_session_send_msg_ack(struct gg_session *gs, uint32_t seq)
 
 /**
  * \internal Obsługuje pakiet GG_RECV_MSG.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_recv_msg(struct gg_session *sess, uint32_t type, const char *packet, size_t length, struct gg_event *e)
@@ -815,14 +815,14 @@ static int gg_session_handle_recv_msg(struct gg_session *sess, uint32_t type, co
 		length = 1;
 	} else {
 		const char *options;
-		
+
 		options = memchr(payload, 0, (size_t) (payload_end - payload));
 
 		if (options == NULL) {
 			gg_debug_session(sess, GG_DEBUG_MISC, "// gg_handle_recv_msg() malformed packet, message out of bounds (0)\n");
 			goto malformed;
 		}
-		
+
 		length = (size_t) (options - payload);
 
 		switch (gg_handle_recv_msg_options(sess, e, gg_fix32(r->sender), options + 1, payload_end)) {
@@ -870,7 +870,7 @@ malformed:
 
 /**
  * \internal Obsługuje pakiet GG_RECV_MSG80.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_recv_msg_80(struct gg_session *sess, uint32_t type, const char *packet, size_t length, struct gg_event *e)
@@ -978,7 +978,7 @@ malformed:
 
 /**
  * \internal Obsługuje pakiet GG_STATUS.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_status(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1006,7 +1006,7 @@ static int gg_session_handle_status(struct gg_session *gs, uint32_t type, const 
 
 /**
  * \internal Obsługuje pakiety GG_STATUS60, GG_STATUS77 i GG_STATUS80BETA.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_status_60_77_80beta(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1073,7 +1073,7 @@ static int gg_session_handle_status_60_77_80beta(struct gg_session *gs, uint32_t
 
 /**
  * \internal Obsługuje pakiet GG_NOTIFY_REPLY.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_notify_reply(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1137,7 +1137,7 @@ static int gg_session_handle_notify_reply(struct gg_session *gs, uint32_t type, 
 
 /**
  * \internal Obsługuje pakiet GG_STATUS80.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_status_80(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1175,7 +1175,7 @@ static int gg_session_handle_status_80(struct gg_session *gs, uint32_t type, con
 
 /**
  * \internal Obsługuje pakiet GG_NOTIFY_REPLY80.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_notify_reply_80(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1251,7 +1251,7 @@ static int gg_session_handle_notify_reply_80(struct gg_session *gs, uint32_t typ
 
 /**
  * \internal Obsługuje pakiety GG_NOTIFY_REPLY77 i GG_NOTIFY_REPLY80BETA.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_notify_reply_77_80beta(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1303,7 +1303,7 @@ static int gg_session_handle_notify_reply_77_80beta(struct gg_session *gs, uint3
 				}
 
 				/* XXX czas */
-					
+
 				length -= sizeof(struct gg_notify_reply77) + descr_len + 1;
 				n = (void*) ((char*) n + sizeof(struct gg_notify_reply77) + descr_len + 1);
 			} else {
@@ -1330,7 +1330,7 @@ static int gg_session_handle_notify_reply_77_80beta(struct gg_session *gs, uint3
 
 /**
  * \internal Obsługuje pakiet GG_NOTIFY_REPLY60.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_notify_reply_60(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1384,7 +1384,7 @@ static int gg_session_handle_notify_reply_60(struct gg_session *gs, uint32_t typ
 				ge->event.notify60[i].descr = descr;
 
 				/* XXX czas */
-					
+
 				length -= sizeof(struct gg_notify_reply60) + descr_len + 1;
 				n = (void*) ((char*) n + sizeof(struct gg_notify_reply60) + descr_len + 1);
 			} else {
@@ -1411,7 +1411,7 @@ static int gg_session_handle_notify_reply_60(struct gg_session *gs, uint32_t typ
 
 /**
  * \internal Obsługuje pakiet GG_USER_DATA.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_user_data(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1457,7 +1457,7 @@ static int gg_session_handle_user_data(struct gg_session *gs, uint32_t type, con
 	ge->event.user_data.type = d.type;
 	ge->event.user_data.user_count = d.user_count;
 	ge->event.user_data.users = users;
-	
+
 	gg_debug_session(gs, GG_DEBUG_DUMP, "type=%d, count=%d\n", d.type, d.user_count);
 
 	for (i = 0; i < d.user_count; i++) {
@@ -1593,7 +1593,7 @@ malformed:
 
 /**
  * \internal Obsługuje pakiet GG_TYPING_NOTIFICATION.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_typing_notification(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1614,7 +1614,7 @@ static int gg_session_handle_typing_notification(struct gg_session *gs, uint32_t
 
 /**
  * \internal Obsługuje pakiet GG_MULTILOGON_INFO.
- * 
+ *
  * Patrz gg_packet_handler_t
  */
 static int gg_session_handle_multilogon_info(struct gg_session *gs, uint32_t type, const char *ptr, size_t len, struct gg_event *ge)
@@ -1642,7 +1642,7 @@ static int gg_session_handle_multilogon_info(struct gg_session *gs, uint32_t typ
 		gg_debug_session(gs, GG_DEBUG_MISC, "// gg_handle_multilogon_info() out of memory (%d*%d)\n", count, sizeof(struct gg_multilogon_session));
 		return -1;
 	}
-	
+
 	ge->type = GG_EVENT_MULTILOGON_INFO;
 	ge->event.multilogon_info.count = count;
 	ge->event.multilogon_info.sessions = sessions;
@@ -1733,7 +1733,7 @@ static int gg_session_handle_userlist_100_reply(struct gg_session *gs, uint32_t 
 
 	if (len > sizeof(*reply)) {
 		data = gg_inflate((const unsigned char*) ptr + sizeof(*reply), len - sizeof(*reply));
-		
+
 		if (data == NULL) {
 			gg_debug_session(gs, GG_DEBUG_MISC, "// gg_handle_userlist_100_reply() gg_inflate() failed\n");
 			return -1;

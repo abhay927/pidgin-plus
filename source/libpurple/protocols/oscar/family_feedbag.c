@@ -69,11 +69,11 @@ aim_ssi_type_to_string(guint16 type)
 		{ 0x0002, "Permit/Visible" },
 		{ 0x0003, "Deny/Invisible" },
 		{ 0x0004, "PDInfo" },
-		{ 0x0005, "PresencePrefs" }, 
+		{ 0x0005, "PresencePrefs" },
 		{ 0x0006, "Non-Buddy Info" },
 		{ 0x0009, "ClientPrefs" },
 		{ 0x000e, "ICQDeny/Ignore" },
-		{ 0x0014, "Buddy Icon" }, 
+		{ 0x0014, "Buddy Icon" },
 		{ 0x0015, "Recent Buddies" },
 		{ 0x0019, "Non-Buddy" },
 		{ 0x001d, "Vanity Info" },
@@ -98,7 +98,7 @@ aim_ssi_type_to_string(guint16 type)
 static void
 aim_ssi_item_debug_append(GString *str, char *prefix, struct aim_ssi_item *item)
 {
-	g_string_append_printf(str, 
+	g_string_append_printf(str,
 		"%s gid=0x%04hx, bid=0x%04hx, list_type=0x%04hx [%s], name=%s.\n",
 		prefix, item->gid, item->bid, item->type, aim_ssi_type_to_string(item->type),
 		item->name ? item->name : "(null)");
@@ -626,7 +626,7 @@ static int aim_ssi_sync(OscarData *od)
 		purple_debug_info("oscar", "%s", debugstr->str);
 		if (purple_debug_is_verbose()) {
 	    		g_string_truncate(debugstr, 0);
-			for (cur1 = od->ssi.local; cur1; cur1 = cur1->next) 
+			for (cur1 = od->ssi.local; cur1; cur1 = cur1->next)
 				aim_ssi_item_debug_append(debugstr, "\t", cur1);
 			purple_debug_misc("oscar", "Dumping item list of account %s:\n%s",
 				purple_connection_get_account(od->gc)->username, debugstr->str);

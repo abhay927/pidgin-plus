@@ -28,16 +28,16 @@ BOOT:
 		newCONSTSUB(field_stash, (char *)civ->name, newSViv(civ->iv));
 }
 
-void 
+void
 purple_roomlist_cancel_get_list(list)
 	Purple::Roomlist list
 
-void 
+void
 purple_roomlist_expand_category(list, category)
 	Purple::Roomlist list
 	Purple::Roomlist::Room category
 
-gboolean 
+gboolean
 purple_roomlist_get_in_progress(list)
 	Purple::Roomlist list
 
@@ -49,27 +49,27 @@ Purple::Roomlist
 purple_roomlist_new(account)
 	Purple::Account account
 
-void 
+void
 purple_roomlist_ref(list)
 	Purple::Roomlist list
 
-void 
+void
 purple_roomlist_room_add(list, room)
 	Purple::Roomlist list
 	Purple::Roomlist::Room room
 
-void 
+void
 purple_roomlist_room_add_field(list, room, field)
 	Purple::Roomlist list
 	Purple::Roomlist::Room room
 	gconstpointer field
 
-void 
+void
 purple_roomlist_room_join(list, room)
 	Purple::Roomlist list
 	Purple::Roomlist::Room room
 
-void 
+void
 purple_roomlist_set_fields(list, fields)
 	Purple::Roomlist list
 	SV *fields
@@ -85,16 +85,16 @@ PPCODE:
 
 	purple_roomlist_set_fields(list, t_GL);
 
-void 
+void
 purple_roomlist_set_in_progress(list, in_progress)
 	Purple::Roomlist list
 	gboolean in_progress
 
-void 
+void
 purple_roomlist_show_with_account(account)
 	Purple::Account account
 
-void 
+void
 purple_roomlist_unref(list)
 	Purple::Roomlist list
 

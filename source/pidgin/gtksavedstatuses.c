@@ -1185,7 +1185,7 @@ pidgin_status_editor_show(gboolean edit, PurpleSavedStatus *saved_status)
 	dialog->treeview = gtk_tree_view_new_with_model(GTK_TREE_MODEL(dialog->model));
 	gtk_tree_view_set_rules_hint(GTK_TREE_VIEW(dialog->treeview), TRUE);
 	gtk_widget_set_size_request(dialog->treeview, -1, 150);
-	gtk_box_pack_start(GTK_BOX(dbox), 
+	gtk_box_pack_start(GTK_BOX(dbox),
 		pidgin_make_scrollable(dialog->treeview, GTK_POLICY_AUTOMATIC, GTK_POLICY_ALWAYS, GTK_SHADOW_IN, -1, -1),
 		TRUE, TRUE, 0);
 

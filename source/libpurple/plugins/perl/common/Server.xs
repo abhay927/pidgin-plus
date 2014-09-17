@@ -4,58 +4,58 @@ MODULE = Purple::Serv  PACKAGE = Purple::Serv  PREFIX = serv_
 PROTOTYPES: ENABLE
 
 
-void 
+void
 serv_add_deny(con, a)
 	Purple::Connection con
 	const char * a
 
-void 
+void
 serv_add_permit(a, b)
 	Purple::Connection a
 	const char * b
 
-void 
+void
 serv_alias_buddy(buddy)
-	Purple::BuddyList::Buddy buddy 
+	Purple::BuddyList::Buddy buddy
 
-void 
+void
 serv_chat_invite(con, a, b, c)
 	Purple::Connection con
 	int a
 	const char * b
 	const char * c
 
-void 
+void
 serv_chat_leave(a, b)
 	Purple::Connection a
 	int b
 
-int  
+int
 serv_chat_send(con, a, b, flags)
-	Purple::Connection con 
+	Purple::Connection con
 	int a
 	const char * b
 	Purple::MessageFlags flags
 
-void 
+void
 serv_chat_whisper(con, a, b, c)
 	Purple::Connection con
 	int a
 	const char * b
 	const char * c
 
-void 
+void
 serv_get_info(con, a)
-	Purple::Connection con 
+	Purple::Connection con
 	const char * a
 
-void 
+void
 serv_got_alias(gc, who, alias)
 	Purple::Connection gc
 	const char *who
 	const char *alias
 
-void 
+void
 serv_got_chat_in(g, id, who, chatflags, message, mtime)
 	Purple::Connection g
 	int id
@@ -64,7 +64,7 @@ serv_got_chat_in(g, id, who, chatflags, message, mtime)
 	const char *message
 	time_t mtime
 
-void 
+void
 serv_got_chat_invite(gc, name, who, message, components)
 	Purple::Connection gc
 	const char *name
@@ -91,12 +91,12 @@ CODE:
 	}
 	serv_got_chat_invite(gc, name, who, message, t_GHash);
 
-void 
+void
 serv_got_chat_left(g, id)
 	Purple::Connection g
 	int id
 
-void 
+void
 serv_got_im(gc, who, msg, imflags, mtime)
 	Purple::Connection gc
 	const char *who
@@ -110,14 +110,14 @@ serv_got_joined_chat(gc, id, name)
 	int id
 	const char *name
 
-void 
+void
 serv_got_typing(gc, name, timeout, state)
 	Purple::Connection gc
 	const char *name
 	int timeout
 	Purple::TypingState state
 
-void 
+void
 serv_got_typing_stopped(gc, name)
 	Purple::Connection gc
 	const char *name
@@ -146,15 +146,15 @@ CODE:
 	serv_join_chat(conn, t_GHash);
 	g_hash_table_destroy(t_GHash);
 
-void 
+void
 serv_move_buddy(buddy, group1, group2)
 	Purple::BuddyList::Buddy buddy
 	Purple::BuddyList::Group group1
 	Purple::BuddyList::Group group2
 
-void 
+void
 serv_reject_chat(con, components)
-	Purple::Connection con 
+	Purple::Connection con
 	SV * components
 INIT:
 	HV * t_HV;
@@ -176,41 +176,41 @@ CODE:
 	}
 	serv_reject_chat(con, t_GHash);
 
-void 
+void
 serv_rem_deny(con, a)
 	Purple::Connection con
 	const char * 	a
 
-void 
+void
 serv_rem_permit(con, a)
 	Purple::Connection con
 	const char *	a
 
-void 
+void
 serv_send_file(gc, who, file)
 	Purple::Connection gc
 	const char *who
 	const char *file
 
-int  
+int
 serv_send_im(con, a, b, flags )
 	Purple::Connection con
 	const char * a
 	const char * b
 	Purple::MessageFlags flags
 
-int  
+int
 serv_send_typing(con, a, state)
 	Purple::Connection con
 	const char * a
 	Purple::TypingState state
 
-void 
+void
 serv_set_info(con, a)
-	Purple::Connection con 
+	Purple::Connection con
 	const char * a
 
-void 
+void
 serv_set_permit_deny(con)
-	Purple::Connection con  
+	Purple::Connection con
 

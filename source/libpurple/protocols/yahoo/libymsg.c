@@ -2776,7 +2776,7 @@ static void yahoo_p2p_read_pkt_cb(gpointer data, gint source, PurpleInputConditi
 	pktlen = yahoo_get16(buf + pos); pos += 2;
 	if (len < (YAHOO_PACKET_HDRLEN + pktlen)) {
 		purple_debug_error("yahoo", "p2p: packet length(%d) > buffer length(%d)\n",
-				pktlen, (len - pos)); 
+				pktlen, (len - pos));
 		/* remove from p2p connection lists, also calls yahoo_p2p_disconnect_destroy_data */
 		if (g_hash_table_lookup(yd->peers, p2p_data->host_username))
 			g_hash_table_remove(yd->peers, p2p_data->host_username);

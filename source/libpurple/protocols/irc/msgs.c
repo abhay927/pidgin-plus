@@ -480,9 +480,9 @@ void irc_msg_who(struct irc_conn *irc, const char *name, const char *from, char 
 		PurpleConversation *conv;
 		PurpleConvChat *chat;
 		PurpleConvChatBuddy *cb;
-		
+
 		char *cur, *userhost, *realname;
-		
+
 		PurpleConvChatBuddyFlags flags;
 		GList *keys = NULL, *values = NULL;
 
@@ -499,7 +499,7 @@ void irc_msg_who(struct irc_conn *irc, const char *name, const char *from, char 
 		}
 
 		chat = PURPLE_CONV_CHAT(conv);
-		
+
 		userhost = g_strdup_printf("%s@%s", args[2], args[3]);
 
 		/* The final argument is a :-argument, but annoyingly
@@ -511,21 +511,21 @@ void irc_msg_who(struct irc_conn *irc, const char *name, const char *from, char 
 			}
 		}
 		realname = g_strdup(cur);
-		
+
 		keys = g_list_prepend(keys, "userhost");
 		values = g_list_prepend(values, userhost);
-		
+
 		keys = g_list_prepend(keys, "realname");
 		values = g_list_prepend(values, realname);
-		
+
 		purple_conv_chat_cb_set_attributes(chat, cb, keys, values);
-		
+
 		g_list_free(keys);
 		g_list_free(values);
-		
+
 		g_free(userhost);
 		g_free(realname);
-		
+
 		flags = cb->flags;
 
 		/* FIXME: I'm not sure this is really a good idea, now
@@ -985,12 +985,12 @@ void irc_msg_join(struct irc_conn *irc, const char *name, const char *from, char
 		}
 		purple_conversation_set_data(convo, IRC_NAMES_FLAG,
 					   GINT_TO_POINTER(FALSE));
-		
+
 		// Get the real name and user host for all participants.
 		buf = irc_format(irc, "vc", "WHO", args[0]);
 		irc_send(irc, buf);
 		g_free(buf);
-		
+
 		/* Until purple_conversation_present does something that
 		 * one would expect in Pidgin, this call produces buggy
 		 * behavior both for the /join and auto-join cases. */
@@ -1007,15 +1007,15 @@ void irc_msg_join(struct irc_conn *irc, const char *name, const char *from, char
 
 	userhost = irc_mask_userhost(from);
 	chat = PURPLE_CONV_CHAT(convo);
-	
+
 	purple_conv_chat_add_user(chat, nick, userhost, PURPLE_CBFLAGS_NONE, TRUE);
-	
+
 	cb = purple_conv_chat_cb_find(chat, nick);
-	
+
 	if (cb) {
-		purple_conv_chat_cb_set_attribute(chat, cb, "userhost", userhost);		
+		purple_conv_chat_cb_set_attribute(chat, cb, "userhost", userhost);
 	}
-	
+
 	if ((ib = g_hash_table_lookup(irc->buddies, nick)) != NULL) {
 		ib->new_online_status = TRUE;
 		irc_buddy_status(nick, ib, irc);

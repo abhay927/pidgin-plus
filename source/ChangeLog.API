@@ -774,7 +774,7 @@ version 2.2.0 (09/13/2007):
 		* PURPLE_MESSAGE_INVISIBLE flag, which can be used by
 		  purple_conv_im_send_with_flags to send a message, but not display it
 		  in the conversation
-		* serv_send_attention(), serv_got_attention(), as well as send_attention 
+		* serv_send_attention(), serv_got_attention(), as well as send_attention
 		  and attention_types in PurplePluginProtocolInfo. This new API is used
 		  for zapping in MySpaceIM, buzzing in Yahoo, and nudging in MSN.
 		* PurpleConvMessage structure to represent a message in a
@@ -860,7 +860,7 @@ version 2.1.0 (7/28/2007):
 		* purple_xfer_get_remote_user
 		* purple_pounces_get_all_for_ui
 		* purple_prefs_get_children_names
-		* added displaying-email-notification and 
+		* added displaying-email-notification and
  	          displaying-emails-notification signals
 
 		Changed:
@@ -1013,7 +1013,7 @@ version 2.0.0 (5/3/2007):
 	  const char *name, const char *alias
 	* gaim_conv_chat_add_users(), added extra_msgs and new_arrivals (pass NULL
 	  and FALSE respectively, to get the same behavior as before)
-	* chat_add_users in GaimConversationUiOps, added cbuddies and 
+	* chat_add_users in GaimConversationUiOps, added cbuddies and
 	  new_arrivals and removed buddies.
 	* chat_rename_user in GaimConversationUiOps, added new_alias
 	* gaim_conv_chat_cb_new(), added alias. (pass NULL to get the same
@@ -1199,7 +1199,7 @@ version 2.0.0 (5/3/2007):
 	* gaim_date_full(): See gaim_date_format_full()
 	* gaim_strftime(): See gaim_utf8_strftime()
 	* GAIM_MESSAGE_COLORIZE
-	* user_data from gaim_notify_searchresults_new_rows and from 
+	* user_data from gaim_notify_searchresults_new_rows and from
 	  notify_searchresults in GaimNotifyUiOps.
 	* gaim_conversation_get_send_history(), and send_history from
 	  GaimConversation

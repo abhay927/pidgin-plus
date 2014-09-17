@@ -78,7 +78,7 @@
 
 /**
  * Port gniazda nasłuchującego dla połączeń bezpośrednich.
- * 
+ *
  * \ingroup ip
  */
 int gg_dcc_port = 0;
@@ -870,9 +870,9 @@ struct gg_session *gg_login(const struct gg_login_params *p)
 			gg_debug(GG_DEBUG_MISC, "// gg_login() not enough memory for status\n");
 			goto fail;
 		}
-		
+
 		// XXX pamiętać, żeby nie ciąć w środku znaku utf-8
-		
+
 		if (strlen(sess->initial_descr) > max_length)
 			sess->initial_descr[max_length] = 0;
 	}
@@ -1479,7 +1479,7 @@ int gg_send_message_confer(struct gg_session *sess, int msgclass, int recipients
  * \param formatlen Długość informacji o formatowaniu
  *
  * \return Numer sekwencyjny wiadomości lub -1 w przypadku błędu.
- * 
+ *
  * \ingroup messages
  */
 int gg_send_message_confer_richtext(struct gg_session *sess, int msgclass, int recipients_count, uin_t *recipients, const unsigned char *message, const unsigned char *format, int formatlen)
@@ -1535,7 +1535,7 @@ int gg_send_message_confer_richtext(struct gg_session *sess, int msgclass, int r
 		s.seq = gg_fix32(seq_no);
 	} else {
 		int len;
-		
+
 		// Drobne odchylenie od protokołu. Jeśli wysyłamy kilka
 		// wiadomości w ciągu jednej sekundy, zwiększamy poprzednią
 		// wartość, żeby każda wiadomość miała unikalny numer.

@@ -2231,8 +2231,8 @@ get_config_frame(PurplePlugin *plugin)
 
 	gtk_tree_selection_set_mode(gtk_tree_view_get_selection(GTK_TREE_VIEW(tree)),
 		 GTK_SELECTION_MULTIPLE);
-	gtk_box_pack_start(GTK_BOX(vbox), 
-		pidgin_make_scrollable(tree, GTK_POLICY_NEVER, GTK_POLICY_ALWAYS, GTK_SHADOW_IN, -1, -1), 
+	gtk_box_pack_start(GTK_BOX(vbox),
+		pidgin_make_scrollable(tree, GTK_POLICY_NEVER, GTK_POLICY_ALWAYS, GTK_SHADOW_IN, -1, -1),
 		TRUE, TRUE, 0);
 	gtk_widget_show(tree);
 

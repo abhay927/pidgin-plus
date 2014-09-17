@@ -41,7 +41,7 @@ signtool_command = $(SIGNTOOL) sign \
 gpg_sign_command = @$(GPG_SIGN) -ab --batch --yes --passphrase "$(GPG_PASSWORD)" $(1) && $(GPG_SIGN) --verify $(1).asc
 
 # Authenticode signing
-define authenticode_sign	
+define authenticode_sign
 	$(if $(findstring bypass, $(SIGNTOOL)),
 		@printf "$(if $(findstring line, $(4)),\n)";
 		@./colored.sh note "bypassing Authenticode signing for $(1)";
@@ -49,16 +49,16 @@ define authenticode_sign
 		@./colored.sh info blue "Signing $(1) with Authenticode";
 		@$(call signtool_command,$1,$2);
 		@printf "$(if $(findstring line, $(3)),\n)"
-	)	
+	)
 endef
 
 # GPG signing
-define gpg_sign	
+define gpg_sign
 	$(if $(findstring bypass, $(GPG_SIGN)),
 		@printf "$(if $(findstring line, $(3)),\n)";
 		@./colored.sh note "bypassing GPG signing for $(1)";
 		@printf "$(if $(findstring line, $(4)),\n)",
-		@./colored.sh info blue "Signing $(1) with GnuPG";		
+		@./colored.sh info blue "Signing $(1) with GnuPG";
 		@$(call gpg_sign_command,$1);
 		@printf "$(if $(findstring line, $(2)),\n)"
 	)
@@ -248,7 +248,7 @@ debug_symbols_zip: install
 	 -not \( -false $(EXTERNAL_DLLS_FIND_EXP) \) -print` \
 	 | tar --strip 2 --xform s/$$/.dbgsym/ -xC $(DEBUG_SYMBOLS_DIR) -f -
 	cp $(MEANWHILE_TOP)/bin/libmeanwhile-1.dll.unstripped $(DEBUG_SYMBOLS_DIR)/libmeanwhile-1.dll.dbgsym
-	zip -9 -r $(DEBUG_SYMBOLS_DIR).zip $(DEBUG_SYMBOLS_DIR) 
+	zip -9 -r $(DEBUG_SYMBOLS_DIR).zip $(DEBUG_SYMBOLS_DIR)
 	$(call gpg_sign,$(DEBUG_SYMBOLS_DIR).zip)
 
 installers: installer installer_offline debug_symbols_zip installer_zip

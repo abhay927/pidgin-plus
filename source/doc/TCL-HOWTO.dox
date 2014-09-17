@@ -109,7 +109,7 @@ purple::account username account
   does nothing if it is.
 
   @c find finds an account by its @c username and @c protocol (as returned by
-  <tt>purple::account username</tt> and <tt>purple::account protocol</tt>) and 
+  <tt>purple::account username</tt> and <tt>purple::account protocol</tt>) and
   returns the account if found, or 0 otherwise.
 
   @c handle returns the instance handle required to connect to account

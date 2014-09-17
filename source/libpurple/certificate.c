@@ -1687,7 +1687,7 @@ x509_tls_cached_unknown_peer(PurpleCertificateVerificationRequest *vrq,
 	end_crt = g_list_last(chain)->data;
 
 	/* Attempt to look up the last certificate, and the last certificate's
-	 * issuer. 
+	 * issuer.
 	 */
 	ca_id  = purple_certificate_get_issuer_unique_id(end_crt);
 	ca2_id = purple_certificate_get_unique_id(end_crt);

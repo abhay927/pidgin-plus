@@ -4818,7 +4818,7 @@ setup_chat_userlist(PidginConversation *gtkconv, GtkWidget *hpaned)
 
 	gtkchat->list = list;
 
-	gtk_box_pack_start(GTK_BOX(lbox), 
+	gtk_box_pack_start(GTK_BOX(lbox),
 		pidgin_make_scrollable(list, GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC, GTK_SHADOW_IN, -1, -1),
 		TRUE, TRUE, 0);
 }
@@ -6030,20 +6030,20 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 					tag_end_offset = 1;
 				}
 
-				if (flags & PURPLE_MESSAGE_NICK) {					
+				if (flags & PURPLE_MESSAGE_NICK) {
 					if (type == PURPLE_CONV_TYPE_IM) {
-						tagname = "highlight-name";						
+						tagname = "highlight-name";
 					}
 					message_color = DEFAULT_HIGHLIGHT_COLOR;
-				} else if (flags & PURPLE_MESSAGE_RECV) {					
+				} else if (flags & PURPLE_MESSAGE_RECV) {
 					/* The tagname for chats is handled by get_buddy_tag */
 					if (type == PURPLE_CONV_TYPE_IM) {
 						tagname = "receive-name";
 					}
 					message_color = DEFAULT_RECV_COLOR;
-				} else if (flags & PURPLE_MESSAGE_SEND) {					
+				} else if (flags & PURPLE_MESSAGE_SEND) {
 					tagname = "send-name";
-					message_color = DEFAULT_SEND_COLOR;					
+					message_color = DEFAULT_SEND_COLOR;
 				} else {
 					purple_debug_error("gtkconv", "message missing flags\n");
 				}
@@ -6076,8 +6076,8 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 		g_free(str);
 
 		if(gc){
-			char *attributes = sml_attrib ? sml_attrib : "";		
-			char *pre = g_strdup_printf("<font %s color=\"%s\">%s", attributes, message_color, message_meify? "<i>" : "");			
+			char *attributes = sml_attrib ? sml_attrib : "";
+			char *pre = g_strdup_printf("<font %s color=\"%s\">%s", attributes, message_color, message_meify? "<i>" : "");
 			char *post = message_meify? "</i></font>" : "</font>";
 			int pre_len = strlen(pre);
 			int post_len = strlen(post);

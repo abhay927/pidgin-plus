@@ -3,7 +3,7 @@
 MODULE = Purple::Core  PACKAGE = Purple::Core  PREFIX = purple_core_
 PROTOTYPES: ENABLE
 
-gboolean 
+gboolean
 purple_core_quit_cb()
 PPCODE:
 	/* The argument to purple_core_quit_cb is not used,

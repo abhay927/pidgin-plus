@@ -6,7 +6,7 @@ import re
 import urllib
 import sys
 
-import xml.dom.minidom 
+import xml.dom.minidom
 
 sys.stdin = codecs.getwriter('utf-8')(sys.stdin);
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout);
@@ -32,14 +32,14 @@ class CheckedAttribute:
     def __init__(self, cobj, attr):
         self.cobj = cobj
         self.attr = attr
-        
+
     def __call__(self, *args):
         result = self.cobj.obj.__getattr__(self.attr)(*args)
         if result == 0:
             raise Exception("Error: %s %s returned %s" %
                             (self.attr, args, result))
         return result
-            
+
 def show_help(requested=False):
     print """This program uses D-Bus to communicate with purple.
 
@@ -105,7 +105,7 @@ def findaccount(accountname, protocolname):
         purple.PurpleAccountSetStatusVargs(account, "online", 1)
         purple.PurpleAccountConnect(account)
         return account
-    
+
 
 def execute(uri):
     match = re.match(urlregexp, uri)
@@ -235,7 +235,7 @@ elif (sys.argv[1] == "--help" or sys.argv[1] == "-h"):
 elif (obj == None):
     print "No existing libpurple instance detected."
     sys.exit(1);
-    
+
 for arg in sys.argv[1:]:
     output = execute(arg)
 

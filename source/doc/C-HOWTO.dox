@@ -217,7 +217,7 @@ static PurplePluginInfo info = {
                                    For a Pidgin plugin it will be a pointer to a
                                    PidginPluginUiInfo struct, for example.
                                  */
-	NULL,                   /* This is a pointer to either a 
+	NULL,                   /* This is a pointer to either a
                                    PurplePluginLoaderInfo struct or a
                                    PurplePluginProtocolInfo struct, and is
                                    beyond the scope of this document.
@@ -234,7 +234,7 @@ static PurplePluginInfo info = {
                                    they're displayed.  It should be of the
                                    type:
 
-                                   GList *function_name(PurplePlugin *plugin, 
+                                   GList *function_name(PurplePlugin *plugin,
                                                         gpointer context)
 
                                     It must return a GList of
