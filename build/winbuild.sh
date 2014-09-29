@@ -54,9 +54,11 @@
 ##
 
 # Parse options
-source easyoptions; result=$?
-[[ ! -d "${arguments[0]}" && $result  = 0 ]] && echo "No valid development root specified, see --help."
-[[ ! -d "${arguments[0]}" || $result != 0 ]] && exit
+source easyoptions || exit
+if [[ -z "$prepare" && ! -d "${arguments[0]}" ]]; then
+    echo "No valid development root specified, see --help."
+    exit
+fi
 
 # Variables
 cd "$(dirname "$0")/.."
@@ -85,6 +87,8 @@ source "$source_dir/colored.sh"
 
 # Download functions
 bazaar_download() {
+    mkdir -p "$3"
+    mkdir -p "$devroot/downloads"
     tarball="$devroot/downloads/$2"
     url="http://bazaar.launchpad.net/~renatosilva/$1/tarball/head:"
     wget --quiet "$url" -O "$tarball" && bsdtar -xzf "$tarball" --strip-components 3 --directory "$3" "~renatosilva/$1/$4"
