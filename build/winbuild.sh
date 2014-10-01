@@ -230,7 +230,13 @@ fi
 
 # System path
 echo "Configuring system path"
+gcc_dir_before=$(dirname $(which gcc))
 eval $("$windev" "$devroot" --path $system_gcc)
+gcc_dir_after=$(dirname $(which gcc))
+if [[ "$system_gcc" != --system-gcc && "$gcc_dir_before" = "$gcc_dir_after" ]]; then
+    oops "could not find custom GCC in $devroot."
+    exit 1
+fi
 
 # Arbitrary target
 if [[ -n "$make" ]]; then
