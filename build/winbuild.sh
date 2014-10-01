@@ -16,7 +16,8 @@
 ##     -p, --prepare        Create the required build environment under
 ##                          DEVELOPMENT_ROOT and exit.
 ##
-##     -t, --update-pot     Update the translations template and exit.
+##     -t, --update-pot     Update the translations template and exit. This
+##                          option is not available in MinGW MSYS.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
 ##     -g, --gtk            Build the GTK+ runtime instead of installers, if
 ##                          not already built and uploaded. Both binary and
@@ -131,11 +132,14 @@ fi
 
 # Translations template
 if [[ -n "$update_pot" ]]; then
+    if [[ $(uname -or) = 1.*Msys ]]; then
+        echo "This option is not available in MinGW MSYS."
+        exit 1
+    fi
     cd "$source_dir/po"
     download_irc_plugins "$source_dir" temporary
     echo "Updating the translation template"
-    intltool_home=$(readlink -e "$devroot/win32-dev/intltool_"*)
-    PATH="$PATH:$intltool_home/bin" XGETTEXT_ARGS="--no-location --sort-output" intltool-update --pot
+    XGETTEXT_ARGS="--no-location --sort-output" intltool-update --pot
     exit
 fi
 
