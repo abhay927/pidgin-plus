@@ -21,19 +21,13 @@ esac
 # the SSP used in that version until a newer GCC is known to have been fixed.
 
 if [[ "$system" = 2.*Msys && "$gcc_version" = 4.9.* && "$gcc_micro_version" -gt 0 ]]; then
-    architecture=$(uname -m)
-    case $architecture in
-          i686) bitness=32 ;;
-        x86_64) bitness=64 ;;
-    esac
-
-    package="mingw-w64-${architecture}-gcc-libs-4.9.0-4-any.pkg.tar.xz"
-    url="http://sourceforge.net/projects/msys2/files/REPOS/MINGW/${architecture}/$package/download"
+    package="mingw-w64-i686-gcc-libs-4.9.0-4-any.pkg.tar.xz"
+    url="http://sourceforge.net/projects/msys2/files/REPOS/MINGW/i686/$package/download"
     echo "Downloading $url"
     wget --quiet -O "$package" "$url"
 
     echo "Extracting $package"
-    tar --xz -xf "$package" mingw${bitness}/bin/libssp-0.dll --strip-components 2
+    tar --xz -xf "$package" mingw32/bin/libssp-0.dll --strip-components 2
     rm "$package"
     mv -v "libssp-0.dll" "$target"
     exit
