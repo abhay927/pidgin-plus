@@ -25,12 +25,13 @@ fi
 source "$pidgin_base/colored.sh"
 install_dir_binary="Gtk"
 install_dir_source="Gtk-source"
+application_version=$(<$pidgin_base/VERSION)
 contents_file="$install_dir_binary/CONTENTS"
 stage_dir=$(readlink -f $pidgin_base/pidgin/win32/nsis/gtk_runtime_stage)
 zip_binary="$pidgin_base/pidgin/win32/nsis/gtk-runtime-$bundle_version.zip"
 zip_source="$pidgin_base/pidgin/win32/nsis/gtk-runtime-$bundle_version-source.zip"
 fedora_base_url="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m"
-application_version=$(<$pidgin_base/VERSION)
+[[ $(uname -or) = 1.*Msys ]] && wget_extra_arguments="--no-check-certificate"
 
 # Libraries
 packages=("$fedora_base_url/mingw32-atk-2.12.0-2.fc21.noarch.rpm         name:ATK         version:2.12.0-2    sha1sum:b45a978edb3de3d6a0445df88de23ca619e21730,93c7cb44d5a6789a7f95c066dc81267fe1dcf949"
@@ -75,7 +76,7 @@ check_signature() {
 
     if [ ! -e "$file.asc" ]; then
         echo "Downloading GPG key for $name"
-        wget -nv "$url.asc" || exit 1
+        wget -nv $wget_extra_arguments "$url.asc" || exit 1
     fi
 
     # Use our own keyring to avoid adding stuff to the main keyring. This
@@ -172,7 +173,7 @@ function download_and_extract {
         local extension="${file##*.}"
 
         if [[ ! -e "$file" ]]; then
-            wget --quiet $url || exit 1
+            wget --quiet $wget_extra_arguments $url || exit 1
         fi
         case "$validation_type" in
         sha1sum) check_sha1sum "$file" "$validation_value" quit ;;
@@ -198,7 +199,7 @@ function download_and_extract {
 if [ ! -e "$zip_binary" ]; then
     url="https://launchpad.net/pidgin++/trunk/2.10.9-rs243/+download/Pidgin GTK+ Runtime $bundle_version.zip"
     echo "Downloading $url"
-    wget --quiet "$url" --output-document "$zip_binary"
+    wget --quiet $wget_extra_arguments --output-document "$zip_binary" "$url"
 fi
 
 # If the sha1sum check succeeds, then extract and quit
