@@ -21,7 +21,7 @@ mkdir -p "$staging_dir/unpacked"
 
 if [[ -z "$create" ]]; then
     if [[ ! -e "$zip_file" ]]; then
-        url="https://launchpad.net/pidgin++/trunk/2.10.9-rs243/+download/Pidgin Dictionaries.zip"
+        url="https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin Dictionaries.zip"
         echo "Downloading $url"
         wget --quiet $wget_extra_arguments --output-document "$zip_file" "$url"
     fi

@@ -203,7 +203,7 @@ function download_and_extract {
 
 # Try downloading first
 if [ ! -e "$zip_binary" ]; then
-    url="https://launchpad.net/pidgin++/trunk/2.10.9-rs243/+download/Pidgin++ GTK+ Runtime $bundle_version.zip"
+    url="https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ GTK+ Runtime $bundle_version.zip"
     echo "Downloading $url"
     wget --quiet $wget_extra_arguments --output-document "$zip_binary" "$url"
 fi
