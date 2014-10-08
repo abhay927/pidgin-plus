@@ -226,6 +226,7 @@ if [[ -n "$cert" || -n "$sign" ]]; then
     echo "Configuring code signing with GnuPG${cert:+ and Authenticode}"
     if [[ -n "$cert" ]]; then
         echo "SIGNTOOL_PFX = $cert" > local.mak
+        echo "SIGNTOOL = signtool" >> local.mak
         echo "GPG_SIGN = $gpg" >> local.mak
     else
         echo "GPG_SIGN = $gpg" > local.mak
