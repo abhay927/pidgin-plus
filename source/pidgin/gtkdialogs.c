@@ -493,7 +493,7 @@ const gchar *get_upstream_version(void)
 	gchar *result;
 
 	result = NULL;
-	regex = g_regex_new("^(.*)\\+.*", 0, 0, NULL);
+	regex = g_regex_new("^(.*)\\-.*", 0, 0, NULL);
 	g_regex_match(regex, VERSION, 0, &match);
 	if (g_match_info_matches(match))
 		result = g_match_info_fetch(match, 1);

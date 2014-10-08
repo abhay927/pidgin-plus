@@ -66,6 +66,7 @@ LD_HARDENING_OPTIONS ?= -Wl,--dynamicbase -Wl,--nxcompat
 
 APPLICATION_NAME     := $(shell grep -E '\#define\s+APPLICATION_NAME\s'     $(PURPLE_TOP)/internal.h | awk -F'"' '{ print $$2 }' )
 APPLICATION_WEBSITE  := $(shell grep -E '\#define\s+APPLICATION_WEBSITE\s'  $(PURPLE_TOP)/internal.h | awk -F'"' '{ print $$2 }' )
+BUILD_DATE      := $(shell date +%Y%m%d)
 
 # parse the version number from the configure.ac file if it is newer
 #m4_define([purple_major_version], [2])
@@ -80,14 +81,14 @@ APPLICATION_VERSION := $(shell \
   cat $(PIDGIN_TREE_TOP)/VERSION \
 )
 PURPLE_VERSION := $(APPLICATION_VERSION)
-UPSTREAM_VERSION := $(shell sed -e 's/+.*//' <<< "$(APPLICATION_VERSION)")
+UPSTREAM_VERSION := $(shell sed -e 's/-.*//' <<< "$(APPLICATION_VERSION)")
 
 ifdef EXTRAVERSION
 DISPLAY_VERSION := $(APPLICATION_VERSION)-$(EXTRAVERSION)
 else
 DISPLAY_VERSION := $(APPLICATION_VERSION)
 endif
-DISPLAY_VERSION := $(shell sed -e 's/.*+//' -e 's/\.0$$//' <<< "$(DISPLAY_VERSION)")
+DISPLAY_VERSION := $(shell sed -e 's/.*-//' -e 's/\.0$$//' <<< "$(DISPLAY_VERSION)")
 
 CYRUS_SASL ?= 1
 
