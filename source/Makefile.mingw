@@ -149,7 +149,7 @@ gtk_runtime_zip_force:
 	@./colored.sh pace "Building the GTK+ runtime"
 	pidgin/win32/nsis/generate_gtk_zip.sh "`pwd`" --force
 	$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip,none,line)
-	$(if $(shell test -f pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip && echo exists),$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip,none,none,line))
+	$(if $(shell if test -f pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip; then echo exists; fi),$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip,none,none,line))
 	@echo
 
 dictionaries_bundle:
