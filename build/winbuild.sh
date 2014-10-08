@@ -61,7 +61,12 @@ if [[ -z "$prepare" && ! -d "${arguments[0]}" ]]; then
     exit
 fi
 
-# Variables
+# Development root
+mkdir -p "${arguments[0]}"
+cd "${arguments[0]}" || exit
+devroot=$(readlink -e $(pwd))
+
+# Other variables
 cd "$(dirname "$0")/.."
 base_dir=$(readlink -e $(pwd))
 source_dir="$base_dir/source"
@@ -70,7 +75,6 @@ sign="${sign:-$cert}"
 sign="${sign:+yes}"
 system_gcc="${custom_gcc+ }"
 system_gcc="${system_gcc:---system-gcc}"
-devroot="${arguments[0]}"
 version=$($build_dir/changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build}"
 target="${directory:-$devroot/distribution/$version}"
