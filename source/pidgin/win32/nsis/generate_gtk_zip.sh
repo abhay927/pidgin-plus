@@ -5,8 +5,8 @@
 # is suffixed with "devel" or --force has been specified.
 
 # Bundle version and expected SHA-1 hash
-bundle_sha1sum=e083dbb28ed3c331677b34d3f089171d968d2577
-bundle_version=2.24.24.4
+bundle_sha1sum=4bd03f43ce5e5751aeccc94aab1ffc5d066abf3c
+bundle_version=2.24.24.5
 
 # GTK+ bundle version
 if [[ "$1" = --gtk-version ]]; then
@@ -128,11 +128,11 @@ install_rpm() {
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gtk-2.0/include
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/libffi-3.0.13
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/pkgconfig
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/man
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/aclocal
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/gettext
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/glib-2.0
     rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/gtk-2.0
+    rm -rf usr/share/man
     find usr/i686-w64-mingw32/sys-root/mingw/lib -name "*.a" -delete
 
     [[ -d usr/i686-w64-mingw32/sys-root/mingw/bin   ]] && cp -r usr/i686-w64-mingw32/sys-root/mingw/bin "$install_dir_binary"
