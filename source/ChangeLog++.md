@@ -36,7 +36,6 @@ between Pidgin and Pidgin++, please see the XML changelog.
 * Toggle buddy list, not only show, on tray icon click.
 * Fixed debug symbols download.
 * Really offline installer ([#14970][7]).
-* Really open source ([#16285][6]).
 * Unused GTK+ locales no longer get installed.
 * Language and protocol names in the installer.
 * Uninstaller now fully removes subdirectories.
