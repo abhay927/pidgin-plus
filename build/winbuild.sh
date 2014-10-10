@@ -62,9 +62,10 @@ if [[ -z "$prepare" && ! -d "${arguments[0]}" ]]; then
 fi
 
 # Development root
-mkdir -p "${arguments[0]}"
+[[ -n "$prepare" ]] && mkdir -p "${arguments[0]}"
 cd "${arguments[0]}" || exit
 devroot=$(readlink -e $(pwd))
+cd - > /dev/null
 
 # Other variables
 cd "$(dirname "$0")/.."
