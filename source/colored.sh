@@ -35,16 +35,11 @@ if [[ -n "$PIDGIN_BUILD_COLORS" ]]; then
 
         # Compiler recipes
         local source_dir=$(readlink -f "$(dirname "$BASH_SOURCE")")
-        local compiler=$(grep "CC[[:space:]]*:=" "$source_dir/libpurple/win32/global.mak" | awk -F':=[[:space:]*]' '{print $2}')
+        local compiler=$(grep "CC\\s*:=" "$source_dir/libpurple/win32/global.mak" | awk -F':=[[:space:]*]' '{print $2}')
         local compiler_recipe="s/^($compiler .*)/\n$(printf $gray)\\1$(printf $normal)\n/"
 
-        if [[ $(uname -or) != 1.*Msys ]]; then
-            make "$@" 2> >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe") \
-                       > >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe")
-        else
-            # MinGW MSYS does not support process substitution
-            make "$@" 2>&1 | sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe"
-        fi
+        make "$@" 2> >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe") \
+                   > >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe")
     }
 fi
 

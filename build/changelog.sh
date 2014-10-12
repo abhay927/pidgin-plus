@@ -73,7 +73,6 @@ if [[ -n "$output" ]]; then
         exit 1
     fi
     cd "$(dirname "$output")" || exit
-    output="$(pwd)/$(basename "$output")"
     output=$(readlink -f "$output")
 fi
 

@@ -6,21 +6,15 @@
 
 gcc_top="$1"
 target="$2"
-system=$(uname -or)
 gcc_version=$(gcc -dumpversion)
 gcc_micro_version="${gcc_version##*.}"
 script_dir=$(readlink -e "$(dirname "$0")")
 source "$script_dir/colored.sh"
 
-case "$system" in
-    1.*Msys) echo "Using GCC $gcc_version under MinGW MSYS" ;;
-    2.*Msys) echo "Using GCC $gcc_version under MSYS2" ;;
-esac
-
 # If system is MSYS2 and the GCC version is greater than 4.9.0, then stick to
 # the SSP used in that version until a newer GCC is known to have been fixed.
 
-if [[ "$system" = 2.*Msys && "$gcc_version" = 4.9.* && "$gcc_micro_version" -gt 0 ]]; then
+if [[ $(uname -or) = 2.*Msys && "$gcc_version" = 4.9.* && "$gcc_micro_version" -gt 0 ]]; then
     package="mingw-w64-i686-gcc-libs-4.9.0-4-any.pkg.tar.xz"
     url="http://sourceforge.net/projects/msys2/files/REPOS/MINGW/i686/$package/download"
     echo "Downloading $url"

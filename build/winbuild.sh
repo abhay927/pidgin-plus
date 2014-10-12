@@ -16,8 +16,7 @@
 ##     -p, --prepare        Create the required build environment under
 ##                          DEVELOPMENT_ROOT and exit.
 ##
-##     -t, --update-pot     Update the translations template and exit. This
-##                          option is not available in MinGW MSYS.
+##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
 ##     -g, --gtk            Build the GTK+ runtime instead of installers, if
 ##                          not already built and uploaded. Both binary and
@@ -68,8 +67,7 @@ devroot=$(readlink -e $(pwd))
 cd - > /dev/null
 
 # Other variables
-cd "$(dirname "$0")/.."
-base_dir=$(readlink -e $(pwd))
+base_dir=$(readlink -e "$(dirname "$0")/..")
 source_dir="$base_dir/source"
 build_dir="$base_dir/build"
 sign="${sign:-$cert}"
@@ -123,24 +121,14 @@ if [[ -n "$encoding" ]]; then
 	default) iconv="iconv -f ${LANG##*.}" ;;
 		  *) iconv="iconv -f ${LANG##*.} ${encoding:+-t $encoding}" ;;
 	esac
-    if [[ $(uname -or) != 1.*Msys ]]; then
-        mv() { command mv "$@" > >($iconv) 2> >($iconv); }
-        build() { domake "$@" > >($iconv) 2> >($iconv) || exit 1; }
-    else
-        # MinGW MSYS does not support process substitution
-        mv() { command mv "$@" 2>&1 | $iconv; }
-        build() { domake "$@" 2>&1 | $iconv || exit 1; }
-    fi
+    mv() { command mv "$@" > >($iconv) 2> >($iconv); }
+    build() { domake "$@" > >($iconv) 2> >($iconv) || exit 1; }
 else
 	build() { domake "$@" || exit 1; }
 fi
 
 # Translations template
 if [[ -n "$update_pot" ]]; then
-    if [[ $(uname -or) = 1.*Msys ]]; then
-        echo "This option is not available in MinGW MSYS."
-        exit 1
-    fi
     cd "$source_dir/po"
     download_irc_plugins "$source_dir" temporary
     echo "Updating the translation template"

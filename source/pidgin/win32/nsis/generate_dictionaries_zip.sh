@@ -17,13 +17,12 @@ staging_dir="$working_dir/dictionaries"
 zip_file="$working_dir/dictionaries.zip"
 rm -rf "$staging_dir/unpacked"
 mkdir -p "$staging_dir/unpacked"
-[[ $(uname -or) = 1.*Msys ]] && wget_extra_arguments="--no-check-certificate"
 
 if [[ -z "$create" ]]; then
     if [[ ! -e "$zip_file" ]]; then
         url="https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin Dictionaries.zip"
         echo "Downloading $url"
-        wget --quiet $wget_extra_arguments --output-document "$zip_file" "$url"
+        wget --quiet --output-document "$zip_file" "$url"
     fi
     zip_sha1sum_expected="719e3614ca9562ba8f77e70618f45ccc1d0d1579"
     zip_sha1sum=$(sha1sum "$zip_file")
@@ -50,7 +49,7 @@ else
         try=1
         while [[ ! -s "$output_file" && "$try" -lt 10 ]]; do
             url="https://pidgin.im/win32/download_redir.php?version=${pidgin_version}&dl_pkg=oo_dict&lang=${lang_file}&lang_file=${lang_file}"
-            wget --quiet $wget_extra_arguments --output-document "$output_file" "$url"
+            wget --quiet --output-document "$output_file" "$url"
             [[ ! -s "$output_file" ]] && rm "$output_file"
             try=$((try + 1))
         done

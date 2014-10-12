@@ -32,7 +32,6 @@ zip_binary="$pidgin_base/pidgin/win32/nsis/gtk-runtime-$bundle_version.zip"
 zip_source="$pidgin_base/pidgin/win32/nsis/gtk-runtime-$bundle_version-source.zip"
 fedora_base_url_stable="https://archive.fedoraproject.org/pub/fedora/linux/updates/20/i386"
 fedora_base_url="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m"
-[[ $(uname -or) = 1.*Msys ]] && wget_extra_arguments="--no-check-certificate"
 
 # Libraries
 packages=("$fedora_base_url/mingw32-atk-2.13.90-1.fc22.noarch.rpm        name:ATK         version:2.13.90-1   sha1sum:444dc16186d613c9a4a2a343185de7eefa2ca7ba,85e7e74e8132e0ee1ac01dfe8ed236e6ac1ef51f"
@@ -78,7 +77,7 @@ check_signature() {
 
     if [ ! -e "$file.asc" ]; then
         echo "Downloading GPG key for $name"
-        wget -nv $wget_extra_arguments "$url.asc" || exit 1
+        wget -nv "$url.asc" || exit 1
     fi
 
     # Use our own keyring to avoid adding stuff to the main keyring. This
@@ -179,7 +178,7 @@ function download_and_extract {
         local extension="${file##*.}"
 
         if [[ ! -e "$file" ]]; then
-            wget --quiet $wget_extra_arguments $url || exit 1
+            wget --quiet $url || exit 1
         fi
         case "$validation_type" in
         sha1sum) check_sha1sum "$file" "$validation_value" quit ;;
@@ -205,7 +204,7 @@ function download_and_extract {
 if [ ! -e "$zip_binary" ]; then
     url="https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ GTK+ Runtime $bundle_version.zip"
     echo "Downloading $url"
-    wget --quiet $wget_extra_arguments --output-document "$zip_binary" "$url"
+    wget --quiet "$url" --output-document "$zip_binary"
 fi
 
 # If the sha1sum check succeeds, then extract and quit

@@ -22,11 +22,6 @@
  *
  */
 
-/* This is for ICC_STANDARD_CLASSES getting defined in MinGW */
-#ifndef _WIN32_WINNT
-#define _WIN32_WINNT 0x501
-#endif
-
 #define _WIN32_IE 0x500
 #ifndef WINVER
 #define WINVER 0x0500 /* W2K */
