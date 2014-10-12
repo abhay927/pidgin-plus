@@ -1,69 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<changelog xmlns:en-us="default" xmlns:pt-br="pt_BR">
+<changelog xmlns:en-us="en_US" xmlns:pt-br="pt_BR">
 
-    <platform id="windows"
-              en-us:description="For Windows"
-              pt-br:description="Para Windows">
-
-        <change en-us:description="Automated update checking"
-                pt-br:description="Verificação automática de atualizações"/>
-
-        <change en-us:description="More recent GTK+ (2.24.24)"
-                pt-br:description="GTK+ mais recente (2.24.24)"/>
-
-        <change en-us:description="Better Unicode support"
-                pt-br:description="Melhor suporte a Unicode"
-                bug="604"/>
-
-        <change en-us:description="Really offline installer"
-                pt-br:description="Instalador realmente offline"
-                bug="14970"/>
-
-        <change en-us:description="Single click support on system tray"
-                pt-br:description="Clique simples na bandeja do sistema"
-                bug="1458"/>
-
-        <change en-us:description="Additional plugins for IRC including bouncer support"
-                pt-br:description="Plugins adicionais para IRC incluindo suporte a bouncers"/>
-
-        <change en-us:description="Compiled with more recent GCC (4.9)"
-                pt-br:description="Compilado com GCC mais recente (4.9)"/>
-
-        <change en-us:description="Smaller installation size"
-                pt-br:description="Menor tamanho de instalação"/>
-
-        <change en-us:description="Refined GTK+ theme"
-                pt-br:description="Tema do GTK+ aprimorado"/>
-
-        <change en-us:description="Better uninstallation"
-                pt-br:description="Melhor desinstalação"/>
-    </platform>
-
-    <platform id="all"
-              en-us:description="All platforms"
-              pt-br:description="Todas as plataformas">
-
-        <change en-us:description="New status icons"
-                pt-br:description="Novo tema para ícones de status">
-                <screenshot>pixmaps/pidgin/status/48/invisible.png</screenshot>
-                <screenshot>pixmaps/pidgin/status/48/available.png</screenshot>
-                <screenshot>pixmaps/pidgin/status/48/away.png</screenshot>
-                <screenshot>pixmaps/pidgin/status/48/busy.png</screenshot>
-                <screenshot>pixmaps/pidgin/status/48/offline.png</screenshot>
-                <screenshot>pixmaps/pidgin/status/48/person.png</screenshot>
-                <screenshot>pixmaps/pidgin/status/48/chat.png</screenshot></change>
-
-        <change en-us:description="New tray icons"
-                pt-br:description="Novo tema para ícones da bandeja">
-                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-invisible.png</screenshot>
-                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-available.png</screenshot>
-                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-away.png</screenshot>
-                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-busy.png</screenshot>
-                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-offline.png</screenshot>
-                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-pending.png</screenshot>
-                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-email.png</screenshot>
-                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-connect.png</screenshot></change>
-
+    <version id="14.1">
         <change en-us:description="New colors and formatting for conversations"
                 pt-br:description="Novas cores e formatação para as conversas"/>
 
@@ -87,6 +25,61 @@
         <change en-us:description="Highlighting of unknown IRC numerics as system messages"
                 pt-br:description="Formatação de numéricos IRC desconhecidos como mensagens de sistema"/>
 
+        <change platform="Windows"
+                en-us:description="Automated update checking"
+                pt-br:description="Verificação automática de atualizações"/>
+
+        <change platform="Windows"
+                en-us:description="More recent GTK+ (2.24.24)"
+                pt-br:description="GTK+ mais recente (2.24.24)"/>
+
+        <change platform="Windows"
+                en-us:description="Really offline installer"
+                pt-br:description="Instalador realmente offline"
+                bug="14970"/>
+
+        <change platform="Windows"
+                en-us:description="Additional plugins for IRC including bouncer support"
+                pt-br:description="Plugins adicionais para IRC incluindo suporte a bouncers"/>
+
+        <change platform="Windows"
+                en-us:description="Compiled with more recent GCC (4.9)"
+                pt-br:description="Compilado com GCC mais recente (4.9)"/>
+
+        <change platform="Windows"
+                en-us:description="Smaller installation size"
+                pt-br:description="Menor tamanho de instalação"/>
+
+        <change platform="Windows"
+                en-us:description="Better uninstallation"
+                pt-br:description="Melhor desinstalação"/>
+    </version>
+
+    <version id="RS137">
+        <change en-us:description="New status icons"
+                pt-br:description="Novo tema para ícones de status">
+                <screenshot>pixmaps/pidgin/status/48/invisible.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/available.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/away.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/busy.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/offline.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/person.png</screenshot>
+                <screenshot>pixmaps/pidgin/status/48/chat.png</screenshot></change>
+
+        <change en-us:description="New tray icons"
+                pt-br:description="Novo tema para ícones da bandeja">
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-invisible.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-available.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-away.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-busy.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-offline.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-pending.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-email.png</screenshot>
+                <screenshot>pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-connect.png</screenshot></change>
+
+        <change en-us:description="Refined buddy list appearance"
+                pt-br:description="Aparência aprimorada da lista de amigos"/>
+
         <change en-us:description="Wider non-ellipsized labels for side-aligned conversation tabs"
                 pt-br:description="Títulos maiores, sem reticências, nas abas de conversa laterais"
                 bug="15347"/>
@@ -95,7 +88,23 @@
                 pt-br:description="Suporte a caminhos relativos para os ícones de conta"
                 bug="15348"/>
 
-        <change en-us:description="Refined buddy list appearance"
-                pt-br:description="Aparência aprimorada da lista de amigos"/>
-    </platform>
+        <change en-us:description="Avoid printing IRC channel URLs"
+                pt-br:description="Supressão do endereço do canal IRC na janela de conversa"
+                bug="15248"/>
+
+        <change platform="Windows"
+                en-us:description="Better Unicode support"
+                pt-br:description="Melhor suporte a Unicode"
+                bug="604"/>
+
+        <change platform="Windows"
+                en-us:description="Single click support on system tray"
+                pt-br:description="Clique simples na bandeja do sistema"
+                bug="1458"/>
+
+        <change platform="Windows"
+                en-us:description="Refined GTK+ theme"
+                pt-br:description="Tema do GTK+ aprimorado"/>
+    </version>
+
 </changelog>

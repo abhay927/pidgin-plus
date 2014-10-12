@@ -68,9 +68,21 @@ fi
 xsl_parameters="-s version=$display_version -s bugs.url=https://developer.pidgin.im/ticket"
 [[ $(uname -s) = Linux ]] && ubuntu_package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${display_version,,}\+){0,1}/-${display_version,,}+/")
 if [[ -n "$output" ]]; then
+    if [[ -d "$output" ]]; then
+        echo "Please specify a file, not a directory."
+        exit 1
+    fi
     cd "$(dirname "$output")" || exit
     output="$(pwd)/$(basename "$output")"
     output=$(readlink -f "$output")
+fi
+
+# One format at a time
+if [[ (-n "$html"   && -n "$markdown") ||
+      (-n "$html"   && -n   "$debian") ||
+      (-n "$debian" && -n "$markdown") ]]; then
+      echo "Please specify one export format at a time."
+      exit 1
 fi
 
 # HTML changelog
@@ -83,6 +95,7 @@ if [[ -n "$html" ]]; then
     rm "$unformatted"
     sed -i -E "s/(<\!\[CDATA\[|(\s{4})?\]\]>)//" "$output"
     echo "Changelog exported to $output"
+    exit
 fi
 
 # Markdown changelog
@@ -92,6 +105,7 @@ if [[ -n "$markdown" ]]; then
     xsl_parameters="$xsl_parameters -s screenshots.url=http://pidgin.renatosilva.me"
     xmlstarlet transform --omit-decl changelog.markdown.xsl $xsl_parameters changelog.xml | dos2unix > "$output"
     echo "Changelog exported to $output"
+    exit
 fi
 
 # Debian changelog
@@ -103,4 +117,5 @@ if [[ -n "$debian" ]]; then
     xsl_parameters="$xsl_parameters -s package.version=${ubuntu_package_version:-VERSION} -s distribution=$distribution"
     xmlstarlet transform --omit-decl changelog.debian.xsl $xsl_parameters -s maintainer="$maintainer" -s date="$(date -R)" changelog.xml | dos2unix > "$output"
     echo "Changelog exported to $output"
+    exit
 fi

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:en-us="default">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:en-us="en_US">
     <xsl:param name="screenshots.url"/>
     <xsl:param name="bugs.url"/>
 
     <xsl:template match="/">
-        <xsl:text># Pidgin++</xsl:text><xsl:text>&#10;&#10;</xsl:text>
-        <xsl:text>An improved version of Pidgin.</xsl:text><xsl:text>&#10;</xsl:text>
+        <xsl:text># Changelog for Pidgin++</xsl:text><xsl:text>&#10;&#10;</xsl:text>
 
-        <xsl:for-each select="changelog/platform">
-            <xsl:text>&#10;### </xsl:text><xsl:value-of select="@en-us:description"/><xsl:text>&#10;&#10;</xsl:text>
+        <xsl:for-each select="changelog/version">
+            <xsl:text>&#10;### </xsl:text><xsl:value-of select="@id"/><xsl:text>&#10;&#10;</xsl:text>
 
             <xsl:for-each select="change">
                 <xsl:text>* </xsl:text><xsl:value-of select="@en-us:description"/>

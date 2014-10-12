@@ -1,7 +1,7 @@
-# Pidgin++ changelog
+# Changelog for Pidgin++
 
-This is the list of changes between Pidgin++ versions. For the differences
-between Pidgin and Pidgin++, please see the XML changelog.
+This is the detailed changelog for Pidgin++. For a more general list of changes
+targeted at end users, please see the XML changelog or its resulting formats.
 
 
 ## 14.1

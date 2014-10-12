@@ -1295,7 +1295,7 @@ Function ShowChanges
     !define LOCALE_SISO3166CTRYNAME "0x5A"
     System::Call "kernel32::GetLocaleInfoA(i $LANGUAGE, i ${LOCALE_SISO639LANGNAME},  t .R0, i ${NSIS_MAX_STRLEN})"
     System::Call "kernel32::GetLocaleInfoA(i $LANGUAGE, i ${LOCALE_SISO3166CTRYNAME}, t .R1,  i ${NSIS_MAX_STRLEN})"
-    Exec '"$1" "file:///${CHANGELOG}?$R0_$R1"'
+    Exec '"$1" "file:///${CHANGELOG}?full=true&lang=$R0_$R1"'
   ${Else}
     ExecShell "open" "${CHANGELOG}"
   ${EndIf}
