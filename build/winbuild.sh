@@ -55,18 +55,15 @@
 
 # Parse options
 source easyoptions || exit
-if [[ -z "$prepare" && ! -d "${arguments[0]}" ]]; then
+devroot="${arguments[0]}"
+if [[ -z "$prepare" && ! -d "$devroot" ]]; then
     echo "No valid development root specified, see --help."
-    exit
+    exit 1
 fi
 
-# Development root
-[[ -n "$prepare" ]] && mkdir -p "${arguments[0]}"
-cd "${arguments[0]}" || exit
-devroot=$(readlink -e $(pwd))
-cd - > /dev/null
-
 # Other variables
+[[ -n "$prepare" ]] && mkdir -p "$devroot"
+devroot=$(readlink -e $devroot)
 base_dir=$(readlink -e "$(dirname "$0")/..")
 source_dir="$base_dir/source"
 build_dir="$base_dir/build"
