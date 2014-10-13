@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <language>en</language>
+        <title>Pidgin++ updates</title>
+        <link>http://pidgin.renatosilva.me/update.xml</link>
+        <item>
+            <title>14.1 (testing)</title>
+            <pubDate>Sun, 8 Oct 2014</pubDate>
+            <enclosure sparkle:version="14.1 (testing)"
+                       type="application/octet-stream" sparkle:os="windows"
+                       url="https://launchpad.net/pidgin++/test/14.1-test/+download/Pidgin++%2014.1%20Setup.exe"/>
+            <sparkle:releaseNotesLink>http://pidgin.renatosilva.me/changelog.html</sparkle:releaseNotesLink>
+        </item>
+  </channel>
+</rss>
