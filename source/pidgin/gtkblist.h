@@ -226,6 +226,11 @@ GdkPixbuf *pidgin_blist_get_status_icon(PurpleBlistNode *node,
 gboolean pidgin_blist_node_is_contact_expanded(PurpleBlistNode *node);
 
 /**
+ * Returns whether the buddy list is fully visible to the user or not.
+ */
+gboolean is_blist_fully_visible();
+
+/**
  * Intelligently toggles the visibility of the buddy list. If the buddy
  * list is obscured, it is brought to the front. If it is not obscured,
  * it is hidden. If it is hidden it is shown.

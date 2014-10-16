@@ -71,6 +71,7 @@
 #include <gdk/gdk.h>
 
 #ifdef _WIN32
+#include <gdk/gdkwin32.h>
 #include <winsparkle.h>
 #endif
 
@@ -7318,6 +7319,42 @@ pidgin_blist_request_add_group(void)
 					   NULL);
 }
 
+gboolean
+is_blist_fully_visible()
+{
+	HWND blist_window;
+	HWND current_window;
+	WINDOWINFO blist_info;
+	int blist_level;
+
+	blist_window = GDK_WINDOW_HWND(gtkblist->window->window);
+	blist_info.cbSize = sizeof(blist_info);
+	if (!GetWindowInfo(blist_window, &blist_info))
+		return FALSE;
+
+	blist_level = -1;
+	current_window = GetTopWindow(NULL);
+
+	for (; current_window != NULL; current_window = GetNextWindow(current_window, GW_HWNDNEXT)) {
+
+		WINDOWINFO current_window_info;
+		current_window_info.cbSize = sizeof(current_window_info);
+		if (!GetWindowInfo(current_window, &current_window_info))
+			continue;
+
+		if ((current_window_info.dwExStyle & WS_EX_TOPMOST) != (blist_info.dwExStyle & WS_EX_TOPMOST) ||
+			(current_window_info.dwStyle & WS_POPUP) != 0)
+			continue;
+
+		++blist_level;
+		if (current_window == blist_window)
+			break;
+	}
+	if (current_window != blist_window)
+		return FALSE;
+	return (blist_level == 0);
+}
+
 void
 pidgin_blist_toggle_visibility()
 {
@@ -7330,8 +7367,8 @@ pidgin_blist_toggle_visibility()
 			 * buddy list
 			 */
 			purple_blist_set_visible(PIDGIN_WINDOW_ICONIFIED(gtkblist->window) ||
-					((gtk_blist_visibility != GDK_VISIBILITY_UNOBSCURED) &&
-					!gtk_blist_focused));
+			                         ((gtk_blist_visibility != GDK_VISIBILITY_UNOBSCURED) && !gtk_blist_focused) ||
+			                         !is_blist_fully_visible());
 		} else {
 			purple_blist_set_visible(TRUE);
 		}
