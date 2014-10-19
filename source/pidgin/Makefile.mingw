@@ -42,12 +42,12 @@ INCLUDE_PATHS +=	\
 			-I$(GTK_TOP)/include/cairo \
 			-I$(GTK_TOP)/lib/gtk-2.0/include \
 			-I$(GTKSPELL_TOP)/include/gtkspell-2.0 \
-			-I$(WINSPARKLE_TOP)
+			-I$(WINSPARKLE_TOP)/include
 
 LIB_PATHS +=		-L$(GTK_TOP)/lib \
 			-L$(PURPLE_TOP) \
 			-L$(PIDGIN_TOP) \
-			-L$(WINSPARKLE_TOP)
+			-L$(WINSPARKLE_TOP)/Release
 
 ##
 ##  SOURCES, OBJECTS
