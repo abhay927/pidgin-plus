@@ -34,6 +34,10 @@
                 pt-br:description="GTK+ mais recente (2.24.24)"/>
 
         <change platform="Windows"
+                en-us:description="Intelligent buddy list toggling on tray icon click"
+                pt-br:description="Exibição inteligente da lista de amigos ao clicar na bandeja"/>
+
+        <change platform="Windows"
                 en-us:description="Really offline installer"
                 pt-br:description="Instalador realmente offline"
                 bug="14970"/>

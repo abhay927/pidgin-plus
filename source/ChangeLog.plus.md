@@ -22,7 +22,6 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Version pattern changed from RSxxx to year.minor.micro.
 * Application renamed from Pidgin to Pidgin++.
 * Changes to the build process:
-    - Project files for Eclipse Luna.
     - New Markdown export for the XML changelog.
     - Changed a couple of language codes:
         - ms_MY is now ms.
@@ -33,7 +32,7 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Several GTK+ dependencies also updated.
 * Automated update checking with WinSparkle.
 * New plugins irchelper and ircaway.
-* Toggle buddy list, not only show, on tray icon click.
+* Toggle buddy list intelligently on tray icon click.
 * Fixed debug symbols download.
 * Really offline installer ([#14970][7]).
 * Unused GTK+ locales no longer get installed.
@@ -47,8 +46,10 @@ targeted at end users, please see the XML changelog or its resulting formats.
     - Faster handling of the staging directory.
     - Generation of the source code bundle.
     - Creation of the build environment (with Pidgin Windev).
+    - Removed support for MinGW and MSYS.
     - Fixed some macro redefinitions in MinGW-w64.
     - Allow building without Bonjour.
+    - Website added to code repository.
     - Other general improvements.
 * Code signed with Microsoft Authenticode:
     - Use the newer signtool instead of signcode.
