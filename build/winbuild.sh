@@ -23,6 +23,7 @@
 ##                          source code packages are generated.
 ##
 ##         --make=TARGET    Execute an arbitrary makefile target.
+##         --no-update      Disable the application update checking.
 ##         --no-bonjour     Disable the Bonjour protocol.
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##     -o, --offline        Build both the standard and offline installers.
@@ -110,6 +111,7 @@ download_irc_plugins() {
 domake() {
     ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
         SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
+        ${no_update:+DISABLE_UPDATE_CHECK=yes} \
         ${no_bonjour:+DISABLE_BONJOUR=yes} "${@:2}"
     return $?
 }

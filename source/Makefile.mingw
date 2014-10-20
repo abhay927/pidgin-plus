@@ -104,8 +104,11 @@ EXTERNAL_DLLS = \
 	smime3.dll \
 	softokn3.dll \
 	sqlite3.dll \
-	ssl3.dll \
-	winsparkle.dll
+	ssl3.dll
+
+ifndef DISABLE_UPDATE_CHECK
+	EXTERNAL_DLLS += winsparkle.dll
+endif
 
 #build an expression for `find` to use to ignore the above files
 EXTERNAL_DLLS_FIND_EXP = $(patsubst %,-o -name %,$(EXTERNAL_DLLS))
@@ -135,7 +138,9 @@ endif
 	cp $(ENCHANT_TOP)/bin/libenchant.dll $(PIDGIN_INSTALL_DIR)/spellcheck
 	cp -R $(ENCHANT_TOP)/lib/enchant/*.dll $(PIDGIN_INSTALL_DIR)/spellcheck/lib/enchant
 	cp $(PIDGIN_INST_DEP_DIR)/exchndl.dll $(PIDGIN_INSTALL_DIR)
+ifndef DISABLE_UPDATE_CHECK
 	cp $(WINSPARKLE_TOP)/Release/WinSparkle.dll $(PIDGIN_INSTALL_DIR)/winsparkle.dll
+endif
 	@./colored.sh info "Selecting the appropriate LibSSP"
 	./getwinssp.sh $(GCC_TOP) $(PIDGIN_INSTALL_DIR)
 	if test -f $(GCC_TOP)/libgcc_s_dw2-1.dll; then cp $(GCC_TOP)/libgcc_s_dw2-1.dll $(PIDGIN_INSTALL_DIR); fi

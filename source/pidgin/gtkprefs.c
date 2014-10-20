@@ -1714,7 +1714,10 @@ network_page(void)
 {
 	GtkWidget *ret;
 	GtkWidget *vbox, *hbox, *entry;
-	GtkWidget *label, *auto_ip_checkbox, *ports_checkbox, *spin_button, *app_updates_checkbox;
+	GtkWidget *label, *auto_ip_checkbox, *ports_checkbox, *spin_button;
+#ifdef ENABLE_UPDATE_CHECK
+    GtkWidget *app_updates_checkbox;
+#endif
 	GtkSizeGroup *sg;
 
 	ret = gtk_vbox_new(FALSE, PIDGIN_HIG_CAT_SPACE);
@@ -1825,12 +1828,14 @@ network_page(void)
 
 	g_object_unref(sg);
 
+#ifdef ENABLE_UPDATE_CHECK
 	/* Application update checking */
 	vbox = pidgin_make_frame(ret, _("Application updates"));
 	app_updates_checkbox = pidgin_prefs_checkbox("Automatically check for _new versions", "/purple/network/app_updates", vbox);
 	label = gtk_label_new(NULL);
 	gtk_label_set_markup(GTK_LABEL(label), _("<span style=\"italic\">Attention, this bypasses the proxy settings!</span>"));
 	gtk_container_add(GTK_CONTAINER(vbox), label);
+#endif
 
 	gtk_widget_show_all(ret);
 	return ret;

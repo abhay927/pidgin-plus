@@ -41,13 +41,19 @@ INCLUDE_PATHS +=	\
 			-I$(GTK_TOP)/include/atk-1.0 \
 			-I$(GTK_TOP)/include/cairo \
 			-I$(GTK_TOP)/lib/gtk-2.0/include \
-			-I$(GTKSPELL_TOP)/include/gtkspell-2.0 \
-			-I$(WINSPARKLE_TOP)/include
+			-I$(GTKSPELL_TOP)/include/gtkspell-2.0
+
+ifndef DISABLE_UPDATE_CHECK
+	INCLUDE_PATHS += -I$(WINSPARKLE_TOP)/include
+endif
 
 LIB_PATHS +=		-L$(GTK_TOP)/lib \
 			-L$(PURPLE_TOP) \
-			-L$(PIDGIN_TOP) \
-			-L$(WINSPARKLE_TOP)/Release
+			-L$(PIDGIN_TOP)
+
+ifndef DISABLE_UPDATE_CHECK
+	LIB_PATHS += -L$(WINSPARKLE_TOP)/Release
+endif
 
 ##
 ##  SOURCES, OBJECTS
@@ -130,8 +136,11 @@ PIDGIN_LIBS =	\
 		-lgdk_pixbuf-2.0 \
 		-lgdi32 \
 		-lwinmm \
-		-lWinSparkle \
 		-lcomctl32
+
+ifndef DISABLE_UPDATE_CHECK
+	PIDGIN_LIBS += -lWinSparkle
+endif
 
 include $(PIDGIN_COMMON_RULES)
 

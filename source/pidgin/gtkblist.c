@@ -72,7 +72,9 @@
 
 #ifdef _WIN32
 #include <gdk/gdkwin32.h>
+#ifdef ENABLE_UPDATE_CHECK
 #include <winsparkle.h>
+#endif
 #endif
 
 typedef struct
@@ -836,6 +838,7 @@ static void gtk_blist_show_systemlog_cb(void)
 	pidgin_syslog_show();
 }
 
+#ifdef ENABLE_UPDATE_CHECK
 static void gtk_blist_check_application_updates_cb()
 {
 	int response;
@@ -858,6 +861,7 @@ static void gtk_blist_check_application_updates_cb()
 		win_sparkle_check_update_with_ui();
 	}
 }
+#endif
 
 static void gtk_blist_show_onlinehelp_cb(void)
 {
@@ -3676,7 +3680,7 @@ static GtkItemFactoryEntry blist_menu[] =
 	/* Help */
 	{ N_("/_Help"), NULL, NULL, 0, "<Branch>", NULL },
 	{ N_("/Help/Online _Help"), "F1", gtk_blist_show_onlinehelp_cb, 0, "<StockItem>", GTK_STOCK_HELP },
-#ifdef _WIN32
+#ifdef ENABLE_UPDATE_CHECK
 	{ N_("/Help/Check for _Updates..."), NULL, gtk_blist_check_application_updates_cb, 0, "<StockItem>", GTK_STOCK_GOTO_BOTTOM },
 #endif
 	{ "/Help/sep1", NULL, NULL, 0, "<Separator>", NULL },

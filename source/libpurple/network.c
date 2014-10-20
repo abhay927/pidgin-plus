@@ -1164,7 +1164,9 @@ purple_network_init(void)
 	purple_prefs_add_int	 ("/purple/network/turn_port_tcp", 3478);
 	purple_prefs_add_string("/purple/network/turn_username", "");
 	purple_prefs_add_string("/purple/network/turn_password", "");
+#ifdef ENABLE_UPDATE_CHECK
 	purple_prefs_add_bool  ("/purple/network/app_updates", FALSE);
+#endif
 	purple_prefs_add_bool  ("/purple/network/auto_ip", TRUE);
 	purple_prefs_add_string("/purple/network/public_ip", "");
 	purple_prefs_add_bool  ("/purple/network/map_ports", TRUE);

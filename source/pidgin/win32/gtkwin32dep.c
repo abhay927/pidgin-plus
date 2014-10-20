@@ -37,7 +37,9 @@
 #include <glib/gstdio.h>
 #include <gtk/gtk.h>
 #include <gdk/gdkwin32.h>
+#ifdef ENABLE_UPDATE_CHECK
 #include <winsparkle.h>
+#endif
 #include <commctrl.h>
 
 #include "debug.h"
@@ -433,11 +435,13 @@ void winpidgin_init(HINSTANCE hint) {
 
 void winpidgin_post_init(void) {
 
+#ifdef ENABLE_UPDATE_CHECK
 	/* Automated application update */
 	if (purple_prefs_get_bool("/purple/network/app_updates")) {
 		win_sparkle_set_appcast_url(APPLICATION_WEBSITE "/update.xml");
 		win_sparkle_init();
 	}
+#endif
 
 	purple_prefs_add_none(PIDGIN_PREFS_ROOT "/win32");
 	purple_prefs_add_bool(PIDGIN_PREFS_ROOT "/win32/blink_im", TRUE);
@@ -453,8 +457,10 @@ void winpidgin_post_init(void) {
 void winpidgin_cleanup(void) {
 	purple_debug_info("winpidgin", "winpidgin_cleanup\n");
 
+#ifdef ENABLE_UPDATE_CHECK
 	if (purple_prefs_get_bool("/purple/network/app_updates"))
 		win_sparkle_cleanup();
+#endif
 
 	if(messagewin_hwnd)
 		DestroyWindow(messagewin_hwnd);
