@@ -8,17 +8,15 @@
 ## This is the builder script for Pidgin++ on Windows. Source code will be
 ## exported to an appropriate staging directory within the specified development
 ## root. Default output is a standard installer (without GTK+), placed under the
-## distribution subdirectory in the development root.
+## distribution subdirectory in the development root. When compiling for 64-bit,
+## the Sametime and SILC protocols, the crash report generation and the Perl
+## plugin will be disabled.
 ##
 ## Usage:
 ##     @script.name DEVELOPMENT_ROOT [options]
 ##
 ##     -p, --prepare        Create the required build environment under
 ##                          DEVELOPMENT_ROOT and exit.
-##
-##         --x64-build      Disable the Sametime and SILC protocols, the crash
-##                          report generation, and the Perl plugin, so that a
-##                          64-bit build can be generated.
 ##
 ##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
@@ -45,10 +43,10 @@
 ##                          Requires the signtool utility from Windows SDK.
 ##                          Implies --sign.
 ##
-##     -r, --reset          Recreates the staging directory from scratch.
-##         --staging=DIR    Staging directory, defaults to "pidgin.build".
 ##         --directory=DIR  Save result to DIR instead of default location
 ##                          (DEVELOPMENT_ROOT/distribution).
+##         --staging=DIR    Custom staging directory.
+##     -r, --reset          Recreates the staging directory from scratch.
 ##     -G, --custom-gcc     Use the downloaded GCC instead of system one.
 ##
 ##         --color=SWITCH   Enable or disable colors in output. SWITCH is either
@@ -68,6 +66,10 @@ fi
 
 # Other variables
 [[ -n "$prepare" ]] && mkdir -p "$devroot"
+case $(gcc -dumpmachine) in
+    i686-w64-mingw*)   bitness=32; architecture=x86; x86_build=yes ;;
+    x86_64-w64-mingw*) bitness=64; architecture=x64; x64_build=yes ;;
+esac
 devroot=$(readlink -e $devroot)
 base_dir=$(readlink -e "$(dirname "$0")/..")
 source_dir="$base_dir/source"
@@ -77,9 +79,10 @@ sign="${sign:+yes}"
 system_gcc="${custom_gcc+ }"
 system_gcc="${system_gcc:---system-gcc}"
 version=$($build_dir/changelog.sh --version)
-staging="$devroot/${staging:-pidgin.build}"
-target="${directory:-$devroot/distribution/$version}"
+staging="$devroot/${staging:-pidgin.build.$bitness}"
+target="${directory:-$devroot/distribution/$architecture/$version}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
+
 
 # Colored output
 if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
@@ -249,7 +252,7 @@ if [[ -n "$gtk" || -n "$dictionaries" ]]; then
         build gtk_runtime_zip_force
         gtk_version=$(pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
         for asc in "" ${sign:+.asc}; do
-            mv -v pidgin/win32/nsis/gtk-runtime-$gtk_version.zip$asc "$target/Pidgin++ GTK+ Runtime $gtk_version.zip$asc"
+            mv -v pidgin/win32/nsis/gtk-runtime-$gtk_version.zip$asc "$target/Pidgin++ $architecture GTK+ Runtime $gtk_version.zip$asc"
             [[ -f pidgin/win32/nsis/gtk-runtime-$gtk_version-source.zip$asc ]] && mv -v pidgin/win32/nsis/gtk-runtime-$gtk_version-source.zip$asc "$target/Pidgin++ GTK+ Runtime $gtk_version Source.zip$asc"
         done
     fi
@@ -282,9 +285,9 @@ gcc_version=$(gcc -dumpversion)
 echo "Using GCC $gcc_version from $gcc_dir"
 build "installer${offline:+s}"
 for asc in "" ${sign:+.asc}; do
-    [[ -n "$offline" ]] && mv -v pidgin++_*_offline.exe$asc "$target/Pidgin++ $version Offline Setup.exe$asc"
-    mv -v pidgin++_*.exe$asc "$target/Pidgin++ $version Setup.exe$asc"
-    mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin++ Debug Symbols $version.zip$asc"
+    [[ -n "$offline" ]] && mv -v pidgin++_*_offline.exe$asc "$target/Pidgin++ $version $architecture Offline Setup.exe$asc"
+    mv -v pidgin++_*.exe$asc "$target/Pidgin++ $version $architecture Setup.exe$asc"
+    mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin++ $architecture Debug Symbols $version.zip$asc"
 done
 build uninstall
 step "Build finished."

@@ -151,7 +151,7 @@ else
 endif
 endif
 	@./colored.sh info "Selecting the appropriate LibSSP"
-	./getwinssp.sh $(GCC_TOP) $(PIDGIN_INSTALL_DIR)
+	./getwinssp.sh $(GCC_TOP) $(PIDGIN_INSTALL_DIR) $(BITNESS)
 	if test -f $(GCC_TOP)/libgcc_s_dw2-1.dll; then cp $(GCC_TOP)/libgcc_s_dw2-1.dll $(PIDGIN_INSTALL_DIR); fi
 	if test -f $(GCC_TOP)/libwinpthread-1.dll; then cp $(GCC_TOP)/libwinpthread-1.dll $(PIDGIN_INSTALL_DIR); fi
 
@@ -230,7 +230,8 @@ installer: generate_installer_includes
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
 		-DDEBUG_SYMBOLS_SHA1SUM="$($@_DEBUG_SYMBOLS_SHA1SUM)" -DGTK_SHA1SUM="$($@_GTK_SHA1SUM)"\
-		$(if $(findstring 64, $(BITNESS)), -DINSTALLER_X64) \
+		-DAPPLICATION_BITNESS="$(BITNESS)" -DAPPLICATION_ARCHITECTURE="$(if $(findstring 64, $(BITNESS)), x64, x86)" \
+		$(if $(findstring 64, $(BITNESS)), -DX64_APPLICATION) \
 		pidgin/win32/nsis/pidgin-installer.nsi
 	mv pidgin/win32/nsis/pidgin++_$(DISPLAY_VERSION).exe ./
 	$(call authenticode_sign,pidgin++_$(DISPLAY_VERSION).exe,"Pidgin++ Installer")
@@ -244,7 +245,8 @@ installer_offline: generate_installer_includes dictionaries_bundle
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
 		-DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" -DOFFLINE_INSTALLER \
-		$(if $(findstring 64, $(BITNESS)), -DINSTALLER_X64) \
+		-DAPPLICATION_BITNESS="$(BITNESS)" -DAPPLICATION_ARCHITECTURE="$(if $(findstring 64, $(BITNESS)), x64, x86)" \
+		$(if $(findstring 64, $(BITNESS)), -DX64_APPLICATION) \
 		pidgin/win32/nsis/pidgin-installer.nsi
 	mv pidgin/win32/nsis/pidgin++_$(DISPLAY_VERSION)_offline.exe ./
 	$(call authenticode_sign,pidgin++_$(DISPLAY_VERSION)_offline.exe,"Pidgin++ Installer")

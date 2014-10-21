@@ -81,12 +81,12 @@ RequestExecutionLevel highest
 VIProductVersion "${PRODUCT_VERSION}"
 VIAddVersionKey "ProductName" "${APPLICATION_NAME}"
 VIAddVersionKey "FileVersion" "${APPLICATION_VERSION}"
-VIAddVersionKey "ProductVersion" "${DISPLAY_VERSION}"
+VIAddVersionKey "ProductVersion" "${DISPLAY_VERSION} (${APPLICATION_BITNESS}-bit)"
 VIAddVersionKey "LegalCopyright" ""
 !ifdef OFFLINE_INSTALLER
-VIAddVersionKey "FileDescription" "Pidgin++ Installer (Offline)"
+VIAddVersionKey "FileDescription" "Pidgin++ ${APPLICATION_BITNESS}-bit Offline Installer"
 !else
-VIAddVersionKey "FileDescription" "Pidgin++ Installer"
+VIAddVersionKey "FileDescription" "Pidgin++ ${APPLICATION_BITNESS}-bit Installer"
 !endif
 
 ;--------------------------------
@@ -170,7 +170,7 @@ ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
 ;Uninstall any old version of Pidgin (or Gaim)
 
 Section -SecUninstallOldPidgin
-  !ifdef INSTALLER_X64
+  !ifdef X64_APPLICATION
   SetRegView 64
   !endif
 
@@ -272,7 +272,7 @@ Section $(GTKSECTIONTITLE) SecGtk
 !ifndef OFFLINE_INSTALLER
   ; We need to download the GTK+ runtime
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ GTK+ Runtime ${GTK_INSTALL_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ ${APPLICATION_ARCHITECTURE} GTK+ Runtime ${GTK_INSTALL_VERSION}.zip"
   DetailPrint "Downloading GTK+ Runtime ... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
@@ -309,7 +309,7 @@ SectionEnd ; end of GTK+ section
 
 Section $(PIDGINSECTIONTITLE) SecPidgin
   SectionIn 1 RO
-  !ifdef INSTALLER_X64
+  !ifdef X64_APPLICATION
   SetRegView 64
   !endif
 
@@ -326,7 +326,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKLM ${PIDGIN_REG_KEY} "" "$INSTDIR"
     WriteRegStr HKLM ${PIDGIN_REG_KEY} "Version" "${APPLICATION_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
-    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME}"
+    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME} ${APPLICATION_BITNESS}-bit"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${DISPLAY_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKLM "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
@@ -340,7 +340,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKCU ${PIDGIN_REG_KEY} "" "$INSTDIR"
     WriteRegStr HKCU ${PIDGIN_REG_KEY} "Version" "${APPLICATION_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
-    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME}"
+    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME} ${APPLICATION_BITNESS}-bit"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${DISPLAY_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKCU "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
@@ -497,7 +497,7 @@ Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
 !else
   ; We need to download the debug symbols
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${DISPLAY_VERSION}/+download/Pidgin++ Debug Symbols ${DISPLAY_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${DISPLAY_VERSION}/+download/Pidgin++ ${APPLICATION_ARCHITECTURE} Debug Symbols ${DISPLAY_VERSION}.zip"
   DetailPrint "Downloading Debug Symbols... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
@@ -528,7 +528,7 @@ SectionEnd
 
 
 Section Uninstall
-  !ifdef INSTALLER_X64
+  !ifdef X64_APPLICATION
   SetRegView 64
   !endif
 
@@ -671,7 +671,7 @@ SectionEnd ; end of uninstall section
 
 ; Default the URI handler checkboxes if Pidgin is the current handler or if there is no handler
 Function SelectURIHandlerSelections
-  !ifdef INSTALLER_X64
+  !ifdef X64_APPLICATION
   SetRegView 64
   !endif
 
@@ -726,7 +726,7 @@ FunctionEnd ;SelectURIHandlerSections
 ; Returns a boolean on the stack
 !macro CheckIfPidginIsCurrentURIHandlerMacro UN
 Function ${UN}CheckIfPidginIsCurrentURIHandler
-  !ifdef INSTALLER_X64
+  !ifdef X64_APPLICATION
   SetRegView 64
   !endif
 
@@ -756,7 +756,7 @@ FunctionEnd
 
 ; If Pidgin is the current URI handler for the specified protocol, remove it.
 Function un.UnregisterURIHandler
-  !ifdef INSTALLER_X64
+  !ifdef X64_APPLICATION
   SetRegView 64
   !endif
 
@@ -780,7 +780,7 @@ Function un.UnregisterURIHandler
 FunctionEnd
 
 Function RegisterURIHandler
-  !ifdef INSTALLER_X64
+  !ifdef X64_APPLICATION
   SetRegView 64
   !endif
 
@@ -985,7 +985,7 @@ FunctionEnd
 !insertmacro RunCheckMacro "un."
 
 Function .onInit
-  !ifdef INSTALLER_X64
+  !ifdef X64_APPLICATION
   SetRegView 64
   !endif
 
@@ -1007,7 +1007,7 @@ Function .onInit
     MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(INSTALLERISRUNNING) /SD IDCANCEL IDRETRY retry_runcheck
     Abort
 
-  !ifdef INSTALLER_X64
+  !ifdef X64_APPLICATION
     ${IfNot} ${RunningX64}
       MessageBox MB_OK|MB_ICONSTOP $(NOTWINDOWS64BIT) /SD IDOK
       Abort
@@ -1021,7 +1021,7 @@ Function .onInit
   IfErrors 0 +2
   Call RunCheck
 
-  StrCpy $name "Pidgin++ ${DISPLAY_VERSION}"
+  StrCpy $name "Pidgin++ ${DISPLAY_VERSION} (${APPLICATION_BITNESS}-bit)"
 
   ;Try to copy the old Gaim installer Lang Reg. key
   ;(remove it after we're done to prevent this being done more than once)
@@ -1119,7 +1119,7 @@ Function .onInit
   Pop $R0
 
   StrCmp $R0 "HKLM" 0 user_dir
-    !ifdef INSTALLER_X64
+    !ifdef X64_APPLICATION
       StrCpy $INSTDIR "$PROGRAMFILES64\Pidgin++"
     !else
       StrCpy $INSTDIR "$PROGRAMFILES32\Pidgin++"
@@ -1156,7 +1156,7 @@ FunctionEnd
 Function un.onInit
 
   Call un.RunCheck
-  StrCpy $name "Pidgin++ ${DISPLAY_VERSION}"
+  StrCpy $name "Pidgin++ ${DISPLAY_VERSION} (${APPLICATION_BITNESS}-bit)"
 ;LogSet on
 
   ; Get stored language preference
