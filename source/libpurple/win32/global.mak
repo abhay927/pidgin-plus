@@ -90,6 +90,12 @@ DISPLAY_VERSION := $(APPLICATION_VERSION)
 endif
 DISPLAY_VERSION := $(shell sed -e 's/.*-//' -e 's/\.0$$//' <<< "$(DISPLAY_VERSION)")
 
+ifeq ($(shell gcc -dumpmachine), x86_64-w64-mingw32)
+BITNESS := 64
+else
+BITNESS := 32
+endif
+
 CYRUS_SASL ?= 1
 
 ifeq ($(CYRUS_SASL), 1)

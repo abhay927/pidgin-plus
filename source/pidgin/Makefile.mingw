@@ -52,7 +52,11 @@ LIB_PATHS +=		-L$(GTK_TOP)/lib \
 			-L$(PIDGIN_TOP)
 
 ifndef DISABLE_UPDATE_CHECK
+ifeq ($(BITNESS), 64)
+	LIB_PATHS += -L$(WINSPARKLE_TOP)/x64/Release
+else
 	LIB_PATHS += -L$(WINSPARKLE_TOP)/Release
+endif
 endif
 
 ##

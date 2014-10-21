@@ -73,7 +73,6 @@ PIDGIN_INST_DEP_DIR="$(WIN32_DEV_TOP)/pidgin-inst-deps-20130214"
 # should be included in this list so they don't get stripped
 EXTERNAL_DLLS = \
 	comerr32.dll \
-	exchndl.dll \
 	freebl3.dll \
 	gssapi32.dll \
 	k5sprt32.dll \
@@ -106,6 +105,10 @@ EXTERNAL_DLLS = \
 	sqlite3.dll \
 	ssl3.dll
 
+ifndef DISABLE_CRASH_REPORT
+	EXTERNAL_DLLS += 	exchndl.dll
+endif
+
 ifndef DISABLE_UPDATE_CHECK
 	EXTERNAL_DLLS += winsparkle.dll
 endif
@@ -137,9 +140,15 @@ endif
 	cp $(GTKSPELL_TOP)/bin/libgtkspell-0.dll $(PIDGIN_INSTALL_DIR)/spellcheck
 	cp $(ENCHANT_TOP)/bin/libenchant.dll $(PIDGIN_INSTALL_DIR)/spellcheck
 	cp -R $(ENCHANT_TOP)/lib/enchant/*.dll $(PIDGIN_INSTALL_DIR)/spellcheck/lib/enchant
+ifndef DISABLE_CRASH_REPORT
 	cp $(PIDGIN_INST_DEP_DIR)/exchndl.dll $(PIDGIN_INSTALL_DIR)
+endif
 ifndef DISABLE_UPDATE_CHECK
+ifeq ($(BITNESS), 64)
+	cp $(WINSPARKLE_TOP)/x64/Release/WinSparkle.dll $(PIDGIN_INSTALL_DIR)/winsparkle.dll
+else
 	cp $(WINSPARKLE_TOP)/Release/WinSparkle.dll $(PIDGIN_INSTALL_DIR)/winsparkle.dll
+endif
 endif
 	@./colored.sh info "Selecting the appropriate LibSSP"
 	./getwinssp.sh $(GCC_TOP) $(PIDGIN_INSTALL_DIR)
@@ -221,6 +230,7 @@ installer: generate_installer_includes
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
 		-DDEBUG_SYMBOLS_SHA1SUM="$($@_DEBUG_SYMBOLS_SHA1SUM)" -DGTK_SHA1SUM="$($@_GTK_SHA1SUM)"\
+		$(if $(findstring 64, $(BITNESS)), -DINSTALLER_X64) \
 		pidgin/win32/nsis/pidgin-installer.nsi
 	mv pidgin/win32/nsis/pidgin++_$(DISPLAY_VERSION).exe ./
 	$(call authenticode_sign,pidgin++_$(DISPLAY_VERSION).exe,"Pidgin++ Installer")
@@ -234,6 +244,7 @@ installer_offline: generate_installer_includes dictionaries_bundle
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
 		-DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" -DOFFLINE_INSTALLER \
+		$(if $(findstring 64, $(BITNESS)), -DINSTALLER_X64) \
 		pidgin/win32/nsis/pidgin-installer.nsi
 	mv pidgin/win32/nsis/pidgin++_$(DISPLAY_VERSION)_offline.exe ./
 	$(call authenticode_sign,pidgin++_$(DISPLAY_VERSION)_offline.exe,"Pidgin++ Installer")

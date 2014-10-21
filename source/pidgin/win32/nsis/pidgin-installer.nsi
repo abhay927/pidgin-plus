@@ -36,6 +36,7 @@ RequestExecutionLevel highest
 !include "Sections.nsh"
 !include "LogicLib.nsh"
 !include "Memento.nsh"
+!include "x64.nsh"
 
 !include "FileFunc.nsh"
 !insertmacro GetParameters
@@ -169,6 +170,10 @@ ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
 ;Uninstall any old version of Pidgin (or Gaim)
 
 Section -SecUninstallOldPidgin
+  !ifdef INSTALLER_X64
+  SetRegView 64
+  !endif
+
   ; Check install rights..
   Call CheckUserInstallRights
   Pop $R0
@@ -304,6 +309,9 @@ SectionEnd ; end of GTK+ section
 
 Section $(PIDGINSECTIONTITLE) SecPidgin
   SectionIn 1 RO
+  !ifdef INSTALLER_X64
+  SetRegView 64
+  !endif
 
   ; Check install rights..
   Call CheckUserInstallRights
@@ -520,6 +528,10 @@ SectionEnd
 
 
 Section Uninstall
+  !ifdef INSTALLER_X64
+  SetRegView 64
+  !endif
+
   Call un.CheckUserInstallRights
   Pop $R0
   StrCmp $R0 "NONE" no_rights
@@ -659,6 +671,10 @@ SectionEnd ; end of uninstall section
 
 ; Default the URI handler checkboxes if Pidgin is the current handler or if there is no handler
 Function SelectURIHandlerSelections
+  !ifdef INSTALLER_X64
+  SetRegView 64
+  !endif
+
   Push $R0
   Push $R1
   Push $R2
@@ -710,6 +726,10 @@ FunctionEnd ;SelectURIHandlerSections
 ; Returns a boolean on the stack
 !macro CheckIfPidginIsCurrentURIHandlerMacro UN
 Function ${UN}CheckIfPidginIsCurrentURIHandler
+  !ifdef INSTALLER_X64
+  SetRegView 64
+  !endif
+
   Exch $R0
   ClearErrors
 
@@ -736,6 +756,10 @@ FunctionEnd
 
 ; If Pidgin is the current URI handler for the specified protocol, remove it.
 Function un.UnregisterURIHandler
+  !ifdef INSTALLER_X64
+  SetRegView 64
+  !endif
+
   Exch $R0
   Push $R1
 
@@ -756,6 +780,10 @@ Function un.UnregisterURIHandler
 FunctionEnd
 
 Function RegisterURIHandler
+  !ifdef INSTALLER_X64
+  SetRegView 64
+  !endif
+
   Exch $R0
   DetailPrint "Registering $R0 URI Handler"
   DeleteRegKey HKCR "$R0"
@@ -957,6 +985,10 @@ FunctionEnd
 !insertmacro RunCheckMacro "un."
 
 Function .onInit
+  !ifdef INSTALLER_X64
+  SetRegView 64
+  !endif
+
   Push $R0
   Push $R1
   Push $R2
@@ -974,6 +1006,13 @@ Function .onInit
   IntCmp $R0 0 +3 ;This could check for ERROR_ALREADY_EXISTS(183), but lets just assume
     MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(INSTALLERISRUNNING) /SD IDCANCEL IDRETRY retry_runcheck
     Abort
+
+  !ifdef INSTALLER_X64
+    ${IfNot} ${RunningX64}
+      MessageBox MB_OK|MB_ICONSTOP $(NOTWINDOWS64BIT) /SD IDOK
+      Abort
+    ${EndIf}
+  !endif
 
   ; Allow installer to run even if pidgin is running via "/NOPIDGINRUNCHECK=1"
   ; This is useful for testing
@@ -1080,7 +1119,11 @@ Function .onInit
   Pop $R0
 
   StrCmp $R0 "HKLM" 0 user_dir
-    StrCpy $INSTDIR "$PROGRAMFILES\Pidgin++"
+    !ifdef INSTALLER_X64
+      StrCpy $INSTDIR "$PROGRAMFILES64\Pidgin++"
+    !else
+      StrCpy $INSTDIR "$PROGRAMFILES32\Pidgin++"
+    !endif
     Goto instdir_done
   user_dir:
     Push $SMPROGRAMS

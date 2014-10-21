@@ -3,6 +3,7 @@ Encoding=UTF-8
 
 _INSTALLERISRUNNING=The installer is already running.
 _PIDGINISRUNNING=An instance of Pidgin++ is currently running.  Please exit Pidgin++ and try again.
+_NOTWINDOWS64BIT=This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You need the installer for the 32-bit version of Pidgin++.
 
 # "Next >" appears on a button on the License Page of the Installer
 _PIDGINLICENSEBUTTON=Next >

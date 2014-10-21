@@ -16,6 +16,10 @@
 ##     -p, --prepare        Create the required build environment under
 ##                          DEVELOPMENT_ROOT and exit.
 ##
+##         --x64-build      Disable the Sametime and SILC protocols, the crash
+##                          report generation, and the Perl plugin, so that a
+##                          64-bit build can be generated.
+##
 ##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
 ##     -g, --gtk            Build the GTK+ runtime instead of installers, if
@@ -111,8 +115,8 @@ download_irc_plugins() {
 domake() {
     ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
         SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
-        ${no_update:+DISABLE_UPDATE_CHECK=yes} \
-        ${no_bonjour:+DISABLE_BONJOUR=yes} "${@:2}"
+        ${x64_build:+DISABLE_PERL=yes DISABLE_SAMETIME=yes DISABLE_SILC=yes DISABLE_CRASH_REPORT=yes} \
+        ${no_update:+DISABLE_UPDATE_CHECK=yes} ${no_bonjour:+DISABLE_BONJOUR=yes} "${@:2}"
     return $?
 }
 if [[ -n "$encoding" ]]; then
