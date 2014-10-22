@@ -440,7 +440,7 @@ SectionGroupEnd
     File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\atk10.mo"
     File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gdk-pixbuf.mo"
     File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gettext-runtime.mo"
-    File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\ gettext-tools.mo"
+    File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gettext-tools.mo"
     File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\glib20.mo"
     File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gtk20.mo"
     File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gtk20-properties.mo"
