@@ -30,8 +30,8 @@
                 pt-br:description="Verificação automática de atualizações"/>
 
         <change platform="Windows"
-                en-us:description="More recent GTK+ (2.24.24)"
-                pt-br:description="GTK+ mais recente (2.24.24)"/>
+                en-us:description="More recent GTK+ (2.24.25)"
+                pt-br:description="GTK+ mais recente (2.24.25)"/>
 
         <change platform="Windows"
                 en-us:description="Intelligent buddy list toggling on tray icon click"

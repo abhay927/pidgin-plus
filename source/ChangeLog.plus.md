@@ -28,7 +28,7 @@ targeted at end users, please see the XML changelog or its resulting formats.
         - my_MM is now my.
 
 **Windows**
-* GTK+ updated from 2.16.6 to 2.24.24.
+* GTK+ updated from 2.16.6 to 2.24.25.
 * Several GTK+ dependencies also updated.
 * Automated update checking with WinSparkle.
 * New plugins irchelper and ircaway.

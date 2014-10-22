@@ -4,17 +4,15 @@
 # installer, if not already built and uploaded, and if the application version
 # is suffixed with "devel" or --force has been specified.
 
-# Bundle version and expected SHA-1 hash
-bundle_sha1sum=4bd03f43ce5e5751aeccc94aab1ffc5d066abf3c
-bundle_version=2.24.24.5
-
 # GTK+ bundle version
+bundle_version=2.24.25
 if [[ "$1" = --gtk-version ]]; then
     echo "$bundle_version"
     exit
 fi
 
-# Base directory
+# Arguments
+bitness="$2"
 pidgin_base="$1"
 if [ ! -e "$pidgin_base/ChangeLog" ]; then
     oops "$(basename $0) must have the base directory specified as a parameter"
@@ -23,6 +21,8 @@ fi
 
 # Configuration
 source "$pidgin_base/colored.sh"
+arch=$(gcc -dumpmachine)
+arch="${arch%%-*}"
 install_dir_binary="Gtk"
 install_dir_source="Gtk-source"
 application_version=$(<$pidgin_base/VERSION)
@@ -34,22 +34,22 @@ fedora_base_url_stable="https://archive.fedoraproject.org/pub/fedora/linux/updat
 fedora_base_url="https://archive.fedoraproject.org/pub/fedora/linux/development/rawhide/i386/os/Packages/m"
 
 # Libraries
-packages=("$fedora_base_url/mingw32-atk-2.13.90-1.fc22.noarch.rpm        name:ATK         version:2.13.90-1   sha1sum:444dc16186d613c9a4a2a343185de7eefa2ca7ba,85e7e74e8132e0ee1ac01dfe8ed236e6ac1ef51f"
-          "$fedora_base_url/mingw32-pixman-0.32.0-2.fc21.noarch.rpm      name:Pixman      version:0.32.0-2    sha1sum:457a369ba60afea88d2594055e5098d741f13ab4,c032b20181d394cbe063a42d4170f949a28b1368"
-          "$fedora_base_url/mingw32-cairo-1.12.16-3.fc21.noarch.rpm      name:Cairo       version:1.12.16-3   sha1sum:3a64e41ad243e9129eace1e73440f6f3ffc22235,46b8d2b4a31627ffd44ea98aa210cb98a5158bcf"
-          "$fedora_base_url/mingw32-expat-2.1.0-6.fc21.noarch.rpm        name:Expat       version:2.1.0-6     sha1sum:dff18fa1dbe74ba7b564910f762e57b3ee2bea26,7959966bf0499edb6e429e6b943e247955e3e80f"
-          "$fedora_base_url/mingw32-fontconfig-2.11.1-2.fc21.noarch.rpm  name:Fontconfig  version:2.11.1-2    sha1sum:ef9be3b4dc5fe4d276f3759935c2df8c1ade5dad,c457837e69655f9821ba6eacb8fde5d3ea75c2f5"
-          "$fedora_base_url/mingw32-freetype-2.5.3-2.fc21.noarch.rpm     name:Freetype    version:2.5.3-2     sha1sum:0217f4d9b0a883b4917d9c78db7aac047506c814,a747f4e6bd3c82de53c5c7cfe1d61e025ab6ed36"
-          "$fedora_base_url/mingw32-win-iconv-0.0.6-2.fc21.noarch.rpm    name:Iconv       version:0.0.6-2     sha1sum:47d33d7178b89db60ac50797731a9f33c58995c2,f0bb2b68247c31a9bea218ee75f4307d235a8f51"
-          "$fedora_base_url/mingw32-gettext-0.18.3.2-2.fc21.noarch.rpm   name:Gettext     version:0.18.3.2-2  sha1sum:26247b98279bb8ed17f83a4ff70c4ee4420c3986,8dba4e3baf02e8b4a0fa829f0df796d85b2e4df0"
-          "$fedora_base_url/mingw32-libffi-3.0.13-5.fc21.noarch.rpm      name:Libffi      version:3.0.13-5    sha1sum:156b69157b7a09d024ae54d9bead8aff2613f7c4,89dc469ee50927543b1bcef7f87d110dcfe8367a"
-          "$fedora_base_url/mingw32-glib2-2.42.0-1.fc22.noarch.rpm       name:Glib        version:2.42.0-1    sha1sum:52c36ba8f7e43dddc54bf2e1bea3ecdb96430310,0be98952036a9efafbb696463a978974df4b2442"
-          "$fedora_base_url/mingw32-gtk2-2.24.24-2.fc22.noarch.rpm       name:GTK+        version:2.24.24-2   sha1sum:d6cec978e9defafbe857ac07614204ebd2f0cf8d,e1fd5d9e0eb0ad4a2b6d30dbf7462e0ca670e2fd"
-          "$fedora_base_url/mingw32-gdk-pixbuf-2.30.8-2.fc21.noarch.rpm  name:GDK-Pixbuf  version:2.30.8-2    sha1sum:2ed07b24239837436ce933ec463f7ddd43f53997,3bc4c7b078230e6e9e7567afbe156805058d5a01"
-          "$fedora_base_url/mingw32-libpng-1.6.10-2.fc21.noarch.rpm      name:Libpng      version:1.6.10-2    sha1sum:0bedb7a32c8ffbdac7ca32972a00001667777a58,9b0b43ee1ab101362578df9740071226e37df1bf"
-          "$fedora_base_url/mingw32-pango-1.36.8-1.fc22.noarch.rpm       name:Pango       version:1.36.8-1    sha1sum:c98a10c2720a46d501faf47496d2e473ad2882ed,55451da725e41d759b14dc761608444181ea8eb6"
-          "$fedora_base_url_stable/mingw32-gcc-4.8.3-1.fc20.i686.rpm     name:GCC-SJLJ    version:4.8.3-1     sha1sum:18aa08555d826fa1eb8779c1f2e446e2f753e719,fa7b61126c2a6a0a2725bf89383f53391ddaf75b"
-          "$fedora_base_url/mingw32-zlib-1.2.8-3.fc21.noarch.rpm         name:Zlib        version:1.2.8-3     sha1sum:480b65828c4cce4060facaeb8a0431e12939b731,adb96b7c769b880807288442f9fdbdd0dbfef404")
+packages=("$fedora_base_url/mingw${bitness}-atk-2.14.0-1.fc22.noarch.rpm         name:ATK         version:2.14.0-1    sha1sum:96bfd0727373bf680d5f8bc08039e4198b001ff4,361f89ea57a119a35363e658b3cd6210bd1f9ec7,1dad6dc2bcb475b82f6a9d69f7157c3b88927794"
+          "$fedora_base_url/mingw${bitness}-pixman-0.32.6-1.fc22.noarch.rpm      name:Pixman      version:0.32.6-1    sha1sum:05beb43845ae8950edceebb5e2dbb0872851b184,d3cffca414561de334be18b25548c628909d9c94,74db89f7a53322f26f2603cc4f6fda2e6b35aea1"
+          "$fedora_base_url/mingw${bitness}-cairo-1.12.16-3.fc21.noarch.rpm      name:Cairo       version:1.12.16-3   sha1sum:3a64e41ad243e9129eace1e73440f6f3ffc22235,2b8bda0dab3f3b4df7fbdb54d998e9429b7e3015,46b8d2b4a31627ffd44ea98aa210cb98a5158bcf"
+          "$fedora_base_url/mingw${bitness}-expat-2.1.0-6.fc21.noarch.rpm        name:Expat       version:2.1.0-6     sha1sum:dff18fa1dbe74ba7b564910f762e57b3ee2bea26,ef1ebd86ca8419993a5ab8774c78fb8656a5441f,7959966bf0499edb6e429e6b943e247955e3e80f"
+          "$fedora_base_url/mingw${bitness}-fontconfig-2.11.1-2.fc21.noarch.rpm  name:Fontconfig  version:2.11.1-2    sha1sum:ef9be3b4dc5fe4d276f3759935c2df8c1ade5dad,d4f732473bddd9671cc63f5ade04ed024d09aef5,c457837e69655f9821ba6eacb8fde5d3ea75c2f5"
+          "$fedora_base_url/mingw${bitness}-freetype-2.5.3-2.fc21.noarch.rpm     name:Freetype    version:2.5.3-2     sha1sum:0217f4d9b0a883b4917d9c78db7aac047506c814,b101b610f456b43850614230fd350f39148adfef,a747f4e6bd3c82de53c5c7cfe1d61e025ab6ed36"
+          "$fedora_base_url/mingw${bitness}-win-iconv-0.0.6-2.fc21.noarch.rpm    name:Iconv       version:0.0.6-2     sha1sum:47d33d7178b89db60ac50797731a9f33c58995c2,dd317be46cdda567a91d31bcc7f24c1fe03fe7c9,f0bb2b68247c31a9bea218ee75f4307d235a8f51"
+          "$fedora_base_url/mingw${bitness}-gettext-0.18.3.2-2.fc21.noarch.rpm   name:Gettext     version:0.18.3.2-2  sha1sum:26247b98279bb8ed17f83a4ff70c4ee4420c3986,33113c1933cad13e2981aef07bdeebdb5588ce27,8dba4e3baf02e8b4a0fa829f0df796d85b2e4df0"
+          "$fedora_base_url/mingw${bitness}-libffi-3.0.13-5.fc21.noarch.rpm      name:Libffi      version:3.0.13-5    sha1sum:156b69157b7a09d024ae54d9bead8aff2613f7c4,8a0e03027d467f02f0a265888de69fcf43b882a8,89dc469ee50927543b1bcef7f87d110dcfe8367a"
+          "$fedora_base_url/mingw${bitness}-glib2-2.42.0-1.fc22.noarch.rpm       name:Glib        version:2.42.0-1    sha1sum:52c36ba8f7e43dddc54bf2e1bea3ecdb96430310,d47a168d745604a9f0e98d0e74fd9f251f1f83e8,0be98952036a9efafbb696463a978974df4b2442"
+          "$fedora_base_url/mingw${bitness}-gtk2-2.24.25-1.fc22.noarch.rpm       name:GTK+        version:2.24.25-1   sha1sum:1b5cb848081fe01959c6487d978ac59739a522a7,3813632dd2352dbac1e46ccc84a5bc0a032a30e0,938a8fc7e581c252fb1910ed384fc53b89294060"
+          "$fedora_base_url/mingw${bitness}-gdk-pixbuf-2.31.1-1.fc22.noarch.rpm  name:GDK-Pixbuf  version:2.31.1-1    sha1sum:7fa8812189189dc80ed89c6edf04c2ea386f7936,92b08117d002bbe834fd3a95b381d2256806304b,882be3e23eae8731c145f917dae188bd09ff75f3"
+          "$fedora_base_url/mingw${bitness}-libpng-1.6.10-2.fc21.noarch.rpm      name:Libpng      version:1.6.10-2    sha1sum:0bedb7a32c8ffbdac7ca32972a00001667777a58,41cf8708d7fb46d4eca0f3f6be1fc816fa550b6e,9b0b43ee1ab101362578df9740071226e37df1bf"
+          "$fedora_base_url/mingw${bitness}-pango-1.36.8-1.fc22.noarch.rpm       name:Pango       version:1.36.8-1    sha1sum:c98a10c2720a46d501faf47496d2e473ad2882ed,8320bb0a08c611a29b072086f813dbc358899dfd,55451da725e41d759b14dc761608444181ea8eb6"
+          "$fedora_base_url_stable/mingw${bitness}-gcc-4.8.3-1.fc20.i686.rpm     name:GCC-SJLJ    version:4.8.3-1     sha1sum:18aa08555d826fa1eb8779c1f2e446e2f753e719,5f8aab8c5bcb91752a18b58c835cf71788ab8f70,fa7b61126c2a6a0a2725bf89383f53391ddaf75b"
+          "$fedora_base_url/mingw${bitness}-zlib-1.2.8-3.fc21.noarch.rpm         name:Zlib        version:1.2.8-3     sha1sum:480b65828c4cce4060facaeb8a0431e12939b731,fdf6a1a685846bf93577b5aee1d140fec4a5b4a1,adb96b7c769b880807288442f9fdbdd0dbfef404")
 
 # SHA-1 check
 check_sha1sum() {
@@ -121,29 +121,29 @@ install_rpm() {
     fi
 
     echo "Installing binary to $install_location"
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/bin/libssp-0.dll
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gio
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/glib-2.0
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/gtk-2.0/include
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/libffi-3.0.13
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib/pkgconfig
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/aclocal
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/gettext
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/glib-2.0
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/share/gtk-2.0
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/bin/libssp-0.dll
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/lib/gio
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/lib/glib-2.0
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/lib/gtk-2.0/include
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/lib/libffi-3.0.13
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/lib/pkgconfig
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/share/aclocal
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/share/gettext
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/share/glib-2.0
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/share/gtk-2.0
     rm -rf usr/share/man
-    find usr/i686-w64-mingw32/sys-root/mingw/lib -name "*.a" -delete
+    find usr/${arch}-w64-mingw32/sys-root/mingw/lib -name "*.a" -delete
 
-    [[ -d usr/i686-w64-mingw32/sys-root/mingw/bin   ]] && cp -r usr/i686-w64-mingw32/sys-root/mingw/bin "$install_dir_binary"
-    [[ -d usr/i686-w64-mingw32/sys-root/mingw/etc   ]] && cp -r usr/i686-w64-mingw32/sys-root/mingw/etc "$install_dir_binary"
-    [[ -d usr/i686-w64-mingw32/sys-root/mingw/lib   ]] && cp -r usr/i686-w64-mingw32/sys-root/mingw/lib "$install_dir_binary"
-    [[ -d usr/i686-w64-mingw32/sys-root/mingw/share ]] && cp -r usr/i686-w64-mingw32/sys-root/mingw/share "$install_dir_binary"
+    [[ -d usr/${arch}-w64-mingw32/sys-root/mingw/bin   ]] && cp -r usr/${arch}-w64-mingw32/sys-root/mingw/bin "$install_dir_binary"
+    [[ -d usr/${arch}-w64-mingw32/sys-root/mingw/etc   ]] && cp -r usr/${arch}-w64-mingw32/sys-root/mingw/etc "$install_dir_binary"
+    [[ -d usr/${arch}-w64-mingw32/sys-root/mingw/lib   ]] && cp -r usr/${arch}-w64-mingw32/sys-root/mingw/lib "$install_dir_binary"
+    [[ -d usr/${arch}-w64-mingw32/sys-root/mingw/share ]] && cp -r usr/${arch}-w64-mingw32/sys-root/mingw/share "$install_dir_binary"
     [[ -d usr/share                                 ]] && cp -r usr/share "$install_dir_binary"
 
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/bin
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/etc
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/lib
-    rm -rf usr/i686-w64-mingw32/sys-root/mingw/share
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/bin
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/etc
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/lib
+    rm -rf usr/${arch}-w64-mingw32/sys-root/mingw/share
     rm -rf usr/share
     return 0
 }
@@ -157,7 +157,7 @@ function download_and_extract {
     local url_binary="${1%%\ *}"
     local url_source="${url_binary/20\/i386/20\/SRPMS}"
     local url_source="${url_source/i386\/os\/Packages/source\/SRPMS}"
-    local url_source="${url_source/mingw32/mingw}"
+    local url_source="${url_source/mingw${bitness}/mingw}"
     local url_source="${url_source/noarch/src}"
     local url_source="${url_source/i686/src}"
 
@@ -170,9 +170,13 @@ function download_and_extract {
         case $url in
             $url_binary) info "Integrating $name"
                          echo "Downloading binary from $url"
-                         validation_value="${validation_values%,*}" ;;
+                         local validation_values_binary="${validation_values%,*}"
+                         case $bitness in
+                            32) validation_value="${validation_values_binary%,*}" ;;
+                            64) validation_value="${validation_values_binary#*,}" ;;
+                         esac ;;
             $url_source) echo "Downloading source code from $url"
-                         validation_value="${validation_values#*,}" ;;
+                         validation_value="${validation_values##*,}" ;;
         esac
         local file=$(basename $url)
         local extension="${file##*.}"
@@ -200,9 +204,15 @@ function download_and_extract {
     echo "$name $version" >> "$contents_file"
 }
 
+# Expected SHA-1 hash
+case "$bitness" in
+    32) arch_short=x86; bundle_sha1sum=000d994984f9f25aa7ce85dfb736c638dc7c9968 ;;
+    64) arch_short=x64; bundle_sha1sum=ab7d10e05edefc68e2dc190e493db05c87b2be0d ;;
+esac
+
 # Try downloading first
 if [ ! -e "$zip_binary" ]; then
-    url="https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ GTK+ Runtime $bundle_version.zip"
+    url="https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ ${arch_short} GTK+ Runtime ${bundle_version}.zip"
     echo "Downloading $url"
     wget --quiet "$url" --output-document "$zip_binary"
 fi
@@ -211,7 +221,7 @@ fi
 # If the sha1sum check fails and not forcing, then quit
 # If the sha1sum check fails and forcing, then continue bundle creation
 
-[[ "$application_version" == *"devel" || "$2" = --force ]] && force="yes"
+[[ "$application_version" == *"devel" || "$3" = --force ]] && force="yes"
 if ! check_sha1sum "$zip_binary" "$bundle_sha1sum" ${force:-quit}; then
     echo "Continuing GTK+ Bundle creation for Pidgin++ ${application_version}${force:+ (--force has been specified)}"
 else
