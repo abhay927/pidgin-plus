@@ -507,6 +507,7 @@ void pidgin_dialogs_about(void)
 {
 	GString *str;
 	char *tmp;
+	char *bitness;
 	static GtkWidget *about = NULL;
 
 	if (about != NULL) {
@@ -516,12 +517,20 @@ void pidgin_dialogs_about(void)
 
 	str = g_string_sized_new(4096);
 
+#if defined(_WIN64)
+	bitness = " (64-bit)";
+#elif defined(_WIN32)
+	bitness = " (32-bit)";
+#else
+	bitness = "";
+#endif
+
 	g_string_append_printf(str,
-		_("<font size='4'><b>%s %s</b></font><br>"
+		_("<font size='4'><b>%s %s%s</b></font><br>"
 		  "\tBased on Pidgin <i>%s</i><br>"
 		  "\tLibpurple <i>%s</i><br>"
 		  "\tPackage revision <i>%s</i><br><br>"),
-		APPLICATION_NAME, DISPLAY_VERSION, get_upstream_version(),
+		APPLICATION_NAME, DISPLAY_VERSION, bitness, get_upstream_version(),
 		purple_core_get_version(), purple_markup_escape_text(REVISION, -1));
 
 	g_string_append_printf(str,
