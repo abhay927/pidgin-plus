@@ -10,4 +10,4 @@
 	$(WINDRES) $(PURPLE_INCLUDE_PATHS) $(INCLUDE_PATHS) -i $< -o $@
 
 %.desktop: %.desktop.in $(wildcard $(PIDGIN_TREE_TOP)/po/*.po)
-	LC_ALL=C $(PERL) $(INTLTOOL_MERGE) -d -u -c $(PIDGIN_TREE_TOP)/po/.intltool-merge-cache $(PIDGIN_TREE_TOP)/po $< $@
+	LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(PIDGIN_TREE_TOP)/po/.intltool-merge-cache $(PIDGIN_TREE_TOP)/po $< $@

@@ -509,7 +509,7 @@ static void tcl_init_plugin(PurplePlugin *plugin)
 		return;
 
 	if(!Tcl_InitStubs(interp, TCL_VERSION, 0)) {
-		purple_debug(PURPLE_DEBUG_ERROR, "tcl", "Tcl_InitStubs: %s\n", interp->result);
+		purple_debug(PURPLE_DEBUG_ERROR, "tcl", "Tcl_InitStubs: %s\n", Tcl_GetStringResult(interp));
 		return;
 	}
 #endif
@@ -520,7 +520,7 @@ static void tcl_init_plugin(PurplePlugin *plugin)
 	Tk_Init(interp);
 
 	if(!Tk_InitStubs(interp, TK_VERSION, 0)) {
-		purple_debug(PURPLE_DEBUG_ERROR, "tcl", "Error Tk_InitStubs: %s\n", interp->result);
+		purple_debug(PURPLE_DEBUG_ERROR, "tcl", "Error Tk_InitStubs: %s\n", Tcl_GetStringResult(interp));
 		Tcl_DeleteInterp(interp);
 		return;
 	}

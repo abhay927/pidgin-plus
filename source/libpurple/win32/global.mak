@@ -9,21 +9,22 @@
 -include $(PIDGIN_TREE_TOP)/local.mak
 
 # Locations of our various dependencies
+MSYS2_MINGW_TOP = $(shell which $(CC) | awk -F/bin/ '{ printf $$1; }')
 WIN32_DEV_TOP ?= $(PIDGIN_TREE_TOP)/../win32-dev
-GTKSPELL_TOP ?= $(WIN32_DEV_TOP)/gtkspell-2.0.16
-ENCHANT_TOP ?= $(WIN32_DEV_TOP)/enchant_1.6.0_win32
-GTK_TOP ?= $(WIN32_DEV_TOP)/gtk_2_0-2.24
+GTKSPELL_TOP ?= $(MSYS2_MINGW_TOP)
+ENCHANT_TOP ?= $(MSYS2_MINGW_TOP)
+GTK_TOP ?= $(MSYS2_MINGW_TOP)
 GTK_BIN ?= $(GTK_TOP)/bin
 BONJOUR_TOP ?= $(WIN32_DEV_TOP)/Bonjour_SDK
-LIBXML2_TOP ?= $(WIN32_DEV_TOP)/libxml2-2.9.0
+LIBXML2_TOP ?= $(MSYS2_MINGW_TOP)
 MEANWHILE_TOP ?= $(WIN32_DEV_TOP)/meanwhile-1.0.2_daa3
-NSS_TOP ?= $(WIN32_DEV_TOP)/nss-3.15.4-nspr-4.10.2
+NSS_TOP ?= $(MSYS2_MINGW_TOP)
 PERL_LIB_TOP ?= $(WIN32_DEV_TOP)/perl-5.10.0
 SILC_TOOLKIT ?= $(WIN32_DEV_TOP)/silc-toolkit-1.1.10
-TCL_LIB_TOP ?= $(WIN32_DEV_TOP)/tcl-8.4.5
-GSTREAMER_TOP ?= $(WIN32_DEV_TOP)/gstreamer-0.10.13
-GCC_TOP ?= $(shell dirname $(shell which $(CC)))
-CYRUS_SASL_TOP ?= $(WIN32_DEV_TOP)/cyrus-sasl-2.1.25
+TCL_LIB_TOP ?= $(MSYS2_MINGW_TOP)
+GSTREAMER_TOP ?= $(MSYS2_MINGW_TOP)
+GCC_TOP ?= $(MSYS2_MINGW_TOP)/bin
+CYRUS_SASL_TOP ?= $(MSYS2_MINGW_TOP)
 WINSPARKLE_TOP ?= $(WIN32_DEV_TOP)/WinSparkle-0.4
 
 # Where we installing this stuff to?
@@ -121,12 +122,12 @@ DLL_LD_FLAGS += -Wl,--enable-auto-image-base -Wl,--enable-auto-import $(LD_HARDE
 ifeq "$(origin CC)" "default"
   CC := gcc.exe
 endif
-GMSGFMT ?= $(WIN32_DEV_TOP)/gettext-0.17/bin/msgfmt
+GMSGFMT ?= msgfmt
 MAKENSIS ?= makensis.exe
 PERL ?= perl
 WINDRES ?= windres
 STRIP ?= strip
-INTLTOOL_MERGE ?= $(WIN32_DEV_TOP)/intltool_0.40.4-1_win32/bin/intltool-merge
+INTLTOOL_MERGE ?= intltool-merge
 SIGNTOOL ?= bypass
 GPG_SIGN ?= bypass
 

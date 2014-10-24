@@ -16,7 +16,13 @@
 ##     @script.name DEVELOPMENT_ROOT [options]
 ##
 ##     -p, --prepare        Create the required build environment under
-##                          DEVELOPMENT_ROOT and exit.
+##                          DEVELOPMENT_ROOT and exit. This is not needed for
+##                          creating an MSYS2 package.
+##
+##         --pkgbuild       Enable the PKGBUILD mode for creating an MSYS2
+##                          package. Implies --no-bonjour and --no-update, as
+##                          well as the restrictions applied to 64-bit builds
+##                          mentioned above.
 ##
 ##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
@@ -47,7 +53,6 @@
 ##                          (DEVELOPMENT_ROOT/distribution).
 ##         --staging=DIR    Custom staging directory.
 ##     -r, --reset          Recreates the staging directory from scratch.
-##     -G, --custom-gcc     Use the downloaded GCC instead of system one.
 ##
 ##         --color=SWITCH   Enable or disable colors in output. SWITCH is either
 ##                          on or off. Default is enabling for terminals.
@@ -63,6 +68,10 @@ if [[ -z "$prepare" && ! -d "$devroot" ]]; then
     echo "No valid development root specified, see --help."
     exit 1
 fi
+if [[ -n "$prepare" && -n "$pkgbuild" ]]; then
+    echo "Creating the MSYS2 package does not require any build environment, see --help."
+    exit 1
+fi
 
 # Other variables
 [[ -n "$prepare" ]] && mkdir -p "$devroot"
@@ -76,8 +85,6 @@ source_dir="$base_dir/source"
 build_dir="$base_dir/build"
 sign="${sign:-$cert}"
 sign="${sign:+yes}"
-system_gcc="${custom_gcc+ }"
-system_gcc="${system_gcc:---system-gcc}"
 version=$($build_dir/changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build.$bitness}"
 target="${directory:-$devroot/distribution/$version/$architecture}"
@@ -118,8 +125,9 @@ download_irc_plugins() {
 domake() {
     ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
         SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
-        ${x64_build:+DISABLE_PERL=yes DISABLE_SAMETIME=yes DISABLE_SILC=yes DISABLE_CRASH_REPORT=yes} \
-        ${no_update:+DISABLE_UPDATE_CHECK=yes} ${no_bonjour:+DISABLE_BONJOUR=yes} "${@:2}"
+        ${pkgbuild:+DISABLE_PERL=yes DISABLE_CRASH_REPORT=yes DISABLE_SAMETIME=yes DISABLE_SILC=yes DISABLE_BONJOUR=yes DISABLE_UPDATE_CHECK=yes} \
+        ${x64_build:+DISABLE_PERL=yes DISABLE_CRASH_REPORT=yes DISABLE_SAMETIME=yes DISABLE_SILC=yes} \
+        ${no_bonjour:+DISABLE_BONJOUR=yes} ${no_update:+DISABLE_UPDATE_CHECK=yes} "${@:2}"
     return $?
 }
 if [[ -n "$encoding" ]]; then
@@ -169,7 +177,7 @@ if [[ -n "$sign" || -n "$cert" ]]; then
     echo
 fi
 
-# Pidgin Windev
+# Build environment
 if [[ ! -e "$windev" ]]; then
     step "Downloading Pidgin Windev"
     echo "Downloading latest revision from Launchpad"
@@ -177,10 +185,8 @@ if [[ ! -e "$windev" ]]; then
     echo "Extracted to $windev"
     echo
 fi
-
-# Build environment
 if [[ -n "$prepare" ]]; then
-    "$windev" --link-to-me --for pidgin++ --no-source $system_gcc "$devroot"
+    "$windev" --no-source "$devroot"
     exit
 fi
 
@@ -230,13 +236,7 @@ fi
 
 # System path
 echo "Configuring system path"
-gcc_dir_before=$(dirname $(which gcc))
-eval $("$windev" "$devroot" --path $system_gcc)
-gcc_dir_after=$(dirname $(which gcc))
-if [[ "$system_gcc" != --system-gcc && "$gcc_dir_before" = "$gcc_dir_after" ]]; then
-    oops "could not find custom GCC in $devroot."
-    exit 1
-fi
+eval $("$windev" "$devroot" --path) || exit
 
 # Arbitrary target
 if [[ -n "$make" ]]; then
@@ -253,7 +253,6 @@ if [[ -n "$gtk" || -n "$dictionaries" ]]; then
         gtk_version=$(pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
         for asc in "" ${sign:+.asc}; do
             mv -v pidgin/win32/nsis/gtk-runtime-$gtk_version.zip$asc "$target/Pidgin++ $architecture GTK+ Runtime $gtk_version.zip$asc"
-            [[ -f pidgin/win32/nsis/gtk-runtime-$gtk_version-source.zip$asc ]] && mv -v pidgin/win32/nsis/gtk-runtime-$gtk_version-source.zip$asc "$target/Pidgin++ GTK+ Runtime $gtk_version Source.zip$asc"
         done
     fi
     if [[ -n "$dictionaries" ]]; then

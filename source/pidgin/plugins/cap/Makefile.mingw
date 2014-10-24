@@ -8,10 +8,7 @@ PIDGIN_TREE_TOP := ../../..
 include $(PIDGIN_TREE_TOP)/libpurple/win32/global.mak
 
 TARGET = cap
-
-# This is where sqlite3.[ch] from the sqlite "amalgamation" archive were extracted to
-# This is available from http://www.sqlite.org/download.html
-SQLITE_TOP ?= $(WIN32_DEV_TOP)/sqlite-3.4.1
+SQLITE_TOP ?= $(MSYS2_MINGW_TOP)
 
 ##
 ## INCLUDE PATHS

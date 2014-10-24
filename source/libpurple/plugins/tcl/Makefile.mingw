@@ -47,8 +47,10 @@ LIBS =	\
 			-lws2_32 \
 			-lintl \
 			-lpurple \
-			-ltclstub84 \
-			-ltkstub84
+			-ltcl86 \
+			-ltk86 \
+			-ltclstub86 \
+			-ltkstub86
 
 include $(PIDGIN_COMMON_RULES)
 
