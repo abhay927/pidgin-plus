@@ -87,7 +87,6 @@ EXTERNAL_DLLS = \
 	libplds4.dll \
 	libsasl.dll \
 	libssp-0.dll \
-	libgcc_s_dw2-1.dll \
 	libwinpthread-1.dll \
 	libxml2-2.dll \
 	nss3.dll \
@@ -111,6 +110,12 @@ endif
 
 ifndef DISABLE_UPDATE_CHECK
 	EXTERNAL_DLLS += winsparkle.dll
+endif
+
+ifeq ($(BITNESS), 64)
+	EXTERNAL_DLLS += libgcc_s_seh-1.dll
+else
+	EXTERNAL_DLLS += libgcc_s_dw2-1.dll
 endif
 
 #build an expression for `find` to use to ignore the above files
@@ -152,7 +157,11 @@ endif
 endif
 	@./colored.sh info "Selecting the appropriate LibSSP"
 	./getwinssp.sh $(GCC_TOP) $(PIDGIN_INSTALL_DIR) $(BITNESS)
+ifeq ($(BITNESS), 64)
+	if test -f $(GCC_TOP)/libgcc_s_seh-1.dll; then cp $(GCC_TOP)/libgcc_s_seh-1.dll $(PIDGIN_INSTALL_DIR); fi
+else
 	if test -f $(GCC_TOP)/libgcc_s_dw2-1.dll; then cp $(GCC_TOP)/libgcc_s_dw2-1.dll $(PIDGIN_INSTALL_DIR); fi
+endif
 	if test -f $(GCC_TOP)/libwinpthread-1.dll; then cp $(GCC_TOP)/libwinpthread-1.dll $(PIDGIN_INSTALL_DIR); fi
 
 gtk_runtime_zip:

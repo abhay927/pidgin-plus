@@ -584,6 +584,7 @@ Section Uninstall
     RMDir /r "$INSTDIR\spellcheck"
     Delete "$INSTDIR\freebl3.dll"
     Delete "$INSTDIR\libgcc_s_dw2-1.dll"
+    Delete "$INSTDIR\libgcc_s_seh-1.dll"
     Delete "$INSTDIR\libjabber.dll"
     Delete "$INSTDIR\libnspr4.dll"
     Delete "$INSTDIR\libmeanwhile-1.dll"
