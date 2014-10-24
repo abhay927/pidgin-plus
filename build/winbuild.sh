@@ -80,7 +80,7 @@ system_gcc="${custom_gcc+ }"
 system_gcc="${system_gcc:---system-gcc}"
 version=$($build_dir/changelog.sh --version)
 staging="$devroot/${staging:-pidgin.build.$bitness}"
-target="${directory:-$devroot/distribution/$architecture/$version}"
+target="${directory:-$devroot/distribution/$version/$architecture}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
 
 
