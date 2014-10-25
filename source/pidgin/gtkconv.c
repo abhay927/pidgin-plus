@@ -5972,7 +5972,6 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 		/* The initial offset is to deal with
 		 * escaped entities making the string longer */
 		int tag_start_offset = 0;
-		int tag_end_offset = 0;
 		const char *tagname = NULL;
 
 		GtkTextIter start, end;
@@ -5991,14 +5990,18 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 			if (message_meify) {
 				g_snprintf(str, 1024, "<i>%s</i>", alias_escaped);
 				tag_start_offset += 3;
+#if 0
 				tag_end_offset = 4;
+#endif
 				tagname = "whisper-action-name";
 				message_color = DEFAULT_WHISPER_ACTION_COLOR;
 			}
 			else {
 				g_snprintf(str, 1024, "*%s*:", alias_escaped);
 				tag_start_offset += 1;
+#if 0
 				tag_end_offset = 2;
+#endif
 				tagname = "whisper-name";
 				message_color = DEFAULT_WHISPER_COLOR;
 			}
@@ -6007,11 +6010,15 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 				if (flags & PURPLE_MESSAGE_AUTO_RESP) {
 					g_snprintf(str, 1024, "<i>%s: %s</i>", AUTO_RESPONSE, alias_escaped);
 					tag_start_offset += strlen(AUTO_RESPONSE) + 5;
+#if 0
 					tag_end_offset = 4;
+#endif
 				} else {
 					g_snprintf(str, 1024, "<i>%s</i>", alias_escaped);
 					tag_start_offset += 3;
+#if 0
 					tag_end_offset = 4;
+#endif
 				}
 
 				if (flags & PURPLE_MESSAGE_NICK) {
@@ -6027,7 +6034,9 @@ pidgin_conv_write_conv(PurpleConversation *conv, const char *name, const char *a
 					tag_start_offset += strlen(AUTO_RESPONSE) + 2;
 				} else {
 					g_snprintf(str, 1024, "%s:", alias_escaped);
+#if 0
 					tag_end_offset = 1;
+#endif
 				}
 
 				if (flags & PURPLE_MESSAGE_NICK) {

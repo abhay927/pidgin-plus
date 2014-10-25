@@ -28,6 +28,7 @@
 #include <string.h>
 
 #include "libgadu.h"
+#include "internal.h"
 #include "deflate.h"
 
 #ifdef GG_CONFIG_HAVE_ZLIB
@@ -73,7 +74,8 @@ unsigned char *gg_deflate(const char *in, size_t *out_lenp)
 	out = malloc(out_len);
 
 	if (out == NULL) {
-		gg_debug(GG_DEBUG_MISC, "// gg_deflate() not enough memory for output data (%d)\n", out_len);
+		gg_debug(GG_DEBUG_MISC, "// gg_deflate() not enough memory for "
+			"output data (%" GG_SIZE_FMT ")\n", out_len);
 		goto fail;
 	}
 
@@ -93,7 +95,9 @@ unsigned char *gg_deflate(const char *in, size_t *out_lenp)
 			out2 = realloc(out, out_len);
 
 			if (out2 == NULL) {
-				gg_debug(GG_DEBUG_MISC, "// gg_deflate() not enough memory for output data (%d)\n", out_len);
+				gg_debug(GG_DEBUG_MISC, "// gg_deflate() not "
+					"enough memory for output data (%"
+					GG_SIZE_FMT ")\n", out_len);
 				goto fail;
 			}
 
@@ -102,7 +106,10 @@ unsigned char *gg_deflate(const char *in, size_t *out_lenp)
 			strm.avail_out = out_len / 2;
 			strm.next_out = out + out_len / 2;
 		} else {
-			gg_debug(GG_DEBUG_MISC, "// gg_deflate() deflate() failed (ret=%d, msg=%s)\n", ret, strm.msg != NULL ? strm.msg : "no error message provided");
+			gg_debug(GG_DEBUG_MISC, "// gg_deflate() deflate() "
+				"failed (ret=%d, msg=%s)\n", ret,
+				strm.msg != NULL ? strm.msg :
+				"no error message provided");
 			goto fail;
 		}
 	}
@@ -111,7 +118,8 @@ unsigned char *gg_deflate(const char *in, size_t *out_lenp)
 	out2 = realloc(out, out_len);
 
 	if (out2 == NULL) {
-		gg_debug(GG_DEBUG_MISC, "// gg_deflate() not enough memory for output data (%d)\n", out_len);
+		gg_debug(GG_DEBUG_MISC, "// gg_deflate() not enough memory for "
+			"output data (%" GG_SIZE_FMT ")\n", out_len);
 		goto fail;
 	}
 
@@ -170,7 +178,8 @@ char *gg_inflate(const unsigned char *in, size_t length)
 		out2 = realloc(out, out_len);
 
 		if (out2 == NULL) {
-			gg_debug(GG_DEBUG_MISC, "// gg_inflate() not enough memory for output data (%d)\n", out_len);
+			gg_debug(GG_DEBUG_MISC, "// gg_inflate() not enough "
+				"memory for output data (%" GG_SIZE_FMT ")\n", out_len);
 			goto fail;
 		}
 
@@ -187,7 +196,10 @@ char *gg_inflate(const unsigned char *in, size_t length)
 		ret = inflate(&strm, Z_NO_FLUSH);
 
 		if (ret != Z_OK && ret != Z_STREAM_END) {
-			gg_debug(GG_DEBUG_MISC, "// gg_inflate() inflate() failed (ret=%d, msg=%s)\n", ret, strm.msg != NULL ? strm.msg : "no error message provided");
+			gg_debug(GG_DEBUG_MISC, "// gg_inflate() inflate() "
+				"failed (ret=%d, msg=%s)\n", ret,
+				strm.msg != NULL ? strm.msg :
+				"no error message provided");
 			goto fail;
 		}
 
@@ -199,7 +211,8 @@ char *gg_inflate(const unsigned char *in, size_t length)
 	out2 = realloc(out, out_len);
 
 	if (out2 == NULL) {
-		gg_debug(GG_DEBUG_MISC, "// gg_inflate() not enough memory for output data (%d)\n", out_len);
+		gg_debug(GG_DEBUG_MISC, "// gg_inflate() not enough memory for "
+			"output data (%" GG_SIZE_FMT ")\n", out_len);
 		goto fail;
 	}
 
@@ -216,4 +229,3 @@ fail:
 #endif
 	return NULL;
 }
-

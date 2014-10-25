@@ -7,6 +7,7 @@ targeted at end users, please see the XML changelog or its resulting formats.
 ## 14.1
 
 **All platforms**
+* Upstream version 2.10.10.
 * New text colors and formatting.
 * Maximizable and larger log viewer.
 * Formatted IRC channel URLs ([#15248][3]).

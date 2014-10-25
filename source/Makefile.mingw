@@ -34,8 +34,8 @@ awk 'BEGIN {FS="."} { \
 GTK_INSTALL_VERSION = $(shell pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
 
 signtool_command = $(SIGNTOOL) sign \
-				    //f "$(SIGNTOOL_PFX)" //p "$(SIGNTOOL_PASSWORD)" \
-				    //t "http://timestamp.verisign.com/scripts/timstamp.dll" \
+				    //fd SHA256 //f "$(SIGNTOOL_PFX)" //p "$(SIGNTOOL_PASSWORD)" \
+				    //tr "http://timestamp.comodoca.com/rfc3161" //td SHA256 \
 				    //du "$(APPLICATION_WEBSITE)" //d $(2) $(1)
 
 gpg_sign_command = @$(GPG_SIGN) -ab --batch --yes --passphrase "$(GPG_PASSWORD)" $(1) && $(GPG_SIGN) --verify $(1).asc

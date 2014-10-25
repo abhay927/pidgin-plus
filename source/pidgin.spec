@@ -9,13 +9,13 @@
 #define beta 7
 
 %if 0%{?beta}
-%define pidginver %(echo "2.10.9"|sed -e 's/dev.*//; s/beta.*//')
+%define pidginver %(echo "2.10.10"|sed -e 's/dev.*//; s/beta.*//')
 %else
-%define pidginver 2.10.9
+%define pidginver 2.10.10
 %endif
 
 # define the minimum API version required, so we can use it for plugin deps
-%define apiver %(echo "2.10.9"|awk -F. '{print $1"."$2}')
+%define apiver %(echo "2.10.10"|awk -F. '{print $1"."$2}')
 
 Summary:    A GTK+ based multiprotocol instant messaging client
 Name:       pidgin
@@ -23,7 +23,8 @@ Version:    %pidginver
 Release:    0%{?beta:.beta%{beta}}
 License:    GPL
 Group:      Applications/Internet
-Source:     %{name}-2.10.9.tar.bz2
+URL:        http://pidgin.im/
+Source:     %{name}-2.10.10.tar.bz2
 BuildRoot:  %{_tmppath}/%{name}-%{version}-root
 
 # Generic build requirements
@@ -220,7 +221,7 @@ and plugins.
 %endif
 
 %prep
-%setup -q -n %{name}-2.10.9
+%setup -q -n %{name}-2.10.10
 
 %build
 CFLAGS="$RPM_OPT_FLAGS" ./configure --prefix=%{_prefix} \
