@@ -26,6 +26,10 @@
                 pt-br:description="Formatação de numéricos IRC desconhecidos como mensagens de sistema"/>
 
         <change platform="Windows"
+                en-us:description="Support for 64-bit"
+                pt-br:description="Suporte para 64 bits"/>
+
+        <change platform="Windows"
                 en-us:description="Automated update checking"
                 pt-br:description="Verificação automática de atualizações"/>
 

@@ -28,6 +28,7 @@ targeted at end users, please see the XML changelog or its resulting formats.
         - my_MM is now my.
 
 **Windows**
+* Support for 64-bit.
 * GTK+ updated from 2.16.6 to 2.24.25.
 * Several GTK+ dependencies also updated.
 * Automated update checking with WinSparkle.
@@ -47,6 +48,9 @@ targeted at end users, please see the XML changelog or its resulting formats.
     - Generation of the source code bundle.
     - Creation of the build environment (with Pidgin Windev).
     - Removed support for MinGW and MSYS.
+    - Better integration with MSYS2:
+        - The provided GTK+ and many other dependencies are now used.
+        - The new option --pkgbuild now allows creating a pacman package.
     - Fixed some macro redefinitions in MinGW-w64.
     - Allow building without Bonjour.
     - Website added to code repository.
