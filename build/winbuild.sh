@@ -90,7 +90,6 @@ staging="$devroot/${staging:-pidgin.build.$bitness}"
 target="${directory:-$devroot/distribution/$version/$architecture}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
 
-
 # Colored output
 if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
     echo "Please specify a valid value for --color, see --help."
@@ -131,14 +130,14 @@ domake() {
     return $?
 }
 if [[ -n "$encoding" ]]; then
-	case "$encoding" in
-	default) iconv="iconv -f ${LANG##*.}" ;;
-		  *) iconv="iconv -f ${LANG##*.} ${encoding:+-t $encoding}" ;;
-	esac
+    case "$encoding" in
+    default) iconv="iconv -f ${LANG##*.}" ;;
+          *) iconv="iconv -f ${LANG##*.} ${encoding:+-t $encoding}" ;;
+    esac
     mv() { command mv "$@" > >($iconv) 2> >($iconv); }
     build() { domake "$@" > >($iconv) 2> >($iconv) || exit 1; }
 else
-	build() { domake "$@" || exit 1; }
+    build() { domake "$@" || exit 1; }
 fi
 
 # Translations template
