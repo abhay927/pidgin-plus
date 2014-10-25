@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-21 17:10-0200\n"
+"POT-Creation-Date: 2014-10-25 18:27-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1366,7 +1366,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>"
 "\tLibpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
