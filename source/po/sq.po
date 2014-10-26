@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:46+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Albanian "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:47+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:02+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Albanian\n"
 
 msgid "\t_Only when someone says your username"
@@ -931,6 +931,9 @@ msgstr "(nuk është caktuar temë)"
 msgid "(none)"
 msgstr "(asnjë)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s u plogështua"
@@ -1481,7 +1484,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1839,6 +1842,9 @@ msgstr "Veprime"
 
 msgid "Activate ID..."
 msgstr "Aktivizoni ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Urdhri Ad-Hoc Dështoi"
@@ -2339,6 +2345,9 @@ msgstr "Jeni i sigurt se doni të hiqet %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Jeni i sigurt se doni të lejohet %s të lidhet me ju?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armene"
 
@@ -2670,6 +2679,9 @@ msgstr "Bllokuar"
 msgid "Blocked Text for %s"
 msgstr "Tekst i Bllokuar për %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Norvegjeze Bokmal"
 
@@ -2749,7 +2761,6 @@ msgstr "Parapëlqimet për shfletuesin formësohen te parapëlqimet për GNOME-n
 msgid "Browsing the web"
 msgstr "Duke shfletuar në Web"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Shokë"
 
@@ -3464,17 +3475,13 @@ msgstr "Urdhër i çaktivizuar"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Emër i zakonshëm: %s\n"
-"\n"
-"Shenjë gishtash (SHA1): %s\n"
-"\n"
-"Datë aktivizimi: %s\n"
-"Datë shfuqizimi: %s\n"
 
 #, c-format
 msgid ""
@@ -6318,6 +6325,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Ekipi i Përkthimit Kannada"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Marrëveshje Kyçash"
 
@@ -6436,6 +6449,9 @@ msgstr "Shtojcë për \"lastlog\"."
 
 msgid "Latest News"
 msgstr "Të reja më të Fundit"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10191,6 +10207,9 @@ msgstr "Shtojcë e Thjeshtë"
 msgid "Simplified Chinese"
 msgstr "Kineze e Thjeshtuar"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr "Njëshe"
 
@@ -10574,6 +10593,9 @@ msgstr "Duke bërë banjë"
 
 msgid "Tamil"
 msgstr "Tamileze"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Ngarkues Shtojce Tcl"
@@ -11374,6 +11396,11 @@ msgstr "Duke u menduar"
 msgid "Thirsty"
 msgstr "I etur"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Këtë Vend"
 
@@ -12115,6 +12142,9 @@ msgstr ""
 "I pazoti të gjejë grupin e mjeteve Apple \"Bonjour for Windows\", për më "
 "tepër të dhëna shihni http://d.pidgin.im/BonjourWindows."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Nuk u mor dot hash i vlefshëm hyrjeje në AIM."
 
@@ -12228,8 +12258,8 @@ msgid "Unable to resolve hostname"
 msgstr "I pazoti të gjejë emërstrehën"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "I pazoti të gjejë emër strehe: '%s': %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "I pazoti të ruajë në disk kartelë ikone."
@@ -12810,6 +12840,9 @@ msgstr "Përdoruesa në %s: %s"
 msgid "Using a PDA"
 msgstr "Duke përdorur një PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_Volum:"
 
@@ -12859,6 +12892,9 @@ msgstr "Shihni Tërë Regjistrimet"
 
 msgid "View Blocked Text..."
 msgstr "Shihni Tekst të Bllokuar..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Shihni Vendet..."

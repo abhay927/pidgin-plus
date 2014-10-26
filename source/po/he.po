@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Hebrew "
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:59+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:13+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Hebrew\n"
 
 msgid "\t_Only when someone says your username"
@@ -903,6 +903,9 @@ msgstr "(אין כותרת)"
 msgid "(none)"
 msgstr "(ללא)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s חסר פעילות"
@@ -1453,7 +1456,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1799,6 +1802,9 @@ msgstr "פעולות"
 
 msgid "Activate ID..."
 msgstr "הפעל ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "פקודה זמנית נכשלה"
@@ -2282,6 +2288,9 @@ msgstr "האם אתה בטוח שברצונך להסיר את %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "האם את/ה בטוח/ה שברצונך לאפשר ל-%s ליצור איתך קשר?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "ארמנית"
 
@@ -2611,6 +2620,9 @@ msgstr "חסום"
 msgid "Blocked Text for %s"
 msgstr "טקסט חסום עבור %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "נורבגית ספרותית"
 
@@ -2690,7 +2702,6 @@ msgstr "העדפות דפדפן מוגדרות בהעדפות של GNOME"
 msgid "Browsing the web"
 msgstr "דפדוף באינטרנט"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "אנשי קשר"
 
@@ -3400,17 +3411,13 @@ msgstr "הפקודה בוטלה"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"שם משותף: %s\n"
-"\n"
-"טביעת-אצבע (SHA1): %s\n"
-"\n"
-"תאריך הפעלה: %s\n"
-"תאריך תפוגה: %s\n"
 
 #, c-format
 msgid ""
@@ -6230,6 +6237,12 @@ msgstr "קאנאדית"
 msgid "Kannada Translation team"
 msgstr "קבוצת התרגום לקאנאדית"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "הסכמה על מפתחות"
 
@@ -6347,6 +6360,9 @@ msgstr "תוסף Lastlog."
 
 msgid "Latest News"
 msgstr "אחרונות חדשות"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10029,6 +10045,9 @@ msgstr "תוסף פשוט"
 msgid "Simplified Chinese"
 msgstr "סינית פשוטה"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr "רווק/ה"
 
@@ -10409,6 +10428,9 @@ msgstr "רחצה באמבט"
 
 msgid "Tamil"
 msgstr "תמיל"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "מטעין לתוספי Tcl"
@@ -11146,6 +11168,11 @@ msgstr "מחשבה"
 msgid "Thirsty"
 msgstr "צימאון"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "המיקום הנוכחי"
 
@@ -11842,6 +11869,9 @@ msgstr ""
 "חבילת \"בונג'ור\" של אפל עבור חלונות לא נמצאה, ראה את השו\"ת באתר: "
 "http://d.pidgin.im/BonjourWindows למידע נוסף."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "לא מצליח להשיג קוד התחברות תקף של AIM."
 
@@ -11955,8 +11985,8 @@ msgid "Unable to resolve hostname"
 msgstr "לא ניתן לתרגם את שם השרת לכתובת"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "לא ניתן לתרגם לכתובת את שם השרת '%s': %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "לא ניתן לשמור את הסמל לדיסק."
@@ -12525,6 +12555,9 @@ msgstr "משתמשים ב-%s: %s"
 msgid "Using a PDA"
 msgstr "שימוש במחשב כף-יד"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "עו_צמת-שמע"
 
@@ -12574,6 +12607,9 @@ msgstr "הצג רישומים"
 
 msgid "View Blocked Text..."
 msgstr "הצג טקסט חסום..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "צפייה במיקומים..."

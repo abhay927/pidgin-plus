@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -50,8 +50,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:53+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:07+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Danish\n"
 "X-Poedit-Language: Danish\n"
 
@@ -964,6 +964,9 @@ msgstr "(Intet emne angivet)"
 msgid "(none)"
 msgstr "(ingen)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s blev inaktiv"
@@ -1515,7 +1518,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1871,6 +1874,9 @@ msgstr "Handlinger"
 
 msgid "Activate ID..."
 msgstr "Aktivér id..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc-kommando mislykkedes"
@@ -2365,6 +2371,9 @@ msgstr "Er du sikker på at du vil fjerne %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Er du sikker på at du vil tillade %s at kontakte dig?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armensk"
 
@@ -2695,6 +2704,9 @@ msgstr "Blokeret"
 msgid "Blocked Text for %s"
 msgstr "Blokeret tekst for %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Norsk"
 
@@ -2774,7 +2786,6 @@ msgstr "Browserindstillinger kan ændres i GNOMEs indstillinger"
 msgid "Browsing the web"
 msgstr "Surfer på nettet"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Venner"
 
@@ -3484,23 +3495,18 @@ msgstr "Kommando"
 msgid "Command disabled"
 msgstr "Kommando slået fra"
 
-# Ikke sikker på common name
 #. Make messages
 #, c-format
 msgid ""
 "Common name: %s\n"
+"\n"
+"Issued By: %s\n"
 "\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Fælles navn: %s\n"
-"\n"
-"Fingeraftryk (SHA1): %s\n"
-"\n"
-"Begyndelsesdato: %s\n"
-"Udløbsdato: %s\n"
 
 #, c-format
 msgid ""
@@ -6341,6 +6347,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Kannada-oversættelseshold"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Nøgleudveksling"
 
@@ -6459,6 +6471,9 @@ msgstr "Lastlog-udvidelsesmodul."
 
 msgid "Latest News"
 msgstr "Seneste nyt"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10194,6 +10209,9 @@ msgstr "Simpelt udvidelsesmodul"
 msgid "Simplified Chinese"
 msgstr "Forenklet kinesisk"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr "Single"
 
@@ -10579,6 +10597,9 @@ msgstr "Tager bad"
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Indlæser til Tcl-udvidelsesmoduler"
@@ -11366,6 +11387,11 @@ msgstr "Tænker"
 msgid "Thirsty"
 msgstr "Tørstig"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Denne placering"
 
@@ -12104,6 +12130,9 @@ msgstr ""
 "Apples Bonjour-værktøjssæt til Windows blev ikke fundet. Se "
 "http://d.pidgin.im/BonjourWindows for at få mere information."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Kan ikke hente et gyldigt AIM-logindhash."
 
@@ -12219,8 +12248,8 @@ msgid "Unable to resolve hostname"
 msgstr "Ude af stand til at afklare værtsnavn"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Ude af stand til at finde værtsnavn \"%s\": %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Kunne ikke gemme ikonfil til disken."
@@ -12794,6 +12823,9 @@ msgstr "Brugere på %s: %s"
 msgid "Using a PDA"
 msgstr "Bruger en PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "L_ydstyrke:"
 
@@ -12843,6 +12875,9 @@ msgstr "Vis alle logge"
 
 msgid "View Blocked Text..."
 msgstr "Se blokeret tekst..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Se placeringer..."

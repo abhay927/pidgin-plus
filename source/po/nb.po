@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:38+0000\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.ui.no>\n"
@@ -22,8 +22,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:08+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:21+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Norwegian Bokmal\n"
 
 msgid "\t_Only when someone says your username"
@@ -921,6 +921,9 @@ msgstr "(intet tema angitt)"
 msgid "(none)"
 msgstr "(uten navn)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "%s har blitt inaktiv"
@@ -1471,7 +1474,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1824,6 +1827,9 @@ msgstr "Handlinger"
 
 msgid "Activate ID..."
 msgstr "Aktiver ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-hoc kommando feilet"
@@ -2316,6 +2322,9 @@ msgstr "Er du sikker på at du vil slette %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Er du sikker på at du vil at %s skal kunne kontakte deg?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armensk"
 
@@ -2645,6 +2654,9 @@ msgstr "Blokkert"
 msgid "Blocked Text for %s"
 msgstr "Blokkert tekst for %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Norsk Bokmål"
 
@@ -2724,7 +2736,6 @@ msgstr "Nettleserinnstillinger endrer en i GNOME-innstillingene"
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Kontakter"
 
@@ -3439,17 +3450,13 @@ msgstr "Kommando deaktivert"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Vanlig navn: %s\n"
-"\n"
-"Fingeravtrykk (SHA1): %s\n"
-"\n"
-"Aktiviserings dato: %s\n"
-"Går ut dato: %s\n"
 
 #, c-format
 msgid ""
@@ -6290,6 +6297,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Kannada oversettelseslag"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Nøkkelavtale"
 
@@ -6408,6 +6421,9 @@ msgstr "Lastlog tillegg."
 
 msgid "Latest News"
 msgstr "Siste nytt"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10144,6 +10160,9 @@ msgstr "Enkelt illegg"
 msgid "Simplified Chinese"
 msgstr "Forenklet kinesisk"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10529,6 +10548,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr ""
 
 #
 msgid "Tcl Plugin Loader"
@@ -11297,6 +11319,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -12034,6 +12061,9 @@ msgstr ""
 "Klarte ikke finne Apples «Bonjour for Windows» verktøysamling, se "
 "http://d.pidgin.im/BonjourWindows for flere opplysninger."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Klarte ikke å motta gyldig AIM-påloggingshash."
 
@@ -12147,8 +12177,8 @@ msgid "Unable to resolve hostname"
 msgstr "Klarte ikke finne ip-adressen for vertsnavnet"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Klarte ikke finne ip-adressen for vertsnavnet «%s»: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Kan ikke lagre ikonfil til disk."
@@ -12721,6 +12751,9 @@ msgstr "Brukere på %s: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_Volum:"
 
@@ -12770,6 +12803,9 @@ msgstr "Vis alle logger"
 
 msgid "View Blocked Text..."
 msgstr "Vis blokkert tekst ..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr ""

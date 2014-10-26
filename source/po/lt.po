@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:18+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Lithuanian "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:04+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:18+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Lithuanian\n"
 
 msgid "\t_Only when someone says your username"
@@ -945,6 +945,9 @@ msgstr "(temos nėra)"
 msgid "(none)"
 msgstr "(nieko)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s tapo neveiklus"
@@ -1496,7 +1499,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1852,6 +1855,9 @@ msgstr "Veiksmai"
 
 msgid "Activate ID..."
 msgstr "Aktyvuoti ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Specialios (ad hoc) komandos klaida"
@@ -2343,6 +2349,9 @@ msgid "Are you sure you wish to allow %s to contact you?"
 msgstr ""
 "Ar esate tikras, kad norite leisti naudotojui %s susisiekti su Jumis?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armėnų kalba"
 
@@ -2672,6 +2681,9 @@ msgstr "Blokuotas"
 msgid "Blocked Text for %s"
 msgstr "Blokuotas tekstas iš %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Norvegų kalba (Bokmål)"
 
@@ -2751,7 +2763,6 @@ msgstr "Naršyklės nustatymai nustatyti GNOME nustatymuose"
 msgid "Browsing the web"
 msgstr "Naršau internete"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Bičiuliai"
 
@@ -3465,17 +3476,13 @@ msgstr "Komanda išjungta"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Įprastas vardas: %s\n"
-"\n"
-"SHA1 kontrolinis kodas: %s\n"
-"\n"
-"Galiojimo pradžia: %s\n"
-"Galiojimo pabaiga: %s\n"
 
 #, c-format
 msgid ""
@@ -6318,6 +6325,12 @@ msgstr "Kanadų kalba"
 msgid "Kannada Translation team"
 msgstr "Kanadų kalbos vertimo komanda"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Susitarimas dėl raktų"
 
@@ -6435,6 +6448,9 @@ msgstr "„Lastlog“ papildinys."
 
 msgid "Latest News"
 msgstr "Naujienos"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10174,6 +10190,9 @@ msgstr "Paprastas papildinys"
 msgid "Simplified Chinese"
 msgstr "Supaprastinta kinų kalba"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr "Vienišas"
 
@@ -10557,6 +10576,9 @@ msgstr "Maudausi"
 
 msgid "Tamil"
 msgstr "Tamilų kalba"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl papildinių paleidyklė"
@@ -11352,6 +11374,11 @@ msgstr "Galvoju"
 msgid "Thirsty"
 msgstr "Ištroškęs"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Ši vieta"
 
@@ -12082,6 +12109,9 @@ msgstr ""
 "Apple „Bonjour for Windows“ priemonių rinkinys nerastas.  Adresu "
 "http://d.pidgin.im/BonjourWindow rasite daugiau informacijos."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Nepavyko gauti teisingos AIM prisijungimo maišos."
 
@@ -12198,8 +12228,8 @@ msgid "Unable to resolve hostname"
 msgstr "Nepavyko gauti IP adreso pagal mazgo vardą"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Nepavyko nustatyti IP adreso pagal vardą „%s“: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Negalima įrašyti naudotojo paveiksliuko failo į diską."
@@ -12778,6 +12808,9 @@ msgstr "Naudotojai, esantys %s: %s"
 msgid "Using a PDA"
 msgstr "Naudoju PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_Garsumas:"
 
@@ -12827,6 +12860,9 @@ msgstr "Žiūrėti visus žurnalus"
 
 msgid "View Blocked Text..."
 msgstr "Žiūrėti užblokuotą tekstą..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Peržiūrėti vietas..."

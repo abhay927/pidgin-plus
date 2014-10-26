@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: or\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:16+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:09+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:21+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Oriya\n"
 
 msgid "\t_Only when someone says your username"
@@ -934,6 +934,9 @@ msgstr "(କୌଣସି ବିଷୟ ସେଟ ହୋଇନାହିଁ)"
 msgid "(none)"
 msgstr "(କିଛି ନାହିଁ)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s ନିଷ୍କ୍ରିଯ ହେଲା"
@@ -1482,7 +1485,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1836,6 +1839,9 @@ msgstr "କାର୍ଯ୍ଯ"
 
 msgid "Activate ID..."
 msgstr "IDକୁ ସକ୍ରିଯ କର..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc ନିର୍ଦ୍ଦେଶ ବିଫଳ ହୋଇଛି"
@@ -2337,6 +2343,9 @@ msgid "Are you sure you wish to allow %s to contact you?"
 msgstr ""
 "%s ଆପଣ ନିଶ୍ଚିତ କି ଆପଣଙ୍କ ସହିତ ସଂପର୍କ କରିବାକୁ ସ୍ବୀକୃତି ଦେବାକୁ ଚାହାଁନ୍ତି ?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "ଆର୍ମେନିୟାନ"
 
@@ -2667,6 +2676,9 @@ msgstr "ଅବରୋଧିତ"
 msgid "Blocked Text for %s"
 msgstr "%s ପାଇଁ ପାଠ୍ୟ ବ୍ଲକ କରୁଅଛି"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "ବୁକମଲ ନରଉଏଜିଅନ"
 
@@ -2746,7 +2758,6 @@ msgstr "ବ୍ରାଉଜର ପସନ୍ଦକୁ GNOME ପସନ୍ଦରେ 
 msgid "Browsing the web"
 msgstr "ୱେବ ବ୍ରାଉଜ କରୁଅଛି"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "ବନ୍ଧୁମାନେ"
 
@@ -3465,17 +3476,13 @@ msgstr "ଆଦେଶ ଅସମର୍ଥ ହୋଇଛି"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"ସାଧାରଣ ନାମ: %s\n"
-"\n"
-"ଅଙ୍ଗୁଳି ଚିହ୍ନ (SHA1): %s\n"
-"\n"
-"ସକ୍ରିୟଣ ତାରିଖ: %s\n"
-"ସମୟ ସମାପ୍ତି ତାରିଖ: %s\n"
 
 #, c-format
 msgid ""
@@ -6315,6 +6322,12 @@ msgstr "କନ୍ନଡ"
 msgid "Kannada Translation team"
 msgstr "କନ୍ନଡ ଅନୁବାଦକ ସମ୍ପ୍ରଦାୟ"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "କି ଚୁକ୍ତିପତ୍ର"
 
@@ -6432,6 +6445,9 @@ msgstr "ଶେଷଲଗ୍ ପ୍ଲଗଇନ ।"
 
 msgid "Latest News"
 msgstr "ନୂଆ ସମାଚାର"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10167,6 +10183,9 @@ msgstr "ସରଳ ପ୍ଲଗ-ଇନ୍"
 msgid "Simplified Chinese"
 msgstr "ସରଳିକୃତ ଚାଇନିଜ"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10549,6 +10568,9 @@ msgstr "ସ୍ନାନ କରୁଅଛି"
 
 msgid "Tamil"
 msgstr "ତାମିଲ"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl ପ୍ଲଗ-ଇନ ଲୋଡର"
@@ -11338,6 +11360,11 @@ msgstr "ଭାବୁଅଛି"
 msgid "Thirsty"
 msgstr "ତ୍ରିଷିତ"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -12079,6 +12106,9 @@ msgstr ""
 "Apple's \"Bonjour for Windows\" ସାଧନପଟିକୁ ଖୋଜିବାରେ ଅସମର୍ଥ, ଅଧିକ ସୂଚନା ପାଇଁ "
 "http://d.pidgin.im/BonjourWindows କୁ ଦେଖନ୍ତୁ।"
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "ଏକ ମାନ୍ଯ AIM ଲଗଇନ ହାସ୍ ପାଇବା ପାଇଁ ଅସମର୍ଥ ।"
 
@@ -12192,8 +12222,8 @@ msgid "Unable to resolve hostname"
 msgstr "ହୋଷ୍ଟନାମକୁ ସମାଧାନ କରିବାରେ ଅସମର୍ଥ"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "ହୋଷ୍ଟନାମ '%s' କୁ ସମାଧାନ କରିବାରେ ଅସମର୍ଥ: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "ଆଇକନଫାଇଲକୁ ଡେସ୍କରେ ସଂଚଯ କରିବାକୁ ଅସମର୍ଥ୤"
@@ -12768,6 +12798,9 @@ msgstr "%s ରେ ଉପୟୋଗକର୍ତ୍ତା : %s"
 msgid "Using a PDA"
 msgstr "ଗୋଟିଏ PDA ବ୍ୟବାହାର କରି"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "ଭଲ୍ୟୁମ (_o):"
 
@@ -12817,6 +12850,9 @@ msgstr "ସମସ୍ତ ଲଗଗୁଡ଼ିକୁ ଦେଖନ୍ତୁ"
 
 msgid "View Blocked Text..."
 msgstr "ଅଟକାଯାଇଥିବା ପାଠ୍ୟକୁ ଦେଖନ୍ତୁ..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr ""

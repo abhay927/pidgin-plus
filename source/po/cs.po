@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: dvx <david@konstrukce-cad.com>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:53+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:07+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Czech\n"
 
 msgid "\t_Only when someone says your username"
@@ -924,6 +924,9 @@ msgstr "(téma není nastaveno)"
 msgid "(none)"
 msgstr "(žádné)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s se stal nečinným"
@@ -1475,7 +1478,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1825,6 +1828,9 @@ msgstr "Akce"
 
 msgid "Activate ID..."
 msgstr "Aktivovat ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Selhal příkaz Ad-Hoc"
@@ -2314,6 +2320,9 @@ msgstr "Opravdu chcete odstranit %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Opravdu chcete povolit %s kontaktovat vás?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Arménština"
 
@@ -2644,6 +2653,9 @@ msgstr "Zablokován"
 msgid "Blocked Text for %s"
 msgstr "Blokovaný text pro %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Norština Bokmål"
 
@@ -2723,7 +2735,6 @@ msgstr "Nastavení prohlížeče je nastaveno v nastaveních GNOME"
 msgid "Browsing the web"
 msgstr "Procházím web"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Kamarádi"
 
@@ -3436,17 +3447,13 @@ msgstr "Příkaz zakázán"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Veřejné jméno: %s\n"
-"\n"
-"Otisk (SHA1): %s\n"
-"\n"
-"Datum aktivace: %s\n"
-"Datum vypršení: %s\n"
 
 #, c-format
 msgid ""
@@ -6282,6 +6289,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Tým překladatelů Kannada"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Výměna klíčů"
 
@@ -6399,6 +6412,9 @@ msgstr "Zásuvný modul posledního záznamu."
 
 msgid "Latest News"
 msgstr "Nejnovější zprávy"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10112,6 +10128,9 @@ msgstr "Jednoduchý zásuvný modul"
 msgid "Simplified Chinese"
 msgstr "Zjednodušená čínština"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10495,6 +10514,9 @@ msgstr "V koupelně"
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Nástroj pro načtení zásuvných modulů Tcl"
@@ -11268,6 +11290,11 @@ msgstr "Zamyšlený"
 msgid "Thirsty"
 msgstr "Žíznivý"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Toto umístění"
 
@@ -11993,6 +12020,9 @@ msgstr ""
 "Apple Bonjour for Windows toolkit nebyl nalezen, viz "
 "http://d.pidgin.im/BonjourWindows pro další informace."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Nemohu získat platný přihlašovací hash AIM."
 
@@ -12107,8 +12137,8 @@ msgid "Unable to resolve hostname"
 msgstr "Nemohu vyřešit jméno hosta"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Nemohu vyřešit hostname '%s': %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Nemohu uložit soubor ikony na disk."
@@ -12679,6 +12709,9 @@ msgstr "Uživatelé na %s: %s"
 msgid "Using a PDA"
 msgstr "Používající PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "H_lasitost:"
 
@@ -12728,6 +12761,9 @@ msgstr "Zobrazit všechny záznamy"
 
 msgid "View Blocked Text..."
 msgstr "Zobrazit blokovaný text..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Zobrazit umístění..."

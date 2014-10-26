@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Dutch "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:54+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:08+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Dutch\n"
 
 msgid "\t_Only when someone says your username"
@@ -935,6 +935,9 @@ msgstr "(geen onderwerp ingesteld)"
 msgid "(none)"
 msgstr "(geen)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s is inactief"
@@ -1485,7 +1488,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1848,6 +1851,9 @@ msgstr "Acties"
 
 msgid "Activate ID..."
 msgstr "ID activeren..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc opdracht mislukt"
@@ -2348,6 +2354,9 @@ msgstr "Wilt u %s echt verwijderen?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Weet u zeker dat u %s toestemming wilt geven contact met u te maken?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armeens"
 
@@ -2680,6 +2689,9 @@ msgstr "Geblokkeerd"
 msgid "Blocked Text for %s"
 msgstr "Geblokkeerde tekst %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Bokmål Noors"
 
@@ -2759,7 +2771,6 @@ msgstr "Browser voorkeuren zijn ingesteld in GNOME-instellingen"
 msgid "Browsing the web"
 msgstr "Surfen op het web"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Vrienden"
 
@@ -3472,17 +3483,13 @@ msgstr "Opdracht uitgeschakeld"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Algemene naam: %s\n"
-"\n"
-"Algoritme van vingerafdruk (SHA1): %s\n"
-"\n"
-"Geldig van: %s\n"
-"Geldig tot: %s\n"
 
 #, c-format
 msgid ""
@@ -6326,6 +6333,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Kannada vertaalteam"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Sleutels uitwisselen"
 
@@ -6444,6 +6457,9 @@ msgstr "Geschiedenis plug-in."
 
 msgid "Latest News"
 msgstr "Laatste nieuws"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10184,6 +10200,9 @@ msgstr "Simpele plug-in"
 msgid "Simplified Chinese"
 msgstr "Eenvoudig Chinees"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr "Vrijgezel"
 
@@ -10569,6 +10588,9 @@ msgstr "Aan 't Baden"
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl plug-in lader"
@@ -11369,6 +11391,11 @@ msgstr "Aan het nadenken"
 msgid "Thirsty"
 msgstr "Dorstig"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Deze Locatie"
 
@@ -12116,6 +12143,9 @@ msgstr ""
 "Niet in staat  de Apple's \"Bonjour voor Windows\" toolkit te vinden, zie "
 "http://d.pidgin.im/BonjourWindows voor meer informatie."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Kon geen geldige AIM aanmeld-hash krijgen."
 
@@ -12231,8 +12261,8 @@ msgid "Unable to resolve hostname"
 msgstr "Kan computernaam niet oplossen"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Kan computernaam '%s': %s  niet ontbinden"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Kan pictogram niet opslaan op schijf."
@@ -12817,6 +12847,9 @@ msgstr "Gebruikers op %s: %s"
 msgid "Using a PDA"
 msgstr "Een PDA aan 't gebruiken"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "V_olume:"
 
@@ -12866,6 +12899,9 @@ msgstr "Alle logboeken bekijken"
 
 msgid "View Blocked Text..."
 msgstr "Geblokkeerde tekst bekijken"
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Bekijk Locaties..."

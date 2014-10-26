@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Slovenian "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:15+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:25+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Slovenian\n"
 
 msgid "\t_Only when someone says your username"
@@ -959,6 +959,9 @@ msgstr "(tema ni določena)"
 msgid "(none)"
 msgstr "(brez)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s je postal nedejaven"
@@ -1512,7 +1515,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1871,6 +1874,9 @@ msgstr "Dejanja"
 
 msgid "Activate ID..."
 msgstr "Aktiviraj ID ..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Improvizirani ukaz ni uspel"
@@ -2364,6 +2370,9 @@ msgstr "Ste prepričani, da želite odstraniti %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Ste prepričani, da želite dovoliti %s, da stopi v stik z vami?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "armensko"
 
@@ -2696,6 +2705,9 @@ msgstr "Zavrnjeno"
 msgid "Blocked Text for %s"
 msgstr "Blokirano besedilo za uporabnika %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "norveško (Bokmål)"
 
@@ -2775,7 +2787,6 @@ msgstr "Nastavitve brskalnika določite v nastavitvah GNOME"
 msgid "Browsing the web"
 msgstr "Brska po spletu"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Prijatelji"
 
@@ -3490,17 +3501,13 @@ msgstr "Ukaz onemogočen"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Splošno ime: %s\n"
-"\n"
-"Prstni odtis (SHA1): %s\n"
-"\n"
-"Datum aktivacije: %s\n"
-"Rok veljavnosti: %s\n"
 
 #, c-format
 msgid ""
@@ -6342,6 +6349,12 @@ msgstr "kannadsko"
 msgid "Kannada Translation team"
 msgstr "prevajalska skupina za Kannado"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Pogodba"
 
@@ -6458,6 +6471,9 @@ msgstr "Vtičnik Lastlog."
 
 msgid "Latest News"
 msgstr "Zadnje novice"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10186,6 +10202,9 @@ msgstr "Enostavni vtičnik"
 msgid "Simplified Chinese"
 msgstr "poenostavljeno kitajsko"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr "Samski/a"
 
@@ -10569,6 +10588,9 @@ msgstr "Se kopa"
 
 msgid "Tamil"
 msgstr "tamilsko"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Nalaganje vtičnikov Tcl"
@@ -11370,6 +11392,11 @@ msgstr "Razmišlja"
 msgid "Thirsty"
 msgstr "Žejen"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "To mesto"
 
@@ -12108,6 +12135,9 @@ msgstr ""
 "oglejte si zapis na naslovu http://d.pidgin.im/BonjourWindows - kjer najdete "
 "več podrobnosti."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Veljavnega prijavnega izvlečka za AIM ni mogoče pridobiti."
 
@@ -12222,8 +12252,8 @@ msgid "Unable to resolve hostname"
 msgstr "Imena strežnika ni mogoče razločiti"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Imena strežnika '%s' ni mogoče razločiti: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Datoteke z ikonami ni bilo mogoče shraniti."
@@ -12802,6 +12832,9 @@ msgstr "Uporabniki na %s: %s"
 msgid "Using a PDA"
 msgstr "Uporablja PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_Glasnost:"
 
@@ -12851,6 +12884,9 @@ msgstr "Pokaži vse dnevnike"
 
 msgid "View Blocked Text..."
 msgstr "Pokaži blokirano besedilo ..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Pokaži mesta ..."

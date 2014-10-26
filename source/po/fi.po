@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:51+0000\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@canonical.com>\n"
 "Language-Team: \n"
@@ -21,8 +21,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:56+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:09+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Finnish\n"
 
 msgid "\t_Only when someone says your username"
@@ -931,6 +931,9 @@ msgstr "(aihetta ei ole asetettu)"
 msgid "(none)"
 msgstr "(ei mitään)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s on jouten"
@@ -1481,7 +1484,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1833,6 +1836,9 @@ msgstr "Toiminnot"
 
 msgid "Activate ID..."
 msgstr "Aktivoi tunnus (ID)..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc-komento epäonnistui"
@@ -2322,6 +2328,9 @@ msgstr "Haluatko varmasti poistaa %s:n?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Sallitaanko varmasti %s:n yhteydenotot?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "armenia"
 
@@ -2654,6 +2663,9 @@ msgstr "Estetty"
 msgid "Blocked Text for %s"
 msgstr "Estetty teksti käyttäjätilille %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "kirjanorja"
 
@@ -2733,7 +2745,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Tuttavat"
 
@@ -3447,17 +3458,13 @@ msgstr "Komento poistettu käytöstä"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Yleinen nimi: %s\n"
-"\n"
-"Sormenjälki (SHA1): %s\n"
-"\n"
-"Julkaisupäivä: %s\n"
-"Vanhenemispäivä: %s\n"
 
 #, c-format
 msgid ""
@@ -6295,6 +6302,12 @@ msgstr "kannada"
 msgid "Kannada Translation team"
 msgstr "Kannadan kääntäjäryhmä"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Avainsopimus"
 
@@ -6413,6 +6426,9 @@ msgstr "Lastlog-liitännäinen."
 
 msgid "Latest News"
 msgstr "Uutiset"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10133,6 +10149,9 @@ msgstr "\"Yksinkertainen\"-liitännäinen"
 msgid "Simplified Chinese"
 msgstr "kiina (yksinkertaistettu)"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10516,6 +10535,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl-liitännäisten lataaja"
@@ -11274,6 +11296,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Tämä sijainti"
 
@@ -12005,6 +12032,9 @@ msgstr ""
 "Applen ”Bonjour for Windows” -työkalupakettia ei löytynyt, katso lisätietoja "
 "osoitteesta http://d.pidgin.im/BonjourWindows."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Kelvollista AIM-sisäänkirjautumistiivistettä ei saatu."
 
@@ -12120,8 +12150,8 @@ msgid "Unable to resolve hostname"
 msgstr "Ei kyetty selvittämään palvelimen nimeä"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Ei kyetty selvittämään palvelimen nimeä ”%s”: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Kuvaketiedostoa ei voi tallentaa levylle."
@@ -12699,6 +12729,9 @@ msgstr "Käyttäjät %s: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "Äänenv_oimakkuus:"
 
@@ -12748,6 +12781,9 @@ msgstr "Näytä kaikki lokit"
 
 msgid "View Blocked Text..."
 msgstr "Näytä estetyt tekstit..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Näytä sijainnit..."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:35+0000\n"
 "Last-Translator: Paulo Ribeiro <paulo@diffraction.pt>\n"
 "Language-Team: Portuguese "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:11+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:23+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Portuguese\n"
 
 msgid "\t_Only when someone says your username"
@@ -932,6 +932,9 @@ msgstr "(nenhum tópico definido)"
 msgid "(none)"
 msgstr "(nenhum)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s tornou-se inactivo"
@@ -1482,7 +1485,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1837,6 +1840,9 @@ msgstr "Acções"
 
 msgid "Activate ID..."
 msgstr "Activar ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Falha num Comando Ad-Hoc"
@@ -2340,6 +2346,9 @@ msgstr "Tem a certeza que deseja remover %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Tem a certeza que deseja permitir que %s o contacte?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Arménio"
 
@@ -2672,6 +2681,9 @@ msgstr "Bloqueado"
 msgid "Blocked Text for %s"
 msgstr "Texto Bloqueado para %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Dano-Norueguês"
 
@@ -2752,7 +2764,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr "A navegar na Web"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Contactos"
 
@@ -3468,17 +3479,13 @@ msgstr "Comando desactivado"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Nome comum: %s\n"
-"\n"
-"Impressão digital (SHA1): %s\n"
-"\n"
-"Data de activação: %s\n"
-"Data de expiração: %s\n"
 
 #, c-format
 msgid ""
@@ -6318,6 +6325,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Equipa de Tradução Kannada"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Acordo de Chave"
 
@@ -6436,6 +6449,9 @@ msgstr "Plugin Lastlog"
 
 msgid "Latest News"
 msgstr "Última(s) notícia(s)"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10194,6 +10210,9 @@ msgstr "Plugin trivial"
 msgid "Simplified Chinese"
 msgstr "Chinês Simplificado"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr "Solteiro"
 
@@ -10579,6 +10598,9 @@ msgstr "A tomar banho"
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Carregador de Plugins Tcl"
@@ -11373,6 +11395,11 @@ msgstr "Pensativo"
 msgid "Thirsty"
 msgstr "Sequioso"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Esta Localização"
 
@@ -12115,6 +12142,9 @@ msgstr ""
 "Não foi possível encontrar o toolkit \"Bonjour for Windows\" da Apple, veja "
 "http://d.pidgin.im/BonjourWindows para mais informação."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Impossível obter um hash de ligação AIM válido."
 
@@ -12232,8 +12262,8 @@ msgid "Unable to resolve hostname"
 msgstr "Impossível resolver hostname"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Não foi possível resolver o hostname '%s': %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Impossível guardar ficheiro de ícone no disco."
@@ -12817,6 +12847,9 @@ msgstr "Utilizadores em %s: %s"
 msgid "Using a PDA"
 msgstr "A usar um PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "V_olume:"
 
@@ -12866,6 +12899,9 @@ msgstr "Ver Histórico Completo"
 
 msgid "View Blocked Text..."
 msgstr "Ver Texto Bloqueado..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Ver Localizações..."

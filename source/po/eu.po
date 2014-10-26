@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: <en@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:50+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:05+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Basque\n"
 
 msgid "\t_Only when someone says your username"
@@ -910,6 +910,9 @@ msgstr "(gairik ez)"
 msgid "(none)"
 msgstr "(batere ez)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s inaktibo geratu da"
@@ -1458,7 +1461,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1810,6 +1813,9 @@ msgstr "Ekintzak"
 
 msgid "Activate ID..."
 msgstr "IDa Aktibatu..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Errorea Ad-Hoc Aginduan"
@@ -2310,6 +2316,9 @@ msgstr "Ziur zaude %s kendu nahi duzula?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Ziur zaude %s zu deitzera baimendu nahi duzula?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armeniera"
 
@@ -2640,6 +2649,9 @@ msgstr "Blokeatuta"
 msgid "Blocked Text for %s"
 msgstr "%s(e)rako Testu Blokeatua"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Bokmål Norvegiera"
 
@@ -2719,7 +2731,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Lagunak"
 
@@ -3434,17 +3445,13 @@ msgstr "Agindua ezgaituta"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Izen arrunta: %s\n"
-"\n"
-"Hatz-marka (SHA1): %s\n"
-"\n"
-"Aktibazio-data: %s\n"
-"Iraungitze-data: %s\n"
 
 #, c-format
 msgid ""
@@ -6282,6 +6289,12 @@ msgstr "Kannadera"
 msgid "Kannada Translation team"
 msgstr "Kannadera Itzulpen-taldea"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Gako-Hitzarmena"
 
@@ -6400,6 +6413,9 @@ msgstr "Lastlog plugina"
 
 msgid "Latest News"
 msgstr "Azken Berriak"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10123,6 +10139,9 @@ msgstr "Plugin Sinplea"
 msgid "Simplified Chinese"
 msgstr "Txinera Sinplifikatua"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10504,6 +10523,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "Tamilera"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl Plugin-Kargatzailea"
@@ -11266,6 +11288,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -11994,6 +12021,9 @@ msgstr ""
 "Ezin Apple-ren \"Bonjour for Windows\" tresnak aurkitu, "
 "http://d.pidgin.im/BonjourWindows ikus ezazu informazio gehiago eskuratzeko."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Ezin baliozko AIM-konexio hash-a eskuratu."
 
@@ -12110,8 +12140,8 @@ msgid "Unable to resolve hostname"
 msgstr "Ezin ostalari-izena ebaztu"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Ezin '%s' ostalari-izena ebaztu: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Ezin ikono-fitxategia diskoan gorde."
@@ -12691,6 +12721,9 @@ msgstr "Eraibltzaileak %s(e)n: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "B_olumena:"
 
@@ -12740,6 +12773,9 @@ msgstr "Txosten Guztiak Ikusi"
 
 msgid "View Blocked Text..."
 msgstr "Blokeatutako Testua Ikusi..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr ""

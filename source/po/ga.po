@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:57+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:11+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Irish\n"
 
 msgid "\t_Only when someone says your username"
@@ -955,6 +955,9 @@ msgstr "(gan ábhar)"
 msgid "(none)"
 msgstr "(faic)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ Tá %s díomhaoin anois"
@@ -1506,7 +1509,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1866,6 +1869,9 @@ msgstr "Gníomhartha"
 
 msgid "Activate ID..."
 msgstr "Cuir Aitheantas i bhFeidhm..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Theip ar ordú ad hoc"
@@ -2371,6 +2377,9 @@ msgstr ""
 "An bhfuil tú cinnte gur mhaith leat cead a thabhairt do %s dul i dteagmháil "
 "leat?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Airméinis"
 
@@ -2704,6 +2713,9 @@ msgstr "Coiscthe"
 msgid "Blocked Text for %s"
 msgstr "Téacs Coiscthe do %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Ioruais Bokmål"
 
@@ -2783,7 +2795,6 @@ msgstr "Cumraítear sainroghanna don bhrabhsálaí sna sainroghanna GNOME"
 msgid "Browsing the web"
 msgstr "Brabhsáil an Ghréasáin"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Cairde"
 
@@ -3499,17 +3510,13 @@ msgstr "Ordú díchumasaithe"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Gnáthainm: %s\n"
-"\n"
-"Méarlorg (SHA1): %s\n"
-"\n"
-"Dáta tosaithe: %s\n"
-"Dáta éaga: %s\n"
 
 #, c-format
 msgid ""
@@ -6356,6 +6363,12 @@ msgstr "Cannadais"
 msgid "Kannada Translation team"
 msgstr "Foireann Aistriúcháin Cannadaise"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Conradh Eochrach"
 
@@ -6474,6 +6487,9 @@ msgstr "Breiseán Lastlog."
 
 msgid "Latest News"
 msgstr "An Nuacht Is Déanaí"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10243,6 +10259,9 @@ msgstr "Breiseán Simplí"
 msgid "Simplified Chinese"
 msgstr "Sínis Shimplí"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr "Singil"
 
@@ -10624,6 +10643,9 @@ msgstr "Folcadh"
 
 msgid "Tamil"
 msgstr "Tamailis"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Luchtóir Breiseán Tcl"
@@ -11428,6 +11450,11 @@ msgstr "Machnamh"
 msgid "Thirsty"
 msgstr "Tart Orm"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "An Áit Seo"
 
@@ -12176,6 +12203,9 @@ msgstr ""
 "Ní féidir uirlisí \"Bonjour for Windows\" de chuid Apple a aimsiú.  "
 "Tuilleadh eolais ó http://d.pidgin.im/BonjourWindows."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Ní féidir haisuimhir bhailí AIM a fháil chun logáil isteach."
 
@@ -12290,8 +12320,8 @@ msgid "Unable to resolve hostname"
 msgstr "Ní féidir an t-óstainm a réiteach"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Ní féidir óstainm '%s' a réiteach: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Ní féidir an deilbhín a shábháil ar an diosca."
@@ -12876,6 +12906,9 @@ msgstr "Úsáideoirí ar %s: %s"
 msgid "Using a PDA"
 msgstr "Ar Ríomhaire Boise"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_Airde:"
 
@@ -12925,6 +12958,9 @@ msgstr "Féach ar Gach Logchomhad"
 
 msgid "View Blocked Text..."
 msgstr "Féach ar Théacs Coiscthe..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Féach ar Áiteanna..."

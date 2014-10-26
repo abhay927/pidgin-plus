@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Traditional) <zh-l10n@linux.org.tw>\n"
@@ -68,8 +68,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:23+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:31+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Chinese (Traditional)\n"
 
 msgid "\t_Only when someone says your username"
@@ -932,6 +932,9 @@ msgstr "（沒有設定主題）"
 msgid "(none)"
 msgstr "(沒有名字)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s 變更狀態為閒置"
@@ -1491,7 +1494,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1846,6 +1849,9 @@ msgstr "動作"
 
 msgid "Activate ID..."
 msgstr "啟動 ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "臨時指令失敗"
@@ -2354,6 +2360,9 @@ msgstr "您確定要刪除 %s？"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "您確定許可 %s 聯絡您嗎？"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "亞美尼亞文"
 
@@ -2718,6 +2727,9 @@ msgstr "封鎖"
 msgid "Blocked Text for %s"
 msgstr "與 %s 相關的被封鎖的文字"
 
+msgid "Bodo"
+msgstr ""
+
 #  NOTE 譯文不統一，一般似乎偏向音譯，但譯音也不統一
 #  NOTE 音譯包括：博克馬爾、波克默爾、布克莫爾、巴克摩
 #  NOTE 其他譯法包括：丹麥－挪威文（大英百科）、丹麥式挪威文（維基百科）、東挪威文、標準挪威文（國內不是標準，國外是 :P）
@@ -2813,7 +2825,6 @@ msgstr "請使用 GNOME 的「偏好設定」功能更改瀏覽器設定"
 msgid "Browsing the web"
 msgstr "在瀏覽網頁"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "好友"
 
@@ -3541,17 +3552,13 @@ msgstr "指令被停用"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"全名：%s\n"
-"\n"
-"指紋 (SHA1)：%s\n"
-"\n"
-"生效日期：%s\n"
-"失效日期：%s\n"
 
 #, c-format
 msgid ""
@@ -6570,6 +6577,12 @@ msgstr "康納達文"
 msgid "Kannada Translation team"
 msgstr "康納達文翻譯小組"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "交換密鑰"
 
@@ -6690,6 +6703,9 @@ msgstr "Lastlog 模組。"
 
 msgid "Latest News"
 msgstr "最新消息"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10590,6 +10606,9 @@ msgstr "簡易模組"
 msgid "Simplified Chinese"
 msgstr "簡體中文"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -11000,6 +11019,9 @@ msgstr "在洗澡"
 # NOTE 港一般譯「泰米爾」，台一般譯「塔米爾」（看來較常見）或「泰米爾」
 msgid "Tamil"
 msgstr "坦米爾文"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl 模組載入器"
@@ -11733,6 +11755,11 @@ msgstr "思想中"
 msgid "Thirsty"
 msgstr "口渴"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "目前所在位置"
 
@@ -12442,6 +12469,9 @@ msgstr ""
 "找不到 Apple 的「Bonjour For Windows」工具，詳情請到網址 http://d.pidgin.im/BonjourWindows "
 "查閱。"
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "無法取得有效的 AIM 登入碼。"
 
@@ -12555,8 +12585,8 @@ msgid "Unable to resolve hostname"
 msgstr "無法解析主機名稱"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "無法解析主機名稱「%s」：%s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "無法儲存圖示檔案至磁碟上。"
@@ -13159,6 +13189,9 @@ msgstr "在 %s 內的使用者：%s"
 msgid "Using a PDA"
 msgstr "正在用電子手帳"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "音量(_O)："
 
@@ -13211,6 +13244,9 @@ msgstr "觀看所有日誌"
 
 msgid "View Blocked Text..."
 msgstr "檢視被封鎖的文字..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "檢視所在位置..."

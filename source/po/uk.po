@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:19+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:28+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Ukrainian\n"
 
 msgid "\t_Only when someone says your username"
@@ -937,6 +937,9 @@ msgstr "(тема не встановлена)"
 msgid "(none)"
 msgstr "(немає)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s став бездіяльним"
@@ -1488,7 +1491,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1844,6 +1847,9 @@ msgstr "Дії"
 
 msgid "Activate ID..."
 msgstr "Активізувати ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Помилка команди Ad-Hoc"
@@ -2335,6 +2341,9 @@ msgstr "Ви впевнені, що хочете вилучити %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Ви дійсно хочете дозволити %s звертатись до вас?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Вірменська"
 
@@ -2665,6 +2674,9 @@ msgstr "Заблокований"
 msgid "Blocked Text for %s"
 msgstr "Заблокований текст для %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Норвезька (букмол)"
 
@@ -2748,7 +2760,6 @@ msgstr "Параметри переглядача тенет зроблені у
 msgid "Browsing the web"
 msgstr "Переглядаю тенета"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Користувачі"
 
@@ -3463,17 +3474,13 @@ msgstr "Команда вимкнена"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Загальна назва: %s\n"
-"\n"
-"Відбиток (SHA1): %s\n"
-"\n"
-"Дата початку дії: %s\n"
-"Дійсний до: %s\n"
 
 #, c-format
 msgid ""
@@ -6317,6 +6324,12 @@ msgstr "Канада"
 msgid "Kannada Translation team"
 msgstr "Канадська команда перекладачів"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Узгодження ключів"
 
@@ -6434,6 +6447,9 @@ msgstr "Додаток \"Останній журнал\"."
 
 msgid "Latest News"
 msgstr "Останні новини"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10177,6 +10193,9 @@ msgstr "Простий додаток"
 msgid "Simplified Chinese"
 msgstr "Китайська спрощена"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10562,6 +10581,9 @@ msgstr "Миюся"
 
 msgid "Tamil"
 msgstr "Тамільська"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Завантажувач додатків Tcl"
@@ -11351,6 +11373,11 @@ msgstr "Думаю"
 msgid "Thirsty"
 msgstr "Спраглий"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Це місцезнаходження"
 
@@ -12089,6 +12116,9 @@ msgstr ""
 "Не вдається знайти засоби \"Bonjour for Windows\", дивіться "
 "http://d.pidgin.im/BonjourWindows, щоб отримати докладніші відомості."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Не вдалося отримати правильний хеш AIM для входу."
 
@@ -12204,8 +12234,8 @@ msgid "Unable to resolve hostname"
 msgstr "Не вдається отримати назву вузла"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Не вдається визначити назву вузла '%s': %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Не вдається зберегти файл значка на диск."
@@ -12785,6 +12815,9 @@ msgstr "Користувачі %s: %s"
 msgid "Using a PDA"
 msgstr "Використовую КПК"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_Гучність:"
 
@@ -12834,6 +12867,9 @@ msgstr "Переглянути всі журнали"
 
 msgid "View Blocked Text..."
 msgstr "Переглянути заблокований текст..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Переглянути місцезнаходження..."

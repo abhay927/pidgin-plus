@@ -1,24 +1,25 @@
-## Croatian translation for Pidgin
-## Copyright (C) 2011
-## This file is distributed under the same license as the PACKAGE package.
-## Sabina Drempetić <bina91991@googlemail.com>, 2011.
-##
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-25 18:41-0200\n"
-"PO-Revision-Date: 2014-07-18 21:51+0000\n"
-"Last-Translator: gogo <trebelnik2@gmail.com>\n"
-"Language-Team: Croatian <LL@li.org>\n"
+"PO-Revision-Date: 2014-10-25 07:42+0000\n"
+"Last-Translator: Rūdolfs Mazurs <Unknown>\n"
+"Language-Team: Latvian "
+"(http://www.transifex.com/projects/p/pidgin/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-10-26 06:24+0000\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:18+0000\n"
 "X-Generator: Launchpad (build 17203)\n"
-"Language: Croatian\n"
+"Language: lv\n"
 
 msgid "\t_Only when someone says your username"
 msgstr ""
@@ -35,7 +36,7 @@ msgid ""
 "%s is typing..."
 msgstr ""
 "\n"
-"%s tipka..."
+"%s raksta..."
 
 #, c-format
 msgid ""
@@ -72,7 +73,7 @@ msgid ""
 "Last Seen: %s ago"
 msgstr ""
 "\n"
-"Posljednji put viđen: prije %s"
+"Pēdējo reizi redzēts pirms: %s"
 
 msgid ""
 "\n"
@@ -98,6 +99,8 @@ msgid ""
 "\"%s\" is currently offline. Do you want to save the rest of the messages in "
 "a pounce and automatically send them when \"%s\" logs back in?"
 msgstr ""
+"“%s” pašlaik ir nesaistē. Vai vēlaties saglabāt atlikušās ziņas reakcijā un "
+"automātiski tās nosūtīt, kad “%s” atkal ierakstās?"
 
 msgid "\"Attention\" Name Color"
 msgstr ""
@@ -113,7 +116,7 @@ msgid "%.2f KiB/s"
 msgstr "%.2f KiB/s"
 
 msgid "%B %Y"
-msgstr "%B %Y"
+msgstr "%Y. gada %B"
 
 #, c-format
 msgid "%d account was disabled because you signed on from another location:"
@@ -177,8 +180,8 @@ msgid ""
 msgstr ""
 "%s\n"
 "\n"
-"Finch neće pokuati ponovno spojiti račun dok ne ispravite greku i opet "
-"uključite račun."
+"Finch nemēģinās atkal savienoties ar kontu, līdz izlabosiet kļūdu un atkal "
+"ieslēgsiet kontu."
 
 #, c-format
 msgid ""
@@ -192,13 +195,13 @@ msgid ""
 "  -v, --version       display the current version and exit\n"
 msgstr ""
 "%s\n"
-"Uporaba: %s [OPCIJA]...\n"
+"Lietojums: %s [OPCIJA]...\n"
 "\n"
-"  -c, --config=DIR    koristi DIR za konfiguracijske datoteke\n"
-"  -d, --debug         ispii pokuke za uklanjanje greka na stderr\n"
-"  -h, --help          prikai ovu pomoć i izađi\n"
-"  -n, --nologin       ne prijavi se automatski\n"
-"  -v, --version       prikai trenutnu verziju i izađi\n"
+"  -c, --config=DIR    izmantot DIR konfigurācijas datnēm\n"
+"  -d, --debug         atkļūdošanas ziņojums drukāt uz stderr\n"
+"  -h, --help          parādīt šo palīdzību un iziet\n"
+"  -n, --nologin       neierakstīties automātiski\n"
+"  -v, --version       parādīt pašreizējo versiju un iziet\n"
 
 #, c-format
 msgid "%s %s %s: %s\n"
@@ -226,7 +229,7 @@ msgstr ""
 
 #, c-format
 msgid "%s (%s -- %s)"
-msgstr "%s (%s -- %s)"
+msgstr "%s (%s — %s)"
 
 #, c-format
 msgid "%s (%s)"
@@ -239,8 +242,9 @@ msgstr ""
 #, c-format
 msgid "%s (%s) has %d new message."
 msgid_plural "%s (%s) has %d new messages."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s (%s) ir %d jauna vēstule."
+msgstr[1] "%s (%s) ir %d jaunas vēstules."
+msgstr[2] "%s (%s) ir %d jaunas vēstules."
 
 #, c-format
 msgid "%s (%s) is no longer %s"
@@ -324,11 +328,11 @@ msgstr ""
 
 #, c-format
 msgid "%s cancelled the file transfer"
-msgstr "%s je prekinuo/la prijenos datoteke"
+msgstr ""
 
 #, c-format
 msgid "%s cancelled the transfer of %s"
-msgstr "%s je prekinuo/la prijenos %s"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -346,7 +350,7 @@ msgstr ""
 
 #, c-format
 msgid "%s disconnected."
-msgstr "%s odspojen."
+msgstr "%s atvienojās."
 
 #, c-format
 msgid ""
@@ -354,6 +358,9 @@ msgid ""
 "investigate and complete the migration by hand. Please report this error at "
 "http://developer.pidgin.im"
 msgstr ""
+"%s saskārās ar kļūdām, pārnesot jūsu iestatījums no %s uz %s. Lūdzu, "
+"pašrocīgi izmeklējiet un pabeidziet pārnešanu. Lūdzu, ziņojiet par šo kļūdu "
+"vietnē http://developer.pidgin.im"
 
 #, c-format
 msgid "%s entered the room."
@@ -377,7 +384,7 @@ msgstr ""
 
 #, c-format
 msgid "%s has become idle (%s)"
-msgstr ""
+msgstr "%s ir palicis neaktīvs (%s)"
 
 #, c-format
 msgid "%s has become idle."
@@ -417,7 +424,7 @@ msgstr ""
 
 #, c-format
 msgid "%s has gone away. (%s)"
-msgstr ""
+msgstr "%s ir aizgājis. (%s)"
 
 #, c-format
 msgid "%s has goosed you!"
@@ -455,7 +462,7 @@ msgstr ""
 
 #, c-format
 msgid "%s has paused while typing to you (%s)"
-msgstr ""
+msgstr "%s ir uz brīdi pārstājis jums rakstīt (%s)"
 
 #. Make messages
 #, c-format
@@ -476,15 +483,15 @@ msgstr ""
 
 #, c-format
 msgid "%s has returned from being away (%s)"
-msgstr ""
+msgstr "%s ir atgriezies no prombūtnes (%s)"
 
 #, c-format
 msgid "%s has returned from being idle (%s)"
-msgstr "%s vie nije odsutan/na (%s)"
+msgstr "%s ir atgriezies no dīkstāves (%s)"
 
 #, c-format
 msgid "%s has sent you a message. (%s)"
-msgstr ""
+msgstr "%s jums nosūtīja ziņojumu. (%s)"
 
 #, c-format
 msgid "%s has sent you a webcam invite, which is not yet supported."
@@ -496,7 +503,7 @@ msgstr ""
 
 #, c-format
 msgid "%s has signed off (%s)"
-msgstr "%s se ojavio/la (%s)"
+msgstr "%s izrakstījās (%s)"
 
 #, c-format
 msgid "%s has signed off."
@@ -504,7 +511,7 @@ msgstr ""
 
 #, c-format
 msgid "%s has signed on (%s)"
-msgstr "%s se prijavio/la (%s)"
+msgstr "%s ierakstījās (%s)"
 
 #, c-format
 msgid "%s has signed on."
@@ -520,11 +527,11 @@ msgstr ""
 
 #, c-format
 msgid "%s has started typing to you (%s)"
-msgstr ""
+msgstr "%s ir sācis jums rakstīt (%s)"
 
 #, c-format
 msgid "%s has stopped typing to you (%s)"
-msgstr ""
+msgstr "%s ir pārstājis jums rakstīt (%s)"
 
 #, c-format
 msgid "%s has torched you!"
@@ -566,17 +573,20 @@ msgstr ""
 
 #, c-format
 msgid "%s is not a valid color. See '/help msgcolor' for valid colors."
-msgstr "%s nije ispravna boja. Za ispravne boje, pogledaj '/help msgcolor'."
+msgstr ""
+"%s nav derīga krāsa. Skatiet “/help msgcolor”, lai redzētu derīgās krāsas."
 
 #, c-format
 msgid "%s is not a valid filename.\n"
-msgstr "%s nije vaeće ime datoteke.\n"
+msgstr ""
 
 #, c-format
 msgid ""
 "%s is not a valid message class. See '/help msgcolor' for valid message "
 "classes."
 msgstr ""
+"%s nav derīga ziņojumu klase. Skatiet “/help msgcolor”, lai apskatītu "
+"derīgas ziņojumu klases."
 
 #, c-format
 msgid "%s is not a valid room handle"
@@ -614,23 +624,23 @@ msgstr ""
 
 #, c-format
 msgid "%s is trying to start an unsupported media session type with you."
-msgstr ""
+msgstr "%s mēģina ar jums sākt neatbalstītu mediju sesijas veidu."
 
 #, c-format
 msgid "%s just signed off"
-msgstr "%s se upravo odjavio/la"
+msgstr "%s tikko izrakstījās"
 
 #, c-format
 msgid "%s just signed on"
-msgstr "%s se upravo prijavio/la"
+msgstr "%s tikko ierakstījās"
 
 #, c-format
 msgid "%s left the room (%s)."
-msgstr "%s je napustio/la sobu (%s)."
+msgstr ""
 
 #, c-format
 msgid "%s left the room."
-msgstr "%s je napustio/la sobu."
+msgstr ""
 
 #, c-format
 msgid ""
@@ -661,11 +671,11 @@ msgstr ""
 
 #, c-format
 msgid "%s said your nick in %s"
-msgstr ""
+msgstr "%s minēja jūsu segvārdu %s"
 
 #, c-format
 msgid "%s sent a message in %s"
-msgstr ""
+msgstr "%s nosūtīja ziņojumu %s"
 
 #, c-format
 msgid "%s sent a voice clip, but it could not be saved"
@@ -695,11 +705,12 @@ msgstr ""
 
 #, c-format
 msgid "%s sent you a message"
-msgstr "%s vam alje poruku"
+msgstr "%s jums nosūtīja ziņojumu"
 
 #, c-format
 msgid "%s sent you a voice chat invite, which is not yet supported."
 msgstr ""
+"%s jums nosūtīja uzaicinājumu uz balss tērzēšanu, kas vēl nav atbalstīta."
 
 #, c-format
 msgid ""
@@ -714,11 +725,11 @@ msgstr ""
 
 #, c-format
 msgid "%s wants to send you %s (%s)"
-msgstr "%s vam eli poslati %s (%s)"
+msgstr ""
 
 #, c-format
 msgid "%s wants to send you a file"
-msgstr "%s vam eli poslati datoteku"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -732,7 +743,7 @@ msgstr ""
 
 #, c-format
 msgid "%s wishes to start an audio session with you."
-msgstr "%s eli započeti audio sastanak sa vama."
+msgstr "%s vēlas ar jums uzsākt jaunu audio sesiju."
 
 #, c-format
 msgid "%s wishes to start an audio/video session with you."
@@ -740,11 +751,11 @@ msgstr ""
 
 #, c-format
 msgid "%s%s%s%s has made %s his or her buddy%s%s"
-msgstr ""
+msgstr "%s%s%s%s padarīja %s par savu draugu%s%s"
 
 #, c-format
 msgid "%s%s%s%s wants to add %s to his or her buddy list%s%s"
-msgstr ""
+msgstr "%s%s%s%s vēlas pievienot %s savam draugu sarakstam%s%s"
 
 #, c-format
 msgid "%s%s%s%s wants to add you (%s) to his or her buddy list%s%s"
@@ -764,7 +775,7 @@ msgstr[1] ""
 
 #, c-format
 msgid "%s. Try `%s -h' for more information.\n"
-msgstr "%s. Pokuaj `%s -h' za vie informacije.\n"
+msgstr "%s. Lietojiet “%s -h”, lai uzzinātu vairāk.\n"
 
 #. 
 #. * This string determines how some dates are displayed.  The default
@@ -790,10 +801,10 @@ msgid "(Custom)"
 msgstr ""
 
 msgid "(DOES NOT MATCH)"
-msgstr "(NE ODGOVARA)"
+msgstr ""
 
 msgid "(Optional) A_lias:"
-msgstr ""
+msgstr "(Neob_ligāts) pseidonīms:"
 
 msgid "(Optional) _Invite message:"
 msgstr ""
@@ -827,10 +838,10 @@ msgid "(UTC)"
 msgstr ""
 
 msgid "(You probably forgot to 'make install'.)"
-msgstr ""
+msgstr "(Jūs droši vien aizmirsāt palaist “make install”)"
 
 msgid "(default)"
-msgstr "(zadano)"
+msgstr "(noklusējuma)"
 
 msgid "(no name)"
 msgstr ""
@@ -839,7 +850,7 @@ msgid "(no topic set)"
 msgstr ""
 
 msgid "(none)"
-msgstr ""
+msgstr "(nav)"
 
 msgid "(self-signed)"
 msgstr ""
@@ -854,11 +865,11 @@ msgstr ""
 
 #, c-format
 msgid "+++ %s signed off"
-msgstr "+++ %s se odjavio/la"
+msgstr ""
 
 #, c-format
 msgid "+++ %s signed on"
-msgstr "+++ %s se prijavio/la"
+msgstr ""
 
 msgid ""
 "- Transparent authentication with a variety of services.\n"
@@ -977,10 +988,10 @@ msgid "/Conversation/Add..."
 msgstr ""
 
 msgid "/Conversation/Al_ias..."
-msgstr ""
+msgstr "/Saruna/Pse_idonīms..."
 
 msgid "/Conversation/Alias..."
-msgstr ""
+msgstr "/Saruna/Pseidonīms..."
 
 msgid "/Conversation/Block..."
 msgstr ""
@@ -1593,7 +1604,7 @@ msgid "A_ccount"
 msgstr ""
 
 msgid "A_lias:"
-msgstr ""
+msgstr "Psei_donīms:"
 
 msgid "Aborting DNS lookup in Tor Proxy mode."
 msgstr ""
@@ -1615,7 +1626,7 @@ msgstr ""
 
 #. Number of actions
 msgid "Accept"
-msgstr "Prihvati"
+msgstr "Pieņemt"
 
 #. Make messages
 #, c-format
@@ -1634,7 +1645,7 @@ msgid "Access denied: HTTP proxy server forbids port %d tunneling"
 msgstr ""
 
 msgid "Account"
-msgstr "Račun"
+msgstr "Konts"
 
 msgid "Account Confirmation Requested"
 msgstr ""
@@ -1673,28 +1684,28 @@ msgid "Account type:"
 msgstr ""
 
 msgid "Account was not added"
-msgstr "Korisnički račun nije dodan"
+msgstr "Konts netika pievienots"
 
 msgid "Account was not modified"
-msgstr ""
+msgstr "Konts netika mainīts"
 
 #. Account:
 msgid "Account:"
-msgstr "Račun:"
+msgstr "Konts:"
 
 msgid "Account: "
 msgstr ""
 
 #, c-format
 msgid "Account: %s (%s)"
-msgstr "Račun: %s (%s)"
+msgstr "Konts: %s (%s)"
 
 msgid "Accounts"
-msgstr "Računi"
+msgstr "Konti"
 
 #. Create the "Action" frame.
 msgid "Action"
-msgstr ""
+msgstr "Darbība"
 
 msgid "Action Message Name Color"
 msgstr ""
@@ -1719,7 +1730,7 @@ msgstr ""
 
 #. Add button
 msgid "Add"
-msgstr "Dodaj"
+msgstr "Pievienot"
 
 msgid "Add / Remove"
 msgstr ""
@@ -1728,13 +1739,13 @@ msgid "Add Account"
 msgstr ""
 
 msgid "Add Buddy"
-msgstr "Dodaj Prijatelja"
+msgstr "Pievienot draugu"
 
 msgid "Add Buddy Pounce"
-msgstr ""
+msgstr "Pievienot drauga reakciju"
 
 msgid "Add Buddy Pounce..."
-msgstr ""
+msgstr "Pievienot drauga reakciju..."
 
 msgid "Add Buddy _Pounce..."
 msgstr ""
@@ -1749,10 +1760,10 @@ msgid "Add Channel Public Key"
 msgstr ""
 
 msgid "Add Chat"
-msgstr "Dodaj Čavrljanje"
+msgstr "Pievienot tērzēšanu"
 
 msgid "Add Group"
-msgstr "Dodaj grupu"
+msgstr "Pievienot grupu"
 
 msgid "Add Notes Address Book Group..."
 msgstr ""
@@ -1779,7 +1790,7 @@ msgid "Add buddy to _group:"
 msgstr ""
 
 msgid "Add buddy to your list?"
-msgstr "Dodaj prijatelja u popis?"
+msgstr "Pievienot draugu sarakstam?"
 
 msgid "Add contacts from server"
 msgstr ""
@@ -1788,7 +1799,7 @@ msgid "Add friends from MySpace.com"
 msgstr ""
 
 msgid "Add in group"
-msgstr "Dodaj u grupu"
+msgstr "Pievienot grupai"
 
 msgid "Add new line in Chats"
 msgstr ""
@@ -1862,28 +1873,28 @@ msgid "Algorithm: \t%s\n"
 msgstr ""
 
 msgid "Alias"
-msgstr "Nadimak"
+msgstr "Pseidonīms"
 
 msgid "Alias (optional)"
-msgstr "Nadimak (neobavezno)"
+msgstr "Pseidonīms (neobligāti)"
 
 msgid "Alias Buddy"
-msgstr ""
+msgstr "Pseidonīma draugs"
 
 msgid "Alias Chat"
-msgstr ""
+msgstr "Pseidonīma tērzēšana"
 
 msgid "Alias Contact"
-msgstr ""
+msgstr "Pseidonīma kontakts"
 
 msgid "Alias:"
-msgstr "Nadimak:"
+msgstr "Pseidonīms:"
 
 msgid "All"
 msgstr ""
 
 msgid "All Conversations"
-msgstr "Svi Razgovori"
+msgstr "Visas sarunas"
 
 msgid ""
 "All items below are optional. Enter only the information with which you feel "
@@ -1985,7 +1996,7 @@ msgid "Allows you to hand-configure how long you've been idle"
 msgstr ""
 
 msgid "Alphabetically"
-msgstr "Alfabetski"
+msgstr "Alfabētiski"
 
 msgid "Already Registered"
 msgstr ""
@@ -2003,7 +2014,7 @@ msgid "Already there"
 msgstr ""
 
 msgid "Always"
-msgstr "Uvijek"
+msgstr "Vienmēr"
 
 msgid "Always on top"
 msgstr ""
@@ -2133,15 +2144,15 @@ msgstr ""
 
 #, c-format
 msgid "Are you sure you want to delete \"%s\""
-msgstr "Dali ste sigurni da elite ukloniti \"%s\""
+msgstr "Vai tiešām vēlaties izdzēst “%s”"
 
 #, c-format
 msgid "Are you sure you want to delete %s?"
-msgstr "Dali ste sigurni da elite ukloniti %s?"
+msgstr "Vai tiešām vēlaties izdzēst %s?"
 
 #, c-format
 msgid "Are you sure you want to delete the pounce on %s for %s?"
-msgstr ""
+msgstr "Vai tiešām vēlaties dzēst reakciju uz %s priekš %s?"
 
 msgid "Are you sure you want to delete the selected saved statuses?"
 msgstr ""
@@ -2166,7 +2177,7 @@ msgstr ""
 
 #, c-format
 msgid "Are you sure you want to remove %s?"
-msgstr "Dali ste sigurni da elite ukloniti %s?"
+msgstr "Vai tiešām vēlaties izņemt %s?"
 
 #, c-format
 msgid "Are you sure you wish to allow %s to contact you?"
@@ -2224,7 +2235,7 @@ msgid "Attempting to connect via proxy server."
 msgstr ""
 
 msgid "Attention received"
-msgstr ""
+msgstr "Saņemta uzmanība"
 
 msgid ""
 "Attention! The following directory may be completely removed, including any "
@@ -2296,10 +2307,10 @@ msgid "Authorization mechanism too weak"
 msgstr ""
 
 msgid "Authorize"
-msgstr "Prihvati"
+msgstr "Pilnvarot"
 
 msgid "Authorize buddy?"
-msgstr "Prihvati prijatelja?"
+msgstr "Pilnvarot draugu?"
 
 msgid "Auto Accept"
 msgstr ""
@@ -2317,7 +2328,7 @@ msgid "Auto-detect incoming UTF-8"
 msgstr ""
 
 msgid "Auto-join"
-msgstr ""
+msgstr "Automātiski pievienoties"
 
 msgid "Auto-response sent:"
 msgstr ""
@@ -2339,7 +2350,7 @@ msgid "Autoaccepted file transfer of \"%s\" from \"%s\" completed."
 msgstr ""
 
 msgid "Automatic"
-msgstr "Automatsko"
+msgstr "Automātisks"
 
 msgid "Automatically open whiteboard"
 msgstr ""
@@ -2422,7 +2433,7 @@ msgid "Based on keyboard or mouse use"
 msgstr ""
 
 msgid "Based on keyboard use"
-msgstr ""
+msgstr "Balstoties uz tastatūras izmantošanu"
 
 msgid "Basque"
 msgstr ""
@@ -2442,7 +2453,7 @@ msgid "Becomes _idle"
 msgstr ""
 
 msgid "Becomes idle"
-msgstr ""
+msgstr "Paliek neaktīvs"
 
 msgid "Beep too!"
 msgstr ""
@@ -2468,7 +2479,7 @@ msgid "Birthday"
 msgstr ""
 
 msgid "Block"
-msgstr "Blokiraj"
+msgstr "Bloķēt"
 
 #, c-format
 msgid "Block %s?"
@@ -2490,13 +2501,13 @@ msgid "Block only the users below"
 msgstr ""
 
 msgid "Block/Unblock"
-msgstr "Blokiraj/Deblokiraj"
+msgstr "Bloķēt/atbloķēt"
 
 msgid "Block/Unblock..."
-msgstr "Blokiraj/Deblokiraj..."
+msgstr "Bloķēt/atbloķēt..."
 
 msgid "Blocked"
-msgstr "Blokiran"
+msgstr "Bloķēts"
 
 #, c-format
 msgid "Blocked Text for %s"
@@ -2585,16 +2596,16 @@ msgid "Browsing the web"
 msgstr ""
 
 msgid "Buddies"
-msgstr "Prijatelji"
+msgstr ""
 
 msgid "Buddy"
-msgstr "Prijatelj"
+msgstr "Draugs"
 
 msgid "Buddy Add error"
 msgstr ""
 
 msgid "Buddy Alias"
-msgstr ""
+msgstr "Drauga pseidonīms"
 
 msgid "Buddy Comment"
 msgstr ""
@@ -2617,11 +2628,11 @@ msgid "Buddy Icon"
 msgstr ""
 
 msgid "Buddy Information"
-msgstr "Informacije o Prijatelju"
+msgstr "Informācija par draugu"
 
 #. Buddy List
 msgid "Buddy List"
-msgstr "Popis Prijatelja"
+msgstr "Draugu saraksts"
 
 msgid "Buddy List Storage Mode"
 msgstr ""
@@ -2645,7 +2656,7 @@ msgid "Buddy Notes"
 msgstr ""
 
 msgid "Buddy Pounces"
-msgstr ""
+msgstr "Draugu reakcijas"
 
 #. *< type
 #. *< ui_requirement
@@ -2689,16 +2700,16 @@ msgid "Buddy list synchronization issue in %s (%s)"
 msgstr ""
 
 msgid "Buddy logs in"
-msgstr ""
+msgstr "Draugs ierakstās"
 
 msgid "Buddy logs out"
-msgstr ""
+msgstr "Draugs izrakstās"
 
 msgid "Buddy name:"
-msgstr "Ime Prijatelja:"
+msgstr "Drauga vārds:"
 
 msgid "Buddy signs on/off"
-msgstr ""
+msgstr "Draugs ierakstās/izrakstās"
 
 msgid "Buddy's _username:"
 msgstr ""
@@ -2734,10 +2745,10 @@ msgid "Buzzing %s..."
 msgstr ""
 
 msgid "By Log Size"
-msgstr ""
+msgstr "Pēc žurnāla izmēra"
 
 msgid "By Status"
-msgstr "Po Stanju"
+msgstr "Pēc statusa"
 
 msgid "By account"
 msgstr ""
@@ -2776,10 +2787,10 @@ msgid "Call Command"
 msgstr ""
 
 msgid "Call in progress."
-msgstr "Poziv u tijeku."
+msgstr "Notiek sazvanīšanās."
 
 msgid "Calling..."
-msgstr "Zove se..."
+msgstr "Zvana..."
 
 msgid "Calm"
 msgstr ""
@@ -2807,13 +2818,13 @@ msgstr ""
 #. Cancel button
 #. Cancel
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Atcelt"
 
 msgid "Cancel Presence Notification"
 msgstr ""
 
 msgid "Cancelled"
-msgstr "Otkazano"
+msgstr "Atcelts"
 
 msgid "Cannot add a contact to the same folder twice"
 msgstr ""
@@ -2835,7 +2846,7 @@ msgid "Cannot create MultiMx room"
 msgstr ""
 
 msgid "Cannot create pounce"
-msgstr ""
+msgstr "Nevar izveidot reakciju"
 
 msgid "Cannot detach"
 msgstr ""
@@ -2895,10 +2906,10 @@ msgid "Cannot send SMS without accepting terms"
 msgstr ""
 
 msgid "Cannot send a directory."
-msgstr "Nemoguće je slanje cijele mape."
+msgstr ""
 
 msgid "Cannot send a file of 0 bytes."
-msgstr "Nemoguće je slnje datoteke sa 0 byte-ova."
+msgstr ""
 
 msgid "Cannot send file"
 msgstr ""
@@ -2956,27 +2967,27 @@ msgid "Certificate Authorities"
 msgstr ""
 
 msgid "Certificate Export Error"
-msgstr ""
+msgstr "Sertifikāta eksportēšanas kļūda"
 
 msgid "Certificate Import"
-msgstr ""
+msgstr "Importēt sertifikātu"
 
 msgid "Certificate Import Error"
-msgstr ""
+msgstr "Sertifikāta importēšanas kļūda"
 
 #. TODO: Find what the handle ought to be
 msgid "Certificate Information"
 msgstr ""
 
 msgid "Certificate Manager"
-msgstr ""
+msgstr "Sertifikātu pārvaldnieks"
 
 #, c-format
 msgid "Certificate for %s"
-msgstr ""
+msgstr "%s sertifikāts"
 
 msgid "Certificates"
-msgstr ""
+msgstr "Sertifikāti"
 
 #, c-format
 msgid "Change Account Registration at %s"
@@ -3025,23 +3036,23 @@ msgstr ""
 
 #, c-format
 msgid "Change password for %s"
-msgstr "Promijeni lozinku za %s"
+msgstr ""
 
 msgid "Change status broadcasting"
 msgstr ""
 
 msgid "Change status to"
-msgstr ""
+msgstr "Mainīt statusu uz"
 
 msgid "Change status when idle"
-msgstr ""
+msgstr "Mainīt statusu, kad neaktīvs"
 
 msgid "Change to this status when _idle:"
 msgstr ""
 
 #, c-format
 msgid "Change user information for %s"
-msgstr "Promijeni informacije o korisniku %s"
+msgstr ""
 
 msgid "Changes to privacy settings take effect immediately."
 msgstr ""
@@ -3050,7 +3061,7 @@ msgid "Changes your nick to indicate you are away."
 msgstr ""
 
 msgid "Channel"
-msgstr "Kanal"
+msgstr "Kanāls"
 
 #, c-format
 msgid "Channel %s does not exist in the network"
@@ -3082,7 +3093,7 @@ msgid "Channel founder on <I>%s</I> is <I>%s</I>"
 msgstr ""
 
 msgid "Chat"
-msgstr "Čavrljanje"
+msgstr "Tērzēšana"
 
 msgid "Chat _name:"
 msgstr ""
@@ -3111,11 +3122,13 @@ msgid "Chatroom message alerts _only where someone says your username"
 msgstr ""
 
 msgid "Chats"
-msgstr "Čavrljanja"
+msgstr "Tērzēšanas"
 
 msgid ""
 "Chats will only be logged if the \"Log all chats\" preference is enabled."
 msgstr ""
+"Tērzēšanas tiks reģistrētas žurnālā tikai tad, ja būs ieslēgts iestatījums "
+"“Reģistrēt žurnālā visas tērzēšanas”"
 
 #. 2
 msgid "Chatty"
@@ -3131,13 +3144,13 @@ msgid "Checks for new local mail."
 msgstr ""
 
 msgid "Choose Location..."
-msgstr "Odaberi Lokaciju..."
+msgstr "Izvēlieties vietu..."
 
 msgid "Choose New Name"
 msgstr ""
 
 msgid "Choose..."
-msgstr "Odaberite..."
+msgstr "Izvēlēties..."
 
 #. Translators: please do not translate "chrome" here!
 msgid "Chromium (chrome)"
@@ -3170,13 +3183,13 @@ msgstr ""
 #. * it doesn't make sense. The bug is likely in the packing in gntbox.c.
 #. 
 msgid "Clear"
-msgstr "Izbrii"
+msgstr "Attīrīt"
 
 msgid "Clear Scrollback"
-msgstr ""
+msgstr "Attīrīt ritināšanas atmiņu"
 
 msgid "Clear finished transfers"
-msgstr "Izbrii dovrene prijenose"
+msgstr "Attīrīt pabeigtās pārsūtīšanas"
 
 msgid "Click to change your buddyicon for all accounts."
 msgstr ""
@@ -3194,11 +3207,11 @@ msgid "Client rate limit exceeded"
 msgstr ""
 
 msgid "Clipboard plugin"
-msgstr ""
+msgstr "Starpliktuves spraudnis"
 
 #. Close button
 msgid "Close"
-msgstr "Zatvori"
+msgstr "Aizvērt"
 
 msgid "Close Find bar"
 msgstr ""
@@ -3225,7 +3238,7 @@ msgid "Close this window when all transfers _finish"
 msgstr ""
 
 msgid "Close this window when all transfers finish"
-msgstr "Zatvori prozor kad su svi prijenosi zavreni"
+msgstr "Aizvērt šo logu, kad visas pārsūtīšanas ir pabeigtas"
 
 msgid "Co_nversations:"
 msgstr ""
@@ -3275,7 +3288,7 @@ msgid "Colors"
 msgstr ""
 
 msgid "Command"
-msgstr "Naredba"
+msgstr "Komanda"
 
 msgid "Command disabled"
 msgstr ""
@@ -3300,6 +3313,10 @@ msgid ""
 "SHA1 fingerprint:\n"
 "%s"
 msgstr ""
+"Kopējais nosaukums: %s\n"
+"\n"
+"SHA1 ciparnospiedums:\n"
+"%s"
 
 #, c-format
 msgid ""
@@ -3338,7 +3355,7 @@ msgid "Configure Pl_ugin"
 msgstr ""
 
 msgid "Configure Plugin"
-msgstr ""
+msgstr "Konfigurēt spraudni"
 
 msgid "Configure _Browser"
 msgstr ""
@@ -3361,10 +3378,10 @@ msgstr ""
 
 #. XXX: anything to do with the returned ui-handle?
 msgid "Confirm Remove"
-msgstr "Potvrdi Uklanjanje"
+msgstr "Apstiprināt izņemšanu"
 
 msgid "Confirm certificate delete"
-msgstr ""
+msgstr "Apstiprināt sertifikāta dzēšanu"
 
 msgid "Confirm close"
 msgstr ""
@@ -3448,7 +3465,7 @@ msgid "Connection timed out."
 msgstr ""
 
 msgid "Console Beep"
-msgstr ""
+msgstr "Konsoles pīkstiens"
 
 msgid "Console beep"
 msgstr ""
@@ -3509,10 +3526,10 @@ msgid "Contented"
 msgstr ""
 
 msgid "Continue"
-msgstr "Nastavi"
+msgstr "Turpināt"
 
 msgid "Conversation"
-msgstr "Razgovor"
+msgstr "Saruna"
 
 msgid "Conversation Colors"
 msgstr ""
@@ -3539,22 +3556,22 @@ msgstr ""
 
 #, c-format
 msgid "Conversation in %s on %s"
-msgstr ""
+msgstr "Saruna iekš %s %s"
 
 #, c-format
 msgid "Conversation with %s on %s"
-msgstr ""
+msgstr "Saruna ar %s %s"
 
 msgid "Conversations"
-msgstr "Razgovori"
+msgstr "Sarunas"
 
 #, c-format
 msgid "Conversations in %s"
-msgstr ""
+msgstr "Sarunas iekš %s"
 
 #, c-format
 msgid "Conversations with %s"
-msgstr "Razgovori sa %s"
+msgstr "Sarunas ar %s"
 
 msgid "Cool Link 1"
 msgstr ""
@@ -3627,10 +3644,10 @@ msgid "Could not unload plugin"
 msgstr ""
 
 msgid "Couldn't find X display"
-msgstr ""
+msgstr "Nevarēja atrast X displeju"
 
 msgid "Couldn't find window"
-msgstr ""
+msgstr "Nevarēja atrast logu"
 
 msgid "Couldn't load buddylist"
 msgstr ""
@@ -3689,7 +3706,7 @@ msgstr ""
 
 #. Register checkbox
 msgid "Create this account on the server"
-msgstr "Stvori ovaj račun na serveru"
+msgstr "Uz servera izveidot šo kontu"
 
 msgid "Creating SILC key pair..."
 msgstr ""
@@ -3775,13 +3792,13 @@ msgid "Debug Symbols (for reporting crashes)"
 msgstr ""
 
 msgid "Debug Window"
-msgstr ""
+msgstr "Atkļūdošanas logs"
 
 msgid "Decrease Font Size"
 msgstr ""
 
 msgid "Default"
-msgstr "Zadano"
+msgstr "Noklusējuma"
 
 msgid "Default Formatting"
 msgstr ""
@@ -3791,10 +3808,10 @@ msgstr ""
 
 #. Delete button
 msgid "Delete"
-msgstr "Ukloni"
+msgstr "Dzēst"
 
 msgid "Delete Account"
-msgstr "Ukloni račun"
+msgstr "Dzēst kontu"
 
 msgid "Delete Buddy from Address Book?"
 msgstr ""
@@ -3806,13 +3823,13 @@ msgid "Delete Log?"
 msgstr ""
 
 msgid "Delete Status"
-msgstr "Ukloni Stanje"
+msgstr "Dzēst statusu"
 
 msgid "Deleted"
 msgstr ""
 
 msgid "Deny"
-msgstr "Odbij"
+msgstr "Liegt"
 
 msgid "Department"
 msgstr ""
@@ -4030,7 +4047,7 @@ msgid "Duplicate Shortcut"
 msgstr ""
 
 msgid "Duplicate title"
-msgstr "Dupliciraj naslov"
+msgstr "Dublēt nosaukumu"
 
 msgid "Dutch, Flemish"
 msgstr ""
@@ -4039,7 +4056,7 @@ msgid "Dzongkha"
 msgstr ""
 
 msgid "ERROR"
-msgstr "GREKA"
+msgstr "KĻŪDA"
 
 msgid "E_xecute a command"
 msgstr ""
@@ -4048,20 +4065,20 @@ msgid "Eating"
 msgstr ""
 
 msgid "Edit"
-msgstr "Uredi"
+msgstr "Rediģēt"
 
 #. We only do this if the user is in our buddy list
 msgid "Edit Buddy Comment"
 msgstr ""
 
 msgid "Edit Buddy Pounce"
-msgstr ""
+msgstr "Rediģēt drauga reakciju"
 
 msgid "Edit Buddylist Theme"
 msgstr ""
 
 msgid "Edit Chat"
-msgstr "Uredi Čavrljanje"
+msgstr "Rediģēt tērzēšanu"
 
 msgid "Edit Icon Theme"
 msgstr ""
@@ -4070,13 +4087,13 @@ msgid "Edit Notes..."
 msgstr ""
 
 msgid "Edit Settings"
-msgstr "Uredi Postavke"
+msgstr "Rediģēt iestatījumus"
 
 msgid "Edit Smiley"
 msgstr ""
 
 msgid "Edit Status"
-msgstr "Uredi Stanje"
+msgstr "Rediģet statusu"
 
 msgid "Edit User Mood"
 msgstr ""
@@ -4107,22 +4124,22 @@ msgid "Email: \t\t%s\n"
 msgstr ""
 
 msgid "Emails"
-msgstr "Poruke e-pote"
+msgstr "E-pasti"
 
 msgid "Embarrassed"
 msgstr ""
 
 msgid "Empty groups"
-msgstr "Prazne grupe"
+msgstr "Tukšās grupas"
 
 msgid "Enable Account"
 msgstr ""
 
 msgid "Enable Logging"
-msgstr ""
+msgstr "Aktivizēt saglabāšanu žurnālā"
 
 msgid "Enable Sounds"
-msgstr "Ukljući Zvuk"
+msgstr "Aktivizēt skaņas"
 
 msgid "Enable buddy ic_on animation"
 msgstr ""
@@ -4170,7 +4187,7 @@ msgid "Engaged"
 msgstr ""
 
 msgid "Enter Password"
-msgstr "Unesite Lozinku"
+msgstr ""
 
 msgid "Enter SecurID"
 msgstr ""
@@ -4195,20 +4212,20 @@ msgstr ""
 
 #, c-format
 msgid "Enter an alias for %s."
-msgstr ""
+msgstr "Ievadiet %s pseidonīmu."
 
 msgid "Enter an alias for this chat."
-msgstr ""
+msgstr "Ievadiet šīs tērzēšanas pseidonīmu."
 
 msgid "Enter an alias for this contact."
-msgstr ""
+msgstr "Ievadiet šī kontakta pseidonīmu."
 
 msgid "Enter empty string to reset the name."
-msgstr ""
+msgstr "Ievadiet tukšu virkni, lai atstatītu vārdu."
 
 #, c-format
 msgid "Enter password for %s (%s)"
-msgstr "Unesite lozinku za %s (%s)"
+msgstr ""
 
 msgid "Enter the 6 digit number from the digital display."
 msgstr ""
@@ -4219,7 +4236,7 @@ msgid ""
 msgstr ""
 
 msgid "Enter the name of the group"
-msgstr "Upii ime grupe"
+msgstr "Ievadiet grupas nosaukumu"
 
 msgid "Enter your notes below..."
 msgstr ""
@@ -4232,7 +4249,7 @@ msgstr ""
 
 #. the user did not fill in the captcha
 msgid "Error"
-msgstr "Greška"
+msgstr "Kļūda"
 
 msgid "Error "
 msgstr ""
@@ -4313,10 +4330,10 @@ msgid ""
 msgstr ""
 
 msgid "Error adding buddy"
-msgstr "Greka kod dodavanja prijatelja"
+msgstr "Kļūda, pievienojot draugu"
 
 msgid "Error adding group"
-msgstr ""
+msgstr "Kļūda, pievienojot grupu"
 
 msgid "Error authenticating with AuthServ"
 msgstr ""
@@ -4398,10 +4415,10 @@ msgid "Error loading SILC key pair"
 msgstr ""
 
 msgid "Error loading plugin"
-msgstr ""
+msgstr "Kļūda, ielādējot spraudni"
 
 msgid "Error loading the plugin."
-msgstr ""
+msgstr "Kļūda, ielādējot spraudni."
 
 msgid "Error occurred"
 msgstr ""
@@ -4417,8 +4434,6 @@ msgid ""
 "Error reading %s: \n"
 "%s.\n"
 msgstr ""
-"Greka kod čitanja %s: \n"
-"%s.\n"
 
 #, c-format
 msgid ""
@@ -4484,8 +4499,6 @@ msgid ""
 "Error writing %s: \n"
 "%s.\n"
 msgstr ""
-"Greka kod pisanja %s: \n"
-"%s.\n"
 
 #, c-format
 msgid "Error writing to %s: %s"
@@ -4504,7 +4517,7 @@ msgid "Estonian"
 msgstr ""
 
 msgid "Event"
-msgstr ""
+msgstr "Notikums"
 
 msgid "Evil"
 msgstr ""
@@ -4526,7 +4539,7 @@ msgid "Excited"
 msgstr ""
 
 msgid "Execute a command"
-msgstr ""
+msgstr "Izpildīt komandu"
 
 msgid "Existing window"
 msgstr ""
@@ -4564,6 +4577,8 @@ msgid ""
 "Export to file %s failed.\n"
 "Check that you have write permission to the target path\n"
 msgstr ""
+"Neizdevās eksportēt uz datni %s.\n"
+"Pārliecinieties, vai jums ir rakstīšanas tiesības mērķa ceļā\n"
 
 msgid "Exposure"
 msgstr ""
@@ -4609,7 +4624,7 @@ msgid "Facebook (XMPP)"
 msgstr ""
 
 msgid "Failed"
-msgstr "Neuspjeno"
+msgstr "Neizdevās"
 
 msgid "Failed Yahoo! Authentication"
 msgstr ""
@@ -4727,13 +4742,15 @@ msgid "Fetching the room list failed."
 msgstr ""
 
 msgid "File"
-msgstr "Datoteka"
+msgstr "Datne"
 
 #, c-format
 msgid ""
 "File %s could not be imported.\n"
 "Make sure that the file is readable and in PEM format.\n"
 msgstr ""
+"Nevarēja importēt datni %s.\n"
+"Pārliecinieties, ka datne ir lasāma un ir PEM formātā.\n"
 
 #, c-format
 msgid "File %s is %s, which is larger than the maximum size of %s."
@@ -4763,13 +4780,14 @@ msgstr ""
 
 #. Create the window.
 msgid "File Transfers"
-msgstr "Prijenos Datoteka"
+msgstr "Datņu pārsūtījumi"
 
 #, c-format
 msgid "File Transfers - %d%% of %d file"
 msgid_plural "File Transfers - %d%% of %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Datņu pārsūtījumi — %d%% no %d datnes"
+msgstr[1] "Datņu pārsūtījumi — %d%% no %d datnēm"
+msgstr[2] "Datņu pārsūtījumi — %d%% no %d datnēm"
 
 msgid "File is not readable."
 msgstr ""
@@ -4785,10 +4803,10 @@ msgid "File transfer already started"
 msgstr ""
 
 msgid "File transfer cancelled"
-msgstr "Prijenos datoteke otkazan"
+msgstr ""
 
 msgid "File transfer complete"
-msgstr "Prijenos datoteke dovren"
+msgstr ""
 
 #, c-format
 msgid "File transfer from %s failed."
@@ -4811,7 +4829,7 @@ msgid "File transfer to %s failed."
 msgstr ""
 
 msgid "Filename"
-msgstr "Ime Datoteke"
+msgstr "Datnes nosaukums"
 
 msgid "Filename:"
 msgstr ""
@@ -4820,13 +4838,13 @@ msgid "Fill in one or more fields to search for any matching XMPP users."
 msgstr ""
 
 msgid "Fill out all fields completely."
-msgstr "Potpuno ispunite sva polja."
+msgstr ""
 
 msgid "Filter"
 msgstr ""
 
 msgid "Filter:"
-msgstr ""
+msgstr "Filtrs:"
 
 #. TODO: Don't call this with ssi
 msgid "Finalizing connection"
@@ -4877,7 +4895,7 @@ msgid ""
 msgstr ""
 
 msgid "Finished"
-msgstr "Dovreno"
+msgstr "Pabeigts"
 
 msgid "Finnish"
 msgstr ""
@@ -4961,7 +4979,7 @@ msgid "From (To pending)"
 msgstr ""
 
 msgid "From last sent message"
-msgstr ""
+msgstr "Kopš pēdējā nosūtītā ziņojuma"
 
 msgid "Frustrated"
 msgstr ""
@@ -4997,10 +5015,10 @@ msgid "GNUTLS"
 msgstr ""
 
 msgid "GStreamer Failure"
-msgstr ""
+msgstr "GStreamer kļūme"
 
 msgid "GStreamer failed to initialize."
-msgstr ""
+msgstr "GStreamer neizdevās inicializēties."
 
 #. *< type
 #. *< ui_requirement
@@ -5093,7 +5111,7 @@ msgid "German"
 msgstr ""
 
 msgid "Get"
-msgstr "Dobij"
+msgstr "Saņemt"
 
 msgid "Get AIM Info"
 msgstr ""
@@ -5105,7 +5123,7 @@ msgid "Get File"
 msgstr ""
 
 msgid "Get Info"
-msgstr "Dobij informacije"
+msgstr "Saņemt informāciju"
 
 msgid "Get Notes Address Book Info"
 msgstr ""
@@ -5138,7 +5156,7 @@ msgid "Glorious"
 msgstr ""
 
 msgid "GntClipboard"
-msgstr ""
+msgstr "GntClipboard"
 
 msgid "GntGf"
 msgstr ""
@@ -5153,7 +5171,7 @@ msgid "Goes a_way"
 msgstr ""
 
 msgid "Goes away"
-msgstr ""
+msgstr "Iet projām"
 
 msgid "Gone"
 msgstr ""
@@ -5201,7 +5219,7 @@ msgid "GroupWise Conference %d"
 msgstr ""
 
 msgid "Grouping"
-msgstr "Grupiranje"
+msgstr "Grupēšana"
 
 msgid "Grumpy"
 msgstr ""
@@ -5252,7 +5270,7 @@ msgid "Handshaking"
 msgstr ""
 
 msgid "Hangup"
-msgstr ""
+msgstr "Nolikt"
 
 msgid "Happy"
 msgstr ""
@@ -5329,7 +5347,7 @@ msgid "History Plugin Requires Logging"
 msgstr ""
 
 msgid "Hit 'Enter' to find more rooms of this category."
-msgstr ""
+msgstr "Spiediet “Enter”, lai atrastu vairāk istabu ar šādu kategoriju."
 
 msgid "Hobbies"
 msgstr ""
@@ -5381,7 +5399,7 @@ msgid "Host name"
 msgstr ""
 
 msgid "Hostname"
-msgstr ""
+msgstr "Resursdatora nosaukums"
 
 msgid "Hot"
 msgstr ""
@@ -5480,7 +5498,7 @@ msgid "ICQ user %u has sent you a buddy: %s (%s)"
 msgstr ""
 
 msgid "IM"
-msgstr "Izravna Poruka"
+msgstr "TZ"
 
 #. IM Convo trans options
 msgid "IM Conversation Windows"
@@ -5578,7 +5596,7 @@ msgstr ""
 #. Never know what those translations might end up like...
 #. Idle stuff
 msgid "Idle"
-msgstr "Odsutan"
+msgstr "Dīkstāvē"
 
 #, c-format
 msgid "Idle %dd %dh %02dm"
@@ -5708,18 +5726,18 @@ msgid "Indonesian"
 msgstr ""
 
 msgid "Info"
-msgstr "Informacije"
+msgstr "Informācija"
 
 #, c-format
 msgid "Info for %s"
-msgstr ""
+msgstr "%s informācija"
 
 #, c-format
 msgid "Info for Group %s"
 msgstr ""
 
 msgid "Information"
-msgstr "Informacije"
+msgstr "Informācija"
 
 msgid "Information dialog"
 msgstr ""
@@ -5769,7 +5787,7 @@ msgid "Insert in message"
 msgstr ""
 
 msgid "Install Plugin..."
-msgstr ""
+msgstr "Instalēt spraudni..."
 
 msgid "Instant Messaging"
 msgstr ""
@@ -5778,6 +5796,8 @@ msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
 msgstr ""
+"Tūlītējie ziņojumi tiks reģistrēti žurnālā tikai tad, ja būs ieslēgts "
+"iestatījums “Reģistrēt žurnālā visus tūlītējos ziņojumus”"
 
 msgid "Insufficient rights"
 msgstr ""
@@ -5893,7 +5913,7 @@ msgid "Invalid response from server"
 msgstr ""
 
 msgid "Invalid title"
-msgstr "Nevaeći Naslov"
+msgstr "Nederīgie nosaukumi"
 
 msgid "Invalid username"
 msgstr ""
@@ -5930,7 +5950,7 @@ msgid "Invitation to Conversation"
 msgstr ""
 
 msgid "Invite"
-msgstr "Pozovi"
+msgstr "Uzaicināt"
 
 msgid "Invite Buddy Into Chat Room"
 msgstr ""
@@ -5945,7 +5965,7 @@ msgid "Invite Message"
 msgstr ""
 
 msgid "Invite message (optional)"
-msgstr "Pozivnica (neobavezno)"
+msgstr "Uzaicinājuma ziņojums (neobligāts)"
 
 msgid "Invite to Conference"
 msgstr ""
@@ -5954,13 +5974,13 @@ msgid "Invite to Conference..."
 msgstr ""
 
 msgid "Invite to chat"
-msgstr "Pozovi na čavrljanje"
+msgstr "Uzaicināt tērzēt"
 
 msgid "Invite user to a conference"
 msgstr ""
 
 msgid "Invite..."
-msgstr "Pozovi..."
+msgstr "Uzaicināt..."
 
 msgid "Invited"
 msgstr ""
@@ -5972,7 +5992,7 @@ msgid "Is no longer i_dle"
 msgstr ""
 
 msgid "Is no longer idle"
-msgstr "Vie nije odsutan"
+msgstr "Vairs nav neaktīvs"
 
 msgid "It's complicated"
 msgstr ""
@@ -6005,13 +6025,13 @@ msgid "John Noname"
 msgstr ""
 
 msgid "Join"
-msgstr "Pridrui se"
+msgstr "Pievienoties"
 
 msgid "Join Chat"
 msgstr ""
 
 msgid "Join Chat..."
-msgstr "Pridrui se Čavrljanju..."
+msgstr "Pievienoties tērzēšanai..."
 
 msgid "Join Private Group"
 msgstr ""
@@ -6020,7 +6040,7 @@ msgid "Join User in Chat..."
 msgstr ""
 
 msgid "Join a Chat"
-msgstr "Pridrući se Čavrljanju"
+msgstr "Pievienoties tērzēšanai"
 
 msgid "Join in Chat"
 msgstr ""
@@ -6223,8 +6243,9 @@ msgstr ""
 #, c-format
 msgid "List of %d user:\n"
 msgid_plural "List of %d users:\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Saraksts ar %d lietotāju:\n"
+msgstr[1] "Saraksts ar %d lietotājiem:\n"
+msgstr[2] "Saraksts ar %d lietotājiem:\n"
 
 msgid "List overflow"
 msgstr ""
@@ -6300,7 +6321,7 @@ msgid "Log Directory"
 msgstr ""
 
 msgid "Log IMs"
-msgstr ""
+msgstr "Žurnālā reģistrēt TZ"
 
 msgid "Log In"
 msgstr ""
@@ -6321,22 +6342,22 @@ msgid "Log _format:"
 msgstr ""
 
 msgid "Log all _instant messages"
-msgstr ""
+msgstr "Reģ_istrēt žurnālā visus tūlītējos ziņojumus"
 
 msgid "Log all _status changes to system log"
-msgstr ""
+msgstr "Reģistrēt sistēmas žurnālā visas _statusu izmaiņas"
 
 msgid "Log all c_hats"
-msgstr ""
+msgstr "_Reģistrēt žurnālā visas tērzēšanas"
 
 msgid "Log chats"
-msgstr ""
+msgstr "Žurnālā reģistrēt tērzēšanu"
 
 msgid "Log format"
-msgstr ""
+msgstr "Žurnālā reģistrēt formātus"
 
 msgid "Log status change events"
-msgstr ""
+msgstr "Žurnālā reģistrēt statusa izmaiņu ziņojumus"
 
 msgid "Logged In"
 msgstr ""
@@ -6345,7 +6366,7 @@ msgid "Logged Off"
 msgstr ""
 
 msgid "Logging"
-msgstr ""
+msgstr "Reģistrēšana žurnālā"
 
 msgid "Logging In..."
 msgstr ""
@@ -6365,10 +6386,14 @@ msgstr ""
 
 msgid "Logging started. Future messages in this conversation will be logged."
 msgstr ""
+"Sākta reģistrēšana žurnālā. Turpmākie ziņojumi šajā sarunā tiks saglabāti "
+"žurnālā."
 
 msgid ""
 "Logging stopped. Future messages in this conversation will not be logged."
 msgstr ""
+"Apturēta reģistrēšana žurnālā. Turpmākie ziņojumi šajā sarunā netiks "
+"saglabāti žurnālā."
 
 msgid "Login Acknowledged"
 msgstr ""
@@ -6576,7 +6601,7 @@ msgid "Media Initiation Failed"
 msgstr ""
 
 msgid "Meebo"
-msgstr "Meebo"
+msgstr ""
 
 msgid "Meeting friends"
 msgstr ""
@@ -6611,7 +6636,7 @@ msgstr ""
 #. not independent
 #. Attributes - each status can have a message.
 msgid "Message"
-msgstr "Poruka"
+msgstr "Ziņojums"
 
 #. Note to translators: These two strings refer to the font and color
 #. of a buddy list buddy when they have sent you a new message
@@ -6699,13 +6724,13 @@ msgid "Message of the Day"
 msgstr ""
 
 msgid "Message received"
-msgstr "Poruka primljena"
+msgstr "Ziņojums saņemts"
 
 msgid "Message received begins conversation"
-msgstr ""
+msgstr "Saņemts ziņojums uzsāk sarunu"
 
 msgid "Message sent"
-msgstr "Poruka poslana"
+msgstr "Ziņojums nosūtīts"
 
 msgid "Message was not sent because an unknown encoding error occurred."
 msgstr ""
@@ -6722,10 +6747,10 @@ msgid ""
 msgstr ""
 
 msgid "Message was not sent, because you are not signed on."
-msgstr "Poruka nije poslana jer niste prijavljeni."
+msgstr "Ziņojums netika nosūtīts, jo neesat ierakstījies."
 
 msgid "Message:"
-msgstr "Poruka:"
+msgstr "Ziņojums:"
 
 #. Messaging menu integration
 msgid "Messaging Menu"
@@ -6738,7 +6763,7 @@ msgid "Messenger Plus!"
 msgstr ""
 
 msgid "Method: "
-msgstr ""
+msgstr "Metode: "
 
 msgid "Microphone"
 msgstr ""
@@ -6762,7 +6787,7 @@ msgid "Minutes"
 msgstr ""
 
 msgid "Minutes before changing status"
-msgstr ""
+msgstr "Minūtes pirms maina statusu"
 
 msgid "Misc"
 msgstr ""
@@ -6799,10 +6824,10 @@ msgstr ""
 
 #. Modify button
 msgid "Modify"
-msgstr "Promijeni"
+msgstr "Mainīt"
 
 msgid "Modify Account"
-msgstr "Promijeni Račun"
+msgstr "Mainīt kontu"
 
 msgid "Modify Buddy Pounce"
 msgstr ""
@@ -6928,7 +6953,7 @@ msgstr ""
 
 #. Extract their Name and put it in
 msgid "Name"
-msgstr "Ime"
+msgstr "Vārds"
 
 #, c-format
 msgid ""
@@ -6939,12 +6964,12 @@ msgid ""
 "Website: %s\n"
 "Filename: %s\n"
 msgstr ""
-"Ime: %s\n"
-"Verzija: %s\n"
-"Opis: %s\n"
-"Autor: %s\n"
-"Internet Stranica: %s\n"
-"Ime Datoteke: %s\n"
+"Nosaukums: %s\n"
+"Versija: %s\n"
+"Apraksts: %s\n"
+"Autors: %s\n"
+"Tīmekļa vietne: %s\n"
+"Datnes nosaukums: %s\n"
 
 msgid "Nepali"
 msgstr ""
@@ -6974,13 +6999,13 @@ msgid "Neutral"
 msgstr ""
 
 msgid "Never"
-msgstr "Nikad"
+msgstr "Nekad"
 
 msgid "New Account"
-msgstr "Novi Račun"
+msgstr "Jauns konts"
 
 msgid "New Buddy Pounce"
-msgstr ""
+msgstr "Jauna drauga reakcija"
 
 msgid "New Conference"
 msgstr ""
@@ -6989,7 +7014,7 @@ msgid "New Event"
 msgstr ""
 
 msgid "New Instant Message"
-msgstr "Nova Izravna Poruka"
+msgstr "Jauns tūlītējais ziņojums"
 
 #. *< magic
 #. *< major version
@@ -7004,7 +7029,7 @@ msgid "New Line"
 msgstr ""
 
 msgid "New Mail"
-msgstr "Nova Poruka"
+msgstr "Jauna vēstule"
 
 #. "New Person" button
 msgid "New Person"
@@ -7032,16 +7057,16 @@ msgid "New mail messages"
 msgstr ""
 
 msgid "New mail notifications"
-msgstr "Obavijesti o novim porukama e-pote"
+msgstr "Paziņojumi par jaunu pastu"
 
 msgid "New password"
-msgstr "Nova lozinka"
+msgstr ""
 
 msgid "New password (again)"
-msgstr "Nova lozinka (ponovno)"
+msgstr ""
 
 msgid "New passwords do not match."
-msgstr "Nove lozinke ne se ne slau."
+msgstr ""
 
 msgid "New picture comments"
 msgstr ""
@@ -7059,7 +7084,7 @@ msgid "New window"
 msgstr ""
 
 msgid "New..."
-msgstr "Novo..."
+msgstr "Jauns..."
 
 #. "Next >" appears on a button on the License Page of the Installer
 msgid "Next >"
@@ -7088,7 +7113,7 @@ msgstr ""
 
 #. General
 msgid "Nickname"
-msgstr "Nadimak"
+msgstr "Segvārds"
 
 msgid "Nickname in use"
 msgstr ""
@@ -7115,7 +7140,7 @@ msgid "No Proxy"
 msgstr ""
 
 msgid "No Sound"
-msgstr "Bez Zvuka"
+msgstr "Nav skaņas"
 
 msgid "No actions available"
 msgstr ""
@@ -7130,7 +7155,7 @@ msgid ""
 msgstr ""
 
 msgid "No configuration options for this plugin."
-msgstr ""
+msgstr "Šis spraudnim nav konfigurēšanas opciju."
 
 msgid "No contacts found."
 msgstr ""
@@ -7139,7 +7164,7 @@ msgid "No file transfer session active"
 msgstr ""
 
 msgid "No logs were found"
-msgstr ""
+msgstr "Nav atrastu žurnālu"
 
 msgid "No match"
 msgstr ""
@@ -7154,7 +7179,7 @@ msgid "No message"
 msgstr ""
 
 msgid "No name"
-msgstr "Nema imena"
+msgstr ""
 
 msgid "No profile available"
 msgstr ""
@@ -7191,10 +7216,10 @@ msgid "No such channel"
 msgstr ""
 
 msgid "No such command (in this context)."
-msgstr ""
+msgstr "Nav tādas komandas (šajā kontekstā)."
 
 msgid "No such command."
-msgstr "Ne postoji takva naredba."
+msgstr "Nav tādas komandas."
 
 msgid "No such nick or channel"
 msgstr ""
@@ -7232,7 +7257,7 @@ msgid "None (To pending)"
 msgstr ""
 
 msgid "None of your accounts are idle."
-msgstr ""
+msgstr "Neviens no jūsu kontiem nav dīkstāvē."
 
 #, c-format
 msgid "Normal"
@@ -7276,7 +7301,7 @@ msgid "Not expected"
 msgstr ""
 
 msgid "Not implemented yet."
-msgstr ""
+msgstr "Vēl nav ieviests."
 
 msgid "Not in Office"
 msgstr ""
@@ -7354,7 +7379,7 @@ msgid "Notify When"
 msgstr ""
 
 msgid "Notify buddies when you are typing"
-msgstr ""
+msgstr "Paziņot draugiem, kad rakstāt"
 
 msgid "Notify transfer failed"
 msgstr ""
@@ -7397,7 +7422,7 @@ msgstr ""
 #. Not masked?
 #. No hints?
 msgid "OK"
-msgstr "U redu"
+msgstr "Labi"
 
 msgid "ONCE SET, THIS CANNOT BE CHANGED!"
 msgstr ""
@@ -7426,7 +7451,7 @@ msgstr ""
 
 #. primitive,						no,							id,			name
 msgid "Offline"
-msgstr "Nije na vezi"
+msgstr ""
 
 msgid "Offline Buddies"
 msgstr ""
@@ -7443,7 +7468,7 @@ msgid "Offline Text"
 msgstr ""
 
 msgid "Offline buddies"
-msgstr "Prijatelji koji nisu na mrei"
+msgstr "Nesaistes draugus"
 
 msgid "Offline message store full"
 msgstr ""
@@ -7455,7 +7480,7 @@ msgid "Old flat format"
 msgstr ""
 
 msgid "On Mobile"
-msgstr "Na Mobitelu"
+msgstr "Mobils"
 
 msgid "On The Phone"
 msgstr ""
@@ -7488,10 +7513,10 @@ msgid "One or more messages may have been undeliverable."
 msgstr ""
 
 msgid "Online"
-msgstr "Na vezi"
+msgstr ""
 
 msgid "Online Buddies"
-msgstr "Prijatelji Na Vezi"
+msgstr ""
 
 msgid "Online Services"
 msgstr ""
@@ -7518,8 +7543,8 @@ msgid ""
 "Online: %d\n"
 "Total: %d"
 msgstr ""
-"Na vezi: %d\n"
-"Ukupno: %d"
+"Tiešsaistē: %d\n"
+"Kopā: %d"
 
 msgid "Only buddies"
 msgstr ""
@@ -7537,14 +7562,14 @@ msgid "Only replace _whole words"
 msgstr ""
 
 msgid "Only when available"
-msgstr ""
+msgstr "Tikai, kad pieejams"
 
 #. XXX: Did this ever work?
 msgid "Only when docked"
 msgstr ""
 
 msgid "Only when not available"
-msgstr ""
+msgstr "Tikai, kad nav pieejams"
 
 msgid "Opacity:"
 msgstr ""
@@ -7556,7 +7581,7 @@ msgid "Open All Messages"
 msgstr ""
 
 msgid "Open File..."
-msgstr "Otvori Datoteku..."
+msgstr "Atvērt datni..."
 
 msgid "Open Hotmail Inbox"
 msgstr ""
@@ -7572,7 +7597,7 @@ msgid "Open _Containing Directory"
 msgstr ""
 
 msgid "Open an IM window"
-msgstr "Otvori prozor za izravne poruke"
+msgstr "Atvērt TZ logu"
 
 #. Open file selector to select the public key.
 msgid "Open..."
@@ -7597,7 +7622,7 @@ msgstr ""
 
 #. Create the "Options" frame.
 msgid "Options"
-msgstr "Mogućnosti"
+msgstr "Opcijas"
 
 msgid "Options specific to Pidgin for Windows."
 msgstr ""
@@ -7616,7 +7641,7 @@ msgid "Organization: \t%s\n"
 msgstr ""
 
 msgid "Original password"
-msgstr "Izvorna lozinka"
+msgstr ""
 
 msgid "Oriya"
 msgstr ""
@@ -7634,7 +7659,7 @@ msgid "Other Locations"
 msgstr ""
 
 msgid "Others talk in chat"
-msgstr ""
+msgstr "Citi runā tērzēšanā"
 
 msgid "Our protocol is not supported by the server"
 msgstr ""
@@ -7664,7 +7689,7 @@ msgid "PDA"
 msgstr ""
 
 msgid "PEM X.509 Certificate Export"
-msgstr ""
+msgstr "PEM X.509 sertifikāta eksportēšana"
 
 #. pin
 #. pin (required)
@@ -7755,13 +7780,13 @@ msgid "Password has expired"
 msgstr ""
 
 msgid "Password is required to sign on."
-msgstr "Lozinka je potrebna za prijavu."
+msgstr ""
 
 msgid "Password sent"
 msgstr ""
 
 msgid "Password:"
-msgstr "Lozinka:"
+msgstr "Parole:"
 
 msgid "Past Translators"
 msgstr ""
@@ -7776,13 +7801,13 @@ msgid ""
 msgstr ""
 
 msgid "Pause"
-msgstr "Pauziraj"
+msgstr "Pauzēt"
 
 msgid "Paused while typing"
 msgstr ""
 
 msgid "Pauses while typing"
-msgstr ""
+msgstr "Pauzē, kamēr raksta"
 
 msgid "Payment Required"
 msgstr ""
@@ -7821,10 +7846,10 @@ msgid "Persistent"
 msgstr ""
 
 msgid "Person enters chat"
-msgstr "Osoba ulazi u čavrljanje"
+msgstr "Persona ienāk tērzēšanā"
 
 msgid "Person leaves chat"
-msgstr "Osoba naputa čavrljanje"
+msgstr "Persona pamet tērzēšanu"
 
 msgid "Personal"
 msgstr ""
@@ -7922,7 +7947,7 @@ msgid "Place Closed"
 msgstr ""
 
 msgid "Place tagged"
-msgstr ""
+msgstr "Ievietot tagu"
 
 msgid "Places Lived"
 msgstr ""
@@ -7937,7 +7962,7 @@ msgid "Play"
 msgstr ""
 
 msgid "Play a sound"
-msgstr ""
+msgstr "Atskaņot skaņu"
 
 msgid "Playful"
 msgstr ""
@@ -7946,19 +7971,19 @@ msgid "Playing a game"
 msgstr ""
 
 msgid "Please Update the necessary fields."
-msgstr "Aurirajte potrebna polja."
+msgstr "Lūdzu, atjauniniet nepieciešamos laukus."
 
 msgid "Please authorize me so I can add you to my buddy list."
 msgstr ""
 
 msgid "Please enter a buddy to pounce."
-msgstr ""
+msgstr "Lūdzu, ievadiet draugu, uz kuru reaģēt."
 
 msgid "Please enter a different title for the status."
-msgstr "Unesite drugačiji naslov za vae stanje."
+msgstr "Lūdzu, ievadiet citu statusa nosaukumu."
 
 msgid "Please enter a non-empty title for the status."
-msgstr "Unesite neprazan naslov za vae stanje."
+msgstr "Lūdzu, ievadiet netukšu statusa nosaukumu."
 
 #, c-format
 msgid ""
@@ -7973,9 +7998,11 @@ msgid ""
 "Please enter an alias, and the appropriate information about the chat you "
 "would like to add to your buddy list.\n"
 msgstr ""
+"Lūdzu, ievadiet pseidonīmu un atbilstošu informāciju par tērzēšanu, ko "
+"vēlaties pievienot savu draugu sarakstam.\n"
 
 msgid "Please enter buddy information."
-msgstr "Unesite informacije o prijatelju."
+msgstr "Lūdzu, ievadiet informāciju par draugu."
 
 #, c-format
 msgid "Please enter the %s channel private group name and passphrase."
@@ -7998,7 +8025,7 @@ msgid "Please enter the buddy's username and account type below."
 msgstr ""
 
 msgid "Please enter the name of the chat you want to join."
-msgstr "Unesite ime Čavrljanja kojem se elite pridruiti."
+msgstr "Ievadiet tērzēšanas nosaukumu, kurai vēlaties pievienoties."
 
 msgid "Please enter the name of the group to be added."
 msgstr ""
@@ -8014,10 +8041,12 @@ msgid ""
 "Please enter the name of the user you wish to invite, along with an optional "
 "invite message."
 msgstr ""
+"Lūdzu, ievadiet vārdu lietotājam, kuru vēlaties uzaicināt, kopā ar "
+"uzaicinājuma ziņojumu"
 
 #, c-format
 msgid "Please enter the new name for %s"
-msgstr "Unesite novo ime za %s"
+msgstr "Lūdzu, ievadiet %s jauno vārdu"
 
 msgid "Please enter the person's information below."
 msgstr ""
@@ -8026,25 +8055,31 @@ msgid ""
 "Please enter the username or alias of the person whose info you would like "
 "to view."
 msgstr ""
+"Lūdzu, ievadiet lietotājvārdu vai pseidonīmu personai, kuras informāciju "
+"vēlaties apskatīt."
 
 msgid ""
 "Please enter the username or alias of the person whose log you would like to "
 "view."
 msgstr ""
+"Lūdzu, ievadiet lietotājvārdu vai pseidonīmu personai, kuras sarakstes "
+"žurnālu vēlaties apskatīt."
 
 msgid ""
 "Please enter the username or alias of the person you would like to "
 "Block/Unblock."
 msgstr ""
-"Unesite korisničko ime ili nadimak osobe koju elite Blokirati/Deblokirati."
+"Lūdzu, ievadiet lietotājvārdu vai pseidonīmu personai, kuru vēlaties "
+"bloķēt/atbloķēt."
 
 msgid ""
 "Please enter the username or alias of the person you would like to IM."
 msgstr ""
-"Unesite korisničko ime ili nadimak osobe kojoj elite poslati izravnu poruku."
+"Lūdzu, ievadiet lietotājvārdu vai pseidonīmu personai, kurai vēlaties sūtīt "
+"TZ."
 
 msgid "Please enter your current password and your new password."
-msgstr "Unesite trenutnu lozinku i novu lozinku."
+msgstr ""
 
 msgid "Please enter your new password"
 msgstr ""
@@ -8062,6 +8097,8 @@ msgstr ""
 msgid ""
 "Please open the debug window and try again to see the exact error message."
 msgstr ""
+"Lūdzu, atveriet atkļūdošanas logu un mēģiniet atkal, lai redzētu precīzu "
+"kļūdas ziņojumu."
 
 #, c-format
 msgid ""
@@ -8110,10 +8147,10 @@ msgid "Plugin magic mismatch %d (need %d)"
 msgstr ""
 
 msgid "Plugin need to be loaded before you can configure it."
-msgstr ""
+msgstr "Spraudnis ir jāielādē, pirms varēsiet to konfigurēt."
 
 msgid "Plugins"
-msgstr "Dodaci"
+msgstr "Spraudņi"
 
 msgid "Point values to use for account..."
 msgstr ""
@@ -8132,7 +8169,7 @@ msgid "Polish popular IM"
 msgstr ""
 
 msgid "Pop up a notification"
-msgstr ""
+msgstr "Parādīt paziņojumu"
 
 msgid "Pop-Up Message"
 msgstr ""
@@ -8167,17 +8204,17 @@ msgstr ""
 
 #. Create the "Pounce When Buddy..." frame.
 msgid "Pounce When Buddy..."
-msgstr ""
+msgstr "Reakcija, kad draugs..."
 
 msgid "Pounce Who"
-msgstr ""
+msgstr "Reakcija uz kuru"
 
 #. Create the "Pounce on Whom" frame.
 msgid "Pounce on Whom"
 msgstr ""
 
 msgid "Pounce only when my status is not Available"
-msgstr ""
+msgstr "Reakcija tikai tad, kad mans status nav “Pieejams”"
 
 msgid "Pr_eferences"
 msgstr ""
@@ -8191,7 +8228,7 @@ msgstr ""
 #. Back to instant-apply! I win!  BU-HAHAHA!
 #. Create the window
 msgid "Preferences"
-msgstr "Postavke"
+msgstr "Iestatījumi"
 
 msgid "Preferred Contact"
 msgstr ""
@@ -8260,7 +8297,7 @@ msgid "Profiles"
 msgstr "Profili"
 
 msgid "Progress"
-msgstr "Napredak"
+msgstr "Progress"
 
 msgid "Protocol"
 msgstr ""
@@ -8270,7 +8307,7 @@ msgid "Protocol error, code %d: %s"
 msgstr ""
 
 msgid "Protocol:"
-msgstr "Protokol:"
+msgstr "Protokols:"
 
 msgid "Proud"
 msgstr ""
@@ -8493,7 +8530,7 @@ msgid "Re-enable"
 msgstr ""
 
 msgid "Re-enable Account"
-msgstr "Ponovno uključi Račun"
+msgstr "Atkal ieslēgt kontu"
 
 msgid "Re-initializing Stream"
 msgstr ""
@@ -8525,13 +8562,13 @@ msgstr ""
 
 #, c-format
 msgid "Really delete certificate for %s?"
-msgstr ""
+msgstr "Tiešām dzēst %s sertifikātu?"
 
 msgid "Realm"
 msgstr ""
 
 msgid "Received"
-msgstr "Primljeno"
+msgstr "Saņemts"
 
 #, c-format
 msgid "Received %s's public key. Would you like to accept this public key?"
@@ -8574,7 +8611,7 @@ msgid "Received unexpected response from %s: %s"
 msgstr ""
 
 msgid "Receiving"
-msgstr "Primanje"
+msgstr "Saņem"
 
 msgid "Recipient Unavailable"
 msgstr ""
@@ -8583,7 +8620,7 @@ msgid "Reconnect"
 msgstr ""
 
 msgid "Recurring"
-msgstr ""
+msgstr "Periodisks"
 
 msgid "Refused by client"
 msgstr ""
@@ -8607,7 +8644,7 @@ msgstr ""
 
 #. show error to user
 msgid "Registration Error"
-msgstr "Greka kod Registracije"
+msgstr ""
 
 msgid "Registration Failed"
 msgstr ""
@@ -8634,7 +8671,7 @@ msgid "Registration to %s successful"
 msgstr ""
 
 msgid "Reject"
-msgstr "Odbij"
+msgstr "Noraidīt"
 
 msgid "Rejected"
 msgstr ""
@@ -8657,13 +8694,13 @@ msgid "Relieved"
 msgstr ""
 
 msgid "Remaining"
-msgstr "Preostalo"
+msgstr "Atlicis"
 
 msgid "Remember pass_word"
 msgstr ""
 
 msgid "Remember password"
-msgstr "Zapamti lozinku"
+msgstr "Atcerēties paroli"
 
 msgid "Remorseful"
 msgstr ""
@@ -8688,7 +8725,7 @@ msgid "Remotely Stored Buddy List"
 msgstr ""
 
 msgid "Remove"
-msgstr "Ukloni"
+msgstr "Izņemt"
 
 #. Remove All button
 msgid "Remove Al_l"
@@ -8736,13 +8773,13 @@ msgid "Remove when conversation window _receives click"
 msgstr ""
 
 msgid "Removing this contact will also remove all the buddies in the contact"
-msgstr ""
+msgstr "Šī kontakta izņemšana izņems arī visus draugus kontaktā"
 
 msgid "Removing this group will also remove all the buddies in the group"
-msgstr ""
+msgstr "Šīs grupas izņemšana izņems arī visus draugus grupā"
 
 msgid "Rename"
-msgstr "Preimenuj"
+msgstr "Pārdēvēt"
 
 msgid "Replaces text in outgoing messages according to user-defined rules."
 msgstr ""
@@ -8755,7 +8792,7 @@ msgid "Reply too big"
 msgstr ""
 
 msgid "Report Idle time"
-msgstr ""
+msgstr "Ziņot par dīkstāves laiku"
 
 msgid "Request Dialog"
 msgstr ""
@@ -8784,7 +8821,7 @@ msgid "Required parameters not passed in"
 msgstr ""
 
 msgid "Reset"
-msgstr ""
+msgstr "Atiestatīt"
 
 msgid "Reset Formatting"
 msgstr ""
@@ -8868,7 +8905,7 @@ msgid "Retrieving buddy list"
 msgstr ""
 
 msgid "Retrieving..."
-msgstr "Preuzimanje..."
+msgstr "Atgriež..."
 
 msgid "Returned from being away"
 msgstr ""
@@ -8877,7 +8914,7 @@ msgid "Returned from being idle"
 msgstr ""
 
 msgid "Returns from away"
-msgstr ""
+msgstr "Atgriežas no prombūtnes"
 
 msgid "Right"
 msgstr ""
@@ -8914,7 +8951,7 @@ msgstr ""
 
 #. Create the window.
 msgid "Room List"
-msgstr "Popis Soba"
+msgstr "Istabu saraksts"
 
 msgid "Room _List"
 msgstr ""
@@ -9018,7 +9055,7 @@ msgid "SSL Handshake Failed"
 msgstr ""
 
 msgid "SSL Host Certificate"
-msgstr ""
+msgstr "SSL resursdatora sertifikāts"
 
 #. Scheme name
 #. Pool name
@@ -9072,11 +9109,11 @@ msgstr ""
 #. Save button
 #. Save
 msgid "Save"
-msgstr "Spremi"
+msgstr "Saglabāt"
 
 #. Save & Use
 msgid "Save & Use"
-msgstr "Spremi i Koristi"
+msgstr "Saglabāt un izmantot"
 
 msgid "Save Buddylist..."
 msgstr ""
@@ -9091,7 +9128,7 @@ msgid "Save File"
 msgstr ""
 
 msgid "Save File..."
-msgstr "Spremi Datoteku..."
+msgstr "Saglabāt datni..."
 
 msgid "Save Icon"
 msgstr ""
@@ -9109,22 +9146,22 @@ msgid "Save buddylist..."
 msgstr ""
 
 msgid "Save messages sent to an offline user as pounce."
-msgstr ""
+msgstr "Saglabāt ziņojumus, kas sūtīti nesaistes lietotājiem kā reakcijas."
 
 msgid "Save offline messages in pounce"
 msgstr ""
 
 msgid "Save password"
-msgstr "Spremi Lozinku"
+msgstr ""
 
 msgid "Saved Statuses"
-msgstr "Spremi Stanja"
+msgstr "Saglabātie statusi"
 
 msgid "Saved statuses..."
 msgstr ""
 
 msgid "Saved..."
-msgstr "Spremljeno..."
+msgstr "Saglabāts..."
 
 msgid "Score Editor Path"
 msgstr ""
@@ -9137,7 +9174,7 @@ msgstr ""
 
 #. Search box *********
 msgid "Scroll/Search: "
-msgstr ""
+msgstr "Ritināt/meklēt: "
 
 msgid "Seamonkey"
 msgstr ""
@@ -9242,7 +9279,7 @@ msgid "Select Notes Address Book"
 msgstr ""
 
 msgid "Select Sound File ..."
-msgstr "Odaberite Datoteku Zvuka..."
+msgstr "Izvēlieties skaņas datni ..."
 
 msgid "Select Text Color"
 msgstr ""
@@ -9251,7 +9288,7 @@ msgid "Select User"
 msgstr ""
 
 msgid "Select a PEM certificate"
-msgstr ""
+msgstr "Izvēlieties PEM sertifikātu"
 
 msgid "Select a Resource"
 msgstr ""
@@ -9310,7 +9347,7 @@ msgid "Select correct user"
 msgstr ""
 
 msgid "Select plugin to install"
-msgstr ""
+msgstr "Izvēlieties spraudni, ko instalēt"
 
 msgid "Select the ID you want to activate"
 msgstr ""
@@ -9342,28 +9379,28 @@ msgid "Send Email"
 msgstr ""
 
 msgid "Send File"
-msgstr "Poalji Datoteku"
+msgstr "Sūtīt datni"
 
 msgid "Send IM..."
-msgstr "Poalji izravnu poruku..."
+msgstr "Sūtīt TZ..."
 
 msgid "Send Instant Message"
 msgstr ""
 
 msgid "Send Message"
-msgstr "Poalji Poruku"
+msgstr ""
 
 msgid "Send TEST Announcement"
 msgstr ""
 
 msgid "Send To"
-msgstr "Poalji Osobi"
+msgstr "Sūtīt uz"
 
 msgid "Send a _message"
 msgstr ""
 
 msgid "Send a message"
-msgstr "Poalji poruku"
+msgstr "Sūtīt ziņojumu"
 
 msgid "Send a mobile message."
 msgstr ""
@@ -9384,10 +9421,10 @@ msgid "Send to Mobile"
 msgstr ""
 
 msgid "Sender"
-msgstr "Poiljatelj"
+msgstr "Sūtītājs"
 
 msgid "Sending"
-msgstr "Slanje"
+msgstr "Sūta"
 
 msgid "Sending Handshake"
 msgstr ""
@@ -9399,13 +9436,13 @@ msgid "Sends a _message"
 msgstr ""
 
 msgid "Sends a message"
-msgstr "alje poruku"
+msgstr "Sūta ziņojumu"
 
 msgid "Senior Contributor/QA"
 msgstr ""
 
 msgid "Sent"
-msgstr "Poslano"
+msgstr "Nosūtīts"
 
 #. Write a local message to this conversation showing that a request for a
 #. * Doodle session has been made
@@ -9547,10 +9584,10 @@ msgid "Set"
 msgstr ""
 
 msgid "Set Account Idle Time"
-msgstr ""
+msgstr "Iestatīt konta dīkstāves laiku"
 
 msgid "Set Alias"
-msgstr "Postavi Nadimak"
+msgstr "Iestatīt pseidonīmu"
 
 msgid "Set Autoaccept Setting"
 msgstr ""
@@ -9670,13 +9707,13 @@ msgid "Shortcuts for starting Pidgin++"
 msgstr ""
 
 msgid "Show"
-msgstr "Prikaži"
+msgstr "Rādīt"
 
 msgid "Show All"
-msgstr "Prikaži sve"
+msgstr ""
 
 msgid "Show Buddies Awaiting Authorization"
-msgstr "Prikaži prijatelje koji čekaju na autorizaciju"
+msgstr ""
 
 msgid "Show Buddy _List"
 msgstr ""
@@ -9690,19 +9727,19 @@ msgid "Show IMs and chats in _tabbed windows"
 msgstr ""
 
 msgid "Show Idle Time"
-msgstr ""
+msgstr "Rādīt dīkstāves laiku"
 
 msgid "Show Invisible List"
 msgstr ""
 
 msgid "Show Offline Buddies"
-msgstr ""
+msgstr "Rādīt draugus nesaistē"
 
 msgid "Show Public Key"
 msgstr ""
 
 msgid "Show Timestamps"
-msgstr "Prikai Biljeg Vremena"
+msgstr "Rādīt laika spiedogus"
 
 msgid "Show Visible List"
 msgstr ""
@@ -9747,7 +9784,7 @@ msgid "Show status to:"
 msgstr ""
 
 msgid "Show when offline"
-msgstr ""
+msgstr "Rādīt, kad nesaistē"
 
 msgid "Shows recently logged conversations in new conversations."
 msgstr ""
@@ -9783,10 +9820,10 @@ msgid "Signs o_ff"
 msgstr ""
 
 msgid "Signs off"
-msgstr "Odjavljuje se"
+msgstr "Izrakstās"
 
 msgid "Signs on"
-msgstr "Prijavljuje se"
+msgstr "Ierakstās"
 
 msgid "Silence threshold:"
 msgstr ""
@@ -9817,7 +9854,7 @@ msgid "Sinhala"
 msgstr ""
 
 msgid "Size"
-msgstr "Veličina"
+msgstr "Izmērs"
 
 #. Slap means "to hit someone with an open/flat hand"
 msgid "Slap"
@@ -9870,13 +9907,13 @@ msgid "Social"
 msgstr ""
 
 msgid "Someone says your name in a chat"
-msgstr ""
+msgstr "Tērzēšanā kāds piemin jūsu vārdu"
 
 msgid "Someone says your username in chat"
-msgstr ""
+msgstr "Tērzēšanā kāds piemin jūsu lietotājvārdu"
 
 msgid "Someone speaks in a chat"
-msgstr ""
+msgstr "Kāds runā tērzēšanā"
 
 msgid "Song"
 msgstr ""
@@ -9887,29 +9924,29 @@ msgid ""
 msgstr ""
 
 msgid "Sort"
-msgstr "Sortiranje"
+msgstr "Kārtot"
 
 #, c-format
 msgid ""
 "Sound Command\n"
 "(%s for filename)"
 msgstr ""
-"Naredba Zvuka\n"
-"(%s za ime datoteke)"
+"Skaņas komanda\n"
+"(%s datnes nosaukumam)"
 
 #. Sound events
 msgid "Sound Events"
-msgstr ""
+msgstr "Notikumu skaņas"
 
 msgid "Sound Method"
-msgstr ""
+msgstr "Skaņas metode"
 
 #. Sound options
 msgid "Sound Options"
-msgstr "Mogućnosti Zvuka"
+msgstr "Skaņas opcijas"
 
 msgid "Sound Preferences"
-msgstr "Postavke Zvuka"
+msgstr "Skaņas iestatījumi"
 
 msgid "Sound Selection"
 msgstr ""
@@ -9924,13 +9961,13 @@ msgid ""
 msgstr ""
 
 msgid "Sounds"
-msgstr "Zvukovi"
+msgstr "Skaņas"
 
 msgid "Sounds when conversation has _focus"
 msgstr ""
 
 msgid "Sounds when conversation has focus"
-msgstr ""
+msgstr "Skaņas, kad sarunai ir fokuss"
 
 msgid "Spanish"
 msgstr ""
@@ -9939,10 +9976,10 @@ msgid "Speakers"
 msgstr ""
 
 msgid "Specify a hostname"
-msgstr ""
+msgstr "Norādiet resursdatoru"
 
 msgid "Speed"
-msgstr "Brzina"
+msgstr "Ātrums"
 
 msgid "Speed:"
 msgstr ""
@@ -9981,13 +10018,13 @@ msgstr ""
 
 #, c-format
 msgid "Starting transfer of %s from %s"
-msgstr "Pokretanje prijenosa %s sa %s"
+msgstr ""
 
 msgid "Starts _typing"
 msgstr ""
 
 msgid "Starts typing"
-msgstr "Počinje tipkati"
+msgstr "Sāk rakstīt"
 
 #. Autostart
 msgid "Startup"
@@ -10002,7 +10039,7 @@ msgstr ""
 #. XXX: Use of ggp_str_to_uin() is an ugly hack!
 #. presence
 msgid "Status"
-msgstr "Stanje"
+msgstr "Statuss"
 
 msgid "Status / Idle"
 msgstr ""
@@ -10037,16 +10074,16 @@ msgid "Status to a_pply at startup:"
 msgstr ""
 
 msgid "Status:"
-msgstr "Stanje:"
+msgstr "Statuss:"
 
 msgid "Statuses"
-msgstr "Stanja"
+msgstr "Statusi"
 
 msgid "Stepped Out"
 msgstr ""
 
 msgid "Stop"
-msgstr "Zaustavi"
+msgstr "Apturēt"
 
 msgid "Stopped Typing"
 msgstr ""
@@ -10058,7 +10095,7 @@ msgid "Stops t_yping"
 msgstr ""
 
 msgid "Stops typing"
-msgstr "Vie ne tipka"
+msgstr "Pārstāj rakstīt"
 
 #. *< name
 #. *< version
@@ -10091,7 +10128,7 @@ msgid "Studying"
 msgstr ""
 
 msgid "Subject"
-msgstr ""
+msgstr "Temats"
 
 #. subscription type
 msgid "Subscription"
@@ -10104,7 +10141,7 @@ msgid "Subscription Required"
 msgstr ""
 
 msgid "Substatus"
-msgstr "Podstanje"
+msgstr "Apakšstatuss"
 
 msgid "Successfully Logged In..."
 msgstr ""
@@ -10119,7 +10156,7 @@ msgid ""
 msgstr ""
 
 msgid "Supported debug options are: plugins version"
-msgstr ""
+msgstr "Atbalstītās atkļūdošanas opcijas: plugins version"
 
 msgid "Supports"
 msgstr ""
@@ -10148,9 +10185,10 @@ msgstr ""
 msgid ""
 "Syntax Error:  You typed the wrong number of arguments to that command."
 msgstr ""
+"Sintakses kļūda — jūs ievadījāt nepareizu argumentu skaitu tajā komandā."
 
 msgid "System Log"
-msgstr ""
+msgstr "Sistēmas žurnāls"
 
 msgid "System Messages"
 msgstr ""
@@ -10166,6 +10204,8 @@ msgid ""
 "System events will only be logged if the \"Log all status changes to system "
 "log\" preference is enabled."
 msgstr ""
+"Sistēmas notikumi tiks reģistrēti žurnālā tikai tad, ja būs ieslēgts "
+"iestatījums “Reģistrēt sistēmas žurnālā visas statusu izmaiņas”"
 
 msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr ""
@@ -10210,7 +10250,7 @@ msgid "Terminal"
 msgstr ""
 
 msgid "Test"
-msgstr "Proba"
+msgstr "Testēt"
 
 #. *< name
 #. *< version
@@ -10279,13 +10319,13 @@ msgid "That buddy is not on the same protocol as this chat."
 msgstr ""
 
 msgid "That command doesn't work on this protocol."
-msgstr ""
+msgstr "Tā komanda nestrādā ar šo protokolu."
 
 msgid "That command only works in IMs, not chats."
-msgstr ""
+msgstr "Tā komanda darbojas tikai TZ, nevis tērzēšanā."
 
 msgid "That command only works in chats, not IMs."
-msgstr ""
+msgstr "Tā komanda darbojas tikai tērzēšanā, nevis TZ."
 
 msgid "That file already exists"
 msgstr ""
@@ -10405,16 +10445,16 @@ msgid ""
 "The account has disconnected and you are no longer in this chat. You will be "
 "automatically rejoined in the chat when the account reconnects."
 msgstr ""
-"Račun je odspojen i vie niste u ovom čavrljanju. Bit ćete aautomatski opet "
-"dodani u čavrljanje kad se račun ponovno spoji."
+"Konts atvienojās un jūs vairs neesat šajā. Kad konts atkal savienosies, jūs "
+"tiksiet automātiski atkārtoti pievienots tērzēšanai."
 
 msgid ""
 "The account's protocol cannot be changed while it is connected to the server."
-msgstr ""
+msgstr "Konta protokolu nevar mainīt, kamēr tas ir savienots ar serveri."
 
 msgid ""
 "The account's username cannot be changed while it is connected to the server."
-msgstr "Ne moete promijeniti korisničko ime dok ste spojeni sa serverom."
+msgstr "Konta lietotājvārdu nevar mainīt, kamēr tas ir savienots ar serveri."
 
 msgid "The background color for the buddy list"
 msgstr ""
@@ -10442,7 +10482,7 @@ msgid ""
 msgstr ""
 
 msgid "The call has been terminated."
-msgstr "Poziv je zavren."
+msgstr "Zvans tika pārtraukts."
 
 msgid "The certificate chain presented is invalid."
 msgstr ""
@@ -10539,7 +10579,7 @@ msgstr ""
 
 #, c-format
 msgid "The file was saved as %s."
-msgstr "Datoteka je spremljena kao %s."
+msgstr "Datne tiks saglabāta kā %s."
 
 #. the file is too big
 msgid "The file you are trying to send is too large!"
@@ -10658,7 +10698,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "The message is too large."
-msgstr "Poruka je prevelika."
+msgstr ""
 
 msgid "The new formatting is invalid."
 msgstr ""
@@ -10692,7 +10732,7 @@ msgid ""
 msgstr ""
 
 msgid "The required fields are underlined."
-msgstr "Bitna polja su podcrtana."
+msgstr "Vajadzīgie lauki ir pasvītroti."
 
 #, c-format
 msgid ""
@@ -10708,12 +10748,14 @@ msgid ""
 "The rest of the messages will be saved as pounces. You can edit/delete the "
 "pounce from the `Buddy Pounce' dialog."
 msgstr ""
+"Atlikušās ziņas tiks saglabātas kā rekcijas. Jūs varat rediģēt/dzēst "
+"reakciju dialoglodziņā “Draugu reakcijas”."
 
 msgid "The selected account is not online."
-msgstr "Odabrani račun nije na vezi."
+msgstr "Izvēlētais konts nav tiešsaistē."
 
 msgid "The selected file is not a valid plugin."
-msgstr ""
+msgstr "Izvēlētā datne nav derīgs spraudnis."
 
 msgid "The server could not access the directory"
 msgstr ""
@@ -10848,7 +10890,7 @@ msgid "Themes"
 msgstr ""
 
 msgid "There are no protocol plugins installed."
-msgstr ""
+msgstr "Nav instalētu protokola spraudņu."
 
 msgid "There are no users matching your search criteria."
 msgstr ""
@@ -10937,7 +10979,7 @@ msgstr ""
 
 msgid ""
 "This plugin cannot be loaded because it was not built with X11 support."
-msgstr ""
+msgstr "Nevar ielādēt šo spraudni, jo tas netika būvēts ar X11 atbalstu."
 
 #. *  description
 msgid ""
@@ -10973,10 +11015,10 @@ msgid "This protocol does not support chat rooms."
 msgstr ""
 
 msgid "This protocol does not support fetching the public alias."
-msgstr ""
+msgstr "Šis protokols neatbalsta publiska pseidonīma saņemšanu."
 
 msgid "This protocol does not support setting a public alias."
-msgstr ""
+msgstr "Šis protokols neatbalsta publiska pseidonīma iestatīšanu."
 
 msgid ""
 "This requires a direct connection between the two computers and is necessary "
@@ -11047,7 +11089,7 @@ msgid "Timezone (UTC)"
 msgstr ""
 
 msgid "TinyURL"
-msgstr "TinyURL"
+msgstr ""
 
 msgid "TinyURL (or other) address prefix"
 msgstr ""
@@ -11057,14 +11099,14 @@ msgid "TinyURL for above: %s"
 msgstr ""
 
 msgid "TinyURL plugin"
-msgstr "TinyURL dodatak"
+msgstr ""
 
 msgid "Tired"
 msgstr ""
 
 #. title
 msgid "Title"
-msgstr "Naslov"
+msgstr "Nosaukums"
 
 msgid "Title already in use.  You must choose a unique title."
 msgstr ""
@@ -11081,7 +11123,7 @@ msgid "Toaster plugin"
 msgstr ""
 
 msgid "Toggle Tag"
-msgstr ""
+msgstr "Pārslēgt tagu"
 
 msgid "Too many groups"
 msgstr ""
@@ -11128,18 +11170,18 @@ msgid "Total Friends"
 msgstr ""
 
 msgid "Total log size:"
-msgstr ""
+msgstr "Kopējais žurnāla izmērs:"
 
 msgid "Traditional Chinese"
 msgstr ""
 
 #, c-format
 msgid "Transfer of file %s complete"
-msgstr "Prijenos datoteke %s dovren"
+msgstr ""
 
 #, c-format
 msgid "Transfer of file <A HREF=\"file://%s\">%s</A> complete"
-msgstr "Prijenos datoteke <A HREF=\"file://%s\">%s</A> dovren"
+msgstr ""
 
 msgid "Transferring"
 msgstr ""
@@ -11247,7 +11289,7 @@ msgid "Turkish"
 msgstr ""
 
 msgid "Type"
-msgstr "Vrsta"
+msgstr "Tips"
 
 msgid "Type a user to block."
 msgstr ""
@@ -11265,7 +11307,7 @@ msgid "Type the host name for this certificate."
 msgstr ""
 
 msgid "Type the host name this certificate is for."
-msgstr ""
+msgstr "Ierakstiet resursdatora nosaukumu, kam ir paredzēts šis sertifikāts."
 
 msgid "Typing"
 msgstr ""
@@ -11286,7 +11328,7 @@ msgstr ""
 #. * may not always happen, e.g. when another plugin sets its own
 #. * notify_message. So tread carefully.
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #. Installer Subsection Text
 msgid "URI Handlers"
@@ -11625,7 +11667,7 @@ msgid "Unable to open a listening port."
 msgstr ""
 
 msgid "Unable to open file."
-msgstr "Neoguće otvaranje datoteke."
+msgstr "Nevar atvērt datni."
 
 msgid "Unable to parse message"
 msgstr ""
@@ -11700,7 +11742,7 @@ msgstr ""
 
 #, c-format
 msgid "Unable to send message to %s."
-msgstr "Nemoguće slanje poruke za %s."
+msgstr ""
 
 #, c-format
 msgid "Unable to send message to %s. Could not create the conference (%s)."
@@ -11719,7 +11761,7 @@ msgid "Unable to send message to %s: %s (%s)"
 msgstr ""
 
 msgid "Unable to send message."
-msgstr "Nemoguće slanje poruke."
+msgstr ""
 
 #, c-format
 msgid "Unable to send message. Could not create the conference (%s)."
@@ -11741,7 +11783,7 @@ msgid "Unable to send message: %s (%s)"
 msgstr ""
 
 msgid "Unable to send message: The message is too large."
-msgstr "Nemoguće slanje poruke: Poruka je prevelika."
+msgstr ""
 
 msgid "Unable to send request to resolver process\n"
 msgstr ""
@@ -11782,7 +11824,7 @@ msgid "Unable to write to network"
 msgstr ""
 
 msgid "Unblock"
-msgstr "Deblokiraj"
+msgstr "Atbloķēt"
 
 msgid "Undefined"
 msgstr ""
@@ -11823,7 +11865,7 @@ msgid "Unity Integration"
 msgstr ""
 
 msgid "Unknown"
-msgstr "Nepoznato"
+msgstr ""
 
 #, c-format
 msgid "Unknown (0x%04x)<br>"
@@ -11863,7 +11905,7 @@ msgstr ""
 #. Undocumented
 #. Unknown error
 msgid "Unknown error"
-msgstr "Nepoznata greka"
+msgstr ""
 
 #. Unknown error!
 #, c-format
@@ -11905,10 +11947,10 @@ msgid "Unknown node type"
 msgstr ""
 
 msgid "Unknown pounce event. Please report this!"
-msgstr ""
+msgstr "Nezināms reakcijas notikums. Lūdzu, par šo ziņojiet!"
 
 msgid "Unknown reason"
-msgstr "Nepoznat razlog"
+msgstr ""
 
 #, c-format
 msgid "Unknown role: \"%s\""
@@ -12006,12 +12048,14 @@ msgstr ""
 
 #. Use
 msgid "Use"
-msgstr ""
+msgstr "Lietojums"
 
 msgid ""
 "Use \"/help &lt;command&gt;\" for help on a specific command.\n"
 "The following commands are available in this context:\n"
 msgstr ""
+"Izmantojiet “/help &lt;komanda&gt;”, lai saņemtu palīdzību par komandu.\n"
+"Šajā kontekstā ir pieejamas sekojošās komandas:\n"
 
 msgid "Use Environmental Settings"
 msgstr ""
@@ -12052,7 +12096,7 @@ msgid "Use clientLogin"
 msgstr ""
 
 msgid "Use different status for following accounts"
-msgstr "Koristi različita stanja za slijedeće račune"
+msgstr "Sekojošajiem kontiem izmantot citu statusu"
 
 msgid "Use encryption if available"
 msgstr ""
@@ -12188,7 +12232,7 @@ msgid "User_name:"
 msgstr ""
 
 msgid "Username"
-msgstr "Korisničko ime"
+msgstr "Lietotājvārds"
 
 #. Unregistered username
 #. the username does not exist
@@ -12199,7 +12243,7 @@ msgid "Username formatting can change only capitalization and whitespace."
 msgstr ""
 
 msgid "Username of an account must be non-empty."
-msgstr "Korisničko ime za račun nesmije biti prazno"
+msgstr "Konta lietotājvārds nevar būtu tukšs."
 
 #. username or password missing
 msgid "Username or password missing"
@@ -12209,7 +12253,7 @@ msgid "Username sent"
 msgstr ""
 
 msgid "Username:"
-msgstr "Korisničko Ime"
+msgstr "Lietotājvārds:"
 
 msgid "Users"
 msgstr ""
@@ -12269,7 +12313,7 @@ msgid "Vietnamese"
 msgstr ""
 
 msgid "View All Logs"
-msgstr ""
+msgstr "Skatīt visus žurnālus"
 
 msgid "View Blocked Text..."
 msgstr ""
@@ -12281,10 +12325,10 @@ msgid "View Locations..."
 msgstr ""
 
 msgid "View Log"
-msgstr ""
+msgstr "Skatīt žurnālu"
 
 msgid "View Log..."
-msgstr ""
+msgstr "Skatīt žurnālu..."
 
 msgid "View MOTD"
 msgstr ""
@@ -12337,7 +12381,7 @@ msgid "Voices"
 msgstr ""
 
 msgid "Volume(0-100):"
-msgstr "Jačina Zvuka (0-100)"
+msgstr "Skaļums (0–100):"
 
 msgid "Volume:"
 msgstr ""
@@ -12363,7 +12407,7 @@ msgid "Waiting for response..."
 msgstr ""
 
 msgid "Waiting for transfer to begin"
-msgstr "Čeka se da prijenos počinje"
+msgstr "Gaida uz pārsūtīšanas sākšanos"
 
 msgid "Wake Me Up"
 msgstr ""
@@ -12474,6 +12518,7 @@ msgid ""
 "When the gnt clipboard contents change, the contents are made available to "
 "X, if possible."
 msgstr ""
+"Kad gnt starpliktuves saturs mainās, tā saturs ir pieejams X, ja iespējams."
 
 #. * description
 msgid ""
@@ -12627,10 +12672,10 @@ msgid "X.509 Certificates"
 msgstr ""
 
 msgid "X.509 certificate export failed"
-msgstr ""
+msgstr "Neizdevās eksportēt X.509 sertifikātu"
 
 msgid "X.509 certificate import failed"
-msgstr ""
+msgstr "Neizdevās importēt X.509 sertifikātu"
 
 msgid "XML"
 msgstr ""
@@ -12799,7 +12844,7 @@ msgid ""
 msgstr ""
 
 msgid "You are not connected."
-msgstr "Niste spojeni."
+msgstr "Jūs neesat savienots."
 
 msgid ""
 "You are not currently signed on with an account that can add that buddy."
@@ -12836,7 +12881,7 @@ msgid "You are using %s, but this plugin requires %s."
 msgstr ""
 
 msgid "You can (un)load plugins from the following list."
-msgstr ""
+msgstr "Jūs varat ielādēt/izlādēt spraudņus no sekojošā saraksta."
 
 #, c-format
 msgid ""
@@ -12845,13 +12890,13 @@ msgid ""
 msgstr ""
 
 msgid "You can edit more information from the context menu later."
-msgstr ""
+msgstr "Jūs varat vēlāk rediģēt papildu informāciju no konteksta izvēlnes."
 
 msgid "You can edit/delete the pounce from the `Buddy Pounces' dialog"
 msgstr ""
 
 msgid "You can enable/disable accounts from the following list."
-msgstr ""
+msgstr "Jūs varat ieslēgt/izslēgt kontus no sekojošā saraksta."
 
 msgid ""
 "You can insert this image into this message, or use it as the buddy icon for "
@@ -12884,7 +12929,7 @@ msgstr ""
 
 #, c-format
 msgid "You cancelled the transfer of %s"
-msgstr "Otkazali ste prijenos %s"
+msgstr ""
 
 msgid "You cannot add the same person twice to a conversation"
 msgstr ""
@@ -12901,7 +12946,7 @@ msgid "You did not enter the security code"
 msgstr ""
 
 msgid "You do not have any accounts."
-msgstr ""
+msgstr "Jums nav kontu."
 
 msgid "You do not have permission to uninstall this application."
 msgstr ""
@@ -12976,10 +13021,10 @@ msgid "You have invited"
 msgstr ""
 
 msgid "You have left this chat."
-msgstr "Napustili ste ovo čavrljanje."
+msgstr "Jūs pametāt šo tērzēšanu."
 
 msgid "You have mail!"
-msgstr "Imate e-poruke!"
+msgstr "Jūs esat saņēmis vēstuli!"
 
 msgid ""
 "You have no database of root certificates, so this certificate cannot be "
@@ -13024,7 +13069,7 @@ msgid ""
 msgstr ""
 
 msgid "You have rejected the call."
-msgstr "Odbili ste poziv."
+msgstr "Jūs noraidījāt zvanu."
 
 #, c-format
 msgid "You have selected to open a Direct IM connection with %s."
@@ -13094,28 +13139,28 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "You must create an account first before you can create a pounce."
-msgstr ""
+msgstr "Vispirms ir jāizveido konts, pirms varat izveidot reakciju."
 
 msgid "You must fill all the required fields."
-msgstr "Morate ispuniti sve bitna polja."
+msgstr "Jāaizpilda visi pieprasītie lauki."
 
 msgid "You must give a name for the group to add."
-msgstr ""
+msgstr "Jums jādot nosaukums grupai, ko vēlaties pievienot."
 
 msgid "You must provide a group."
-msgstr "Morate osigurati grupu."
+msgstr "Jums jānorāda grupa."
 
 msgid "You must provide a username for the buddy."
-msgstr "Morate osigurati korisničko ime za prijatelja."
+msgstr "Jums jānorāda lietotājvārds šim draugam."
 
 msgid "You must select an account."
-msgstr "Morate odabrati račun"
+msgstr "Jums jāizvēlas konts."
 
 msgid "You must specify a nick"
 msgstr ""
 
 msgid "You receive an IM"
-msgstr "Primili ste izravnu poruku"
+msgstr "Jūs saņēmāt TZ"
 
 msgid "You require encryption, but it is not available on this server."
 msgstr ""
@@ -13141,7 +13186,7 @@ msgid "You should receive an email asking to confirm %s."
 msgstr ""
 
 msgid "You talk in chat"
-msgstr ""
+msgstr "Jūs runājat tērzēšanā"
 
 msgid "You type"
 msgstr ""
@@ -13212,7 +13257,7 @@ msgid "Your buddylist is empty, nothing was written to the file."
 msgstr ""
 
 msgid "Your command failed for an unknown reason."
-msgstr ""
+msgstr "Komanda cieta neveiksmi nezināma iemesla dēļ."
 
 msgid "Your new MSN friendly name is too long."
 msgstr ""
@@ -13316,10 +13361,10 @@ msgid "_Add..."
 msgstr ""
 
 msgid "_Alias"
-msgstr ""
+msgstr "_Pseidonīms"
 
 msgid "_Alias..."
-msgstr ""
+msgstr "_Pseidonīms..."
 
 msgid "_Apply"
 msgstr ""
@@ -13528,7 +13573,7 @@ msgid "_Link"
 msgstr ""
 
 msgid "_Local alias:"
-msgstr ""
+msgstr "_Lokālais pseidonīms:"
 
 msgid "_Login"
 msgstr ""
@@ -13700,7 +13745,7 @@ msgid "_Send File..."
 msgstr ""
 
 msgid "_Send Message"
-msgstr "_Poalji Poruku"
+msgstr ""
 
 msgid "_Server:"
 msgstr ""
@@ -13784,10 +13829,10 @@ msgid "aMSN"
 msgstr ""
 
 msgid "accounts"
-msgstr "računi"
+msgstr ""
 
 msgid "accounts: Show the accounts window."
-msgstr "računi: Prikai prozor računa."
+msgstr "accounts: rāda kontu logu."
 
 msgid "action &lt;action to perform&gt;:  Perform an action."
 msgstr ""
@@ -13821,10 +13866,10 @@ msgid "blocklist command failed"
 msgstr ""
 
 msgid "buddy list"
-msgstr "popis prijatelja"
+msgstr ""
 
 msgid "buddylist: Show the buddylist."
-msgstr "popis prijatelja: Prikai popis prijatelja."
+msgstr "buddylist: parāda draugu sarakstu."
 
 msgid "buzz: Buzz a user to get their attention"
 msgstr ""
@@ -13833,7 +13878,7 @@ msgid "call &lt;command&gt;:  Call any silc client command"
 msgstr ""
 
 msgid "call: Make an audio call."
-msgstr ""
+msgstr "call: veikt audio zvanu."
 
 #, c-format
 msgid "channel %s not found"
@@ -13850,7 +13895,7 @@ msgid "clear: Clears all conversation scrollbacks."
 msgstr ""
 
 msgid "clear: Clears the conversation scrollback."
-msgstr ""
+msgstr "clear: attīra sarunas ritināšanas atmiņu."
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -13879,9 +13924,11 @@ msgid ""
 "debug &lt;option&gt;:  Send various debug information to the current "
 "conversation."
 msgstr ""
+"debug &lt;opcija&gt;:  sūtīt dažādu atkļūdošanas informāciju uz pašreizējo "
+"sarunu."
 
 msgid "debugwin: Show the debug window."
-msgstr ""
+msgstr "debugwin: rāda atkļūdošanas logu."
 
 msgid ""
 "deop &lt;nick1&gt; [nick2] ...:  Remove channel operator status from "
@@ -13929,7 +13976,7 @@ msgid "hacker and designated driver [lazy bum]"
 msgstr ""
 
 msgid "help &lt;command&gt;:  Help on a specific command."
-msgstr "pomoć &lt;command&gt;: Pomoć za naročitu naredbu."
+msgstr "help &lt;komanda&gt;:  palīdzība par norādīto komandu."
 
 msgid "iChat AV"
 msgstr ""
@@ -13955,9 +14002,11 @@ msgid ""
 "invite &lt;nick&gt; [room]:  Invite someone to join you in the specified "
 "channel, or the current channel."
 msgstr ""
+"invite &lt;segvārds&gt; [istaba]:  uzaicināt kādu pievienoties noteiktam "
+"kanālam vai pašreizējam kanālam."
 
 msgid "invite &lt;user&gt; [message]:  Invite a user to the room."
-msgstr ""
+msgstr "invite &lt;lietotājs&gt; [ziņojums]:  uzaicināt lietotāju uz istabu."
 
 msgid ""
 "j &lt;room1&gt;[,room2][,...] [key1[,key2][,...]]:  Enter one or more "
@@ -14018,7 +14067,7 @@ msgid "list: List rooms on the Yahoo network"
 msgstr ""
 
 msgid "loading plugin failed"
-msgstr ""
+msgstr "neizdevās spraudņa ielādēšana"
 
 msgid "maintainer"
 msgstr ""
@@ -14027,7 +14076,7 @@ msgid "me &lt;action to perform&gt;:  Perform an action."
 msgstr ""
 
 msgid "me &lt;action&gt;:  Send an IRC style action to a buddy or chat."
-msgstr ""
+msgstr "me &lt;darbība&gt;: sūtīt IRC veida darbību draugam vai tērzēšanai."
 
 msgid "memoserv: Send a command to memoserv"
 msgstr ""
@@ -14070,6 +14119,11 @@ msgid ""
 "darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
 "default"
 msgstr ""
+"msgcolor &lt;klase&gt; &lt;priekšplāns&gt; &lt;fons&gt;: iestatīt krāsu "
+"dažādu ziņojumu klasēm sarunas logā.<br>    &lt;klase&gt;: receive, send, "
+"highlight, action, timestamp<br>    &lt;priekšplāns/fons&gt;: black, red, "
+"green, blue, white, gray, darkgray, magenta, cyan, "
+"default<br><br>PIEMĒRS:<br>    msgcolor send cyan default"
 
 msgid "myim URL handler"
 msgstr ""
@@ -14153,10 +14207,10 @@ msgid "ping:  Send PING to the connected server"
 msgstr ""
 
 msgid "plugins: Show the plugins window."
-msgstr "dodaci: Prikai prozor dodataka."
+msgstr "plugins: parāda spraudņu logu."
 
 msgid "prefs: Show the preference window."
-msgstr ""
+msgstr "prefs: parāda iestatījumu logu."
 
 msgid "print debugging messages to stdout"
 msgstr ""
@@ -14200,12 +14254,13 @@ msgid ""
 "say &lt;message&gt;:  Send a message normally as if you weren't using a "
 "command."
 msgstr ""
+"say &lt;ziņojums&gt;: sūtīt ziņojumu normāli, it kā neizmantotu komandu."
 
 msgid "stats:  View server and network statistics"
 msgstr ""
 
 msgid "statuses: Show the savedstatuses window."
-msgstr ""
+msgstr "statuses: rāda saglabāto statusu logu."
 
 msgid "sub &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Join a new chat"
 msgstr ""
@@ -14241,7 +14296,7 @@ msgid "umode &lt;usermodes&gt;:  Set your modes in the network"
 msgstr ""
 
 msgid "unloading plugin failed"
-msgstr ""
+msgstr "neizdevās spraudņa izlādēšana"
 
 msgid "use DIR for config files"
 msgstr ""
@@ -14250,7 +14305,7 @@ msgid "users &lt;channel&gt;:  List users in channel"
 msgstr ""
 
 msgid "users:  Show the list of users in the chat."
-msgstr "korisnici: Prikai popis korisnika u čavrljanju."
+msgstr "users:  rādīt tērzēšanā esošo lietotāju sarakstu."
 
 msgid "version [nick]: send CTCP VERSION request to a user"
 msgstr ""
