@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-25 18:41-0200\n"
-"PO-Revision-Date: 2014-10-04 14:13+0000\n"
+"PO-Revision-Date: 2014-10-26 11:11+0000\n"
 "Last-Translator: Anthony Harrington <untaintableangel@ubuntu.com>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-10-26 06:30+0000\n"
+"X-Launchpad-Export-Date: 2014-10-27 07:12+0000\n"
 "X-Generator: Launchpad (build 17203)\n"
 "Language: English (United Kingdom)\n"
 
@@ -932,7 +932,7 @@ msgid "(none)"
 msgstr "(none)"
 
 msgid "(self-signed)"
-msgstr ""
+msgstr "(self-signed)"
 
 #, c-format
 msgid "+++ %s became idle"
@@ -1497,6 +1497,8 @@ msgid ""
 "<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
@@ -1852,7 +1854,7 @@ msgid "Activate ID..."
 msgstr "Activate ID..."
 
 msgid "Activate which ID?"
-msgstr ""
+msgstr "Activate which ID?"
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc Command Failed"
@@ -2347,7 +2349,7 @@ msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Are you sure you wish to allow %s to contact you?"
 
 msgid "Argentine Spanish"
-msgstr ""
+msgstr "Argentine Spanish"
 
 msgid "Armenian"
 msgstr "Armenian"
@@ -2681,7 +2683,7 @@ msgid "Blocked Text for %s"
 msgstr "Blocked Text for %s"
 
 msgid "Bodo"
-msgstr ""
+msgstr "Bodo"
 
 msgid "Bokmål Norwegian"
 msgstr "Bokmål Norwegian"
@@ -3481,6 +3483,14 @@ msgid ""
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
+"Common name: %s\n"
+"\n"
+"Issued By: %s\n"
+"\n"
+"Fingerprint (SHA1): %s\n"
+"\n"
+"Activation date: %s\n"
+"Expiration date: %s\n"
 
 #, c-format
 msgid ""
@@ -6324,10 +6334,10 @@ msgid "Kannada Translation team"
 msgstr "Kannada Translation team"
 
 msgid "Kashmiri"
-msgstr ""
+msgstr "Kashmiri"
 
 msgid "Kazakh"
-msgstr ""
+msgstr "Kazakh"
 
 msgid "Key Agreement"
 msgstr "Key Agreement"
@@ -6449,7 +6459,7 @@ msgid "Latest News"
 msgstr "Latest News"
 
 msgid "Latvian"
-msgstr ""
+msgstr "Latvian"
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10173,7 +10183,7 @@ msgid "Simplified Chinese"
 msgstr "Simplified Chinese"
 
 msgid "Sindhi"
-msgstr ""
+msgstr "Sindhi"
 
 msgid "Single"
 msgstr "Single"
@@ -10561,7 +10571,7 @@ msgid "Tamil"
 msgstr "Tamil"
 
 msgid "Tatar"
-msgstr ""
+msgstr "Tatar"
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl Plug-in Loader"
@@ -11345,6 +11355,8 @@ msgid ""
 "This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
 "need the installer for the 32-bit version of Pidgin++."
 msgstr ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
 
 msgid "This Location"
 msgstr "This Location"
@@ -12080,7 +12092,7 @@ msgstr ""
 "http://d.pidgin.im/BonjourWindows for more information."
 
 msgid "Unable to find Issuer Certificate"
-msgstr ""
+msgstr "Unable to find Issuer Certificate"
 
 msgid "Unable to get a valid AIM login hash."
 msgstr "Unable to get a valid AIM login hash."
@@ -12196,7 +12208,7 @@ msgstr "Unable to resolve hostname"
 
 #, c-format
 msgid "Unable to resolve hostname: %s"
-msgstr ""
+msgstr "Unable to resolve hostname: %s"
 
 msgid "Unable to save icon file to disk."
 msgstr "Unable to save icon file to disk."
@@ -12772,7 +12784,7 @@ msgid "Using a PDA"
 msgstr "Using a PDA"
 
 msgid "Uzbek"
-msgstr ""
+msgstr "Uzbek"
 
 msgid "V_olume:"
 msgstr "V_olume:"
@@ -12825,7 +12837,7 @@ msgid "View Blocked Text..."
 msgstr "View Blocked Text..."
 
 msgid "View Issuer Certificate"
-msgstr ""
+msgstr "View Issuer Certificate"
 
 msgid "View Locations..."
 msgstr "View Locations..."
