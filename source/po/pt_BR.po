@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-25 18:41-0200\n"
-"PO-Revision-Date: 2014-09-17 00:33+0000\n"
+"PO-Revision-Date: 2014-11-03 19:54+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Renato Silva <br.renatosilva@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2014-10-26 06:29+0000\n"
-"X-Generator: Launchpad (build 17203)\n"
+"X-Launchpad-Export-Date: 2014-11-04 07:26+0000\n"
+"X-Generator: Launchpad (build 17211)\n"
 "Language: Brazilian Portuguese\n"
 
 msgid "\t_Only when someone says your username"
@@ -947,7 +947,7 @@ msgid "(none)"
 msgstr "(nome)"
 
 msgid "(self-signed)"
-msgstr ""
+msgstr "(autoassinado)"
 
 #, c-format
 msgid "+++ %s became idle"
@@ -1515,6 +1515,8 @@ msgid ""
 "<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
+"<font size='4'><b>%s %s%s</b></font><br>\tBaseado no Pidgin <i>%s</i><br>\t"
+"Libpurple <i>%s</i><br>\tRevisão de pacote <i>%s</i><br><br>"
 
 #, c-format
 msgid "<h1>Conversation with %s</h1>\n"
@@ -1876,7 +1878,7 @@ msgid "Activate ID..."
 msgstr "Ativar ID..."
 
 msgid "Activate which ID?"
-msgstr ""
+msgstr "Ativar qual ID?"
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Comando ad-hoc falhou"
@@ -2380,7 +2382,7 @@ msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Você tem certeza de que deseja permitir que %s te contate?"
 
 msgid "Argentine Spanish"
-msgstr ""
+msgstr "Espanhol Argentino"
 
 msgid "Armenian"
 msgstr "Armênio"
@@ -2719,7 +2721,7 @@ msgid "Blocked Text for %s"
 msgstr "Texto bloqueado para %s"
 
 msgid "Bodo"
-msgstr ""
+msgstr "Bodo"
 
 msgid "Bokmål Norwegian"
 msgstr "Dano-Norueguês"
@@ -3527,6 +3529,14 @@ msgid ""
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
+"Nome comum: %s\n"
+"\n"
+"Emitido por: %s\n"
+"\n"
+"Impressão digital (SHA1): %s\n"
+"\n"
+"Data de ativação: %s\n"
+"Data de expiração: %s\n"
 
 #, c-format
 msgid ""
@@ -6384,10 +6394,10 @@ msgid "Kannada Translation team"
 msgstr "Time de tradução do idioma Canarês"
 
 msgid "Kashmiri"
-msgstr ""
+msgstr "Caxemira"
 
 msgid "Kazakh"
-msgstr ""
+msgstr "Cazaque"
 
 msgid "Key Agreement"
 msgstr "Acordo de chaves"
@@ -6509,7 +6519,7 @@ msgid "Latest News"
 msgstr "Última(s) notícia(s)"
 
 msgid "Latvian"
-msgstr ""
+msgstr "Letão"
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10272,7 +10282,7 @@ msgid "Simplified Chinese"
 msgstr "Chinês Simplificado"
 
 msgid "Sindhi"
-msgstr ""
+msgstr "Sindi"
 
 msgid "Single"
 msgstr "Solteiro"
@@ -10411,7 +10421,7 @@ msgid "Speakers"
 msgstr "Caixas de som"
 
 msgid "Specify a hostname"
-msgstr "Especifique um nome de host"
+msgstr "Especifique um nome de computador"
 
 msgid "Speed"
 msgstr "Velocidade"
@@ -10662,7 +10672,7 @@ msgid "Tamil"
 msgstr "Tamil"
 
 msgid "Tatar"
-msgstr ""
+msgstr "Tártaro"
 
 msgid "Tcl Plugin Loader"
 msgstr "Carregador de plug-ins Tcl"
@@ -11002,7 +11012,7 @@ msgstr ""
 
 msgid "The certificate is self-signed and cannot be automatically checked."
 msgstr ""
-"O certificado enviado é auto-assinado e não pode ser verificado "
+"O certificado enviado é autoassinado e não pode ser verificado "
 "automaticamente."
 
 #. Translators: "domain" refers to a DNS domain (e.g. talk.google.com)
@@ -11462,6 +11472,8 @@ msgid ""
 "This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
 "need the installer for the 32-bit version of Pidgin++."
 msgstr ""
+"Esta versão de 64 bits do Pidgin++ não pode ser instalada no Windows de 32 "
+"bits. Você precisa do instalador para a versão de 32 bits do Pidgin++."
 
 msgid "This Location"
 msgstr "Este local"
@@ -12211,7 +12223,7 @@ msgstr ""
 "http://d.pidgin.im/BonjourWindows para mais informações."
 
 msgid "Unable to find Issuer Certificate"
-msgstr ""
+msgstr "Não foi possível encontrar o certificado emissor"
 
 msgid "Unable to get a valid AIM login hash."
 msgstr "Não foi possível conseguir um hash de conexão AIM válido."
@@ -12331,7 +12343,7 @@ msgstr "Não foi possível solucionar o nome do computador"
 
 #, c-format
 msgid "Unable to resolve hostname: %s"
-msgstr ""
+msgstr "Não foi possível resolver o nome do computador: %s"
 
 msgid "Unable to save icon file to disk."
 msgstr "Não foi possível salvar arquivo de ícone no disco."
@@ -12919,7 +12931,7 @@ msgid "Using a PDA"
 msgstr "Usando um PDA"
 
 msgid "Uzbek"
-msgstr ""
+msgstr "Uzbeque"
 
 msgid "V_olume:"
 msgstr "V_olume:"
@@ -12972,7 +12984,7 @@ msgid "View Blocked Text..."
 msgstr "Ver Texto Bloqueado..."
 
 msgid "View Issuer Certificate"
-msgstr ""
+msgstr "Visualizar certificado emissor"
 
 msgid "View Locations..."
 msgstr "Ver locais..."
