@@ -9,7 +9,7 @@ architecture=$(gcc -dumpmachine)
 architecture="${architecture%%-*}"
 bundle_version=$(pacman -Q mingw-w64-${architecture}-gtk2)
 bundle_version="${bundle_version##* }"
-bundle_version="${bundle_version%-*}"
+bundle_version="${bundle_version%-*}.R247"
 if [[ "$1" = --gtk-version ]]; then
     echo "$bundle_version"
     exit
@@ -49,8 +49,8 @@ check_sha1sum() {
 
 # Expected SHA-1 hash
 case "$bitness" in
-    32) architecture_short=x86; bundle_sha1sum=1839af01d03f13e47e3c42dd27c1d500e8bee815 ;;
-    64) architecture_short=x64; bundle_sha1sum=eeccdbaa0b9475a64ea06904c9badc73ef9ef7bd ;;
+    32) architecture_short=x86; bundle_sha1sum=e05684c45301a0e5c2fd328dbf1a19846a0f8190 ;;
+    64) architecture_short=x64; bundle_sha1sum=15c4c55d711285a4c3e415b7e84b5ec15202e3c7 ;;
 esac
 
 # Try downloading first
@@ -91,7 +91,6 @@ files=(bin/gspawn-win${bitness}-helper.exe
        bin/libffi-6.dll
        bin/libfontconfig-1.dll
        bin/libfreetype-6.dll
-       bin/libgcc_s_dw2-1.dll
        bin/libgdk_pixbuf-2.0-0.dll
        bin/libgdk-win32-2.0-0.dll
        bin/libgio-2.0-0.dll
@@ -122,6 +121,12 @@ files=(bin/gspawn-win${bitness}-helper.exe
        share/mime
        share/themes
        share/xml/fontconfig)
+
+# Exception handling
+case "$bitness" in
+32) files+=(bin/libgcc_s_dw2-1.dll) ;;
+64) files+=(bin/libgcc_s_seh-1.dll) ;;
+esac
 
 # Install main files
 info "Installing main files"
