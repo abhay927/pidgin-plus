@@ -396,7 +396,7 @@ static const wchar_t *winpidgin_get_locale() {
 	if ((locale = _wgetenv(L"PIDGINLANG")))
 		return locale;
 
-	if (!portable_mode && read_reg_string(HKEY_CURRENT_USER, L"SOFTWARE\\pidgin",
+	if (!portable_mode && read_reg_string(HKEY_CURRENT_USER, L"SOFTWARE\\Pidgin++",
 			L"Installer Language", (LPBYTE) &data, &datalen)) {
 		if ((locale = winpidgin_lcid_to_posix(_wtoi(data))))
 			return locale;
