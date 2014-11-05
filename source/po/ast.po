@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:28+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Asturian "
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:49+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:04+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Asturian\n"
 
 msgid "\t_Only when someone says your username"
@@ -868,6 +868,9 @@ msgstr ""
 msgid "(none)"
 msgstr "(nada)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr ""
@@ -1413,7 +1416,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1734,6 +1737,9 @@ msgstr "Aiciones"
 
 msgid "Activate ID..."
 msgstr "Activar ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Comandu Ad-Hoc fallíu"
@@ -2200,6 +2206,9 @@ msgstr "¿De xuru quies esniciar %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr ""
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr ""
 
@@ -2531,6 +2540,9 @@ msgstr "Bloquiáu"
 msgid "Blocked Text for %s"
 msgstr "Testu bloquiáu por %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr ""
 
@@ -2610,7 +2622,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr "Restolando pela rede"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Collacios/es"
 
@@ -3317,16 +3328,13 @@ msgstr "Comandu deshabilitáu"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Nome común: %s\n"
-"\n"
-"Beluga (SHA1): %s\n"
-"Data d'activación: %s\n"
-"Data d'espiración: %s\n"
 
 #, c-format
 msgid ""
@@ -6128,6 +6136,12 @@ msgstr ""
 msgid "Kannada Translation team"
 msgstr ""
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr ""
 
@@ -6244,6 +6258,9 @@ msgstr "Plugin Lastlog."
 
 msgid "Latest News"
 msgstr "Caberes anuncies"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -9922,6 +9939,9 @@ msgstr "Plugin Simple"
 msgid "Simplified Chinese"
 msgstr ""
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10300,6 +10320,9 @@ msgid "Taking a bath"
 msgstr ""
 
 msgid "Tamil"
+msgstr ""
+
+msgid "Tatar"
 msgstr ""
 
 msgid "Tcl Plugin Loader"
@@ -11025,6 +11048,11 @@ msgstr "Atalantando"
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Esti llugar"
 
@@ -11731,6 +11759,9 @@ msgstr ""
 "Nun pue alcontrase la caja de ferramientes \"Bonjour for Windows\" d'Appel, "
 "écha-y un güeyu a http://d.pidgin.im/BonjourWindows pa más información"
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr ""
 
@@ -11845,8 +11876,8 @@ msgid "Unable to resolve hostname"
 msgstr "Nun pue resolvese el nome d'agospiu"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Nun pue resolvese'l nome d'agospiu '%s': %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr ""
@@ -12415,6 +12446,9 @@ msgstr "Usuarios en %s: %s"
 msgid "Using a PDA"
 msgstr "Usando una PDS"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr ""
 
@@ -12464,6 +12498,9 @@ msgstr "Goyar tolos rexistros"
 
 msgid "View Blocked Text..."
 msgstr "Goyar testu bloquiáu..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Ver llugares..."

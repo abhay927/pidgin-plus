@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:02+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:15+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Kannada\n"
 
 msgid "\t_Only when someone says your username"
@@ -956,6 +956,9 @@ msgstr "(ಯಾವುದೆ ವಿಷಯವನ್ನು ನಿಗದಿಪಡಿ
 msgid "(none)"
 msgstr "(ಯಾವುದೂ ಇಲ್ಲ}"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++  %s ಈಗ ನಿಶ್ಚಲರಾದರು"
@@ -1507,7 +1510,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1865,6 +1868,9 @@ msgstr "ಕ್ರಿಯೆಗಳು"
 
 msgid "Activate ID..."
 msgstr "ID ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "ತಾತ್ಕಾಲಿಕ ಆದೇಶವು ವಿಫಲಗೊಂಡಿದೆ"
@@ -2363,6 +2369,9 @@ msgstr "%sನ್ನು ಅಳಿಸುವ ಬಗ್ಗೆ ಖಾತರಿಯೇ?
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "%s-ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಲು ಅನುಮತಿಸಬಯಸುವಿರಾ?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "ಅರ್ಮೇನಿಯನ್"
 
@@ -2699,6 +2708,9 @@ msgstr "ತಡೆಯಲ್ಪಟ್ಟ"
 msgid "Blocked Text for %s"
 msgstr "%s ಗಾಗಿ ಪಠ್ಯವನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "ಬಾಕ್ಮಲ್ ನಾರ್ವೇಜಿಯನ್"
 
@@ -2778,7 +2790,6 @@ msgstr "ಜಾಲವೀಕ್ಷಕದ ಆದ್ಯತೆಗಳನ್ನು GNOM
 msgid "Browsing the web"
 msgstr "ಜಾಲವನ್ನು ವೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "ಗೆಳೆಯರು"
 
@@ -3500,17 +3511,13 @@ msgstr "ಆದೇಶ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದ�
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"ಸಾಮಾನ್ಯ ಹೆಸರು: %s\n"
-"\n"
-"ಫಿಂಗರ್ಪ್ರಿಂಟ್ (SHA1): %s\n"
-"\n"
-"ಸಕ್ರಿಯಗೊಳಿಸಿದ ದಿನಾಂಕ: %s\n"
-"ವಾಯಿದೆ ಪೂರ್ಣಗೊಳಿಕಾ ದಿನಾಂಕ: %s\n"
 
 #, c-format
 msgid ""
@@ -6367,6 +6374,12 @@ msgstr "ಕನ್ನಡ"
 msgid "Kannada Translation team"
 msgstr "ಕನ್ನಡ ಅನುವಾದ ತಂಡ"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "ಪ್ರಮುಖ ಒಪ್ಪಂದ"
 
@@ -6485,6 +6498,9 @@ msgstr "ಲಾಸ್ಟ್‌ಲಾಗ್ ಪ್ಲಗ್ಇನ್."
 
 msgid "Latest News"
 msgstr "ಇತ್ತೀಚಿನ ಸುದ್ದಿ"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10253,6 +10269,9 @@ msgstr "ಸರಳ ಪ್ಲಗ್ಗಿನ್ನು"
 msgid "Simplified Chinese"
 msgstr "ಸರಳಗೊಳಿಸಿದ ಚೈನೀಸ್"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10639,6 +10658,9 @@ msgstr "ಸ್ನಾನ ಮಾಡಲಾಗುತ್ತಿದೆ"
 
 msgid "Tamil"
 msgstr "ತಮಿಳು"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl ಪ್ಲಗ್ಗಿನ್ ಲೋಡರ್"
@@ -11425,6 +11447,11 @@ msgstr "ಆಲೋಚಿಸುತ್ತಿರುವ"
 msgid "Thirsty"
 msgstr "ಬಾಯಾರಿದ"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -12172,6 +12199,9 @@ msgstr ""
 "ಆಪಲ್‌ನ \"Bonjour for Windows\" ಉಪಕರಣಪೆಟ್ಟಿಗೆಯನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ, "
 "ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ http://d.pidgin.im/BonjourWindows ಅನ್ನು ನೋಡಿ."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "ಸರಿಯಾದ AIM ಪ್ರವೇಶ ಹ್ಯಾಶನ್ನು ಪಡೆಯಲಾಗಿಲ್ಲ."
 
@@ -12287,10 +12317,9 @@ msgstr "ಬಳಕೆದಾರನನ್ನು ತೆಗೆದು ಹಾಕಲಾ�
 msgid "Unable to resolve hostname"
 msgstr "ಆತಿಥೇಯ ಹೆಸರನ್ನು ಪರಿಹರಿಸಲು ಆಗಲಿಲ್ಲ"
 
-# , c-format
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "ಆತಿಥೇಯ ಹೆಸರಾದ '%s' ಅನ್ನು  ಪರಿಹರಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "ಲಾಂಛನಕಡತವನ್ನು  ಡಿಸ್ಕಿಗೆ ಉಳಿಸಲಾಗಲಿಲ್ಲ"
@@ -12873,6 +12902,9 @@ msgstr "%s ಮೇಲೆ ಬಳಕೆದಾರರು : %s"
 msgid "Using a PDA"
 msgstr "PDA ಅನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "ಧ್ವನಿಯ ಪ್ರಮಾಣ(_o):"
 
@@ -12922,6 +12954,9 @@ msgstr "ಎಲ್ಲಾ ದಾಖಲೆಯನ್ನು ನೋಡು"
 
 msgid "View Blocked Text..."
 msgstr "ನಿರ್ಬಂಧಿಸಲಾದ ಪಠ್ಯವನ್ನು ನೋಡಿ..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr ""

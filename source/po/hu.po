@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:03+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Hungarian "
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:00+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:14+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Hungarian\n"
 
 msgid "\t_Only when someone says your username"
@@ -923,6 +923,9 @@ msgstr "(nincs beállítva téma)"
 msgid "(none)"
 msgstr "(nincs)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s inaktív lett"
@@ -1474,7 +1477,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1836,6 +1839,9 @@ msgstr "Műveletek"
 
 msgid "Activate ID..."
 msgstr "Azonosító aktiválása…"
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Az eseti parancs meghiúsult"
@@ -2332,6 +2338,9 @@ msgstr "Biztos, hogy törölni akarja a következőt: %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Biztosan megengedi, hogy %s kapcsolatba lépjen Önnel?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Örmény"
 
@@ -2664,6 +2673,9 @@ msgstr "Tiltott"
 msgid "Blocked Text for %s"
 msgstr "%s tiltott szövege"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Norvég Bokmål"
 
@@ -2743,7 +2755,6 @@ msgstr "A böngésző beállításai a GNOME beállításaiban vannak megadva"
 msgid "Browsing the web"
 msgstr "Webet böngész"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Partnerek"
 
@@ -3459,17 +3470,13 @@ msgstr "Parancs letiltva"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Közönséges név: %s\n"
-"\n"
-"Ujjlenyomat (SHA1): %s\n"
-"\n"
-"Aktiválás dátuma: %s\n"
-"Lejárat dátuma: %s\n"
 
 #, c-format
 msgid ""
@@ -6308,6 +6315,12 @@ msgstr "kannada"
 msgid "Kannada Translation team"
 msgstr "Kannada fordítócsapat"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Kulcscsere"
 
@@ -6426,6 +6439,9 @@ msgstr "Lastlog bővítmény."
 
 msgid "Latest News"
 msgstr "Legfrissebb hírek"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10169,6 +10185,9 @@ msgstr "Egyszerű bővítmény"
 msgid "Simplified Chinese"
 msgstr "Egyszerűsített kínai"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10555,6 +10574,9 @@ msgstr "Fürdik"
 
 msgid "Tamil"
 msgstr "tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl bővítménybetöltő"
@@ -11338,6 +11360,11 @@ msgstr "Gondolkozik"
 msgid "Thirsty"
 msgstr "Szomjas"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Ez a hely"
 
@@ -12080,6 +12107,9 @@ msgstr ""
 "Az Apple „Bonjour For Windows” eszközkészlet nem található, további "
 "információkat a http://d.pidgin.im/BonjourWindows oldalon találhat."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Nem kérhető le érvényes AIM belépő hash."
 
@@ -12198,8 +12228,8 @@ msgid "Unable to resolve hostname"
 msgstr "Nem oldható fel a gépnév"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Nem oldható fel a gépnév („%s”): %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Nem menthető lemezre az ikonfájl."
@@ -12785,6 +12815,9 @@ msgstr "Felhasználók a következőn: %s: %s"
 msgid "Using a PDA"
 msgstr "PDA-t használ"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "H_angerő:"
 
@@ -12834,6 +12867,9 @@ msgstr "Minden napló megtekintése"
 
 msgid "View Blocked Text..."
 msgstr "Tiltott szöveg megjelenítése…"
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Helyek megjelenítése…"

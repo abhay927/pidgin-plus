@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-05-29 05:55+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Burmese (Myanmar) "
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:52+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:06+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Burmese\n"
 
 msgid "\t_Only when someone says your username"
@@ -932,6 +932,9 @@ msgstr "(ခေါင်းစဉ် သတ်မှတ်မထားပါ)"
 msgid "(none)"
 msgstr "(ဘာမှမရှိ)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s မလှုပ်မရှား ဖြစ်သွားသည်"
@@ -1481,7 +1484,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1849,6 +1852,9 @@ msgstr "လှုပ်ရှားမှုများ"
 
 msgid "Activate ID..."
 msgstr "ID ကို အသက်သွင်းရန်..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc ညွှန်ကြားချက် သုံးမရပါ"
@@ -2339,6 +2345,9 @@ msgstr "%s ကို အမှန်တကယ် ဖယ်ရှားလို�
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "%s သည် သင့်ကို ဆက်သွယ်ခွင့် ပြုစေလိုသလား?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "အာမေးနီးယန်း"
 
@@ -2670,6 +2679,9 @@ msgstr "ပိတ်ဆို့ထားသည်"
 msgid "Blocked Text for %s"
 msgstr "%s ကို ပိတ်ဆို့​သော စသား"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr ""
 
@@ -2750,7 +2762,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr "ကွန်ရက် စာမျက်နှာ ကြည့်နေသည်"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "မိတ်ဆွေများ"
 
@@ -3466,17 +3477,13 @@ msgstr "ညွှန်ကြားချက် ပိတ်ထားသည်"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"အများသိအမည် - %s\n"
-"\n"
-"လက်ဗွေရာ(SHA1): %s\n"
-"\n"
-"အသက်သွင်းသော နေ့စွဲ - %s\n"
-"သက်တမ်းကုန်မည့် နေ့စွဲ - %s\n"
 
 #, c-format
 msgid ""
@@ -6334,6 +6341,12 @@ msgstr "ကန်နာဒါ"
 msgid "Kannada Translation team"
 msgstr "ကန်နာဒါ ဘာသာပြန်အသင်း"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "ကီး သဘောတူညီချက်"
 
@@ -6452,6 +6465,9 @@ msgstr "Lastlog ပလပ်အင်။"
 
 msgid "Latest News"
 msgstr "နောက်ဆုံးသတင်းများ"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10194,6 +10210,9 @@ msgstr "ရိုးရိုး ပလပ်အင်"
 msgid "Simplified Chinese"
 msgstr "ရိုးရှင်း တရုတ်စာ"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10580,6 +10599,9 @@ msgstr "ရေချိုးနေသည်"
 
 msgid "Tamil"
 msgstr "တမီးလ်"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl ပလပ်အင် ဖွင့်ကိရိယာ"
@@ -11375,6 +11397,11 @@ msgstr "စဉ်းစားနေသည်"
 msgid "Thirsty"
 msgstr "ရေဆာသည်"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "ဤ တည်နေရာ"
 
@@ -12110,6 +12137,9 @@ msgstr ""
 "Apple ၏ \"ဝင်းဒိုးများအတွက် Bonjour\" ကိရိယာစုံကို ရှာမတွေ့နိုင်ပါ၊ အသေးစိတ် "
 "အချက်အလက်အတွက် http://d.pidgin.im/BonjourWindows ကို ကြည့်ရှုပါ။"
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "AIM login hash အမှန်ကို မရနိုင်ပါ။"
 
@@ -12226,8 +12256,8 @@ msgid "Unable to resolve hostname"
 msgstr "Hostname မဖြေရှင်းနိုင်ပါ"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Hostname '%s': %s ကို မဖြေရှင်းနိုင်ပါ"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "အိုင်ကွန်ဖိုင်ကို disk ထဲ သိမ်းဆည်း၍ မရပါ။"
@@ -12811,6 +12841,9 @@ msgstr "%s ကို သုံးစွဲသူများ - %s"
 msgid "Using a PDA"
 msgstr "PDA သုံးနေသည်"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_O အသံ အတိုးအကျယ် -"
 
@@ -12862,6 +12895,9 @@ msgstr "မှတ်တမ်း အားလုံး ကြည့်ရှု�
 
 msgid "View Blocked Text..."
 msgstr "ပိတ်ဆို့ထားသော စာသားကို ကြည့်ရန်..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "တည်နေရာများကို ကြည့်ရန်..."

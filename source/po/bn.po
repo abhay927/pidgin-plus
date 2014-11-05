@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -21,8 +21,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:51+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:05+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "X-Poedit-Country: BANGLADESH\n"
 "Language: Bengali\n"
 "X-Poedit-Language: Bengali\n"
@@ -999,6 +999,9 @@ msgstr "(কোনো বিষয়বস্তু নির্ধারণ �
 msgid "(none)"
 msgstr "(কোনোটি নয়)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s এখন নিষ্ক্রিয়"
@@ -1567,7 +1570,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1952,6 +1955,9 @@ msgstr "প্রতিক্রিয়া"
 
 msgid "Activate ID..."
 msgstr "ID সক্রিয়করণ..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc কমান্ড ব্যর্থ"
@@ -2490,6 +2496,9 @@ msgstr "আপনি কি নিশ্চিত আপনি %s অপসা�
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "আপনি কি নিশ্চিতভাবে %s কে আপনার সাথে যোগাযোগের করতে অনুমতি দিতে চান?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "আর্মেনীয়"
 
@@ -2867,6 +2876,9 @@ msgstr "ব্লক করা"
 msgid "Blocked Text for %s"
 msgstr "%s এর জন্য ব্লককৃত টেক্সট"
 
+msgid "Bodo"
+msgstr ""
+
 # fix me tithi
 msgid "Bokmål Norwegian"
 msgstr "বোকমাল নরওয়েজীয়"
@@ -2961,7 +2973,6 @@ msgstr "GNOME পছন্দসমূহের মধ্যে ব্রাউ�
 msgid "Browsing the web"
 msgstr "ওয়েব ব্রাউজ করছি"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "বন্ধুগণ"
 
@@ -3725,23 +3736,18 @@ msgstr "কমান্ড"
 msgid "Command disabled"
 msgstr "কমান্ড নিষ্ক্রিয়"
 
-# tithi
 #. Make messages
 #, c-format
 msgid ""
 "Common name: %s\n"
+"\n"
+"Issued By: %s\n"
 "\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"সাধারণ নাম: %1$s\n"
-" \n"
-"ফিঙ্গারপ্রিন্ট (SHA1): %2$s\n"
-"\n"
-"সক্রিয়করণ তারিখ: %3$s\n"
-"মেয়াদ উত্তীর্ণের তারিখ: %4$s\n"
 
 #, c-format
 msgid ""
@@ -6871,6 +6877,12 @@ msgstr "কান্নাডা"
 msgid "Kannada Translation team"
 msgstr "কান্নাডা অনুবাদ টিম"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "মূল চুক্তি"
 
@@ -7005,6 +7017,9 @@ msgstr "Lastlog প্লাগইন।"
 
 msgid "Latest News"
 msgstr "সর্বশেষ খবর"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -11048,6 +11063,9 @@ msgstr "সরল প্লাগইন"
 msgid "Simplified Chinese"
 msgstr "সরলকৃত চীনা"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -11467,6 +11485,9 @@ msgstr "গোছল করছে"
 
 msgid "Tamil"
 msgstr "তামিল"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl প্লাগইন লোডার"
@@ -12352,6 +12373,11 @@ msgstr "চিন্তা করছে"
 msgid "Thirsty"
 msgstr "তৃঞ্চার্ত"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "এই অবস্থান"
 
@@ -13160,6 +13186,9 @@ msgstr ""
 "Apple এর \"Bonjour for Windows\" টুলকিটটি খুঁজে পাওয়া যায়নি, আরও তথ্যের "
 "জন্য  http://d.pidgin.im/BonjourWindows দেখুন।"
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "একটি কার্যকর AIM লগইন হ্যাশ পেতে ব্যর্থ।"
 
@@ -13283,8 +13312,8 @@ msgid "Unable to resolve hostname"
 msgstr "হোস্টের নাম নিরূপণ করতে ব্যর্থ"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "'%1$s' হোস্টের নামটি নিরূপণ করতে ব্যর্থ: %2$s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "ডিস্কে আইকন ফাইল সংরক্ষণ করতে ব্যর্থ।"
@@ -13908,6 +13937,9 @@ msgstr "%1$s এর ব্যবহারকারী: %2$s"
 msgid "Using a PDA"
 msgstr "PDA ব্যবহার করছে"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "ভলিউম (_o):"
 
@@ -13962,6 +13994,9 @@ msgstr "সব লগ প্রদর্শন"
 # tithi
 msgid "View Blocked Text..."
 msgstr "ব্লক করা টেক্সট প্রদর্শন..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "অবস্থান প্রদর্শন..."

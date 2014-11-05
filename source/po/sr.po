@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Miloš Popović <gpopac@gmail.com>\n"
 "Language-Team: Serbian <gnome@prevod.org>\n"
@@ -22,8 +22,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    "
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:13+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:24+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Serbian\n"
 
 msgid "\t_Only when someone says your username"
@@ -917,6 +917,9 @@ msgstr "(без теме)"
 msgid "(none)"
 msgstr "(без имена)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s се успавао(ла)"
@@ -1466,7 +1469,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1812,6 +1815,9 @@ msgstr "Наредбе"
 
 msgid "Activate ID..."
 msgstr "Активирај ИД..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr ""
@@ -2292,6 +2298,9 @@ msgstr "Да ли сте сигурни да желите уклонити %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Да ли сте сигурни да желите да %s може да Вас контактира?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr ""
 
@@ -2622,6 +2631,9 @@ msgstr "Забрањен"
 msgid "Blocked Text for %s"
 msgstr "Забрањен текст за %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "норвешки (бокмал)"
 
@@ -2701,7 +2713,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Другари"
 
@@ -3411,17 +3422,13 @@ msgstr "Наредба искључена"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Име: %s\n"
-"\n"
-"Отисак прста (SHA1): %s\n"
-"\n"
-"Датим активације: %s\n"
-"Датум истека: %s\n"
 
 #, c-format
 msgid ""
@@ -6259,6 +6266,12 @@ msgstr "канадски"
 msgid "Kannada Translation team"
 msgstr "канадски преводилачки тим"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Погодба о кључевима"
 
@@ -6377,6 +6390,9 @@ msgstr "Додатак за дневник."
 
 msgid "Latest News"
 msgstr "Најновије вести"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10078,6 +10094,9 @@ msgstr "Једноставан додатак"
 msgid "Simplified Chinese"
 msgstr "упрошћени кинески"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10459,6 +10478,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "тамилски"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Учитавање Tcl додатака"
@@ -11221,6 +11243,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -11925,6 +11952,9 @@ msgid ""
 "http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Неуспело добављање исправног хеша за пријаву на АИМ."
 
@@ -12039,7 +12069,7 @@ msgid "Unable to resolve hostname"
 msgstr ""
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
+msgid "Unable to resolve hostname: %s"
 msgstr ""
 
 msgid "Unable to save icon file to disk."
@@ -12611,6 +12641,9 @@ msgstr "Корисника на %s: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_Јачина звука:"
 
@@ -12659,6 +12692,9 @@ msgid "View All Logs"
 msgstr "Прикажи све записе из дневника"
 
 msgid "View Blocked Text..."
+msgstr ""
+
+msgid "View Issuer Certificate"
 msgstr ""
 
 msgid "View Locations..."

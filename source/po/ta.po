@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Felix <ifelix25@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:17+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:26+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "X-Poedit-Country: INDIA\n"
 "Language: Tamil\n"
 "X-Poedit-Bookmarks: -1,470,-1,-1,-1,-1,-1,-1,-1,1715\n"
@@ -938,6 +938,9 @@ msgstr "(தலைப்பு அமைக்கபடவில்லை)"
 msgid "(none)"
 msgstr "(ஒன்றுமில்லாத)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s ஓய்வாக உள்ளது"
@@ -1486,7 +1489,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1845,6 +1848,9 @@ msgstr "செயல்கள்"
 
 msgid "Activate ID..."
 msgstr "முகப்பை செயல்படுத்து..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc கட்டளை தோல்வியுற்றது"
@@ -2347,6 +2353,9 @@ msgstr "உறுதியாக %s யை நீக்க விரும்ப
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "%s உங்களை தொடர்பு கொள்ள அனுமதிப்பதில் நீங்கள் உறுதியாக உள்ளீர்களா?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "அர்மானியன்"
 
@@ -2679,6 +2688,9 @@ msgstr "தடுக்கப்பட்டது"
 msgid "Blocked Text for %s"
 msgstr "%s கான தனுக்கப்பட்ட உரை"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "போக்மால் நார்வேஜியன்"
 
@@ -2758,7 +2770,6 @@ msgstr "GNOME முன்னுரிமைகளில் உள்ள கட�
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "நண்பர்கள்"
 
@@ -3476,17 +3487,13 @@ msgstr "கட்டளை இயலாமையாக்கப்பட்ட�
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"பொதுவான பெயர்: %s\n"
-"\n"
-"விரல் அச்சு (SHA1): %s\n"
-"\n"
-"செயல்படும் தேதி: %s\n"
-"முடிவுறும் தேதி: %s\n"
 
 #, c-format
 msgid ""
@@ -6331,6 +6338,12 @@ msgstr "கன்னடா"
 msgid "Kannada Translation team"
 msgstr "கன்னடா மொழிபெயர்பு குழு"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "விசை இசைவு"
 
@@ -6449,6 +6462,9 @@ msgstr "கடைசி பதிவு செருகி."
 
 msgid "Latest News"
 msgstr "தற்போதைய செய்தி"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10193,6 +10209,9 @@ msgstr "எளிய சொருகுபொருள்"
 msgid "Simplified Chinese"
 msgstr "எளிய சைனீஸ்"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10577,6 +10596,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "தமிழ்"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "டிசிஎல் சொருகுபொருள் ஏற்பாளர்"
@@ -11351,6 +11373,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -12089,6 +12116,9 @@ msgstr ""
 "Apple's \"Bonjour for Windows\" கருவிகிட்டை தேட முடியவில்லை, "
 "http://d.pidgin.im/BonjourWindows கான மேலும் தகவலுக்கு இதை பார்."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "சரியான AIM நுழைவு hash ஐ பெற முடியவில்லை."
 
@@ -12203,8 +12233,8 @@ msgid "Unable to resolve hostname"
 msgstr "புரவலப்பெயரை மறுதீர்க்க முடியவில்லை"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "'%s' புரவலப்பெயரை மறுதீர்வு செய்ய முடியவில்லை: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "குறும்பட கோப்பை வன்தட்டில் சேமிக்க இயலவில்லை."
@@ -12783,6 +12813,9 @@ msgstr "%s ல் உள்ள பயனாளர்கள்: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "ஒலியளவு (_o):"
 
@@ -12832,6 +12865,9 @@ msgstr "அனைத்து பதிவுகளையும் காட்�
 
 msgid "View Blocked Text..."
 msgstr "தடுக்கப்பட்ட உரையை பார்..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr ""

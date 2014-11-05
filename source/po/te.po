@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:18+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:27+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Telugu\n"
 
 msgid "\t_Only when someone says your username"
@@ -928,6 +928,9 @@ msgstr "(ఎ అంశము అమర్చబడలేదు)"
 msgid "(none)"
 msgstr "(ఏదీ కాదు)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "%s సోమరిగా తయారైనారు."
@@ -1476,7 +1479,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1835,6 +1838,9 @@ msgstr "చర్యలు"
 
 msgid "Activate ID..."
 msgstr "IDని యాక్టివేట్ చేయండి..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc ఆదేశము విఫలమైంది"
@@ -2330,6 +2336,9 @@ msgstr "%sను కచ్చితంగా తొలగించదల్చ�
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "%s మిమ్మల్ని సంప్రదించడానికి నిజంగానే అనుమతిస్తున్నారా?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "అర్మేనియన్"
 
@@ -2662,6 +2671,9 @@ msgstr "బ్లాక్‌డ్"
 msgid "Blocked Text for %s"
 msgstr "%s కొరకు బ్లాక్‌డ్ పాఠ్యము"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Bokmål నార్వేజియన్"
 
@@ -2741,7 +2753,6 @@ msgstr "బ్రౌజర్ అభీష్టాలు GNOME అభీష్�
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "మిత్రులు"
 
@@ -3458,17 +3469,13 @@ msgstr "కమాండ్ పని చేయడం లేదు"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"ఉమ్మడి పేరు: %s\n"
-"\n"
-"ఫింగర్‌ప్రింట్ (SHA1): %s\n"
-"\n"
-"క్రీయశీల పరచిన తేది: %s\n"
-"ముగింపు తేది: %s\n"
 
 #, c-format
 msgid ""
@@ -6310,6 +6317,12 @@ msgstr "కన్నడ"
 msgid "Kannada Translation team"
 msgstr "కన్నడ అనువాద సమూహం"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "మీట ఒప్పందం"
 
@@ -6428,6 +6441,9 @@ msgstr "చివరిలాగ్ ప్లగ్ ఇన్"
 
 msgid "Latest News"
 msgstr "తాజా సమాచారం"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10162,6 +10178,9 @@ msgstr "సింపుల్ ప్లగ్‌ఇన్"
 msgid "Simplified Chinese"
 msgstr "హణ్ (సరళించిన చైనీస్)"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10547,6 +10566,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "తమిళం"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl ప్లగ్‌ఇన్‌ లోడర్"
@@ -11315,6 +11337,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -12049,6 +12076,9 @@ msgstr ""
 "Apple యొక్క \"Bonjour for Windows\" టూల్‌కిట్‌ను కనుగొనలేక పోయింది, అధిక "
 "సమాచారము కొరకు http://d.pidgin.im/BonjourWindows చూడండి."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "చెల్లుబాటయ్యే AIM లాగ్ ఇన్  హాష్‌ను పొందడంలో వైఫల్యం."
 
@@ -12164,8 +12194,8 @@ msgid "Unable to resolve hostname"
 msgstr "హోస్టునామమును పరిష్కరించలేక పోయింది"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "హోస్టుపేరు '%s'ను పరిష్కరించలేక పోయింది: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "ప్రతిమ ఫైలును డిస్క్‌పై దాచుట సాధ్యం కాదు."
@@ -12743,6 +12773,9 @@ msgstr "%s పై వినియోగదారులు: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "ధ్వని (_o):"
 
@@ -12792,6 +12825,9 @@ msgstr "అన్ని లాగ్‌లను దర్శించుము"
 
 msgid "View Blocked Text..."
 msgstr "బ్లాక్‌డ్ పాఠ్యమును దర్శించుము..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr ""

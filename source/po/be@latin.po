@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin 2.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:18+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Belarusian Latin <be-latin.open-tran.eu>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:25+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:32+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Belarusian latin\n"
 
 msgid "\t_Only when someone says your username"
@@ -883,6 +883,9 @@ msgstr "(tema nie akreślenaja)"
 msgid "(none)"
 msgstr "(niama)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s biaździejničaje"
@@ -1432,7 +1435,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1762,6 +1765,9 @@ msgstr "Dziejańni"
 
 msgid "Activate ID..."
 msgstr "Aktyvizuj ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Niaŭdałaje vykanańnie zahadu Ad-Hoc"
@@ -2244,6 +2250,9 @@ msgstr "Ty sapraŭdy chočaš vydalić %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Ty sapraŭdy chočaš dazvolić %s kantaktavać z taboju?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr ""
 
@@ -2574,6 +2583,9 @@ msgstr "Zablakavany"
 msgid "Blocked Text for %s"
 msgstr ""
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Narveskaja Bokmål"
 
@@ -2653,7 +2665,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Siabry"
 
@@ -3365,17 +3376,13 @@ msgstr "Zahad adklučany"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Ahulnaja nazva: %s\n"
-"\n"
-"Adbitak palcaŭ (SHA1): %s\n"
-"\n"
-"Data aktyvizacyi: %s\n"
-"Data zakančeńnia terminu: %s\n"
 
 #, c-format
 msgid ""
@@ -6211,6 +6218,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Kamanda pierakładčykaŭ na Kannada"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Klučavoje pahadnieńnie"
 
@@ -6329,6 +6342,9 @@ msgstr "Plugin apošniaha logu."
 
 msgid "Latest News"
 msgstr "Apošnija naviny"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10042,6 +10058,9 @@ msgstr "Prosty plugin"
 msgid "Simplified Chinese"
 msgstr "Sproščanaja kitajskaja"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10426,6 +10445,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "Tamilskaja"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Zahruzčyk pluginaŭ na Tcl"
@@ -11190,6 +11212,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -11899,6 +11926,9 @@ msgid ""
 "http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Niemahčyma atrymać pravilny hash uvachodu dla AIM."
 
@@ -12012,7 +12042,7 @@ msgid "Unable to resolve hostname"
 msgstr ""
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
+msgid "Unable to resolve hostname: %s"
 msgstr ""
 
 msgid "Unable to save icon file to disk."
@@ -12588,6 +12618,9 @@ msgstr "Karystalniki na %s: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr ""
 
@@ -12636,6 +12669,9 @@ msgid "View All Logs"
 msgstr ""
 
 msgid "View Blocked Text..."
+msgstr ""
+
+msgid "View Issuer Certificate"
 msgstr ""
 
 msgid "View Locations..."

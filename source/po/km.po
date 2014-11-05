@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Khmer "
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:02+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:16+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Khmer\n"
 
 msgid "\t_Only when someone says your username"
@@ -918,6 +918,9 @@ msgstr "(គ្មានប្រធានបទ​បានកំណត់​�
 msgid "(none)"
 msgstr "​(គ្មាន)​"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s ក្លាយជា​ទំនេរ"
@@ -1466,7 +1469,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1823,6 +1826,9 @@ msgstr "សកម្មភាព"
 
 msgid "Activate ID..."
 msgstr "ធ្វើ​ឲ្យ​លេខសម្គាល់​សកម្ម..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "ពាក្យ​បញ្ជា​ Ad-Hoc បាន​បរាជ័យ"
@@ -2322,6 +2328,9 @@ msgstr "តើ​​អ្នក​ប្រាកដ​ជា​ចង់​យ
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "តើអ្នក​ប្រាកដ​ជា​ចង់​អនុញ្ញាតឲ្យ %s ទាក់ទង​អ្នក​ឬ ?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "អាម៉ីនៀន"
 
@@ -2655,6 +2664,9 @@ msgstr "បានទប់ស្កាត់"
 msgid "Blocked Text for %s"
 msgstr "អត្ថបទ​ដែលបានទប់ស្កាត់​សម្រាប់ %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "ប៊ុកម៉ល​ណ័រវ៉េ"
 
@@ -2735,7 +2747,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "មិត្តភក្ដិ"
 
@@ -3455,17 +3466,13 @@ msgstr "បាន​បិទ​ពាក្យ​បញ្ជា"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"ឈ្មោះ​​ធម្មតា ៖ %s\n"
-"\n"
-"ស្នាមម្រាមដៃ (SHA1) ៖ %s\n"
-"\n"
-"កាលបរិច្ឆេទ​ធ្វើ​ឲ្យ​សកម្ម ៖ %s\n"
-"កាលបរិច្ឆេទ​ផុត​កំណត់ ៖ %s\n"
 
 #, c-format
 msgid ""
@@ -6316,6 +6323,12 @@ msgstr "កិណាដា"
 msgid "Kannada Translation team"
 msgstr "ក្រុម​អ្នកបកប្រែ​ភាសា​កិណាដា"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "ការ​ព្រមព្រៀង​សំខាន់"
 
@@ -6435,6 +6448,9 @@ msgstr "កម្មវិធី​ជំនួយ​កំណត់ហេតុ
 
 msgid "Latest News"
 msgstr "ព័ត៌មាន​ចុងក្រោយ"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10188,6 +10204,9 @@ msgstr "កម្មវិធី​ជំនួយ​ធម្មតា"
 msgid "Simplified Chinese"
 msgstr "ចិន​សាមញ្ញ"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10575,6 +10594,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "តាមីល"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "កម្មវិធី​ផ្ទុក​កម្មវិធី​ជំនួយ Tcl"
@@ -11359,6 +11381,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -12106,6 +12133,9 @@ msgstr ""
 "មិនអាច​រកប្រអប់​ឧបករណ៍​ \"Bonjour for Windows\" របស់ Apple ឃើញទេ "
 "ចំពោះ​ព័ត៌មាន​បន្ថែម​ សូម​​មើល http://d.pidgin.im/BonjourWindows ។"
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "មិនអាច​យក​សញ្ញា​ចូល AIM ត្រឹមត្រូវ​ទេ ។"
 
@@ -12221,8 +12251,8 @@ msgid "Unable to resolve hostname"
 msgstr "មិន​អាច​ដោះស្រាយ​ឈ្មោះ​ម៉ាស៊ីន​បាន​ឡើយ"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "មិន​អាច​ដោះស្រាយ​ឈ្មោះ​ម៉ាស៊ីន '%s': %s បាន​ទេ"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "មិនអាច​រក្សាទុក​ឯកសារ​​រូបតំណាង​ទៅ​ថាស​បានទេ ។"
@@ -12797,6 +12827,9 @@ msgstr "អ្នក​ប្រើ​នៅ​លើ %s ៖ %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "កម្រិត​សំឡេង​ ៖"
 
@@ -12846,6 +12879,9 @@ msgstr "មើល​កំណត់ហេតុ​ទាំង​អស់"
 
 msgid "View Blocked Text..."
 msgstr "មើល​អត្ថបទ​ដែល​បាន​ទប់ស្កាត់..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr ""

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Estonian "
@@ -22,8 +22,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:55+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:09+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Estonian\n"
 
 msgid "\t_Only when someone says your username"
@@ -898,6 +898,9 @@ msgstr "(teemat pole seatud)"
 msgid "(none)"
 msgstr "(puudub)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s jäi jõude"
@@ -1446,7 +1449,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1801,6 +1804,9 @@ msgstr "Tegevused"
 
 msgid "Activate ID..."
 msgstr "Aktiveeri ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Tõrge Ad-Hoc käsu täitmisel"
@@ -2289,6 +2295,9 @@ msgstr "Kas sa soovid eemaldada kontot %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Kas sa lubad, et %s saab sinuga ühendust võtta?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armeenia"
 
@@ -2618,6 +2627,9 @@ msgstr "Blokitud"
 msgid "Blocked Text for %s"
 msgstr ""
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Norra (bokmål)"
 
@@ -2697,7 +2709,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Sõbrad"
 
@@ -3403,17 +3414,13 @@ msgstr "Käsk on keelatud"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Üldine nimi: %s\n"
-"\n"
-"Sõrmejälg (SHA1): %s\n"
-"\n"
-"Aktiveerimise kuupäev: %s\n"
-"Aegumise kuupäev: %s\n"
 
 #, c-format
 msgid ""
@@ -6231,6 +6238,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Kannada tõlkemeeskond"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr ""
 
@@ -6347,6 +6360,9 @@ msgstr "Viimase logi plugin."
 
 msgid "Latest News"
 msgstr "Viimased uudised"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10036,6 +10052,9 @@ msgstr "Lihtne plugin"
 msgid "Simplified Chinese"
 msgstr "Hiina lihtsustatud"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10418,6 +10437,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "Tamili"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl-pluginate laadija"
@@ -11139,6 +11161,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr "Janune"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "See asukoht"
 
@@ -11850,6 +11877,9 @@ msgstr ""
 "Ei suudetud leida Apple \"Bonjour for Windows\" tööriista, mine "
 "http://d.pidgin.im/BonjourWindows leheküljele, et leida rohkem infot."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr ""
 
@@ -11963,8 +11993,8 @@ msgid "Unable to resolve hostname"
 msgstr "Hosti nime pole võimalik lahendada"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Hostinime '%s' pole võimalik lahendada: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Ikoonifaili pole võimalik kettale salvestada."
@@ -12540,6 +12570,9 @@ msgstr "Kanali %s kasutajad: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_Valjus:"
 
@@ -12588,6 +12621,9 @@ msgid "View All Logs"
 msgstr "Kõikide logide vaatamine"
 
 msgid "View Blocked Text..."
+msgstr ""
+
+msgid "View Issuer Certificate"
 msgstr ""
 
 msgid "View Locations..."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:41+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Hindi <Indlinux>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:59+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:13+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Hindi\n"
 
 msgid "\t_Only when someone says your username"
@@ -916,6 +916,9 @@ msgstr "(कोई विषय सेट नहीं)"
 msgid "(none)"
 msgstr "(कोई नहीं)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s बेकार है"
@@ -1464,7 +1467,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1814,6 +1817,9 @@ msgstr "क्रियाएं"
 
 msgid "Activate ID..."
 msgstr "ID सक्रिय करें..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "तदर्थ कमाँड विफल"
@@ -2311,6 +2317,9 @@ msgid "Are you sure you wish to allow %s to contact you?"
 msgstr ""
 "क्या आप निश्चित रुप से %s को आपसे संपर्क करने की अनुमति देना चाहते हैं?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "आर्मेनियाई"
 
@@ -2640,6 +2649,9 @@ msgstr "रोका गया"
 msgid "Blocked Text for %s"
 msgstr "%s के लिए पाठ रोका"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "बोक्माल नार्वेजियाई"
 
@@ -2719,7 +2731,6 @@ msgstr "ब्राउजर वरीयका को GNOME वरीयता
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "दोस्त"
 
@@ -3432,17 +3443,13 @@ msgstr "कमांड असमर्थ"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"सामान्य नाम: %s\n"
-"\n"
-"फिंगरप्रिंट (SHA1): %s\n"
-"\n"
-"सक्रियकरण तिथि: %s\n"
-"समाप्ति तिथि: %s\n"
 
 #, c-format
 msgid ""
@@ -6273,6 +6280,12 @@ msgstr "कन्नड"
 msgid "Kannada Translation team"
 msgstr "कन्नड़ अनुवाद दल"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "कुंजी मसौदा"
 
@@ -6391,6 +6404,9 @@ msgstr "अंतिमलॉग प्लगिन."
 
 msgid "Latest News"
 msgstr "नवीनतम समाचार"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10106,6 +10122,9 @@ msgstr "सादा प्लगिन"
 msgid "Simplified Chinese"
 msgstr "सरलीकृत चीनी"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10489,6 +10508,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "तमिल"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl प्लगिन लोडर"
@@ -11258,6 +11280,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -11989,6 +12016,9 @@ msgstr ""
 "एपल \"Bonjour for Windows\" टूलकिट ढूँढ़ने में असमर्थ, देखें "
 "http://d.pidgin.im/BonjourWindows अधिक सूचना के लिए."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "वैध AIM लॉगिन हैश लाने में असमर्थ."
 
@@ -12104,8 +12134,8 @@ msgid "Unable to resolve hostname"
 msgstr "मेजबाननाम हल करने में असमर्थ"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "मेजबाननाम '%s' हल करने में असमर्थ: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "प्रतीक फ़ाइल को डिस्क में संचित करने में असमर्थ"
@@ -12681,6 +12711,9 @@ msgstr "प्रयोक्ता %s पर है: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "आवाज (_o):"
 
@@ -12730,6 +12763,9 @@ msgstr "सभी लॉग देखें"
 
 msgid "View Blocked Text..."
 msgstr "रोका पाठ देखें..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr ""

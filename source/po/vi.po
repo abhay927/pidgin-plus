@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CVS Version of Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Nguyen Vu Hung <vuhung16plus@gmail.com>\n"
 "Language-Team: Du an MOST <du-an-most@lists.hanoilug.org>\n"
@@ -21,8 +21,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:20+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:28+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Vietnamese\n"
 
 msgid "\t_Only when someone says your username"
@@ -912,6 +912,9 @@ msgstr "(chưa đặt chủ đề)"
 msgid "(none)"
 msgstr "(không có)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s đã rơi vào trạng thái nghỉ"
@@ -1461,7 +1464,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1816,6 +1819,9 @@ msgstr "Hành động"
 
 msgid "Activate ID..."
 msgstr "Kích hoạt ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Lệnh như thế đã bị lỗi"
@@ -2309,6 +2315,9 @@ msgstr "Bạn chắc chắn muốn gỡ bỏ %s không?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Bạn có chắc là muốn cho phép %s liên lạc với bạn không?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Tiếng Ác-mê-ni"
 
@@ -2641,6 +2650,9 @@ msgstr "Bị chặn"
 msgid "Blocked Text for %s"
 msgstr "Chuỗi bị chặn cho %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Tiếng Na-uy (Bóc-măn)"
 
@@ -2721,7 +2733,6 @@ msgstr "Thiết lập trình duyệt được cấu hình trong Tùy thích GNOM
 msgid "Browsing the web"
 msgstr "Đang duyệt qua Web"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Bạn bè"
 
@@ -3434,17 +3445,13 @@ msgstr "Lệnh bị tắt"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Tên chung: %s\n"
-"\n"
-"Vân tay (SHA1): %s\n"
-"\n"
-"Ngày kích hoạt: %s\n"
-"Ngày hết hạn: %s\n"
 
 #, c-format
 msgid ""
@@ -6286,6 +6293,12 @@ msgstr "Tiếng Kan-na-đa"
 msgid "Kannada Translation team"
 msgstr "Nhóm Dịch Kan-na-đa"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Kiểm tra mã khoá"
 
@@ -6405,6 +6418,9 @@ msgstr "Phần bổ sung lastlog."
 
 msgid "Latest News"
 msgstr "Tin tức"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10140,6 +10156,9 @@ msgstr "Phần bổ sung đơn giản"
 msgid "Simplified Chinese"
 msgstr "Tiếng Trung (phổ thông)"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10525,6 +10544,9 @@ msgstr "Đang đi tắm"
 
 msgid "Tamil"
 msgstr "Tiếng Ta-min"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Bộ nạp phần bổ sung Tcl"
@@ -11285,6 +11307,11 @@ msgstr "Đang nghĩ"
 msgid "Thirsty"
 msgstr "Khát"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Nơi này"
 
@@ -12020,6 +12047,9 @@ msgstr ""
 "Không tìm thấy bộ công cụ Apple Bonjour For Windows, xem « "
 "http://d.pidgin.im/BonjourWindows » để tìm thêm thông tin."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Không thể lấy mã đăng nhập AIM hợp lệ."
 
@@ -12135,8 +12165,8 @@ msgid "Unable to resolve hostname"
 msgstr "Không thể quyết định tên máy"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Không thể quyết định tên máy « %s »: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Không thể lưu tập tin biểu tượng vào đĩa."
@@ -12710,6 +12740,9 @@ msgstr "Người dùng trên %s: %s"
 msgid "Using a PDA"
 msgstr "Đang sử dụng PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "Â_m lượng:"
 
@@ -12759,6 +12792,9 @@ msgstr "Xem tất cả nhật ký"
 
 msgid "View Blocked Text..."
 msgstr "Xem chuỗi bị chặn..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Xem vị trí..."

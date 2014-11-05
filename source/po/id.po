@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Rai S. Regawa <raireg@yahoo.com>\n"
 "Language-Team: Rai S. Regawa <raireg@yahoo.com>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:00+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:14+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "X-Poedit-Country: INDONESIA\n"
 "Language: Indonesian\n"
 "X-Poedit-Language: Indonesian\n"
@@ -860,6 +860,9 @@ msgstr ""
 msgid "(none)"
 msgstr "(tidak ada)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s menjadi diam"
@@ -1407,7 +1410,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1736,6 +1739,9 @@ msgstr "Aksi-aksi"
 
 msgid "Activate ID..."
 msgstr "Aktifkan ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Perintah Ad-Hoc Gagal"
@@ -2212,6 +2218,9 @@ msgstr "Apakah anda yakin ingin menghilangkan %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Apakah anda yakin ingin mengijinkan %s untuk mengontak anda?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr ""
 
@@ -2542,6 +2551,9 @@ msgstr "Diblokir"
 msgid "Blocked Text for %s"
 msgstr ""
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Norwegia Bokmål"
 
@@ -2621,7 +2633,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Teman-teman"
 
@@ -3332,17 +3343,13 @@ msgstr "Perintah dimatikan"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Nama umum: %s\n"
-"\n"
-"Sidik jari (SHA1): %s\n"
-"\n"
-"Tanggal aktivasi: %s\n"
-"Tanggal habis masa berlaku: %s\n"
 
 #, c-format
 msgid ""
@@ -6165,6 +6172,12 @@ msgstr "Kanada"
 msgid "Kannada Translation team"
 msgstr "Tim Penerjemah Kanada"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Persetujuan Kunci"
 
@@ -6283,6 +6296,9 @@ msgstr "Plugin Logterakhir."
 
 msgid "Latest News"
 msgstr "Berita Terakhir"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -9994,6 +10010,9 @@ msgstr "Plugin Sederhana"
 msgid "Simplified Chinese"
 msgstr "Tionghoa yang Disederhanakan"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10378,6 +10397,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Pemuat Plugin Tcl"
@@ -11131,6 +11153,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -11842,6 +11869,9 @@ msgid ""
 "http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Tidak berhasil mendapatkan hash login AIM yang valid."
 
@@ -11955,7 +11985,7 @@ msgid "Unable to resolve hostname"
 msgstr ""
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
+msgid "Unable to resolve hostname: %s"
 msgstr ""
 
 msgid "Unable to save icon file to disk."
@@ -12528,6 +12558,9 @@ msgstr "Pengguna pada %s: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr ""
 
@@ -12576,6 +12609,9 @@ msgid "View All Logs"
 msgstr ""
 
 msgid "View Blocked Text..."
+msgstr ""
+
+msgid "View Issuer Certificate"
 msgstr ""
 
 msgid "View Locations..."

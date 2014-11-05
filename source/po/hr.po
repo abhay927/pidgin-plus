@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-07-18 21:51+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <LL@li.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:14+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:24+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Croatian\n"
 
 msgid "\t_Only when someone says your username"
@@ -841,6 +841,9 @@ msgstr ""
 msgid "(none)"
 msgstr ""
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr ""
@@ -1386,7 +1389,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1703,6 +1706,9 @@ msgid "Actions"
 msgstr ""
 
 msgid "Activate ID..."
+msgstr ""
+
+msgid "Activate which ID?"
 msgstr ""
 
 msgid "Ad-Hoc Command Failed"
@@ -2166,6 +2172,9 @@ msgstr "Dali ste sigurni da elite ukloniti %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr ""
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr ""
 
@@ -2493,6 +2502,9 @@ msgstr "Blokiran"
 msgid "Blocked Text for %s"
 msgstr ""
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr ""
 
@@ -2572,7 +2584,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Prijatelji"
 
@@ -3273,6 +3284,8 @@ msgstr ""
 #, c-format
 msgid ""
 "Common name: %s\n"
+"\n"
+"Issued By: %s\n"
 "\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
@@ -6048,6 +6061,12 @@ msgstr ""
 msgid "Kannada Translation team"
 msgstr ""
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr ""
 
@@ -6163,6 +6182,9 @@ msgid "Lastlog plugin."
 msgstr ""
 
 msgid "Latest News"
+msgstr ""
+
+msgid "Latvian"
 msgstr ""
 
 #. Launcher integration
@@ -9781,6 +9803,9 @@ msgstr ""
 msgid "Simplified Chinese"
 msgstr ""
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10156,6 +10181,9 @@ msgid "Taking a bath"
 msgstr ""
 
 msgid "Tamil"
+msgstr ""
+
+msgid "Tatar"
 msgstr ""
 
 msgid "Tcl Plugin Loader"
@@ -10852,6 +10880,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -11514,6 +11547,9 @@ msgid ""
 "http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr ""
 
@@ -11625,7 +11661,7 @@ msgid "Unable to resolve hostname"
 msgstr ""
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
+msgid "Unable to resolve hostname: %s"
 msgstr ""
 
 msgid "Unable to save icon file to disk."
@@ -12185,6 +12221,9 @@ msgstr ""
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr ""
 
@@ -12233,6 +12272,9 @@ msgid "View All Logs"
 msgstr ""
 
 msgid "View Blocked Text..."
+msgstr ""
+
+msgid "View Issuer Certificate"
 msgstr ""
 
 msgid "View Locations..."

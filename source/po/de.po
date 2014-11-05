@@ -12,16 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
-"PO-Revision-Date: 2014-10-04 03:32+0000\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
+"PO-Revision-Date: 2014-10-25 00:20+0000\n"
 "Last-Translator: Tobias Bannert <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-10-05 07:23+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:11+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: German\n"
 
 msgid "\t_Only when someone says your username"
@@ -955,6 +955,9 @@ msgstr "(kein Thema gesetzt)"
 msgid "(none)"
 msgstr "(kein)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s wurde untätig"
@@ -1505,7 +1508,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1763,7 +1766,7 @@ msgstr "Über mich"
 
 #. display plugin version
 msgid "About..."
-msgstr "Über..."
+msgstr "Über …"
 
 #. Number of actions
 msgid "Accept"
@@ -1867,6 +1870,9 @@ msgstr "Aktionen"
 
 msgid "Activate ID..."
 msgstr "Aktiviere ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad Hoc-Kommando gescheitert"
@@ -2372,6 +2378,9 @@ msgstr "Wollen Sie %s wirklich löschen?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Sind Sie sicher, dass Sie %s erlauben wollen, Sie zu kontaktieren?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armenisch"
 
@@ -2703,6 +2712,9 @@ msgstr "Blockiert"
 msgid "Blocked Text for %s"
 msgstr "Blockierter Text für %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Bokmål Norwegisch"
 
@@ -2782,7 +2794,6 @@ msgstr "Browser-Einstellungen werden in den GNOME-Einstellungen konfiguriert"
 msgid "Browsing the web"
 msgstr "Surft im Web"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Buddys"
 
@@ -3509,17 +3520,13 @@ msgstr "Kommando abgeschaltet"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Allgemeiner Name (Common name): %s\n"
-"\n"
-"Fingerabdruck (SHA1): %s\n"
-"\n"
-"Aktivierungsdatum: %s\n"
-"Ablaufdatum: %s\n"
 
 #, c-format
 msgid ""
@@ -6382,6 +6389,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Kannada-Übersetzungsteam"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Schlüsselaustausch"
 
@@ -6500,6 +6513,9 @@ msgstr "Verlauf-Plugin."
 
 msgid "Latest News"
 msgstr "Letzte Neuigkeiten"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10295,6 +10311,9 @@ msgstr "Einfaches Plugin"
 msgid "Simplified Chinese"
 msgstr "Vereinfachtes Chinesisch"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr "Ledig"
 
@@ -10682,6 +10701,9 @@ msgstr "Nimmt ein Bad"
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl-Plugin-Lader"
@@ -11484,6 +11506,11 @@ msgstr "Denkt nach"
 msgid "Thirsty"
 msgstr "Durstig"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Dieser Ort"
 
@@ -12235,6 +12262,9 @@ msgstr ""
 "Apples Toolkit „Bonjour für Windows“ konnte nicht gefunden werden. Besuchen "
 "Sie http://d.pidgin.im/BonjourWindows für weitere Informationen."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Konnte keinen gültigen AIM Login-Hash bekommen."
 
@@ -12355,8 +12385,8 @@ msgid "Unable to resolve hostname"
 msgstr "Hostname konnte nicht aufgelöst werden"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Hostname '%s' kann nicht aufgelöst werden: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Kann Icon-Datei nicht auf die Festplatte speichern."
@@ -12944,6 +12974,9 @@ msgstr "Benutzer auf %s: %s"
 msgid "Using a PDA"
 msgstr "Benutzt einen PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "_Lautstärke:"
 
@@ -12993,6 +13026,9 @@ msgstr "Alle Mitschnitte anzeigen"
 
 msgid "View Blocked Text..."
 msgstr "Blockierten Text anzeigen..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Orte betrachten..."

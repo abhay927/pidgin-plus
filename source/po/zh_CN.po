@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:24+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:31+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Chinese (Simplified)\n"
 
 msgid "\t_Only when someone says your username"
@@ -862,6 +862,9 @@ msgstr "(未设定话题)"
 msgid "(none)"
 msgstr "(无)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s 发起了呆"
@@ -1409,7 +1412,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1747,6 +1750,9 @@ msgstr "动作"
 
 msgid "Activate ID..."
 msgstr "激活 ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc 命令失败"
@@ -2218,6 +2224,9 @@ msgstr "您真的想要删除 %s 吗？"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "您真的想要允许 %s 联系您吗？"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "亚美尼亚语"
 
@@ -2545,6 +2554,9 @@ msgstr "被屏蔽"
 msgid "Blocked Text for %s"
 msgstr "%s 的屏蔽文字"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "书面挪威语"
 
@@ -2624,7 +2636,6 @@ msgstr "代理服务器及浏览器是在 GNOME 首选项中配置的"
 msgid "Browsing the web"
 msgstr "浏览网页"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "好友"
 
@@ -3328,17 +3339,13 @@ msgstr "命令已禁用"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"通用名称：%s\n"
-"\n"
-"指纹(SHA1)：%s\n"
-"\n"
-"激活时间：%s\n"
-"过期时间：%s\n"
 
 #, c-format
 msgid ""
@@ -6137,6 +6144,12 @@ msgstr "坎纳达语"
 msgid "Kannada Translation team"
 msgstr "坎纳达语翻译小组"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "密钥协议"
 
@@ -6253,6 +6266,9 @@ msgstr "Lastlog 插件。"
 
 msgid "Latest News"
 msgstr "最新新闻"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -9898,6 +9914,9 @@ msgstr "简单插件"
 msgid "Simplified Chinese"
 msgstr "中文(简体)"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10276,6 +10295,9 @@ msgstr "在洗澡"
 
 msgid "Tamil"
 msgstr "泰米尔语"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl 插件载入器"
@@ -10976,6 +10998,11 @@ msgstr "思考中"
 msgid "Thirsty"
 msgstr "渴望"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "这个位置"
 
@@ -11649,6 +11676,9 @@ msgid ""
 "http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "无法获取有效的 AIM 登录码。"
 
@@ -11760,8 +11790,8 @@ msgid "Unable to resolve hostname"
 msgstr "无法解析服务器"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "无法解析主机名“%s”：%s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "无法将图标文件保存到磁盘。"
@@ -12325,6 +12355,9 @@ msgstr "%s 上的用户数：%s"
 msgid "Using a PDA"
 msgstr "使用 PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "音量(_O)："
 
@@ -12374,6 +12407,9 @@ msgstr "查看全部聊天记录"
 
 msgid "View Blocked Text..."
 msgstr "查看被屏蔽文本..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "查看位置..."

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Galician <g11n@mancomun.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:58+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:12+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Galician\n"
 
 msgid "\t_Only when someone says your username"
@@ -925,6 +925,9 @@ msgstr "(non se definiu un asunto)"
 msgid "(none)"
 msgstr "(ningún)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s agora está inactivo"
@@ -1473,7 +1476,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1827,6 +1830,9 @@ msgstr "Accións"
 
 msgid "Activate ID..."
 msgstr "Activar ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Fallou a orde Ad-Hoc"
@@ -2323,6 +2329,9 @@ msgstr "Está seguro de que quere eliminar %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Está seguro que quere permitir que %s contacte con vostede?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armenio"
 
@@ -2656,6 +2665,9 @@ msgstr "Bloqueado"
 msgid "Blocked Text for %s"
 msgstr "Texto bloqueado para %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Noruegués Bokmål"
 
@@ -2735,7 +2747,6 @@ msgstr ""
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Contactos"
 
@@ -3450,17 +3461,13 @@ msgstr "Orde desactivada"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Nome común: %s\n"
-"\n"
-"Impresión dixital (SHA1): %s\n"
-"\n"
-"Data de activación: %s\n"
-"Data de vencemento: %s\n"
 
 #, c-format
 msgid ""
@@ -6299,6 +6306,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Equipo de tradución ao Kannada"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Acordo de chaves"
 
@@ -6417,6 +6430,9 @@ msgstr "Complemento de Lastlog."
 
 msgid "Latest News"
 msgstr "Últimas novas"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10155,6 +10171,9 @@ msgstr "Complemento sinxelo"
 msgid "Simplified Chinese"
 msgstr "Chinés simplificado"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10538,6 +10557,9 @@ msgstr ""
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Cargador de complementos Tcl"
@@ -11313,6 +11335,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr ""
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr ""
 
@@ -12051,6 +12078,9 @@ msgstr ""
 "preguntas máis frecuentes (FAQ) en: http://d.pidgin.im/BonjourWindows para "
 "máis información."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Non se puido obter un hash de inicio de sesión AIM válido."
 
@@ -12165,8 +12195,8 @@ msgid "Unable to resolve hostname"
 msgstr "Non se puido conectar ao servidor"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Non se puido conectar ao servidor '%s': %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Non se puido gardar o ficheiro de iconas no disco."
@@ -12747,6 +12777,9 @@ msgstr "Usuarios en %s: %s"
 msgid "Using a PDA"
 msgstr ""
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "V_olume:"
 
@@ -12796,6 +12829,9 @@ msgstr "Ver todos os rexistros"
 
 msgid "View Blocked Text..."
 msgstr "Ver o texto bloqueado..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr ""

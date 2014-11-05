@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 07:46+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:02+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "X-Project-Style: gnome\n"
 "Language: Afrikaans\n"
 
@@ -922,6 +922,9 @@ msgstr "(geen onderwerp gestel nie)"
 msgid "(none)"
 msgstr "(geen)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s het ledig geword"
@@ -1471,7 +1474,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1826,6 +1829,9 @@ msgstr "Aksies"
 
 msgid "Activate ID..."
 msgstr "Aktiveer ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad hoc-bevel het misluk"
@@ -2317,6 +2323,9 @@ msgstr "Wil u definitief %s verwyder?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Wil u definitief %s toelaat om u te kontak?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "Armeens"
 
@@ -2647,6 +2656,9 @@ msgstr "Geblokkeer"
 msgid "Blocked Text for %s"
 msgstr "Geblokte teks vir %s"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "Bokmål-Noorweegs"
 
@@ -2726,7 +2738,6 @@ msgstr "Blaaiervoorkeure word in GNOME-voorkeure opgestel"
 msgid "Browsing the web"
 msgstr ""
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Vriende"
 
@@ -3441,17 +3452,13 @@ msgstr "Bevel gedeaktiveer"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"Algemene naam: %s\n"
-"\n"
-"Vingerafdruk (SHA1): %s\n"
-"\n"
-"Aktiveringsdatum: %s\n"
-"Vervaldatum: %s\n"
 
 #, c-format
 msgid ""
@@ -6286,6 +6293,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Kannada-vertaalspan"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Sleutelooreenkoms"
 
@@ -6404,6 +6417,9 @@ msgstr "Laastestaaf-inprop."
 
 msgid "Latest News"
 msgstr "Jongste nuus"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10138,6 +10154,9 @@ msgstr "Eenvoudige inprop"
 msgid "Simplified Chinese"
 msgstr "Vereenvoudigde Sjinees"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10520,6 +10539,9 @@ msgstr "In die bad"
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Laaier vir Tcl-inproppe"
@@ -11307,6 +11329,11 @@ msgstr ""
 msgid "Thirsty"
 msgstr "Dors"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "Dié ligging"
 
@@ -12045,6 +12072,9 @@ msgstr ""
 "Kan nie Apple se \"Bonjour vir Windows\"-nutspak vind nie; sien "
 "http://d.pidgin.im/wiki/BonjourWindows vir meer inligting."
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Kan nie 'n geldige AIM-aanmeldhutswaarde kry nie."
 
@@ -12160,8 +12190,8 @@ msgid "Unable to resolve hostname"
 msgstr "Kon nie gasheernaam vasstel nie"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Kon nie gasheernaam '%s' vasstel nie: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "Kan nie ikoonlêer op skyf stoor nie."
@@ -12739,6 +12769,9 @@ msgstr "Gebruikers op %s: %s"
 msgid "Using a PDA"
 msgstr "Gebruik 'n PDA"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "V_olume:"
 
@@ -12788,6 +12821,9 @@ msgstr "Bekyk alle staaflêers"
 
 msgid "View Blocked Text..."
 msgstr "Sien geblokte teks..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "Bekyk liggings..."

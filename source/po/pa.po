@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
 "PO-Revision-Date: 2014-08-31 02:30+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Panjabi (Punjabi) "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-09-17 08:10+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-26 06:22+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: Punjabi\n"
 
 msgid "\t_Only when someone says your username"
@@ -921,6 +921,9 @@ msgstr "(ਕੋਈ ਵਿਸ਼ਾ ਨਹੀਂ ਦਿੱਤਾ ਹੈ)"
 msgid "(none)"
 msgstr "(ਕੋਈ ਨਹੀਂ)"
 
+msgid "(self-signed)"
+msgstr ""
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s ਵੇਹਲਾ ਹੋ ਗਿਆ"
@@ -1471,7 +1474,7 @@ msgstr ""
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
 
@@ -1827,6 +1830,9 @@ msgstr "ਐਕਸ਼ਨ"
 
 msgid "Activate ID..."
 msgstr "ਐਕਟੀਵੇਟ ID..."
+
+msgid "Activate which ID?"
+msgstr ""
 
 msgid "Ad-Hoc Command Failed"
 msgstr "ਐਡ-ਹਾਕ ਕਮਾਂਡ ਫੇਲ੍ਹ ਹੋਈ"
@@ -2317,6 +2323,9 @@ msgstr "ਕੀ ਤੁਸੀਂ %s ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰ�
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "ਕੀ ਤੁਸੀਂ %s ਨੂੰ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਦੇਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਦੇ ਹੋ?"
 
+msgid "Argentine Spanish"
+msgstr ""
+
 msgid "Armenian"
 msgstr "ਅਰਮੀਨੀਆਈ"
 
@@ -2646,6 +2655,9 @@ msgstr "ਪਾਬੰਦੀ"
 msgid "Blocked Text for %s"
 msgstr "%s ਲਈ ਬੱਡੀ ਟੈਕਸਟ"
 
+msgid "Bodo"
+msgstr ""
+
 msgid "Bokmål Norwegian"
 msgstr "ਬੋਕਮਾਲ ਨਾਰਵੇਗਆਈ"
 
@@ -2725,7 +2737,6 @@ msgstr "ਗਨੋਮ ਪਸੰਦ ਵਿੱਚ ਬਰਾਊਜ਼ਰ ਪਸੰ�
 msgid "Browsing the web"
 msgstr "ਵੈੱਬ ਬਰਾਊਜ਼ ਕਰੋ"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "ਬੱਡੀ"
 
@@ -3437,17 +3448,13 @@ msgstr "ਕਮਾਂਡ ਆਯੋਗ"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
-"ਆਮ ਨਾਂ: %s\n"
-"\n"
-"ਫਿੰਗਰਪਰਿੰਟ (SHA1): %s\n"
-"\n"
-"ਐਕਟਿਵ ਮਿਤੀ: %s\n"
-"ਮਿਆਦ: %s\n"
 
 #, c-format
 msgid ""
@@ -6277,6 +6284,12 @@ msgstr "ਕੰਨੜ"
 msgid "Kannada Translation team"
 msgstr "ਕੰਨੜ ਅਨੁਵਾਦਕ ਟੀਮ"
 
+msgid "Kashmiri"
+msgstr ""
+
+msgid "Kazakh"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "ਕੁੰਜੀ ਸਹਿਮਤੀ"
 
@@ -6394,6 +6407,9 @@ msgstr "ਆਖਰੀ-ਲਾਗ ਪਲੱਗਇਨ"
 
 msgid "Latest News"
 msgstr "ਤਾਜ਼ੀਆਂ ਖਬਰਾਂ"
+
+msgid "Latvian"
+msgstr ""
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10088,6 +10104,9 @@ msgstr "ਸਧਾਰਨ ਪਲੱਗਇਨ"
 msgid "Simplified Chinese"
 msgstr "ਸਧਾਰਨ ਚੀਨੀ"
 
+msgid "Sindhi"
+msgstr ""
+
 msgid "Single"
 msgstr ""
 
@@ -10468,6 +10487,9 @@ msgstr "ਇਸ਼ਨਾਨ ਕਰ ਰਿਹਾ ਹਾਂ"
 
 msgid "Tamil"
 msgstr "ਤਾਮਿਲ"
+
+msgid "Tatar"
+msgstr ""
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl ਪਲੱਗਇਨ ਲੋਡਰ"
@@ -11231,6 +11253,11 @@ msgstr "ਸੋਚ ਰਿਹਾ/ਰਹੀ ਹਾਂ"
 msgid "Thirsty"
 msgstr "ਇੱਛਕ"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+
 msgid "This Location"
 msgstr "ਇਹ ਟਿਕਾਣਾ"
 
@@ -11943,6 +11970,9 @@ msgstr ""
 "ਐਪਲ ਦਾ \"Windows ਲਈ ਬੋਨਜੋਉਰ\" ਟੂਲਕਿੱਟ ਲੱਭਣ ਲਈ ਅਸਮਰੱਥ, ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ "
 "http://d.pidgin.im/BonjourWindows ਵੇਖੋ।"
 
+msgid "Unable to find Issuer Certificate"
+msgstr ""
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "ਇੱਕ ਠੀਕ AIM ਲਾਗਇਨ ਹੈਂਸ਼ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਅਸਫ਼ਲ।"
 
@@ -12056,8 +12086,8 @@ msgid "Unable to resolve hostname"
 msgstr "ਹੋਸਟ-ਨਾਂ ਹੱਲ਼ ਕਰਨ ਲਈ ਅਸਮਰੱਥ"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "ਹੋਸਟ ਨਾਂ '%s' ਹੱਲ ਕਰਨ ਲਈ ਅਸਮਰੱਥ: %s"
+msgid "Unable to resolve hostname: %s"
+msgstr ""
 
 msgid "Unable to save icon file to disk."
 msgstr "ਡਿਸਕ ਉੱਤੇ ਆਈਕਾਨ ਸੰਭਾਲ ਲਈ ਅਸਫਲ ਹੈ।"
@@ -12631,6 +12661,9 @@ msgstr "%s 'ਤੇ ਯੂਜ਼ਰ: %s"
 msgid "Using a PDA"
 msgstr "PDA ਦੀ ਵਰਤੋਂ"
 
+msgid "Uzbek"
+msgstr ""
+
 msgid "V_olume:"
 msgstr "ਵਾਲੀਅਮ(_o):"
 
@@ -12680,6 +12713,9 @@ msgstr "ਸਭ ਲਾਗ ਵੇਖੋ"
 
 msgid "View Blocked Text..."
 msgstr "ਪਾਬੰਦੀਸ਼ੁਦਾ ਟੈਕਸਟ ਵੇਖੋ..."
+
+msgid "View Issuer Certificate"
+msgstr ""
 
 msgid "View Locations..."
 msgstr "ਟਿਕਾਣੇ ਵੇਖਾਓ..."

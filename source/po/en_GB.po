@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-16 17:45-0300\n"
-"PO-Revision-Date: 2014-10-04 14:13+0000\n"
+"POT-Creation-Date: 2014-10-25 18:41-0200\n"
+"PO-Revision-Date: 2014-10-26 11:11+0000\n"
 "Last-Translator: Anthony Harrington <untaintableangel@ubuntu.com>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-10-05 07:23+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2014-10-27 07:12+0000\n"
+"X-Generator: Launchpad (build 17203)\n"
 "Language: English (United Kingdom)\n"
 
 msgid "\t_Only when someone says your username"
@@ -931,6 +931,9 @@ msgstr "(no topic set)"
 msgid "(none)"
 msgstr "(none)"
 
+msgid "(self-signed)"
+msgstr "(self-signed)"
+
 #, c-format
 msgid "+++ %s became idle"
 msgstr "+++ %s became idle"
@@ -1491,10 +1494,10 @@ msgstr "<font color='#c8c8c8'>Not connected to XMPP</font>"
 
 #, c-format
 msgid ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 msgstr ""
-"<font size='4'><b>%s %s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
+"<font size='4'><b>%s %s%s</b></font><br>\tBased on Pidgin <i>%s</i><br>\t"
 "Libpurple <i>%s</i><br>\tPackage revision <i>%s</i><br><br>"
 
 #, c-format
@@ -1849,6 +1852,9 @@ msgstr "Actions"
 
 msgid "Activate ID..."
 msgstr "Activate ID..."
+
+msgid "Activate which ID?"
+msgstr "Activate which ID?"
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Ad-Hoc Command Failed"
@@ -2342,6 +2348,9 @@ msgstr "Are you sure you want to remove %s?"
 msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Are you sure you wish to allow %s to contact you?"
 
+msgid "Argentine Spanish"
+msgstr "Argentine Spanish"
+
 msgid "Armenian"
 msgstr "Armenian"
 
@@ -2673,6 +2682,9 @@ msgstr "Blocked"
 msgid "Blocked Text for %s"
 msgstr "Blocked Text for %s"
 
+msgid "Bodo"
+msgstr "Bodo"
+
 msgid "Bokmål Norwegian"
 msgstr "Bokmål Norwegian"
 
@@ -2752,7 +2764,6 @@ msgstr "Browser preferences are configured in GNOME preferences"
 msgid "Browsing the web"
 msgstr "Browsing the web"
 
-#. Changing this string?  Look in add_purple_buddy_to_groups
 msgid "Buddies"
 msgstr "Buddies"
 
@@ -3465,12 +3476,16 @@ msgstr "Command disabled"
 msgid ""
 "Common name: %s\n"
 "\n"
+"Issued By: %s\n"
+"\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
 "Common name: %s\n"
+"\n"
+"Issued By: %s\n"
 "\n"
 "Fingerprint (SHA1): %s\n"
 "\n"
@@ -6318,6 +6333,12 @@ msgstr "Kannada"
 msgid "Kannada Translation team"
 msgstr "Kannada Translation team"
 
+msgid "Kashmiri"
+msgstr "Kashmiri"
+
+msgid "Kazakh"
+msgstr "Kazakh"
+
 msgid "Key Agreement"
 msgstr "Key Agreement"
 
@@ -6436,6 +6457,9 @@ msgstr "Lastlog plug-in."
 
 msgid "Latest News"
 msgstr "Latest News"
+
+msgid "Latvian"
+msgstr "Latvian"
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -10158,6 +10182,9 @@ msgstr "Simple Plug-in"
 msgid "Simplified Chinese"
 msgstr "Simplified Chinese"
 
+msgid "Sindhi"
+msgstr "Sindhi"
+
 msgid "Single"
 msgstr "Single"
 
@@ -10542,6 +10569,9 @@ msgstr "Taking a bath"
 
 msgid "Tamil"
 msgstr "Tamil"
+
+msgid "Tatar"
+msgstr "Tatar"
 
 msgid "Tcl Plugin Loader"
 msgstr "Tcl Plug-in Loader"
@@ -11321,6 +11351,13 @@ msgstr "Thinking"
 msgid "Thirsty"
 msgstr "Thirsty"
 
+msgid ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+msgstr ""
+"This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
+"need the installer for the 32-bit version of Pidgin++."
+
 msgid "This Location"
 msgstr "This Location"
 
@@ -12054,6 +12091,9 @@ msgstr ""
 "Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
 "http://d.pidgin.im/BonjourWindows for more information."
 
+msgid "Unable to find Issuer Certificate"
+msgstr "Unable to find Issuer Certificate"
+
 msgid "Unable to get a valid AIM login hash."
 msgstr "Unable to get a valid AIM login hash."
 
@@ -12167,8 +12207,8 @@ msgid "Unable to resolve hostname"
 msgstr "Unable to resolve hostname"
 
 #, c-format
-msgid "Unable to resolve hostname '%s': %s"
-msgstr "Unable to resolve hostname '%s': %s"
+msgid "Unable to resolve hostname: %s"
+msgstr "Unable to resolve hostname: %s"
 
 msgid "Unable to save icon file to disk."
 msgstr "Unable to save icon file to disk."
@@ -12743,6 +12783,9 @@ msgstr "Users on %s: %s"
 msgid "Using a PDA"
 msgstr "Using a PDA"
 
+msgid "Uzbek"
+msgstr "Uzbek"
+
 msgid "V_olume:"
 msgstr "V_olume:"
 
@@ -12792,6 +12835,9 @@ msgstr "View All Logs"
 
 msgid "View Blocked Text..."
 msgstr "View Blocked Text..."
+
+msgid "View Issuer Certificate"
+msgstr "View Issuer Certificate"
 
 msgid "View Locations..."
 msgstr "View Locations..."
