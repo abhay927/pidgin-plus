@@ -44,9 +44,9 @@
                 color: #999;
             }
 
-            #ubuntu      { display: none; }
-            .translation { display: none; }
-            .en_US       { display: inline; }
+            #ubuntu, #windows { display: none; }
+            .translation      { display: none; }
+            .en_US            { display: inline; }
 
             ::-moz-selection { color: #f8f8f8; background-color: #555; }
             ::selection      { color: #f8f8f8; background-color: #555; }
@@ -91,16 +91,33 @@
                 if (setDisplayForClass(language, "inline"))
                     setDisplayForClass("en_US", "none");
             }
+            function windowsDownload() {
+                ubuntuButtonPressed = false;
+                windowsButtonPressed = !windowsButtonPressed;
+                if (windowsButtonPressed) {
+                    setDisplayForId("ubuntu", "none");
+                    setDisplayForId("windows", "inline");
+                    document.getElementById("ubuntu-button").className = "main";
+                    document.getElementById("windows-button").className = "pressed";
+                } else {
+                    setDisplayForId("windows", "none");
+                    document.getElementById("windows-button").className = "main";
+                }
+            }
             function ubuntuGuide() {
+                windowsButtonPressed = false;
                 ubuntuButtonPressed = !ubuntuButtonPressed;
                 if (ubuntuButtonPressed) {
+                    setDisplayForId("windows", "none");
                     setDisplayForId("ubuntu", "inline");
+                    document.getElementById("windows-button").className = "main";
                     document.getElementById("ubuntu-button").className = "pressed";
                 } else {
                     setDisplayForId("ubuntu", "none");
                     document.getElementById("ubuntu-button").className = "main";
                 }
             }
+            var windowsButtonPressed = false;
             var ubuntuButtonPressed = false;
             parseParameters();
         </script>
@@ -110,13 +127,10 @@
             <h1 class="logo"><i>Pidgin</i>++</h1>
             <p class="translation en_US">An improved version of Pidgin.</p>
             <p class="translation pt_BR">Uma versão melhorada do Pidgin.</p>
-            <br/><br/>
 
-            <i>
-                <h4 class="translation en_US">Next release</h4>
-                <h4 class="translation pt_BR">Próxima versão</h4>
-                <span class="translation en_US">(<a href="https://launchpad.net/pidgin++/test/14.1-test/+download/Pidgin++ 14.1 Setup.exe">test on Windows</a>)</span>
-                <span class="translation pt_BR">(<a href="https://launchpad.net/pidgin++/test/14.1-test/+download/Pidgin++ 14.1 Setup.exe">testar no Windows</a>)</span>
+            <br/><br/><i>
+            <h4 class="translation en_US">Next release</h4>
+            <h4 class="translation pt_BR">Próxima versão</h4>
 
         </div><div id="next-release">
             <ul>
@@ -201,11 +215,11 @@
                     <span class="translation pt_BR">Tema do GTK+ aprimorado</span></li>
             </ul><br>
             <p>
-                <a class="main" href="https://launchpad.net/pidgin++/trunk/2.10.9-rs137/+download/Pidgin 2.10.9-RS137 Setup.exe">
+                <a class="main" id="windows-button" href="javascript:windowsDownload();">
                     <span class="translation en_US">For Windows</span>
                     <span class="translation pt_BR">Para Windows</span>
                 </a>
-                <a class="main" href="javascript:ubuntuGuide();" id="ubuntu-button">
+                <a class="main" id="ubuntu-button" href="javascript:ubuntuGuide();">
                     <span class="translation en_US">For Ubuntu</span>
                     <span class="translation pt_BR">Para Ubuntu</span>
                 </a>
@@ -218,6 +232,21 @@
                     <span class="translation pt_BR">Desenvolvimento</span>
                 </a>
             </p>
+
+        </div><div id="windows">
+            <ul>
+                <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/trunk/2.10.9-rs137/+download/Pidgin 2.10.9-RS137 Setup.exe">Current release RS137</a></span>
+                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/trunk/2.10.9-rs137/+download/Pidgin 2.10.9-RS137 Setup.exe">Versão atual RS137</a></span></li>
+
+                <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/test/14.1-test/+download/Pidgin++ 14.1 x86 Setup.exe">Next release 14.1</a></span>
+                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/test/14.1-test/+download/Pidgin++ 14.1 x86 Setup.exe">Próxima versão 14.1</a></span></li>
+
+                <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/test/14.1-test/+download/Pidgin++ 14.1 x64 Setup.exe">Next release as 64-bit</a></span>
+                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/test/14.1-test/+download/Pidgin++ 14.1 x64 Setup.exe">Próxima versão em 64 bits</a></span></li>
+
+                <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/+download" target="_blank">All downloads</a></span>
+                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/+download" target="_blank">Todos os downloads</a></span></li>
+            </ul>
 
         </div><div id="ubuntu">
             <p class="translation en_US">
