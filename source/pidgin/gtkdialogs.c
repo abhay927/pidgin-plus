@@ -45,6 +45,10 @@
 #include "gtkutils.h"
 #include "pidginstock.h"
 
+#ifndef _WIN32
+#define BUILD_DATE _("<unknown>")
+#endif
+
 static GList *dialogwindows = NULL;
 
 struct _PidginGroupMergeObject {
@@ -512,7 +516,7 @@ const gchar *get_upstream_version(void)
 
 	g_match_info_free(match);
 	g_regex_unref(regex);
-	return result? result : purple_markup_escape_text(_("<unknown version>"), -1);
+	return result? result : purple_markup_escape_text(_("<unknown>"), -1);
 }
 
 void pidgin_dialogs_about(void)
@@ -541,9 +545,10 @@ void pidgin_dialogs_about(void)
 		_("<font size='4'><b>%s %s%s</b></font><br>"
 		  "\tBased on Pidgin <i>%s</i><br>"
 		  "\tLibpurple <i>%s</i><br>"
-		  "\tPackage revision <i>%s</i><br><br>"),
+		  "\tPackage revision <i>%s</i><br>"
+		  "\tBuild number <i>%s</i><br><br>"),
 		APPLICATION_NAME, DISPLAY_VERSION, bitness, get_upstream_version(),
-		purple_core_get_version(), purple_markup_escape_text(REVISION, -1));
+		purple_core_get_version(), purple_markup_escape_text(REVISION, -1), BUILD_DATE);
 
 	g_string_append_printf(str,
 		_("Welcome to %s, a modified version of Pidgin.<br>"
