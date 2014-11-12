@@ -272,7 +272,7 @@ Section $(GTKSECTIONTITLE) SecGtk
 !ifndef OFFLINE_INSTALLER
   ; We need to download the GTK+ runtime
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ ${APPLICATION_ARCHITECTURE} GTK+ Runtime ${GTK_INSTALL_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ GTK+ Runtime ${GTK_INSTALL_VERSION} ${APPLICATION_ARCHITECTURE}.zip"
   DetailPrint "Downloading GTK+ Runtime ... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0
@@ -501,7 +501,7 @@ Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
 !else
   ; We need to download the debug symbols
   retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${DISPLAY_VERSION}/+download/Pidgin++ ${APPLICATION_ARCHITECTURE} Debug Symbols ${DISPLAY_VERSION}.zip"
+  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${DISPLAY_VERSION}/+download/Pidgin++ ${DISPLAY_VERSION} ${APPLICATION_ARCHITECTURE} Debug Symbols.zip"
   DetailPrint "Downloading Debug Symbols... ($R2)"
   inetc::get /NOCANCEL "$R2" "$R1"
   Pop $R0

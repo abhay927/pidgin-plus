@@ -251,7 +251,7 @@ if [[ -n "$gtk" || -n "$dictionaries" ]]; then
         build gtk_runtime_zip_force
         gtk_version=$(pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
         for asc in "" ${sign:+.asc}; do
-            mv -v pidgin/win32/nsis/gtk-runtime-$gtk_version.zip$asc "$target/Pidgin++ $architecture GTK+ Runtime $gtk_version.zip$asc"
+            mv -v pidgin/win32/nsis/gtk-runtime-$gtk_version.zip$asc "$target/Pidgin++ GTK+ Runtime $gtk_version $architecture.zip$asc"
         done
     fi
     if [[ -n "$dictionaries" ]]; then
@@ -285,7 +285,7 @@ build "installer${offline:+s}"
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin++_*_offline.exe$asc "$target/Pidgin++ $version $architecture Offline Setup.exe$asc"
     mv -v pidgin++_*.exe$asc "$target/Pidgin++ $version $architecture Setup.exe$asc"
-    mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin++ $architecture Debug Symbols $version.zip$asc"
+    mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin++ $version $architecture Debug Symbols.zip$asc"
 done
 build uninstall
 step "Build finished."

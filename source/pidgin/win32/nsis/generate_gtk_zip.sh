@@ -9,7 +9,7 @@ architecture=$(gcc -dumpmachine)
 architecture="${architecture%%-*}"
 bundle_version=$(pacman -Q mingw-w64-${architecture}-gtk2)
 bundle_version="${bundle_version##* }"
-bundle_version="${bundle_version%-*}.R255"
+bundle_version="${bundle_version%-*}.R260"
 if [[ "$1" = --gtk-version ]]; then
     echo "$bundle_version"
     exit
@@ -49,13 +49,13 @@ check_sha1sum() {
 
 # Expected SHA-1 hash
 case "$bitness" in
-    32) architecture_short=x86; bundle_sha1sum=5032e2ad9c8af51acc69ffc7bb134efaecfb5d7e ;;
-    64) architecture_short=x64; bundle_sha1sum=db0a04261a7520e6f7e492ebf85b0fec04ec97c5 ;;
+    32) architecture_short=x86; bundle_sha1sum=b657378be630023239fbe47f553f995506a75c80 ;;
+    64) architecture_short=x64; bundle_sha1sum=810b153a8572fb83b7e019152707b011cb4de856 ;;
 esac
 
 # Try downloading first
 if [ ! -e "$zip_file" ]; then
-    url="https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ ${architecture_short} GTK+ Runtime ${bundle_version}.zip"
+    url="https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ GTK+ Runtime ${bundle_version} ${architecture_short}.zip"
     echo "Downloading $url"
     wget --quiet "$url" --output-document "$zip_file"
 fi
