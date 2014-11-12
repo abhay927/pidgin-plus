@@ -79,14 +79,14 @@ RequestExecutionLevel highest
 ;--------------------------------
 ;Version resource
 VIProductVersion "${PRODUCT_VERSION}"
-VIAddVersionKey "ProductName" "${APPLICATION_NAME}"
+VIAddVersionKey "ProductName" "${APPLICATION_NAME} (${APPLICATION_BITNESS}-bit)"
 VIAddVersionKey "FileVersion" "${APPLICATION_VERSION}"
-VIAddVersionKey "ProductVersion" "${DISPLAY_VERSION} (${APPLICATION_BITNESS}-bit)"
-VIAddVersionKey "LegalCopyright" ""
+VIAddVersionKey "ProductVersion" "${APPLICATION_VERSION}.${BUILD_DATE}"
+VIAddVersionKey "LegalCopyright" "Copyright (C) 1998-2014 The ${APPLICATION_NAME} developer community"
 !ifdef OFFLINE_INSTALLER
-VIAddVersionKey "FileDescription" "Pidgin++ ${APPLICATION_BITNESS}-bit Offline Installer"
+VIAddVersionKey "FileDescription" "Pidgin++ Offline Installer"
 !else
-VIAddVersionKey "FileDescription" "Pidgin++ ${APPLICATION_BITNESS}-bit Installer"
+VIAddVersionKey "FileDescription" "Pidgin++ Installer"
 !endif
 
 ;--------------------------------
