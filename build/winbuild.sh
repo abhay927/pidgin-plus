@@ -86,9 +86,10 @@ build_dir="$base_dir/build"
 sign="${sign:-$cert}"
 sign="${sign:+yes}"
 version=$($build_dir/changelog.sh --version)
-staging="$devroot/${staging:-pidgin.build.$bitness}"
-target="${directory:-$devroot/distribution/$version/$architecture}"
 windev="$devroot/win32-dev/pidgin-windev.sh"
+staging="$devroot/${staging:-pidgin.build.$bitness}"
+target_top="${directory:-$devroot/distribution/$version}"
+target="$target_top/$architecture"
 
 # Colored output
 if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
@@ -272,7 +273,7 @@ if [[ -n "$source" ]]; then
     fi
     build source_code_zip BAZAAR_BRANCH="$base_dir"
     for asc in "" ${sign:+.asc}; do
-        mv -v pidgin++_*_source.zip$asc "$target/Pidgin++ $version Source.zip$asc"
+        mv -v pidgin++_*_source.zip$asc "$target_top/Pidgin++ $version Source.zip$asc"
     done
 fi
 
