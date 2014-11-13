@@ -326,7 +326,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKLM ${PIDGIN_REG_KEY} "" "$INSTDIR"
     WriteRegStr HKLM ${PIDGIN_REG_KEY} "Version" "${APPLICATION_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
-    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME} ${APPLICATION_BITNESS}-bit"
+    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME} (${APPLICATION_BITNESS}-bit)"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${DISPLAY_VERSION}"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKLM "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
@@ -340,7 +340,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKCU ${PIDGIN_REG_KEY} "" "$INSTDIR"
     WriteRegStr HKCU ${PIDGIN_REG_KEY} "Version" "${APPLICATION_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
-    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME} ${APPLICATION_BITNESS}-bit"
+    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME} (${APPLICATION_BITNESS}-bit)"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${DISPLAY_VERSION}"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKCU "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
