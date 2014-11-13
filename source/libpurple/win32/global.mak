@@ -83,13 +83,8 @@ APPLICATION_VERSION := $(shell \
 )
 PURPLE_VERSION := $(APPLICATION_VERSION)
 UPSTREAM_VERSION := $(shell sed -e 's/-.*//' <<< "$(APPLICATION_VERSION)")
-
-ifdef EXTRAVERSION
-DISPLAY_VERSION := $(APPLICATION_VERSION)-$(EXTRAVERSION)
-else
-DISPLAY_VERSION := $(APPLICATION_VERSION)
-endif
-DISPLAY_VERSION := $(shell sed -e 's/.*-//' -e 's/\.0$$//' <<< "$(DISPLAY_VERSION)")
+DISPLAY_VERSION_FULL := $(shell sed -e 's/.*-//' <<< "$(APPLICATION_VERSION)")
+DISPLAY_VERSION := $(shell sed -e 's/\.0$$//' <<< "$(DISPLAY_VERSION_FULL)")
 
 ifeq ($(shell gcc -dumpmachine), x86_64-w64-mingw32)
 BITNESS := 64
