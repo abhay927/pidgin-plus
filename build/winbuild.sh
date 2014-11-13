@@ -158,7 +158,11 @@ gpg_version="${gpg_version##* }"
 
 # Code signing passwords
 if [[ -n "$sign" || -n "$cert" ]]; then
-    step "Configuring passwords"
+    step "Configuring code signing"
+    if [[ -n "$cert" ]]; then
+        signtool="$(dirname "$(which pvk2pfx)")/signtool.exe"
+        echo "Using SignTool from $signtool"
+    fi
     if [[ -n "$sign" ]]; then
         read -s -p "Enter password for GnuPG: " gpg_password; echo
         if ! $gpg --batch --yes --passphrase "$gpg_password" --output /tmp/test.asc -ab "$0"; then
@@ -227,7 +231,7 @@ if [[ -n "$cert" || -n "$sign" ]]; then
     echo "Configuring code signing with GnuPG${cert:+ and Authenticode}"
     if [[ -n "$cert" ]]; then
         echo "SIGNTOOL_PFX = $cert" > local.mak
-        echo "SIGNTOOL = signtool" >> local.mak
+        echo "SIGNTOOL = \"$signtool\"" >> local.mak
         echo "GPG_SIGN = $gpg" >> local.mak
     else
         echo "GPG_SIGN = $gpg" > local.mak
