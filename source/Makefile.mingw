@@ -190,10 +190,6 @@ generate_installer_includes: create_release_install_dir gtk_runtime_zip debug_sy
 			echo "\"$$lang_code\" \"$$lang_name\""; \
 		done | sed -e s/^/\!insertmacro\ LANG_SECTION\ / \
 	 > pidgin/win32/nsis/pidgin-translations.nsh
-	#GTK+ extraction, except for locale files which are extracted separately
-	unzip -l pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip | awk -F' ' '{ print $$4 }' | grep -v /locale/ | grep -v /$$ | grep ^Gtk | while read -r file; do \
-	    echo '!insertmacro ExtractFromGtk "$$'\(PIDGINEXTRACT\)'" '"$$file"; \
-	done > pidgin/win32/nsis/gtk-extraction.nsh
 	#Convert the available.lst lines to "!insertmacro SPELLCHECK_SECTION lang lang_name lang_file"
 	sed -e "/^#/d" -e "s/^[^,]\{1,\},[^,]\{1,\},/\"/" \
 	 -e "s/,/\"\ \"/" -e "s/,/\"\ \"/" -e "s/[\ \t]*$$/\"/" \

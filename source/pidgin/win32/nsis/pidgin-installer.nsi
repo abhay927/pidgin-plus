@@ -294,12 +294,15 @@ Section $(GTKSECTIONTITLE) SecGtk
   ;Delete the old Gtk directory
   RMDir /r "$INSTDIR\Gtk"
 
+  SetOutPath "$INSTDIR"
 !ifdef OFFLINE_INSTALLER
-  SetOutPath $INSTDIR
   File /r /x locale ".\Gtk"
 !else
-  ;Extract GTK+ except for locale files which are extracted in LANG_SECTION
-  !include "gtk-extraction.nsh"
+  nsisunz::UnzipToLog $R1 "$INSTDIR"
+  Pop $R0
+  StrCmp $R0 "success" +2
+  DetailPrint "$R0" ;print error message to log
+  RMDir /r "$INSTDIR\Gtk\share\locale" ;only the required locales will get installed in LANG_SECTION
   done:
 !endif
 SectionEnd ; end of GTK+ section
