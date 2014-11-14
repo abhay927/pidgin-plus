@@ -572,7 +572,7 @@ void pidgin_dialogs_about(void)
 		APPLICATION_NAME, APPLICATION_NAME, APPLICATION_NAME, APPLICATION_NAME, APPLICATION_NAME);
 
 	tmp = g_strdup_printf(_("About %s"), APPLICATION_NAME);
-	about = pidgin_build_help_dialog(tmp, "about", str, 0, 0);
+	about = pidgin_build_help_dialog(tmp, "about", str, 0, 630);
 	g_signal_connect(G_OBJECT(about), "destroy", G_CALLBACK(gtk_widget_destroyed), &about);
 	g_free(tmp);
 }
