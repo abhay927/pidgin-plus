@@ -70,14 +70,13 @@ if ! check_sha1sum "$zip_file" "$bundle_sha1sum" ${force:-quit}; then
 else
     echo "Extracting $zip_file"
     cd "$pidgin_base/pidgin/win32/nsis"
+    rm -rf "$install_dir"
     unzip -qo "$zip_file"
     exit
 fi
 
 # Prepare
-mkdir -p "$stage_dir"
-rm -rf "$stage_dir/$install_dir"
-mkdir "$stage_dir/$install_dir"
+mkdir -p "$stage_dir/$install_dir"
 cd "$stage_dir/$install_dir"
 
 # Main files
@@ -161,4 +160,5 @@ cd "$stage_dir"
 rm -f "$zip_file"
 echo "Creating ${zip_file##*/}"
 zip -9 -qr "$zip_file" "$install_dir"
-exit 0
+rm -rf "$stage_dir"
+exit
