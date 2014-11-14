@@ -60,14 +60,12 @@ PIDGIN_EXE := $(PIDGIN_TOP)/pidgin.exe
 PIDGIN_PORTABLE_EXE := $(PIDGIN_TOP)/pidgin-portable.exe
 
 GCCWARNINGS ?= -Waggregate-return -Wcast-align -Wdeclaration-after-statement -Werror-implicit-function-declaration -Wextra -Wno-sign-compare -Wno-unused-parameter -Winit-self -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith
-
 CC_HARDENING_OPTIONS ?= -Wstack-protector -fwrapv -fno-strict-overflow -Wno-missing-field-initializers -Wformat-security -fstack-protector-all --param ssp-buffer-size=1
 LD_HARDENING_OPTIONS ?= -Wl,--dynamicbase -Wl,--nxcompat
 
-
 APPLICATION_NAME     := $(shell grep -E '\#define\s+APPLICATION_NAME\s'     $(PURPLE_TOP)/internal.h | awk -F'"' '{ print $$2 }' )
 APPLICATION_WEBSITE  := $(shell grep -E '\#define\s+APPLICATION_WEBSITE\s'  $(PURPLE_TOP)/internal.h | awk -F'"' '{ print $$2 }' )
-BUILD_DATE      := $(shell date +%Y%m%d)
+BUILD_DATE           := $(shell date +%Y%m%d)
 
 # parse the version number from the configure.ac file if it is newer
 #m4_define([purple_major_version], [2])

@@ -222,6 +222,7 @@ else
     rm -f "$staging/local.mak"
 fi
 cp -rup "$source_dir/"* "$staging"
+touch "$staging/pidgin/gtkdialogs.c"
 "$build_dir/changelog.sh" --html --output "$staging/CHANGES.html"
 download_irc_plugins "$staging"
 

@@ -154,7 +154,6 @@ install: install_shallow all
 	    -e 's/@DISPLAY_VERSION_FULL@/$(DISPLAY_VERSION_FULL)/g' \
 	    -e 's/@APPLICATION_NAME@/$(APPLICATION_NAME)/g' \
 	    -e 's/@APPLICATION_BITNESS@/$(BITNESS)/g' \
-	    -e 's/@BUILD_DATE@/$(BUILD_DATE)/g' \
 	    $@.in > $@
 
 $(OBJECTS): $(PURPLE_CONFIG_H) $(PURPLE_VERSION_H) $(PURPLE_PURPLE_H)

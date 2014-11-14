@@ -23,7 +23,7 @@ VS_VERSION_INFO VERSIONINFO
         VALUE "LegalCopyright", "Copyright (C) 1998-2014 The @APPLICATION_NAME@ developer community"
         VALUE "OriginalFilename", "pidgin.dll"
         VALUE "ProductName", "@APPLICATION_NAME@"
-        VALUE "ProductVersion", "@DISPLAY_VERSION_FULL@.@BUILD_DATE@"
+        VALUE "ProductVersion", "@DISPLAY_VERSION_FULL@"
       END
     END
     BLOCK "VarFileInfo"

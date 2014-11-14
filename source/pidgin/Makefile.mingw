@@ -162,7 +162,6 @@ win32/pidgin_exe_rc.rc: win32/pidgin_exe_rc.rc.in $(PIDGIN_TREE_TOP)/VERSION
 	    -e 's/@ORIGINAL_FILENAME@/$(EXE_NAME)/' \
 	    -e 's/@APPLICATION_NAME@/$(APPLICATION_NAME)/g' \
 	    -e 's/@APPLICATION_BITNESS@/$(BITNESS)/g' \
-	    -e 's/@BUILD_DATE@/$(BUILD_DATE)/g' \
 	    $@.in > $@
 
 install_shallow: $(PIDGIN_INSTALL_DIR) $(EXE_TARGET).exe $(PIDGIN_TARGET).dll
@@ -178,7 +177,6 @@ win32/pidgin_dll_rc.rc: win32/pidgin_dll_rc.rc.in $(PIDGIN_TREE_TOP)/VERSION
 	    -e 's/@DISPLAY_VERSION_FULL@/$(DISPLAY_VERSION_FULL)/g' \
 	    -e 's/@APPLICATION_NAME@/$(APPLICATION_NAME)/g' \
 	    -e 's/@APPLICATION_BITNESS@/$(BITNESS)/g' \
-	    -e 's/@BUILD_DATE@/$(BUILD_DATE)/g' \
 	    $@.in > $@
 
 $(EXE_OBJECTS) $(PIDGIN_OBJECTS): $(PIDGIN_CONFIG_H)
