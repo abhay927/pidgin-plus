@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-11 19:50-0200\n"
-"PO-Revision-Date: 2014-11-12 02:13+0000\n"
+"PO-Revision-Date: 2014-11-14 18:30+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Renato Silva <br.renatosilva@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2014-11-13 07:19+0000\n"
+"X-Launchpad-Export-Date: 2014-11-15 07:00+0000\n"
 "X-Generator: Launchpad (build 17241)\n"
 "Language: Brazilian Portuguese\n"
 
@@ -4358,7 +4358,7 @@ msgid ""
 "Either the host name or port number specified for your given proxy type is "
 "invalid."
 msgstr ""
-"O nome do host ou o número da porta especificado para o tipo de proxy "
+"O nome do computador ou o número da porta especificado para o tipo de proxy "
 "fornecido é inválido."
 
 #. email
@@ -5695,13 +5695,13 @@ msgstr "Host fora do ar"
 
 #, c-format
 msgid "Host Name: \t%s\n"
-msgstr "Nome do host: \t%s\n"
+msgstr "Nome do computador: \t%s\n"
 
 msgid "Host Unknown"
 msgstr "Host desconhecido"
 
 msgid "Host name"
-msgstr "Nome do host"
+msgstr "Nome do computador"
 
 msgid "Hostname"
 msgstr "Nome do host"
@@ -11906,10 +11906,11 @@ msgid "Type the email address of the buddy you are searching for."
 msgstr "Digite o endereço de email do amigo que você está procurando."
 
 msgid "Type the host name for this certificate."
-msgstr "Digite o nome de host para este certificado."
+msgstr "Digite o nome do computador para este certificado."
 
 msgid "Type the host name this certificate is for."
-msgstr "Digite o nome de host para o qual este certificado será gerado."
+msgstr ""
+"Digite o nome do computador para o qual este certificado será gerado."
 
 msgid "Typing"
 msgstr "Digitando"
