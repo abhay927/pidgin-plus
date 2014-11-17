@@ -7326,6 +7326,7 @@ pidgin_blist_request_add_group(void)
 					   NULL);
 }
 
+#ifdef _WIN32
 gboolean
 is_blist_fully_visible()
 {
@@ -7361,6 +7362,7 @@ is_blist_fully_visible()
 		return FALSE;
 	return (blist_level == 0);
 }
+#endif
 
 void
 pidgin_blist_toggle_visibility()
@@ -7374,8 +7376,11 @@ pidgin_blist_toggle_visibility()
 			 * buddy list
 			 */
 			purple_blist_set_visible(PIDGIN_WINDOW_ICONIFIED(gtkblist->window) ||
-			                         ((gtk_blist_visibility != GDK_VISIBILITY_UNOBSCURED) && !gtk_blist_focused) ||
-			                         !is_blist_fully_visible());
+			                         ((gtk_blist_visibility != GDK_VISIBILITY_UNOBSCURED) && !gtk_blist_focused)
+#ifdef _WIN32
+			                         || !is_blist_fully_visible()
+#endif
+			                         );
 		} else {
 			purple_blist_set_visible(TRUE);
 		}
