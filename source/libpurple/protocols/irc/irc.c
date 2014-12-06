@@ -66,8 +66,7 @@ static void irc_view_motd(PurplePluginAction *action)
 {
 	PurpleConnection *gc = (PurpleConnection *) action->context;
 	struct irc_conn *irc;
-	char *title;
-	char *text;
+	char *title, *body;
 
 	if (gc == NULL || gc->proto_data == NULL) {
 		purple_debug(PURPLE_DEBUG_ERROR, "irc", "got MOTD request for NULL gc\n");
@@ -80,10 +79,10 @@ static void irc_view_motd(PurplePluginAction *action)
 		return;
 	}
 	title = g_strdup_printf(_("MOTD for %s"), irc->server);
-	text = g_strdup_printf("<font face=\"monospace\">%s</font>", irc->motd->str);
-	purple_notify_formatted(gc, title, title, NULL, text, NULL, NULL);
+	body = g_strdup_printf("<span style=\"font-family: monospace;\">%s</span>", irc->motd->str);
+	purple_notify_formatted(gc, title, title, NULL, body, NULL, NULL);
 	g_free(title);
-	g_free(text);
+	g_free(body);
 }
 
 static int do_send(struct irc_conn *irc, const char *buf, gsize len)
