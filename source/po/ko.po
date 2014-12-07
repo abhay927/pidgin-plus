@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 19:50-0200\n"
+"POT-Creation-Date: 2014-12-06 11:48-0200\n"
 "PO-Revision-Date: 2014-08-31 02:32+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: GTP Korean <gnome-kr-translation@gnome.or.kr>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-11-12 07:27+0000\n"
-"X-Generator: Launchpad (build 17241)\n"
+"X-Launchpad-Export-Date: 2014-12-07 06:29+0000\n"
+"X-Generator: Launchpad (build 17274)\n"
 "X-Poedit-Country: KOREA, REPUBLIC OF\n"
 "Language: Korean\n"
 "X-Poedit-Language: Korean\n"
@@ -1870,6 +1870,11 @@ msgstr ""
 msgid "Age"
 msgstr "연령"
 
+#. Translators: This is a person's name. For most languages we recommend
+#. not translating it.
+msgid "Akmal Khushvakov"
+msgstr ""
+
 msgid "Albanian"
 msgstr "알바니아어"
 
@@ -3179,6 +3184,9 @@ msgstr "암호"
 msgid "Cipher Test"
 msgstr "암호화 시험"
 
+msgid "Ciphers"
+msgstr ""
+
 msgid "City"
 msgstr "도시"
 
@@ -3350,6 +3358,13 @@ msgstr ""
 
 msgid "Configuration error"
 msgstr "설정 오류"
+
+#. *< name
+#. *< version
+#. *  summary
+#. *  description
+msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
+msgstr ""
 
 msgid "Configure IM Forwarding (web)"
 msgstr ""
@@ -5812,6 +5827,9 @@ msgstr ""
 msgid "Instant Messaging"
 msgstr "인스턴트 메신저"
 
+msgid "Instant Messaging Client"
+msgstr ""
+
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
@@ -6181,6 +6199,9 @@ msgstr "한국어"
 
 msgid "Kurdish"
 msgstr "쿠르드어"
+
+msgid "Kurdish (Sorani)"
+msgstr ""
 
 msgid "Lao"
 msgstr ""
@@ -6609,6 +6630,9 @@ msgstr ""
 msgid "Master archive is misconfigured"
 msgstr "Master archive 설정이 틀렸습니다."
 
+msgid "Maximum Version"
+msgstr ""
+
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
 msgstr "최대 last-seen 차이:"
@@ -6816,6 +6840,9 @@ msgstr "마우스 가운데 버튼"
 msgid "Minimi_ze new conversation windows"
 msgstr "최소화로 새 대화창 열기(_Z)"
 
+msgid "Minimum Version"
+msgstr ""
+
 msgid "Minimum input area height in lines:"
 msgstr ""
 
@@ -6983,6 +7010,15 @@ msgstr ""
 #. *< id
 msgid "NSS"
 msgstr "NSS"
+
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
+msgid "NSS Preferences"
+msgstr ""
 
 msgid "N_ew conversations:"
 msgstr "새 대화(_E):"
@@ -7314,6 +7350,10 @@ msgstr "인증되어 있지 않습니다."
 
 msgid "Not Available"
 msgstr "사용 불가"
+
+#. TODO: look into how to do this for older versions?
+msgid "Not Supported for NSS < 3.14"
+msgstr ""
 
 msgid "Not accepting new users"
 msgstr "새 사용자를 접수할 수 없습니다."
@@ -7961,6 +8001,11 @@ msgid "Pidgin++ Instant Messaging Client (required)"
 msgstr ""
 
 msgid "Pidgin++ Internet Messenger"
+msgstr ""
+
+msgid ""
+"Pidgin++ is a chat program which lets you log in to accounts on multiple "
+"chat networks simultaneously."
 msgstr ""
 
 msgid ""
@@ -9070,6 +9115,12 @@ msgstr "SOCKS 5"
 #. *< id
 msgid "SSL"
 msgstr "SSL"
+
+msgid "SSL 2"
+msgstr ""
+
+msgid "SSL 3"
+msgstr ""
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10243,6 +10294,21 @@ msgstr "시스템 이벤트 로그는 설정 창에서 \"상태 변경을 모두
 msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "T.M.Thanh 및 Gnome-Vi 팀"
 
+msgid "TLS 1.0"
+msgstr ""
+
+msgid "TLS 1.1"
+msgstr ""
+
+msgid "TLS 1.2"
+msgstr ""
+
+msgid "TLS 1.3"
+msgstr ""
+
+msgid "TLS/SSL Versions"
+msgstr ""
+
 msgid "T_CP Port:"
 msgstr ""
 
@@ -10510,6 +10576,9 @@ msgstr ""
 #, c-format
 msgid "The browser command \"%s\" is invalid."
 msgstr "브라우저 명령 \"%s\" 이(가) 올바르지 않습니다."
+
+msgid "The buddy list of Pidgin showing friends on different networks."
+msgstr ""
 
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
@@ -11018,6 +11087,11 @@ msgstr ""
 
 msgid "This is the name that other MSN buddies will see you as."
 msgstr "MSN 의 다른 친구가 나를 볼 때 표시되는 이름입니다."
+
+msgid ""
+"This means that you can be chatting with friends on MSN, talking to a friend "
+"on Google Talk, and sitting in a Yahoo chat room all at the same time."
+msgstr ""
 
 #. *  description
 msgid ""
@@ -13302,9 +13376,9 @@ msgstr ""
 msgid "Your Language"
 msgstr ""
 
-msgid ""
-"Your MSN buddy list is temporarily unavailable. Please wait and try again."
-msgstr "사용 중인 MSN 친구 목록이 일시적으로 사용할수 없게 되었습니다. 잠시 후 다시 시도해 보시기 바랍니다."
+#, c-format
+msgid "Your MSN buddy list is temporarily unavailable: %s"
+msgstr ""
 
 msgid "Your MXit ID..."
 msgstr ""

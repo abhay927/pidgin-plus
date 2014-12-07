@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 19:50-0200\n"
+"POT-Creation-Date: 2014-12-06 11:48-0200\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-11-12 07:44+0000\n"
-"X-Generator: Launchpad (build 17241)\n"
+"X-Launchpad-Export-Date: 2014-12-07 06:44+0000\n"
+"X-Generator: Launchpad (build 17274)\n"
 "Language: Chinese (Simplified)\n"
 
 msgid "\t_Only when someone says your username"
@@ -1898,6 +1898,11 @@ msgstr "南非荷兰语"
 msgid "Age"
 msgstr "年龄"
 
+#. Translators: This is a person's name. For most languages we recommend
+#. not translating it.
+msgid "Akmal Khushvakov"
+msgstr ""
+
 msgid "Albanian"
 msgstr "阿尔巴尼亚语"
 
@@ -3214,6 +3219,9 @@ msgstr ""
 msgid "Cipher Test"
 msgstr ""
 
+msgid "Ciphers"
+msgstr ""
+
 msgid "City"
 msgstr "城市"
 
@@ -3391,6 +3399,13 @@ msgstr "自信"
 
 msgid "Configuration error"
 msgstr "配置错误"
+
+#. *< name
+#. *< version
+#. *  summary
+#. *  description
+msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
+msgstr ""
 
 msgid "Configure IM Forwarding (web)"
 msgstr "配置聊天转发(web)"
@@ -5855,6 +5870,9 @@ msgstr "安装插件..."
 msgid "Instant Messaging"
 msgstr "即时通讯"
 
+msgid "Instant Messaging Client"
+msgstr ""
+
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
@@ -6224,6 +6242,9 @@ msgstr "朝鲜语"
 
 msgid "Kurdish"
 msgstr "库得语"
+
+msgid "Kurdish (Sorani)"
+msgstr ""
 
 msgid "Lao"
 msgstr "老挝语"
@@ -6651,6 +6672,9 @@ msgstr ""
 msgid "Master archive is misconfigured"
 msgstr "主存档配置错误"
 
+msgid "Maximum Version"
+msgstr ""
+
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
 msgstr ""
@@ -6859,6 +6883,9 @@ msgstr "鼠标中键"
 msgid "Minimi_ze new conversation windows"
 msgstr "最小化对话窗口(_Z)"
 
+msgid "Minimum Version"
+msgstr ""
+
 msgid "Minimum input area height in lines:"
 msgstr "输入区最小行数："
 
@@ -7026,6 +7053,15 @@ msgstr "名称"
 #. *< id
 msgid "NSS"
 msgstr "NSS"
+
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
+msgid "NSS Preferences"
+msgstr ""
 
 msgid "N_ew conversations:"
 msgstr "新建对话(_E)："
@@ -7356,6 +7392,10 @@ msgstr "未认证"
 
 msgid "Not Available"
 msgstr "不可用"
+
+#. TODO: look into how to do this for older versions?
+msgid "Not Supported for NSS < 3.14"
+msgstr ""
 
 msgid "Not accepting new users"
 msgstr "不接受新用户"
@@ -8003,6 +8043,11 @@ msgid "Pidgin++ Instant Messaging Client (required)"
 msgstr ""
 
 msgid "Pidgin++ Internet Messenger"
+msgstr ""
+
+msgid ""
+"Pidgin++ is a chat program which lets you log in to accounts on multiple "
+"chat networks simultaneously."
 msgstr ""
 
 msgid ""
@@ -9110,6 +9155,12 @@ msgstr "SOCKS 5"
 #. *< id
 msgid "SSL"
 msgstr "SSL"
+
+msgid "SSL 2"
+msgstr ""
+
+msgid "SSL 3"
+msgstr ""
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10284,6 +10335,21 @@ msgstr "仅当启用了“将全部状态更改记录到系统日志”首选项
 msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "T.M.Thanh 及Gnome 越南语小组"
 
+msgid "TLS 1.0"
+msgstr ""
+
+msgid "TLS 1.1"
+msgstr ""
+
+msgid "TLS 1.2"
+msgstr ""
+
+msgid "TLS 1.3"
+msgstr ""
+
+msgid "TLS/SSL Versions"
+msgstr ""
+
 msgid "T_CP Port:"
 msgstr ""
 
@@ -10549,6 +10615,9 @@ msgstr "您输入的生日无效。正确的格式是：YYYY-MM-DD，YYYY 为四
 #, c-format
 msgid "The browser command \"%s\" is invalid."
 msgstr "浏览器命令“%s”无效。"
+
+msgid "The buddy list of Pidgin showing friends on different networks."
+msgstr ""
 
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
@@ -11051,6 +11120,11 @@ msgstr "这是识别此位置的名称"
 
 msgid "This is the name that other MSN buddies will see you as."
 msgstr "这是其他的 MSN 好友看到的名字。"
+
+msgid ""
+"This means that you can be chatting with friends on MSN, talking to a friend "
+"on Google Talk, and sitting in a Yahoo chat room all at the same time."
+msgstr ""
 
 #. *  description
 msgid ""
@@ -13327,9 +13401,9 @@ msgstr "您连接和断开得太频繁。请等十分钟，然后再试一次。
 msgid "Your Language"
 msgstr "首选语言"
 
-msgid ""
-"Your MSN buddy list is temporarily unavailable. Please wait and try again."
-msgstr "您的 MSN 好友列表临时不可用。请稍候再试。"
+#, c-format
+msgid "Your MSN buddy list is temporarily unavailable: %s"
+msgstr ""
 
 msgid "Your MXit ID..."
 msgstr "您的 MXit ID..."

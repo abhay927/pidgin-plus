@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 19:50-0200\n"
+"POT-Creation-Date: 2014-12-06 11:48-0200\n"
 "PO-Revision-Date: 2014-08-31 02:51+0000\n"
 "Last-Translator: Tony Sam <samant.ua@mail.ru>\n"
 "Language-Team: \n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2014-11-12 07:35+0000\n"
-"X-Generator: Launchpad (build 17241)\n"
+"X-Launchpad-Export-Date: 2014-12-07 06:37+0000\n"
+"X-Generator: Launchpad (build 17274)\n"
 "Language: Russian\n"
 
 msgid "\t_Only when someone says your username"
@@ -2006,6 +2006,11 @@ msgstr "Африкаанс"
 msgid "Age"
 msgstr "Возраст"
 
+#. Translators: This is a person's name. For most languages we recommend
+#. not translating it.
+msgid "Akmal Khushvakov"
+msgstr ""
+
 msgid "Albanian"
 msgstr "Албанский"
 
@@ -3353,6 +3358,9 @@ msgstr "Шифр"
 msgid "Cipher Test"
 msgstr "Проверка шифров"
 
+msgid "Ciphers"
+msgstr ""
+
 msgid "City"
 msgstr "Город"
 
@@ -3532,6 +3540,13 @@ msgstr "Уверенный"
 
 msgid "Configuration error"
 msgstr "Ошибка настройки"
+
+#. *< name
+#. *< version
+#. *  summary
+#. *  description
+msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
+msgstr ""
 
 msgid "Configure IM Forwarding (web)"
 msgstr "Настроить переадресацию мгновенных сообщений (web)"
@@ -6038,6 +6053,9 @@ msgstr "Установить модуль..."
 msgid "Instant Messaging"
 msgstr "Обмен мгновенными сообщениями"
 
+msgid "Instant Messaging Client"
+msgstr ""
+
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
@@ -6411,6 +6429,9 @@ msgstr "Корейский"
 
 msgid "Kurdish"
 msgstr "Курдский"
+
+msgid "Kurdish (Sorani)"
+msgstr ""
 
 msgid "Lao"
 msgstr "Лаосский"
@@ -6850,6 +6871,9 @@ msgstr ""
 msgid "Master archive is misconfigured"
 msgstr "Главный архив не настроен"
 
+msgid "Maximum Version"
+msgstr ""
+
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
 msgstr "Максимальная в последний раз увиденная разница:"
@@ -7075,6 +7099,9 @@ msgstr "Средняя кнопка мыши"
 msgid "Minimi_ze new conversation windows"
 msgstr "_Сворачивать новые окна бесед"
 
+msgid "Minimum Version"
+msgstr ""
+
 msgid "Minimum input area height in lines:"
 msgstr "Минимальная высота области ввода в строках:"
 
@@ -7247,6 +7274,15 @@ msgstr "ИМЯ"
 #. *< id
 msgid "NSS"
 msgstr "NSS"
+
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
+msgid "NSS Preferences"
+msgstr ""
 
 msgid "N_ew conversations:"
 msgstr "_Новые беседы:"
@@ -7582,6 +7618,10 @@ msgstr "Не авторизован"
 
 msgid "Not Available"
 msgstr "Недоступен"
+
+#. TODO: look into how to do this for older versions?
+msgid "Not Supported for NSS < 3.14"
+msgstr ""
 
 msgid "Not accepting new users"
 msgstr "Новые пользователи не принимаются"
@@ -8234,6 +8274,11 @@ msgid "Pidgin++ Instant Messaging Client (required)"
 msgstr ""
 
 msgid "Pidgin++ Internet Messenger"
+msgstr ""
+
+msgid ""
+"Pidgin++ is a chat program which lets you log in to accounts on multiple "
+"chat networks simultaneously."
 msgstr ""
 
 msgid ""
@@ -9383,6 +9428,12 @@ msgstr "SOCKS 5"
 #. *< id
 msgid "SSL"
 msgstr "SSL"
+
+msgid "SSL 2"
+msgstr ""
+
+msgid "SSL 3"
+msgstr ""
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10583,6 +10634,21 @@ msgstr ""
 msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "T.M.Thanh и команда Gnome-Vi"
 
+msgid "TLS 1.0"
+msgstr ""
+
+msgid "TLS 1.1"
+msgstr ""
+
+msgid "TLS 1.2"
+msgstr ""
+
+msgid "TLS 1.3"
+msgstr ""
+
+msgid "TLS/SSL Versions"
+msgstr ""
+
 msgid "T_CP Port:"
 msgstr "T_CP порт:"
 
@@ -10883,6 +10949,9 @@ msgstr ""
 #, c-format
 msgid "The browser command \"%s\" is invalid."
 msgstr "Команда запуска проводника \"%s\" неверна."
+
+msgid "The buddy list of Pidgin showing friends on different networks."
+msgstr ""
 
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
@@ -11452,6 +11521,11 @@ msgstr "Это имя, отождествляющееся с этим место
 
 msgid "This is the name that other MSN buddies will see you as."
 msgstr "Это имя, под которым вас будут видеть другие пользователи MSN."
+
+msgid ""
+"This means that you can be chatting with friends on MSN, talking to a friend "
+"on Google Talk, and sitting in a Yahoo chat room all at the same time."
+msgstr ""
 
 #. *  description
 msgid ""
@@ -13905,10 +13979,9 @@ msgstr ""
 msgid "Your Language"
 msgstr "Ваш язык"
 
-msgid ""
-"Your MSN buddy list is temporarily unavailable. Please wait and try again."
+#, c-format
+msgid "Your MSN buddy list is temporarily unavailable: %s"
 msgstr ""
-"Ваш список собеседников MSN временно недоступен. Повторите попытку позже."
 
 msgid "Your MXit ID..."
 msgstr "Ваш MXit ID..."

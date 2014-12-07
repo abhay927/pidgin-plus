@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 19:50-0200\n"
+"POT-Creation-Date: 2014-12-06 11:48-0200\n"
 "PO-Revision-Date: 2014-08-31 02:03+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Hungarian "
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-11-12 07:24+0000\n"
-"X-Generator: Launchpad (build 17241)\n"
+"X-Launchpad-Export-Date: 2014-12-07 06:26+0000\n"
+"X-Generator: Launchpad (build 17274)\n"
 "Language: Hungarian\n"
 
 msgid "\t_Only when someone says your username"
@@ -1992,6 +1992,11 @@ msgstr "afrikaans"
 msgid "Age"
 msgstr "Kor"
 
+#. Translators: This is a person's name. For most languages we recommend
+#. not translating it.
+msgid "Akmal Khushvakov"
+msgstr ""
+
 msgid "Albanian"
 msgstr "albán"
 
@@ -3343,6 +3348,9 @@ msgstr "Titkosító"
 msgid "Cipher Test"
 msgstr "Titkosítóteszt"
 
+msgid "Ciphers"
+msgstr ""
+
 msgid "City"
 msgstr "Város"
 
@@ -3522,6 +3530,13 @@ msgstr "Magabiztos"
 
 msgid "Configuration error"
 msgstr "Beállítási hiba"
+
+#. *< name
+#. *< version
+#. *  summary
+#. *  description
+msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
+msgstr ""
 
 msgid "Configure IM Forwarding (web)"
 msgstr "Üzenettovábbítás beállítása (web)"
@@ -6024,6 +6039,9 @@ msgstr "Bővítmény telepítése…"
 msgid "Instant Messaging"
 msgstr "Azonnali üzenetküldés"
 
+msgid "Instant Messaging Client"
+msgstr ""
+
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
@@ -6397,6 +6415,9 @@ msgstr "koreai"
 
 msgid "Kurdish"
 msgstr "kurd"
+
+msgid "Kurdish (Sorani)"
+msgstr ""
 
 msgid "Lao"
 msgstr "lao"
@@ -6835,6 +6856,9 @@ msgstr ""
 msgid "Master archive is misconfigured"
 msgstr "A főarchívum hibásan van beállítva"
 
+msgid "Maximum Version"
+msgstr ""
+
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
 msgstr "Legnagyobb utoljára-látszott különbség:"
@@ -7052,6 +7076,9 @@ msgstr "Középső egérgomb"
 msgid "Minimi_ze new conversation windows"
 msgstr "Új társalgási ablakok _minimalizálása"
 
+msgid "Minimum Version"
+msgstr ""
+
 msgid "Minimum input area height in lines:"
 msgstr "Beviteli terület minimális magassága sorokban:"
 
@@ -7223,6 +7250,15 @@ msgstr "NÉV"
 #. *< id
 msgid "NSS"
 msgstr "NSS"
+
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
+msgid "NSS Preferences"
+msgstr ""
 
 msgid "N_ew conversations:"
 msgstr "Új _társalgások:"
@@ -7557,6 +7593,10 @@ msgstr "Nem engedélyezett"
 
 msgid "Not Available"
 msgstr "Nem érhető el"
+
+#. TODO: look into how to do this for older versions?
+msgid "Not Supported for NSS < 3.14"
+msgstr ""
 
 msgid "Not accepting new users"
 msgstr "Nem fogad új felhasználókat"
@@ -8209,6 +8249,11 @@ msgid "Pidgin++ Instant Messaging Client (required)"
 msgstr ""
 
 msgid "Pidgin++ Internet Messenger"
+msgstr ""
+
+msgid ""
+"Pidgin++ is a chat program which lets you log in to accounts on multiple "
+"chat networks simultaneously."
 msgstr ""
 
 msgid ""
@@ -9359,6 +9404,12 @@ msgstr "SOCKS 5"
 #. *< id
 msgid "SSL"
 msgstr "SSL"
+
+msgid "SSL 2"
+msgstr ""
+
+msgid "SSL 3"
+msgstr ""
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10563,6 +10614,21 @@ msgstr ""
 msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "T.M.Thanh és a Gnome-Vi csapat"
 
+msgid "TLS 1.0"
+msgstr ""
+
+msgid "TLS 1.1"
+msgstr ""
+
+msgid "TLS 1.2"
+msgstr ""
+
+msgid "TLS 1.3"
+msgstr ""
+
+msgid "TLS/SSL Versions"
+msgstr ""
+
 msgid "T_CP Port:"
 msgstr ""
 
@@ -10857,6 +10923,9 @@ msgstr "A megadott születésnap érvénytelen. A helyes formátum: „ÉÉÉÉ-
 #, c-format
 msgid "The browser command \"%s\" is invalid."
 msgstr "A(z) „%s” böngészőparancs érvénytelen."
+
+msgid "The buddy list of Pidgin showing friends on different networks."
+msgstr ""
 
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
@@ -11418,6 +11487,11 @@ msgstr "A helyet azonosító név"
 
 msgid "This is the name that other MSN buddies will see you as."
 msgstr "Ezen a néven fogják látni az MSN partnerei."
+
+msgid ""
+"This means that you can be chatting with friends on MSN, talking to a friend "
+"on Google Talk, and sitting in a Yahoo chat room all at the same time."
+msgstr ""
 
 #. *  description
 msgid ""
@@ -13875,11 +13949,9 @@ msgstr ""
 msgid "Your Language"
 msgstr "Nyelv"
 
-msgid ""
-"Your MSN buddy list is temporarily unavailable. Please wait and try again."
+#, c-format
+msgid "Your MSN buddy list is temporarily unavailable: %s"
 msgstr ""
-"Az Ön MSN partnerlistája átmenetileg nem érhető el. Kérem várjon, és "
-"próbálja újra később."
 
 msgid "Your MXit ID..."
 msgstr "Az Ön MXit ID-ja…"
