@@ -17,8 +17,6 @@ CYRUS_SASL_PLUGINS = \
                         $(CYRUS_SASL_TOP)/lib/sasl2/libanonymous-3.dll \
                         $(CYRUS_SASL_TOP)/lib/sasl2/libcrammd5-3.dll \
                         $(CYRUS_SASL_TOP)/lib/sasl2/libdigestmd5-3.dll \
-                        #$(CYRUS_SASL_TOP)/lib/sasl2/saslGSSAPI.dll \
-                        #$(CYRUS_SASL_TOP)/lib/sasl2/saslLOGIN.dll \
                         $(CYRUS_SASL_TOP)/lib/sasl2/libplain-3.dll
 
 endif

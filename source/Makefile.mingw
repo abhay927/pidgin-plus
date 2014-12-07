@@ -94,7 +94,7 @@ EXTERNAL_DLLS = \
 	libanonymous-3.dll \
 	libcrammd5-3.dll \
 	libdigestmd5-3.dll \
-	libplain.dll \
+	libplain-3.dll \
 	libsilc-1-1-2.dll \
 	libsilcclient-1-1-3.dll \
 	smime3.dll \
