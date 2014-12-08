@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-06 11:48-0200\n"
-"PO-Revision-Date: 2014-11-14 18:30+0000\n"
+"PO-Revision-Date: 2014-12-07 21:34+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Renato Silva <br.renatosilva@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2014-12-07 06:43+0000\n"
+"X-Launchpad-Export-Date: 2014-12-08 06:42+0000\n"
 "X-Generator: Launchpad (build 17274)\n"
 "Language: Brazilian Portuguese\n"
 
@@ -2033,7 +2033,7 @@ msgstr "Idade"
 #. Translators: This is a person's name. For most languages we recommend
 #. not translating it.
 msgid "Akmal Khushvakov"
-msgstr ""
+msgstr "Akmal Khushvakov"
 
 msgid "Albanian"
 msgstr "Albanês"
@@ -3401,7 +3401,7 @@ msgid "Cipher Test"
 msgstr "Teste da cifra"
 
 msgid "Ciphers"
-msgstr ""
+msgstr "Cifras"
 
 msgid "City"
 msgstr "Cidade"
@@ -3597,7 +3597,7 @@ msgstr "Erro de configuração"
 #. *  summary
 #. *  description
 msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
-msgstr ""
+msgstr "Configurar cifras e outras preferências do plugin NSS de SSL/TLS"
 
 msgid "Configure IM Forwarding (web)"
 msgstr "Configurar encaminhamento de mensagens instantâneas (URL)"
@@ -6119,7 +6119,7 @@ msgid "Instant Messaging"
 msgstr "Mensagens instantâneas"
 
 msgid "Instant Messaging Client"
-msgstr ""
+msgstr "Cliente de mensagens instantâneas"
 
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
@@ -6496,7 +6496,7 @@ msgid "Kurdish"
 msgstr "Curdo"
 
 msgid "Kurdish (Sorani)"
-msgstr ""
+msgstr "Curdo (Sorâni)"
 
 msgid "Lao"
 msgstr "Laociano"
@@ -6940,7 +6940,7 @@ msgid "Master archive is misconfigured"
 msgstr "O arquivo mestre está mal configurado"
 
 msgid "Maximum Version"
-msgstr ""
+msgstr "Versão máxima"
 
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
@@ -7166,7 +7166,7 @@ msgid "Minimi_ze new conversation windows"
 msgstr "Minimi_zar novas janelas de conversa"
 
 msgid "Minimum Version"
-msgstr ""
+msgstr "Versão mínima"
 
 msgid "Minimum input area height in lines:"
 msgstr "Altura da área minima de entrada em linhas:"
@@ -7347,7 +7347,7 @@ msgstr "NSS"
 #. *< priority
 #. *< id
 msgid "NSS Preferences"
-msgstr ""
+msgstr "Preferências de NSS"
 
 msgid "N_ew conversations:"
 msgstr "Novas conv_ersas:"
@@ -7687,7 +7687,7 @@ msgstr "Não disponível"
 
 #. TODO: look into how to do this for older versions?
 msgid "Not Supported for NSS < 3.14"
-msgstr ""
+msgstr "Não suportado para NSS < 3.14"
 
 msgid "Not accepting new users"
 msgstr "Usuários novos não estão sendo aceitos"
@@ -8346,6 +8346,8 @@ msgid ""
 "Pidgin++ is a chat program which lets you log in to accounts on multiple "
 "chat networks simultaneously."
 msgstr ""
+"Pidgin++ é um programa de bate-papo que permite usar diferentes redes de "
+"bate-papo ao mesmo tempo."
 
 msgid ""
 "Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
@@ -9503,10 +9505,10 @@ msgid "SSL"
 msgstr "SSL"
 
 msgid "SSL 2"
-msgstr ""
+msgstr "SSL 2"
 
 msgid "SSL 3"
-msgstr ""
+msgstr "SSL 3"
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10712,19 +10714,19 @@ msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "T.M.Thanh e o time do Gnome-Vi"
 
 msgid "TLS 1.0"
-msgstr ""
+msgstr "TLS 1.0"
 
 msgid "TLS 1.1"
-msgstr ""
+msgstr "TLS 1.1"
 
 msgid "TLS 1.2"
-msgstr ""
+msgstr "TLS 1.2"
 
 msgid "TLS 1.3"
-msgstr ""
+msgstr "TLS 1.3"
 
 msgid "TLS/SSL Versions"
-msgstr ""
+msgstr "Versões de TLS/SSL"
 
 msgid "T_CP Port:"
 msgstr "Porta T_CP:"
@@ -11031,6 +11033,8 @@ msgstr "O comando de navegador \"%s\" é inválido."
 
 msgid "The buddy list of Pidgin showing friends on different networks."
 msgstr ""
+"A lista de amigos do Pidgin exibindo contatos de diferentes redes de bate-"
+"papo."
 
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
@@ -11605,6 +11609,9 @@ msgid ""
 "This means that you can be chatting with friends on MSN, talking to a friend "
 "on Google Talk, and sitting in a Yahoo chat room all at the same time."
 msgstr ""
+"Isso permite a você conversar com amigos do MSN, falar com um contato do "
+"Google Talk e entrar numa sala de bate-papo do Yahoo, tudo isso ao mesmo "
+"tempo."
 
 #. *  description
 msgid ""
@@ -14075,7 +14082,7 @@ msgstr "Sua linguagem"
 
 #, c-format
 msgid "Your MSN buddy list is temporarily unavailable: %s"
-msgstr ""
+msgstr "A sua lista de contatos do MSN está temporariamente indisponível: %s"
 
 msgid "Your MXit ID..."
 msgstr "Seu MXit ID..."
