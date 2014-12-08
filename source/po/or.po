@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: or\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 19:50-0200\n"
+"POT-Creation-Date: 2014-12-06 11:48-0200\n"
 "PO-Revision-Date: 2014-08-31 02:16+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2014-11-12 07:33+0000\n"
-"X-Generator: Launchpad (build 17241)\n"
+"X-Launchpad-Export-Date: 2014-12-07 06:34+0000\n"
+"X-Generator: Launchpad (build 17274)\n"
 "Language: Oriya\n"
 
 msgid "\t_Only when someone says your username"
@@ -1993,6 +1993,11 @@ msgstr "ଆଫ୍ରିକାନ"
 msgid "Age"
 msgstr "ବଯସ"
 
+#. Translators: This is a person's name. For most languages we recommend
+#. not translating it.
+msgid "Akmal Khushvakov"
+msgstr ""
+
 msgid "Albanian"
 msgstr "ଆଲବାନିଅନ"
 
@@ -3346,6 +3351,9 @@ msgstr "ସିଫର"
 msgid "Cipher Test"
 msgstr "ସାଇଫର ପରୀକ୍ଷା"
 
+msgid "Ciphers"
+msgstr ""
+
 msgid "City"
 msgstr "ନଗର"
 
@@ -3528,6 +3536,13 @@ msgstr "ଆତ୍ମ ବିଶ୍ୱାସୀ"
 
 msgid "Configuration error"
 msgstr "କନଫିଗରେସନ ତୃଟି"
+
+#. *< name
+#. *< version
+#. *  summary
+#. *  description
+msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
+msgstr ""
 
 msgid "Configure IM Forwarding (web)"
 msgstr "IM ଅଗ୍ରସରକୁ ବିନ୍ୟାସ କରନ୍ତୁ (ୱେବ)"
@@ -6031,6 +6046,9 @@ msgstr "ପ୍ଲଗଇନ ସ୍ଥାପନ କରନ୍ତୁ..."
 msgid "Instant Messaging"
 msgstr "ତୁରନ୍ତ ସନ୍ଦେଶପ୍ରବାହ"
 
+msgid "Instant Messaging Client"
+msgstr ""
+
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
@@ -6403,6 +6421,9 @@ msgstr "କୋରିଆନ"
 
 msgid "Kurdish"
 msgstr "କୁର୍ଦ୍ଦିଶ"
+
+msgid "Kurdish (Sorani)"
+msgstr ""
 
 msgid "Lao"
 msgstr "ଲାଓ"
@@ -6840,6 +6861,9 @@ msgstr ""
 msgid "Master archive is misconfigured"
 msgstr "ମୂଖ୍ଯ ଲେଖାଗାର ସଠିକ ଭାବେ କନଫିଗର ହୋଇ ନାହିଁ"
 
+msgid "Maximum Version"
+msgstr ""
+
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
 msgstr "ସର୍ବାଧିକ ଶେଷ-ଦେଖାୟାଇଥିବା ପାର୍ଥକ୍ଯ:"
@@ -7055,6 +7079,9 @@ msgstr "ମଧ୍ଯଭାଗ ମାଉସ ବଟନ"
 msgid "Minimi_ze new conversation windows"
 msgstr "ନୂତନ ବାର୍ତ୍ତାଳାପ ୱିଣ୍ଡୋଗୁଡ଼ିକୁ କ୍ଷୁଦ୍ର କରନ୍ତୁ (_z)"
 
+msgid "Minimum Version"
+msgstr ""
+
 msgid "Minimum input area height in lines:"
 msgstr "ଧାଡ଼ିଗୁଡ଼ିକରେ ସର୍ବନିମ୍ନ ନିବେଶ କ୍ଷେତ୍ର ଉଚ୍ଚତା:"
 
@@ -7226,6 +7253,15 @@ msgstr "ନାମ"
 #. *< id
 msgid "NSS"
 msgstr "NSS"
+
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
+msgid "NSS Preferences"
+msgstr ""
 
 msgid "N_ew conversations:"
 msgstr "ନୂଆ_ସଂଭାଷଣ ଗୁଡିକ:"
@@ -7561,6 +7597,10 @@ msgstr "ଅଧିକୃତ ନୁହେଁ"
 
 msgid "Not Available"
 msgstr "ଅନୁପଲବ୍ଧ"
+
+#. TODO: look into how to do this for older versions?
+msgid "Not Supported for NSS < 3.14"
+msgstr ""
 
 msgid "Not accepting new users"
 msgstr "ନୂଆ ଉପୟୋଗକର୍ତ୍ତା ଗ୍ରହଣ କରୁ ନାହିଁ"
@@ -8213,6 +8253,11 @@ msgid "Pidgin++ Instant Messaging Client (required)"
 msgstr ""
 
 msgid "Pidgin++ Internet Messenger"
+msgstr ""
+
+msgid ""
+"Pidgin++ is a chat program which lets you log in to accounts on multiple "
+"chat networks simultaneously."
 msgstr ""
 
 msgid ""
@@ -9363,6 +9408,12 @@ msgstr "SOCKS 5"
 #. *< id
 msgid "SSL"
 msgstr "SSL"
+
+msgid "SSL 2"
+msgstr ""
+
+msgid "SSL 3"
+msgstr ""
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10557,6 +10608,21 @@ msgstr ""
 msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "ଟି.ଏମ.ଥାନ୍ହା ଏବଂଜ୍ନୋମ-ଭିଟେମ"
 
+msgid "TLS 1.0"
+msgstr ""
+
+msgid "TLS 1.1"
+msgstr ""
+
+msgid "TLS 1.2"
+msgstr ""
+
+msgid "TLS 1.3"
+msgstr ""
+
+msgid "TLS/SSL Versions"
+msgstr ""
+
 msgid "T_CP Port:"
 msgstr ""
 
@@ -10850,6 +10916,9 @@ msgstr "ଆପଣ ଭରଣ କରିଥିବା ଜନ୍ମଦିନଟି �
 #, c-format
 msgid "The browser command \"%s\" is invalid."
 msgstr "ବ୍ରାଉଜର ଆଦେଶ \"%s\" ଅମାନ୍ଯ ଅଟେ ।"
+
+msgid "The buddy list of Pidgin showing friends on different networks."
+msgstr ""
 
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
@@ -11420,6 +11489,11 @@ msgstr ""
 
 msgid "This is the name that other MSN buddies will see you as."
 msgstr "ଏହି ନାମକୁ ଅନ୍ଯ MSN ବନ୍ଧୁଗଣ ଆପଣଙ୍କୁ ସେମିତି ଦେଖିବେ ୤"
+
+msgid ""
+"This means that you can be chatting with friends on MSN, talking to a friend "
+"on Google Talk, and sitting in a Yahoo chat room all at the same time."
+msgstr ""
 
 #. *  description
 msgid ""
@@ -13854,11 +13928,9 @@ msgstr ""
 msgid "Your Language"
 msgstr "ଆପଣଙ୍କର ଭାଷା"
 
-msgid ""
-"Your MSN buddy list is temporarily unavailable. Please wait and try again."
+#, c-format
+msgid "Your MSN buddy list is temporarily unavailable: %s"
 msgstr ""
-"ଆପଣଙ୍କର  MSN ବନ୍ଧୁ ତାଲିକା ଅଳ୍ପକାଳ ପାଇଁ ଉପଲବ୍ଧ ନାହିଁ ୤ ଦଯାକରି ପ୍ରତୀକ୍ଷା କର "
-"ଏବଂ ପୁନଃ ଚେଷ୍ଟା କର୤"
 
 msgid "Your MXit ID..."
 msgstr ""

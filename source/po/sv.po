@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 19:50-0200\n"
+"POT-Creation-Date: 2014-12-06 11:48-0200\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: \n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-11-12 07:38+0000\n"
-"X-Generator: Launchpad (build 17241)\n"
+"X-Launchpad-Export-Date: 2014-12-07 06:39+0000\n"
+"X-Generator: Launchpad (build 17274)\n"
 "Language: Swedish\n"
 
 msgid "\t_Only when someone says your username"
@@ -1984,6 +1984,11 @@ msgstr "Afrikaans"
 msgid "Age"
 msgstr "Ålder"
 
+#. Translators: This is a person's name. For most languages we recommend
+#. not translating it.
+msgid "Akmal Khushvakov"
+msgstr ""
+
 msgid "Albanian"
 msgstr "Albanska"
 
@@ -3333,6 +3338,9 @@ msgstr "Chiffer"
 msgid "Cipher Test"
 msgstr "Chiffertest"
 
+msgid "Ciphers"
+msgstr ""
+
 msgid "City"
 msgstr "Stad"
 
@@ -3512,6 +3520,13 @@ msgstr "Självsäker"
 
 msgid "Configuration error"
 msgstr "Anslutningsfel"
+
+#. *< name
+#. *< version
+#. *  summary
+#. *  description
+msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
+msgstr ""
 
 msgid "Configure IM Forwarding (web)"
 msgstr "Konfigurera vidarebefordring av snabbmeddelanden (web)"
@@ -6020,6 +6035,9 @@ msgstr "Installera insticksmodul..."
 msgid "Instant Messaging"
 msgstr "Snabbmeddelanden"
 
+msgid "Instant Messaging Client"
+msgstr ""
+
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
@@ -6393,6 +6411,9 @@ msgstr "Koreanska"
 
 msgid "Kurdish"
 msgstr "Kurdiska"
+
+msgid "Kurdish (Sorani)"
+msgstr ""
 
 msgid "Lao"
 msgstr "Lao"
@@ -6833,6 +6854,9 @@ msgstr ""
 msgid "Master archive is misconfigured"
 msgstr "Huvudarkiv är felkonfigurerat"
 
+msgid "Maximum Version"
+msgstr ""
+
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
 msgstr "Maximal senast sedd-skillnad:"
@@ -7053,6 +7077,9 @@ msgstr "Mittenmusknapp"
 msgid "Minimi_ze new conversation windows"
 msgstr "_Minimera nya konversationsfönstret"
 
+msgid "Minimum Version"
+msgstr ""
+
 msgid "Minimum input area height in lines:"
 msgstr "Minsta höjd i rader på inmatningsfältet:"
 
@@ -7224,6 +7251,15 @@ msgstr "NAMN"
 #. *< id
 msgid "NSS"
 msgstr "NSS"
+
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
+msgid "NSS Preferences"
+msgstr ""
 
 msgid "N_ew conversations:"
 msgstr "_Nya konversationer:"
@@ -7558,6 +7594,10 @@ msgstr "Inte auktoriserad"
 
 msgid "Not Available"
 msgstr "Ej tillgänglig"
+
+#. TODO: look into how to do this for older versions?
+msgid "Not Supported for NSS < 3.14"
+msgstr ""
 
 msgid "Not accepting new users"
 msgstr "Accepterar inte nya användare"
@@ -8211,6 +8251,11 @@ msgid "Pidgin++ Instant Messaging Client (required)"
 msgstr ""
 
 msgid "Pidgin++ Internet Messenger"
+msgstr ""
+
+msgid ""
+"Pidgin++ is a chat program which lets you log in to accounts on multiple "
+"chat networks simultaneously."
 msgstr ""
 
 msgid ""
@@ -9361,6 +9406,12 @@ msgstr "SOCKS 5"
 #. *< id
 msgid "SSL"
 msgstr "SSL"
+
+msgid "SSL 2"
+msgstr ""
+
+msgid "SSL 3"
+msgstr ""
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10557,6 +10608,21 @@ msgstr ""
 msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "T.M.Thanh och Gnome-Vi Teamet"
 
+msgid "TLS 1.0"
+msgstr ""
+
+msgid "TLS 1.1"
+msgstr ""
+
+msgid "TLS 1.2"
+msgstr ""
+
+msgid "TLS 1.3"
+msgstr ""
+
+msgid "TLS/SSL Versions"
+msgstr ""
+
 msgid "T_CP Port:"
 msgstr ""
 
@@ -10846,6 +10912,9 @@ msgstr "Du angav en ogiltig födelsedag. Korrekt format är: 'YY-MM-DD'."
 #, c-format
 msgid "The browser command \"%s\" is invalid."
 msgstr "Kommandot för webbläsaren \"%s\" är ogiltigt."
+
+msgid "The buddy list of Pidgin showing friends on different networks."
+msgstr ""
 
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
@@ -11403,6 +11472,11 @@ msgstr ""
 
 msgid "This is the name that other MSN buddies will see you as."
 msgstr "Detta är det namn som andra MSN-användare kommer att se."
+
+msgid ""
+"This means that you can be chatting with friends on MSN, talking to a friend "
+"on Google Talk, and sitting in a Yahoo chat room all at the same time."
+msgstr ""
 
 #. *  description
 msgid ""
@@ -13812,10 +13886,9 @@ msgstr ""
 msgid "Your Language"
 msgstr "Ditt språk"
 
-msgid ""
-"Your MSN buddy list is temporarily unavailable. Please wait and try again."
+#, c-format
+msgid "Your MSN buddy list is temporarily unavailable: %s"
 msgstr ""
-"Din MSN-kompislista är otillgänglig temporärt. Var god försök igen senare."
 
 msgid "Your MXit ID..."
 msgstr ""

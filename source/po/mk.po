@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-11 19:50-0200\n"
+"POT-Creation-Date: 2014-12-06 11:48-0200\n"
 "PO-Revision-Date: 2014-08-31 02:16+0000\n"
 "Last-Translator: Arangel Angov <ufo@linux.net.mk>\n"
 "Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 || n%10==1 ? 0 : 1;\n"
-"X-Launchpad-Export-Date: 2014-11-12 07:28+0000\n"
-"X-Generator: Launchpad (build 17241)\n"
+"X-Launchpad-Export-Date: 2014-12-07 06:30+0000\n"
+"X-Generator: Launchpad (build 17274)\n"
 "Language: Macedonian\n"
 
 msgid "\t_Only when someone says your username"
@@ -1908,6 +1908,11 @@ msgstr "Afrikaans"
 msgid "Age"
 msgstr "Возраст"
 
+#. Translators: This is a person's name. For most languages we recommend
+#. not translating it.
+msgid "Akmal Khushvakov"
+msgstr ""
+
 msgid "Albanian"
 msgstr "Albanian"
 
@@ -3251,6 +3256,9 @@ msgstr "Шифра"
 msgid "Cipher Test"
 msgstr "Тест за шифра"
 
+msgid "Ciphers"
+msgstr ""
+
 msgid "City"
 msgstr "Град"
 
@@ -3428,6 +3436,13 @@ msgstr ""
 
 msgid "Configuration error"
 msgstr "Грешка во конфигурацијата"
+
+#. *< name
+#. *< version
+#. *  summary
+#. *  description
+msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
+msgstr ""
 
 msgid "Configure IM Forwarding (web)"
 msgstr "Конфигурирај насочување на инстант пораки (web)"
@@ -5930,6 +5945,9 @@ msgstr "Инсталирај додаток..."
 msgid "Instant Messaging"
 msgstr "Инстант пораки"
 
+msgid "Instant Messaging Client"
+msgstr ""
+
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
 "preference is enabled."
@@ -6303,6 +6321,9 @@ msgstr "Korean"
 
 msgid "Kurdish"
 msgstr "Kurdish"
+
+msgid "Kurdish (Sorani)"
+msgstr ""
 
 msgid "Lao"
 msgstr "Lao"
@@ -6740,6 +6761,9 @@ msgstr ""
 msgid "Master archive is misconfigured"
 msgstr "Главната архива е погрешно конфигурирана"
 
+msgid "Maximum Version"
+msgstr ""
+
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
 msgstr "Максимална разлика во „последно виден“:"
@@ -6954,6 +6978,9 @@ msgstr "Средно копче на глувчето"
 msgid "Minimi_ze new conversation windows"
 msgstr "Мини_мизирај нови прозореци за разговор"
 
+msgid "Minimum Version"
+msgstr ""
+
 msgid "Minimum input area height in lines:"
 msgstr ""
 
@@ -7125,6 +7152,15 @@ msgstr ""
 #. *< id
 msgid "NSS"
 msgstr "NSS"
+
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
+msgid "NSS Preferences"
+msgstr ""
 
 msgid "N_ew conversations:"
 msgstr "Н_ови разговори:"
@@ -7456,6 +7492,10 @@ msgstr "Не сте авторизирани"
 
 msgid "Not Available"
 msgstr "Не е достапно"
+
+#. TODO: look into how to do this for older versions?
+msgid "Not Supported for NSS < 3.14"
+msgstr ""
 
 msgid "Not accepting new users"
 msgstr "Не прифаќам нови корисници"
@@ -8108,6 +8148,11 @@ msgid "Pidgin++ Instant Messaging Client (required)"
 msgstr ""
 
 msgid "Pidgin++ Internet Messenger"
+msgstr ""
+
+msgid ""
+"Pidgin++ is a chat program which lets you log in to accounts on multiple "
+"chat networks simultaneously."
 msgstr ""
 
 msgid ""
@@ -9260,6 +9305,12 @@ msgstr "SOCKS 5"
 #. *< id
 msgid "SSL"
 msgstr "SSL"
+
+msgid "SSL 2"
+msgstr ""
+
+msgid "SSL 3"
+msgstr ""
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10450,6 +10501,21 @@ msgstr ""
 msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "T.M.Thanh and the Gnome-Vi Team"
 
+msgid "TLS 1.0"
+msgstr ""
+
+msgid "TLS 1.1"
+msgstr ""
+
+msgid "TLS 1.2"
+msgstr ""
+
+msgid "TLS 1.3"
+msgstr ""
+
+msgid "TLS/SSL Versions"
+msgstr ""
+
 msgid "T_CP Port:"
 msgstr ""
 
@@ -10737,6 +10803,9 @@ msgstr ""
 #, c-format
 msgid "The browser command \"%s\" is invalid."
 msgstr "Командата за прелистувачот \"%s\" е невалидна."
+
+msgid "The buddy list of Pidgin showing friends on different networks."
+msgstr ""
 
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
@@ -11291,6 +11360,11 @@ msgstr ""
 
 msgid "This is the name that other MSN buddies will see you as."
 msgstr "Со ова име ќе Ве гледаат MSN пријателите."
+
+msgid ""
+"This means that you can be chatting with friends on MSN, talking to a friend "
+"on Google Talk, and sitting in a Yahoo chat room all at the same time."
+msgstr ""
 
 #. *  description
 msgid ""
@@ -13669,11 +13743,9 @@ msgstr ""
 msgid "Your Language"
 msgstr ""
 
-msgid ""
-"Your MSN buddy list is temporarily unavailable. Please wait and try again."
+#, c-format
+msgid "Your MSN buddy list is temporarily unavailable: %s"
 msgstr ""
-"Вашата листа на пријатели од MSN е моментално недостапна. Ве молам почекајте "
-"и пробајте пак."
 
 msgid "Your MXit ID..."
 msgstr ""
