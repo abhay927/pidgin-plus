@@ -55,7 +55,7 @@ esac
 
 # Try downloading first
 if [ ! -e "$zip_file" ]; then
-    url="https://launchpad.net/pidgin++/trunk/14.1/+download/Pidgin++ GTK+ Runtime ${bundle_version} ${architecture_short}.zip"
+    url="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ GTK+ Runtime ${bundle_version} ${architecture_short}.zip"
     echo "Downloading $url"
     wget --quiet "$url" --output-document "$zip_file"
 fi

@@ -5,11 +5,11 @@
         <title>Pidgin++ updates</title>
         <link>http://pidgin.renatosilva.me/update.xml</link>
         <item>
-            <title>14.1 (testing)</title>
+            <title>15.1 (testing)</title>
             <pubDate>Sun, 8 Oct 2014</pubDate>
-            <enclosure sparkle:version="14.1 (testing)"
+            <enclosure sparkle:version="15.1 (testing)"
                        type="application/octet-stream" sparkle:os="windows"
-                       url="https://launchpad.net/pidgin++/test/14.1-test/+download/Pidgin++%2014.1%20Setup.exe"/>
+                       url="https://launchpad.net/pidgin++/test/15.1-test/+download/Pidgin++%2015.1%20Setup.exe"/>
             <sparkle:releaseNotesLink>http://pidgin.renatosilva.me/changelog.html</sparkle:releaseNotesLink>
         </item>
   </channel>

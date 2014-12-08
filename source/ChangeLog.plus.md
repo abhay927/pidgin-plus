@@ -4,7 +4,7 @@ This is the detailed changelog for Pidgin++. For a more general list of changes
 targeted at end users, please see the XML changelog or its resulting formats.
 
 
-## 14.1
+## 15.1
 
 **All platforms**
 * Upstream version 2.10.11.

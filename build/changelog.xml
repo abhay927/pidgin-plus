@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelog xmlns:en-us="en_US" xmlns:pt-br="pt_BR">
 
-    <version id="14.1">
+    <version id="15.1">
         <change en-us:description="New colors and formatting for conversations"
                 pt-br:description="Novas cores e formatação para as conversas"/>
 
