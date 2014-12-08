@@ -37,7 +37,7 @@ build_dir="$base_dir/build"
 pidgin_version_pattern="PACKAGE_VERSION=[\"']?([^\"']+)[\"']?"
 version_pattern='m4_define\(\[purple_version_suffix\], \[.(.*)\]\)'
 pidgin_version=$(grep -E "$pidgin_version_pattern" "$source_dir/configure" | sed -r s/"$pidgin_version_pattern"/'\1'/)
-suffix_delimiter="+"
+suffix_delimiter="-"
 
 full_version=$(grep -E "$version_pattern" "$source_dir/configure.ac" | sed -r s/"$version_pattern"/'\1'/)
 full_version="${full_version#$suffix_delimiter}"
