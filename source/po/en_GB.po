@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-06 11:48-0200\n"
-"PO-Revision-Date: 2014-11-12 10:05+0000\n"
-"Last-Translator: Andi Chandler <Unknown>\n"
+"PO-Revision-Date: 2014-12-08 10:27+0000\n"
+"Last-Translator: Anthony Harrington <untaintableangel@ubuntu.com>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-12-07 06:44+0000\n"
-"X-Generator: Launchpad (build 17274)\n"
+"X-Launchpad-Export-Date: 2014-12-09 06:39+0000\n"
+"X-Generator: Launchpad (build 17283)\n"
 "Language: English (United Kingdom)\n"
 
 msgid "\t_Only when someone says your username"
@@ -2006,7 +2006,7 @@ msgstr "Age"
 #. Translators: This is a person's name. For most languages we recommend
 #. not translating it.
 msgid "Akmal Khushvakov"
-msgstr ""
+msgstr "Akmal Khushvakov"
 
 msgid "Albanian"
 msgstr "Albanian"
@@ -3356,7 +3356,7 @@ msgid "Cipher Test"
 msgstr "Cipher Test"
 
 msgid "Ciphers"
-msgstr ""
+msgstr "Ciphers"
 
 msgid "City"
 msgstr "City"
@@ -3551,7 +3551,7 @@ msgstr "Configuration error"
 #. *  summary
 #. *  description
 msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
-msgstr ""
+msgstr "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
 
 msgid "Configure IM Forwarding (web)"
 msgstr "Configure IM Forwarding (web)"
@@ -6059,7 +6059,7 @@ msgid "Instant Messaging"
 msgstr "Instant Messaging"
 
 msgid "Instant Messaging Client"
-msgstr ""
+msgstr "Instant Messaging Client"
 
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
@@ -6436,7 +6436,7 @@ msgid "Kurdish"
 msgstr "Kurdish"
 
 msgid "Kurdish (Sorani)"
-msgstr ""
+msgstr "Kurdish (Sorani)"
 
 msgid "Lao"
 msgstr "Lao"
@@ -6874,7 +6874,7 @@ msgid "Master archive is misconfigured"
 msgstr "Master archive is misconfigured"
 
 msgid "Maximum Version"
-msgstr ""
+msgstr "Maximum Version"
 
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
@@ -7092,7 +7092,7 @@ msgid "Minimi_ze new conversation windows"
 msgstr "Minimi_ze new conversation windows"
 
 msgid "Minimum Version"
-msgstr ""
+msgstr "Minimum Version"
 
 msgid "Minimum input area height in lines:"
 msgstr "Minimum input area height in lines:"
@@ -7273,7 +7273,7 @@ msgstr "NSS"
 #. *< priority
 #. *< id
 msgid "NSS Preferences"
-msgstr ""
+msgstr "NSS Preferences"
 
 msgid "N_ew conversations:"
 msgstr "N_ew conversations:"
@@ -7610,7 +7610,7 @@ msgstr "Not Available"
 
 #. TODO: look into how to do this for older versions?
 msgid "Not Supported for NSS < 3.14"
-msgstr ""
+msgstr "Not Supported for NSS < 3.14"
 
 msgid "Not accepting new users"
 msgstr "Not accepting new users"
@@ -8268,6 +8268,8 @@ msgid ""
 "Pidgin++ is a chat program which lets you log in to accounts on multiple "
 "chat networks simultaneously."
 msgstr ""
+"Pidgin++ is a chat program which lets you log in to accounts on multiple "
+"chat networks simultaneously."
 
 msgid ""
 "Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
@@ -9415,10 +9417,10 @@ msgid "SSL"
 msgstr "SSL"
 
 msgid "SSL 2"
-msgstr ""
+msgstr "SSL 2"
 
 msgid "SSL 3"
-msgstr ""
+msgstr "SSL 3"
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10611,19 +10613,19 @@ msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "T.M.Thanh and the Gnome-Vi Team"
 
 msgid "TLS 1.0"
-msgstr ""
+msgstr "TLS 1.0"
 
 msgid "TLS 1.1"
-msgstr ""
+msgstr "TLS 1.1"
 
 msgid "TLS 1.2"
-msgstr ""
+msgstr "TLS 1.2"
 
 msgid "TLS 1.3"
-msgstr ""
+msgstr "TLS 1.3"
 
 msgid "TLS/SSL Versions"
-msgstr ""
+msgstr "TLS/SSL Versions"
 
 msgid "T_CP Port:"
 msgstr "T_CP Port:"
@@ -10922,7 +10924,7 @@ msgid "The browser command \"%s\" is invalid."
 msgstr "The browser command \"%s\" is invalid."
 
 msgid "The buddy list of Pidgin showing friends on different networks."
-msgstr ""
+msgstr "The buddy list of Pidgin showing friends on different networks."
 
 msgid ""
 "The buddy with the <i>largest score</i> is the buddy who will have priority "
@@ -11487,6 +11489,8 @@ msgid ""
 "This means that you can be chatting with friends on MSN, talking to a friend "
 "on Google Talk, and sitting in a Yahoo chat room all at the same time."
 msgstr ""
+"This means that you can be chatting with friends on MSN, talking to a friend "
+"on Google Talk, and sitting in a Yahoo chat room all at the same time."
 
 #. *  description
 msgid ""
@@ -13906,7 +13910,7 @@ msgstr "Your Language"
 
 #, c-format
 msgid "Your MSN buddy list is temporarily unavailable: %s"
-msgstr ""
+msgstr "Your MSN buddy list is temporarily unavailable: %s"
 
 msgid "Your MXit ID..."
 msgstr "Your MXit ID..."
