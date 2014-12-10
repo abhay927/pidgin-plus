@@ -15,10 +15,6 @@
                 pt-br:description="Formatação para site do canal nas conversas IRC"
                 bug="15248"/>
 
-        <change en-us:description="Monospaced font for message of the day in IRC"
-                pt-br:description="Fonte monoespaçada para mensagem do dia no IRC"
-                bug="13727"/>
-
         <change en-us:description="Proper formatting for ZNC buffer playback timestamps"
                 pt-br:description="Formatação para hora das mensagens na reprodução de buffers do ZNC"/>
 

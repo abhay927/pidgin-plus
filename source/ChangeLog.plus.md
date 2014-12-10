@@ -13,15 +13,14 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Formatted IRC channel URLs ([#15248][3]).
 * Configurable IRC quit and part messages.
 * Formatted timestamps in ZNC buffer playback.
-* Monospaced font for IRC MOTD ([#13727][8]).
 * New about dialog.
 * Changed order of the help menu.
 * Changed website URLs to:
     - http://pidgin.renatosilva.me
     - http://launchpad.net/pidgin++
+* Application renamed from Pidgin to Pidgin++.
 * Reply `CTCP VERSION` with Pidgin++.
 * Version pattern changed from RSxxx to year.minor.micro.
-* Application renamed from Pidgin to Pidgin++.
 * Changes to the build process:
     - New Markdown export for the XML changelog.
     - Changed a couple of language codes:
@@ -40,9 +39,9 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Unused GTK+ locales no longer get installed.
 * Language and protocol names in the installer.
 * Uninstaller now fully removes subdirectories.
-* Build date in the Pidgin++ executable and main DLLs.
+* Build date in the installer and the about dialog.
 * New logos in the installer.
-* Compiled with GCC 4.9.0 instead of 4.7.2.
+* Compiled with newer GCC 4.9.
 * Improvements to the build process:
     - Colored output.
     - Faster handling of the staging directory.
@@ -87,4 +86,3 @@ Summarized differences between the first release and Pidgin 2.10.9.
 [5]: https://developer.pidgin.im/ticket/15347
 [6]: https://developer.pidgin.im/ticket/16285
 [7]: https://developer.pidgin.im/ticket/14970
-[8]: https://developer.pidgin.im/ticket/13727
