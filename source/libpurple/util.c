@@ -83,6 +83,30 @@ static char *custom_user_dir = NULL;
 static char *user_dir = NULL;
 
 
+static void
+plugin_search_path_add_user_directory(const char* subdir)
+{
+	char *search_path;
+	search_path = g_build_filename(purple_user_dir(), "plugins", subdir, NULL);
+	if (g_mkdir(search_path, S_IRUSR | S_IWUSR | S_IXUSR) != 0 && errno != EEXIST)
+		fprintf(stderr, "Couldn't create %s dir\n", subdir);
+	purple_plugins_add_search_path(search_path);
+	g_free(search_path);
+}
+
+void
+plugin_search_path_add_user_directories(void)
+{
+	plugin_search_path_add_user_directory(NULL);
+#if defined(__GNUC__)
+#if defined(__x86_64__) || defined(__LP64__)
+	plugin_search_path_add_user_directory("x64");
+#elif defined(__i386__)
+	plugin_search_path_add_user_directory("x86");
+#endif
+#endif
+}
+
 PurpleMenuAction *
 purple_menu_action_new(const char *label, PurpleCallback callback, gpointer data,
                      GList *children)

@@ -75,6 +75,12 @@ struct _PurpleKeyValuePair
 };
 
 /**
+ * Adds user directories to plugin search path.
+ *
+ */
+void plugin_search_path_add_user_directories(void);
+
+/**
  * Creates a new PurpleMenuAction.
  *
  * @param label    The text label to display for this action.
