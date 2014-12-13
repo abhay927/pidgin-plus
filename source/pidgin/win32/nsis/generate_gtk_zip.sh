@@ -186,7 +186,7 @@ for package_name in "${packages[@]}"; do
     package_version=$(pacman -Q $package)
     package_version="${package_version##* }"
     package_source="mingw-w64-i686-${package_name}-${package_version}.src.tar.gz"
-    url="http://sourceforge.net/projects/msys2/files/REPOS/MINGW/Sources/${package_source}/download"
+    url="https://sourceforge.net/projects/msys2/files/REPOS/MINGW/Sources/${package_source}/download"
     echo "Integrating ${package} ${package_version}"
     [[ -s "$package_source" ]] && continue || rm -f "$package_source"
     if ! wget "$url" --quiet --output-document "$package_source"; then
