@@ -9,7 +9,7 @@ architecture=$(gcc -dumpmachine)
 architecture="${architecture%%-*}"
 bundle_version=$(pacman -Q mingw-w64-${architecture}-gtk2)
 bundle_version="${bundle_version##* }"
-bundle_version="${bundle_version%-*}.R260"
+bundle_version="${bundle_version%-*}.R285"
 if [[ "$1" = --gtk-version ]]; then
     echo "$bundle_version"
     exit
@@ -18,7 +18,7 @@ fi
 # Arguments
 force="$3"
 bitness="$2"
-pidgin_base="$1"
+pidgin_base=$(readlink -f "$1")
 if [ ! -e "$pidgin_base/ChangeLog" ]; then
     oops "$(basename $0) must have the base directory specified as a parameter"
     exit 1
@@ -27,8 +27,10 @@ fi
 # Configuration
 install_dir="Gtk"
 application_version=$(<$pidgin_base/VERSION)
-stage_dir=$(readlink -f $pidgin_base/pidgin/win32/nsis/gtk_runtime_stage)
-zip_file="$pidgin_base/pidgin/win32/nsis/gtk-runtime-$bundle_version.zip"
+stage_dir_binary="$pidgin_base/pidgin/win32/nsis/gtk_binary_stage"
+stage_dir_source="$pidgin_base/pidgin/win32/nsis/gtk_source_stage"
+zip_binary="$pidgin_base/pidgin/win32/nsis/gtk-runtime-$bundle_version.zip"
+zip_source="$pidgin_base/pidgin/win32/nsis/gtk-runtime-$bundle_version-source.zip"
 source "$pidgin_base/colored.sh"
 
 # SHA-1 check
@@ -49,15 +51,15 @@ check_sha1sum() {
 
 # Expected SHA-1 hash
 case "$bitness" in
-    32) architecture_short=x86; bundle_sha1sum=b657378be630023239fbe47f553f995506a75c80 ;;
-    64) architecture_short=x64; bundle_sha1sum=810b153a8572fb83b7e019152707b011cb4de856 ;;
+    32) architecture_short=x86; bundle_sha1sum=17163b355c17829e346212e87cefac574b539e49 ;;
+    64) architecture_short=x64; bundle_sha1sum=d1bf93c51d2a16cf87ac3fc5767e1297ec338299 ;;
 esac
 
 # Try downloading first
-if [ ! -e "$zip_file" ]; then
+if [ ! -e "$zip_binary" ]; then
     url="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ GTK+ Runtime ${bundle_version} ${architecture_short}.zip"
     echo "Downloading $url"
-    wget --quiet "$url" --output-document "$zip_file"
+    wget "$url" --quiet --output-document "$zip_binary"
 fi
 
 # If the sha1sum check succeeds, then extract and quit
@@ -65,19 +67,19 @@ fi
 # If the sha1sum check fails and forcing, then continue bundle creation
 
 [[ "$application_version" == *"devel" || -n "$force" ]] && force="yes"
-if ! check_sha1sum "$zip_file" "$bundle_sha1sum" ${force:-quit}; then
+if ! check_sha1sum "$zip_binary" "$bundle_sha1sum" ${force:-quit}; then
     echo "Continuing GTK+ Bundle creation for Pidgin++ ${application_version}${force:+ (--force has been specified)}"
 else
-    echo "Extracting $zip_file"
+    echo "Extracting $zip_binary"
     cd "$pidgin_base/pidgin/win32/nsis"
     rm -rf "$install_dir"
-    unzip -qo "$zip_file"
+    unzip -qo "$zip_binary"
     exit
 fi
 
-# Prepare
-mkdir -p "$stage_dir/$install_dir"
-cd "$stage_dir/$install_dir"
+# Prepare for binary bundle
+mkdir -p "$stage_dir_binary/$install_dir"
+cd "$stage_dir_binary/$install_dir"
 
 # Main files
 files=(bin/gspawn-win${bitness}-helper.exe
@@ -154,11 +156,50 @@ info "Installing remaining files"
 cp -v bin/libintl-8.dll bin/intl.dll
 cp -vr "$pidgin_base/pidgin/win32/gtk"/* .
 
-# Generate binary zip
+# Prepare the source bundle
+info "Downloading source packages"
+mkdir -p "$stage_dir_source"
+cd "$stage_dir_source"
+rm -f MISSING.txt
+packages=(atk
+          bzip2
+          cairo
+          expat
+          fontconfig
+          freetype
+          gcc
+          gdk-pixbuf2
+          gettext
+          glib2
+          gtk2
+          harfbuzz
+          libffi
+          libiconv
+          libpng
+          libwinpthread-git
+          pango
+          pixman
+          shared-mime-info
+          zlib)
+for package_name in "${packages[@]}"; do
+    package="mingw-w64-${architecture}-${package_name}"
+    package_version=$(pacman -Q $package)
+    package_version="${package_version##* }"
+    package_source="mingw-w64-i686-${package_name}-${package_version}.src.tar.gz"
+    url="http://sourceforge.net/projects/msys2/files/REPOS/MINGW/Sources/${package_source}/download"
+    echo "Integrating ${package} ${package_version}"
+    [[ -s "$package_source" ]] && continue || rm -f "$package_source"
+    if ! wget "$url" --quiet --output-document "$package_source"; then
+        warn "failed downloading ${package_source}"
+        echo "${package_source}" >> MISSING.txt
+        rm "$package_source"
+    fi
+done
+info "Preparing source of customizations"
+cp -vr "$pidgin_base/pidgin/win32/gtk"/* .
+
+# Generate binary and source bundles
 info "Creating the GTK+ bundle"
-cd "$stage_dir"
-rm -f "$zip_file"
-echo "Creating ${zip_file##*/}"
-zip -9 -qr "$zip_file" "$install_dir"
-rm -rf "$stage_dir"
-exit
+cd "$stage_dir_binary"; rm -f "$zip_binary"; echo "Creating ${zip_binary##*/}"; zip -9 -qr "$zip_binary" "$install_dir"
+cd "$stage_dir_source"; rm -f "$zip_source"; echo "Creating ${zip_source##*/}"; zip -9 -qr "$zip_source" .
+rm -rf "$stage_dir_binary"

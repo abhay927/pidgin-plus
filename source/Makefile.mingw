@@ -38,7 +38,7 @@ signtool_command = $(SIGNTOOL) sign \
 				    //tr "http://timestamp.comodoca.com/rfc3161" //td SHA256 \
 				    //du "$(APPLICATION_WEBSITE)" //d $(2) $(1)
 
-gpg_sign_command = @$(GPG_SIGN) -ab --batch --yes --passphrase "$(GPG_PASSWORD)" $(1) && $(GPG_SIGN) --verify $(1).asc
+gpg_sign_command = $(GPG_SIGN) -ab --batch --yes --passphrase "$(GPG_PASSWORD)" $(1) && $(GPG_SIGN) --verify $(1).asc || ./colored.sh warn "Could not sign $(1)"
 
 # Authenticode signing
 define authenticode_sign
@@ -173,7 +173,8 @@ gtk_runtime_zip:
 gtk_runtime_zip_force:
 	@./colored.sh pace "Building the GTK+ runtime"
 	pidgin/win32/nsis/generate_gtk_zip.sh "`pwd`" $(BITNESS) --force
-	$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip,line)
+	$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip,none,line)
+	$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip,line,none,line)
 
 dictionaries_bundle:
 	@./colored.sh info "Obtaining the dictionaries bundle"
