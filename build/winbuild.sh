@@ -281,7 +281,7 @@ if [[ -n "$source" ]]; then
     fi
     build source_code_zip BAZAAR_BRANCH="$base_dir"
     for asc in "" ${sign:+.asc}; do
-        mv -v pidgin++_*_source.zip$asc "$target_top/Pidgin++ $version Source.zip$asc"
+        mv -v pidgin++_*_source.zip$asc "${target}/Pidgin++ ${version} ${architecture} Source.zip$asc"
     done
 fi
 

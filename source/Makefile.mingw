@@ -278,7 +278,7 @@ installers: installer installer_offline debug_symbols_zip installer_zip
 
 source_code_zip:
 	@./colored.sh pace "Building the source code bundle"
-	bzr export --uncommitted --directory $(BAZAAR_BRANCH) --root pidgin++_$(DISPLAY_VERSION) pidgin++_$(DISPLAY_VERSION)_source.zip
+	@pidgin/win32/generate_source_zip.sh "`pwd`" "$(DISPLAY_VERSION)" "$(BAZAAR_BRANCH)"
 	$(call gpg_sign, pidgin++_$(DISPLAY_VERSION)_source.zip,line)
 
 Doxyfile.mingw: Doxyfile.in
