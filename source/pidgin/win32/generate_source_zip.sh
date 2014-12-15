@@ -23,12 +23,12 @@ packages=(cyrus-sasl
           gcc
           gtkspell
           hunspell
-          libwinpthread-git
           libxml2
           meanwhile
           nspr
           nss
-          sqlite3)
+          sqlite3
+          winpthreads-git)
 
 mkdir -p "${working_dir}/${library_dir}"
 cd "${working_dir}/${library_dir}"

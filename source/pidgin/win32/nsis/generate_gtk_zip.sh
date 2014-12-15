@@ -176,10 +176,10 @@ packages=(atk
           libffi
           libiconv
           libpng
-          libwinpthread-git
           pango
           pixman
           shared-mime-info
+          winpthreads-git
           zlib)
 for package_name in "${packages[@]}"; do
     package="mingw-w64-${architecture}-${package_name}"
