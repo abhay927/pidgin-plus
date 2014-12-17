@@ -18,6 +18,7 @@ library_dir="${zip_root}/libraries"
 working_dir="${pidgin_base}/pidgin/win32/source_bundle_stage"
 source "$pidgin_base/colored.sh"
 
+tarballs=(winsparkle-0.4.tar.gz:"https://github.com/vslavik/winsparkle/archive/v0.4.tar.gz")
 packages=(cyrus-sasl
           drmingw
           enchant
@@ -47,6 +48,18 @@ for package_name in "${packages[@]}"; do
         warn "failed downloading ${package_source}"
         echo "${package_source}" >> MISSING.txt
         rm "$package_source"
+    fi
+done
+
+for tarball in "${tarballs[@]}"; do
+    url="${tarball#*:}"
+    tarball="${tarball%%:*}"
+    echo "Integrating ${tarball}"
+    [[ -s "$tarball" ]] && continue || rm -f "$tarball"
+    if ! wget "$url" --quiet --output-document "$tarball"; then
+        warn "failed downloading ${tarball}"
+        echo "${tarball}" >> MISSING.txt
+        rm "$tarball"
     fi
 done
 
