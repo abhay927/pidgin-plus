@@ -45,14 +45,12 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Improvements to the build process:
     - Colored output.
     - Faster handling of the staging directory.
-    - Generation of the source code bundle.
+    - Generation of full source code bundles ([#16502][8]).
     - Creation of the build environment (with Pidgin Windev).
-    - Removed support for MinGW and MSYS.
-    - Better integration with MSYS2:
+    - Migration from MinGW to MSYS2:
         - The provided GTK+ and many other dependencies are now used.
         - The new option --pkgbuild now allows creating a pacman package.
     - Fixed some macro redefinitions in MinGW-w64.
-    - Allow building without Bonjour.
     - Website added to code repository.
     - Other general improvements.
 * Code signed with Microsoft Authenticode:
@@ -86,3 +84,4 @@ Summarized differences between the first release and Pidgin 2.10.9.
 [5]: https://developer.pidgin.im/ticket/15347
 [6]: https://developer.pidgin.im/ticket/16285
 [7]: https://developer.pidgin.im/ticket/14970
+[8]: https://developer.pidgin.im/ticket/16502
