@@ -19,6 +19,7 @@ working_dir="${pidgin_base}/pidgin/win32/source_bundle_stage"
 source "$pidgin_base/colored.sh"
 
 packages=(cyrus-sasl
+          drmingw
           enchant
           gcc
           gtkspell

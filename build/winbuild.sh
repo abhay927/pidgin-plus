@@ -9,8 +9,7 @@
 ## exported to an appropriate staging directory within the specified development
 ## root. Default output is a standard installer (without GTK+), placed under the
 ## distribution subdirectory in the development root. When compiling for 64-bit,
-## the SILC protocol, the crash report generation and the Perl plugin will be
-## disabled.
+## the SILC protocol and the Perl plugin will be disabled.
 ##
 ## Usage:
 ##     @script.name DEVELOPMENT_ROOT [options]
@@ -125,8 +124,8 @@ download_irc_plugins() {
 domake() {
     ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
         SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
-        ${pkgbuild:+DISABLE_PERL=yes DISABLE_CRASH_REPORT=yes DISABLE_SILC=yes DISABLE_BONJOUR=yes DISABLE_UPDATE_CHECK=yes} \
-        ${x64_build:+DISABLE_PERL=yes DISABLE_CRASH_REPORT=yes DISABLE_SILC=yes} \
+        ${pkgbuild:+DISABLE_PERL=yes DISABLE_SILC=yes DISABLE_BONJOUR=yes DISABLE_UPDATE_CHECK=yes} \
+        ${x64_build:+DISABLE_PERL=yes DISABLE_SILC=yes} \
         ${no_bonjour:+DISABLE_BONJOUR=yes} ${no_update:+DISABLE_UPDATE_CHECK=yes} "${@:2}"
     return $?
 }
