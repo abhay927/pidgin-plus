@@ -19,9 +19,8 @@
 ##                          creating an MSYS2 package.
 ##
 ##         --pkgbuild       Enable the PKGBUILD mode for creating an MSYS2
-##                          package. Implies --no-bonjour and --no-update, as
-##                          well as the restrictions applied to 64-bit builds
-##                          mentioned above.
+##                          package. Implies --no-update and the restrictions
+##                          applied to 64-bit builds mentioned above.
 ##
 ##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
@@ -31,7 +30,6 @@
 ##
 ##         --make=TARGET    Execute an arbitrary makefile target.
 ##         --no-update      Disable the application update checking.
-##         --no-bonjour     Disable the Bonjour protocol.
 ##     -c, --cleanup        Clean up the staging dir then exit.
 ##     -o, --offline        Build both the standard and offline installers.
 ##     -s, --source         Build the source code bundle together with the
@@ -124,9 +122,9 @@ download_irc_plugins() {
 domake() {
     ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
         SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
-        ${pkgbuild:+DISABLE_PERL=yes DISABLE_SILC=yes DISABLE_BONJOUR=yes DISABLE_UPDATE_CHECK=yes} \
+        ${pkgbuild:+DISABLE_PERL=yes DISABLE_SILC=yes DISABLE_UPDATE_CHECK=yes} \
         ${x64_build:+DISABLE_PERL=yes DISABLE_SILC=yes} \
-        ${no_bonjour:+DISABLE_BONJOUR=yes} ${no_update:+DISABLE_UPDATE_CHECK=yes} "${@:2}"
+        ${no_update:+DISABLE_UPDATE_CHECK=yes} "${@:2}"
     return $?
 }
 if [[ -n "$encoding" ]]; then
