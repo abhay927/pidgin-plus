@@ -30,6 +30,8 @@ packages=(cyrus-sasl
           nspr
           nss
           sqlite3
+          tcl
+          tk
           winpthreads-git)
 
 mkdir -p "${working_dir}/${library_dir}"
