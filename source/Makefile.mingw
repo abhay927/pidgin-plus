@@ -92,6 +92,7 @@ EXTERNAL_DLLS = \
 	libssp-0.dll \
 	libwinpthread-1.dll \
 	libxml2-2.dll \
+	mgwhelp.dll \
 	nss3.dll \
 	nssutil3.dll \
 	libanonymous-3.dll \

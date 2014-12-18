@@ -619,6 +619,7 @@ Section Uninstall
     Delete "$INSTDIR\winsparkle.dll"
     Delete "$INSTDIR\${PIDGIN_UNINST_EXE}"
     Delete "$INSTDIR\exchndl.dll"
+    Delete "$INSTDIR\mgwhelp.dll"
     Delete "$INSTDIR\install.log"
     Delete "${CHANGELOG}"
 
