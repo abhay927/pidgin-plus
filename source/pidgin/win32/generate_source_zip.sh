@@ -29,6 +29,7 @@ packages=(cyrus-sasl
           meanwhile
           nspr
           nss
+          perl
           sqlite3
           tcl
           tk

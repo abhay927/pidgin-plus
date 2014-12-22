@@ -433,7 +433,7 @@ static void winpidgin_add_stuff_to_path() {
 	plen = sizeof(perl_path) / sizeof(wchar_t);
 	if (read_reg_string(HKEY_LOCAL_MACHINE, L"SOFTWARE\\Perl", L"",
 			    (LPBYTE) &perl_path, &plen)) {
-		/* We *could* check for perl510.dll, but it seems unnecessary. */
+		/* We *could* check for perl518.dll, but it seems unnecessary. */
 		wprintf(L"found in '%s'.\n", perl_path);
 
 		if (perl_path[wcslen(perl_path) - 1] != L'\\')

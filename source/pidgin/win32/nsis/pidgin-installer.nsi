@@ -69,7 +69,7 @@ RequestExecutionLevel highest
 
 !define GTK_MIN_VERSION				"2.14.0"
 !define PERL_REG_KEY				"SOFTWARE\Perl"
-!define PERL_DLL				"perl510.dll"
+!define PERL_DLL				"perl518.dll"
 
 !define DOWNLOADER_URL				"https://pidgin.im/win32/download_redir.php?version=${UPSTREAM_VERSION}"
 
