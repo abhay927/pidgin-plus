@@ -8,11 +8,7 @@
 PIDGIN_TREE_TOP := ../..
 include $(PIDGIN_TREE_TOP)/libpurple/win32/global.mak
 
-SUBDIRS = gg irc jabber msn mxit novell null oscar sametime simple yahoo bonjour myspace
-
-ifndef DISABLE_SILC
-	SUBDIRS += silc
-endif
+SUBDIRS = gg irc jabber msn mxit novell null oscar sametime silc simple yahoo bonjour myspace
 
 .PHONY: all install clean
 

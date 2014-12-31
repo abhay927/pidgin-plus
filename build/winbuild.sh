@@ -8,8 +8,7 @@
 ## This is the builder script for Pidgin++ on Windows. Source code will be
 ## exported to an appropriate staging directory within the specified development
 ## root. Default output is a standard installer (without GTK+), placed under the
-## distribution subdirectory in the development root. When compiling for 64-bit,
-## the SILC protocol will be disabled.
+## distribution subdirectory in the development root.
 ##
 ## Usage:
 ##     @script.name DEVELOPMENT_ROOT [options]
@@ -17,10 +16,6 @@
 ##     -p, --prepare        Create the required build environment under
 ##                          DEVELOPMENT_ROOT and exit. This is not needed for
 ##                          creating an MSYS2 package.
-##
-##         --pkgbuild       Enable the PKGBUILD mode for creating an MSYS2
-##                          package. Implies --no-update and the restrictions
-##                          applied to 64-bit builds mentioned above.
 ##
 ##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
@@ -65,16 +60,12 @@ if [[ -z "$prepare" && ! -d "$devroot" ]]; then
     echo "No valid development root specified, see --help."
     exit 1
 fi
-if [[ -n "$prepare" && -n "$pkgbuild" ]]; then
-    echo "Creating the MSYS2 package does not require any build environment, see --help."
-    exit 1
-fi
 
 # Other variables
 [[ -n "$prepare" ]] && mkdir -p "$devroot"
 case $(gcc -dumpmachine) in
-    i686-w64-mingw*)   bitness=32; architecture=x86; x86_build=yes ;;
-    x86_64-w64-mingw*) bitness=64; architecture=x64; x64_build=yes ;;
+    i686-w64-mingw*)   bitness=32; architecture=x86 ;;
+    x86_64-w64-mingw*) bitness=64; architecture=x64 ;;
 esac
 devroot=$(readlink -e $devroot)
 base_dir=$(readlink -e "$(dirname "$0")/..")
@@ -122,8 +113,6 @@ download_irc_plugins() {
 domake() {
     ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
         SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
-        ${pkgbuild:+DISABLE_SILC=yes DISABLE_UPDATE_CHECK=yes} \
-        ${x64_build:+DISABLE_SILC=yes} \
         ${no_update:+DISABLE_UPDATE_CHECK=yes} "${@:2}"
     return $?
 }

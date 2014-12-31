@@ -25,11 +25,13 @@ packages=(cyrus-sasl
           gcc
           gtkspell
           hunspell
+          libgnurx
           libxml2
           meanwhile
           nspr
           nss
           perl
+          silc-toolkit
           sqlite3
           tcl
           tk
