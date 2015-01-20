@@ -99,7 +99,8 @@ EXTERNAL_DLLS = \
 	libplain-3.dll \
 	libsilc-1-1-4.dll \
 	libsilcclient-1-1-4.dll \
-	libgnurx-0.dll \
+	libsystre-0.dll \
+	libtre-5.dll \
 	smime3.dll \
 	softokn3.dll \
 	libsqlite3-0.dll \

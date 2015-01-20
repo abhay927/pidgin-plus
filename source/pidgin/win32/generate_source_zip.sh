@@ -25,7 +25,8 @@ packages=(cyrus-sasl
           gcc
           gtkspell
           hunspell
-          libgnurx
+          libsystre
+          libtre-git
           libxml2
           meanwhile
           nspr
