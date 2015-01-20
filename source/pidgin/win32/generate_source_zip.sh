@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Pidgin++ Source Bundle Generator
-# Copyright (C) 2014 Renato Silva
+# Copyright (C) 2014, 2015 Renato Silva
 #
 # This script generates the source code bundle for Pidgin++, including the
 # sources for the MSYS2 libraries used, except for GTK+ which uses a separate
@@ -15,6 +15,7 @@ architecture="${architecture%%-*}"
 zip_root="pidgin++_${display_version}"
 zip_file="${zip_root}_source.zip"
 library_dir="${zip_root}/libraries"
+plugins_dir="${zip_root}/plugins"
 working_dir="${pidgin_base}/pidgin/win32/source_bundle_stage"
 source "$pidgin_base/colored.sh"
 
@@ -67,7 +68,13 @@ for tarball in "${tarballs[@]}"; do
     fi
 done
 
+mkdir -p "${working_dir}/${plugins_dir}"
+cd "${working_dir}/${plugins_dir}"
+echo "Integrating the irchelper plugin"; cp "${pidgin_base}/libpurple/plugins/irchelper.c" .
+echo "Integrating the ircaway plugin";   cp "${pidgin_base}/pidgin/plugins/ircaway.c" .
+
 cd "$working_dir"
 echo "Creating $zip_file"
 bzr export --uncommitted --directory "$bazaar_branch" --root "${zip_root}" "${pidgin_base}/${zip_file}"
+zip -9 -qr "${pidgin_base}/${zip_file}" "$plugins_dir"
 zip -9 -qr "${pidgin_base}/${zip_file}" "$library_dir"
