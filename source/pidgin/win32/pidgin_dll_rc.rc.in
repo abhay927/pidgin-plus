@@ -20,7 +20,7 @@ VS_VERSION_INFO VERSIONINFO
         VALUE "FileDescription", "GTK+ Pidgin++ Library (@APPLICATION_BITNESS@-bit)"
         VALUE "FileVersion", "@APPLICATION_VERSION@"
         VALUE "InternalName", "libpidgin"
-        VALUE "LegalCopyright", "Copyright (C) 1998-2014 The @APPLICATION_NAME@ developer community"
+        VALUE "LegalCopyright", "Copyright (C) 1998-2015 The @APPLICATION_NAME@ developer community"
         VALUE "OriginalFilename", "pidgin.dll"
         VALUE "ProductName", "@APPLICATION_NAME@"
         VALUE "ProductVersion", "@DISPLAY_VERSION_FULL@"

@@ -82,7 +82,7 @@ VIProductVersion "${PRODUCT_VERSION}"
 VIAddVersionKey "ProductName" "${APPLICATION_NAME} (${APPLICATION_BITNESS}-bit)"
 VIAddVersionKey "FileVersion" "${APPLICATION_VERSION}"
 VIAddVersionKey "ProductVersion" "${DISPLAY_VERSION_FULL}.${BUILD_DATE}"
-VIAddVersionKey "LegalCopyright" "Copyright (C) 1998-2014 The ${APPLICATION_NAME} developer community"
+VIAddVersionKey "LegalCopyright" "Copyright (C) 1998-2015 The ${APPLICATION_NAME} developer community"
 !ifdef OFFLINE_INSTALLER
 VIAddVersionKey "FileDescription" "Pidgin++ Offline Installer"
 !else
