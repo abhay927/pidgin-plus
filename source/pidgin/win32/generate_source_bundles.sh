@@ -1,20 +1,20 @@
 #!/bin/bash
 
-# Pidgin++ Source Bundle Generator
+# Pidgin++ Source Bundles Generator
 # Copyright (C) 2014 Renato Silva
 #
-# This script generates the source code bundle for Pidgin++, including the
-# sources for the MSYS2 libraries used, except for GTK+ which uses a separate
-# source code bundle.
+# This script generates the source code bundles for Pidgin++ and used libraries,
+# except for GTK+ which uses a separate source code bundle.
 
 bazaar_branch="$3"
 display_version="$2"
 pidgin_base=$(readlink -f "$1")
 architecture=$(gcc -dumpmachine)
 architecture="${architecture%%-*}"
-zip_root="pidgin++_${display_version}"
-zip_file="${zip_root}_source.zip"
-library_dir="${zip_root}/libraries"
+zip_root_main="pidgin++_${display_version}"
+zip_file_main="${zip_root_main}_source_main.zip"
+zip_file_libs="${zip_root_main}_source_libs.zip"
+library_dir="${zip_root_main}/libraries"
 working_dir="${pidgin_base}/pidgin/win32/source_bundle_stage"
 source "$pidgin_base/colored.sh"
 
@@ -44,8 +44,9 @@ for package_name in "${packages[@]}"; do
     package="mingw-w64-${architecture}-${package_name}"
     package_version=$(pacman -Q $package)
     package_version="${package_version##* }"
-    package_source="mingw-w64-i686-${package_name}-${package_version}.src.tar.gz"
-    url="https://sourceforge.net/projects/msys2/files/REPOS/MINGW/Sources/${package_source}/download"
+    package_source_suffix="${package_name}-${package_version}.src.tar.gz"
+    package_source="mingw-w64-${package_source_suffix}"
+    url="https://sourceforge.net/projects/msys2/files/REPOS/MINGW/Sources/mingw-w64-i686-${package_source_suffix}/download"
     echo "Integrating ${package} ${package_version}"
     [[ -s "$package_source" ]] && continue || rm -f "$package_source"
     if ! wget "$url" --quiet --output-document "$package_source"; then
@@ -67,7 +68,5 @@ for tarball in "${tarballs[@]}"; do
     fi
 done
 
-cd "$working_dir"
-echo "Creating $zip_file"
-bzr export --uncommitted --directory "$bazaar_branch" --root "${zip_root}" "${pidgin_base}/${zip_file}"
-zip -9 -qr "${pidgin_base}/${zip_file}" "$library_dir"
+echo "Creating $zip_file_main"; bzr export --uncommitted --directory "$bazaar_branch" --root "${zip_root_main}" "${pidgin_base}/${zip_file_main}"
+echo "Creating $zip_file_libs"; zip -9 -qr "${pidgin_base}/${zip_file_libs}" .

@@ -78,6 +78,7 @@ windev="$devroot/win32-dev/pidgin-windev.sh"
 staging="$devroot/${staging:-pidgin.build.$bitness}"
 target_top="${directory:-$devroot/distribution/$version}"
 target="$target_top/$architecture"
+target_source="$target_top/source"
 
 # Colored output
 if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
@@ -253,8 +254,10 @@ if [[ -n "$source" ]]; then
         exit 1
     fi
     build source_code_zip BAZAAR_BRANCH="$base_dir"
+    mkdir -p "$target_source"
     for asc in "" ${sign:+.asc}; do
-        mv -v pidgin++_*_source.zip$asc "${target}/Pidgin++ ${version} ${architecture} Source.zip$asc"
+        mv -v pidgin++_*_source_main.zip$asc "${target_source}/Pidgin++ ${version} Source.zip$asc"
+        mv -v pidgin++_*_source_libs.zip$asc "${target_source}/Pidgin++ ${version} Libraries Source.zip$asc"
     done
 fi
 
