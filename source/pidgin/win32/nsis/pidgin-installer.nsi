@@ -67,7 +67,7 @@ RequestExecutionLevel highest
 !define STARTUP_RUN_KEY				"SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
 !define PIDGIN_UNINST_EXE			"pidgin-uninst.exe"
 
-!define GTK_MIN_VERSION				"2.14.0"
+!define GTK_MIN_VERSION				"${GTK_INSTALL_VERSION}"
 !define PERL_REG_KEY				"SOFTWARE\Perl"
 !define PERL_DLL				"perl520.dll"
 
