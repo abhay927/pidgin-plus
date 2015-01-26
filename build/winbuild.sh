@@ -199,6 +199,11 @@ rsync --recursive --times "$source_dir/"* "$staging"
 touch "$staging/pidgin/gtkdialogs.c"
 "$build_dir/changelog.sh" --html --output "$staging/CHANGES.html"
 
+# Library information
+echo "Creating library manifest"
+source "$source_dir/pidgin/win32/libraries.sh"
+library_manifest "$staging/libraries.manifest"
+
 # Code signing
 cd "$staging"
 if [[ -n "$cert" || -n "$sign" ]]; then

@@ -539,6 +539,7 @@ Section Uninstall
     Delete "$INSTDIR\exchndl.dll"
     Delete "$INSTDIR\mgwhelp.dll"
     Delete "$INSTDIR\install.log"
+    Delete "$INSTDIR\libraries.manifest"
     Delete "${CHANGELOG}"
 
     ; Remove the debug symbols
