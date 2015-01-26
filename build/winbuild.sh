@@ -195,7 +195,7 @@ else
     echo "Updating $staging"
     rm -f "$staging/local.mak"
 fi
-cp -rup "$source_dir/"* "$staging"
+rsync --recursive --times "$source_dir/"* "$staging"
 touch "$staging/pidgin/gtkdialogs.c"
 "$build_dir/changelog.sh" --html --output "$staging/CHANGES.html"
 
