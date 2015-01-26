@@ -15,12 +15,12 @@
 source easyoptions || exit
 architecture=$(gcc -dumpmachine)
 architecture="${architecture%%-*}"
+gtk_package_version=$(pacman -Q mingw-w64-${architecture}-gtk2)
+gtk_package_version="${gtk_package_version##* }"
+gtk_package_version="${gtk_package_version/-/.}"
 
 if [[ -n "$gtk_version" ]]; then
-    gtk_version=$(pacman -Q mingw-w64-${architecture}-gtk2)
-    gtk_version="${gtk_version##* }"
-    gtk_version="${gtk_version/-/.}"
-    echo "$gtk_version"
+    echo "$gtk_package_version"
     exit
 fi
 
@@ -106,6 +106,11 @@ for locale_dir in /mingw${bitness}/share/locale/*; do
 done
 echo
 
-# Gettext as intl.dll and GTK+ customizations
+# Gettext as intl.dll
 cp -v bin/libintl-8.dll bin/intl.dll
+
+# GTK+ customizations
 cp -vr "$pidgin_base/pidgin/win32/gtk"/* .
+
+# GTK+ version information for the installer
+echo "Bundle Version ${gtk_package_version}" > CONTENTS
