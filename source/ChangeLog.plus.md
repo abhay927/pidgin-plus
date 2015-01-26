@@ -36,6 +36,8 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Toggle buddy list intelligently on tray icon click.
 * Fixed debug symbols download.
 * Really offline installer ([#14970][7]).
+* GTK+ runtime included with the main installer.
+* Debug symbols removed from the main installer.
 * Unused GTK+ locales no longer get installed.
 * Language and protocol names in the installer.
 * Uninstaller now fully removes subdirectories.

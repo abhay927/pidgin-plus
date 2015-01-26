@@ -260,52 +260,11 @@ SectionEnd
 ;--------------------------------
 ;GTK+ Runtime Install Section
 
-!macro ExtractFromGtk message file
-  nsisunz::UnzipToLog /file "${file}" /text "${message}: %f" "$PLUGINSDIR\gtk.zip" "$INSTDIR"
-!macroend
-
 Section $(GTKSECTIONTITLE) SecGtk
-
-  InitPluginsDir
-  StrCpy $R1 "$PLUGINSDIR\gtk.zip"
-
-!ifndef OFFLINE_INSTALLER
-  ; We need to download the GTK+ runtime
-  retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ GTK+ Runtime ${GTK_INSTALL_VERSION} ${APPLICATION_ARCHITECTURE}.zip"
-  DetailPrint "Downloading GTK+ Runtime ... ($R2)"
-  inetc::get /NOCANCEL "$R2" "$R1"
-  Pop $R0
-  ;StrCmp $R0 "cancel" done
-  StrCmp $R0 "OK" 0 prompt_retry
-
-  Push "${GTK_SHA1SUM}"
-  Push "$R1" ; Filename
-  Call CheckSHA1Sum
-  Pop $R0
-
-  StrCmp "$R0" "0" extract
-    prompt_retry:
-    MessageBox MB_RETRYCANCEL "$(PIDGINGTKDOWNLOADERROR)" /SD IDCANCEL IDRETRY retry IDCANCEL done
-
-  extract:
-!endif
-
-  ;Delete the old Gtk directory
   RMDir /r "$INSTDIR\Gtk"
-
   SetOutPath "$INSTDIR"
-!ifdef OFFLINE_INSTALLER
   File /r /x locale ".\Gtk"
-!else
-  nsisunz::UnzipToLog $R1 "$INSTDIR"
-  Pop $R0
-  StrCmp $R0 "success" +2
-  DetailPrint "$R0" ;print error message to log
-  RMDir /r "$INSTDIR\Gtk\share\locale" ;only the required locales will get installed in LANG_SECTION
-  done:
-!endif
-SectionEnd ; end of GTK+ section
+SectionEnd
 
 ;--------------------------------
 ;Pidgin Install Section
@@ -439,8 +398,7 @@ SectionGroupEnd
     SetOutPath "$INSTDIR\locale\${lang_code}\LC_MESSAGES"
     File "..\..\..\${PIDGIN_INSTALL_DIR}\locale\${lang_code}\LC_MESSAGES\*.mo"
 
-  ; Install the GTK+ translation for the language
-  !ifdef OFFLINE_INSTALLER
+    ; Install the GTK+ translation for the language
     SetOutPath "$INSTDIR\Gtk\share\locale\${lang_code}\LC_MESSAGES"
     File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\atk10.mo"
     File /nonfatal ".\Gtk\share\locale\${lang_code}\LC_MESSAGES\gdk-pixbuf.mo"
@@ -456,18 +414,6 @@ SectionGroupEnd
     SetOutPath "$INSTDIR"
     RmDir "$INSTDIR\Gtk\share\locale\${lang_code}\LC_MESSAGES"
     RmDir "$INSTDIR\Gtk\share\locale\${lang_code}"
-  !else
-    SetOutPath "$INSTDIR"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/atk10.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gdk-pixbuf.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gettext-runtime.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gettext-tools.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/glib20.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gtk20.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/gtk20-properties.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/libiconv.mo"
-    !insertmacro ExtractFromGtk "$(PIDGINEXTRACT)" "Gtk/share/locale/${lang_code}/LC_MESSAGES/shared-mime-info.mo"
-  !endif
   ${MementoSectionEnd}
 !macroend
 SectionGroup $(TRANSLATIONSSECTIONTITLE) SecTranslations
@@ -495,42 +441,12 @@ SectionGroup $(PIDGINSPELLCHECKSECTIONTITLE) SecSpellCheck
   !include "pidgin-spellcheck.nsh"
 SectionGroupEnd
 
-Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
-
-  InitPluginsDir
-  StrCpy $R1 "$PLUGINSDIR\dbgsym.zip"
-
 !ifdef OFFLINE_INSTALLER
+Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
   SetOutPath $INSTDIR
   File /r "..\..\..\${DEBUG_SYMBOLS_DIR}"
-!else
-  ; We need to download the debug symbols
-  retry:
-  StrCpy $R2 "https://launchpad.net/pidgin++/trunk/${DISPLAY_VERSION}/+download/Pidgin++ ${DISPLAY_VERSION} ${APPLICATION_ARCHITECTURE} Debug Symbols.zip"
-  DetailPrint "Downloading Debug Symbols... ($R2)"
-  inetc::get /NOCANCEL "$R2" "$R1"
-  Pop $R0
-  StrCmp $R0 "OK" 0 prompt_retry
-
-  Push "${DEBUG_SYMBOLS_SHA1SUM}"
-  Push "$R1" ; Filename
-  Call CheckSHA1Sum
-  Pop $R0
-
-  StrCmp "$R0" "0" extract
-    prompt_retry:
-    MessageBox MB_RETRYCANCEL "$(PIDGINDEBUGSYMBOLSERROR)" /SD IDCANCEL IDRETRY retry IDCANCEL done
-
-  extract:
-  SetOutPath "$INSTDIR"
-  nsisunz::UnzipToLog $R1 "$INSTDIR"
-  Pop $R0
-  StrCmp $R0 "success" +2
-    DetailPrint "$R0" ;print error message to log
-
-  done:
-!endif
 SectionEnd
+!endif
 
 ;--------------------------------
 ;Uninstaller Section
@@ -1303,44 +1219,6 @@ Function InstallDict
   Pop $R2
   Pop $R0
   Exch $R1
-FunctionEnd
-!endif
-
-!ifndef OFFLINE_INSTALLER
-; Input Stack: Filename, SHA1sum
-; Output Return Code: 0=Match; 1=FileSum error; 2=Mismatch
-Function CheckSHA1Sum
-  Push $R0
-  Exch
-  Pop $R0 ;Filename
-  Push $R2
-  Exch 2
-  Pop $R2 ;SHA1sum
-  Push $R1
-
-  SHA1Plugin::FileSum "$R0"
-  Pop $R1
-  Pop $R0
-
-  StrCmp "$R1" "0" +4
-    DetailPrint "SHA1Sum calculation error: $R0"
-    IntOp $R1 0 + 1
-    Goto done
-
-  ; Compare the SHA1Sums
-  StrCmp $R2 $R0 +4
-    DetailPrint "SHA1Sum mismatch... Expected $R2; got $R0"
-    IntOp $R1 0 + 2
-    Goto done
-
-  IntOp $R1 0 + 0
-
-  done:
-  Exch $R1 ;$R1 has the return code
-  Exch
-  Pop $R2
-  Exch
-  Pop $R0
 FunctionEnd
 !endif
 

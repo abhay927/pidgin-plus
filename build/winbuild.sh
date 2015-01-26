@@ -7,8 +7,8 @@
 ##
 ## This is the builder script for Pidgin++ on Windows. Source code will be
 ## exported to an appropriate staging directory within the specified development
-## root. Default output is a standard installer (without GTK+), placed under the
-## distribution subdirectory in the development root.
+## root. Default output is a standard installer, placed under the distribution
+## subdirectory in the development root.
 ##
 ## Usage:
 ##     @script.name DEVELOPMENT_ROOT [options]
@@ -19,21 +19,20 @@
 ##
 ##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
-##     -g, --gtk            Build the GTK+ runtime instead of installers, if
-##                          not already built and uploaded. Both binary and
-##                          source code packages are generated.
-##
 ##         --make=TARGET    Execute an arbitrary makefile target.
+##
 ##         --no-update      Disable the application update checking.
 ##     -c, --cleanup        Clean up the staging dir then exit.
-##     -o, --offline        Build both the standard and offline installers.
+##     -o, --offline        Build both the standard and offline installers. The
+##                          offline installer includes debug symbols and spell
+##                          checking dictionaries.
 ##     -s, --source         Build the source code bundle together with the
 ##                          installer, if this source code tree is a Bazaar
 ##                          branch. Requires Bazaar.
 ##
 ##         --sign           Enable code signing with GnuPG. This applies to the
-##                          source code, dictionary and GTK+ bundles, as well as
-##                          to the installers. Requires GnuPG.
+##                          source code and dictionary bundles, as well as to
+##                          the installers. Requires GnuPG.
 ##
 ##         --cert=FILE      Enable code signing with Microsoft Authenticode,
 ##                          using FILE as the PKCS #12 / PFX certificate. This
@@ -224,25 +223,13 @@ if [[ -n "$make" ]]; then
     exit
 fi
 
-# GTK+ and dictionary bundles
+# Dictionaries bundle
 mkdir -p "$target"
-if [[ -n "$gtk" || -n "$dictionaries" ]]; then
-    if [[ -n "$gtk" ]]; then
-        build gtk_runtime_zip_force
-        gtk_version=$(pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
-        gtk_binary="pidgin/win32/nsis/gtk-runtime-${gtk_version}.zip"
-        gtk_source="pidgin/win32/nsis/gtk-runtime-${gtk_version}-source.zip"
-        for asc in "" ${sign:+.asc}; do
-            [[ -f "${gtk_binary}${asc}" ]] && mv -v "${gtk_binary}${asc}" "${target}/Pidgin++ GTK+ Runtime ${gtk_version} ${architecture}.zip${asc}"        || warn "could not find ${gtk_binary}${asc}"
-            [[ -f "${gtk_source}${asc}" ]] && mv -v "${gtk_source}${asc}" "${target}/Pidgin++ GTK+ Runtime ${gtk_version} ${architecture} Source.zip${asc}" || warn "could not find ${gtk_source}${asc}"
-        done
-    fi
-    if [[ -n "$dictionaries" ]]; then
-        build dictionaries_bundle_force
-        for asc in "" ${sign:+.asc}; do
-            mv -v pidgin/win32/nsis/dictionaries.zip$asc "$target/Pidgin++ Dictionaries.zip$asc"
-        done
-    fi
+if [[ -n "$dictionaries" ]]; then
+    build dictionaries_bundle_force
+    for asc in "" ${sign:+.asc}; do
+        mv -v pidgin/win32/nsis/dictionaries.zip$asc "$target/Pidgin++ Dictionaries.zip$asc"
+    done
     echo
     exit
 fi
@@ -256,8 +243,9 @@ if [[ -n "$source" ]]; then
     build source_code_zip BAZAAR_BRANCH="$base_dir"
     mkdir -p "$target_source"
     for asc in "" ${sign:+.asc}; do
-        mv -v pidgin++_*_source_main.zip$asc "${target_source}/Pidgin++ ${version} Source.zip$asc"
-        mv -v pidgin++_*_source_libs.zip$asc "${target_source}/Pidgin++ ${version} Libraries Source.zip$asc"
+        mv -v pidgin++_*_source_main.zip$asc   "${target_source}/Pidgin++ ${version} Source.zip$asc"
+        mv -v pidgin++_*_source_gtk.zip$asc    "${target_source}/Pidgin++ ${version} Source GTK+.zip$asc"
+        mv -v pidgin++_*_source_other.zip$asc  "${target_source}/Pidgin++ ${version} Source Other.zip$asc"
     done
 fi
 
@@ -270,7 +258,6 @@ build "installer${offline:+s}"
 for asc in "" ${sign:+.asc}; do
     [[ -n "$offline" ]] && mv -v pidgin++_*_offline.exe$asc "$target/Pidgin++ $version $architecture Offline Setup.exe$asc"
     mv -v pidgin++_*.exe$asc "$target/Pidgin++ $version $architecture Setup.exe$asc"
-    mv -v pidgin-*-dbgsym.zip$asc "$target/Pidgin++ $version $architecture Debug Symbols.zip$asc"
 done
 build uninstall
 step "Build finished."

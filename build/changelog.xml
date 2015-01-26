@@ -43,6 +43,10 @@
                 bug="14970"/>
 
         <change platform="Windows"
+                en-us:description="GTK+ included with the main installer"
+                pt-br:description="GTK+ incluído no instalador principal"/>
+
+        <change platform="Windows"
                 en-us:description="Additional plugins for IRC including bouncer support"
                 pt-br:description="Plugins adicionais para IRC incluindo suporte a bouncers"/>
 

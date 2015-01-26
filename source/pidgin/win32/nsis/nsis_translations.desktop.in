@@ -52,15 +52,8 @@ _PIDGINSPELLCHECKERROR=Error installing spellchecking from [1]. If retrying fail
 #Installer Subsection Detailed Description
 _PIDGINSPELLCHECKSECTIONDESCRIPTION=Support for Spellchecking.  (Internet connection required for installation)
 
-# $R2 will display the URL that the Debug Symbols failed to download from
-_PIDGINDEBUGSYMBOLSERROR=Error Installing Debug Symbols from the URL below. If retrying fails, you may need to use the offline installer.$\r$\r$R2
-
-# $R2 will display the URL that the GTK+ Runtime failed to download from
-_PIDGINGTKDOWNLOADERROR=Error Downloading the GTK+ Runtime from the URL below. This is required for the application to function. If retrying fails, you may need to use the offline installer.$\r$\r$R2
-
 _PIDGINUNINSTALLERROR1=The uninstaller could not find registry entries for Pidgin++.$\rIt is likely that another user installed this application.
 _PIDGINUNINSTALLERROR2=You do not have permission to uninstall this application.
 _PIDGINUNINSTALLWARNING=Attention! The following directory may be completely removed, including any files installed by third-party plugins or similar. Are you sure?
 
 _PIDGINREADCHANGES=See applied changes
-_PIDGINEXTRACT=Extract

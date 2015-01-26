@@ -31,7 +31,7 @@ awk 'BEGIN {FS="."} { \
     exit; \
 }' VERSION)
 
-GTK_INSTALL_VERSION = $(shell pidgin/win32/nsis/generate_gtk_zip.sh --gtk-version)
+GTK_INSTALL_VERSION = $(shell pidgin/win32/nsis/integrate_gtk.sh --gtk-version)
 
 signtool_command = $(SIGNTOOL) sign \
 				    //fd SHA256 //f "$(SIGNTOOL_PFX)" //p "$(SIGNTOOL_PASSWORD)" \
@@ -121,7 +121,7 @@ EXTERNAL_DLLS_FIND_EXP = $(patsubst %,-o -name %,$(EXTERNAL_DLLS))
 
 include $(PIDGIN_COMMON_RULES)
 
-.PHONY: all docs install installer installer_offline installer_zip debug_symbols_zip installers clean uninstall create_release_install_dir generate_installer_includes $(PIDGIN_REVISION_H) $(PIDGIN_REVISION_RAW_TXT) gtk_runtime_zip gtk_runtime_zip_force dictionaries_bundle dictionaries_bundle_force source_code_zip
+.PHONY: all docs install installer installer_offline installer_zip debug_symbols installers clean uninstall create_release_install_dir generate_installer_includes $(PIDGIN_REVISION_H) $(PIDGIN_REVISION_RAW_TXT) gtk_runtime dictionaries_bundle dictionaries_bundle_force source_code_zip
 
 all: $(PIDGIN_CONFIG_H) $(PIDGIN_REVISION_H)
 	$(MAKE) -C $(PURPLE_TOP) -f $(MINGW_MAKEFILE)
@@ -163,15 +163,9 @@ else
 endif
 	if test -f $(GCC_TOP)/libwinpthread-1.dll; then cp $(GCC_TOP)/libwinpthread-1.dll $(PIDGIN_INSTALL_DIR); fi
 
-gtk_runtime_zip:
-	@./colored.sh info "Obtaining the GTK+ runtime"
-	pidgin/win32/nsis/generate_gtk_zip.sh "`pwd`" $(BITNESS)
-
-gtk_runtime_zip_force:
-	@./colored.sh pace "Building the GTK+ runtime"
-	pidgin/win32/nsis/generate_gtk_zip.sh "`pwd`" $(BITNESS) --force
-	$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip,none,line)
-	$(call gpg_sign,pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION)-source.zip,line,none,line)
+gtk_runtime:
+	@./colored.sh info "Integrating the GTK+ runtime"
+	pidgin/win32/nsis/integrate_gtk.sh "`pwd`" $(BITNESS)
 
 dictionaries_bundle:
 	@./colored.sh info "Obtaining the dictionaries bundle"
@@ -182,7 +176,7 @@ dictionaries_bundle_force:
 	pidgin/win32/nsis/generate_dictionaries_zip.sh "`pwd`" "$(UPSTREAM_VERSION)" --create
 	$(call gpg_sign,pidgin/win32/nsis/dictionaries.zip,line)
 
-generate_installer_includes: create_release_install_dir gtk_runtime_zip debug_symbols_zip $(PIDGIN_TREE_TOP)/pidgin/win32/nsis/nsis_translations.desktop
+generate_installer_includes: create_release_install_dir gtk_runtime debug_symbols $(PIDGIN_TREE_TOP)/pidgin/win32/nsis/nsis_translations.desktop
 	@./colored.sh info "Generating installer includes"
 	rm -f pidgin/win32/nsis/pidgin-translations.nsh pidgin/win32/nsis/pidgin-spellcheck.nsh pidgin/win32/nsis/pidgin-spellcheck-preselect.nsh
 	find $(STRIPPED_RELEASE_DIR)/locale -maxdepth 1 -mindepth 1 \
@@ -226,14 +220,12 @@ create_release_install_dir: install
 
 installer: generate_installer_includes
 	@./colored.sh info "Building the installer"
-	$(eval $@_DEBUG_SYMBOLS_SHA1SUM := $(shell sha1sum $(DEBUG_SYMBOLS_DIR).zip | sed -e "s/\ .*$$//"))
-	$(eval $@_GTK_SHA1SUM := $(shell sha1sum pidgin/win32/nsis/gtk-runtime-$(GTK_INSTALL_VERSION).zip | sed -e "s/\ .*$$//"))
+	$(eval $@_DEBUG_SYMBOLS_DIR := $(shell echo $(DEBUG_SYMBOLS_DIR) | tr / \\\\))
 	$(MAKENSIS) -V3 -DAPPLICATION_VERSION="$(APPLICATION_VERSION)" -DDISPLAY_VERSION="$(DISPLAY_VERSION)" -DDISPLAY_VERSION_FULL="$(DISPLAY_VERSION_FULL)" \
 		-DUPSTREAM_VERSION="$(UPSTREAM_VERSION)" -DPRODUCT_VERSION="$(PRODUCT_VERSION)" -DBUILD_DATE="$(BUILD_DATE)" \
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
-		-DDEBUG_SYMBOLS_SHA1SUM="$($@_DEBUG_SYMBOLS_SHA1SUM)" -DGTK_SHA1SUM="$($@_GTK_SHA1SUM)"\
-		-DAPPLICATION_BITNESS="$(BITNESS)" -DAPPLICATION_ARCHITECTURE="$(if $(findstring 64, $(BITNESS)),x64,x86)" \
+		-DAPPLICATION_BITNESS="$(BITNESS)" -DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" \
 		$(if $(findstring 64, $(BITNESS)), -DX64_APPLICATION) \
 		pidgin/win32/nsis/pidgin-installer.nsi
 	mv pidgin/win32/nsis/pidgin++_$(DISPLAY_VERSION).exe ./
@@ -247,8 +239,7 @@ installer_offline: generate_installer_includes dictionaries_bundle
 		-DUPSTREAM_VERSION="$(UPSTREAM_VERSION)" -DPRODUCT_VERSION="$(PRODUCT_VERSION)" -DBUILD_DATE="$(BUILD_DATE)" \
 		-DPIDGIN_INSTALL_DIR="$(STRIPPED_RELEASE_DIR)" -DGTK_INSTALL_VERSION="$(GTK_INSTALL_VERSION)" \
 		-DAPPLICATION_NAME="$(APPLICATION_NAME)" -DAPPLICATION_WEBSITE="$(APPLICATION_WEBSITE)" \
-		-DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" -DOFFLINE_INSTALLER \
-		-DAPPLICATION_BITNESS="$(BITNESS)" -DAPPLICATION_ARCHITECTURE="$(if $(findstring 64, $(BITNESS)),x64,x86)" \
+		-DAPPLICATION_BITNESS="$(BITNESS)" -DDEBUG_SYMBOLS_DIR="$($@_DEBUG_SYMBOLS_DIR)" -DOFFLINE_INSTALLER \
 		$(if $(findstring 64, $(BITNESS)), -DX64_APPLICATION) \
 		pidgin/win32/nsis/pidgin-installer.nsi
 	mv pidgin/win32/nsis/pidgin++_$(DISPLAY_VERSION)_offline.exe ./
@@ -261,23 +252,22 @@ installer_zip: create_release_install_dir
 	zip -9 -r pidgin-$(DISPLAY_VERSION)-win32-bin.zip $(STRIPPED_RELEASE_DIR)
 	$(call gpg_sign,pidgin-$(DISPLAY_VERSION)-win32-bin.zip,line,none,line)
 
-debug_symbols_zip: install
+debug_symbols: install
 	@./colored.sh info "Building debug symbols"
-	rm -rf $(DEBUG_SYMBOLS_DIR) $(DEBUG_SYMBOLS_DIR).zip
+	rm -rf $(DEBUG_SYMBOLS_DIR)
 	mkdir $(DEBUG_SYMBOLS_DIR)
 	tar -cf - `find $(PIDGIN_INSTALL_DIR) \( -name '*.dll' -o -name '*.exe' \) \
 	 -not \( -false $(EXTERNAL_DLLS_FIND_EXP) \) -print` \
 	 | tar --strip 2 --xform s/$$/.dbgsym/ -xC $(DEBUG_SYMBOLS_DIR) -f -
-	zip -9 -r $(DEBUG_SYMBOLS_DIR).zip $(DEBUG_SYMBOLS_DIR)
-	$(call gpg_sign,$(DEBUG_SYMBOLS_DIR).zip)
 
-installers: installer installer_offline debug_symbols_zip installer_zip
+installers: installer installer_offline debug_symbols installer_zip
 
 source_code_zip:
 	@./colored.sh pace "Building the source code bundles"
 	@pidgin/win32/generate_source_bundles.sh "`pwd`" "$(DISPLAY_VERSION)" "$(BAZAAR_BRANCH)"
 	$(call gpg_sign,pidgin++_$(DISPLAY_VERSION)_source_main.zip)
-	$(call gpg_sign,pidgin++_$(DISPLAY_VERSION)_source_libs.zip,line)
+	$(call gpg_sign,pidgin++_$(DISPLAY_VERSION)_source_gtk.zip)
+	$(call gpg_sign,pidgin++_$(DISPLAY_VERSION)_source_other.zip,line)
 
 Doxyfile.mingw: Doxyfile.in
 	sed -e "s/@PACKAGE@/pidgin/" -e "s/@VERSION@/$(APPLICATION_VERSION)/" -e "s/@top_srcdir@/$(PIDGIN_TREE_TOP)/g" -e "s/@enable_dot@/NO/" $< > $@
@@ -292,7 +282,7 @@ clean:
 	$(MAKE) -C $(PIDGIN_TOP) -f $(MINGW_MAKEFILE) clean
 	$(MAKE) -C $(PURPLE_TOP) -f $(MINGW_MAKEFILE) clean
 	$(MAKE) -C share/ca-certs -f $(MINGW_MAKEFILE) clean
-	rm -f $(PIDGIN_CONFIG_H) $(PIDGIN_REVISION_H) $(PIDGIN_REVISION_RAW_TXT) ./VERSION pidgin++_$(DISPLAY_VERSION)*.exe pidgin-$(DISPLAY_VERSION)-win32-bin.zip $(DEBUG_SYMBOLS_DIR).zip
+	rm -f $(PIDGIN_CONFIG_H) $(PIDGIN_REVISION_H) $(PIDGIN_REVISION_RAW_TXT) ./VERSION pidgin++_$(DISPLAY_VERSION)*.exe pidgin-$(DISPLAY_VERSION)-win32-bin.zip
 	rm -rf doc/html Doxyfile.mingw
 
 uninstall:
