@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-06 11:48-0200\n"
+"POT-Creation-Date: 2015-01-25 01:03-0200\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin@lists.sourceforge.net>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-12-07 06:29+0000\n"
-"X-Generator: Launchpad (build 17274)\n"
+"X-Launchpad-Export-Date: 2015-01-27 06:44+0000\n"
+"X-Generator: Launchpad (build 17306)\n"
 "Language: Kurdish\n"
 
 msgid "\t_Only when someone says your username"
@@ -4315,19 +4315,6 @@ msgstr ""
 msgid "Error Changing Account Info"
 msgstr ""
 
-#. $R2 will display the URL that the GTK+ Runtime failed to download from
-msgid ""
-"Error Downloading the GTK+ Runtime from the URL below. This is required for "
-"the application to function. If retrying fails, you may need to use the "
-"offline installer.$\\r$\\r$R2"
-msgstr ""
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols from the URL below. If retrying fails, you "
-"may need to use the offline installer.$\\r$\\r$R2"
-msgstr ""
-
 msgid "Error Messages"
 msgstr ""
 
@@ -4632,9 +4619,6 @@ msgstr ""
 #. *< version
 msgid "Extra conversation placement options."
 msgstr "Vebijartokên bicîkirina guftûgoyeke din"
-
-msgid "Extract"
-msgstr ""
 
 msgid "F_lash window when IMs are received"
 msgstr ""
