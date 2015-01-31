@@ -14,10 +14,6 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Configurable IRC quit and part messages.
 * Formatted timestamps in ZNC buffer playback.
 * New about dialog.
-* Changed order of the help menu.
-* Changed website URLs to:
-    - http://pidgin.renatosilva.me
-    - http://launchpad.net/pidgin++
 * Application renamed from Pidgin to Pidgin++.
 * Reply `CTCP VERSION` with Pidgin++.
 * Version pattern changed from RSxxx to year.minor.micro.
@@ -42,6 +38,8 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Language and protocol names in the installer.
 * Uninstaller now fully removes subdirectories.
 * Build date in the installer and the about dialog.
+* Copyright list and license text added to installation.
+* Libraries manifest added to installation.
 * New logos in the installer.
 * Compiled with newer GCC 4.9.
 * Improvements to the build process:
