@@ -13,6 +13,7 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Formatted IRC channel URLs ([#15248][3]).
 * Configurable IRC quit and part messages.
 * Formatted timestamps in ZNC buffer playback.
+* Typed message history browsing with just the arrow keys.
 * New about dialog.
 * Application renamed from Pidgin to Pidgin++.
 * Reply `CTCP VERSION` with Pidgin++.

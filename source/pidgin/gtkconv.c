@@ -1997,6 +1997,107 @@ conv_keypress_common(PidginConversation *gtkconv, GdkEventKey *event)
 }
 
 static gboolean
+conv_send_history_next(GtkWidget *entry, PidginConversation *gtkconv)
+{
+	if (!gtkconv->send_history)
+		return FALSE;
+
+	if (gtkconv->entry != entry)
+		return FALSE;
+
+	if (!gtkconv->send_history->prev) {
+		GtkTextIter start, end;
+		g_free(gtkconv->send_history->data);
+		gtk_text_buffer_get_start_iter(gtkconv->entry_buffer, &start);
+		gtk_text_buffer_get_end_iter(gtkconv->entry_buffer, &end);
+		gtkconv->send_history->data = gtk_imhtml_get_markup(GTK_IMHTML(gtkconv->entry));
+	}
+
+	if (gtkconv->send_history->next && gtkconv->send_history->next->data) {
+		GObject *object;
+		GtkTextIter iter;
+		GtkTextBuffer *buffer = gtk_text_view_get_buffer(GTK_TEXT_VIEW(gtkconv->entry));
+		gtkconv->send_history = gtkconv->send_history->next;
+
+		/* Block the signal to prevent application of default formatting. */
+		object = g_object_ref(G_OBJECT(gtkconv->entry));
+		g_signal_handlers_block_matched(object, G_SIGNAL_MATCH_DATA, 0, 0, NULL, NULL, gtkconv);
+
+		/* Clear the formatting. */
+		gtk_imhtml_clear_formatting(GTK_IMHTML(gtkconv->entry));
+
+		/* Unblock the signal. */
+		g_signal_handlers_unblock_matched(object, G_SIGNAL_MATCH_DATA, 0, 0, NULL, NULL, gtkconv);
+		g_object_unref(object);
+
+		gtk_imhtml_clear(GTK_IMHTML(gtkconv->entry));
+		gtk_imhtml_append_text_with_images(GTK_IMHTML(gtkconv->entry), gtkconv->send_history->data, 0, NULL);
+
+		/* this is mainly just a hack so the formatting at the cursor gets picked up. */
+		gtk_text_buffer_get_end_iter(buffer, &iter);
+		gtk_text_buffer_move_mark_by_name(buffer, "insert", &iter);
+	}
+	return TRUE;
+}
+
+static gboolean
+conv_send_history_previous(GtkWidget *entry, PidginConversation *gtkconv)
+{
+	if (!gtkconv->send_history)
+		return FALSE;
+
+	if (gtkconv->entry != entry)
+		return FALSE;
+
+	if (gtkconv->send_history->prev && gtkconv->send_history->prev->data) {
+		GObject *object;
+		GtkTextIter iter;
+		GtkTextBuffer *buffer = gtk_text_view_get_buffer(GTK_TEXT_VIEW(gtkconv->entry));
+		gtkconv->send_history = gtkconv->send_history->prev;
+
+		/* Block the signal to prevent application of default formatting. */
+		object = g_object_ref(G_OBJECT(gtkconv->entry));
+		g_signal_handlers_block_matched(object, G_SIGNAL_MATCH_DATA, 0, 0, NULL, NULL, gtkconv);
+
+		/* Clear the formatting. */
+		gtk_imhtml_clear_formatting(GTK_IMHTML(gtkconv->entry));
+
+		/* Unblock the signal. */
+		g_signal_handlers_unblock_matched(object, G_SIGNAL_MATCH_DATA, 0, 0, NULL, NULL, gtkconv);
+		g_object_unref(object);
+
+		gtk_imhtml_clear(GTK_IMHTML(gtkconv->entry));
+		gtk_imhtml_append_text_with_images(GTK_IMHTML(gtkconv->entry), gtkconv->send_history->data, 0, NULL);
+
+		/* this is mainly just a hack so the formatting at the cursor gets picked up. */
+		if (*(char *)gtkconv->send_history->data) {
+			gtk_text_buffer_get_end_iter(buffer, &iter);
+			gtk_text_buffer_move_mark_by_name(buffer, "insert", &iter);
+		} else {
+			/* Restore the default formatting */
+			default_formatize(gtkconv);
+		}
+	}
+	return TRUE;
+}
+
+static gint
+text_buffer_current_line(PidginConversation *gtkconv) {
+	GtkTextBuffer *buffer;
+	GtkTextIter iterator;
+	buffer = gtk_text_view_get_buffer(GTK_TEXT_VIEW(gtkconv->entry));
+	gtk_text_buffer_get_iter_at_mark(buffer, &iterator, gtk_text_buffer_get_mark(buffer, "insert"));
+	return gtk_text_iter_get_line(&iterator);
+}
+
+static gint
+text_buffer_last_line(PidginConversation *gtkconv) {
+	GtkTextBuffer *buffer;
+	buffer = gtk_text_view_get_buffer(GTK_TEXT_VIEW(gtkconv->entry));
+	return gtk_text_buffer_get_line_count(buffer) - 1;
+}
+
+static gboolean
 entry_key_press_cb(GtkWidget *entry, GdkEventKey *event, gpointer data)
 {
 	PurpleConversation *conv;
@@ -2012,96 +2113,14 @@ entry_key_press_cb(GtkWidget *entry, GdkEventKey *event, gpointer data)
 	if (event->state & GDK_CONTROL_MASK) {
 		switch (event->keyval) {
 			case GDK_Up:
-				if (!gtkconv->send_history)
+				if (!conv_send_history_next(entry, gtkconv))
 					break;
-
-				if (gtkconv->entry != entry)
-					break;
-
-				if (!gtkconv->send_history->prev) {
-					GtkTextIter start, end;
-
-					g_free(gtkconv->send_history->data);
-
-					gtk_text_buffer_get_start_iter(gtkconv->entry_buffer,
-												   &start);
-					gtk_text_buffer_get_end_iter(gtkconv->entry_buffer, &end);
-
-					gtkconv->send_history->data =
-						gtk_imhtml_get_markup(GTK_IMHTML(gtkconv->entry));
-				}
-
-				if (gtkconv->send_history->next && gtkconv->send_history->next->data) {
-					GObject *object;
-					GtkTextIter iter;
-					GtkTextBuffer *buffer = gtk_text_view_get_buffer(GTK_TEXT_VIEW(gtkconv->entry));
-
-					gtkconv->send_history = gtkconv->send_history->next;
-
-					/* Block the signal to prevent application of default formatting. */
-					object = g_object_ref(G_OBJECT(gtkconv->entry));
-					g_signal_handlers_block_matched(object, G_SIGNAL_MATCH_DATA, 0, 0, NULL,
-													NULL, gtkconv);
-					/* Clear the formatting. */
-					gtk_imhtml_clear_formatting(GTK_IMHTML(gtkconv->entry));
-					/* Unblock the signal. */
-					g_signal_handlers_unblock_matched(object, G_SIGNAL_MATCH_DATA, 0, 0, NULL,
-													  NULL, gtkconv);
-					g_object_unref(object);
-
-					gtk_imhtml_clear(GTK_IMHTML(gtkconv->entry));
-					gtk_imhtml_append_text_with_images(
-						GTK_IMHTML(gtkconv->entry), gtkconv->send_history->data,
-						0, NULL);
-					/* this is mainly just a hack so the formatting at the
-					 * cursor gets picked up. */
-					gtk_text_buffer_get_end_iter(buffer, &iter);
-					gtk_text_buffer_move_mark_by_name(buffer, "insert", &iter);
-				}
-
 				return TRUE;
 				break;
 
 			case GDK_Down:
-				if (!gtkconv->send_history)
+				if (!conv_send_history_previous(entry, gtkconv))
 					break;
-
-				if (gtkconv->entry != entry)
-					break;
-
-				if (gtkconv->send_history->prev && gtkconv->send_history->prev->data) {
-					GObject *object;
-					GtkTextIter iter;
-					GtkTextBuffer *buffer = gtk_text_view_get_buffer(GTK_TEXT_VIEW(gtkconv->entry));
-
-					gtkconv->send_history = gtkconv->send_history->prev;
-
-					/* Block the signal to prevent application of default formatting. */
-					object = g_object_ref(G_OBJECT(gtkconv->entry));
-					g_signal_handlers_block_matched(object, G_SIGNAL_MATCH_DATA, 0, 0, NULL,
-													NULL, gtkconv);
-					/* Clear the formatting. */
-					gtk_imhtml_clear_formatting(GTK_IMHTML(gtkconv->entry));
-					/* Unblock the signal. */
-					g_signal_handlers_unblock_matched(object, G_SIGNAL_MATCH_DATA, 0, 0, NULL,
-													  NULL, gtkconv);
-					g_object_unref(object);
-
-					gtk_imhtml_clear(GTK_IMHTML(gtkconv->entry));
-					gtk_imhtml_append_text_with_images(
-						GTK_IMHTML(gtkconv->entry), gtkconv->send_history->data,
-						0, NULL);
-					/* this is mainly just a hack so the formatting at the
-					 * cursor gets picked up. */
-					if (*(char *)gtkconv->send_history->data) {
-						gtk_text_buffer_get_end_iter(buffer, &iter);
-						gtk_text_buffer_move_mark_by_name(buffer, "insert", &iter);
-					} else {
-						/* Restore the default formatting */
-						default_formatize(gtkconv);
-					}
-				}
-
 				return TRUE;
 				break;
 		} /* End of switch */
@@ -2115,6 +2134,20 @@ entry_key_press_cb(GtkWidget *entry, GdkEventKey *event, gpointer data)
 	/* If neither CTRL nor ALT were held down... */
 	else {
 		switch (event->keyval) {
+		case GDK_Up:
+			if (text_buffer_current_line(gtkconv) > 0)
+				break;
+			if (!conv_send_history_next(entry, gtkconv))
+				break;
+			return TRUE;
+
+		case GDK_Down:
+			if (text_buffer_current_line(gtkconv) < text_buffer_last_line(gtkconv))
+				break;
+			if (!conv_send_history_previous(entry, gtkconv))
+				break;
+			return TRUE;
+
 		case GDK_Tab:
 		case GDK_KP_Tab:
 		case GDK_ISO_Left_Tab:
