@@ -106,11 +106,6 @@ for locale_dir in /mingw${bitness}/share/locale/*; do
 done
 echo
 
-# Gettext as intl.dll
-cp -v bin/libintl-8.dll bin/intl.dll
-
-# GTK+ customizations
+# GTK+ customizations and version information
 cp -vr "$pidgin_base/pidgin/win32/gtk"/* .
-
-# GTK+ version information for the installer
 echo "Bundle Version ${gtk_package_version}" > CONTENTS
