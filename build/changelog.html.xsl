@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:param name="screenshot.prefix"/>
     <xsl:param name="bugs.url"/>
     <xsl:param name="version"/>
     <xsl:template match="/">
@@ -106,7 +107,7 @@
                     </xsl:if>
 
                     <div><xsl:for-each select="screenshot"><span/>
-                    <img><xsl:attribute name="src"><xsl:value-of select="."/></xsl:attribute></img>
+                    <img><xsl:attribute name="src"><xsl:value-of select="$screenshot.prefix"/><xsl:value-of select="."/></xsl:attribute></img>
                     </xsl:for-each></div>
                 </li></xsl:for-each></ul>
             </xsl:for-each>

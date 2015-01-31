@@ -197,12 +197,13 @@ else
 fi
 rsync --recursive --times "$source_dir/"* "$staging"
 touch "$staging/pidgin/gtkdialogs.c"
-"$build_dir/changelog.sh" --html --output "$staging/CHANGES.html"
+mkdir -p "$staging/documents"
 
-# Library information
+# Changelog and library information
+"$build_dir/changelog.sh" --html --screenshot-prefix "../" --output "$staging/documents/CHANGELOG.html"
 echo "Creating library manifest"
 source "$source_dir/pidgin/win32/libraries.sh"
-library_manifest "$staging/libraries.manifest"
+library_manifest "$staging/documents/libraries.manifest"
 
 # Code signing
 cd "$staging"

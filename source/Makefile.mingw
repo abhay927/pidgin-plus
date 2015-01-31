@@ -284,6 +284,7 @@ clean:
 	$(MAKE) -C share/ca-certs -f $(MINGW_MAKEFILE) clean
 	rm -f $(PIDGIN_CONFIG_H) $(PIDGIN_REVISION_H) $(PIDGIN_REVISION_RAW_TXT) ./VERSION pidgin++_$(DISPLAY_VERSION)*.exe pidgin-$(DISPLAY_VERSION)-win32-bin.zip
 	rm -rf doc/html Doxyfile.mingw
+	rm -rf documents
 
 uninstall:
 	rm -rf $(PURPLE_INSTALL_PERL_DIR) $(PIDGIN_INSTALL_PLUGINS_DIR) $(PURPLE_INSTALL_PO_DIR) $(PIDGIN_INSTALL_DIR) $(STRIPPED_RELEASE_DIR) $(DEBUG_SYMBOLS_DIR)

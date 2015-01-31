@@ -127,7 +127,7 @@ ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
   !define MUI_FINISHPAGE_SHOWREADME_FUNCTION	"ShowChanges"
   !define MUI_FINISHPAGE_SHOWREADME_TEXT	$(PIDGINREADCHANGES)
   !define MUI_FINISHPAGE_SHOWREADME_CHECKED
-  !define CHANGELOG				"$INSTDIR\CHANGES.html"
+  !define CHANGELOG				"$INSTDIR\documents\CHANGELOG.html"
 
   ;Uninstall warning
   !define MUI_UNCONFIRMPAGE_TEXT_TOP		$(PIDGINUNINSTALLWARNING)
@@ -501,6 +501,7 @@ Section Uninstall
     Call un.UnregisterURIHandler
 
     RMDir /r "$INSTDIR\ca-certs"
+    RMDir /r "$INSTDIR\documents"
     RMDir /r "$INSTDIR\locale"
     RMDir /r "$INSTDIR\pixmaps"
     RMDir /r "$INSTDIR\plugins"
@@ -539,8 +540,6 @@ Section Uninstall
     Delete "$INSTDIR\exchndl.dll"
     Delete "$INSTDIR\mgwhelp.dll"
     Delete "$INSTDIR\install.log"
-    Delete "$INSTDIR\libraries.manifest"
-    Delete "${CHANGELOG}"
 
     ; Remove the debug symbols
     RMDir /r "$INSTDIR\pidgin-${DISPLAY_VERSION}-dbgsym"

@@ -2,7 +2,7 @@
 
 ##
 ##     Pidgin++ Changelog Manager
-##     Copyright (c) 2014 Renato Silva
+##     Copyright (c) 2014, 2015 Renato Silva
 ##     GNU GPLv2 licensed
 ##
 ## This utility converts the XML-based changelog into presentable formats,
@@ -19,6 +19,7 @@
 ##    -m, --markdown               Generate the Markdown changelog.
 ##    -H, --html                   Generate the HTML changelog.
 ##        --output=FILE            Save generated changelog to FILE.
+##        --screenshot-prefix=URL  Prefix for the screenshot URLs.
 ##
 ##    -v, --version                Print the Pidgin++ version.
 ##    -V, --version-full           Print the Pidgin++ version, always including
@@ -89,6 +90,7 @@ if [[ -n "$html" ]]; then
     cd "$build_dir"
     output="${output:-$base_dir/changelog.html}"
     unformatted="/tmp/changelog.unformatted.html"
+    xsl_parameters="${xsl_parameters} -s screenshot.prefix=${screenshot_prefix}"
     xmlstarlet transform --omit-decl changelog.html.xsl $xsl_parameters changelog.xml | dos2unix > "$unformatted"
     xmlstarlet format --html --omit-decl --nocdata --indent-spaces 4 "$unformatted" | dos2unix > "$output"
     rm "$unformatted"
@@ -101,7 +103,7 @@ fi
 if [[ -n "$markdown" ]]; then
     cd "$build_dir"
     output="${output:-$base_dir/changelog.md}"
-    xsl_parameters="$xsl_parameters -s screenshots.url=http://pidgin.renatosilva.me"
+    xsl_parameters="${xsl_parameters} -s screenshot.prefix=${screenshot_prefix:-http://pidgin.renatosilva.me/}"
     xmlstarlet transform --omit-decl changelog.markdown.xsl $xsl_parameters changelog.xml | dos2unix > "$output"
     echo "Changelog exported to $output"
     exit
