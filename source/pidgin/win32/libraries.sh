@@ -86,7 +86,7 @@ tarball_source_url() {
 }
 
 tarball_source_filename() {
-    echo "$(tarball_name)-$(tarball_version).$(tarball_source_format)"
+    echo "$(tarball_name "$1")-$(tarball_version "$1").$(tarball_source_format "$1")"
 }
 
 library_manifest() {
