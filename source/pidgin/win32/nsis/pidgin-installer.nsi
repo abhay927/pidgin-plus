@@ -509,6 +509,7 @@ Section Uninstall
     RMDir /r "$INSTDIR\sounds"
     RMDir /r "$INSTDIR\spellcheck"
     Delete "$INSTDIR\freebl3.dll"
+    Delete "$INSTDIR\intl.dll"
     Delete "$INSTDIR\libgcc_s_dw2-1.dll"
     Delete "$INSTDIR\libgcc_s_seh-1.dll"
     Delete "$INSTDIR\libjabber.dll"
