@@ -62,9 +62,11 @@ fi
 
 # Other variables
 [[ -n "$prepare" ]] && mkdir -p "$devroot"
-case $(gcc -dumpmachine) in
-    i686-w64-mingw*)   bitness=32; architecture=x86 ;;
-    x86_64-w64-mingw*) bitness=64; architecture=x64 ;;
+machine=$(gcc -dumpmachine)
+case "$machine" in
+    i686-w64-mingw*)   architecture="x86"; bitness="32" ;;
+    x86_64-w64-mingw*) architecture="x64"; bitness="64" ;;
+    *)                 architecture="$machine"
 esac
 devroot=$(readlink -e $devroot)
 base_dir=$(readlink -e "$(dirname "$0")/..")
@@ -74,7 +76,7 @@ sign="${sign:-$cert}"
 sign="${sign:+yes}"
 version=$($build_dir/changelog.sh --version)
 windev="$devroot/win32-dev/pidgin-windev.sh"
-staging="$devroot/${staging:-pidgin.build.$bitness}"
+staging="$devroot/${staging:-pidgin.build.${bitness:-$machine}}"
 target_top="${directory:-$devroot/distribution/$version}"
 target="$target_top/$architecture"
 target_source="$target_top/source"
