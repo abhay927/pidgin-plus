@@ -7,50 +7,51 @@
 # Package format: binary[::source]
 # Tarball format: name::version::license_file::source_format::source_url
 
-# Required only by GTK+
-gtk_packages=(bzip2
-              expat
-              fontconfig
-              freetype
-              gtk2
-              harfbuzz
-              libffi
-              libiconv
-              libpng
-              pixman
-              shared-mime-info)
+main_packages=(# Required only by GTK+
+               bzip2
+               expat
+               fontconfig
+               freetype
+               harfbuzz
+               libffi
+               libiconv
+               libpng
+               pixman
+               shared-mime-info
 
-# Required only by main source code
-other_packages=(cyrus-sasl
-                drmingw
-                enchant
-                gtkspell
-                hunspell
-                libsystre
-                libtre-git
-                libxml2
-                meanwhile
-                nspr
-                nss
-                perl
-                silc-toolkit
-                sqlite3)
+               # Required only by main source code
+               cyrus-sasl
+               drmingw
+               enchant
+               gtk2
+               gtkspell
+               hunspell
+               libsystre
+               libtre-git
+               libxml2
+               meanwhile
+               nspr
+               nss
+               perl
+               silc-toolkit
+               sqlite3
 
-# Required by both GTK+ and main source code
-common_packages=(atk
-                 cairo
-                 gdk-pixbuf2
-                 gettext
-                 glib2
-                 pango
-                 zlib
-                 gcc-libs::gcc
-                 libwinpthread-git::winpthreads-git)
+               # Required by both GTK+ and main source code
+               atk
+               cairo
+               gdk-pixbuf2
+               gettext
+               glib2
+               pango
+               zlib)
+
+other_packages=(# Required by both GTK+ and main source code
+                libwinpthread-git::winpthreads-git
+                gcc-libs::gcc)
 
 # All packages
-packages=("${gtk_packages[@]}"
-          "${other_packages[@]}"
-          "${common_packages[@]}")
+packages=("${main_packages[@]}"
+          "${other_packages[@]}")
 
 # Non-packaged dependencies
 tarballs=(winsparkle::0.4::COPYING::tar.gz::"https://github.com/vslavik/winsparkle/archive/v0.4.tar.gz")
@@ -102,10 +103,8 @@ tarball_source_filename() {
 library_manifest() {
     local output_file="$1"
     rm -f "$output_file"
-    echo "# Required by both GTK+ and Pidgin++" >> "$output_file"; for library in "${common_packages[@]}"; do printf "$(package_name $library)=$(package_version $library)\n" >> "$output_file"; done; echo >> "$output_file"
-    echo "# Required by GTK+ only"              >> "$output_file"; for library in "${gtk_packages[@]}";    do printf "$(package_name $library)=$(package_version $library)\n" >> "$output_file"; done; echo >> "$output_file"
-    echo "# Required by Pidgin++ only"          >> "$output_file"; for library in "${other_packages[@]}";  do printf "$(package_name $library)=$(package_version $library)\n" >> "$output_file"; done
-                                                                   for library in "${tarballs[@]}";        do printf "$(tarball_name $library)=$(tarball_version $library)\n" >> "$output_file"; done
+    for library in "${packages[@]}"; do printf "$(package_name $library)=$(package_version $library)\n" >> "$output_file"; done
+    for library in "${tarballs[@]}"; do printf "$(tarball_name $library)=$(tarball_version $library)\n" >> "$output_file"; done
 }
 
 library_licenses() {

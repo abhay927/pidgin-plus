@@ -11,7 +11,7 @@ architecture=$(gcc -dumpmachine)
 architecture="${architecture%%-*}"
 zip_root_main="pidgin++_${display_version}"
 zip_file_main="${zip_root_main}_source_main.zip"
-zip_file_gtk="${zip_root_main}_source_gtk.zip"
+zip_file_libs="${zip_root_main}_source_libs.zip"
 zip_file_other="${zip_root_main}_source_other.zip"
 working_dir="${pidgin_base}/pidgin/win32/source_bundle_stage"
 source "${pidgin_base}/pidgin/win32/libraries.sh"
@@ -22,12 +22,8 @@ library_bundle() {
     local type="$1"
     local zip_file="$2"
     case "$type" in
-        GTK+)  packages=("${gtk_packages[@]}")
-               unset tarballs
-               ;;
-        other) packages=("${other_packages[@]}")
-               packages+=("${common_packages[@]}")
-               ;;
+        libs)  packages=("${main_packages[@]}") ;;
+        other) packages=("${other_packages[@]}"); unset tarballs ;;
     esac
     mkdir -p "${working_dir}/${type}"
     cd "${working_dir}/${type}"
@@ -63,7 +59,7 @@ library_bundle() {
     echo
 }
 
-library_bundle GTK+  "$zip_file_gtk"
+library_bundle libs  "$zip_file_libs"
 library_bundle other "$zip_file_other"
 
 echo "Creating ${zip_file_main}"

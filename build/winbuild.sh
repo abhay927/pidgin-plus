@@ -259,7 +259,7 @@ if [[ -n "$source" ]]; then
     mkdir -p "$target_source"
     for asc in "" ${sign:+.asc}; do
         mv -v pidgin++_*_source_main.zip$asc   "${target_source}/Pidgin++ ${version} Source.zip$asc"
-        mv -v pidgin++_*_source_gtk.zip$asc    "${target_source}/Pidgin++ ${version} Source GTK+.zip$asc"
+        mv -v pidgin++_*_source_libs.zip$asc   "${target_source}/Pidgin++ ${version} Source Libraries.zip$asc"
         mv -v pidgin++_*_source_other.zip$asc  "${target_source}/Pidgin++ ${version} Source Other.zip$asc"
     done
 fi
