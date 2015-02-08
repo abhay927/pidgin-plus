@@ -111,6 +111,7 @@ library_licenses() {
     local devroot="$1"
     local output_directory="$2"
     local missing="${output_directory}/MISSING.txt"
+    local script_dir=$(readlink -f "$(dirname "$BASH_SOURCE")")
     local license_top
     case $(gcc -dumpmachine) in
         i686-w64-mingw*)   license_top=/mingw32/share/licenses ;;
@@ -118,6 +119,7 @@ library_licenses() {
         *)                 return 1
     esac
     rm -f "$missing"
+    source "$script_dir/../../colored.sh"
     for library in "${packages[@]}"; do
         local package_name=$(package_name "$library")
         local package_name_short="${package_name}"
@@ -126,10 +128,11 @@ library_licenses() {
         package_name_short="${package_name_short%-hg}"
         mkdir -p "${output_directory}/${package_name}"
         if [[ -d "${license_top}/${package_name_short}" ]]; then
-            cp -r "${license_top}/${package_name_short}"/* "${output_directory}/${package_name}"
+            cp -r "${license_top}/${package_name_short}"/* "${output_directory}/${package_name}" || return 1
         else
             rm -rf "${output_directory}/${package_name}"
             echo "$package_name" >> "$missing"
+            warn "missing directory ${license_top}/${package_name_short}"
         fi
     done
     for library in "${tarballs[@]}"; do
@@ -139,10 +142,11 @@ library_licenses() {
         local library_location="${devroot}/win32-dev/${tarball_name}-${tarball_version}"
         mkdir -p "${output_directory}/${tarball_name}"
         if [[ -d "${library_location}" ]]; then
-            cp -r "${library_location}"/${tarball_license} "${output_directory}/${tarball_name}"
+            cp -r "${library_location}"/${tarball_license} "${output_directory}/${tarball_name}" || return 1
         else
             rm -rf "${output_directory}/${tarball_name}"
             echo "$tarball_name" >> "$missing"
+            warn "missing directory ${library_location}"
         fi
     done
 }
