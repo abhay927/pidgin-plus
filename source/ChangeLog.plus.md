@@ -40,7 +40,7 @@ targeted at end users, please see the XML changelog or its resulting formats.
 * Uninstaller now fully removes subdirectories.
 * Build date in the installer and the about dialog.
 * Copyright list and license text added to installation.
-* Libraries manifest added to installation.
+* Library manifest and licenses added to installation.
 * New logos in the installer.
 * Compiled with newer GCC 4.9.
 * Improvements to the build process:

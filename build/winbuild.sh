@@ -80,6 +80,7 @@ staging="$devroot/${staging:-pidgin.build.${bitness:-$machine}}"
 target_top="${directory:-$devroot/distribution/$version}"
 target="$target_top/$architecture"
 target_source="$target_top/source"
+documents="$staging/documents"
 
 # Colored output
 if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
@@ -199,13 +200,19 @@ else
 fi
 rsync --recursive --times "$source_dir/"* "$staging"
 touch "$staging/pidgin/gtkdialogs.c"
-mkdir -p "$staging/documents"
+mkdir -p "$documents/libraries"
+"$build_dir/changelog.sh" --html --screenshot-prefix "../" --output "$documents/CHANGELOG.html"
 
-# Changelog and library information
-"$build_dir/changelog.sh" --html --screenshot-prefix "../" --output "$staging/documents/CHANGELOG.html"
+# Library information
 echo "Creating library manifest"
 source "$source_dir/pidgin/win32/libraries.sh"
-library_manifest "$staging/documents/libraries.manifest"
+library_manifest "$documents/libraries/MANIFEST"
+
+# Library licenses
+echo "Integrating library licenses"
+licenses="$documents/libraries/licenses"
+rm -rf "$licenses"
+library_licenses "$devroot" "$licenses" || warn "error installing licenses to $licenses"
 
 # Code signing
 cd "$staging"
