@@ -200,6 +200,7 @@ else
 fi
 rsync --recursive --times "$source_dir/"* "$staging"
 touch "$staging/pidgin/gtkdialogs.c"
+rm -rf "$documents"
 mkdir -p "$documents/libraries"
 "$build_dir/changelog.sh" --html --screenshot-prefix "../" --output "$documents/CHANGELOG.html"
 
