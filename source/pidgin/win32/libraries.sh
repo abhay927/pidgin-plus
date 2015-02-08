@@ -8,24 +8,17 @@
 # Tarball format: name::version::license_file::source_format::source_url
 
 # Required only by GTK+
-gtk_packages=(atk
-              bzip2
-              cairo
+gtk_packages=(bzip2
               expat
               fontconfig
               freetype
-              gdk-pixbuf2
-              gettext
-              glib2
               gtk2
               harfbuzz
               libffi
               libiconv
               libpng
-              pango
               pixman
-              shared-mime-info
-              zlib)
+              shared-mime-info)
 
 # Required only by main source code
 other_packages=(cyrus-sasl
@@ -44,7 +37,14 @@ other_packages=(cyrus-sasl
                 sqlite3)
 
 # Required by both GTK+ and main source code
-common_packages=(gcc-libs::gcc
+common_packages=(atk
+                 cairo
+                 gdk-pixbuf2
+                 gettext
+                 glib2
+                 pango
+                 zlib
+                 gcc-libs::gcc
                  libwinpthread-git::winpthreads-git)
 
 # All packages
