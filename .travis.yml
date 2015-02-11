@@ -1,0 +1,28 @@
+language: c
+compiler:
+    - gcc
+    - clang
+
+before_install:
+    - sudo apt-get update
+
+install:
+    # Build dependencies
+    - sudo apt-get build-dep pidgin
+
+    # Automake 1.14
+    - wget http://de.archive.ubuntu.com/ubuntu/pool/main/a/automake-1.14/automake_1.14.1-2ubuntu1_all.deb
+    - sudo dpkg -i automake_1.14.1-2ubuntu1_all.deb
+
+    # Colormake
+    - sudo wget https://github.com/renatosilva/colormake/raw/master/colormake.sh -O /usr/local/bin/colormake
+    - sudo chmod +x /usr/local/bin/colormake
+
+before_script:
+    - cd source
+
+script:
+    - ./configure && colormake
+
+notifications:
+    email: false

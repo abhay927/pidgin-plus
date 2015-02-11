@@ -48,9 +48,10 @@
             .translation      { display: none; }
             .en_US            { display: inline; }
 
+            img              { margin: 10px; }
+            img.build        { margin: 0px; vertical-align: bottom; }
             ::-moz-selection { color: #f8f8f8; background-color: #555; }
             ::selection      { color: #f8f8f8; background-color: #555; }
-            img              { margin: 10px; }
         </style>
         <script type="text/javascript">
             function setDisplayForId(id, value) {
@@ -129,8 +130,11 @@
             <p class="translation pt_BR">Uma versão melhorada do Pidgin.</p>
 
             <br/><br/><i>
-            <h4 class="translation en_US">Next release</h4>
-            <h4 class="translation pt_BR">Próxima versão</h4>
+            <h4>
+                <span class="translation en_US">Next release</span>
+                <span class="translation pt_BR">Próxima versão</span>
+                <a target="_blank" href="https://travis-ci.org/renatosilva/pidgin-plus/builds"><img class="build" alt="" src="https://travis-ci.org/renatosilva/pidgin-plus.svg?branch=master"/></a>
+            </h4>
 
         </div><div id="next-release">
             <ul>

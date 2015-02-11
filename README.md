@@ -1,4 +1,4 @@
-# Pidgin++
+# Pidgin++ <a target="_blank" href="https://travis-ci.org/renatosilva/pidgin-plus/builds"><img align="right" alt="" src="https://travis-ci.org/renatosilva/pidgin-plus.svg?branch=master"/></a>
 
 An improved version of Pidgin.
 
