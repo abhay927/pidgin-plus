@@ -198,7 +198,7 @@ else
     echo "Updating $staging"
     rm -f "$staging/local.mak"
 fi
-rsync --recursive --times "$source_dir/"* "$staging"
+rsync --recursive --times "$source_dir/"* "$staging" || exit 1
 touch "$staging/pidgin/gtkdialogs.c"
 rm -rf "$documents"
 mkdir -p "$documents/libraries"
