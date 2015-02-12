@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-06 11:48-0200\n"
+"POT-Creation-Date: 2015-01-25 01:03-0200\n"
 "PO-Revision-Date: 2014-08-31 02:40+0000\n"
 "Last-Translator: cubells <vicent@vcubells.net>\n"
 "Language-Team: Catalan <tradgnome@softcatala.net>\n"
@@ -39,8 +39,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-12-07 06:46+0000\n"
-"X-Generator: Launchpad (build 17274)\n"
+"X-Launchpad-Export-Date: 2015-01-27 07:02+0000\n"
+"X-Generator: Launchpad (build 17306)\n"
 "Language: Catalan (Valencian)\n"
 
 msgid "\t_Only when someone says your username"
@@ -4592,19 +4592,6 @@ msgstr ""
 msgid "Error Changing Account Info"
 msgstr "S'ha produït un error en canviar la informació del compte"
 
-#. $R2 will display the URL that the GTK+ Runtime failed to download from
-msgid ""
-"Error Downloading the GTK+ Runtime from the URL below. This is required for "
-"the application to function. If retrying fails, you may need to use the "
-"offline installer.$\\r$\\r$R2"
-msgstr ""
-
-#. $R2 will display the URL that the Debug Symbols failed to download from
-msgid ""
-"Error Installing Debug Symbols from the URL below. If retrying fails, you "
-"may need to use the offline installer.$\\r$\\r$R2"
-msgstr ""
-
 msgid "Error Messages"
 msgstr "Missatges d'error"
 
@@ -4926,9 +4913,6 @@ msgstr "Usuari extern"
 #. *< version
 msgid "Extra conversation placement options."
 msgstr "Opcions extres per a la ubicació de les converses."
-
-msgid "Extract"
-msgstr ""
 
 msgid "F_lash window when IMs are received"
 msgstr "_Fes que la finestra faça un flaix quan hi arriben missatges"
