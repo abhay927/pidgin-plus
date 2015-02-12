@@ -2,7 +2,7 @@
 
 # Pidgin++ Ubuntu Build helper
 # Copyright (c) 2014 Renato Silva
-# GNU GPLv2 licensed
+# Licensed under GNU GPLv2 or later
 
 if [[ ("$2" != "--prepare" && "$2" != "--build" && "$2" != "--upload" &&
        "$2" != "--import"  && "$2" != "--build-source") || "$0" == "$BASH_SOURCE" ]]; then

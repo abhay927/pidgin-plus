@@ -2,7 +2,7 @@
 
 # Pidgin++ Library Information
 # Copyright (C) 2015 Renato Silva
-# GNU GPLv2 licensed
+# Licensed under GNU GPLv2 or later
 
 # Package format: binary[::source]
 # Tarball format: name::version::license_file::source_format::source_url

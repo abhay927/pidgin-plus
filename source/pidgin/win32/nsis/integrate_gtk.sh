@@ -3,7 +3,7 @@
 ##
 ##     Pidgin++ Windows Installer GTK+ Integrator
 ##     Copyright (c) 2014, 2015 Renato Silva
-##     GNU GPLv2 licensed
+##     Licensed under GNU GPLv2 or later
 ##
 ## Usage:
 ##     @script.name [options] PIDGIN_BASE BITNESS

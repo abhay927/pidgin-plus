@@ -2,7 +2,7 @@
 
 # Pidgin++ Source Bundles Generator
 # Copyright (C) 2014, 2015 Renato Silva
-# GNU GPLv2 licensed
+# Licensed under GNU GPLv2 or later
 
 bazaar_branch="$3"
 display_version="$2"

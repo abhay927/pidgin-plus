@@ -3,7 +3,7 @@
 ##
 ##     Pidgin++ Website Builder
 ##     Copyright (c) 2014 Renato Silva
-##     GNU GPLv2 licensed
+##     Licensed under GNU GPLv2 or later
 ##
 ## Usage:
 ##     @script.name TARGET_DIRECTORY

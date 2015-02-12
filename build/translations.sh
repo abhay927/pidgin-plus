@@ -3,7 +3,7 @@
 ##
 ##     Pidgin++ Translations Merge Helper
 ##     Copyright (c) 2014 Renato Silva
-##     GNU GPLv2 licensed
+##     Licensed under GNU GPLv2 or later
 ##
 ## This script merges translations from Launchpad, performing adjustments in
 ## order to circumvent some Launchpad limitations.

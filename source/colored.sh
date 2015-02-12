@@ -2,7 +2,7 @@
 
 # Pidgin++ Colored Output Helper
 # Copyright (c) 2014 Renato Silva
-# GNU GPLv2 licensed
+# Licensed under GNU GPLv2 or later
 
 if [[ -n "$PIDGIN_BUILD_COLORS" ]]; then
 

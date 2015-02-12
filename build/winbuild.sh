@@ -3,7 +3,7 @@
 ##
 ##     Pidgin++ Windows Builder
 ##     Copyright (c) 2014, 2015 Renato Silva
-##     GNU GPLv2 licensed
+##     Licensed under GNU GPLv2 or later
 ##
 ## This is the builder script for Pidgin++ on Windows. Source code will be
 ## exported to an appropriate staging directory within the specified development

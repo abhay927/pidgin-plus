@@ -2,6 +2,7 @@
 
 # Dictionaries Bundle Creator/Downloader
 # Copyright (C) 2014 Renato Silva
+# Licensed under GNU GPLv2 or later
 #
 # This script downloads the dictionaries to be included with the offline
 # installer. When provided with the --create flag, it generates the dictionaries

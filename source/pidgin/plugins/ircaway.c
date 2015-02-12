@@ -2,7 +2,7 @@
  * IRC Away Plugin
  *
  * Copyright 2012, 2014 Renato Silva
- * GNU GPLv2 licensed
+ * Licensed under GNU GPLv2 or later
  *
  */
 
@@ -44,7 +44,7 @@ static PurplePluginInfo info = {
 	PURPLE_PRIORITY_DEFAULT,
 	ID,
 	NULL,
-	"2014.9.3",
+	"2015.2.12",
 	NULL,
 	NULL,
 	"Renato Silva",

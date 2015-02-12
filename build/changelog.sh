@@ -3,7 +3,7 @@
 ##
 ##     Pidgin++ Changelog Manager
 ##     Copyright (c) 2014, 2015 Renato Silva
-##     GNU GPLv2 licensed
+##     Licensed under GNU GPLv2 or later
 ##
 ## This utility converts the XML-based changelog into presentable formats,
 ## either HTML or Debian changelog. It also manages the Pidgin++ version.
