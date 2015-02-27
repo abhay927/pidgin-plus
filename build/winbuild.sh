@@ -259,9 +259,9 @@ if [[ -n "$source" ]]; then
     build source_code_zip BAZAAR_BRANCH="$base_dir"
     mkdir -p "$target_source"
     for asc in "" ${sign:+.asc}; do
-        mv -v pidgin++_*_source_main.zip$asc   "${target_source}/Pidgin++ ${version} Source.zip$asc"
-        mv -v pidgin++_*_source_libs.zip$asc   "${target_source}/Pidgin++ ${version} Source Libraries.zip$asc"
-        mv -v pidgin++_*_source_other.zip$asc  "${target_source}/Pidgin++ ${version} Source Other.zip$asc"
+        mv -v pidgin++_*_source_main.zip$asc "${target_source}/Pidgin++ ${version} Source.zip$asc"
+        mv -v pidgin++_*_source_lib.zip$asc  "${target_source}/Pidgin++ ${version} Source Windows Libraries.zip$asc"
+        mv -v pidgin++_*_source_gcc.zip$asc  "${target_source}/Pidgin++ ${version} Source Windows GCC.zip$asc"
     done
 fi
 

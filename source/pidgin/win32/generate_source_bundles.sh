@@ -11,25 +11,22 @@ architecture=$(gcc -dumpmachine)
 architecture="${architecture%%-*}"
 zip_root_main="pidgin++_${display_version}"
 zip_file_main="${zip_root_main}_source_main.zip"
-zip_file_libs="${zip_root_main}_source_libs.zip"
-zip_file_other="${zip_root_main}_source_other.zip"
+zip_file_lib="${zip_root_main}_source_lib.zip"
+zip_file_gcc="${zip_root_main}_source_gcc.zip"
 working_dir="${pidgin_base}/pidgin/win32/source_bundle_stage"
 source "${pidgin_base}/pidgin/win32/libraries.sh"
 source "${pidgin_base}/colored.sh"
 
 library_bundle() {
-    local packages
     local type="$1"
     local zip_file="$2"
-    case "$type" in
-        libs)  packages=("${main_packages[@]}") ;;
-        other) packages=("${other_packages[@]}"); unset tarballs ;;
-    esac
     mkdir -p "${working_dir}/${type}"
     cd "${working_dir}/${type}"
     rm -f MISSING.txt
 
     for package in "${packages[@]}"; do
+        [[ "$package"  = gcc* && "$type" = lib ]] && continue
+        [[ "$package" != gcc* && "$type" = gcc ]] && continue
         local name=$(package_name $package)
         local source_suffix="$(package_source $package)-$(package_version $name).src.tar.gz"
         local source_package="mingw-w64-${source_suffix}"
@@ -43,6 +40,7 @@ library_bundle() {
         fi
     done
 
+    [[ "$type" = gcc ]] && unset tarballs
     for tarball in "${tarballs[@]}"; do
         local source_file=$(tarball_source_filename "$tarball")
         local source_url=$(tarball_source_url "$tarball")
@@ -59,8 +57,8 @@ library_bundle() {
     echo
 }
 
-library_bundle libs  "$zip_file_libs"
-library_bundle other "$zip_file_other"
+library_bundle lib "$zip_file_lib"
+library_bundle gcc "$zip_file_gcc"
 
 echo "Creating ${zip_file_main}"
 bzr export --uncommitted --directory "$bazaar_branch" --root "$zip_root_main" "${pidgin_base}/${zip_file_main}"
