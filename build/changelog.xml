@@ -2,70 +2,6 @@
 <changelog xmlns:en-us="en_US" xmlns:pt-br="pt_BR">
 
     <version id="15.1">
-        <change en-us:description="New colors and formatting for conversations"
-                pt-br:description="Novas cores e formatação para as conversas"/>
-
-        <change en-us:description="Improved conversation history viewer"
-                pt-br:description="Visualizador do histórico de conversas aprimorado"/>
-
-        <change en-us:description="Configurable quit and part messages for IRC"
-                pt-br:description="Mensagens configuráveis de desconexão e saída de canais IRC"/>
-
-        <change en-us:description="Proper formatting for IRC channel websites"
-                pt-br:description="Formatação para site do canal nas conversas IRC"
-                bug="15248"/>
-
-        <change en-us:description="Proper formatting for ZNC buffer playback timestamps"
-                pt-br:description="Formatação para hora das mensagens na reprodução de buffers do ZNC"/>
-
-        <change en-us:description="Highlighting of unknown IRC numerics as system messages"
-                pt-br:description="Formatação de numéricos IRC desconhecidos como mensagens de sistema"/>
-
-        <change en-us:description="Access to previously typed messages with just the arrow keys"
-                pt-br:description="Acesso a mensagens anteriormente digitadas com apenas as teclas de seta"/>
-
-        <change platform="Windows"
-                en-us:description="Support for 64-bit"
-                pt-br:description="Suporte para 64 bits"/>
-
-        <change platform="Windows"
-                en-us:description="Automated update checking"
-                pt-br:description="Verificação automática de atualizações"/>
-
-        <change platform="Windows"
-                en-us:description="More recent GTK+ (2.24.25)"
-                pt-br:description="GTK+ mais recente (2.24.25)"/>
-
-        <change platform="Windows"
-                en-us:description="Intelligent buddy list toggling on tray icon click"
-                pt-br:description="Exibição inteligente da lista de amigos ao clicar no ícone da bandeja"
-                bug="1458"/>
-
-        <change platform="Windows"
-                en-us:description="Really offline installer"
-                pt-br:description="Instalador realmente offline"
-                bug="14970"/>
-
-        <change platform="Windows"
-                en-us:description="GTK+ included with the main installer"
-                pt-br:description="GTK+ incluído no instalador principal"/>
-
-        <change platform="Windows"
-                en-us:description="Additional plugins for IRC including bouncer support"
-                pt-br:description="Plugins adicionais para IRC incluindo suporte a bouncers"/>
-
-        <change platform="Windows"
-                en-us:description="Compiled with more recent GCC (4.9)"
-                pt-br:description="Compilado com GCC mais recente (4.9)"/>
-
-        <change platform="Windows"
-                en-us:description="Smaller installation size"
-                pt-br:description="Menor tamanho de instalação"/>
-
-        <change platform="Windows"
-                en-us:description="Better uninstallation"
-                pt-br:description="Melhor desinstalação"/>
-
         <change en-us:description="New status icons"
                 pt-br:description="Novo tema para ícones de status">
                 <screenshot>pixmaps/pidgin/status/48/invisible.png</screenshot>
@@ -90,6 +26,28 @@
         <change en-us:description="Refined buddy list appearance"
                 pt-br:description="Aparência aprimorada da lista de amigos"/>
 
+        <change en-us:description="New colors and formatting for conversations"
+                pt-br:description="Novas cores e formatação para as conversas"/>
+
+        <change en-us:description="Access to previously typed messages with just the arrow keys"
+                pt-br:description="Acesso a mensagens anteriormente digitadas com apenas as teclas de seta"/>
+
+        <change en-us:description="Improved conversation history viewer"
+                pt-br:description="Visualizador do histórico de conversas aprimorado"/>
+
+        <change en-us:description="Configurable quit and part messages for IRC"
+                pt-br:description="Mensagens configuráveis de desconexão e saída de canais IRC"/>
+
+        <change en-us:description="Highlighting of unknown IRC numerics as system messages"
+                pt-br:description="Formatação de numéricos IRC desconhecidos como mensagens de sistema"/>
+
+        <change en-us:description="Proper formatting for ZNC buffer playback timestamps"
+                pt-br:description="Formatação para hora das mensagens na reprodução de buffers do ZNC"/>
+
+        <change en-us:description="Proper formatting for IRC channel websites"
+                pt-br:description="Formatação para site do canal nas conversas IRC"
+                bug="15248"/>
+
         <change en-us:description="Wider non-ellipsized labels for side-aligned conversation tabs"
                 pt-br:description="Títulos maiores, sem reticências, nas abas de conversa laterais"
                 bug="15347"/>
@@ -99,13 +57,55 @@
                 bug="15348"/>
 
         <change platform="Windows"
+                en-us:description="Support for 64-bit"
+                pt-br:description="Suporte para 64 bits"/>
+
+        <change platform="Windows"
+                en-us:description="Automated update checking"
+                pt-br:description="Verificação automática de atualizações"/>
+
+        <change platform="Windows"
+                en-us:description="More recent GTK+ (2.24)"
+                pt-br:description="GTK+ mais recente (2.24)"/>
+
+        <change platform="Windows"
+                en-us:description="Refined GTK+ theme"
+                pt-br:description="Tema do GTK+ aprimorado"/>
+
+        <change platform="Windows"
                 en-us:description="Better Unicode support"
                 pt-br:description="Melhor suporte a Unicode"
                 bug="604"/>
 
         <change platform="Windows"
-                en-us:description="Refined GTK+ theme"
-                pt-br:description="Tema do GTK+ aprimorado"/>
+                en-us:description="Intelligent buddy list toggling on tray icon click"
+                pt-br:description="Exibição inteligente da lista de amigos ao clicar no ícone da bandeja"
+                bug="1458"/>
+
+        <change platform="Windows"
+                en-us:description="Additional plugins for IRC including bouncer support"
+                pt-br:description="Plugins adicionais para IRC incluindo suporte a bouncers"/>
+
+        <change platform="Windows"
+                en-us:description="GTK+ included with the main installer"
+                pt-br:description="GTK+ incluído no instalador principal"/>
+
+        <change platform="Windows"
+                en-us:description="Really offline installer"
+                pt-br:description="Instalador realmente offline"
+                bug="14970"/>
+
+        <change platform="Windows"
+                en-us:description="Smaller installation size"
+                pt-br:description="Menor tamanho de instalação"/>
+
+        <change platform="Windows"
+                en-us:description="Better uninstallation"
+                pt-br:description="Melhor desinstalação"/>
+
+        <change platform="Windows"
+                en-us:description="Compiled with more recent GCC (4.9)"
+                pt-br:description="Compilado com GCC mais recente (4.9)"/>
     </version>
 
 </changelog>
