@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: si\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-25 01:03-0200\n"
-"PO-Revision-Date: 2014-08-31 02:31+0000\n"
-"Last-Translator: Yajith <yajith@gmail.com>\n"
+"PO-Revision-Date: 2015-02-17 04:04+0000\n"
+"Last-Translator: M Rizmi <Unknown>\n"
 "Language-Team: Sinhala <sinhala@linux.lk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-01-27 06:53+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-02-19 05:41+0000\n"
+"X-Generator: Launchpad (build 17341)\n"
 "Language: Sinhalese\n"
 
 msgid "\t_Only when someone says your username"
@@ -49,6 +49,8 @@ msgid ""
 "\n"
 "<b>Description:</b> "
 msgstr ""
+"\n"
+"<b>විස්තරය:</b> "
 
 #, c-format
 msgid ""
@@ -74,7 +76,7 @@ msgid ""
 "Last Seen: %s ago"
 msgstr ""
 "\n"
-"අවසාන සිදුවීම: %s ට පෙර"
+"අවසන් වරට දුටුවේ: %s ට පෙර"
 
 msgid ""
 "\n"
@@ -83,11 +85,11 @@ msgstr ""
 
 #, c-format
 msgid " (%s)"
-msgstr ""
+msgstr " (%s)"
 
 #, c-format
 msgid " - %s"
-msgstr ""
+msgstr " - %s"
 
 msgid " <i>(identified)</i>"
 msgstr " <i>(identified)</i>"
@@ -177,6 +179,10 @@ msgid ""
 "Finch will not attempt to reconnect the account until you correct the error "
 "and re-enable the account."
 msgstr ""
+"%s\n"
+"\n"
+"ඔබ විසින් දෝෂය නිවෑරදි කර ගිණුම නෑවත සක්‍රීය කරන තුරු Finch විසින් ගිණුම "
+"නෑවත සම්බන්ධ කිරීමට උත්සහ නොකරනු ඈති."
 
 #, c-format
 msgid ""
@@ -192,7 +198,7 @@ msgstr ""
 
 #, c-format
 msgid "%s %s %s: %s\n"
-msgstr ""
+msgstr "%s %s %s: %s\n"
 
 #, c-format
 msgid ""
@@ -13357,7 +13363,7 @@ msgid "_Accept Defaults"
 msgstr ""
 
 msgid "_Account"
-msgstr "_ගිණුම"
+msgstr "ගිණුම (_A)"
 
 msgid "_Account:"
 msgstr "ගිණුම (_A):"

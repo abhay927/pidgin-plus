@@ -13,15 +13,15 @@ msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-25 01:03-0200\n"
-"PO-Revision-Date: 2015-01-15 15:02+0000\n"
+"PO-Revision-Date: 2015-02-17 21:40+0000\n"
 "Last-Translator: Tobias Bannert <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-01-27 06:39+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-02-19 05:40+0000\n"
+"X-Generator: Launchpad (build 17341)\n"
 "Language: German\n"
 
 msgid "\t_Only when someone says your username"
@@ -332,7 +332,7 @@ msgstr "%s Plugin-Informationen"
 
 #, c-format
 msgid "%s Tooltip"
-msgstr ""
+msgstr "%s-Schnellinfo"
 
 #, c-format
 msgid "%s Translator Information"
@@ -1698,7 +1698,7 @@ msgstr "Zeigt die Buddy-Liste als tickerähnliche Laufschrift."
 
 #. Installer Subsection Detailed Description
 msgid "A multi-platform GUI toolkit, used by Pidgin++"
-msgstr ""
+msgstr "Ein Multi-Plattform-GUI-Werkzeugkasten, von Pidgin verwendet"
 
 msgid ""
 "A music messaging session has been requested. Please click the MM icon to "
@@ -3957,7 +3957,7 @@ msgstr "Für jeden Benutzer ein neues Verzeichnis anlegen"
 
 #. Installer Subsection Detailed Description
 msgid "Create a shortcut to Pidgin++ on the Desktop"
-msgstr ""
+msgstr "Eine Verknüpfung zu Pidgin++ auf dem Schreibtisch erstellen"
 
 msgid "Create conference with user"
 msgstr "Konferenz mit dem Benutzer beginnen"
@@ -4103,12 +4103,12 @@ msgstr "Beschreibung"
 
 #. Installer Subsection Text
 msgid "Desktop"
-msgstr "Desktop"
+msgstr "Schreibtisch"
 
 #. Do not move the line below.  Code below expects gnome-open to be in
 #. * this list immediately after xdg-open!
 msgid "Desktop Default"
-msgstr "Desktop-Standard"
+msgstr "Vorgabe der Arbeitsumgebung"
 
 msgid "Detach From Server"
 msgstr "Vom Server trennen"
@@ -12319,8 +12319,9 @@ msgid ""
 "Unable to find Apple's \"Bonjour for Windows\" toolkit, see "
 "http://d.pidgin.im/BonjourWindows for more information."
 msgstr ""
-"Apples Toolkit „Bonjour für Windows“ konnte nicht gefunden werden. Besuchen "
-"Sie http://d.pidgin.im/BonjourWindows für weitere Informationen."
+"Apples Werkzeugkasten „Bonjour für Windows“ konnte nicht gefunden werden. "
+"Für weitere Informationen bitte https://developer.pidgin.im/BonjourWindows "
+"aufrufen."
 
 msgid "Unable to find Issuer Certificate"
 msgstr ""
@@ -13781,8 +13782,8 @@ msgid ""
 "You dragged a desktop launcher. Most likely you wanted to send the target of "
 "this launcher instead of this launcher itself."
 msgstr ""
-"Sie haben eine Verknüpfung gewählt. Wahrscheinlich wollten Sie das Ziel der "
-"Verknüpfung senden und nicht die Verknüpfung selbst."
+"Sie haben eine Schreibtischverknüpfung gezogen. Wahrscheinlich wollten Sie "
+"das Ziel der Verknüpfung senden und nicht die Verknüpfung selbst."
 
 msgid "You feel a disturbance in the force..."
 msgstr "Ihr Buddy beginnt zu tippen..."
