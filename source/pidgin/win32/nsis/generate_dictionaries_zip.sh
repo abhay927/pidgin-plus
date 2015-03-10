@@ -43,8 +43,6 @@ else
         lang_file="${line##*,}"
         lang_code="${line#*,*,}"
         lang_code="${lang_code%%,*}"
-        #lang_name="${line#*,*,*,}"
-        #lang_name="${lang_name%%,*}"
         output_file="$staging_dir/download/$lang_file"
         printf "${purple}%-20s${normal} " "${lang_code}:"
         try=1

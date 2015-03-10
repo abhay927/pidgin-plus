@@ -73,7 +73,6 @@ files=(bin/gspawn-win${bitness}-helper.exe
        lib/gtk-2.0/2.10.0/engines/libwimp.dll
        lib/gtk-2.0/modules/libgail.dll
        share/fontconfig
-       share/licenses/libpng
        share/mime
        share/themes
        share/xml/fontconfig)
