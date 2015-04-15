@@ -11,8 +11,8 @@ architecture=$(gcc -dumpmachine)
 architecture="${architecture%%-*}"
 zip_root_main="pidgin++_${display_version}"
 zip_file_main="${zip_root_main}_source_main.zip"
-zip_file_lib="${zip_root_main}_source_lib.zip"
-zip_file_gcc="${zip_root_main}_source_gcc.zip"
+zip_file_lib1="${zip_root_main}_source_lib1.zip"
+zip_file_lib2="${zip_root_main}_source_lib2.zip"
 working_dir="${pidgin_base}/pidgin/win32/source_bundle_stage"
 source "${pidgin_base}/pidgin/win32/libraries.sh"
 source "${pidgin_base}/colored.sh"
@@ -25,8 +25,8 @@ library_bundle() {
     rm -f MISSING.txt
 
     for package in "${packages[@]}"; do
-        [[ "$package"  = gcc* && "$type" = lib ]] && continue
-        [[ "$package" != gcc* && "$type" = gcc ]] && continue
+        [[   "$package" =~ gcc|libwinpthread && "$type" = lib1 ]] && continue
+        [[ ! "$package" =~ gcc|libwinpthread && "$type" = lib2 ]] && continue
         local name=$(package_name $package)
         local version=$(package_version $name)
         local source_name=$(package_source $package)
@@ -46,8 +46,8 @@ library_bundle() {
     echo
 }
 
-library_bundle lib "$zip_file_lib"
-library_bundle gcc "$zip_file_gcc"
+library_bundle lib1 "$zip_file_lib1"
+library_bundle lib2 "$zip_file_lib2"
 
 echo "Creating ${zip_file_main}"
 bzr export --uncommitted --directory "$bazaar_branch" --root "$zip_root_main" "${pidgin_base}/${zip_file_main}"

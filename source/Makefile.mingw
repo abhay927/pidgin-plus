@@ -269,8 +269,8 @@ source_code_zip:
 	@./colored.sh pace "Building the source code bundles"
 	@pidgin/win32/generate_source_bundles.sh "`pwd`" "$(DISPLAY_VERSION)" "$(BAZAAR_BRANCH)"
 	$(call gpg_sign,pidgin++_$(DISPLAY_VERSION)_source_main.zip)
-	$(call gpg_sign,pidgin++_$(DISPLAY_VERSION)_source_gtk.zip)
-	$(call gpg_sign,pidgin++_$(DISPLAY_VERSION)_source_other.zip,line)
+	$(call gpg_sign,pidgin++_$(DISPLAY_VERSION)_source_lib1.zip)
+	$(call gpg_sign,pidgin++_$(DISPLAY_VERSION)_source_lib2.zip,line)
 
 Doxyfile.mingw: Doxyfile.in
 	sed -e "s/@PACKAGE@/pidgin/" -e "s/@VERSION@/$(APPLICATION_VERSION)/" -e "s/@top_srcdir@/$(PIDGIN_TREE_TOP)/g" -e "s/@enable_dot@/NO/" $< > $@
