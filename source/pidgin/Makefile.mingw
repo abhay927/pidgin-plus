@@ -43,21 +43,9 @@ INCLUDE_PATHS +=	\
 			-I$(GTK_TOP)/lib/gtk-2.0/include \
 			-I$(GTKSPELL_TOP)/include/gtkspell-2.0
 
-ifndef DISABLE_UPDATE_CHECK
-	INCLUDE_PATHS += -I$(WINSPARKLE_TOP)/include
-endif
-
 LIB_PATHS +=		-L$(GTK_TOP)/lib \
 			-L$(PURPLE_TOP) \
 			-L$(PIDGIN_TOP)
-
-ifndef DISABLE_UPDATE_CHECK
-ifeq ($(BITNESS), 64)
-	LIB_PATHS += -L$(WINSPARKLE_TOP)/x64/Release
-else
-	LIB_PATHS += -L$(WINSPARKLE_TOP)/Release
-endif
-endif
 
 ##
 ##  SOURCES, OBJECTS

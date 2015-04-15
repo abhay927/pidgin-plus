@@ -41,21 +41,6 @@ library_bundle() {
             rm "$source_package"
         fi
     done
-
-    [[ "$type" = gcc ]] && unset tarballs
-    for tarball in "${tarballs[@]}"; do
-        local source_name=$(tarball_name "$tarball")
-        local source_format=$(tarball_source_format "$tarball")
-        local source_file=$(tarball_source_filename "$tarball")
-        local source_url=$(tarball_source_url "$tarball")
-        echo "Integrating ${source_file}"
-        [[ -s "$source_file" ]] && continue || rm -f ${source_name}*${source_format}
-        if ! wget "$source_url" --quiet --output-document "$source_file"; then
-            warn "failed downloading ${source_file}"
-            echo "${source_file}" >> MISSING.txt
-            rm "$source_file"
-        fi
-    done
     echo "Creating $zip_file"
     zip -9 -qr "${pidgin_base}/${zip_file}" .
     echo

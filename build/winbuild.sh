@@ -213,7 +213,7 @@ library_manifest "$documents/libraries/MANIFEST"
 echo "Integrating library licenses"
 licenses="$documents/libraries/licenses"
 rm -rf "$licenses"
-library_licenses "$devroot" "$licenses" || warn "error installing licenses to $licenses"
+library_licenses "$licenses" || warn "error installing licenses to ${licenses}"
 
 # Code signing
 cd "$staging"

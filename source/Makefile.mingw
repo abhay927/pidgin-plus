@@ -107,7 +107,10 @@ EXTERNAL_DLLS = \
 	ssl3.dll
 
 ifndef DISABLE_UPDATE_CHECK
-	EXTERNAL_DLLS += winsparkle.dll
+	EXTERNAL_DLLS += libwinsparkle.dll
+	EXTERNAL_DLLS += libjpeg-8.dll
+	EXTERNAL_DLLS += wxbase30u_gcc_custom.dll
+	EXTERNAL_DLLS += wxmsw30u_core_gcc_custom.dll
 endif
 
 ifeq ($(BITNESS), 64)
@@ -142,7 +145,7 @@ endif
 	mkdir -p $(PIDGIN_INSTALL_DIR)/spellcheck/lib/enchant
 	cp $(GTKSPELL_TOP)/bin/libgtkspell-0.dll $(PIDGIN_INSTALL_DIR)/spellcheck
 	cp $(ENCHANT_TOP)/bin/libenchant.dll $(PIDGIN_INSTALL_DIR)/spellcheck
-	cp $(ENCHANT_TOP)/bin/libstdc++-6.dll $(PIDGIN_INSTALL_DIR)/spellcheck
+	cp $(ENCHANT_TOP)/bin/libstdc++-6.dll $(PIDGIN_INSTALL_DIR)
 	cp $(ENCHANT_TOP)/bin/libhunspell-1.3-0.dll $(PIDGIN_INSTALL_DIR)/spellcheck
 	cp $(ENCHANT_TOP)/lib/enchant/libenchant_ispell.dll $(PIDGIN_INSTALL_DIR)/spellcheck/lib/enchant
 	cp $(ENCHANT_TOP)/lib/enchant/libenchant_myspell.dll $(PIDGIN_INSTALL_DIR)/spellcheck/lib/enchant
@@ -150,11 +153,10 @@ endif
 	cp $(DRMINGW_TOP)/exchndl.dll $(PIDGIN_INSTALL_DIR)
 	cp $(DRMINGW_TOP)/mgwhelp.dll $(PIDGIN_INSTALL_DIR)
 ifndef DISABLE_UPDATE_CHECK
-ifeq ($(BITNESS), 64)
-	cp $(WINSPARKLE_TOP)/x64/Release/WinSparkle.dll $(PIDGIN_INSTALL_DIR)/winsparkle.dll
-else
-	cp $(WINSPARKLE_TOP)/Release/WinSparkle.dll $(PIDGIN_INSTALL_DIR)/winsparkle.dll
-endif
+	cp $(WINSPARKLE_TOP)/libwinsparkle.dll $(PIDGIN_INSTALL_DIR)
+	cp $(WINSPARKLE_TOP)/libjpeg-8.dll $(PIDGIN_INSTALL_DIR)
+	cp $(WINSPARKLE_TOP)/wxbase30u_gcc_custom.dll $(PIDGIN_INSTALL_DIR)
+	cp $(WINSPARKLE_TOP)/wxmsw30u_core_gcc_custom.dll $(PIDGIN_INSTALL_DIR)
 endif
 	cp $(GCC_TOP)/libssp-0.dll $(PIDGIN_INSTALL_DIR)
 	cp $(GCC_TOP)/libwinpthread-1.dll $(PIDGIN_INSTALL_DIR)
