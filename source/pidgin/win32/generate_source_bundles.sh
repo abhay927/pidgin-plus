@@ -7,14 +7,12 @@
 bazaar_branch="$3"
 display_version="$2"
 pidgin_base=$(readlink -f "$1")
-architecture=$(gcc -dumpmachine)
-architecture="${architecture%%-*}"
 zip_root_main="pidgin++_${display_version}"
 zip_file_main="${zip_root_main}_source_main.zip"
 zip_file_lib1="${zip_root_main}_source_lib1.zip"
 zip_file_lib2="${zip_root_main}_source_lib2.zip"
 working_dir="${pidgin_base}/pidgin/win32/source_bundle_stage"
-source "${pidgin_base}/pidgin/win32/libraries.sh"
+source "${pidgin_base}/pidgin/win32/dependencies.sh"
 source "${pidgin_base}/colored.sh"
 
 library_bundle() {
@@ -25,16 +23,15 @@ library_bundle() {
     rm -f MISSING.txt
 
     for package in "${packages[@]}"; do
-        [[   "$package" =~ gcc|libwinpthread && "$type" = lib1 ]] && continue
-        [[ ! "$package" =~ gcc|libwinpthread && "$type" = lib2 ]] && continue
+        [[   "$package" =~ mingw-w64.*gcc|mingw-w64.*libwinpthread && "$type" = lib1 ]] && continue
+        [[ ! "$package" =~ mingw-w64.*gcc|mingw-w64.*libwinpthread && "$type" = lib2 ]] && continue
         local name=$(package_name $package)
         local version=$(package_version $name)
         local source_name=$(package_source $package)
-        local source_suffix="${source_name}-${version}.src.tar.gz"
-        local source_package="mingw-w64-${source_suffix}"
-        local source_url="https://sourceforge.net/projects/msys2/files/REPOS/MINGW/Sources/mingw-w64-i686-${source_suffix}/download"
+        local source_package="${source_name/x86_64/i686}-${version}.src.tar.gz"
+        local source_url="https://sourceforge.net/projects/msys2/files/REPOS/MINGW/Sources/${source_package}/download"
         echo "Integrating ${source_package}"
-        [[ -s "$source_package" ]] && continue || rm -f mingw-w64-${source_name}*src.tar.gz
+        [[ -s "$source_package" ]] && continue || rm -f ${source_name}*src.tar.gz
         if ! wget "$source_url" --quiet --output-document "$source_package"; then
             warn "failed downloading ${source_package}"
             echo "${source_package}" >> MISSING.txt

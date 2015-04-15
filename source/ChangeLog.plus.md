@@ -43,7 +43,7 @@ Differences between the first release and Pidgin 2.10.11.
 * Improvements to the build process:
     - New Windows build script with flexible options.
     - Generation of full source code bundles ([#16502][7]).
-    - Creation of the build environment (with Pidgin Windev).
+    - Preparation of the build environment.
     - Migration from MinGW to MSYS2.
     - Other general improvements.
 * Code signed with Microsoft Authenticode:

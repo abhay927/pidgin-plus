@@ -55,32 +55,31 @@
 # Parse options
 source easyoptions || exit
 devroot="${arguments[0]}"
-if [[ -z "$prepare" && ! -d "$devroot" ]]; then
-    echo "No valid development root specified, see --help."
+if [[ -z "$devroot" ]]; then
+    echo 'No development root specified, see --help.'
     exit 1
 fi
 
 # Other variables
-[[ -n "$prepare" ]] && mkdir -p "$devroot"
 machine=$(gcc -dumpmachine)
 case "$machine" in
     i686-w64-mingw*)   architecture="x86"; bitness="32" ;;
     x86_64-w64-mingw*) architecture="x64"; bitness="64" ;;
     *)                 architecture="$machine"
 esac
-devroot=$(readlink -e $devroot)
+devroot=$(readlink -f "$devroot")
 base_dir=$(readlink -e "$(dirname "$0")/..")
 source_dir="$base_dir/source"
 build_dir="$base_dir/build"
 sign="${sign:-$cert}"
 sign="${sign:+yes}"
 version=$($build_dir/changelog.sh --version)
-windev="$devroot/win32-dev/pidgin-windev.sh"
 staging="$devroot/build/${staging:-pidgin.${bitness:-$machine}}"
 target_top="${directory:-$devroot/distribution/$version}"
 target="$target_top/$architecture"
 target_source="$target_top/source"
 documents="$staging/documents"
+nsis="nsis-2.46"
 
 # Colored output
 if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
@@ -150,24 +149,15 @@ if [[ -n "$sign" || -n "$cert" ]]; then
 fi
 
 # Build environment
-if [[ ! -e "$windev" ]]; then
-    step "Downloading Pidgin Windev"
-    echo "Downloading latest revision from Launchpad"
-    windev_tarball="$devroot/downloads/pidgin-windev.tar.gz"
-    mkdir -p "$devroot/downloads"
-    if ! wget --quiet --output-document "$windev_tarball" "http://bazaar.launchpad.net/~renatosilva/pidgin-windev/trunk/tarball/head:"; then
-        oops "failed downloading to $windev_tarball"
-        exit 1
-    fi
-    if ! bsdtar -xzf "$windev_tarball" --strip-components 3 --directory "$devroot/win32-dev" "~renatosilva/pidgin-windev/trunk/pidgin-windev.sh"; then
-        oops "failed extracting $windev_tarball"
-        exit 1
-    fi
-    echo "Extracted to $windev"
-    echo
-fi
+source "${source_dir}/pidgin/win32/dependencies.sh"
 if [[ -n "$prepare" ]]; then
-    "$windev" --no-source "$devroot"
+    mkdir -p "${devroot}/downloads" || exit
+    mkdir -p "${devroot}/win32-dev" || exit
+    pacman --color auto --noconfirm --needed --sync "${build_dependencies[@]}" "${runtime_dependencies[@]}" && echo || exit
+    echo 'Downloading NSIS';    wget  -qO  "${devroot}/downloads/${nsis}.zip" "http://sourceforge.net/projects/nsis/files/NSIS%202/2.46/${nsis}.zip/download"
+    echo 'Downloading Nsisunz'; wget  -qO  "${devroot}/downloads/Nsisunz.zip" "http://nsis.sourceforge.net/mediawiki/images/1/1c/Nsisunz.zip"
+    echo 'Extracting NSIS';     unzip -qo  "${devroot}/downloads/${nsis}.zip"                             -d "${devroot}/win32-dev"
+    echo 'Extracting Nsisunz';  unzip -qoj "${devroot}/downloads/Nsisunz.zip" nsisunz/Release/nsisunz.dll -d "${devroot}/win32-dev/${nsis}/Plugins"
     exit
 fi
 
@@ -206,7 +196,6 @@ mkdir -p "$documents/libraries"
 
 # Library information
 echo "Creating library manifest"
-source "$source_dir/pidgin/win32/libraries.sh"
 library_manifest "$documents/libraries/MANIFEST"
 
 # Library licenses
@@ -230,7 +219,7 @@ fi
 
 # System path
 echo "Configuring system path"
-eval $("$windev" "$devroot" --path) || exit
+export PATH="${devroot}/win32-dev/${nsis}:${PATH}"
 
 # Arbitrary target
 if [[ -n "$make" ]]; then
