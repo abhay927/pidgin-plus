@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-25 01:03-0200\n"
+"POT-Creation-Date: 2015-04-15 13:55-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2324,6 +2324,9 @@ msgid "Autoaccepted file transfer of \"%s\" from \"%s\" completed."
 msgstr ""
 
 msgid "Automatic"
+msgstr ""
+
+msgid "Automatically check for _new versions"
 msgstr ""
 
 msgid "Automatically open whiteboard"
