@@ -109,6 +109,8 @@ EXTERNAL_DLLS = \
 ifndef DISABLE_UPDATE_CHECK
 	EXTERNAL_DLLS += libwinsparkle.dll
 	EXTERNAL_DLLS += libjpeg-8.dll
+	EXTERNAL_DLLS += libtiff-5.dll
+	EXTERNAL_DLLS += liblzma-5.dll
 	EXTERNAL_DLLS += wxbase30u_gcc_custom.dll
 	EXTERNAL_DLLS += wxmsw30u_core_gcc_custom.dll
 endif
@@ -155,6 +157,8 @@ endif
 ifndef DISABLE_UPDATE_CHECK
 	cp $(WINSPARKLE_TOP)/libwinsparkle.dll $(PIDGIN_INSTALL_DIR)
 	cp $(WINSPARKLE_TOP)/libjpeg-8.dll $(PIDGIN_INSTALL_DIR)
+	cp $(WINSPARKLE_TOP)/libtiff-5.dll $(PIDGIN_INSTALL_DIR)
+	cp $(WINSPARKLE_TOP)/liblzma-5.dll $(PIDGIN_INSTALL_DIR)
 	cp $(WINSPARKLE_TOP)/wxbase30u_gcc_custom.dll $(PIDGIN_INSTALL_DIR)
 	cp $(WINSPARKLE_TOP)/wxmsw30u_core_gcc_custom.dll $(PIDGIN_INSTALL_DIR)
 endif

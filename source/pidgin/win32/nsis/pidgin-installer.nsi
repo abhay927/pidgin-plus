@@ -538,6 +538,8 @@ Section Uninstall
     Delete "$INSTDIR\ssl3.dll"
     Delete "$INSTDIR\libwinsparkle.dll"
     Delete "$INSTDIR\libjpeg-8.dll"
+    Delete "$INSTDIR\libtiff-5.dll"
+    Delete "$INSTDIR\liblzma-5.dll"
     Delete "$INSTDIR\libstdc++-6.dll"
     Delete "$INSTDIR\wxbase30u_gcc_custom.dll"
     Delete "$INSTDIR\wxmsw30u_core_gcc_custom.dll"

@@ -49,9 +49,11 @@ indirect_dependencies=(# Required only by GTK+
                        ${mingw_package_prefix}-hunspell
                        ${mingw_package_prefix}-libjpeg-turbo
                        ${mingw_package_prefix}-libsystre
+                       ${mingw_package_prefix}-libtiff
                        ${mingw_package_prefix}-libtre-git
                        ${mingw_package_prefix}-sqlite3
                        ${mingw_package_prefix}-wxWidgets
+                       ${mingw_package_prefix}-xz
 
                        # Required by both GTK+ and main source code
                        ${mingw_package_prefix}-atk
