@@ -94,7 +94,7 @@ source "$source_dir/colored.sh"
 # Build functions and output encoding
 domake() {
     ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
-        SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
+        BAZAAR_BRANCH="$base_dir" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
         ${no_update:+DISABLE_UPDATE_CHECK=yes} "${@:2}"
     return $?
 }
@@ -245,7 +245,7 @@ if [[ -n "$source" ]]; then
         oops "creation failed, this is not a Bazaar branch"
         exit 1
     fi
-    build source_code_zip BAZAAR_BRANCH="$base_dir"
+    build source_code_zip
     mkdir -p "$target_source"
     for asc in "" ${sign:+.asc}; do
         mv -v pidgin++_*_source_main.zip$asc "${target_source}/Pidgin++ ${version} Source.zip$asc"
