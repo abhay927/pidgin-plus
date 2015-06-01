@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: si\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-15 13:55-0300\n"
+"POT-Creation-Date: 2015-05-31 23:35-0300\n"
 "PO-Revision-Date: 2015-02-17 04:04+0000\n"
 "Last-Translator: M Rizmi <Unknown>\n"
 "Language-Team: Sinhala <sinhala@linux.lk>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-04-16 05:47+0000\n"
-"X-Generator: Launchpad (build 17428)\n"
+"X-Launchpad-Export-Date: 2015-06-01 05:50+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 "Language: Sinhalese\n"
 
 msgid "\t_Only when someone says your username"
@@ -859,9 +859,6 @@ msgstr ""
 msgid ""
 "- Transparent authentication with a variety of services.\n"
 "- Suppression of various useless messages.\n"
-"\n"
-"This is a patched version by Renato Silva, adding the following:\n"
-"- Doubled identify and ghost killing timeouts.\n"
 "- Bouncer support through account preference."
 msgstr ""
 
@@ -5240,6 +5237,8 @@ msgstr ""
 msgid "Half Operator"
 msgstr ""
 
+#. *< name
+#. *< version
 msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
@@ -5523,6 +5522,12 @@ msgstr ""
 msgid "IRC Away Nick"
 msgstr ""
 
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
 msgid "IRC Helper"
 msgstr ""
 
