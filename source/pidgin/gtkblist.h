@@ -229,7 +229,7 @@ gboolean pidgin_blist_node_is_contact_expanded(PurpleBlistNode *node);
 /**
  * Returns whether the buddy list is fully visible to the user or not.
  */
-gboolean is_blist_fully_visible();
+gboolean is_blist_fully_visible(void);
 #endif
 
 /**

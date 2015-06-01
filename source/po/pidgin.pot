@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-15 13:55-0300\n"
+"POT-Creation-Date: 2015-06-01 12:55-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -843,9 +843,6 @@ msgstr ""
 msgid ""
 "- Transparent authentication with a variety of services.\n"
 "- Suppression of various useless messages.\n"
-"\n"
-"This is a patched version by Renato Silva, adding the following:\n"
-"- Doubled identify and ghost killing timeouts.\n"
 "- Bouncer support through account preference."
 msgstr ""
 
@@ -5219,6 +5216,8 @@ msgstr ""
 msgid "Half Operator"
 msgstr ""
 
+#. *< name
+#. *< version
 msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
@@ -5502,6 +5501,12 @@ msgstr ""
 msgid "IRC Away Nick"
 msgstr ""
 
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
 msgid "IRC Helper"
 msgstr ""
 

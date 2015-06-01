@@ -1,7 +1,7 @@
 /*
  * IRC Away Plugin
  *
- * Copyright 2012, 2014 Renato Silva
+ * Copyright 2012, 2014, 2015 Renato Silva
  * Licensed under GNU GPLv2 or later
  *
  */
@@ -43,10 +43,10 @@ static PurplePluginInfo info = {
 	NULL,
 	PURPLE_PRIORITY_DEFAULT,
 	ID,
-	NULL,
-	"2015.2.12",
-	NULL,
-	NULL,
+	N_("IRC Away"),
+	DISPLAY_VERSION,
+	N_("IRC Away Nick"),
+	N_("Changes your nick to indicate you are away."),
 	"Renato Silva",
 	"http://launchpad.net/pidgin-ircaway",
 	plugin_load,
@@ -190,9 +190,6 @@ static gboolean plugin_unload(PurplePlugin *plugin) {
 
 static void init_plugin(PurplePlugin *plugin) {
 	info.dependencies = g_list_append(info.dependencies, IRC_ID);
-	info.name = _("IRC Away");
-	info.summary = _("IRC Away Nick");
-	info.description = _("Changes your nick to indicate you are away.");
 }
 
 PURPLE_INIT_PLUGIN(NAME, init_plugin, info)

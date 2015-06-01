@@ -7328,7 +7328,7 @@ pidgin_blist_request_add_group(void)
 
 #ifdef _WIN32
 gboolean
-is_blist_fully_visible()
+is_blist_fully_visible(void)
 {
 	HWND blist_window;
 	HWND current_window;

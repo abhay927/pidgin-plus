@@ -1,7 +1,7 @@
 /*
  * IRC Helper Plugin for libpurple
  *
- * Copyright (C) 2014, Renato Silva <br.renatosilva@gmail.com>
+ * Copyright (C) 2014, 2015 Renato Silva <br.renatosilva@gmail.com>
  * Copyright (C) 2005-2009, Richard Laager <rlaager@pidgin.im>
  * Copyright (C) 2004-2005, Mathias Hasselmann <mathias@taschenorakel.de>
  * Copyright (C) 2005, Daniel Beardsmore <uilleann@users.sf.net>
@@ -44,9 +44,12 @@
 
 #define PLUGIN_STATIC_NAME "irchelper"
 #define PLUGIN_ID "core-rlaager-" PLUGIN_STATIC_NAME
-#define PLUGIN_WEBSITE "https://code.launchpad.net/~renatosilva/purple-plugin-pack/irchelper"
+#define PLUGIN_WEBSITE APPLICATION_WEBSITE
 #define PLUGIN_AUTHOR "Richard Laager <rlaager@guifications.org>\n" \
                       "Renato Silva <br.renatosilva@gmail.com>"
+#define PLUGIN_DESCRIPTION N_("- Transparent authentication with a variety of services.\n" \
+                              "- Suppression of various useless messages.\n" \
+                              "- Bouncer support through account preference.")
 
 
 /*****************************************************************************
@@ -201,10 +204,11 @@ static PurplePluginInfo info =
 	NULL,                            /**< dependencies   */
 	PURPLE_PRIORITY_DEFAULT,         /**< priority       */
 	PLUGIN_ID,                       /**< id             */
-	NULL,                            /**< name           */
-	"2.7.0-RS20140903",              /**< version        */
-	NULL,                            /**< summary        */
-	NULL,                            /**< description    */
+	N_("IRC Helper"),                /**< name           */
+	DISPLAY_VERSION,                 /**< version        */
+	N_("Handles the rough edges "    /**< summary        */
+	   "of the IRC protocol."),
+	PLUGIN_DESCRIPTION,              /**< description    */
 	PLUGIN_AUTHOR,	                 /**< author         */
 	PLUGIN_WEBSITE,                  /**< homepage       */
 	plugin_load,                     /**< load           */
@@ -868,7 +872,7 @@ get_auto_response(PurpleConnection *gc, const char *name)
 	while (tmp) {
 		ar = (struct auto_response *)tmp->data;
 
-		if (gc == ar->gc && !strncmp(name, ar->name, sizeof(ar->name)))
+		if (gc == ar->gc && !strncmp(name, ar->name, strlen(ar->name)))
 			return ar;
 
 		tmp = tmp->next;
@@ -1411,13 +1415,6 @@ static gboolean plugin_unload(PurplePlugin *plugin)
 static void plugin_init(PurplePlugin *plugin)
 {
 	info.dependencies = g_list_append(info.dependencies, IRC_PLUGIN_ID);
-	info.name = _("IRC Helper");
-	info.summary = _("Handles the rough edges of the IRC protocol.");
-	info.description = _("- Transparent authentication with a variety of "
-			"services.\n- Suppression of various useless messages.\n\n"
-			"This is a patched version by Renato Silva, adding the following:\n"
-			"- Doubled identify and ghost killing timeouts.\n"
-			"- Bouncer support through account preference.");
 }
 
 PURPLE_INIT_PLUGIN(PLUGIN_STATIC_NAME, plugin_init, info)
