@@ -214,7 +214,7 @@ generate_installer_includes: create_release_install_dir gtk_runtime debug_symbol
 		$(PIDGIN_TREE_TOP)/pidgin/win32/nsis/langmacros.nsh \
 		$(PIDGIN_TREE_TOP)/pidgin/win32/nsis/translations
 
-create_release_install_dir: install
+create_release_install_dir: install debug_symbols
 	@./colored.sh info "Creating the installation directory"
 	rm -rf $(STRIPPED_RELEASE_DIR)
 	mkdir $(STRIPPED_RELEASE_DIR)
@@ -222,7 +222,8 @@ create_release_install_dir: install
 	 | tar --strip 2 -xC $(STRIPPED_RELEASE_DIR) -f -
 	find $(STRIPPED_RELEASE_DIR) \( -name '*.dll' -o -name '*.exe' \) \
 	 -not \( -false $(EXTERNAL_DLLS_FIND_EXP) \) \
-	 -exec $(STRIP) --strip-unneeded {} ';'
+	 -exec $(OBJCOPY) --strip-unneeded --add-gnu-debuglink='{}.debug' '{}' \;
+	find $(STRIPPED_RELEASE_DIR) -type f -name '*.debug' -delete
 	$(call authenticode_sign,$(STRIPPED_RELEASE_DIR)/pidgin.exe,"Pidgin++ $(DISPLAY_VERSION)")
 
 installer: generate_installer_includes
@@ -262,10 +263,11 @@ installer_zip: create_release_install_dir
 debug_symbols: install
 	@./colored.sh info "Building debug symbols"
 	rm -rf $(DEBUG_SYMBOLS_DIR)
-	mkdir $(DEBUG_SYMBOLS_DIR)
-	tar -cf - `find $(PIDGIN_INSTALL_DIR) \( -name '*.dll' -o -name '*.exe' \) \
-	 -not \( -false $(EXTERNAL_DLLS_FIND_EXP) \) -print` \
-	 | tar --strip 2 --xform s/$$/.dbgsym/ -xC $(DEBUG_SYMBOLS_DIR) -f -
+	find $(PIDGIN_INSTALL_DIR) \( -name '*.dll' -o -name '*.exe' \) -not \( -false $(EXTERNAL_DLLS_FIND_EXP) \) \
+		-exec $(OBJCOPY) --only-keep-debug '{}' '{}.debug' \;
+	cp -r $(PIDGIN_INSTALL_DIR) $(DEBUG_SYMBOLS_DIR)
+	find $(DEBUG_SYMBOLS_DIR) -type f -not -name '*.debug' -delete
+	find $(DEBUG_SYMBOLS_DIR) -type d -empty -delete
 
 installers: installer installer_offline debug_symbols installer_zip
 

@@ -444,7 +444,7 @@ SectionGroupEnd
 !ifdef OFFLINE_INSTALLER
 Section /o $(DEBUGSYMBOLSSECTIONTITLE) SecDebugSymbols
   SetOutPath $INSTDIR
-  File /r "..\..\..\${DEBUG_SYMBOLS_DIR}"
+  File /r "..\..\..\${DEBUG_SYMBOLS_DIR}\*.*"
 SectionEnd
 !endif
 
@@ -547,9 +547,7 @@ Section Uninstall
     Delete "$INSTDIR\exchndl.dll"
     Delete "$INSTDIR\mgwhelp.dll"
     Delete "$INSTDIR\install.log"
-
-    ; Remove the debug symbols
-    RMDir /r "$INSTDIR\pidgin-${DISPLAY_VERSION}-dbgsym"
+    Delete "$INSTDIR\*.debug"
 
     ; Remove the local GTK+ copy (if we're not just upgrading)
     ${GetParameters} $R0

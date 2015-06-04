@@ -708,36 +708,6 @@ WinMain (struct HINSTANCE__ *hInstance, struct HINSTANCE__ *hPrevInstance,
 						MySetLogFile(debug_dir);
 					}
 				}
-				/* The function signature for SetDebugInfoDir is the same as SetLogFile,
-				 * so we can reuse the variable */
-				MySetLogFile = (LPFNSETLOGFILE) GetProcAddress(hmod, "SetDebugInfoDir");
-				if (MySetLogFile) {
-					char *pidgin_dir_ansi = NULL;
-					/* Restore pidgin_dir to point to where the executable is */
-					pidgin_dir_start[0] = L'\0';
-					i = WideCharToMultiByte(CP_ACP, 0, pidgin_dir,
-						-1, NULL, 0, NULL, NULL);
-					if (i != 0) {
-						pidgin_dir_ansi = malloc(i);
-						i = WideCharToMultiByte(CP_ACP, 0, pidgin_dir,
-							-1, pidgin_dir_ansi, i, NULL, NULL);
-						if (i == 0) {
-							free(pidgin_dir_ansi);
-							pidgin_dir_ansi = NULL;
-						}
-					}
-					if (pidgin_dir_ansi != NULL) {
-						_snprintf(debug_dir, sizeof(debug_dir),
-							"%s\\pidgin-%s-dbgsym",
-							pidgin_dir_ansi,  VERSION);
-						debug_dir[sizeof(debug_dir) - 1] = '\0';
-						printf(" Setting exchndl.dll DebugInfoDir to %s\n",
-							debug_dir);
-						MySetLogFile(debug_dir);
-						free(pidgin_dir_ansi);
-					}
-				}
-
 			}
 
 			/* Restore pidgin_dir to point to where the executable is */
