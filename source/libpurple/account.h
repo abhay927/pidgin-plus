@@ -1062,6 +1062,15 @@ const PurpleConnectionErrorInfo *purple_account_get_current_error(PurpleAccount 
  */
 void purple_account_clear_current_error(PurpleAccount *account);
 
+/**
+ * Whether the account is temporary or not.
+ *
+ * @param account The account.
+ *
+ * @return @c TRUE if the account is temporary, or @c FALSE otherwise.
+ */
+gboolean purple_account_is_temporary(PurpleAccount *account);
+
 /*@}*/
 
 /**************************************************************************/
@@ -1070,11 +1079,21 @@ void purple_account_clear_current_error(PurpleAccount *account);
 /*@{*/
 
 /**
- * Adds an account to the list of accounts.
+ * Adds an account to the list of permanent accounts, removing it from the list
+ * of temporary accounts if necessary.
  *
  * @param account The account.
+ *
+ * @ see purple_accounts_add_temporary()
  */
 void purple_accounts_add(PurpleAccount *account);
+
+/**
+ * Adds an account to the list of temporary accounts.
+ *
+ * @param account The temporary account.
+ */
+void purple_accounts_add_temporary(PurpleAccount *account);
 
 /**
  * Removes an account from the list of accounts.
@@ -1082,6 +1101,13 @@ void purple_accounts_add(PurpleAccount *account);
  * @param account The account.
  */
 void purple_accounts_remove(PurpleAccount *account);
+
+/**
+ * Removes an account from the list of temporary accounts.
+ *
+ * @param account The account.
+ */
+void purple_accounts_remove_temporary(PurpleAccount *account);
 
 /**
  * Deletes an account.
@@ -1093,6 +1119,17 @@ void purple_accounts_remove(PurpleAccount *account);
  * @param account The account.
  */
 void purple_accounts_delete(PurpleAccount *account);
+
+/**
+ * Deletes a temporary account.
+ *
+ * This will remove any buddies from the buddy list that belong to this
+ * account, buddy pounces that belong to this account, and will also
+ * destroy @a account.
+ *
+ * @param account The account.
+ */
+void purple_accounts_delete_temporary(PurpleAccount *account);
 
 /**
  * Reorders an account.
@@ -1108,6 +1145,20 @@ void purple_accounts_reorder(PurpleAccount *account, gint new_index);
  * @constreturn A list of all accounts.
  */
 GList *purple_accounts_get_all(void);
+
+/**
+ * Returns a list of all temporary accounts.
+ *
+ * @constreturn A list of all temporary accounts.
+ */
+GList *purple_accounts_get_all_temporary(void);
+
+/**
+ * Returns a list of all accounts, both permanent and temporary.
+ *
+ * @constreturn A list of all accounts.
+ */
+GList *purple_accounts_get_all_including_temporary(void);
 
 /**
  * Returns a list of all enabled accounts

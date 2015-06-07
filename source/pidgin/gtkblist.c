@@ -8031,6 +8031,32 @@ disable_account_cb(GtkCheckMenuItem *widget, gpointer data)
 	purple_account_set_enabled(account, PIDGIN_UI, FALSE);
 }
 
+static void
+save_temporary_account_cb(GtkWidget *widget, PurpleAccount *account)
+{
+	purple_accounts_add(account);
+	account_modified(account, gtkblist);
+}
+
+static void
+do_delete_temporary_account_cb(PurpleAccount *account)
+{
+	purple_accounts_delete_temporary(account);
+	account_modified(NULL, gtkblist);
+}
+
+static void
+delete_temporary_account_cb(GtkWidget *widget, PurpleAccount *account)
+{
+	char *confirm = g_strdup_printf(_("Are you sure you want to delete %s?"), purple_account_get_username(account));
+	purple_request_close_with_handle(account);
+	purple_request_action(account, NULL, confirm, NULL, PURPLE_DEFAULT_ACTION_NONE,
+	                      account, NULL, NULL, account, 2,
+	                      _("Delete"), do_delete_temporary_account_cb,
+	                      _("Cancel"), NULL);
+	g_free(confirm);
+}
+
 
 
 void
@@ -8053,7 +8079,7 @@ pidgin_blist_update_accounts_menu(void)
 			gtk_widget_destroy(menuitem);
 	}
 
-	for (accounts = purple_accounts_get_all(); accounts; accounts = accounts->next) {
+	for (accounts = purple_accounts_get_all_including_temporary(); accounts; accounts = accounts->next) {
 		char *buf = NULL;
 		GtkWidget *image = NULL;
 		PurpleAccount *account = NULL;
@@ -8104,7 +8130,7 @@ pidgin_blist_update_accounts_menu(void)
 	pidgin_separator(accountmenu);
 	accel_group = gtk_menu_get_accel_group(GTK_MENU(accountmenu));
 
-	for (accounts = purple_accounts_get_all(); accounts; accounts = accounts->next) {
+	for (accounts = purple_accounts_get_all_including_temporary(); accounts; accounts = accounts->next) {
 		char *buf = NULL;
 		char *accel_path_buf = NULL;
 		GtkWidget *image = NULL;
@@ -8143,9 +8169,13 @@ pidgin_blist_update_accounts_menu(void)
 		gtk_menu_item_set_submenu(GTK_MENU_ITEM(menuitem), submenu);
 
 
-		menuitem = gtk_menu_item_new_with_mnemonic(_("_Edit Account"));
-		g_signal_connect(G_OBJECT(menuitem), "activate",
-				G_CALLBACK(modify_account_cb), account);
+		if (purple_account_is_temporary(account)) {
+			menuitem = gtk_menu_item_new_with_mnemonic(_("_Save"));
+			g_signal_connect(G_OBJECT(menuitem), "activate", G_CALLBACK(save_temporary_account_cb), account);
+		} else {
+			menuitem = gtk_menu_item_new_with_mnemonic(_("_Edit Account"));
+			g_signal_connect(G_OBJECT(menuitem), "activate", G_CALLBACK(modify_account_cb), account);
+		}
 		gtk_menu_shell_append(GTK_MENU_SHELL(submenu), menuitem);
 
 		pidgin_separator(submenu);
@@ -8178,9 +8208,13 @@ pidgin_blist_update_accounts_menu(void)
 
 		pidgin_separator(submenu);
 
-		menuitem = gtk_menu_item_new_with_mnemonic(_("_Disable"));
-		g_signal_connect(G_OBJECT(menuitem), "activate",
-				G_CALLBACK(disable_account_cb), account);
+		if (purple_account_is_temporary(account)) {
+			menuitem = gtk_menu_item_new_with_mnemonic(_("_Remove"));
+			g_signal_connect(G_OBJECT(menuitem), "activate", G_CALLBACK(delete_temporary_account_cb), account);
+		} else {
+			menuitem = gtk_menu_item_new_with_mnemonic(_("_Disable"));
+			g_signal_connect(G_OBJECT(menuitem), "activate", G_CALLBACK(disable_account_cb), account);
+		}
 		gtk_menu_shell_append(GTK_MENU_SHELL(submenu), menuitem);
 	}
 	gtk_widget_show_all(accountmenu);

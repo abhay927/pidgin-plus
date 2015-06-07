@@ -36,7 +36,7 @@
 
 #define IRC_DEFAULT_SERVER "irc.freenode.net"
 #define IRC_DEFAULT_PORT 6667
-#define IRC_DEFAULT_SSL_PORT 994
+#define IRC_DEFAULT_SSL_PORT 6697
 
 #define IRC_DEFAULT_CHARSET "UTF-8"
 #define IRC_DEFAULT_AUTODETECT FALSE
@@ -114,6 +114,19 @@ struct irc_buddy {
 	gboolean flag;
  	gboolean new_online_status;
 	int ref;
+};
+
+enum irc_uri_target { CHANNEL, USER };
+
+struct irc_uri {
+    gchar *host;
+    gint port;
+    gboolean secure;
+    const gchar *target;
+    enum irc_uri_target target_type;
+	gchar *message;
+	gchar *password;
+	PurpleAccount *account;
 };
 
 typedef int (*IRCCmdCallback) (struct irc_conn *irc, const char *cmd, const char *target, const char **args);

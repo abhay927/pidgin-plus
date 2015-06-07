@@ -1269,6 +1269,7 @@ ok_account_prefs_cb(GtkWidget *w, AccountPrefsDialog *dialog)
 	char *username;
 	char *tmp;
 	gboolean new_acct = FALSE, icon_change = FALSE;
+	gboolean temporary_account = FALSE;
 	PurpleAccount *account;
 
 	/* Build the username string. */
@@ -1323,6 +1324,7 @@ ok_account_prefs_cb(GtkWidget *w, AccountPrefsDialog *dialog)
 	else
 	{
 		account = dialog->account;
+		temporary_account = purple_account_is_temporary(account);
 
 		/* Protocol */
 		purple_account_set_protocol_id(account, dialog->protocol_id);
@@ -1506,15 +1508,18 @@ ok_account_prefs_cb(GtkWidget *w, AccountPrefsDialog *dialog)
 	}
 
 	/* If this is a new account, add it to our list */
-	if (new_acct)
+	if (new_acct) {
 		purple_accounts_add(account);
-	else
+	} else {
+		if (temporary_account)
+			purple_accounts_add(account);
 		purple_signal_emit(pidgin_account_get_handle(), "account-modified", account);
+	}
 
 	/* If this is a new account, then sign on! */
 	if (gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(dialog->register_button))) {
 		purple_account_register(account);
-	} else if (new_acct) {
+	} else if (new_acct || temporary_account) {
 		const PurpleSavedStatus *saved_status;
 
 		saved_status = purple_savedstatus_get_current();

@@ -28,6 +28,8 @@
 #include "accountopt.h"
 #include "blist.h"
 #include "conversation.h"
+#include "savedstatuses.h"
+#include "core.h"
 #include "debug.h"
 #include "notify.h"
 #include "prpl.h"
@@ -61,6 +63,201 @@ static gboolean irc_nick_equal(const char *nick1, const char *nick2);
 static void irc_buddy_free(struct irc_buddy *ib);
 
 PurplePlugin *_irc_plugin = NULL;
+static PurplePluginProtocolInfo prpl_info;
+static PurplePluginInfo info;
+
+static void
+uri_conversation_created(PurpleConversation *conversation, struct irc_uri *uri)
+{
+	if (purple_conversation_get_account(conversation) != uri->account)
+		return;
+	purple_conversation_present(conversation);
+	if (uri->message && *(uri->message))
+		purple_conv_send_confirm(conversation, purple_url_decode(uri->message));
+	purple_signal_disconnect(purple_conversations_get_handle(), "conversation-created", uri, PURPLE_CALLBACK(uri_conversation_created));
+	g_free(uri->password);
+	g_free(uri->message);
+	g_free(uri->host);
+	g_free(uri);
+}
+
+static void
+uri_conversation_deleting(PurpleConversation *conversation, PurpleAccount *account) {
+	GList *iterator = NULL;
+	if (purple_conversation_get_account(conversation) != account)
+		return;
+	for (iterator = purple_get_conversations(); iterator; iterator = iterator->next)
+		if (purple_conversation_get_account(iterator->data) == account)
+			return;
+	purple_signal_disconnect(purple_conversations_get_handle(), "deleting-conversation", account, PURPLE_CALLBACK(uri_conversation_deleting));
+	if (purple_account_is_temporary(account)) {
+		purple_debug_info("irc", "deleting temporary account %s\n", purple_account_get_username(account));
+		purple_accounts_delete_temporary(account);
+	}
+}
+
+static PurpleAccount*
+find_account_for_uri(const struct irc_uri *uri)
+{
+	PurpleAccount *result = NULL;
+	gchar *account_suffix = g_strconcat("@", uri->host, NULL);
+	GList *accounts = purple_accounts_get_all_including_temporary();
+
+	while (accounts) {
+		const gchar *bounced_domain = purple_account_get_string(accounts->data, "bounced_domain", "");
+		gchar *bounced_suffix = g_strconcat("@", bounced_domain, NULL);
+		gboolean has_uri_port = (!(uri->port) || purple_account_get_int(accounts->data, "port", 0) == uri->port);
+		gboolean has_uri_host = g_str_has_suffix(purple_account_get_username(accounts->data), account_suffix);
+		gboolean is_bouncer_to_uri_host = g_str_equal(bounced_suffix, account_suffix);
+		gboolean is_irc_account = g_str_equal(purple_plugin_get_id(_irc_plugin), purple_account_get_protocol_id(accounts->data));
+		gboolean is_secure_account = purple_account_get_bool(accounts->data, "ssl", FALSE);
+		gboolean is_connected = purple_account_is_connected(accounts->data);
+		g_free(bounced_suffix);
+
+		if (is_irc_account && is_connected && has_uri_port &&
+			(has_uri_host || is_bouncer_to_uri_host) &&
+			(is_secure_account || !(uri->secure))) {
+			result = accounts->data;
+			break;
+		}
+		accounts = accounts->next;
+	}
+	g_free(account_suffix);
+	return result;
+}
+
+static void
+do_handle_irc_uri(PurpleAccount *account, struct irc_uri *uri)
+{
+	gchar *real_target = NULL;
+	GHashTable *chat_parameters = NULL;
+	PurpleConversation *conversation = NULL;
+	PurpleConnection *connection = purple_account_get_connection(account);
+
+	if (account != uri->account)
+		return;
+
+	switch (uri->target_type) {
+		case CHANNEL:
+			real_target = ((uri->target[0] == '#') || (uri->target[0] == '&') || (uri->target[0] == '+'))? g_strdup(uri->target): g_strconcat("#", uri->target, NULL);
+			conversation = purple_find_conversation_with_account(PURPLE_CONV_TYPE_CHAT, real_target, account);
+			purple_debug_info("irc", "entering channel %s with account %s\n", real_target, purple_account_get_username(account));
+			if (!conversation) {
+				chat_parameters = prpl_info.chat_info_defaults(connection, real_target);
+				if (uri->password && *(uri->password))
+					g_hash_table_insert(chat_parameters, "password", g_strdup(uri->password));
+				prpl_info.join_chat(connection, chat_parameters);
+			}
+			break;
+		case USER:
+			real_target = g_strdup(uri->target);
+			conversation = purple_find_conversation_with_account(PURPLE_CONV_TYPE_IM, real_target, account);
+			purple_debug_info("irc", "starting conversation with user %s using account %s\n", real_target, purple_account_get_username(account));
+			if (!conversation)
+				conversation = purple_conversation_new(PURPLE_CONV_TYPE_IM, account, real_target);
+			break;
+	}
+
+	g_free(real_target);
+	purple_signal_disconnect(purple_accounts_get_handle(), "account-signed-on", uri, PURPLE_CALLBACK(do_handle_irc_uri));
+	if (purple_account_is_temporary(account))
+		purple_signal_connect_once(purple_conversations_get_handle(), "deleting-conversation", account, PURPLE_CALLBACK(uri_conversation_deleting), account);
+
+	if (conversation)
+		uri_conversation_created(conversation, uri);
+	else
+		purple_signal_connect(purple_conversations_get_handle(), "conversation-created", uri, PURPLE_CALLBACK(uri_conversation_created), uri);
+}
+
+/*
+ * Based on patches from https://developer.pidgin.im/ticket/3692.
+ * See http://tools.ietf.org/html/draft-butcher-irc-url-04.
+ * See http://www.w3.org/Addressing/draft-mirashi-url-irc-01.txt.
+ */
+static gboolean
+irc_uri_handler(const char *protocol, const char *command, GHashTable *parameters)
+{
+	struct irc_uri *uri = NULL;
+	const gchar *password = NULL;
+	gchar *random_user = NULL;
+	gchar *account_id = NULL;
+	gchar **host_port = NULL;
+	gchar **uri_components = NULL;
+	gboolean ischannel = FALSE;
+	gboolean isuser = FALSE;
+	gboolean secure = FALSE;
+	gint default_port;
+	gint index;
+
+	secure = g_ascii_strcasecmp(protocol, "ircs") == 0;
+	if (!secure && g_ascii_strcasecmp(protocol, "irc") != 0)
+		return FALSE;
+
+	while (*command && *command == '/')
+		command = command + 1;
+
+	if (!(uri_components = g_strsplit_set(command, "/,", -1)) ||
+		g_strv_length(uri_components) < 2 || !uri_components[0] || !uri_components[1] ||
+		!(host_port = g_strsplit(uri_components[0], ":", 2))[0]) {
+		g_strfreev(uri_components);
+		g_strfreev(host_port);
+		return FALSE;
+	}
+
+	for (index = 2; index < g_strv_length(uri_components); index++) {
+		ischannel = ischannel || g_str_equal(uri_components[index], "ischannel");
+		isuser = isuser || g_str_equal(uri_components[index], "isuser") || g_str_equal(uri_components[index], "isnick");
+		if (isuser && ischannel) {
+			purple_debug_info("irc", "both isuser/isnick and ischannel found in URI %s://%s\n", protocol, command);
+			g_strfreev(uri_components);
+			g_strfreev(host_port);
+			return FALSE;
+		}
+	}
+
+	ischannel = !isuser;
+	uri = g_new0(struct irc_uri, 1);
+	uri->target_type = ischannel? CHANNEL : USER;
+	uri->target = purple_url_decode(uri_components[1]);
+	uri->message = g_strdup(g_hash_table_lookup(parameters, "msg"));
+	uri->password = g_strdup(g_hash_table_lookup(parameters, "key"));
+	uri->host = g_strdup(host_port[0]);
+	uri->port = (host_port[1] && *host_port[1])? atoi(host_port[1]) : 0;
+	uri->secure = secure;
+	g_strfreev(uri_components);
+	g_strfreev(host_port);
+
+	if (!(uri->target) || !(uri->target[0])) {
+		purple_debug_info("irc", "missing user/channel in URI %s://%s\n", protocol, command);
+		g_free(uri->host);
+		g_free(uri);
+		return FALSE;
+	}
+
+	if ((uri->account = find_account_for_uri(uri))) {
+		do_handle_irc_uri(uri->account, uri);
+		return TRUE;
+	}
+
+	password = g_hash_table_lookup(parameters, "pass");
+	random_user = g_strdup_printf("guest%04d", g_random_int_range(0000, 9999));
+	account_id = g_strconcat(random_user, "@", uri->host, NULL);
+	default_port = secure? IRC_DEFAULT_SSL_PORT : IRC_DEFAULT_PORT;
+
+	uri->account = purple_account_new(account_id, info.id);
+	purple_account_set_bool(uri->account, "ssl", secure);
+	purple_account_set_int(uri->account, "port", uri->port? uri->port : default_port);
+	purple_account_set_password(uri->account, (password && *password)? password : NULL);
+	purple_accounts_add_temporary(uri->account);
+
+	purple_signal_connect(purple_accounts_get_handle(), "account-signed-on", uri, PURPLE_CALLBACK(do_handle_irc_uri), uri);
+	purple_account_set_enabled(uri->account, purple_core_get_ui(), TRUE);
+	purple_savedstatus_activate_for_account(purple_savedstatus_get_current(), uri->account);
+
+	g_free(random_user);
+	g_free(account_id);
+	return TRUE;
+}
 
 static void irc_view_motd(PurplePluginAction *action)
 {
@@ -1079,6 +1276,7 @@ static void _init_plugin(PurplePlugin *plugin)
 #endif
 
 	_irc_plugin = plugin;
+	purple_signal_connect(purple_get_core(), "uri-handler", plugin, PURPLE_CALLBACK(irc_uri_handler), NULL);
 
 	purple_prefs_remove("/plugins/prpl/irc/quitmsg");
 	purple_prefs_remove("/plugins/prpl/irc");

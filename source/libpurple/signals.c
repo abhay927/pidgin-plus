@@ -308,6 +308,39 @@ purple_signal_connect(void *instance, const char *signal, void *handle,
 	return signal_connect_common(instance, signal, handle, func, data, PURPLE_SIGNAL_PRIORITY_DEFAULT, FALSE);
 }
 
+gboolean
+purple_signal_connected(void *instance, const char *signal, void *handle, PurpleCallback func, void *data)
+{
+	PurpleInstanceData *instance_data;
+	PurpleSignalData *signal_data;
+	GList *iterator;
+
+	if (!(instance && signal && handle && func))
+		return FALSE;
+
+	if (!(instance_data = (PurpleInstanceData *)g_hash_table_lookup(instance_table, instance)) ||
+		!(signal_data = (PurpleSignalData *)g_hash_table_lookup(instance_data->signals, signal)))
+		return FALSE;
+
+	for (iterator = signal_data->handlers; iterator; iterator = iterator->next) {
+		PurpleSignalHandlerData *handler_data = (PurpleSignalHandlerData*)(iterator->data);
+		if (handler_data->handle == handle &&
+			handler_data->cb == func &&
+			handler_data->data == data)
+			return TRUE;
+	}
+	return FALSE;
+}
+
+gulong
+purple_signal_connect_once(void *instance, const char *signal, void *handle,
+					PurpleCallback func, void *data)
+{
+	if (purple_signal_connected(instance, signal, handle, func, data))
+		return 0;
+	return purple_signal_connect(instance, signal, handle, func, data);
+}
+
 gulong
 purple_signal_connect_priority_vargs(void *instance, const char *signal, void *handle,
 						  PurpleCallback func, void *data, int priority)

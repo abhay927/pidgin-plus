@@ -135,6 +135,40 @@ gulong purple_signal_connect_priority(void *instance, const char *signal,
 	void *handle, PurpleCallback func, void *data, int priority);
 
 /**
+ * Whether a signal handler is connected to a signal for a particular object.
+ *
+ * @param instance The instance to which the handler is possibly connected.
+ * @param signal   The name of the signal.
+ * @param handle   The handle of the receiver.
+ * @param func     The callback function.
+ * @param data     The data passed to the callback function.
+ *
+ * @return Whether the signal handler is connected or not.
+ *
+ * @see purple_signal_connect_once()
+ */
+gboolean purple_signal_connected(void *instance, const char *signal,
+	void *handle, PurpleCallback func, void *data);
+
+/**
+ * Connects a signal handler to a signal for a particular object only once.
+ * If the handler is already connected, duplication is avoided.
+ * (Its priority defaults to 0, aka #PURPLE_SIGNAL_PRIORITY_DEFAULT.)
+ *
+ * @param instance The instance to connect to.
+ * @param signal   The name of the signal to connect.
+ * @param handle   The handle of the receiver.
+ * @param func     The callback function.
+ * @param data     The data to pass to the callback function.
+ *
+ * @return The signal handler ID.
+ *
+ * @see purple_signal_connected()
+ */
+gulong purple_signal_connect_once(void *instance, const char *signal,
+	void *handle, PurpleCallback func, void *data);
+
+/**
  * Connects a signal handler to a signal for a particular object.
  * (Its priority defaults to 0, aka #PURPLE_SIGNAL_PRIORITY_DEFAULT.)
  *
@@ -149,6 +183,8 @@ gulong purple_signal_connect_priority(void *instance, const char *signal,
  *
  * @return The signal handler ID.
  *
+ * @see purple_signal_connect_once()
+ * @see purple_signal_connected()
  * @see purple_signal_disconnect()
  */
 gulong purple_signal_connect(void *instance, const char *signal,

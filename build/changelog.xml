@@ -35,6 +35,10 @@
         <change en-us:description="Improved conversation history viewer"
                 pt-br:description="Visualizador do histórico de conversas aprimorado"/>
 
+        <change en-us:description="URI support for the IRC protocol"
+                pt-br:description="Suporte a endereços IRC"
+                bug="3692"/>
+
         <change en-us:description="Configurable quit and part messages for IRC"
                 pt-br:description="Mensagens configuráveis de desconexão e saída de canais IRC"/>
 

@@ -185,7 +185,7 @@ docklet_update_status(void)
 		g_free(tooltip_text);
 	}
 
-	for(l = purple_accounts_get_all(); l != NULL; l = l->next) {
+	for(l = purple_accounts_get_all_including_temporary(); l != NULL; l = l->next) {
 
 		PurpleAccount *account = (PurpleAccount*)l->data;
 

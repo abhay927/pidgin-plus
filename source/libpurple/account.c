@@ -86,6 +86,7 @@ typedef struct
 static PurpleAccountUiOps *account_ui_ops = NULL;
 
 static GList   *accounts = NULL;
+static GList   *temporary_accounts = NULL;
 static guint    save_timer = 0;
 static gboolean accounts_loaded = FALSE;
 
@@ -2926,29 +2927,42 @@ purple_account_clear_current_error(PurpleAccount *account)
 	set_current_error(account, NULL);
 }
 
-void
-purple_accounts_add(PurpleAccount *account)
-{
-	g_return_if_fail(account != NULL);
-
-	if (g_list_find(accounts, account) != NULL)
-		return;
-
-	accounts = g_list_append(accounts, account);
-
-	schedule_accounts_save();
-
-	purple_signal_emit(purple_accounts_get_handle(), "account-added", account);
+gboolean
+purple_account_is_temporary(PurpleAccount *account) {
+	if (!account)
+		return FALSE;
+	return (g_list_find(purple_accounts_get_all_temporary(), account) != NULL);
 }
 
-void
-purple_accounts_remove(PurpleAccount *account)
+static void
+do_purple_accounts_add(PurpleAccount *account, const gboolean temporary)
 {
 	g_return_if_fail(account != NULL);
 
-	accounts = g_list_remove(accounts, account);
+	if (temporary) {
+		if (g_list_find(temporary_accounts, account))
+			return;
+		temporary_accounts = g_list_append(temporary_accounts, account);
+	} else {
+		if (g_list_find(accounts, account))
+			return;
+		accounts = g_list_append(accounts, account);
+		schedule_accounts_save();
+		purple_signal_emit(purple_accounts_get_handle(), "account-added", account);
+	}
+}
 
-	schedule_accounts_save();
+static void
+do_purple_accounts_remove(PurpleAccount *account, const gboolean temporary)
+{
+	g_return_if_fail(account != NULL);
+
+	if (temporary) {
+		temporary_accounts = g_list_remove(temporary_accounts, account);
+	} else {
+		accounts = g_list_remove(accounts, account);
+		schedule_accounts_save();
+	}
 
 	/* Clearing the error ensures that account-error-changed is emitted,
 	 * which is the end of the guarantee that the the error's pointer is
@@ -2958,8 +2972,8 @@ purple_accounts_remove(PurpleAccount *account)
 	purple_signal_emit(purple_accounts_get_handle(), "account-removed", account);
 }
 
-void
-purple_accounts_delete(PurpleAccount *account)
+static void
+do_purple_accounts_delete(PurpleAccount *account, const gboolean temporary)
 {
 	PurpleBlistNode *gnode, *cnode, *bnode;
 	GList *iter;
@@ -2977,7 +2991,10 @@ purple_accounts_delete(PurpleAccount *account)
 	purple_notify_close_with_handle(account);
 	purple_request_close_with_handle(account);
 
-	purple_accounts_remove(account);
+	/* Avoid executing twice for same temporary account */
+	if (temporary && !g_list_find(temporary_accounts, account))
+		return;
+	do_purple_accounts_remove(account, temporary);
 
 	/* Remove this account's buddies */
 	for (gnode = purple_blist_get_root();
@@ -3032,6 +3049,43 @@ purple_accounts_delete(PurpleAccount *account)
 }
 
 void
+purple_accounts_add(PurpleAccount *account)
+{
+	do_purple_accounts_add(account, FALSE);
+	temporary_accounts = g_list_remove(temporary_accounts, account);
+}
+
+void
+purple_accounts_add_temporary(PurpleAccount *account)
+{
+	do_purple_accounts_add(account, TRUE);
+}
+
+void
+purple_accounts_remove(PurpleAccount *account)
+{
+	do_purple_accounts_remove(account, FALSE);
+}
+
+void
+purple_accounts_remove_temporary(PurpleAccount *account)
+{
+	do_purple_accounts_remove(account, TRUE);
+}
+
+void
+purple_accounts_delete(PurpleAccount *account)
+{
+	do_purple_accounts_delete(account, FALSE);
+}
+
+void
+purple_accounts_delete_temporary(PurpleAccount *account)
+{
+	do_purple_accounts_delete(account, TRUE);
+}
+
+void
 purple_accounts_reorder(PurpleAccount *account, gint new_index)
 {
 	gint index;
@@ -3068,6 +3122,24 @@ GList *
 purple_accounts_get_all(void)
 {
 	return accounts;
+}
+
+GList *
+purple_accounts_get_all_temporary(void)
+{
+	return temporary_accounts;
+}
+
+GList *
+purple_accounts_get_all_including_temporary(void)
+{
+	GList *temporary = temporary_accounts;
+	GList *result = g_list_copy(accounts);
+	while (temporary) {
+		result = g_list_append(result, temporary->data);
+		temporary = temporary->next;
+	}
+	return result;
 }
 
 GList *

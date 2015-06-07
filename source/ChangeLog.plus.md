@@ -14,6 +14,7 @@ Differences between the first release and Pidgin 2.10.11.
 * New text colors and formatting.
 * Typed message history browsing with just the arrow keys.
 * Maximizable and larger log viewer.
+* URI handler for the IRC protocol ([#3692][8]).
 * Configurable IRC quit and part messages.
 * Highlighting of unknown IRC numerics as system messages.
 * Formatted timestamps in ZNC buffer playback.
@@ -59,3 +60,4 @@ Differences between the first release and Pidgin 2.10.11.
 [5]: https://developer.pidgin.im/ticket/1458
 [6]: https://developer.pidgin.im/ticket/14970
 [7]: https://developer.pidgin.im/ticket/16502
+[8]: https://developer.pidgin.im/ticket/3692

@@ -388,6 +388,8 @@ SectionGroup /e $(URIHANDLERSSECTIONTITLE) SecURIHandlers
   !insertmacro URI_SECTION "myim" "MySpaceIM"
   !insertmacro URI_SECTION "ymsgr" "Yahoo"
   !insertmacro URI_SECTION "xmpp" "XMPP"
+  !insertmacro URI_SECTION "irc" "IRC"
+  !insertmacro URI_SECTION "ircs" "IRCS"
 SectionGroupEnd
 
 ;--------------------------------
@@ -498,6 +500,10 @@ Section Uninstall
     Push "ymsgr"
     Call un.UnregisterURIHandler
     Push "xmpp"
+    Call un.UnregisterURIHandler
+    Push "irc"
+    Call un.UnregisterURIHandler
+    Push "ircs"
     Call un.UnregisterURIHandler
 
     RMDir /r "$INSTDIR\ca-certs"
