@@ -390,7 +390,7 @@ winpidgin_conv_im_blink(PurpleAccount *account, const char *who, char **message,
 }
 
 void winpidgin_init(HINSTANCE hint) {
-	typedef void (__cdecl* LPFNSETLOGFILE)(const LPCSTR);
+	typedef BOOL (APIENTRY* LPFNSETLOGFILE)(const char*);
 	LPFNSETLOGFILE MySetLogFile;
 	INITCOMMONCONTROLSEX icc;
 	gchar *exchndl_dll_path;
@@ -405,18 +405,18 @@ void winpidgin_init(HINSTANCE hint) {
 	exe_hInstance = hint;
 
 	exchndl_dll_path = g_build_filename(wpurple_install_dir(), "exchndl.dll", NULL);
-	MySetLogFile = (LPFNSETLOGFILE) wpurple_find_and_loadproc(exchndl_dll_path, "SetLogFile");
+	MySetLogFile = (LPFNSETLOGFILE) wpurple_find_and_loadproc(exchndl_dll_path, "SetLogFileNameA");
 	g_free(exchndl_dll_path);
 	exchndl_dll_path = NULL;
 	if (MySetLogFile) {
 		gchar *debug_dir, *locale_debug_dir;
 
-		debug_dir = g_build_filename(purple_user_dir(), "pidgin.RPT", NULL);
+		debug_dir = g_build_filename(purple_user_dir(), "pidgin.rpt", NULL);
 		locale_debug_dir = g_locale_from_utf8(debug_dir, -1, NULL, NULL, NULL);
 
-		purple_debug_info("winpidgin", "Setting exchndl.dll LogFile to %s\n", debug_dir);
-
-		MySetLogFile(locale_debug_dir);
+		purple_debug_info("winpidgin", "%s exchndl.dll log file to %s\n",
+			MySetLogFile(locale_debug_dir)? "Successfully set" : "Failed setting",
+			debug_dir);
 
 		g_free(debug_dir);
 		g_free(locale_debug_dir);
