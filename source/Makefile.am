@@ -98,7 +98,7 @@ package_revision.h: package_revision_raw.txt
 	$(AM_V_at)if test ! -f $@ -a -f $(srcdir)/$@; then \
 		cp $(srcdir)/$@ $@; \
 	fi
-	$(AM_V_at)test -f $@ || echo "#define REVISION \"unknown\"" > $@
+	$(AM_V_at)test -f $@ || echo "#define REVISION \"<unknown>\"" > $@
 
 # This is a magic directive copy-and-pasted, then modified, from the
 # automake 1.9 manual, section 13.4, "Checking the distribution".

@@ -25,7 +25,7 @@ $(PIDGIN_REVISION_H): $(PIDGIN_REVISION_RAW_TXT)
 	if [ -f $< ]; then \
 		sed 's/^\(.\{1,\}\)$$/#define REVISION "\1"/' $< > $@; \
 	fi
-	[ -f $@ ] || echo "#define REVISION \"unknown\"" > $@
+	[ -f $@ ] || echo "#define REVISION \"<unknown>\"" > $@
 
 $(PURPLE_DLL) $(PURPLE_DLL).a: $(PURPLE_VERSION_H)
 	$(MAKE) -C $(PURPLE_TOP) -f $(MINGW_MAKEFILE) libpurple.dll
