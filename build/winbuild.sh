@@ -17,7 +17,6 @@
 ##                          DEVELOPMENT_ROOT and exit. This is not needed for
 ##                          creating an MSYS2 package.
 ##
-##     -t, --update-pot     Update the translations template and exit.
 ##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
 ##         --make=TARGET    Execute an arbitrary makefile target.
 ##
@@ -107,14 +106,6 @@ if [[ -n "$encoding" ]]; then
     build() { domake "$@" > >($iconv) 2> >($iconv) || exit 1; }
 else
     build() { domake "$@" || exit 1; }
-fi
-
-# Translations template
-if [[ -n "$update_pot" ]]; then
-    cd "$source_dir/po"
-    echo "Updating the translation template"
-    XGETTEXT_ARGS="--no-location --sort-output" intltool-update --pot
-    exit
 fi
 
 # GnuPG version
