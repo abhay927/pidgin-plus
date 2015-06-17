@@ -32,7 +32,7 @@ runtime_dependencies=(${mingw_package_prefix}-cyrus-sasl
                       ${mingw_package_prefix}-nss
                       ${mingw_package_prefix}-perl
                       ${mingw_package_prefix}-silc-toolkit
-                      ${mingw_package_prefix}-winsparkle-git)
+                      ${mingw_package_prefix}-winsparkle)
 
 indirect_dependencies=(# Required only by GTK+
                        ${mingw_package_prefix}-bzip2
@@ -50,7 +50,7 @@ indirect_dependencies=(# Required only by GTK+
                        ${mingw_package_prefix}-libjpeg-turbo
                        ${mingw_package_prefix}-libsystre
                        ${mingw_package_prefix}-libtiff
-                       ${mingw_package_prefix}-libtre-git
+                       ${mingw_package_prefix}-libtre
                        ${mingw_package_prefix}-sqlite3
                        ${mingw_package_prefix}-wxWidgets
                        ${mingw_package_prefix}-xz
@@ -64,7 +64,7 @@ indirect_dependencies=(# Required only by GTK+
                        ${mingw_package_prefix}-gettext
                        ${mingw_package_prefix}-glib2
                        ${mingw_package_prefix}-libpng
-                       ${mingw_package_prefix}-libwinpthread-git::${mingw_package_prefix}-winpthreads-git
+                       ${mingw_package_prefix}-libwinpthread::${mingw_package_prefix}-winpthreads
                        ${mingw_package_prefix}-pango
                        ${mingw_package_prefix}-zlib)
 
@@ -79,10 +79,25 @@ package_source() {
     echo "${result%%::*}"
 }
 
-package_version() {
+package_version_vcs() {
     local result
-    result=$(pacman -Q $(package_name $1))
-    echo "${result##* }"
+    local name="$1"
+    local vcs="$2"
+    result=$(pacman -Q $(package_name ${name}${vcs:+-${vcs}}) 2> /dev/null)
+    result="${result##* }"
+    test -z "$result" && return 1
+    echo "${vcs:+${vcs}-}${result}"
+}
+
+package_version() {
+    local package_name=$(package_name $1)
+    package_version_vcs "${package_name}"     || \
+    package_version_vcs "${package_name}" git || \
+    package_version_vcs "${package_name}" bzr || \
+    package_version_vcs "${package_name}" svn || \
+    package_version_vcs "${package_name}" cvs || \
+    package_version_vcs "${package_name}" hg  ||
+    echo 'UNKNOWN'
 }
 
 library_manifest() {
@@ -110,6 +125,8 @@ library_licenses() {
         local library_name="${package_name#mingw-w64-$package_architecture-}"
         library_name="${library_name%-git}"
         library_name="${library_name%-bzr}"
+        library_name="${library_name%-svn}"
+        library_name="${library_name%-cvs}"
         library_name="${library_name%-hg}"
         mkdir -p "${output_directory}/${library_name}"
         if [[ -d "${license_top}/${library_name}" ]]; then
