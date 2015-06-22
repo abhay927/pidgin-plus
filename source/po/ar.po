@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-15 13:55-0300\n"
+"POT-Creation-Date: 2015-06-01 12:55-0300\n"
 "PO-Revision-Date: 2014-08-31 02:15+0000\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
 "3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
-"X-Launchpad-Export-Date: 2015-04-16 05:35+0000\n"
-"X-Generator: Launchpad (build 17428)\n"
+"X-Launchpad-Export-Date: 2015-06-02 05:40+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 "Language: Arabic\n"
 "X-Poedit-Language: Arabic\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -946,9 +946,6 @@ msgstr "+++ %s ولج"
 msgid ""
 "- Transparent authentication with a variety of services.\n"
 "- Suppression of various useless messages.\n"
-"\n"
-"This is a patched version by Renato Silva, adding the following:\n"
-"- Doubled identify and ghost killing timeouts.\n"
 "- Bouncer support through account preference."
 msgstr ""
 
@@ -5413,6 +5410,8 @@ msgstr "خطأ في اتصال وسيط HTTP %d"
 msgid "Half Operator"
 msgstr ""
 
+#. *< name
+#. *< version
 msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
@@ -5696,6 +5695,12 @@ msgstr ""
 msgid "IRC Away Nick"
 msgstr ""
 
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
 msgid "IRC Helper"
 msgstr ""
 

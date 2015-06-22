@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-15 13:55-0300\n"
+"POT-Creation-Date: 2015-06-01 12:55-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Khmer "
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2015-04-16 05:42+0000\n"
-"X-Generator: Launchpad (build 17428)\n"
+"X-Launchpad-Export-Date: 2015-06-02 05:47+0000\n"
+"X-Generator: Launchpad (build 17532)\n"
 "Language: Khmer\n"
 
 msgid "\t_Only when someone says your username"
@@ -940,9 +940,6 @@ msgstr "+++ %s បាន​ចូល"
 msgid ""
 "- Transparent authentication with a variety of services.\n"
 "- Suppression of various useless messages.\n"
-"\n"
-"This is a patched version by Renato Silva, adding the following:\n"
-"- Doubled identify and ghost killing timeouts.\n"
 "- Bouncer support through account preference."
 msgstr ""
 
@@ -5494,6 +5491,8 @@ msgstr "កំហុសក្នុងការ​តភ្ជាប់ប្រ
 msgid "Half Operator"
 msgstr "ការី​ពាក់កណ្ដាល"
 
+#. *< name
+#. *< version
 msgid "Handles the rough edges of the IRC protocol."
 msgstr ""
 
@@ -5778,6 +5777,12 @@ msgstr ""
 msgid "IRC Away Nick"
 msgstr ""
 
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
 msgid "IRC Helper"
 msgstr ""
 

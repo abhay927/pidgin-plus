@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-15 13:55-0300\n"
-"PO-Revision-Date: 2015-04-16 10:16+0000\n"
+"POT-Creation-Date: 2015-06-01 12:55-0300\n"
+"PO-Revision-Date: 2015-06-13 21:53+0000\n"
 "Last-Translator: Andi Chandler <Unknown>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-04-17 05:41+0000\n"
-"X-Generator: Launchpad (build 17430)\n"
+"X-Launchpad-Export-Date: 2015-06-14 05:45+0000\n"
+"X-Generator: Launchpad (build 17557)\n"
 "Language: English (United Kingdom)\n"
 
 msgid "\t_Only when someone says your username"
@@ -953,16 +953,10 @@ msgstr "+++ %s signed on"
 msgid ""
 "- Transparent authentication with a variety of services.\n"
 "- Suppression of various useless messages.\n"
-"\n"
-"This is a patched version by Renato Silva, adding the following:\n"
-"- Doubled identify and ghost killing timeouts.\n"
 "- Bouncer support through account preference."
 msgstr ""
 "- Transparent authentication with a variety of services.\n"
 "- Suppression of various useless messages.\n"
-"\n"
-"This is a patched version by Renato Silva, adding the following:\n"
-"- Doubled identify and ghost killing timeouts.\n"
 "- Bouncer support through account preference."
 
 msgid "/Accounts"
@@ -5504,6 +5498,8 @@ msgstr "HTTP proxy connection error %d"
 msgid "Half Operator"
 msgstr "Half Operator"
 
+#. *< name
+#. *< version
 msgid "Handles the rough edges of the IRC protocol."
 msgstr "Handles the rough edges of the IRC protocol."
 
@@ -5787,6 +5783,12 @@ msgstr "IRC Away"
 msgid "IRC Away Nick"
 msgstr "IRC Away Nick"
 
+#. *< type
+#. *< ui_requirement
+#. *< flags
+#. *< dependencies
+#. *< priority
+#. *< id
 msgid "IRC Helper"
 msgstr "IRC Helper"
 
