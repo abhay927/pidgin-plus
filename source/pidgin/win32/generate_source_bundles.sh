@@ -28,10 +28,15 @@ library_bundle() {
         local name=$(package_name $package)
         local version=$(package_version $name)
         local source_name=$(package_source $package)
-        local source_package="${source_name/x86_64/i686}-${version}.src.tar.gz"
+        source_name="${source_name/x86_64/i686}"
+        local source_package="${source_name}-${version}.src.tar.gz"
         local source_url="https://sourceforge.net/projects/msys2/files/REPOS/MINGW/Sources/${source_package}/download"
         echo "Integrating ${source_package}"
-        [[ -s "$source_package" ]] && continue || rm -f ${source_name}*src.tar.gz
+        for file in "${source_name}"*src.tar.gz; do
+            [[ "${file}" = "${source_package}" && -s "${file}" ]] && continue
+            rm -f "${file}"
+        done
+        [[ -s "$source_package" ]] && continue
         if ! wget "$source_url" --quiet --output-document "$source_package"; then
             warn "failed downloading ${source_package}"
             echo "${source_package}" >> MISSING.txt
