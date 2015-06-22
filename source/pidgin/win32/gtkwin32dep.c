@@ -41,6 +41,7 @@
 #include <winsparkle.h>
 #endif
 #include <commctrl.h>
+#include <exchndl.h>
 
 #include "debug.h"
 #include "notify.h"
@@ -390,10 +391,8 @@ winpidgin_conv_im_blink(PurpleAccount *account, const char *who, char **message,
 }
 
 void winpidgin_init(HINSTANCE hint) {
-	typedef BOOL (APIENTRY* LPFNSETLOGFILE)(const char*);
-	LPFNSETLOGFILE MySetLogFile;
+	gchar *debug_dir, *locale_debug_dir;
 	INITCOMMONCONTROLSEX icc;
-	gchar *exchndl_dll_path;
 
 	purple_debug_info("winpidgin", "winpidgin_init start\n");
 
@@ -403,24 +402,15 @@ void winpidgin_init(HINSTANCE hint) {
 	InitCommonControlsEx(&icc);
 
 	exe_hInstance = hint;
+	debug_dir = g_build_filename(purple_user_dir(), "pidgin.rpt", NULL);
+	locale_debug_dir = g_locale_from_utf8(debug_dir, -1, NULL, NULL, NULL);
 
-	exchndl_dll_path = g_build_filename(wpurple_install_dir(), "exchndl.dll", NULL);
-	MySetLogFile = (LPFNSETLOGFILE) wpurple_find_and_loadproc(exchndl_dll_path, "SetLogFileNameA");
-	g_free(exchndl_dll_path);
-	exchndl_dll_path = NULL;
-	if (MySetLogFile) {
-		gchar *debug_dir, *locale_debug_dir;
+	purple_debug_info("winpidgin", "%s exchndl.dll log file to %s\n",
+		ExcHndlSetLogFileNameA(locale_debug_dir)? "Successfully set" : "Failed setting",
+		debug_dir);
 
-		debug_dir = g_build_filename(purple_user_dir(), "pidgin.rpt", NULL);
-		locale_debug_dir = g_locale_from_utf8(debug_dir, -1, NULL, NULL, NULL);
-
-		purple_debug_info("winpidgin", "%s exchndl.dll log file to %s\n",
-			MySetLogFile(locale_debug_dir)? "Successfully set" : "Failed setting",
-			debug_dir);
-
-		g_free(debug_dir);
-		g_free(locale_debug_dir);
-	}
+	g_free(debug_dir);
+	g_free(locale_debug_dir);
 
 #ifdef USE_GTKSPELL
 	winpidgin_spell_init();

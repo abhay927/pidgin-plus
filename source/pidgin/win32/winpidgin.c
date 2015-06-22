@@ -36,6 +36,7 @@
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <exchndl.h>
 #include "config.h"
 
 typedef int (__cdecl* LPFNPIDGINMAIN)(HINSTANCE, int, char**);
@@ -676,46 +677,28 @@ WinMain (struct HINSTANCE__ *hInstance, struct HINSTANCE__ *hPrevInstance,
 		return 0;
 	}
 
-	/* Load exception handler if we have it */
+	/* Initialize exception handler */
+	ExcHndlInit();
+
 	if (GetModuleFileNameW(NULL, pidgin_dir, MAX_PATH) != 0) {
 
 		/* primitive dirname() */
 		pidgin_dir_start = wcsrchr(pidgin_dir, L'\\');
 
 		if (pidgin_dir_start) {
-			HMODULE hmod;
-			char exchndl_path[MAX_PATH];
-			char *last_path_separator;
-
-			/* Path to exchndl.dll */
-			GetModuleFileNameA(NULL, exchndl_path, MAX_PATH);
-			if ((last_path_separator = strrchr(exchndl_path, '\\')))
-				last_path_separator[0] = '\0';
-			strcat(exchndl_path, "\\exchndl.dll");
-
+			char debug_dir[MAX_PATH];
 			pidgin_dir_start[0] = L'\0';
 
 			/* tmp++ will now point to the executable file name */
 			wcscpy(exe_name, pidgin_dir_start + 1);
 
-			if ((hmod = LoadLibraryA(exchndl_path))) {
-				typedef BOOL (APIENTRY* LPFNSETLOGFILE)(const char*);
-				LPFNSETLOGFILE MySetLogFile;
-				/* exchndl.dll is built without UNICODE */
-				char debug_dir[MAX_PATH];
-				printf("Loaded exchndl.dll\n");
-				/* Temporarily override exchndl.dll's logfile
-				 * to something sane (Pidgin will override it
-				 * again when it initializes) */
-				MySetLogFile = (LPFNSETLOGFILE) GetProcAddress(hmod, "SetLogFileNameA");
-				if (MySetLogFile) {
-					if (GetTempPathA(sizeof(debug_dir), debug_dir) != 0) {
-						strcat(debug_dir, "pidgin.rpt");
-						printf("%s exchndl.dll log file to %s\n",
-							MySetLogFile(debug_dir)? "Successfully set" : "Failed setting",
-							debug_dir);
-					}
-				}
+			/* Temporarily override exchndl.dll's logfile to something sane
+			 * (Pidgin will override it again when it initializes) */
+			if (GetTempPathA(sizeof(debug_dir), debug_dir) != 0) {
+				strcat(debug_dir, "pidgin.rpt");
+				printf("%s exchndl.dll log file to %s\n",
+					ExcHndlSetLogFileNameA(debug_dir)? "Successfully set" : "Failed setting",
+					debug_dir);
 			}
 		}
 	} else {

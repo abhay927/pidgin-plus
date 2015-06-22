@@ -113,7 +113,10 @@ EXE_OBJECTS = $(EXE_C_SRC:%.c=%.o) $(EXE_RC_SRC:%.rc=%.o)
 ## LIBRARIES
 ##
 
-PIDGIN_LIBS =	\
+PIDGIN_EXE_LIBS = -lexchndl
+
+PIDGIN_DLL_LIBS =	\
+		$(PIDGIN_EXE_LIBS) \
 		-lintl \
 		-lglib-2.0 \
 		-lgobject-2.0 \
@@ -131,7 +134,7 @@ PIDGIN_LIBS =	\
 		-lcomctl32
 
 ifndef DISABLE_UPDATE_CHECK
-	PIDGIN_LIBS += -lWinSparkle
+	PIDGIN_DLL_LIBS += -lWinSparkle
 endif
 
 include $(PIDGIN_COMMON_RULES)
@@ -172,10 +175,10 @@ win32/pidgin_dll_rc.rc: win32/pidgin_dll_rc.rc.in $(PIDGIN_TREE_TOP)/VERSION
 $(EXE_OBJECTS) $(PIDGIN_OBJECTS): $(PIDGIN_CONFIG_H)
 
 $(PIDGIN_TARGET).dll $(PIDGIN_TARGET).dll.a: $(PURPLE_DLL).a $(PIDGIN_OBJECTS)
-	$(CC) -shared $(PIDGIN_OBJECTS) $(LIB_PATHS) $(PIDGIN_LIBS) $(DLL_LD_FLAGS) -Wl,--output-def,$(PIDGIN_TARGET).def,--out-implib,$(PIDGIN_TARGET).dll.a -o $(PIDGIN_TARGET).dll
+	$(CC) -shared $(PIDGIN_OBJECTS) $(LIB_PATHS) $(PIDGIN_DLL_LIBS) $(DLL_LD_FLAGS) -Wl,--output-def,$(PIDGIN_TARGET).def,--out-implib,$(PIDGIN_TARGET).dll.a -o $(PIDGIN_TARGET).dll
 
 $(EXE_TARGET).exe: $(PIDGIN_CONFIG_H) $(PIDGIN_DLL).a $(EXE_OBJECTS) $(PIDGIN_TARGET).dll
-	$(CC) $(EXE_OBJECTS) $(LDFLAGS) -o $(EXE_TARGET).exe
+	$(CC) $(EXE_OBJECTS) $(PIDGIN_EXE_LIBS) $(LDFLAGS) -o $(EXE_TARGET).exe
 
 ##
 ## CLEAN RULES
