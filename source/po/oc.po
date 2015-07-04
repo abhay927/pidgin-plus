@@ -19,15 +19,15 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-01 12:55-0300\n"
-"PO-Revision-Date: 2014-09-21 11:25+0000\n"
+"PO-Revision-Date: 2015-07-03 18:56+0000\n"
 "Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
 "Language-Team: fr <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2015-06-02 05:50+0000\n"
-"X-Generator: Launchpad (build 17532)\n"
+"X-Launchpad-Export-Date: 2015-07-04 05:39+0000\n"
+"X-Generator: Launchpad (build 17597)\n"
 "Language: Occitan (post 1500)\n"
 
 msgid "\t_Only when someone says your username"
@@ -47,7 +47,7 @@ msgid ""
 "%s is typing..."
 msgstr ""
 "\n"
-"%s es a picar..."
+"%s es a picar un message..."
 
 #, c-format
 msgid ""
@@ -62,7 +62,7 @@ msgid ""
 "<b>Description:</b> "
 msgstr ""
 "\n"
-"<b>Descripcion :</b> "
+"<b>Descripcion :</b> "
 
 #, c-format
 msgid ""
@@ -157,38 +157,38 @@ msgstr[1] ""
 #, c-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d jorn"
-msgstr[1] "%d jorns"
+msgstr[0] "%d jorn"
+msgstr[1] "%d jorns"
 
 #, c-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d ora"
-msgstr[1] "%d oras"
+msgstr[0] "%d ora"
+msgstr[1] "%d oras"
 
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d minuta"
-msgstr[1] "%d minutas"
+msgstr[0] "%d minuta"
+msgstr[1] "%d minutas"
 
 #, c-format
 msgid "%d person in room"
 msgid_plural "%d people in room"
 msgstr[0] "%d persona dins la sala"
-msgstr[1] "%d personas dins la sala"
+msgstr[1] "%d personas dins la sala"
 
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "%d segonda"
-msgstr[1] "%d segondas"
+msgstr[0] "%d segonda"
+msgstr[1] "%d segondas"
 
 #, c-format
 msgid "%d unread message from %s\n"
 msgid_plural "%d unread messages from %s\n"
-msgstr[0] "%d messatge pas legit de %s\n"
-msgstr[1] "%d messatges pas legits de %s\n"
+msgstr[0] "%d messatge pas legit de %s\n"
+msgstr[1] "%d messatges pas legits de %s\n"
 
 #, c-format
 msgid ""
@@ -253,7 +253,7 @@ msgstr "%s (%s -- %s)"
 
 #, c-format
 msgid "%s (%s)"
-msgstr "%s (%s)"
+msgstr "%s (%s)"
 
 #, c-format
 msgid "%s (%s) changed status from %s to %s"
@@ -326,7 +326,7 @@ msgstr "%s [%s]"
 
 #, c-format
 msgid "%s [<I>%s</I>] entered the room."
-msgstr "%s [<I>%s</I>] a rejonch lo salon."
+msgstr "%s [<I>%s</I>] es dintrat dins la sala."
 
 #, c-format
 msgid "%s ago"
@@ -365,11 +365,11 @@ msgstr "%s desactivat"
 
 #, c-format
 msgid "%s disconnected"
-msgstr "Desconnexion de %s"
+msgstr "%s ven de se desconnectar"
 
 #, c-format
 msgid "%s disconnected."
-msgstr "Desconnexion de %s."
+msgstr "%s es desconnectat."
 
 #, c-format
 msgid ""
@@ -383,7 +383,7 @@ msgstr ""
 
 #, c-format
 msgid "%s entered the room."
-msgstr "%s a rejonch lo salon."
+msgstr "%s es dintrat dins la sala."
 
 #, c-format
 msgid "%s has %d new message."
@@ -5165,7 +5165,7 @@ msgid "Georgian"
 msgstr "Georgian"
 
 msgid "German"
-msgstr "Aleman"
+msgstr "Alemand"
 
 msgid "Get"
 msgstr "Obténer"
@@ -9541,7 +9541,7 @@ msgid "Separated"
 msgstr ""
 
 msgid "Serbian"
-msgstr "Serbian"
+msgstr "Sèrbe"
 
 msgid "Serbian Latin"
 msgstr ""
@@ -10040,10 +10040,10 @@ msgid "Sounds when conversation has focus"
 msgstr ""
 
 msgid "Spanish"
-msgstr "Castelhan"
+msgstr "Espanhòl"
 
 msgid "Speakers"
-msgstr ""
+msgstr "Nauts parlaires"
 
 msgid "Specify a hostname"
 msgstr ""
