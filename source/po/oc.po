@@ -19,14 +19,14 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-01 12:55-0300\n"
-"PO-Revision-Date: 2015-07-03 18:56+0000\n"
+"PO-Revision-Date: 2015-07-06 05:39+0000\n"
 "Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
 "Language-Team: fr <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2015-07-04 05:39+0000\n"
+"X-Launchpad-Export-Date: 2015-07-06 05:39+0000\n"
 "X-Generator: Launchpad (build 17597)\n"
 "Language: Occitan (post 1500)\n"
 
@@ -7551,31 +7551,31 @@ msgid "Offline message store full"
 msgstr ""
 
 msgid "Old ICQ UTF8"
-msgstr ""
+msgstr "Ancian ICQ UTF8"
 
 msgid "Old flat format"
-msgstr ""
+msgstr "Tèxte a plat"
 
 msgid "On Mobile"
-msgstr ""
+msgstr "Sul telefòn portable"
 
 msgid "On The Phone"
-msgstr ""
+msgstr "Al telefòn"
 
 msgid "On Vacation"
-msgstr ""
+msgstr "En vacanças"
 
 msgid "On the Phone"
-msgstr ""
+msgstr "Al telefòn"
 
 msgid "On the phone"
-msgstr ""
+msgstr "Al telefòn"
 
 msgid "On unread messages"
 msgstr ""
 
 msgid "One Time Password"
-msgstr ""
+msgstr "Senhal getable"
 
 #. *< type
 #. *< ui_requirement
@@ -7625,26 +7625,26 @@ msgid "Only buddies"
 msgstr ""
 
 msgid "Only create TinyURL for URLs of this length or greater"
-msgstr ""
+msgstr "Creacion de TinyURL solament pels ligams d'aquesta talha mini"
 
 msgid "Only enable for users on the buddy list"
-msgstr ""
+msgstr "Activar pas que pels utilizaires que son dins ma lista de contactes"
 
 msgid "Only online"
-msgstr ""
+msgstr "Sonque en linha"
 
 msgid "Only replace _whole words"
-msgstr ""
+msgstr "Remplaça solament los mots _complets"
 
 msgid "Only when available"
-msgstr ""
+msgstr "Sonque se soi disponible"
 
 #. XXX: Did this ever work?
 msgid "Only when docked"
-msgstr ""
+msgstr "Solament quand la fenèstra es acrocada"
 
 msgid "Only when not available"
-msgstr ""
+msgstr "Sonque se soi indisponible"
 
 msgid "Opacity:"
 msgstr "Opacitat :"
@@ -7659,10 +7659,10 @@ msgid "Open File..."
 msgstr "Dobrir un fichièr..."
 
 msgid "Open Hotmail Inbox"
-msgstr ""
+msgstr "Dobrir la bóstia de letras Hotmail"
 
 msgid "Open Inbox"
-msgstr ""
+msgstr "Dobrir la bóstia de letras"
 
 #. Add new public key
 msgid "Open Public Key..."
@@ -7672,7 +7672,7 @@ msgid "Open _Containing Directory"
 msgstr ""
 
 msgid "Open an IM window"
-msgstr ""
+msgstr "Dobrir una fenèstra de conversacion"
 
 #. Open file selector to select the public key.
 msgid "Open..."
@@ -7693,30 +7693,30 @@ msgstr ""
 
 #. Optional Information section
 msgid "Optional information:"
-msgstr ""
+msgstr "Entresenhas opcionalas :"
 
 #. Create the "Options" frame.
 msgid "Options"
 msgstr "Opcions"
 
 msgid "Options specific to Pidgin for Windows."
-msgstr ""
+msgstr "Opcions especificas a Pidgin Windows"
 
 msgid "Organization"
 msgstr "Organizacion"
 
 msgid "Organization Name"
-msgstr ""
+msgstr "Nom de l'organizacion"
 
 msgid "Organization Unit"
-msgstr ""
+msgstr "Servici"
 
 #, c-format
 msgid "Organization: \t%s\n"
-msgstr ""
+msgstr "Organizacion : \t%s\n"
 
 msgid "Original password"
-msgstr ""
+msgstr "Senhal actual"
 
 msgid "Oriya"
 msgstr ""
