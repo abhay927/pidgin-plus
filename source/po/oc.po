@@ -19,14 +19,14 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-01 12:55-0300\n"
-"PO-Revision-Date: 2015-07-06 05:39+0000\n"
+"PO-Revision-Date: 2015-07-07 05:30+0000\n"
 "Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
 "Language-Team: fr <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2015-07-06 05:39+0000\n"
+"X-Launchpad-Export-Date: 2015-07-07 05:42+0000\n"
 "X-Generator: Launchpad (build 17597)\n"
 "Language: Occitan (post 1500)\n"
 
@@ -7719,57 +7719,57 @@ msgid "Original password"
 msgstr "Senhal actual"
 
 msgid "Oriya"
-msgstr ""
+msgstr "Oriya"
 
 msgid "Orphans"
-msgstr ""
+msgstr "Orfanèls"
 
 msgid "Other"
 msgstr "Autre"
 
 msgid "Other Contacts"
-msgstr ""
+msgstr "Autres contactes"
 
 msgid "Other Locations"
 msgstr "Autres emplaçaments"
 
 msgid "Others talk in chat"
-msgstr ""
+msgstr "Qualqu'un parla dins la discussion"
 
 msgid "Our protocol is not supported by the server"
 msgstr ""
 
 msgid "Out To Lunch"
-msgstr ""
+msgstr "Partit manjar"
 
 msgid "Out of memory"
 msgstr "Pas pro de memòria"
 
 msgid "Out to Lunch"
-msgstr ""
+msgstr "Partit manjar"
 
 msgid "Output"
-msgstr ""
+msgstr "Sortida"
 
 msgid "Outraged"
-msgstr ""
+msgstr "Otratjat"
 
 msgid "Overwrite"
 msgstr "Remplaçar"
 
 msgid "P.O. Box"
-msgstr ""
+msgstr "Bóstia Postala"
 
 msgid "PDA"
 msgstr "PDA"
 
 msgid "PEM X.509 Certificate Export"
-msgstr ""
+msgstr "Exportar un certificat X.509 en PEM"
 
 #. pin
 #. pin (required)
 msgid "PIN"
-msgstr ""
+msgstr "PIN"
 
 #. show error to user
 msgid "PIN Update Error"
@@ -7777,7 +7777,7 @@ msgstr ""
 
 #, c-format
 msgid "PING reply -- Lag: %lu seconds"
-msgstr ""
+msgstr "Responsa al PING -- Lag : %lu segondas"
 
 msgid "PONG"
 msgstr "PONG"
@@ -7807,7 +7807,7 @@ msgid "Page"
 msgstr "Pagina"
 
 msgid "Pager port"
-msgstr ""
+msgstr "Pòrt del pager"
 
 msgid "Paging"
 msgstr ""
@@ -7816,7 +7816,7 @@ msgid "Part message"
 msgstr ""
 
 msgid "Pashto"
-msgstr ""
+msgstr "Pashto"
 
 msgid "Pass_word:"
 msgstr "Mot de _pas :"
@@ -7831,7 +7831,7 @@ msgid "Passphrase required"
 msgstr ""
 
 msgid "Passphrases do not match"
-msgstr ""
+msgstr "Las frasas secreta correspondon pas"
 
 msgid "Passport account not yet verified"
 msgstr ""
@@ -7840,7 +7840,7 @@ msgid "Passport account suspended"
 msgstr ""
 
 msgid "Passport not verified"
-msgstr ""
+msgstr "Compte Passapòrt pas verificat"
 
 msgid "Password"
 msgstr "Senhal"
@@ -7849,22 +7849,22 @@ msgid "Password (again)"
 msgstr "Senhal (confirmacion)"
 
 msgid "Password Changed"
-msgstr ""
+msgstr "Senhal modificat"
 
 msgid "Password has expired"
 msgstr ""
 
 msgid "Password is required to sign on."
-msgstr ""
+msgstr "Un senhal es necessari per se connectar."
 
 msgid "Password sent"
-msgstr ""
+msgstr "Senhal mandat"
 
 msgid "Password:"
 msgstr "Mot de pas :"
 
 msgid "Past Translators"
-msgstr ""
+msgstr "Ancians traductors"
 
 msgid "Paste as Plain _Text"
 msgstr ""
@@ -7874,6 +7874,8 @@ msgid ""
 "Path to save the files in\n"
 "(Please provide the full path)"
 msgstr ""
+"Dorsièr ont plaçar los fichièrs\n"
+"(Balhatz lo camin complet)"
 
 msgid "Pause"
 msgstr "Pausa"
@@ -7882,19 +7884,19 @@ msgid "Paused while typing"
 msgstr ""
 
 msgid "Pauses while typing"
-msgstr ""
+msgstr "Fa una pausa d'escritura"
 
 msgid "Payment Required"
-msgstr ""
+msgstr "Pagament necessari"
 
 msgid "Peer notification server down"
 msgstr ""
 
 msgid "Pending"
-msgstr ""
+msgstr "En espèra"
 
 msgid "Penguin Pimps"
-msgstr ""
+msgstr "Penguin Pimps"
 
 msgid "Performing key exchange"
 msgstr ""
@@ -7906,10 +7908,10 @@ msgstr ""
 #. *< priority
 #. *< id
 msgid "Perl Plugin Loader"
-msgstr ""
+msgstr "Cargador d'empeutons Perl"
 
 msgid "Permission denied"
-msgstr ""
+msgstr "Autorizacion refusada"
 
 msgid "Permit User"
 msgstr ""
@@ -7918,37 +7920,37 @@ msgid "Persian"
 msgstr "Persian"
 
 msgid "Persistent"
-msgstr ""
+msgstr "Persistent"
 
 msgid "Person enters chat"
-msgstr ""
+msgstr "Qualqu'un dintra dins la discussion"
 
 msgid "Person leaves chat"
-msgstr ""
+msgstr "Qualqu'un sortís de la discussion"
 
 msgid "Personal"
 msgstr "Personal"
 
 msgid "Personal Email"
-msgstr ""
+msgstr "Adreça electronica personala"
 
 msgid "Personal IM"
-msgstr ""
+msgstr "Messatjariá instantanèa"
 
 msgid "Personal Information"
-msgstr ""
+msgstr "Entresenhas personalas"
 
 msgid "Personal Mobile"
-msgstr ""
+msgstr "Telefòn portable personal"
 
 msgid "Personal Title"
-msgstr ""
+msgstr "Títol"
 
 msgid "Personal Web Page"
-msgstr ""
+msgstr "Pagina web personala"
 
 msgid "Pets"
-msgstr ""
+msgstr "Animals"
 
 msgid "Phone"
 msgstr "Telefòn"
@@ -7957,7 +7959,7 @@ msgid "Photo"
 msgstr "Fotografia"
 
 msgid "Pidgin Buddylist Theme Editor"
-msgstr ""
+msgstr "Editor de tèma de lista de contactes Pidgin"
 
 #. *< type
 #. *< ui_requirement
@@ -7969,10 +7971,10 @@ msgid "Pidgin Demonstration Plugin"
 msgstr ""
 
 msgid "Pidgin GTK+ Theme Control"
-msgstr ""
+msgstr "Contraròtle Pidgin del tèma GTK+"
 
 msgid "Pidgin Icon Theme Editor"
-msgstr ""
+msgstr "Editor de tèma d'icònas Pidgin"
 
 #. *< type
 #. *< ui_requirement
@@ -7982,13 +7984,13 @@ msgstr ""
 #. *< id
 #. *  description
 msgid "Pidgin Theme Editor"
-msgstr ""
+msgstr "Editor de tèma Pidgin"
 
 #. *< name
 #. *< version
 #. *  summary
 msgid "Pidgin Theme Editor."
-msgstr ""
+msgstr "Permet de modificar lo tèma de Pidgin"
 
 #. Installer Subsection Text
 msgid "Pidgin++ Instant Messaging Client (required)"
@@ -8015,28 +8017,28 @@ msgid "Ping"
 msgstr "Ping"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "Fracàs del ping"
 
 msgid "Ping reply received from server"
 msgstr ""
 
 msgid "Ping timed out"
-msgstr ""
+msgstr "Pas de responsa al ping"
 
 msgid "Place Closed"
-msgstr ""
+msgstr "Endrech tampat"
 
 msgid "Place tagged"
-msgstr ""
+msgstr "Endrech marcat"
 
 msgid "Places Lived"
 msgstr ""
 
 msgid "Plain text"
-msgstr ""
+msgstr "Tèxte en clar"
 
 msgid "Plaintext Authentication"
-msgstr ""
+msgstr "Autentificacion en tèxte pas chifrat"
 
 msgid "Play"
 msgstr "Legir"
@@ -8045,25 +8047,25 @@ msgid "Play a sound"
 msgstr "Legir un son"
 
 msgid "Playful"
-msgstr ""
+msgstr "Jogaire"
 
 msgid "Playing a game"
-msgstr ""
+msgstr "Jòga"
 
 msgid "Please Update the necessary fields."
-msgstr ""
+msgstr "Actualizatz los camps necessaris."
 
 msgid "Please authorize me so I can add you to my buddy list."
 msgstr ""
 
 msgid "Please enter a buddy to pounce."
-msgstr ""
+msgstr "Picatz un contacte per crear una alèrta."
 
 msgid "Please enter a different title for the status."
-msgstr ""
+msgstr "Picatz un autre títol per aqueste estat."
 
 msgid "Please enter a non-empty title for the status."
-msgstr ""
+msgstr "Picatz un títol pas void per l'estat."
 
 #, c-format
 msgid ""
@@ -8080,7 +8082,7 @@ msgid ""
 msgstr ""
 
 msgid "Please enter buddy information."
-msgstr ""
+msgstr "Picatz las entresenhas del contacte."
 
 #, c-format
 msgid "Please enter the %s channel private group name and passphrase."
@@ -8103,7 +8105,7 @@ msgid "Please enter the buddy's username and account type below."
 msgstr ""
 
 msgid "Please enter the name of the chat you want to join."
-msgstr ""
+msgstr "Picatz lo nom del salon que volètz rejónher."
 
 msgid "Please enter the name of the group to be added."
 msgstr ""
@@ -8119,13 +8121,15 @@ msgid ""
 "Please enter the name of the user you wish to invite, along with an optional "
 "invite message."
 msgstr ""
+"Picatz lo nom de l'utilizaire que volètz convidar dins la discussion, e "
+"tanben un messatge de convit facultatiu."
 
 #, c-format
 msgid "Please enter the new name for %s"
-msgstr ""
+msgstr "Picatz lo nom novèl per %s"
 
 msgid "Please enter the person's information below."
-msgstr ""
+msgstr "Picatz las informacions de la persona."
 
 msgid ""
 "Please enter the username or alias of the person whose info you would like "
@@ -8136,21 +8140,25 @@ msgid ""
 "Please enter the username or alias of the person whose log you would like to "
 "view."
 msgstr ""
+"Picatz lo nom d'utilizaire o l'aliàs de la persona que ne volètz legir los "
+"archius."
 
 msgid ""
 "Please enter the username or alias of the person you would like to "
 "Block/Unblock."
 msgstr ""
+"Picatz lo nom d'utilizaire o l'aliàs de la persona que volètz "
+"blocar/desblocar."
 
 msgid ""
 "Please enter the username or alias of the person you would like to IM."
-msgstr ""
+msgstr "Picatz lo nom d'utilizaire o l'aliàs del destinatari pel messatge."
 
 msgid "Please enter your current password and your new password."
-msgstr ""
+msgstr "Picatz vòstre senhal actual puèi vòstre senhal novèl"
 
 msgid "Please enter your new password"
-msgstr ""
+msgstr "Picatz vòstre senhal novèl"
 
 msgid "Please fill in the following fields:"
 msgstr ""
@@ -8165,6 +8173,8 @@ msgstr ""
 msgid ""
 "Please open the debug window and try again to see the exact error message."
 msgstr ""
+"Dobrissètz la fenèstra de desbugatge e tornatz ensajar per aver lo messatge "
+"d'error exact."
 
 #, c-format
 msgid ""
@@ -8190,10 +8200,10 @@ msgid "Please update the necessary fields."
 msgstr ""
 
 msgid "Please wait while TinyURL fetches a shorter URL ..."
-msgstr ""
+msgstr "Pacientatz pendent que TinyURL genèra una URL mai corta..."
 
 msgid "Please, enter your search criteria below"
-msgstr ""
+msgstr "Picatz vòstre critèri de recèrca çaijós"
 
 msgid "Please, select who can see your status"
 msgstr ""
@@ -8202,7 +8212,7 @@ msgid "Plu_gins"
 msgstr "A_justons"
 
 msgid "Plugin Information"
-msgstr ""
+msgstr "Informacions sus l'empeuton"
 
 msgid ""
 "Plugin does not implement all required functions (list_icon, login and close)"
@@ -8210,10 +8220,10 @@ msgstr ""
 
 #, c-format
 msgid "Plugin magic mismatch %d (need %d)"
-msgstr ""
+msgstr "Le numèro magic de l'empeuton es diferent de : %d (%d esperat)."
 
 msgid "Plugin need to be loaded before you can configure it."
-msgstr ""
+msgstr "Vos cal cargar l'empeuton abans de lo poder configurar."
 
 msgid "Plugins"
 msgstr "Ajustons"
@@ -8222,23 +8232,23 @@ msgid "Point values to use for account..."
 msgstr ""
 
 msgid "Point values to use when..."
-msgstr ""
+msgstr "Causir las valors d'utilizar quand..."
 
 msgid "Policy Violation"
-msgstr ""
+msgstr "Violacion de las règlas"
 
 msgid "Polish"
 msgstr "Polonés"
 
 #. summary
 msgid "Polish popular IM"
-msgstr ""
+msgstr "Messatjariá polonesa populara"
 
 msgid "Pop up a notification"
-msgstr ""
+msgstr "Dobrir una fenèstra d'alèrta"
 
 msgid "Pop-Up Message"
-msgstr ""
+msgstr "Messatge en fenèstra"
 
 #. port to connect to
 msgid "Port"
@@ -8251,36 +8261,36 @@ msgid "Portuguese"
 msgstr "Portugués"
 
 msgid "Portuguese-Brazil"
-msgstr ""
+msgstr "Portugués brasilièr"
 
 msgid "Position"
 msgstr "Posicion"
 
 msgid "Possible Matches"
-msgstr ""
+msgstr "Correspondéncias possiblas"
 
 msgid "Postal Code"
-msgstr ""
+msgstr "Còde postal"
 
 msgid "Postal code"
-msgstr ""
+msgstr "Còde postal"
 
 msgid "Pounce Target"
-msgstr ""
+msgstr "Cibla de l'alèrta"
 
 #. Create the "Pounce When Buddy..." frame.
 msgid "Pounce When Buddy..."
-msgstr ""
+msgstr "Alèrta quand lo contacte..."
 
 msgid "Pounce Who"
-msgstr ""
+msgstr "Alèrta per"
 
 #. Create the "Pounce on Whom" frame.
 msgid "Pounce on Whom"
-msgstr ""
+msgstr "Alèrta sus"
 
 msgid "Pounce only when my status is not Available"
-msgstr ""
+msgstr "Alertar pas que quand mon estat es pas « Disponible »"
 
 msgid "Pr_eferences"
 msgstr "Pr_eferéncias"
@@ -8300,7 +8310,7 @@ msgid "Preferred Contact"
 msgstr ""
 
 msgid "Preferred Language"
-msgstr ""
+msgstr "Lenga preferida"
 
 msgid "Prepend _string into window title:"
 msgstr ""
@@ -8320,22 +8330,22 @@ msgid "Presence"
 msgstr "Preséncia"
 
 msgid "Presence Settings"
-msgstr ""
+msgstr "Paramètres de preséncia"
 
 msgid "Priority"
 msgstr "Prioritat"
 
 msgid "Privacy"
-msgstr ""
+msgstr "Vida privada"
 
 msgid "Private Key file"
-msgstr ""
+msgstr "Fichièr de clau privada"
 
 msgid "Private key file"
-msgstr ""
+msgstr "Fichièr de clau privada"
 
 msgid "Pro_tocol:"
-msgstr ""
+msgstr "Pro_tocòl :"
 
 #, c-format
 msgid "Process returned error code %d"
@@ -8357,7 +8367,7 @@ msgid "Profile Update Error"
 msgstr ""
 
 msgid "Profile too long."
-msgstr ""
+msgstr "Perfil tròp long."
 
 msgid "Profiles"
 msgstr "Perfils"
@@ -8376,7 +8386,7 @@ msgid "Protocol:"
 msgstr "Protocòl :"
 
 msgid "Proud"
-msgstr ""
+msgstr "Fièr"
 
 #. *< name
 #. *< version
@@ -8404,13 +8414,13 @@ msgstr ""
 #. *  summary
 #. *  description
 msgid "Provides a wrapper around SSL support libraries."
-msgstr ""
+msgstr "Provesís una interfàcia per las bibliotècas SSL"
 
 msgid "Provides access to commonly used gtkrc settings."
 msgstr ""
 
 msgid "Provides alternate buddylist grouping options."
-msgstr ""
+msgstr "Provesís d'opcions suplementàrias pel regropament dels contactes."
 
 #. *< name
 #. *< version
@@ -8432,9 +8442,11 @@ msgstr ""
 msgid ""
 "Provides options specific to Pidgin for Windows, such as buddy list docking."
 msgstr ""
+"Provesís d'opcions especificas a Pidgin Windows, talas coma l'acrocatge de "
+"la lista de contactes."
 
 msgid "Provides support for loading Tcl plugins"
-msgstr ""
+msgstr "Permet de cargar de plugins Tcl"
 
 #. *< name
 #. *< version
@@ -8452,28 +8464,28 @@ msgid "Proxy"
 msgstr "Proxy"
 
 msgid "Proxy Server"
-msgstr ""
+msgstr "Servidor mandatari"
 
 msgid "Proxy _type:"
-msgstr ""
+msgstr "Tipe de servidor mandatari :"
 
 msgid "Proxy preferences are configured in GNOME preferences"
 msgstr ""
 
 msgid "Proxy t_ype:"
-msgstr ""
+msgstr "_Tipede proxy :"
 
 msgid "Psychic Mode"
-msgstr ""
+msgstr "Mòde psichic"
 
 msgid "Psychic mode for incoming conversation"
 msgstr ""
 
 msgid "PubSub Collection"
-msgstr ""
+msgstr "Ensemble PubSub"
 
 msgid "PubSub Leaf"
-msgstr ""
+msgstr "Fulhet PubSub"
 
 msgid "Public Key Babbleprint"
 msgstr ""
@@ -8485,7 +8497,7 @@ msgid ""
 msgstr ""
 
 msgid "Public Key Fingerprint"
-msgstr ""
+msgstr "Emprencha de clau publica"
 
 #, c-format
 msgid ""
@@ -8498,19 +8510,19 @@ msgid "Public Key Information"
 msgstr ""
 
 msgid "Public Key file"
-msgstr ""
+msgstr "Fichièr de clau publica"
 
 msgid "Public _IP:"
-msgstr ""
+msgstr "Adreça _IP publica :"
 
 msgid "Public key authentication"
 msgstr ""
 
 msgid "Public key file"
-msgstr ""
+msgstr "Fichièr de clau publica"
 
 msgid "Publish status (note: everyone may watch you)"
-msgstr ""
+msgstr "Estat de publicacion (nòta : tot lo monde vos pòt agachar)"
 
 msgid "Punjabi"
 msgstr "Punjabi"
@@ -8526,10 +8538,10 @@ msgid "Punking %s..."
 msgstr ""
 
 msgid "Purple Person"
-msgstr ""
+msgstr "Persona Purple"
 
 msgid "Purple's D-BUS server is not running for the reason listed below"
-msgstr ""
+msgstr "Lo servidor D-BUS de Purple vira pas per las rasons seguentas"
 
 #. The names of IM clients are marked for translation at the request of
 #. translators who wanted to transliterate them.  Many translators
@@ -8541,7 +8553,7 @@ msgid "QuakeNet Authentication Error"
 msgstr ""
 
 msgid "Question dialog"
-msgstr ""
+msgstr "Bóstia de messatge per demanda"
 
 msgid "Questioning"
 msgstr ""
@@ -8551,18 +8563,18 @@ msgstr ""
 
 #, c-format
 msgid "Quiet"
-msgstr ""
+msgstr "Silenciós"
 
 #, c-format
 msgid "Quieter"
-msgstr ""
+msgstr "Mai silenciós"
 
 #, c-format
 msgid "Quietest"
-msgstr ""
+msgstr "Lo mai silenciós"
 
 msgid "Quit message"
-msgstr ""
+msgstr "Messatge de despart"
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -8586,23 +8598,23 @@ msgid "Raspberrying %s..."
 msgstr ""
 
 msgid "Raw"
-msgstr ""
+msgstr "Brut"
 
 #. contact is in Deleted, Rejected or None state
 msgid "Re-Invite"
 msgstr ""
 
 msgid "Re-enable"
-msgstr ""
+msgstr "Tornar activar"
 
 msgid "Re-enable Account"
-msgstr ""
+msgstr "Tornar activar lo compte"
 
 msgid "Re-initializing Stream"
-msgstr ""
+msgstr "Reïnicializacion del flux"
 
 msgid "Re-read gtkrc files"
-msgstr ""
+msgstr "Relegir los fichièrs gtkrc"
 
 msgid "Re-request Authorization"
 msgstr ""
@@ -8611,30 +8623,30 @@ msgid "Reading challenge"
 msgstr ""
 
 msgid "Reading error"
-msgstr ""
+msgstr "Error de lectura"
 
 msgid "Real Name"
-msgstr ""
+msgstr "Nom vertadièr"
 
 #. Hint for translators: Please check the tabulator width here and in
 #. the next strings (short strings: 2 tabs, longer strings 1 tab,
 #. sum: 3 tabs or 24 characters)
 #, c-format
 msgid "Real Name: \t%s\n"
-msgstr ""
+msgstr "Nom vertadièr : \t%s\n"
 
 msgid "Real name"
-msgstr ""
+msgstr "Nom vertadièr"
 
 #, c-format
 msgid "Really delete certificate for %s?"
-msgstr ""
+msgstr "Sètz segur que volètz suprimir lo certificat per %s ?"
 
 msgid "Realm"
-msgstr ""
+msgstr "Domeni"
 
 msgid "Received"
-msgstr ""
+msgstr "Recebut"
 
 #, c-format
 msgid "Received %s's public key. Would you like to accept this public key?"
@@ -8650,14 +8662,14 @@ msgid "Received Message Name Color"
 msgstr ""
 
 msgid "Received Messages"
-msgstr ""
+msgstr "Messatges recebuts"
 
 msgid "Received authorization"
 msgstr ""
 
 #. Some error in the received stream
 msgid "Received invalid data"
-msgstr ""
+msgstr "Donadas recebudas pas validas"
 
 msgid "Received invalid data on connection with remote user."
 msgstr ""
@@ -8677,16 +8689,16 @@ msgid "Received unexpected response from %s: %s"
 msgstr ""
 
 msgid "Receiving"
-msgstr ""
+msgstr "Recepcion en cors"
 
 msgid "Recipient Unavailable"
-msgstr ""
+msgstr "Destinatari pas disponible"
 
 msgid "Reconnect"
-msgstr ""
+msgstr "Reconnectar"
 
 msgid "Recurring"
-msgstr ""
+msgstr "Recurrenta"
 
 msgid "Refused by client"
 msgstr ""
@@ -8699,18 +8711,18 @@ msgstr "S'enregistrar"
 
 #, c-format
 msgid "Register New Account at %s"
-msgstr ""
+msgstr "Enregistrar un compte novèl sus %s"
 
 #. show the form to the user to complete
 msgid "Register New MXit Account"
 msgstr ""
 
 msgid "Register New XMPP Account"
-msgstr ""
+msgstr "Enregistrar un compte XMPP novèl"
 
 #. show error to user
 msgid "Registration Error"
-msgstr ""
+msgstr "Error d'enregistrament"
 
 msgid "Registration Failed"
 msgstr ""
