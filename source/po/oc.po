@@ -19,14 +19,14 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-01 12:55-0300\n"
-"PO-Revision-Date: 2015-07-07 16:58+0000\n"
+"PO-Revision-Date: 2015-07-08 14:20+0000\n"
 "Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
 "Language-Team: fr <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2015-07-08 05:49+0000\n"
+"X-Launchpad-Export-Date: 2015-07-09 06:02+0000\n"
 "X-Generator: Launchpad (build 17608)\n"
 "Language: Occitan (post 1500)\n"
 
@@ -10630,18 +10630,22 @@ msgid ""
 "The certificate is not trusted because no certificate that can verify it is "
 "currently trusted."
 msgstr ""
+"I a pas de fisança dins aquel certificat perque i a pas de fisança dins cap "
+"dels certificats que lo verificant."
 
 msgid ""
 "The certificate is not valid yet.  Check that your computer's date and time "
 "are accurate."
 msgstr ""
+"Aqueste certificat es pas encara valid. Verificatz que la data e l'ora sus "
+"aquesta maquina son regladas corrèctament."
 
 msgid "The certificate is self-signed and cannot be automatically checked."
-msgstr ""
+msgstr "Lo certificat es autosignat. Pòt pas èsser verificat automaticament."
 
 #. Translators: "domain" refers to a DNS domain (e.g. talk.google.com)
 msgid "The certificate presented is not issued to this domain."
-msgstr ""
+msgstr "Lo certificat provesit correspond pas a aqueste domeni."
 
 #. client too old
 #, c-format
@@ -10652,28 +10656,28 @@ msgid "The color to use for the typing notification"
 msgstr ""
 
 msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr ""
+msgstr "Se activat, la comanda utilizada per gerir las URL en « aim »"
 
 msgid "The command used to handle \"gg\" URLs, if enabled."
-msgstr ""
+msgstr "Se activat, la comanda utilizada per gerir las URL en « gg »"
 
 msgid "The command used to handle \"icq\" URLs, if enabled."
-msgstr ""
+msgstr "Se activat, la comanda utilizada per gerir las URL en « icq »"
 
 msgid "The command used to handle \"irc\" URLs, if enabled."
-msgstr ""
+msgstr "Se activat, la comanda utilizada per gerir las URL en « irc »"
 
 msgid "The command used to handle \"msnim\" URLs, if enabled."
-msgstr ""
+msgstr "Se activat, la comanda utilizada per gerir las URL en « msnim »"
 
 msgid "The command used to handle \"sip\" URLs, if enabled."
-msgstr ""
+msgstr "Se activat, la comanda utilizada per gerir las URL en « sip »"
 
 msgid "The command used to handle \"xmpp\" URLs, if enabled."
-msgstr ""
+msgstr "Se activat, la comanda utilizada per gerir las URL en « xmpp »"
 
 msgid "The command used to handle \"ymsgr\" URLs, if enabled."
-msgstr ""
+msgstr "Se activat, la comanda utilizada per gerir las URL en « ymsgr »"
 
 #, c-format
 msgid "The default %s buddy list theme"
@@ -10700,7 +10704,7 @@ msgstr ""
 
 #, c-format
 msgid "The file was saved as %s."
-msgstr ""
+msgstr "Lo fichièr es estat enregistrat jol nom %s."
 
 #. the file is too big
 msgid "The file you are trying to send is too large!"
@@ -10714,7 +10718,7 @@ msgid "The following error has occurred loading %s: %s"
 msgstr ""
 
 msgid "The following error has occurred:"
-msgstr ""
+msgstr "I a agut l'error seguenta :"
 
 msgid "The following plugins will be unloaded."
 msgstr ""
@@ -10722,8 +10726,8 @@ msgstr ""
 #, c-format
 msgid "The following username is associated with %s"
 msgid_plural "The following usernames are associated with %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Lo nom d'utilizaire seguent es associat a %s"
+msgstr[1] "Los noms d'utilizaire seguents son associats a %s"
 
 msgid "The following users are missing from your addressbook"
 msgstr ""
@@ -10732,7 +10736,7 @@ msgid "The font to use for the typing notification"
 msgstr ""
 
 msgid "The handler for \"aim\" URLs"
-msgstr ""
+msgstr "Lo gestionari de las URL en « aim »"
 
 msgid "The handler for \"gg\" URLs"
 msgstr ""
