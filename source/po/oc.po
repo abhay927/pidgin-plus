@@ -19,14 +19,14 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-01 12:55-0300\n"
-"PO-Revision-Date: 2015-07-08 14:20+0000\n"
+"PO-Revision-Date: 2015-07-09 12:36+0000\n"
 "Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
 "Language-Team: fr <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2015-07-09 06:02+0000\n"
+"X-Launchpad-Export-Date: 2015-07-10 05:44+0000\n"
 "X-Generator: Launchpad (build 17608)\n"
 "Language: Occitan (post 1500)\n"
 
@@ -10739,25 +10739,25 @@ msgid "The handler for \"aim\" URLs"
 msgstr "Lo gestionari de las URL en « aim »"
 
 msgid "The handler for \"gg\" URLs"
-msgstr ""
+msgstr "Lo gestionari de las URL en « gg »"
 
 msgid "The handler for \"icq\" URLs"
-msgstr ""
+msgstr "Lo gestionari de las URL en « icq »"
 
 msgid "The handler for \"irc\" URLs"
-msgstr ""
+msgstr "Lo gestionari de las URL en « irc »"
 
 msgid "The handler for \"msnim\" URLs"
-msgstr ""
+msgstr "Lo gestionari de las URL en « msnim »"
 
 msgid "The handler for \"sip\" URLs"
-msgstr ""
+msgstr "Lo gestionari de las URL en « sip »"
 
 msgid "The handler for \"xmpp\" URLs"
-msgstr ""
+msgstr "Lo gestionari de las URL en « xmpp »"
 
 msgid "The handler for \"ymsgr\" URLs"
-msgstr ""
+msgstr "Lo gestionari de las URL en « ymsgr »"
 
 #, c-format
 msgid ""
@@ -10797,7 +10797,7 @@ msgid ""
 msgstr ""
 
 msgid "The installer is already running."
-msgstr ""
+msgstr "Lo programa d'installacion es ja en cors d'execucion."
 
 msgid "The layout of icons, name, and status of the buddy list"
 msgstr ""
@@ -10823,7 +10823,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "The message is too large."
-msgstr ""
+msgstr "Messatge tròp long"
 
 msgid "The new formatting is invalid."
 msgstr ""
@@ -10857,7 +10857,7 @@ msgid ""
 msgstr ""
 
 msgid "The required fields are underlined."
-msgstr ""
+msgstr "Las zònas requesidas son soslinhadas."
 
 #, c-format
 msgid ""
@@ -10867,7 +10867,7 @@ msgstr ""
 
 #, c-format
 msgid "The required plugin %s was unable to load."
-msgstr ""
+msgstr "L'empeuton dependent %s a pas pogut èsser cargat."
 
 msgid ""
 "The rest of the messages will be saved as pounces. You can edit/delete the "
@@ -10875,10 +10875,10 @@ msgid ""
 msgstr ""
 
 msgid "The selected account is not online."
-msgstr ""
+msgstr "Lo compte seleccionat es pas activat."
 
 msgid "The selected file is not a valid plugin."
-msgstr ""
+msgstr "Lo fichièr seleccionat es pas un empeuton valid."
 
 msgid "The server could not access the directory"
 msgstr ""
@@ -10895,7 +10895,7 @@ msgid "The server returned an empty response"
 msgstr ""
 
 msgid "The specified word already exists in the correction list."
-msgstr ""
+msgstr "Lo mot existís ja dins la lista de correccions."
 
 msgid "The text information for a buddy's status"
 msgstr ""
@@ -10934,11 +10934,11 @@ msgstr ""
 
 #, c-format
 msgid "The topic for %s is: %s"
-msgstr ""
+msgstr "Lo subjècte de %s es : %s"
 
 #, c-format
 msgid "The topic is: %s"
-msgstr ""
+msgstr "Lo subjècte es : %s"
 
 msgid "The two PINs you entered do not match."
 msgstr ""
@@ -10980,16 +10980,16 @@ msgid "The user %u has granted your request to add them to your buddy list."
 msgstr ""
 
 msgid "The user has blocked you"
-msgstr ""
+msgstr "L'utilizaire vos a blocat"
 
 msgid "The user has not created a public profile."
-msgstr ""
+msgstr "L'utilizaire a pas creat de perfil public"
 
 msgid "The user is either offline or you are blocked"
-msgstr ""
+msgstr "Siá l'utilizaire es desconnectat, siá vos a blocat"
 
 msgid "The user's profile is empty."
-msgstr ""
+msgstr "Lo perfil de l'utilizaire es void."
 
 msgid "The username specified does not exist."
 msgstr ""
@@ -11013,7 +11013,7 @@ msgid "Themes"
 msgstr "Tèmas"
 
 msgid "There are no protocol plugins installed."
-msgstr ""
+msgstr "Cap d'empeuton de protocòl es pas installat."
 
 msgid "There are no users matching your search criteria."
 msgstr ""
@@ -11040,10 +11040,10 @@ msgid "These buddies will see your status when you switch to \"Invisible\""
 msgstr ""
 
 msgid "Thinking"
-msgstr ""
+msgstr "Sosca"
 
 msgid "Thirsty"
-msgstr ""
+msgstr "Assedat"
 
 msgid ""
 "This 64-bit version of Pidgin++ cannot be installed in 32-bit Windows. You "
@@ -11057,7 +11057,7 @@ msgid "This account does not have email enabled."
 msgstr ""
 
 msgid "This chat name is already in use"
-msgstr ""
+msgstr "Aqueste nom de discussion ja es utilizat"
 
 msgid "This conference has been closed. No more messages can be sent."
 msgstr ""
@@ -11087,6 +11087,8 @@ msgid ""
 "This is how your outgoing message text will appear when you use protocols "
 "that support formatting."
 msgstr ""
+"Vaquí cossí lo tèxte dels messatges qu'anatz mandar se visualizar quand "
+"utilizatz de protocòls que gerisson los estils."
 
 msgid "This is the name that identifies this location"
 msgstr ""
@@ -11104,10 +11106,13 @@ msgid ""
 "This plugin allows the user to customize conversation and logging message "
 "timestamp formats."
 msgstr ""
+"Permet a l'utilizaire de personalizar dins las conversacions e los archius "
+"lo biais qu'es afichat l'orodatatge."
 
 msgid ""
 "This plugin cannot be loaded because it was not built with X11 support."
 msgstr ""
+"Impossible de cargar aqueste empeuton perque es pas estat compilat amb X11."
 
 #. *  description
 msgid ""
@@ -11116,9 +11121,13 @@ msgid ""
 "\n"
 "* Note: This plugin requires Win2000 or greater."
 msgstr ""
+"Activa la transparéncia de las fenèstras de conversacion e de la lista de "
+"contactes.\n"
+"\n"
+"Nòta : Aqueste plugin necessita Windows 2000 o mai recent."
 
 msgid "This plugin has not defined an ID."
-msgstr ""
+msgstr "Aqueste empeuton a pas definit son identificant."
 
 #. *  description
 msgid ""
@@ -11128,7 +11137,7 @@ msgstr ""
 
 #. *  description
 msgid "This plugin is useful for debugging XMPP servers or clients."
-msgstr ""
+msgstr "Aqueste plugin es utile per desbugar los clients o servidors XMPP."
 
 msgid ""
 "This plugin is useful for registering with legacy transports or other XMPP "
@@ -11143,10 +11152,10 @@ msgid "This protocol does not support chat rooms."
 msgstr ""
 
 msgid "This protocol does not support fetching the public alias."
-msgstr ""
+msgstr "Aqueste protocòl permet pas de recuperar un aliàs public."
 
 msgid "This protocol does not support setting a public alias."
-msgstr ""
+msgstr "Aqueste protocòl permet pas de causir un escais public."
 
 msgid ""
 "This requires a direct connection between the two computers and is necessary "
@@ -11177,20 +11186,20 @@ msgstr ""
 
 #, c-format
 msgid "Thread creation failure: %s"
-msgstr ""
+msgstr "Fracàs de la creacion de processus :%s"
 
 #. threshold spinner
 msgid "Threshold:"
-msgstr ""
+msgstr "Sulhet :"
 
 msgid "Time Elapsed:"
-msgstr ""
+msgstr "Temps passat :"
 
 msgid "Time Remaining:"
-msgstr ""
+msgstr "Temps que demòra :"
 
 msgid "Time Response"
-msgstr ""
+msgstr "Temps de responsa"
 
 msgid "Timeout during key agreement"
 msgstr ""
@@ -11205,29 +11214,29 @@ msgstr ""
 #. *< priority
 #. *< id
 msgid "Timestamp"
-msgstr ""
+msgstr "Orodatatge"
 
 msgid "Timestamp Format Options"
-msgstr ""
+msgstr "Opcions d'afichatge de l'orodatatge"
 
 msgid "Timezone"
 msgstr "Fus orari"
 
 msgid "Timezone (UTC)"
-msgstr ""
+msgstr "Fus orari (UTC)"
 
 msgid "TinyURL"
 msgstr "TinyURL"
 
 msgid "TinyURL (or other) address prefix"
-msgstr ""
+msgstr "Prefix d'adreça TinyURL (o autre)"
 
 #, c-format
 msgid "TinyURL for above: %s"
-msgstr ""
+msgstr "TinyURL per çaisús : %s"
 
 msgid "TinyURL plugin"
-msgstr ""
+msgstr "Empeuton TinyURL"
 
 msgid "Tired"
 msgstr "Las"
@@ -11248,25 +11257,25 @@ msgid ""
 msgstr ""
 
 msgid "Toaster plugin"
-msgstr ""
+msgstr "Empeuton torrador de pan"
 
 msgid "Toggle Tag"
-msgstr ""
+msgstr "Basculer la marca"
 
 msgid "Too many groups"
-msgstr ""
+msgstr "Tròp de gropes"
 
 msgid "Too many hits to a FND"
-msgstr ""
+msgstr "Tròp de responsas sus un FND"
 
 msgid "Too many sessions"
-msgstr ""
+msgstr "Tròp de sesilhas"
 
 msgid "Top"
 msgstr "Naut"
 
 msgid "Topic"
-msgstr ""
+msgstr "Subjècte"
 
 #, c-format
 msgid "Topic for %s set by %s at %s on %s"
@@ -11276,43 +11285,43 @@ msgid "Topic too long"
 msgstr ""
 
 msgid "Topic:"
-msgstr ""
+msgstr "Subjècte :"
 
 msgid "Tor/Privacy (SOCKS5)"
-msgstr ""
+msgstr "Tor/Privacy (SOCKS5)"
 
 #. Torch means "to set on fire."  Don't worry, this doesn't
 #. * make a whole lot of sense in English, either.  Feel free
 #. * to translate it literally.
 msgid "Torch"
-msgstr ""
+msgstr "Brutlar"
 
 #, c-format
 msgid "Torching %s..."
 msgstr ""
 
 msgid "Total Buddies"
-msgstr ""
+msgstr "Nombre total de contactes"
 
 msgid "Total Friends"
-msgstr ""
+msgstr "Total d'amics"
 
 msgid "Total log size:"
-msgstr ""
+msgstr "Talha totala dels archius :"
 
 msgid "Traditional Chinese"
 msgstr "Chinés tradicional"
 
 #, c-format
 msgid "Transfer of file %s complete"
-msgstr ""
+msgstr "Transferiment del fichièr « %s » acabat"
 
 #, c-format
 msgid "Transfer of file <A HREF=\"file://%s\">%s</A> complete"
-msgstr ""
+msgstr "Transferiment del fichièr <A HREF=\"file://%s\">%s</A> acabat"
 
 msgid "Transferring"
-msgstr ""
+msgstr "Transferiment"
 
 #. *< type
 #. *< ui_requirement
@@ -11339,49 +11348,67 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
 msgstr ""
+"Indica se la comanda descricha dins la clau « command » deu gerir las URL en "
+"« aim »."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"gg\" "
 "URLs."
 msgstr ""
+"Indica se la comanda descricha dins la clau « command » deu gerir las URL en "
+"« gg »."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"icq\" "
 "URLs."
 msgstr ""
+"Indica se la comanda descricha dins la clau « command » deu gerir las URL en "
+"« icq »."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"irc\" "
 "URLs."
 msgstr ""
+"Indica se la comanda descricha dins la clau « command » deu gerir las URL en "
+"« irc »."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"msnim\" "
 "URLs."
 msgstr ""
+"Indica se la comanda descricha dins la clau « command » deu gerir las URL en "
+"« msnim »."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"sip\" "
 "URLs."
 msgstr ""
+"Indica se la comanda descricha dins la clau « command » deu gerir las URL en "
+"« sip »."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"xmpp\" "
 "URLs."
 msgstr ""
+"Indica se la comanda descricha dins la clau « command » deu gerir las URL en "
+"« xmpp »."
 
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ymsgr\" "
 "URLs."
 msgstr ""
+"Indica se la comanda descricha dins la clau « command » deu gerir las URL en "
+"« imsgr »."
 
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
 msgstr ""
+"Verai se la comanda utilizada per gerir aqueste tipe d'URL deu èsser aviada "
+"dins un terminal"
 
 msgid "Tune Album"
-msgstr ""
+msgstr "Album musical"
 
 #. primitive
 #. ID
@@ -11390,28 +11417,28 @@ msgstr ""
 #. should be user_settable some day
 #. independent
 msgid "Tune Artist"
-msgstr ""
+msgstr "Artistas musicals"
 
 msgid "Tune Comment"
-msgstr ""
+msgstr "Comentari musical"
 
 msgid "Tune Genre"
-msgstr ""
+msgstr "Genre musical"
 
 msgid "Tune Time"
-msgstr ""
+msgstr "Temps musical"
 
 msgid "Tune Title"
-msgstr ""
+msgstr "Títol musical"
 
 msgid "Tune Track"
-msgstr ""
+msgstr "Pista musicala"
 
 msgid "Tune URL"
-msgstr ""
+msgstr "URL musicala"
 
 msgid "Tune Year"
-msgstr ""
+msgstr "Annada musicala"
 
 msgid "Turkish"
 msgstr "Turc"
@@ -11435,13 +11462,13 @@ msgid "Type the host name for this certificate."
 msgstr ""
 
 msgid "Type the host name this certificate is for."
-msgstr ""
+msgstr "Picatz lo nom d'òste que correspond a aqueste certificat."
 
 msgid "Typing"
 msgstr "A picar"
 
 msgid "Typing Notification Color"
-msgstr ""
+msgstr "Color de la notificacion de picada"
 
 msgid "Typing notification color"
 msgstr ""
@@ -11460,7 +11487,7 @@ msgstr "URI"
 
 #. Installer Subsection Text
 msgid "URI Handlers"
-msgstr ""
+msgstr "Gestion dels ligams (URI)"
 
 msgid "URL"
 msgstr "URL"
@@ -11472,10 +11499,10 @@ msgid "Ukranian"
 msgstr "Ukrainien"
 
 msgid "Un-Ignore"
-msgstr ""
+msgstr "Ignorar pas pus"
 
 msgid "Un-hide From"
-msgstr ""
+msgstr "Se far veire a"
 
 msgid "Un_block"
 msgstr "Des_blocar"
@@ -11495,7 +11522,7 @@ msgstr ""
 #. * won't cause too many problems if we just ignore it
 #, c-format
 msgid "Unable to add \"%s\"."
-msgstr ""
+msgstr "Impossible d'apondre « %s »"
 
 #, c-format
 msgid "Unable to add %s to deny list (%s)."
@@ -11507,7 +11534,7 @@ msgstr ""
 
 #, c-format
 msgid "Unable to add %s to your buddy list (%s)."
-msgstr ""
+msgstr "Impossible d'apondre %s a vòstra lista de contactes (%s)"
 
 #, c-format
 msgid ""
@@ -11523,10 +11550,10 @@ msgid "Unable to add buddy to server list"
 msgstr ""
 
 msgid "Unable to add group"
-msgstr ""
+msgstr "Impossible d'apondre un grop"
 
 msgid "Unable to add group: group exists"
-msgstr ""
+msgstr "Impossible d'apondre lo grop : existís ja"
 
 msgid "Unable to add group: group not found"
 msgstr ""
@@ -11555,7 +11582,7 @@ msgid "Unable to add the buddy %s for an unknown reason."
 msgstr ""
 
 msgid "Unable to add user"
-msgstr ""
+msgstr "Impossible d'apondre l'utilizaire"
 
 #, c-format
 msgid "Unable to add user to privacy list (%s)."
@@ -11566,7 +11593,7 @@ msgstr ""
 
 #, c-format
 msgid "Unable to affiliate user %s as \"%s\""
-msgstr ""
+msgstr "Impossible d'afiliar l'utilizaire %s a « %s »"
 
 #, c-format
 msgid ""
@@ -11580,7 +11607,7 @@ msgstr ""
 
 #, c-format
 msgid "Unable to ban user %s"
-msgstr ""
+msgstr "Impossible de bandir l'utilizaire %s"
 
 #, c-format
 msgid ""
@@ -11597,24 +11624,24 @@ msgid "Unable to buzz, because there is nothing known about %s."
 msgstr ""
 
 msgid "Unable to canonicalize password"
-msgstr ""
+msgstr "Impossible de normalizar lo senhal"
 
 msgid "Unable to canonicalize username"
-msgstr ""
+msgstr "Impossible de normalizar lo nom d'utilizaire"
 
 #, c-format
 msgid "Unable to change server side privacy settings (%s)."
 msgstr ""
 
 msgid "Unable to configure"
-msgstr ""
+msgstr "Impossible de configurar"
 
 msgid "Unable to connect"
-msgstr ""
+msgstr "Impossible de se connectar"
 
 #, c-format
 msgid "Unable to connect to %s"
-msgstr ""
+msgstr "Impossible de se connectar a %s."
 
 #, c-format
 msgid "Unable to connect to %s: %s"
@@ -11642,12 +11669,12 @@ msgid ""
 msgstr ""
 
 msgid "Unable to connect."
-msgstr ""
+msgstr "Impossible de se connectar."
 
 #. this is a regular connect, error out
 #, c-format
 msgid "Unable to connect: %s"
-msgstr ""
+msgstr "Impossible de se connectar : %s"
 
 msgid "Unable to connect: The server returned an empty response."
 msgstr ""
@@ -11662,20 +11689,20 @@ msgstr ""
 
 #, c-format
 msgid "Unable to create conference (%s)."
-msgstr ""
+msgstr "Impossible de crear la conferéncia (%s)"
 
 msgid "Unable to create connection"
-msgstr ""
+msgstr "Impossible de crear una connexion"
 
 msgid "Unable to create listen socket"
 msgstr ""
 
 msgid "Unable to create new resolver process\n"
-msgstr ""
+msgstr "Impossible de crear un novèl processus de resolucion de noms.\n"
 
 #, c-format
 msgid "Unable to create socket: %s"
-msgstr ""
+msgstr "Impossible de crear la miniaplicacion : %s"
 
 msgid ""
 "Unable to detect ActiveTCL installation. If you wish to use TCL plugins, "
@@ -11683,7 +11710,7 @@ msgid ""
 msgstr ""
 
 msgid "Unable to display the search results."
-msgstr ""
+msgstr "Impossible d'afichar los resultats de la recèrca."
 
 msgid "Unable to establish SSL connection"
 msgstr ""
@@ -11733,7 +11760,7 @@ msgid "Unable to initialize SILC protocol"
 msgstr ""
 
 msgid "Unable to initialize connection"
-msgstr ""
+msgstr "Impossible de crear una connexion."
 
 #, c-format
 msgid "Unable to initiate media with %s: invalid JID"
@@ -11753,11 +11780,11 @@ msgstr ""
 
 #, c-format
 msgid "Unable to invite user (%s)."
-msgstr ""
+msgstr "Impossible de convidar l'utilizaire (%s)."
 
 #, c-format
 msgid "Unable to kick user %s"
-msgstr ""
+msgstr "Impossible d'expulsar l'utilizaire %s"
 
 msgid "Unable to listen for incoming IM connections"
 msgstr ""
@@ -11770,14 +11797,14 @@ msgid "Unable to load SILC key pair: %s"
 msgstr ""
 
 msgid "Unable to load the plugin"
-msgstr ""
+msgstr "Impossible de cargar l'empeuton."
 
 msgid "Unable to load your plugin."
-msgstr ""
+msgstr "Impossible de cargar vòstre empeuton."
 
 #, c-format
 msgid "Unable to login: %s"
-msgstr ""
+msgstr "Impossible de s'autentificar : %s"
 
 #, c-format
 msgid ""
@@ -11786,7 +11813,7 @@ msgid ""
 msgstr ""
 
 msgid "Unable to open URL"
-msgstr ""
+msgstr "Impossible de dobrir l'URL"
 
 msgid "Unable to open URL: the 'Manual' browser command seems invalid."
 msgstr ""
@@ -11795,10 +11822,10 @@ msgid "Unable to open a listening port."
 msgstr ""
 
 msgid "Unable to open file."
-msgstr ""
+msgstr "Impossible de dobrir lo fichièr."
 
 msgid "Unable to parse message"
-msgstr ""
+msgstr "Impossible d'interpretar lo messatge"
 
 #, c-format
 msgid "Unable to parse response from HTTP proxy: %s"
@@ -11806,7 +11833,7 @@ msgstr ""
 
 #, c-format
 msgid "Unable to ping user %s"
-msgstr ""
+msgstr "Impossible de mandar un ping a l'utilizaire %s"
 
 msgid "Unable to process your request at this time"
 msgstr ""
@@ -11815,7 +11842,7 @@ msgid "Unable to read from network"
 msgstr ""
 
 msgid "Unable to read from socket"
-msgstr ""
+msgstr "Impossible de legir lo socket."
 
 msgid "Unable to receive offline messages"
 msgstr ""
@@ -11838,7 +11865,7 @@ msgid "Unable to save icon file to disk."
 msgstr ""
 
 msgid "Unable to save new account"
-msgstr ""
+msgstr "Impossible d'enregistrar lo compte novèl"
 
 #. file write error
 msgid "Unable to save the file"
@@ -11862,15 +11889,16 @@ msgstr ""
 #, c-format
 msgid "Unable to send file to %s, user is not online"
 msgstr ""
+"Impossible de mandar un fichièr a %s per çò que l'utilizaire es pas connectat"
 
 #. TODO: Improve this! message to who or for what conference?
 #, c-format
 msgid "Unable to send message (%s)."
-msgstr ""
+msgstr "Impossible de mandar lo messatge (%s)."
 
 #, c-format
 msgid "Unable to send message to %s."
-msgstr ""
+msgstr "Impossible de mandar lo messatge a %s."
 
 #, c-format
 msgid "Unable to send message to %s. Could not create the conference (%s)."
@@ -11878,7 +11906,7 @@ msgstr ""
 
 #, c-format
 msgid "Unable to send message to %s:"
-msgstr ""
+msgstr "Impossible de mandar lo messatge a %s :"
 
 #, c-format
 msgid "Unable to send message to %s: %s"
@@ -11889,7 +11917,7 @@ msgid "Unable to send message to %s: %s (%s)"
 msgstr ""
 
 msgid "Unable to send message."
-msgstr ""
+msgstr "Impossible de mandar lo messatge"
 
 #, c-format
 msgid "Unable to send message. Could not create the conference (%s)."
@@ -11900,21 +11928,22 @@ msgid "Unable to send message. Could not get details for user (%s)."
 msgstr ""
 
 msgid "Unable to send message: "
-msgstr ""
+msgstr "Impossible de mandar lo messatge : "
 
 #, c-format
 msgid "Unable to send message: %s"
-msgstr ""
+msgstr "Impossible de mandar lo messatge : %s"
 
 #, c-format
 msgid "Unable to send message: %s (%s)"
 msgstr ""
 
 msgid "Unable to send message: The message is too large."
-msgstr ""
+msgstr "Impossible de mandar lo messatge : tròp long."
 
 msgid "Unable to send request to resolver process\n"
 msgstr ""
+"Impossible de mandar la demanda al processus de resolucion de noms.\n"
 
 msgid "Unable to send the message, the conversation couldn't be started."
 msgstr ""
@@ -11928,7 +11957,7 @@ msgstr ""
 
 #, c-format
 msgid "Unable to set role \"%s\" for user: %s"
-msgstr ""
+msgstr "Impossible d'assignar lo ròtle « %s » per l'utilizaire : %s"
 
 #, c-format
 msgid ""
@@ -11943,10 +11972,10 @@ msgid ""
 msgstr ""
 
 msgid "Unable to validate certificate"
-msgstr ""
+msgstr "Impossible de validar lo certificat"
 
 msgid "Unable to write"
-msgstr ""
+msgstr "Impossible d'escriure"
 
 msgid "Unable to write to network"
 msgstr ""
@@ -11955,16 +11984,16 @@ msgid "Unblock"
 msgstr "Desblocar"
 
 msgid "Undefined"
-msgstr ""
+msgstr "Pas definit"
 
 msgid "Undefined Condition"
-msgstr ""
+msgstr "Condicion pas definida"
 
 msgid "Underline"
 msgstr "Soslinhat"
 
 msgid "Unexpected Request"
-msgstr ""
+msgstr "Requèsta pas esperada"
 
 msgid "Unexpected challenge length from server"
 msgstr ""
@@ -12004,27 +12033,27 @@ msgstr "Error desconeguda"
 
 #, c-format
 msgid "Unknown Error Code %d"
-msgstr ""
+msgstr "Còde d'error desconegut %d"
 
 msgid "Unknown Error in presence"
 msgstr ""
 
 msgid "Unknown SSL error"
-msgstr ""
+msgstr "Error SSL desconeguda"
 
 #, c-format
 msgid "Unknown affiliation: \"%s\""
-msgstr ""
+msgstr "Afiliacion desconeguda : « %s »"
 
 msgid "Unknown command"
-msgstr ""
+msgstr "Comanda desconeguda"
 
 msgid "Unknown command."
-msgstr ""
+msgstr "Comanda desconeguda"
 
 #, c-format
 msgid "Unknown command: %s"
-msgstr ""
+msgstr "Comanda desconeguda : %s"
 
 #, c-format
 msgid "Unknown command: %s, (may be a client bug)"
@@ -12038,7 +12067,7 @@ msgstr "Error desconeguda"
 #. Unknown error!
 #, c-format
 msgid "Unknown error (%d)"
-msgstr ""
+msgstr "Error desconeguda (%d)"
 
 #, c-format
 msgid "Unknown error (%d): %s"
@@ -12059,14 +12088,14 @@ msgstr ""
 
 #, c-format
 msgid "Unknown error: 0x%X"
-msgstr ""
+msgstr "Error desconeguda :0x%X"
 
 msgid "Unknown message"
-msgstr ""
+msgstr "Messatge desconegut"
 
 #, c-format
 msgid "Unknown message '%s'"
-msgstr ""
+msgstr "Messatge desconegut '%s'"
 
 #. I don't believe this can happen currently, I think
 #. * everything that calls this function checks for one of the
@@ -12075,18 +12104,18 @@ msgid "Unknown node type"
 msgstr ""
 
 msgid "Unknown pounce event. Please report this!"
-msgstr ""
+msgstr "Eveniment d'alèrta desconegut. Raportatz aquò se vos plai."
 
 msgid "Unknown reason"
-msgstr ""
+msgstr "Rason desconeguda"
 
 #, c-format
 msgid "Unknown role: \"%s\""
-msgstr ""
+msgstr "Ròtle desconegut : « %s »"
 
 #. -6
 msgid "Unknown room"
-msgstr ""
+msgstr "Salon desconegut"
 
 msgid "Unknown server response"
 msgstr ""
@@ -12098,7 +12127,7 @@ msgid "Unknown.... Please report this!"
 msgstr ""
 
 msgid "Unload Plugins"
-msgstr ""
+msgstr "Descargar d'empeutons"
 
 msgid "Unread Messages"
 msgstr "Messatges pas legits"
@@ -12108,42 +12137,42 @@ msgid "Unrecognized numeric %.3s: %s"
 msgstr ""
 
 msgid "Unregister"
-msgstr ""
+msgstr "Se desinscriure"
 
 msgid "Unregistration Error"
-msgstr ""
+msgstr "Error de desinscripcion"
 
 msgid "Unregistration Failed"
-msgstr ""
+msgstr "Fracàs a la desinscripcion"
 
 msgid "Unregistration Successful"
-msgstr ""
+msgstr "Desinscripcion capitada"
 
 msgid "Unset"
-msgstr ""
+msgstr "Levat"
 
 msgid "Unset Account Idle Time"
-msgstr ""
+msgstr "Desactivar lo temps d'inactivitat per un compte"
 
 msgid "Unset Idle Time for All Idled Accounts"
-msgstr ""
+msgstr "Desactivar lo temps d'inactivitat per totes los comptes inactius"
 
 #. shouldn't this just happen automatically when the buddy is
 #. removed?
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Se desinscriure"
 
 msgid "Unsupported Encoding"
-msgstr ""
+msgstr "Encodatge de caractèr pas suportat"
 
 msgid "Unsupported Extension"
 msgstr ""
 
 msgid "Unsupported Stanza Type"
-msgstr ""
+msgstr "Tipe d'estròfa pas suportat"
 
 msgid "Unsupported Version"
-msgstr ""
+msgstr "Version pas gerida"
 
 msgid "Unsupported channel binding method"
 msgstr ""
@@ -12163,7 +12192,7 @@ msgid ""
 msgstr ""
 
 msgid "Uptime"
-msgstr ""
+msgstr "Connectat dempuèi"
 
 msgid "Urdu"
 msgstr "Ordo"
@@ -12173,15 +12202,20 @@ msgid ""
 "Usage: %s [OPTION]...\n"
 "\n"
 msgstr ""
+"Usatge : %s [OPCION]...\n"
+"\n"
 
 #. Use
 msgid "Use"
-msgstr ""
+msgstr "Utilizar"
 
 msgid ""
 "Use \"/help &lt;command&gt;\" for help on a specific command.\n"
 "The following commands are available in this context:\n"
 msgstr ""
+"Utilizatz \"/help &lt;comanda&gt;\" per obténer d'ajuda sus una comanda "
+"especifica.\n"
+"Las comandas seguentas son disponiblas dins aqueste contèxte :\n"
 
 msgid "Use Environmental Settings"
 msgstr ""
@@ -12199,10 +12233,10 @@ msgid "Use Perfect Forward Secrecy"
 msgstr ""
 
 msgid "Use SSL"
-msgstr ""
+msgstr "Utilizar SSL"
 
 msgid "Use UDP"
-msgstr ""
+msgstr "Utilizar UDP"
 
 #, c-format
 msgid "Use _automatically detected IP address: %s"
@@ -12222,25 +12256,25 @@ msgid "Use clientLogin"
 msgstr ""
 
 msgid "Use different status for following accounts"
-msgstr ""
+msgstr "Utilizar un estat diferent pels comptes seguents"
 
 msgid "Use encryption if available"
-msgstr ""
+msgstr "Utilizar lo chiframent se disponible"
 
 msgid "Use font from _theme"
-msgstr ""
+msgstr "Utilizar la poliça del _tèma"
 
 msgid "Use last buddy when scores are equal"
 msgstr ""
 
 msgid "Use name heuristics"
-msgstr ""
+msgstr "Utilizar una euristica suls noms"
 
 msgid "Use old-style SSL"
 msgstr ""
 
 msgid "Use proxy"
-msgstr ""
+msgstr "Utilizar un proxy"
 
 #. This is a global option that affects SOCKS4 usage even with
 #. * account-specific proxy settings
@@ -12251,17 +12285,17 @@ msgid "Use smooth-scrolling"
 msgstr ""
 
 msgid "Use status from last _exit at startup"
-msgstr ""
+msgstr "Utilizar lo _darrièr estat actiu a l'aviada"
 
 msgid "Use system default"
-msgstr ""
+msgstr "Utilizar los paramètres del sistèma"
 
 #. Buddy icon
 msgid "Use this buddy _icon for this account:"
 msgstr ""
 
 msgid "Use tzc"
-msgstr ""
+msgstr "Utilizar tzc"
 
 msgid "Use_rname:"
 msgstr "Nom d'utilizai_re :"
@@ -12271,20 +12305,20 @@ msgstr "Utilizaire"
 
 #, c-format
 msgid "User %s is not present in the network"
-msgstr ""
+msgstr "L'utilizaire %s es pas sus la ret"
 
 #, c-format
 msgid "User <I>%s</I> is not present in the network"
 msgstr ""
 
 msgid "User ID"
-msgstr ""
+msgstr "Identificant d'utilizaire"
 
 msgid "User Information"
 msgstr "Entresenhas sus l'utilizaire"
 
 msgid "User Limit"
-msgstr ""
+msgstr "Limit d'utilizaires"
 
 msgid "User Modes"
 msgstr ""
@@ -12294,46 +12328,46 @@ msgstr "Nom d'utilizaire"
 
 #, c-format
 msgid "User Name: \t%s\n"
-msgstr ""
+msgstr "Nom d'utilizaire : \t%s\n"
 
 msgid "User Online Status Attributes"
 msgstr ""
 
 #. Build the user options frame.
 msgid "User Options"
-msgstr ""
+msgstr "Opcions de l'utilizaire"
 
 msgid "User Rooms"
-msgstr ""
+msgstr "Salon de discussions d'utilizaire"
 
 msgid "User Search"
-msgstr ""
+msgstr "Recèrca d'utilizaires"
 
 msgid "User Search..."
-msgstr ""
+msgstr "Recèrca d'utilizaires..."
 
 #. Add the expander
 msgid "User _details"
-msgstr ""
+msgstr "_Detalhs de l'utilizaire"
 
 msgid "User does not exist"
-msgstr ""
+msgstr "Aqueste utilizaire existís pas"
 
 #, c-format
 msgid "User information not available: %s"
 msgstr ""
 
 msgid "User is not logged in"
-msgstr ""
+msgstr "Utilizaire pas connectat"
 
 msgid "User is offline"
-msgstr ""
+msgstr "Aqueste utilizaire es desconnectat"
 
 msgid "User is offline."
-msgstr ""
+msgstr "L'utilizaire es desconnectat."
 
 msgid "User is too active"
-msgstr ""
+msgstr "L'utilizaire es tròp actiu"
 
 msgid "User is typing..."
 msgstr "L'utilizaire es a picar..."
@@ -12345,7 +12379,7 @@ msgid "User not found"
 msgstr "Utilizaire pas trobat"
 
 msgid "User not in group"
-msgstr ""
+msgstr "L'utilizaire es pas dins lo grop"
 
 msgid "User temporarily unavailable"
 msgstr ""
@@ -12369,14 +12403,14 @@ msgid "Username formatting can change only capitalization and whitespace."
 msgstr ""
 
 msgid "Username of an account must be non-empty."
-msgstr ""
+msgstr "Lo nom d'utilizaire d'un compte deu pas èsser void."
 
 #. username or password missing
 msgid "Username or password missing"
-msgstr ""
+msgstr "Nom d'utilizaire o senhal mancant"
 
 msgid "Username sent"
-msgstr ""
+msgstr "Nom d'utilizaire mandat"
 
 msgid "Username:"
 msgstr "Nom d'utilizaire :"
@@ -12386,29 +12420,30 @@ msgstr "Utilizaires"
 
 #, c-format
 msgid "Users on %s: %s"
-msgstr ""
+msgstr "Utilizaires dins %s : %s"
 
 msgid "Using a PDA"
 msgstr ""
 
 msgid "Uzbek"
-msgstr ""
+msgstr "Ozbèc"
 
 msgid "V_olume:"
 msgstr "V_olum :"
 
 msgid "Valencian-Catalan"
-msgstr ""
+msgstr "Valencian-Catalan"
 
 #. *< name
 #. *< version
 #. *  summary
 msgid "Variable Transparency for the buddy list and conversations."
 msgstr ""
+"Transparéncia variabla per la lista de contactes e las conversacions."
 
 #. verify pin
 msgid "Verify PIN"
-msgstr ""
+msgstr "Verificacion còde"
 
 msgid "Verify Public Key"
 msgstr ""
@@ -12424,22 +12459,22 @@ msgid "Video"
 msgstr "Vidèo"
 
 msgid "Video Camera"
-msgstr ""
+msgstr "Camèra vidèo"
 
 msgid "Video Chat"
-msgstr ""
+msgstr "Vidèoconferéncia"
 
 msgid "Video Conferencing"
-msgstr ""
+msgstr "Conferéncia vidèo"
 
 msgid "Video conferencing"
-msgstr ""
+msgstr "Visioconferéncia"
 
 msgid "Vietnamese"
 msgstr "Vietnamés"
 
 msgid "View All Logs"
-msgstr ""
+msgstr "Veire totes los archius"
 
 msgid "View Blocked Text..."
 msgstr ""
@@ -12451,13 +12486,13 @@ msgid "View Locations..."
 msgstr ""
 
 msgid "View Log"
-msgstr ""
+msgstr "Veire los archius"
 
 msgid "View Log..."
-msgstr ""
+msgstr "Veire los archius..."
 
 msgid "View MOTD"
-msgstr ""
+msgstr "Veire lo messatge del jorn"
 
 msgid "View Message of the Day"
 msgstr ""
@@ -12473,7 +12508,7 @@ msgid "View User Log"
 msgstr ""
 
 msgid "View _Log"
-msgstr ""
+msgstr "_Veire los archius"
 
 msgid "View web profile"
 msgstr ""
@@ -12501,16 +12536,16 @@ msgstr "Votz"
 #. *< priority
 #. *< id
 msgid "Voice/Video Settings"
-msgstr ""
+msgstr "Paramètres votz e vidèo"
 
 msgid "Voices"
-msgstr ""
+msgstr "Voses"
 
 msgid "Volume(0-100):"
-msgstr ""
+msgstr "Volum (0-100) :"
 
 msgid "Volume:"
-msgstr ""
+msgstr "Volum :"
 
 #. Configuration options
 #. WAP server (reference: "libpurple/accountopt.h")
@@ -12518,7 +12553,7 @@ msgid "WAP Server"
 msgstr "Servidor WAP"
 
 msgid "WATCH"
-msgstr ""
+msgstr "VEIRE"
 
 msgid "Waiting for Handshake Acknowledgement"
 msgstr ""
@@ -12530,17 +12565,17 @@ msgid "Waiting for network connection"
 msgstr ""
 
 msgid "Waiting for response..."
-msgstr ""
+msgstr "En espèra de responsa..."
 
 msgid "Waiting for transfer to begin"
-msgstr ""
+msgstr "En espèra del començament del transferiment"
 
 msgid "Wake Me Up"
 msgstr ""
 
 #, c-format
 msgid "Wallops from %s"
-msgstr ""
+msgstr "Wallops de %s"
 
 msgid "Warning"
 msgstr "Alèrta"
@@ -12549,7 +12584,7 @@ msgid "Warning Level"
 msgstr ""
 
 msgid "Warning dialog"
-msgstr ""
+msgstr "Bóstia de messatge per avertiment"
 
 msgid "Warning level too high (receiver)"
 msgstr ""
@@ -12558,7 +12593,7 @@ msgid "Warning level too high (sender)"
 msgstr ""
 
 msgid "Watching TV"
-msgstr ""
+msgstr "Agacha la television"
 
 msgid "Watching a movie"
 msgstr ""
@@ -12574,7 +12609,7 @@ msgid "We have lost the connection to MXit. Please reconnect."
 msgstr ""
 
 msgid "Weak"
-msgstr ""
+msgstr "Feble"
 
 msgid "Web Aware"
 msgstr ""
@@ -12586,14 +12621,14 @@ msgid "Web aware (enabling this will cause you to receive SPAM!)"
 msgstr ""
 
 msgid "Webcams"
-msgstr ""
+msgstr "Webcams"
 
 #, c-format
 msgid "Website: %s"
 msgstr ""
 
 msgid "Welcome back!"
-msgstr ""
+msgstr "Content de vos reveire !"
 
 #, c-format
 msgid ""
@@ -12604,7 +12639,7 @@ msgid ""
 msgstr ""
 
 msgid "Went away"
-msgstr ""
+msgstr "Ven absent"
 
 #. Whack means "to hit or strike someone with a sharp blow"
 msgid "Whack"
@@ -12615,11 +12650,11 @@ msgid "Whacking %s..."
 msgstr ""
 
 msgid "What kind of dialog is this?"
-msgstr ""
+msgstr "Quina mena de bóstia de messatge es aquí ?"
 
 #, c-format
 msgid "When a file-transfer request arrives from %s"
-msgstr ""
+msgstr "Quand una demanda de transferiment arriba de %s"
 
 msgid ""
 "When a file-transfer request arrives from a user who is\n"
@@ -12630,20 +12665,26 @@ msgid ""
 "When a new conversation is opened this plugin will insert the last "
 "conversation into the current conversation."
 msgstr ""
+"Quand se dobrís una conversacion novèla, aqueste empeuton apond la darrièra "
+"conversacion amb l'interlocutor dins la fenèstra."
 
 msgid "When away"
-msgstr ""
+msgstr "Quand soi absent"
 
 msgid "When both away and idle"
-msgstr ""
+msgstr "Quand soi absent e inactiu"
 
 msgid "When receiving a message with URL(s), use TinyURL for easier copying"
 msgstr ""
+"A la recepcion d'un messatge amb un o mantun ligam ipertèxte, utiliza "
+"TinyURL per los copiar mai aisidament."
 
 msgid ""
 "When the gnt clipboard contents change, the contents are made available to "
 "X, if possible."
 msgstr ""
+"Quand lo contengut del quichapapièrs de gnt change, aqueste es mandat a X "
+"s'aquò es possible."
 
 #. * description
 msgid ""
@@ -12662,40 +12703,40 @@ msgid "Where I live"
 msgstr ""
 
 msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr ""
+msgstr "La comanda descricha deu gerir las URL en « aim »."
 
 msgid "Whether the specified command should handle \"gg\" URLs"
-msgstr ""
+msgstr "La comanda descricha deu gerir las URL en « gg »."
 
 msgid "Whether the specified command should handle \"icq\" URLs"
-msgstr ""
+msgstr "La comanda descricha deu gerir las URL en « icq »."
 
 msgid "Whether the specified command should handle \"irc\" URLs"
-msgstr ""
+msgstr "La comanda descricha deu gerir las URL en « irc »"
 
 msgid "Whether the specified command should handle \"msnim\" URLs"
-msgstr ""
+msgstr "La comanda descricha deu gerir las URL en « msnim »"
 
 msgid "Whether the specified command should handle \"sip\" URLs"
-msgstr ""
+msgstr "La comanda descricha deu gerir las URL en « sip »"
 
 msgid "Whether the specified command should handle \"xmpp\" URLs"
-msgstr ""
+msgstr "La comanda descricha deu gerir las URL en « xmpp »"
 
 msgid "Whether the specified command should handle \"ymsgr\" URLs"
-msgstr ""
+msgstr "La comanda descricha deu gerir las URL en « ymsgr »"
 
 msgid "Whisper Message Name Color"
 msgstr ""
 
 msgid "Whiteboard"
-msgstr ""
+msgstr "Tablèu"
 
 msgid "Whole words only"
-msgstr ""
+msgstr "Sonque los mots entièrs"
 
 msgid "Widowed"
-msgstr ""
+msgstr "Veuse(a)"
 
 msgid "Windows Live ID authentication:Invalid response"
 msgstr ""
@@ -12716,47 +12757,47 @@ msgid "Windows Live Messenger Protocol Plugin"
 msgstr ""
 
 msgid "Windows Pidgin Options"
-msgstr ""
+msgstr "Opcions de Pidgin Windows"
 
 #. Business
 msgid "Work"
-msgstr ""
+msgstr "Professional"
 
 msgid "Work Address"
 msgstr "Adreça professionala"
 
 msgid "Work Email"
-msgstr ""
+msgstr "Adreça electronica professionala"
 
 msgid "Work Fax"
-msgstr ""
+msgstr "Fax professional"
 
 msgid "Work IM"
 msgstr ""
 
 msgid "Work Information"
-msgstr ""
+msgstr "Entresenhas professionalas"
 
 msgid "Work Mobile"
-msgstr ""
+msgstr "Telefòn portable professional"
 
 msgid "Work Pager"
 msgstr ""
 
 msgid "Work Phone"
-msgstr ""
+msgstr "Telefòn professional"
 
 msgid "Work Phone 2"
-msgstr ""
+msgstr "Telefòn professional 2"
 
 msgid "Work Phone Number"
-msgstr ""
+msgstr "Numèro de telefòn professional"
 
 msgid "Working"
-msgstr ""
+msgstr "Trabalha"
 
 msgid "Worried"
-msgstr ""
+msgstr "Inquiet"
 
 msgid "Would you like to join the conversation?"
 msgstr ""
@@ -12771,17 +12812,17 @@ msgid "Would you like to set one now? (Note: THIS CANNOT BE CHANGED!)"
 msgstr ""
 
 msgid "Write Error"
-msgstr ""
+msgstr "Error d'escritura"
 
 #, c-format
 msgid "Write settings to %s%sgtkrc-2.0"
-msgstr ""
+msgstr "Escriure las preferéncias dns %s%sgtkrc-2.0"
 
 msgid "Writing"
-msgstr ""
+msgstr "Escriu"
 
 msgid "Writing error"
-msgstr ""
+msgstr "Error d'escritura"
 
 msgid "Wrong CHL value sent to server"
 msgstr ""
@@ -12790,32 +12831,32 @@ msgid "Wrong security code entered. Please try again later."
 msgstr ""
 
 msgid "X display to use"
-msgstr ""
+msgstr "Afichatge X d'utilizar"
 
 #. Scheme name
 msgid "X.509 Certificates"
-msgstr ""
+msgstr "Certificats X.509"
 
 msgid "X.509 certificate export failed"
-msgstr ""
+msgstr "Impossible d'exportar un certificat X.509."
 
 msgid "X.509 certificate import failed"
-msgstr ""
+msgstr "Impossible d'importar un certificat X.509."
 
 msgid "XML"
 msgstr "XML"
 
 msgid "XML Not Well Formed"
-msgstr ""
+msgstr "XML mal format"
 
 msgid "XML Parse error"
-msgstr ""
+msgstr "Error de lectura del XML"
 
 msgid "XMPP"
 msgstr "XMPP"
 
 msgid "XMPP Account"
-msgstr ""
+msgstr "Compte XMPP"
 
 #. *< type
 #. *< ui_requirement
@@ -12824,10 +12865,10 @@ msgstr ""
 #. *< priority
 #. *< id
 msgid "XMPP Console"
-msgstr ""
+msgstr "Consòla XMPP"
 
 msgid "XMPP Message Error"
-msgstr ""
+msgstr "Messatge d'error XMPP"
 
 #. *< type
 #. *< ui_requirement
@@ -12840,7 +12881,7 @@ msgstr ""
 #. *  summary
 #. *  description
 msgid "XMPP Protocol Plugin"
-msgstr ""
+msgstr "Empeuton pel protocòl XMPP"
 
 msgid "XMPP Service Discovery"
 msgstr ""
@@ -12852,16 +12893,16 @@ msgid "XMPP stream header missing"
 msgstr ""
 
 msgid "XMPP stream missing ID"
-msgstr ""
+msgstr "ID de flux XMPP mancant"
 
 msgid "Yahoo ID..."
-msgstr ""
+msgstr "ID Yahoo..."
 
 msgid "Yahoo JAPAN ID..."
-msgstr ""
+msgstr "ID Yahoo Japon..."
 
 msgid "Yahoo! ID"
-msgstr ""
+msgstr "ID Yahoo!"
 
 #. *< type
 #. *< ui_requirement
@@ -12877,10 +12918,10 @@ msgid "Yahoo! JAPAN Protocol Plugin"
 msgstr ""
 
 msgid "Yahoo! Japan Profile"
-msgstr ""
+msgstr "Perfil Yahoo! Japon"
 
 msgid "Yahoo! Profile"
-msgstr ""
+msgstr "Perfil Yahoo!"
 
 #. *< type
 #. *< ui_requirement
@@ -12893,23 +12934,23 @@ msgstr ""
 #. *  summary
 #. *  description
 msgid "Yahoo! Protocol Plugin"
-msgstr ""
+msgstr "Empeuton pel protocòl Yahoo"
 
 #, c-format
 msgid "Yahoo! system message for %s:"
 msgstr ""
 
 msgid "Year of birth"
-msgstr ""
+msgstr "Annada de naissença"
 
 msgid "Yes"
 msgstr "Òc"
 
 msgid "You _send:"
-msgstr ""
+msgstr "_Mandatz :"
 
 msgid "You _type:"
-msgstr ""
+msgstr "_Picatz :"
 
 msgid "You appear to have no MySpace username."
 msgstr ""
@@ -12952,11 +12993,11 @@ msgstr ""
 
 #, c-format
 msgid "You are banned from %s."
-msgstr ""
+msgstr "Sètz estat fòrabandit de %s."
 
 #, c-format
 msgid "You are channel founder on <I>%s</I>"
-msgstr ""
+msgstr "Avètz fondat lo salon sus <I>%s</I>"
 
 msgid ""
 "You are creating a new room.  Would you like to configure it, or accept the "
@@ -12967,9 +13008,11 @@ msgid ""
 "You are currently disconnected. Messages will not be received unless you are "
 "logged in."
 msgstr ""
+"Sètz actualament desconnectat. Vos cal vos connectar se volètz recebre de "
+"messatges."
 
 msgid "You are not connected."
-msgstr ""
+msgstr "Sètz pas connectat(ada)."
 
 msgid ""
 "You are not currently signed on with an account that can add that buddy."
@@ -12999,14 +13042,14 @@ msgstr ""
 
 #, c-format
 msgid "You are now known as %s"
-msgstr ""
+msgstr "Sètz d'ara enlà conegut jol nom de %s"
 
 #, c-format
 msgid "You are using %s, but this plugin requires %s."
-msgstr ""
+msgstr "Utilizatz %s, mas aquel empeuton a besonh de %s."
 
 msgid "You can (un)load plugins from the following list."
-msgstr ""
+msgstr "Podètz (tele)cargar los empeutons de la lista seguenta."
 
 #, c-format
 msgid ""
@@ -13016,12 +13059,13 @@ msgstr ""
 
 msgid "You can edit more information from the context menu later."
 msgstr ""
+"Podètz modificar d'entresenhas pus tard de mercés al menú contextual."
 
 msgid "You can edit/delete the pounce from the `Buddy Pounces' dialog"
 msgstr ""
 
 msgid "You can enable/disable accounts from the following list."
-msgstr ""
+msgstr "Podètz activar/desactivar los comptes dins la lista seguenta."
 
 msgid ""
 "You can insert this image into this message, or use it as the buddy icon for "
@@ -13054,7 +13098,7 @@ msgstr ""
 
 #, c-format
 msgid "You cancelled the transfer of %s"
-msgstr ""
+msgstr "Avètz anullat lo transferiment de « %s »"
 
 msgid "You cannot add the same person twice to a conversation"
 msgstr ""
@@ -13071,7 +13115,7 @@ msgid "You did not enter the security code"
 msgstr ""
 
 msgid "You do not have any accounts."
-msgstr ""
+msgstr "Avètz pas cap de compte."
 
 msgid "You do not have permission to uninstall this application."
 msgstr ""
@@ -13082,14 +13126,14 @@ msgid ""
 msgstr ""
 
 msgid "You feel a disturbance in the force..."
-msgstr ""
+msgstr "Sentissètz una perturbacion dins la fòrça..."
 
 #, c-format
 msgid "You have %d contact named %s. Would you like to merge them?"
 msgid_plural ""
 "You currently have %d contacts named %s. Would you like to merge them?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Avètz %d contacte que s'apèla %s. Los volètz fusionar|nbsp]?"
+msgstr[1] "Avètz %d contactes que s'apèlan %s. Los volètz fusionar|nbsp]?"
 
 #, c-format
 msgid "You have %i suggested friend."
@@ -13122,15 +13166,15 @@ msgstr ""
 
 #, c-format
 msgid "You have been kicked off <I>%s</I> by <I>%s</I> (%s)"
-msgstr ""
+msgstr "Sètz estat expulsat de <I>%s</I> per <I>%s</I> (%s)"
 
 #, c-format
 msgid "You have been kicked: (%s)"
-msgstr ""
+msgstr "Sètz estat expulsat : (%s)"
 
 #, c-format
 msgid "You have been killed by %s (%s)"
-msgstr ""
+msgstr "Sètz estat tuat per %s (%s)"
 
 msgid "You have been removed from the access list."
 msgstr ""
@@ -13146,19 +13190,21 @@ msgid "You have invited"
 msgstr ""
 
 msgid "You have left this chat."
-msgstr ""
+msgstr "Sètz sortit d'una discussion."
 
 msgid "You have mail!"
-msgstr ""
+msgstr "Avètz de corrièr !"
 
 msgid ""
 "You have no database of root certificates, so this certificate cannot be "
 "validated."
 msgstr ""
+"Avètz pas de basa de certificats raices. Aqueste certificat pòt pas èsser "
+"validat."
 
 #, c-format
 msgid "You have parted the channel%s%s"
-msgstr ""
+msgstr "Sètz sortit del canal %s%s"
 
 msgid ""
 "You have probably requested to set your profile before the login procedure "
@@ -13176,6 +13222,10 @@ msgid ""
 "From: %s [%s]\n"
 "%s"
 msgstr ""
+"Avètz recebut un messatge especial\n"
+"\n"
+"De : %s [%s]\n"
+"%s"
 
 #, c-format
 msgid ""
@@ -13194,7 +13244,7 @@ msgid ""
 msgstr ""
 
 msgid "You have rejected the call."
-msgstr ""
+msgstr "Avètz refusada la sonada."
 
 #, c-format
 msgid "You have selected to open a Direct IM connection with %s."
@@ -13264,28 +13314,28 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "You must create an account first before you can create a pounce."
-msgstr ""
+msgstr "Vos cal crear un compte abans de poder crear una alèrta."
 
 msgid "You must fill all the required fields."
-msgstr ""
+msgstr "Vos cal completar totas las zònas requesidas."
 
 msgid "You must give a name for the group to add."
-msgstr ""
+msgstr "Vos cal balhar un nom pel grop d'apondre."
 
 msgid "You must provide a group."
-msgstr ""
+msgstr "Vos cal provesir un grop."
 
 msgid "You must provide a username for the buddy."
-msgstr ""
+msgstr "Vos cal provesir un nom d'utilizaire pel contacte."
 
 msgid "You must select an account."
-msgstr ""
+msgstr "Vos cal causir un compte."
 
 msgid "You must specify a nick"
 msgstr ""
 
 msgid "You receive an IM"
-msgstr ""
+msgstr "Recepcion d'un messatge instantanèu"
 
 msgid "You require encryption, but it is not available on this server."
 msgstr ""
@@ -13304,20 +13354,20 @@ msgid ""
 msgstr ""
 
 msgid "You send"
-msgstr ""
+msgstr "Mandatz"
 
 #, c-format
 msgid "You should receive an email asking to confirm %s."
 msgstr ""
 
 msgid "You talk in chat"
-msgstr ""
+msgstr "Parlatz dins la discussion"
 
 msgid "You type"
-msgstr ""
+msgstr "Picatz"
 
 msgid "You were disconnected from the server."
-msgstr ""
+msgstr "Sètz estat desconnectat del servidor."
 
 msgid "Your AIM connection may be lost."
 msgstr ""
@@ -13329,7 +13379,7 @@ msgid "Your Current Mood"
 msgstr ""
 
 msgid "Your Current Status"
-msgstr ""
+msgstr "Vòstre estat actual"
 
 msgid "Your IM Image was not sent. You cannot send IM Images in AIM chats."
 msgstr ""
@@ -13346,7 +13396,7 @@ msgid ""
 msgstr ""
 
 msgid "Your Language"
-msgstr ""
+msgstr "Vòstra lenga"
 
 #, c-format
 msgid "Your MSN buddy list is temporarily unavailable: %s"
@@ -13359,7 +13409,7 @@ msgid "Your SMS was not delivered"
 msgstr ""
 
 msgid "Your VCard File"
-msgstr ""
+msgstr "Vòstra carta de visita VCard"
 
 msgid "Your Yahoo! message did not get sent."
 msgstr ""
@@ -13379,10 +13429,10 @@ msgid "Your account is currently suspended"
 msgstr ""
 
 msgid "Your buddylist is empty, nothing was written to the file."
-msgstr ""
+msgstr "Vòstra lista de contactes es voida, res es pas estat enregistrat."
 
 msgid "Your command failed for an unknown reason."
-msgstr ""
+msgstr "La comanda a fracassat per una rason desconeguda."
 
 msgid "Your new MSN friendly name is too long."
 msgstr ""
@@ -13461,7 +13511,7 @@ msgid "_Accept"
 msgstr "_Acceptar"
 
 msgid "_Accept Defaults"
-msgstr ""
+msgstr "_Acceptar los paramètres per defaut"
 
 msgid "_Account"
 msgstr "_Compte"
@@ -13477,7 +13527,7 @@ msgstr "_Apondre"
 
 #. add button
 msgid "_Add Chat"
-msgstr ""
+msgstr "_Apondre una discussion"
 
 msgid "_Add Custom Smiley..."
 msgstr ""
@@ -13502,10 +13552,10 @@ msgid "_Attention!"
 msgstr "_Atencion !"
 
 msgid "_Audio Call"
-msgstr ""
+msgstr "Sonada _àudio"
 
 msgid "_Auto-reply:"
-msgstr ""
+msgstr "_Responsa automatica :"
 
 msgid "_Basic"
 msgstr "_Basic"
@@ -13517,28 +13567,28 @@ msgid "_Block"
 msgstr "_Blocar"
 
 msgid "_Both Icon & Text"
-msgstr ""
+msgstr "A l'encòp tèxte _e icòna"
 
 msgid "_Browse"
-msgstr ""
+msgstr "_Percórrer"
 
 msgid "_Browse logs folder"
 msgstr ""
 
 msgid "_Browse..."
-msgstr ""
+msgstr "_Percórrer..."
 
 msgid "_Browser:"
 msgstr "_Navigador :"
 
 msgid "_Buddy List window transparency"
-msgstr ""
+msgstr "Fenèstra de la lista de _contactes transparenta"
 
 msgid "_Buddy name:"
-msgstr ""
+msgstr "Nom del _contacte :"
 
 msgid "_Buddy:"
-msgstr ""
+msgstr "_Contacte :"
 
 msgid "_Cancel"
 msgstr "_Anullar"
@@ -13550,16 +13600,16 @@ msgid "_Channel:"
 msgstr "_Canal :"
 
 msgid "_Class:"
-msgstr ""
+msgstr "_Classa :"
 
 msgid "_Collapse"
-msgstr ""
+msgstr "Re_plegar"
 
 msgid "_Configure Room"
-msgstr ""
+msgstr "_Configurar lo salon"
 
 msgid "_Copy Email Address"
-msgstr ""
+msgstr "_Copiar l'adreça electronica"
 
 msgid "_Copy Link Location"
 msgstr "_Copiar l'emplaçament del ligam"
@@ -13568,7 +13618,7 @@ msgid "_Decline"
 msgstr "_Refusar"
 
 msgid "_Delete Group"
-msgstr ""
+msgstr "_Suprimir un grop"
 
 msgid "_Description"
 msgstr "_Descripcion"
@@ -13583,19 +13633,19 @@ msgid "_Disable launcher integration"
 msgstr ""
 
 msgid "_Dockable Buddy List"
-msgstr ""
+msgstr "Lista de contactes _acrocabla"
 
 msgid "_Edit"
 msgstr "_Edicion"
 
 msgid "_Edit Account"
-msgstr ""
+msgstr "_Modificar lo compte"
 
 msgid "_Edit Settings..."
-msgstr ""
+msgstr "_Modificar los paramètres..."
 
 msgid "_Enable automatic router port forwarding"
-msgstr ""
+msgstr "_Activar la redireccion automatica dels pòrts del \"routeur\""
 
 msgid "_Enable sounds:"
 msgstr "A_ctivar los sons :"
@@ -13606,12 +13656,13 @@ msgstr "_Fin :"
 #. Created here so it can be passed to whole_words_button_toggled.
 msgid "_Exact case match (uncheck for automatic case handling)"
 msgstr ""
+"Correspondéncia _perfiècha unicament (desmarca la gestion automatica)"
 
 msgid "_Exchange:"
-msgstr ""
+msgstr "_Escambi :"
 
 msgid "_Expand"
-msgstr ""
+msgstr "_Espandir"
 
 msgid "_Flash window"
 msgstr ""
@@ -13626,10 +13677,10 @@ msgstr "_Poliça"
 #. * need to update them when formatting changes. The above items don't need
 #. * no updating nor nothin'
 msgid "_Font face"
-msgstr ""
+msgstr "T_ipe de poliça"
 
 msgid "_Force timestamp format:"
-msgstr ""
+msgstr "_Forçar lo formatatge de las datas :"
 
 msgid "_Get Info"
 msgstr ""
@@ -13642,31 +13693,31 @@ msgid "_Group:"
 msgstr "_Grop :"
 
 msgid "_Handle:"
-msgstr ""
+msgstr "_Identificant :"
 
 msgid "_Hangup"
 msgstr ""
 
 msgid "_Hide new IM conversations:"
-msgstr ""
+msgstr "_Amagar las conversacions novèlas :"
 
 msgid "_Hold"
 msgstr ""
 
 msgid "_Horizontal rule"
-msgstr ""
+msgstr "Barra _orizontala"
 
 msgid "_Host:"
 msgstr "Ò_ste :"
 
 msgid "_IM window transparency"
-msgstr ""
+msgstr "Fenèstra de _conversacion transparenta"
 
 msgid "_IM windows"
 msgstr ""
 
 msgid "_Icon Only"
-msgstr ""
+msgstr "Sonque _icòna"
 
 msgid "_Image"
 msgstr "_Imatge"
@@ -13681,7 +13732,7 @@ msgid "_Insert"
 msgstr "_Inserir"
 
 msgid "_Instance:"
-msgstr ""
+msgstr "_Instància :"
 
 msgid "_Invite"
 msgstr "Conv_idar"
@@ -13692,13 +13743,13 @@ msgstr "_Jónher"
 
 #. Blist On Top
 msgid "_Keep Buddy List window on top:"
-msgstr ""
+msgstr "Lista de contactes totjorn _visibla :"
 
 msgid "_Link"
 msgstr "_Ligam"
 
 msgid "_Local alias:"
-msgstr ""
+msgstr "Aliàs _local :"
 
 msgid "_Login"
 msgstr "_Connexion"
@@ -13711,27 +13762,29 @@ msgid ""
 "_Manual:\n"
 "(%s for URL)"
 msgstr ""
+"_Manual :\n"
+"(%s per l'URL)"
 
 msgid "_Manually specify range of ports to listen on:"
 msgstr ""
 
 msgid "_Media"
-msgstr ""
+msgstr "_Mèdia"
 
 msgid "_Merge Groups"
 msgstr ""
 
 msgid "_Message Logs:"
-msgstr ""
+msgstr "Los _archius :"
 
 msgid "_Message:"
 msgstr "_Messatge :"
 
 msgid "_Method:"
-msgstr ""
+msgstr "_Metòde :"
 
 msgid "_Minutes before becoming idle:"
-msgstr ""
+msgstr "_Minutas abans de venir inactiu :"
 
 msgid "_Modify..."
 msgstr "_Modificar..."
@@ -13740,7 +13793,7 @@ msgid "_More..."
 msgstr "_Mai..."
 
 msgid "_Mute"
-msgstr ""
+msgstr "_Mut"
 
 msgid "_Name"
 msgstr "_Nom"
@@ -13752,7 +13805,7 @@ msgid "_Normal"
 msgstr "_Normal"
 
 msgid "_Notify buddies that you are typing to them"
-msgstr ""
+msgstr "_Avisar los contactes que lor sètz a escriure"
 
 #. *
 #. * A wrapper for purple_request_action() that uses @c OK and @c Cancel buttons.
@@ -13767,13 +13820,13 @@ msgid "_Open Link"
 msgstr "D_obrir lo ligam"
 
 msgid "_Open Mail"
-msgstr ""
+msgstr "_Dobrir lo corrièl"
 
 msgid "_Open link in:"
-msgstr ""
+msgstr "_Dobrir lo ligam dins :"
 
 msgid "_Passphrase:"
-msgstr ""
+msgstr "_Frasa secreta :"
 
 msgid "_Password:"
 msgstr "Mot de _pas :"
@@ -13782,10 +13835,10 @@ msgid "_Pause"
 msgstr "_Pausa"
 
 msgid "_Permit"
-msgstr ""
+msgstr "_Autorizar"
 
 msgid "_Placement:"
-msgstr ""
+msgstr "_Posicion :"
 
 msgid "_Play Sound"
 msgstr "_Legir un son"
@@ -13807,7 +13860,7 @@ msgid "_Quit"
 msgstr "_Quitar"
 
 msgid "_Recipient:"
-msgstr ""
+msgstr "_Destinatari :"
 
 msgid "_Recurring"
 msgstr ""
@@ -13819,22 +13872,22 @@ msgid "_Remove"
 msgstr "_Suprimir"
 
 msgid "_Remove Buddy"
-msgstr ""
+msgstr "_Suprimir un contacte"
 
 msgid "_Remove Chat"
 msgstr ""
 
 msgid "_Remove Contact"
-msgstr ""
+msgstr "_Suprimir un contacte"
 
 msgid "_Remove Group"
-msgstr ""
+msgstr "_Suprimir lo grop"
 
 msgid "_Rename"
 msgstr "_Renommar"
 
 msgid "_Report idle time:"
-msgstr ""
+msgstr "_Determinar lo temps d'inactivitat :"
 
 msgid "_Reset"
 msgstr "_Reinicializar"
@@ -13855,7 +13908,7 @@ msgid "_Save File"
 msgstr "Enregi_strar lo fichièr"
 
 msgid "_Save Image..."
-msgstr ""
+msgstr "Enregi_strar l'imatge..."
 
 msgid "_Search"
 msgstr "_Recercar"
@@ -13879,23 +13932,23 @@ msgid "_Set"
 msgstr "_Definir"
 
 msgid "_Show slider bar in IM window"
-msgstr ""
+msgstr "Afichar la barra de desfilament dins la fenèstra"
 
 msgid "_Show system tray icon:"
-msgstr ""
+msgstr "_Affichar l'icòna dins la barra d'estat sistèma"
 
 msgid "_Smile!"
-msgstr ""
+msgstr "Sorie_tz !"
 
 #, c-format
 msgid "_Start %s on Windows startup"
-msgstr ""
+msgstr "_Aviar %s a l'amodament de Windows"
 
 msgid "_Start:"
-msgstr ""
+msgstr "_Començament :"
 
 msgid "_Status:"
-msgstr ""
+msgstr "Es_tat :"
 
 msgid "_TURN server:"
 msgstr "Servidor _TURN :"
@@ -13916,23 +13969,23 @@ msgid "_Unread Messages"
 msgstr "Messatges _pas legits"
 
 msgid "_Unset"
-msgstr ""
+msgstr "_Desactivar"
 
 #. Use button
 msgid "_Use"
-msgstr ""
+msgstr "_Utilizar"
 
 msgid "_Username:"
 msgstr "Nom d'_utilizaire :"
 
 msgid "_Video Call"
-msgstr ""
+msgstr "Sonada _vidèo"
 
 msgid "_View Certificate..."
-msgstr ""
+msgstr "_Visualizar lo certificat..."
 
 msgid "_View..."
-msgstr ""
+msgstr "_Veire..."
 
 #. "Visual gesture display" checkbox
 msgid "_Visual gesture display"
@@ -13957,10 +14010,10 @@ msgid "accounts"
 msgstr "comptes"
 
 msgid "accounts: Show the accounts window."
-msgstr ""
+msgstr "accounts : Afichar la fenèstra dels comptes."
 
 msgid "action &lt;action to perform&gt;:  Perform an action."
-msgstr ""
+msgstr "accion &lt;accion a far&gt; : Realizar una accion."
 
 msgid ""
 "affiliate &lt;owner|admin|member|outcast|none&gt; [nick1] [nick2] ...: Get "
@@ -13991,10 +14044,10 @@ msgid "blocklist command failed"
 msgstr ""
 
 msgid "buddy list"
-msgstr ""
+msgstr "Lista de contactes"
 
 msgid "buddylist: Show the buddylist."
-msgstr ""
+msgstr "buddylist : Afichar la lista dels contactes."
 
 msgid "buzz: Buzz a user to get their attention"
 msgstr ""
@@ -14003,7 +14056,7 @@ msgid "call &lt;command&gt;:  Call any silc client command"
 msgstr ""
 
 msgid "call: Make an audio call."
-msgstr ""
+msgstr "call : sonada àudio."
 
 #, c-format
 msgid "channel %s not found"
@@ -14020,7 +14073,7 @@ msgid "clear: Clears all conversation scrollbacks."
 msgstr ""
 
 msgid "clear: Clears the conversation scrollback."
-msgstr ""
+msgstr "clear : Escafar lo contengut de la fenèstra de connexion."
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -14028,13 +14081,14 @@ msgid ""
 msgstr ""
 
 msgid "config:  Configure a chat room."
-msgstr ""
+msgstr "config : Configurar un salon de discussions"
 
 msgid "configure:  Configure a chat room."
-msgstr ""
+msgstr "configure : Configurar un salon de discussions"
 
 msgid "ctcp <nick> <msg>: sends ctcp msg to nick."
 msgstr ""
+"ctcp &lt;escais&gt; &lt;msg&gt; : Mandar lo messatge msg en CTCP a escais."
 
 msgid ""
 "cumode &lt;channel&gt; +|-&lt;modes&gt; &lt;nick&gt;:  Change nick's modes "
@@ -14043,15 +14097,17 @@ msgstr ""
 
 #, c-format
 msgid "current topic is: %s"
-msgstr ""
+msgstr "Lo subjècte corrent es : %s"
 
 msgid ""
 "debug &lt;option&gt;:  Send various debug information to the current "
 "conversation."
 msgstr ""
+"debug &lt;option&gt; : Metre en plaça d'opcions de desbugatge dins la "
+"conversacion correnta."
 
 msgid "debugwin: Show the debug window."
-msgstr ""
+msgstr "debugwin : Afichar la fenèstra de desbugatge."
 
 msgid ""
 "deop &lt;nick1&gt; [nick2] ...:  Remove channel operator status from "
@@ -14071,13 +14127,13 @@ msgid "display the current version and exit"
 msgstr ""
 
 msgid "display this help and exit"
-msgstr ""
+msgstr "afichar aqueste messatge d’ajuda e quitar"
 
 msgid "don't automatically login"
 msgstr ""
 
 msgid "doodle: Request user to start a Doodle session"
-msgstr ""
+msgstr "doodle : Manda una demanda per un sesilha Doodle"
 
 msgid ""
 "enable specified account(s) (optional argument NAME\n"
@@ -14100,9 +14156,10 @@ msgstr ""
 
 msgid "help &lt;command&gt;:  Help on a specific command."
 msgstr ""
+"help &lt;comanda&gt; : Demandar d'ajuda sus una comanda en particular."
 
 msgid "iChat AV"
-msgstr ""
+msgstr "Vidèo iChat"
 
 msgid "iTunes Music Store Link"
 msgstr ""
@@ -14168,7 +14225,7 @@ msgid "lastlog: Searches for a substring in the backlog."
 msgstr ""
 
 msgid "lead developer"
-msgstr ""
+msgstr "encodador principal"
 
 msgid "leave [channel]:  Leave the chat"
 msgstr ""
@@ -14185,22 +14242,24 @@ msgid "list:  List channels on this network"
 msgstr ""
 
 msgid "list: List rooms on the Yahoo network"
-msgstr ""
+msgstr "list : Recuperar la lista dels salons de la ret Yahoo."
 
 msgid "loading plugin failed"
-msgstr ""
+msgstr "error al moment de cargar l'empeuton"
 
 msgid "maintainer"
-msgstr ""
+msgstr "manteneire"
 
 msgid "me &lt;action to perform&gt;:  Perform an action."
-msgstr ""
+msgstr "me &lt;accion a far&gt; : Realizar una accion."
 
 msgid "me &lt;action&gt;:  Send an IRC style action to a buddy or chat."
 msgstr ""
+"me &lt;accion&gt; : mandar una accion del tipe IRC a un contacte o a una "
+"charradissa."
 
 msgid "memoserv: Send a command to memoserv"
-msgstr ""
+msgstr "memoserv : Mandar una comanda al servici dels messatges."
 
 msgid "minutes"
 msgstr "minutas"
@@ -14212,7 +14271,7 @@ msgstr ""
 
 #, c-format
 msgid "mode (%s %s) by %s"
-msgstr ""
+msgstr "mòde (%s %s) per %s"
 
 msgid "mood: Set current user mood"
 msgstr ""
@@ -14240,6 +14299,11 @@ msgid ""
 "darkgray, magenta, cyan, default<br><br>EXAMPLE:<br>    msgcolor send cyan "
 "default"
 msgstr ""
+"msgcolor &lt;categoria&gt; &lt;tèxte&gt; &lt;fons&gt; : Càmbia la color per "
+"las diferentas categorias de messatges dins la fenèstra de conversacion. "
+"<br>    &lt;categoria&gt; : receive, send, highlight, action, timestamp.<br> "
+"   &lt;tèxte/fons&gt; : black, red, green, blue, white, gray, darkgray, "
+"magenta, cyan, default.<br><br>Exemple :<br>    msgcolor send cyan default"
 
 msgid "myim URL handler"
 msgstr ""
@@ -14253,7 +14317,7 @@ msgid "names [channel]:  List the users currently in a channel."
 msgstr ""
 
 msgid "nick &lt;new nickname&gt;:  Change your nickname."
-msgstr ""
+msgstr "nick &lt;escais novèl&gt; : Cambiar d'escais"
 
 msgid "nick &lt;newnick&gt;:  Change your nickname"
 msgstr ""
@@ -14267,7 +14331,7 @@ msgstr ""
 
 #. does this happen?
 msgid "no such channel"
-msgstr ""
+msgstr "Aqueste salon existís pas"
 
 msgid "none"
 msgstr "pas cap"
@@ -14287,7 +14351,7 @@ msgid "oper &lt;nick&gt; [-pubkey]:  Get server operator privileges"
 msgstr ""
 
 msgid "operserv: Send a command to operserv"
-msgstr ""
+msgstr "operserv : Mandar una comanda al servici dels operadors."
 
 msgid ""
 "operwall &lt;message&gt;:  If you don't know what this is, you probably "
@@ -14295,13 +14359,13 @@ msgid ""
 msgstr ""
 
 msgid "original author"
-msgstr ""
+msgstr "autor original"
 
 msgid "part [channel]:  Leave the chat"
 msgstr ""
 
 msgid "part [message]:  Leave the room."
-msgstr ""
+msgstr "part [salon] : Quitar lo salon."
 
 msgid ""
 "part [room] [message]:  Leave the current channel, or a specified channel, "
@@ -14323,10 +14387,10 @@ msgid "ping:  Send PING to the connected server"
 msgstr ""
 
 msgid "plugins: Show the plugins window."
-msgstr ""
+msgstr "Empeutons : Afichar la fenèstra dels empeutons."
 
 msgid "prefs: Show the preference window."
-msgstr ""
+msgstr "prefs : Afichar la fenèstra de las opcions."
 
 msgid "print debugging messages to stdout"
 msgstr ""
@@ -14351,7 +14415,7 @@ msgid "quote [...]:  Send a raw command to the server."
 msgstr ""
 
 msgid "register:  Register with a chat room."
-msgstr ""
+msgstr "register : S'enregistrar dins un salon"
 
 msgid ""
 "remove &lt;nick&gt; [message]:  Remove someone from a room. You must be a "
@@ -14364,27 +14428,29 @@ msgid ""
 msgstr ""
 
 msgid "saved statuses"
-msgstr ""
+msgstr "estats enregistrats"
 
 msgid ""
 "say &lt;message&gt;:  Send a message normally as if you weren't using a "
 "command."
 msgstr ""
+"say &lt;messatge&gt; : Mandar un messatge coma se las comandas èran "
+"desactivadas."
 
 msgid "stats:  View server and network statistics"
 msgstr ""
 
 msgid "statuses: Show the savedstatuses window."
-msgstr ""
+msgstr "statuses : Afichar la fenèstra dels estats enregistrats."
 
 msgid "sub &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Join a new chat"
 msgstr ""
 
 msgid "support"
-msgstr ""
+msgstr "supòrt"
 
 msgid "support/QA"
-msgstr ""
+msgstr "assisténcia/FAQ"
 
 msgid "time: Displays the current local time at the IRC server."
 msgstr ""
@@ -14399,10 +14465,10 @@ msgid "topic [new topic]:  View or change the channel topic."
 msgstr ""
 
 msgid "topic [new topic]:  View or change the topic."
-msgstr ""
+msgstr "topic [subjècte novèl] : Veire o cambiar lo subjècte del salon"
 
 msgid "tzc command"
-msgstr ""
+msgstr "Comanda tzc"
 
 msgid "umode &lt;+|-&gt;&lt;A-Za-z&gt;:  Set or unset a user mode."
 msgstr ""
@@ -14411,7 +14477,7 @@ msgid "umode &lt;usermodes&gt;:  Set your modes in the network"
 msgstr ""
 
 msgid "unloading plugin failed"
-msgstr ""
+msgstr "error al moment de mandar l'empeuton"
 
 msgid "use DIR for config files"
 msgstr ""
@@ -14420,7 +14486,7 @@ msgid "users &lt;channel&gt;:  List users in channel"
 msgstr ""
 
 msgid "users:  Show the list of users in the chat."
-msgstr ""
+msgstr "users : Afichar la lista dels utilizaires dins lo salon."
 
 msgid "version [nick]: send CTCP VERSION request to a user"
 msgstr ""
@@ -14431,7 +14497,7 @@ msgid ""
 msgstr ""
 
 msgid "voice and video"
-msgstr ""
+msgstr "votz e vidèo"
 
 msgid ""
 "wallops &lt;message&gt;:  If you don't know what this is, you probably can't "
@@ -14442,7 +14508,7 @@ msgid "was kicked"
 msgstr ""
 
 msgid "webmaster"
-msgstr ""
+msgstr "webmèstre"
 
 msgid "whois &lt;nick&gt;:  View nick's information"
 msgstr ""
@@ -14457,7 +14523,7 @@ msgid "whowas &lt;nick&gt;: Get information on a user that has logged off."
 msgstr ""
 
 msgid "win32 port"
-msgstr ""
+msgstr "portatge win32"
 
 msgid "you are not waiting for authorization"
 msgstr ""
@@ -14495,4 +14561,4 @@ msgid "zl &lt;nick&gt;: Locate user"
 msgstr ""
 
 msgid "zlocate &lt;nick&gt;: Locate user"
-msgstr ""
+msgstr "zlocate &lt;escais&gt; : Localizar d'una persona."
