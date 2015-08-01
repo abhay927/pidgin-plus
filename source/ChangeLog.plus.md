@@ -40,7 +40,6 @@ Differences between the first release and Pidgin 2.10.11.
 * Build date in the installer and the about dialog.
 * Copyright list and license text added to installation.
 * Library manifest and licenses added to installation.
-* Compiled with newer GCC 4.9.
 * Improvements to the build process:
     - New Windows build script with flexible options.
     - Generation of full source code bundles ([#16502][7]).

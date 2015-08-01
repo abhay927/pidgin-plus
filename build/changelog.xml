@@ -106,10 +106,6 @@
         <change platform="Windows"
                 en-us:description="Better uninstallation"
                 pt-br:description="Melhor desinstalação"/>
-
-        <change platform="Windows"
-                en-us:description="Compiled with more recent GCC (4.9)"
-                pt-br:description="Compilado com GCC mais recente (4.9)"/>
     </version>
 
 </changelog>
