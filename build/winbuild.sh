@@ -240,8 +240,8 @@ if [[ -n "$source" ]]; then
     mkdir -p "$target_source"
     for asc in "" ${sign:+.asc}; do
         mv -v pidgin++_*_source_main.zip$asc "${target_source}/Pidgin++ ${version} Source.zip$asc"
-        mv -v pidgin++_*_source_lib1.zip$asc "${target_source}/Pidgin++ ${version} Source Windows Libraries 1.zip$asc"
-        mv -v pidgin++_*_source_lib2.zip$asc "${target_source}/Pidgin++ ${version} Source Windows Libraries 2.zip$asc"
+        mv -v pidgin++_*_source_lib1.zip$asc "${target_source}/Pidgin++ ${version} ${architecture} Source Windows Libraries 1.zip$asc"
+        mv -v pidgin++_*_source_lib2.zip$asc "${target_source}/Pidgin++ ${version} ${architecture} Source Windows Libraries 2.zip$asc"
     done
 fi
 
