@@ -49,7 +49,7 @@
             .en_US            { display: inline; }
 
             img              { margin: 10px; }
-            img.build        { margin: 0px; vertical-align: bottom; }
+            img.build        { margin: 0px 10px; vertical-align: bottom; }
             ::-moz-selection { color: #f8f8f8; background-color: #555; }
             ::selection      { color: #f8f8f8; background-color: #555; }
         </style>
@@ -126,18 +126,14 @@
     <body onload="translate();">
         <div id="header">
             <h1 class="logo"><i>Pidgin</i>++</h1>
-            <p class="translation en_US">An improved version of Pidgin.</p>
-            <p class="translation pt_BR">Uma versão melhorada do Pidgin.</p>
-
-            <br/><br/><i>
-            <h4>
-                <span class="translation en_US">Next release</span>
-                <span class="translation pt_BR">Próxima versão</span>
+            <p>
+                <span class="translation en_US">An improved version of Pidgin.</span>
+                <span class="translation pt_BR">Uma versão melhorada do Pidgin.</span>
                 <a target="_blank" href="https://travis-ci.org/renatosilva/pidgin-plus/builds"><img class="build" alt="" src="https://travis-ci.org/renatosilva/pidgin-plus.svg?branch=master"/></a>
-            </h4>
+            </p>
 
-        </div><div id="next-release">
-            <ul>
+        </div><div id="content">
+            <i><ul>
                 <li><span class="translation en_US">Improvements to the IRC protocol</span>
                     <span class="translation pt_BR">Melhorias para o protocolo IRC</span></li>
 
@@ -159,12 +155,15 @@
                 <li><div class="tag">Windows</div>
                     <span class="translation en_US">Improved installers</span>
                     <span class="translation pt_BR">Instaladores aprimorados</span></li>
-            </ul></i>
 
-        </div><div id="content">
-            <h4 class="translation en_US">Current release</h4>
-            <h4 class="translation pt_BR">Versão atual</h4>
-            <ul>
+                <li><div class="tag">Windows</div>
+                    <span class="translation en_US">Single click support on system tray</span>
+                    <span class="translation pt_BR">Clique simples na bandeja do sistema</span></li>
+
+                <li><div class="tag">Windows</div>
+                    <span class="translation en_US">Better Unicode support</span>
+                    <span class="translation pt_BR">Melhor suporte a Unicode</span></li>
+
                 <li><span class="translation en_US">Refined appearance including new status icons</span>
                     <span class="translation pt_BR">Aparência aprimorada incluindo novos ícones de status</span>
                     <div>
@@ -186,17 +185,9 @@
                         <img src="pixmaps/pidgin/tray/hicolor/48x48/status/pidgin-tray-connect.png"/>
                     </div></li>
 
-                <li><div class="tag">Windows</div>
-                    <span class="translation en_US">Single click support on system tray</span>
-                    <span class="translation pt_BR">Clique simples na bandeja do sistema</span></li>
-
-                <li><div class="tag">Windows</div>
-                    <span class="translation en_US">Better Unicode support</span>
-                    <span class="translation pt_BR">Melhor suporte a Unicode</span></li>
-
                 <li><span class="translation en_US">See <a target="_blank" href="changelog.html?full=true&lang=en_US">all features</a></span>
                     <span class="translation pt_BR">Ver <a target="_blank" href="changelog.html?full=true&lang=pt_BR">todas as funcionalidades</a></span></li>
-            </ul><br>
+            </ul></i><br>
             <p>
                 <a class="main" id="windows-button" href="javascript:windowsDownload();">
                     <span class="translation en_US">For Windows</span>
@@ -206,7 +197,7 @@
                     <span class="translation en_US">For Ubuntu</span>
                     <span class="translation pt_BR">Para Ubuntu</span>
                 </a>
-                <a class="main" href="https://launchpad.net/pidgin++/trunk/2.10.9-rs137/+download/Pidgin 2.10.9-RS137 Source.zip">
+                <a class="main" href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 Source.zip">
                     <span class="translation en_US">Source code</span>
                     <span class="translation pt_BR">Código fonte</span>
                 </a>
@@ -217,22 +208,14 @@
             </p>
 
         </div><div id="windows">
-            <p class="translation en_US">
-                You can download the current release or test next one, which is also available as 64-bit.
-                Note that the 64-bit edition requires 64-bit versions of the third-party plugins.
-            </p><p class="translation pt_BR">
-                Você pode baixar a versão atual ou testar a próxima, também disponível em 64 bits.
-                Note que a edição de 64 bits requer versões de 64-bits dos plugins adicionais.
-            </p><br>
+            <p class="translation en_US">Note that the 64-bit edition requires 64-bit versions of the third-party plugins.</p>
+            <p class="translation pt_BR">Note que a edição de 64 bits requer versões de 64-bits dos plugins adicionais.</p><br>
             <ul>
-                <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/trunk/2.10.9-rs137/+download/Pidgin 2.10.9-RS137 Setup.exe">Current release RS137</a></span>
-                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/trunk/2.10.9-rs137/+download/Pidgin 2.10.9-RS137 Setup.exe">Versão atual RS137</a></span></li>
+                <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x86 Setup.exe">Current release 15.1 as 32-bit</a></span>
+                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x86 Setup.exe">Versão atual 15.1 em 32 bits</a></span></li>
 
-                <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/test/15.1-test/+download/Pidgin++ 15.1 x86 Setup.exe">Next release 15.1 as 32-bit</a></span>
-                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/test/15.1-test/+download/Pidgin++ 15.1 x86 Setup.exe">Próxima versão 15.1 em 32 bits</a></span></li>
-
-                <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/test/15.1-test/+download/Pidgin++ 15.1 x64 Setup.exe">Next release 15.1 as 64-bit</a></span>
-                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/test/15.1-test/+download/Pidgin++ 15.1 x64 Setup.exe">Próxima versão 15.1 em 64 bits</a></span></li>
+                <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x64 Setup.exe">Current release 15.1 as 64-bit</a></span>
+                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x64 Setup.exe">Versão atual 15.1 em 64 bits</a></span></li>
 
                 <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/+download" target="_blank">All downloads</a></span>
                     <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/+download" target="_blank">Todos os downloads</a></span></li>
