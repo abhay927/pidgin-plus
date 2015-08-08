@@ -84,7 +84,7 @@ OBJECTS = $(C_FILES:%.c=%.o)
 ##
 ## LIBRARIES
 ##
-LIBS =			-lperl520 \
+LIBS =			-lperl522 \
 			-lperl \
 			-lpurple \
 			-lglib-2.0
