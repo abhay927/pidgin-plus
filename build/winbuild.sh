@@ -76,7 +76,6 @@ version=$($build_dir/changelog.sh --version)
 staging="$devroot/build/${staging:-pidgin.${bitness:-$machine}}"
 target_top="${directory:-$devroot/distribution/$version}"
 target="$target_top/$architecture"
-target_source="$target_top/source"
 documents="$staging/documents"
 nsis="nsis-2.46"
 
@@ -90,7 +89,11 @@ if [[ "$color" = on || (-z "$color" && -t 1) ]]; then
 fi
 source "$source_dir/colored.sh"
 
-# Build functions and output encoding
+# Functions and output encoding
+move_signed() {
+    mv -v "${1}" "${2}"
+    test -n "${sign}" && mv -v "${1}.asc" "${2}.asc"
+}
 domake() {
     ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
         BAZAAR_BRANCH="$base_dir" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
@@ -223,9 +226,7 @@ fi
 mkdir -p "$target"
 if [[ -n "$dictionaries" ]]; then
     build dictionaries_bundle_force
-    for asc in "" ${sign:+.asc}; do
-        mv -v pidgin/win32/nsis/dictionaries.zip$asc "$target/Pidgin++ Dictionaries.zip$asc"
-    done
+    move_signed 'pidgin/win32/nsis/dictionaries.zip' "${target}/Pidgin++ Dictionaries.zip"
     echo
     exit
 fi
@@ -237,12 +238,7 @@ if [[ -n "$source" ]]; then
         exit 1
     fi
     build source_code_zip
-    mkdir -p "$target_source"
-    for asc in "" ${sign:+.asc}; do
-        mv -v pidgin++_*_source_main.zip$asc "${target_source}/Pidgin++ ${version} Source.zip$asc"
-        mv -v pidgin++_*_source_lib1.zip$asc "${target_source}/Pidgin++ ${version} ${architecture} Source Windows Libraries 1.zip$asc"
-        mv -v pidgin++_*_source_lib2.zip$asc "${target_source}/Pidgin++ ${version} ${architecture} Source Windows Libraries 2.zip$asc"
-    done
+    move_signed pidgin++_*_source.zip "${target}/Pidgin++ ${version} ${architecture} Source.zip"
 fi
 
 # Installers
@@ -251,10 +247,8 @@ gcc_dir=$(dirname $(which gcc))
 gcc_version=$(gcc -dumpversion)
 echo "Using GCC $gcc_version from $gcc_dir"
 build "installer${offline:+s}"
-for asc in "" ${sign:+.asc}; do
-    [[ -n "$offline" ]] && mv -v pidgin++_*_offline.exe$asc "$target/Pidgin++ $version $architecture Offline Setup.exe$asc"
-    mv -v pidgin++_*.exe$asc "$target/Pidgin++ $version $architecture Setup.exe$asc"
-done
+test -n "${offline}" && move_signed pidgin++_*_offline.exe "${target}/Pidgin++ ${version} ${architecture} Offline Setup.exe"
+move_signed pidgin++_*.exe "${target}/Pidgin++ ${version} ${architecture} Setup.exe"
 build uninstall
 step "Build finished."
 echo
