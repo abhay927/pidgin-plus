@@ -32,6 +32,5 @@ cp "$website_dir/index.html" "$directory"
 cp "$website_dir/update.xml" "$directory"
 cp -r "$source_dir/pidgin/pixmaps/status/48" "$status_dir"
 cp -r "$source_dir/pidgin/pixmaps/tray/hicolor/48x48" "$tray_dir"
-cp -r "$website_dir/pixmaps/site" "$directory/pixmaps"
 "$build_dir/changelog.sh" --html --output "$directory/changelog.html" > /dev/null
 echo "Website exported to $directory"

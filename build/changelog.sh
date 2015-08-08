@@ -25,9 +25,6 @@
 ##    -V, --version-full           Print the Pidgin++ version, always including
 ##                                 the micro component.
 ##    -u, --upstream-version       Print the Pidgin version.
-##    -p, --package-version        Print the package version in Debian systems.
-##    -P, --package-version-full   Print the package version in Debian systems,
-##                                 including the epoch component.
 ##
 
 source easyoptions || exit
@@ -52,8 +49,6 @@ display_version="${full_version%.0}"
 [[ -n "$version"              ]] &&  printf "${display_version:+$display_version\n}"
 [[ -n "$version_full"         ]] &&  printf "${full_version:+$full_version\n}"
 [[ -n "$upstream_version"     ]] &&  printf "${pidgin_version:+$pidgin_version\n}"
-[[ -n "$package_version"      ]] &&  printf "${ubuntu_package_version:+${ubuntu_package_version#*:}\n}"
-[[ -n "$package_version_full" ]] &&  printf "${ubuntu_package_version:+${ubuntu_package_version}\n}"
 
 # Bump version
 if [[ -n "$bump_major_version" || -n "$bump_minor_version" || -n "$bump_micro_version" ]]; then
@@ -67,7 +62,6 @@ if [[ -n "$bump_major_version" || -n "$bump_minor_version" || -n "$bump_micro_ve
 fi
 
 xsl_parameters="-s version=$display_version -s bugs.url=https://developer.pidgin.im/ticket"
-[[ $(uname -s) = Linux ]] && ubuntu_package_version=$(apt-cache show pidgin | grep -m 1 Version | awk -F': ' '{ print $2 }' | sed -E "s/-(${display_version,,}\+){0,1}/-${display_version,,}+/")
 if [[ -n "$output" ]]; then
     if [[ -d "$output" ]]; then
         echo "Please specify a file, not a directory."
@@ -115,7 +109,7 @@ if [[ -n "$debian" ]]; then
     output="${output:-$base_dir/changelog.debian.txt}"
     distribution=$(lsb_release --codename --short 2> /dev/null || echo DISTRIBUTION)
     maintainer=$(bzr whoami 2> /dev/null || echo "${DEBFULLNAME:-NAME} <${DEBEMAIL:-EMAIL}>")
-    xsl_parameters="$xsl_parameters -s package.version=${ubuntu_package_version:-VERSION} -s distribution=$distribution"
+    xsl_parameters="$xsl_parameters -s package.version=VERSION -s distribution=$distribution"
     xmlstarlet transform --omit-decl changelog.debian.xsl $xsl_parameters -s maintainer="$maintainer" -s date="$(date -R)" changelog.xml | dos2unix > "$output"
     echo "Changelog exported to $output"
     exit

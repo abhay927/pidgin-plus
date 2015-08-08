@@ -44,7 +44,7 @@
                 color: #999;
             }
 
-            #ubuntu, #windows { display: none; }
+            #windows { display: none; }
             .translation      { display: none; }
             .en_US            { display: inline; }
 
@@ -93,33 +93,16 @@
                     setDisplayForClass("en_US", "none");
             }
             function windowsDownload() {
-                ubuntuButtonPressed = false;
                 windowsButtonPressed = !windowsButtonPressed;
                 if (windowsButtonPressed) {
-                    setDisplayForId("ubuntu", "none");
                     setDisplayForId("windows", "inline");
-                    document.getElementById("ubuntu-button").className = "main";
                     document.getElementById("windows-button").className = "pressed";
                 } else {
                     setDisplayForId("windows", "none");
                     document.getElementById("windows-button").className = "main";
                 }
             }
-            function ubuntuGuide() {
-                windowsButtonPressed = false;
-                ubuntuButtonPressed = !ubuntuButtonPressed;
-                if (ubuntuButtonPressed) {
-                    setDisplayForId("windows", "none");
-                    setDisplayForId("ubuntu", "inline");
-                    document.getElementById("windows-button").className = "main";
-                    document.getElementById("ubuntu-button").className = "pressed";
-                } else {
-                    setDisplayForId("ubuntu", "none");
-                    document.getElementById("ubuntu-button").className = "main";
-                }
-            }
             var windowsButtonPressed = false;
-            var ubuntuButtonPressed = false;
             parseParameters();
         </script>
     </head>
@@ -193,13 +176,13 @@
                     <span class="translation en_US">For Windows</span>
                     <span class="translation pt_BR">Para Windows</span>
                 </a>
-                <a class="main" id="ubuntu-button" href="javascript:ubuntuGuide();">
-                    <span class="translation en_US">For Ubuntu</span>
-                    <span class="translation pt_BR">Para Ubuntu</span>
-                </a>
                 <a class="main" href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 Source.zip">
                     <span class="translation en_US">Source code</span>
                     <span class="translation pt_BR">Código fonte</span>
+                </a>
+                <a class="main" href="https://github.com/renatosilva/pidgin-plus" target="_blank">
+                    <span class="translation en_US">GitHub mirror</span>
+                    <span class="translation pt_BR">Mirror no GitHub</span>
                 </a>
                 <a class="main" href="https://launchpad.net/pidgin++" target="_blank">
                     <span class="translation en_US">Development</span>
@@ -220,25 +203,6 @@
                 <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/+download" target="_blank">All downloads</a></span>
                     <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/+download" target="_blank">Todos os downloads</a></span></li>
             </ul>
-
-        </div><div id="ubuntu">
-            <p class="translation en_US">
-                Use the following steps for installing Pidgin++ on Ubuntu 14.04. Please note that Pidgin++ cannot be
-                installed in conjunction with the original Pidgin package. This is because the package name has not been changed.
-            </p><p class="translation pt_BR">
-                Use os seguintes passos para instalar o Pidgin++ no Ubuntu 14.04. Note que o Pidgin++ não pode ser
-                instalado em conjunto com o pacote original do Pidgin. Isso porque o nome do pacote não foi alterado.
-            </p><br>
-            <ol>
-                <li><span class="translation en_US">Add the repository <b>ppa:renatosilva/main</b> to your software sources using the repositories manager.<br><img src="pixmaps/site/resized/en/ubuntu/repository.png"/></span>
-                    <span class="translation pt_BR">Adicione o repositório <b>ppa:renatosilva/main</b> à sua lista de fontes de aplicativos usando o gerenciador de repositórios.<br><img src="pixmaps/site/resized/ptbr/ubuntu/repository.png"/></span></li>
-
-                <li><span class="translation en_US">Open the software center, search for <i>pidgin</i>, then click install.<br><img src="pixmaps/site/resized/en/ubuntu/install.png"/></span>
-                    <span class="translation pt_BR">Abra a central de programas, procure por <i>pidgin</i> e clique em instalar.<br><img src="pixmaps/site/resized/ptbr/ubuntu/install.png"/></span></li>
-
-                <li><span class="translation en_US">After installation, check if version is correctly reported under <i>Help > About</i>. Both Pidgin and libpurple should have the <i>RS</i> suffix in version, thus confirming that this is Pidgin++.<br><img src="pixmaps/site/resized/en/ubuntu/about.png"/></span>
-                    <span class="translation pt_BR">Após a instalação, verifique se é reportada a versão correta em <i>Ajuda > Sobre</i>. Tanto o Pidgin quanto a libpurple devem ter o sufixo <i>RS</i> na versão, confirmando assim que se trata do Pidgin++.<br><img src="pixmaps/site/resized/ptbr/ubuntu/about.png"/></span></li>
-            </ol>
         </div>
     </body>
 </html>
