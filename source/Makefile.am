@@ -82,7 +82,7 @@ endif
 # successfully; the rm -f ensures both
 package_revision_raw.txt: .FORCE
 	$(AM_V_GEN)REAL_BLDDIR=$$PWD/$(top_builddir); \
-	(hg --cwd $(srcdir) id -i --debug) 2>/dev/null >$@.new \
+	(bzr version-info --custom --template "{branch_nick}.{revno}") 2>/dev/null >$@.new \
 	|| rm -f $@.new
 	$(AM_V_at)if test -f $@.new; then \
 		if ! diff $@ $@.new > /dev/null; then \

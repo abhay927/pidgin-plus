@@ -45,7 +45,7 @@
 #include "gtkutils.h"
 #include "pidginstock.h"
 
-#ifndef _WIN32
+#ifndef BUILD_DATE
 #define BUILD_DATE _("<unknown>")
 #endif
 
@@ -522,7 +522,7 @@ const gchar *get_upstream_version(void)
 
 	g_match_info_free(match);
 	g_regex_unref(regex);
-	return result? result : purple_markup_escape_text(_("<unknown>"), -1);
+	return result? result : _("<unknown>");
 }
 
 void pidgin_dialogs_about(void)
@@ -553,8 +553,11 @@ void pidgin_dialogs_about(void)
 		  "\tLibpurple <i>%s</i><br>"
 		  "\tPackage revision <i>%s</i><br>"
 		  "\tBuild number <i>%s</i><br><br>"),
-		APPLICATION_NAME, DISPLAY_VERSION, bitness, get_upstream_version(),
-		purple_core_get_version(), purple_markup_escape_text(REVISION, -1), BUILD_DATE);
+		APPLICATION_NAME, DISPLAY_VERSION, bitness,
+		purple_markup_escape_text(get_upstream_version(), -1),
+		purple_core_get_version(),
+		purple_markup_escape_text(REVISION, -1),
+		purple_markup_escape_text(BUILD_DATE, -1));
 
 	g_string_append_printf(str,
 		_("Welcome to %s, a modified version of Pidgin.<br>"
