@@ -68,8 +68,6 @@ RequestExecutionLevel highest
 !define PIDGIN_UNINST_EXE			"pidgin-uninst.exe"
 
 !define GTK_MIN_VERSION				"${GTK_INSTALL_VERSION}"
-!define PERL_REG_KEY				"SOFTWARE\Perl"
-!define PERL_DLL				"perl522.dll"
 
 !define DOWNLOADER_URL				"https://pidgin.im/win32/download_redir.php?version=${UPSTREAM_VERSION}"
 
@@ -290,7 +288,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME} (${APPLICATION_BITNESS}-bit)"
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${DISPLAY_VERSION}"
-    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
+    WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "https://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKLM "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
     WriteRegDWORD HKLM "${PIDGIN_UNINSTALL_KEY}" "NoRepair" 1
     WriteRegStr HKLM "${PIDGIN_UNINSTALL_KEY}" "UninstallString" "$INSTDIR\${PIDGIN_UNINST_EXE}"
@@ -304,7 +302,7 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayIcon" "$INSTDIR\pidgin.exe"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayName" "${APPLICATION_NAME} (${APPLICATION_BITNESS}-bit)"
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "DisplayVersion" "${DISPLAY_VERSION}"
-    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "http://developer.pidgin.im/wiki/Using Pidgin"
+    WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "HelpLink" "https://developer.pidgin.im/wiki/Using Pidgin"
     WriteRegDWORD HKCU "${PIDGIN_UNINSTALL_KEY}" "NoModify" 1
     WriteRegDWORD HKCU "${PIDGIN_UNINSTALL_KEY}" "NoRepair" 1
     WriteRegStr HKCU "${PIDGIN_UNINSTALL_KEY}" "UninstallString" "$INSTDIR\${PIDGIN_UNINST_EXE}"
@@ -322,20 +320,6 @@ Section $(PIDGINSECTIONTITLE) SecPidgin
     Delete "$INSTDIR\plugins\.dll"
 
     File /r /x locale /x Gtk ..\..\..\${PIDGIN_INSTALL_DIR}\*.*
-
-    ; Check if Perl is installed, if so add it to the AppPaths
-    ReadRegStr $R2 HKLM ${PERL_REG_KEY} ""
-    StrCmp $R2 "" 0 perl_exists
-      ReadRegStr $R2 HKCU ${PERL_REG_KEY} ""
-      StrCmp $R2 "" perl_done perl_exists
-
-      perl_exists:
-        IfFileExists "$R2\bin\${PERL_DLL}" 0 perl_done
-        StrCmp $R0 "HKLM" 0 perl_done
-          ReadRegStr $R3 HKLM "${HKLM_APP_PATHS_KEY}" "Path"
-          WriteRegStr HKLM "${HKLM_APP_PATHS_KEY}" "Path" "$R3;$R2\bin"
-
-    perl_done:
 
     SetOutPath "$INSTDIR"
 

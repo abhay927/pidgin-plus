@@ -3682,6 +3682,7 @@ parse_redirect(const char *data, gsize data_len,
 		purple_util_fetch_url_error(gfud,
 				_("Could not open %s: Redirected too many times"),
 				gfud->url);
+		g_free(new_url);
 		return TRUE;
 	}
 
