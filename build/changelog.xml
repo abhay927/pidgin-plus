@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelog xmlns:en-us="en_US" xmlns:pt-br="pt_BR">
 
+    <version id="15.1.1">
+        <change en-us:description="Upstream version 2.10.12"
+                pt-br:description="Atualizações da versão original 2.10.12"/>
+    </version>
+
     <version id="15.1">
         <change en-us:description="New status icons"
                 pt-br:description="Novo tema para ícones de status">
