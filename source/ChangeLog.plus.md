@@ -9,6 +9,9 @@ targeted at end users, please see the XML changelog or its resulting formats.
 **All platforms**
 * Upstream version 2.10.12.
 
+**Windows**
+* Support for IPv6 addresses ([#1075][9]).
+
 
 ## 15.1
 
@@ -66,3 +69,4 @@ Differences between the first release and Pidgin 2.10.11.
 [6]: https://developer.pidgin.im/ticket/14970
 [7]: https://developer.pidgin.im/ticket/16502
 [8]: https://developer.pidgin.im/ticket/3692
+[9]: https://developer.pidgin.im/ticket/1075
