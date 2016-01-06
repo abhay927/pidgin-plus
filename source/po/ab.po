@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 12:55-0300\n"
+"POT-Creation-Date: 2016-01-05 18:33-0200\n"
 "PO-Revision-Date: 2014-07-20 06:23+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Burmese (Myanmar) "
@@ -18,12 +18,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Launchpad-Export-Date: 2015-06-02 05:39+0000\n"
-"X-Generator: Launchpad (build 17532)\n"
+"X-Launchpad-Export-Date: 2016-01-06 05:46+0000\n"
+"X-Generator: Launchpad (build 17876)\n"
 "Language: my_MM\n"
+
+msgid "\tNotify for _System messages"
+msgstr ""
+
+msgid "\t_Notify for System messages"
+msgstr ""
 
 msgid "\t_Only when someone says your username"
 msgstr "\t_O \t တစ်ယောက်ယောက်သည် သင့်အမည်ကို ခေါ်သည့် အခါ၌သာ"
+
+msgid ""
+"\n"
+"\n"
+"Message from Farsight: "
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1694,6 +1706,14 @@ msgstr ""
 msgid "A server is required to connect this account"
 msgstr "ဤအကောင့်ကို ဆက်သွယ်ရန် ဆာဗာတစ်ခု လိုအပ်သည်။"
 
+#. Translators note: These are the letters on the keys of a numeric
+#. keypad; translate according to the tables in §7 of ETSI ES 202 130:
+#. http://webapp.etsi.org/WorkProgram/Report_WorkItem.asp?WKI_ID=11730
+#. 
+#. Letters on the '2' key of a numeric keypad
+msgid "ABC"
+msgstr ""
+
 #, c-format
 msgid "ABI version mismatch %d.%d.x (need %d.%d.x)"
 msgstr "ABI ဗားရှင်း မတူညီမှု  %d.%d.x (%d.%d.x လိုအပ်သည်။)"
@@ -2746,6 +2766,9 @@ msgstr "_O ဖွင့်ကြည့်ရန်..."
 msgid "Brave"
 msgstr "ရဲရင့်သည်"
 
+msgid "Breton"
+msgstr ""
+
 msgid "British English"
 msgstr "ဗြိတိသျှ အင်္ဂလိပ်"
 
@@ -3430,6 +3453,11 @@ msgstr "ရွှေ့ပြောင်းမှု အားလုံး ပ�
 msgid "Co_nversations:"
 msgstr "_N စကားပြောဆိုမှုများ -"
 
+msgid ""
+"Codec negotiation failed. This problem might be resolved by installing more "
+"GStreamer codecs."
+msgstr ""
+
 msgid "Cold"
 msgstr "အေးမြသည်"
 
@@ -3791,6 +3819,9 @@ msgstr ""
 msgid "Could not change nick"
 msgstr "အမည်ပြောင်ကို ပြောင်းမရပါ"
 
+msgid "Could not connect to the remote party"
+msgstr ""
+
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
 "does not exist."
@@ -3975,6 +4006,10 @@ msgstr "DBus ဥပမာ"
 #. *  description
 msgid "DBus Plugin Example"
 msgstr "DBus ပလပ်အင် ဥပမာ"
+
+#. Letters on the '3' key of a numeric keypad
+msgid "DEF"
+msgstr ""
 
 msgid "DIR"
 msgstr "DIR"
@@ -4617,6 +4652,11 @@ msgstr "ဖိုင် ရွှေ့ပြောင်းနေစဉ် ခ�
 msgid "Error in chat %s"
 msgstr "စကားပြောခန်း %s ချို့ယွင်းချက်"
 
+msgid ""
+"Error initializing the call. This probably denotes problem in installation "
+"of GStreamer or Farsight."
+msgstr ""
+
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
 msgid ""
@@ -5250,6 +5290,10 @@ msgstr "အရည်အသွေး ပြည့်မီသော ဒိုမ�
 
 msgid "GG server"
 msgstr "GG ဆာဗာ"
+
+#. Letters on the '4' key of a numeric keypad
+msgid "GHI"
+msgstr ""
 
 msgid "GNOME Default"
 msgstr "ပုံမှန် GNOME"
@@ -6280,6 +6324,10 @@ msgstr "ပစ္စည်း ရှာမတွေ့ပါ"
 msgid "JID"
 msgstr "JID"
 
+#. Letters on the '5' key of a numeric keypad
+msgid "JKL"
+msgstr ""
+
 msgid "Japanese"
 msgstr "ဂျပဲနိစ်"
 
@@ -6763,6 +6811,10 @@ msgstr "နေ့လည်စာ"
 msgid "MMS"
 msgstr "MMS"
 
+#. Letters on the '6' key of a numeric keypad
+msgid "MNO"
+msgstr ""
+
 #, c-format
 msgid "MOTD for %s"
 msgstr "%s အတွက် MOTD"
@@ -6905,6 +6957,9 @@ msgstr "ကပ်စေးနဲသည်"
 
 msgid "Media Initiation Failed"
 msgstr "မီဒီယာကို အစပြု၍ မရပါ"
+
+msgid "Media error"
+msgstr ""
 
 msgid "Meebo"
 msgstr "Meebo"
@@ -7324,6 +7379,9 @@ msgstr "ကွန်ရက်"
 
 msgid "Network Statistics"
 msgstr "ကွန်ရက် စာရင်းဇယားများ"
+
+msgid "Network error."
+msgstr ""
 
 msgid "Network is empty"
 msgstr "ကွန်ရက် ဗလာဖြစ်နေသည်"
@@ -8054,6 +8112,10 @@ msgstr "PING အကြောင်း ပြန်ကြားချက် -- �
 msgid "PONG"
 msgstr "PONG"
 
+#. Letters on the '7' key of a numeric keypad
+msgid "PQRS"
+msgstr ""
+
 msgid "P_auses while typing"
 msgstr "_A စာရိုက်ခြင်း ခဏနားသည်"
 
@@ -8277,9 +8339,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
+"Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
+"installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 msgstr ""
 
 msgid "Pidgin++ smileys"
@@ -10578,6 +10639,9 @@ msgstr ""
 msgid "Supported debug options are: plugins version"
 msgstr "ထောက်ပံ့ထားသော အမှားပြင်ဆင်မှု ရွေးစရာများမှာ - ပလပ်အင် ဗားရှင်း"
 
+msgid "Supported debug options are: plugins, version"
+msgstr ""
+
 msgid "Supports"
 msgstr "အထောက်အပံ့များ"
 
@@ -10644,6 +10708,10 @@ msgid "TLS 1.3"
 msgstr ""
 
 msgid "TLS/SSL Versions"
+msgstr ""
+
+#. Letters on the '8' key of a numeric keypad
+msgid "TUV"
 msgstr ""
 
 msgid "T_CP Port:"
@@ -13039,6 +13107,10 @@ msgstr "WAP ဆာဗာ"
 msgid "WATCH"
 msgstr "​စောင့်ကြည့်ရန်"
 
+#. Letters on the '9' key of a numeric keypad
+msgid "WXYZ"
+msgstr ""
+
 msgid "Waiting for Handshake Acknowledgement"
 msgstr "မိတ်​ဆက်ခြင်းကို အသိအမှတ်ပြုခံရရန် စောင့်ဆိုင်းနေမှု"
 
@@ -14429,6 +14501,8 @@ msgid "_Port:"
 msgstr "_Port:"
 
 #. Present conversation method button
+#. Translators: "Present" as used here is a verb. The plugin presents
+#. * the window to the user.
 msgid "_Present conversation window"
 msgstr "_P လက်ရှိ စကားပြောဆိုမှု ဝင်းဒိုး"
 
