@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 12:55-0300\n"
+"POT-Creation-Date: 2016-01-05 18:33-0200\n"
 "PO-Revision-Date: 2014-08-31 02:32+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: GTP Korean <gnome-kr-translation@gnome.or.kr>\n"
@@ -18,13 +18,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2015-06-02 05:47+0000\n"
-"X-Generator: Launchpad (build 17532)\n"
+"X-Launchpad-Export-Date: 2016-01-06 05:54+0000\n"
+"X-Generator: Launchpad (build 17876)\n"
 "X-Poedit-Country: KOREA, REPUBLIC OF\n"
 "Language: Korean\n"
 "X-Poedit-Language: Korean\n"
 
+msgid "\tNotify for _System messages"
+msgstr ""
+
+msgid "\t_Notify for System messages"
+msgstr ""
+
 msgid "\t_Only when someone says your username"
+msgstr ""
+
+msgid ""
+"\n"
+"\n"
+"Message from Farsight: "
 msgstr ""
 
 #, c-format
@@ -1573,6 +1585,14 @@ msgstr ""
 msgid "A server is required to connect this account"
 msgstr ""
 
+#. Translators note: These are the letters on the keys of a numeric
+#. keypad; translate according to the tables in §7 of ETSI ES 202 130:
+#. http://webapp.etsi.org/WorkProgram/Report_WorkItem.asp?WKI_ID=11730
+#. 
+#. Letters on the '2' key of a numeric keypad
+msgid "ABC"
+msgstr ""
+
 #, c-format
 msgid "ABI version mismatch %d.%d.x (need %d.%d.x)"
 msgstr "ABI 버전 (%d.%d.x) 이(가) 일치하지 않습니다: %d.%d.x 버전 필요"
@@ -2585,6 +2605,9 @@ msgstr "찾아보기(_O)..."
 msgid "Brave"
 msgstr ""
 
+msgid "Breton"
+msgstr ""
+
 msgid "British English"
 msgstr "영어 (영국)"
 
@@ -3258,6 +3281,11 @@ msgstr ""
 msgid "Co_nversations:"
 msgstr "대화 창(_N):"
 
+msgid ""
+"Codec negotiation failed. This problem might be resolved by installing more "
+"GStreamer codecs."
+msgstr ""
+
 msgid "Cold"
 msgstr ""
 
@@ -3609,6 +3637,9 @@ msgstr ""
 msgid "Could not change nick"
 msgstr "별명을 변경할 수 없었습니다."
 
+msgid "Could not connect to the remote party"
+msgstr ""
+
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
 "does not exist."
@@ -3787,6 +3818,10 @@ msgstr "DBus 예제"
 #. *  description
 msgid "DBus Plugin Example"
 msgstr "DBus 플러그인 예제"
+
+#. Letters on the '3' key of a numeric keypad
+msgid "DEF"
+msgstr ""
 
 msgid "DIR"
 msgstr ""
@@ -4400,6 +4435,11 @@ msgstr "파일 전송 중 오류"
 #, c-format
 msgid "Error in chat %s"
 msgstr "대화 %s 에서 오류"
+
+msgid ""
+"Error initializing the call. This probably denotes problem in installation "
+"of GStreamer or Farsight."
+msgstr ""
 
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
@@ -5019,6 +5059,10 @@ msgid "Fully qualified domain name missing"
 msgstr "FQDN (Fully Qualified Domain Name) 이 없습니다."
 
 msgid "GG server"
+msgstr ""
+
+#. Letters on the '4' key of a numeric keypad
+msgid "GHI"
 msgstr ""
 
 msgid "GNOME Default"
@@ -6040,6 +6084,10 @@ msgstr "항목을 찾을 수 없습니다."
 msgid "JID"
 msgstr "JID"
 
+#. Letters on the '5' key of a numeric keypad
+msgid "JKL"
+msgstr ""
+
 msgid "Japanese"
 msgstr "일본어"
 
@@ -6514,6 +6562,10 @@ msgstr ""
 msgid "MMS"
 msgstr "MMS"
 
+#. Letters on the '6' key of a numeric keypad
+msgid "MNO"
+msgstr ""
+
 #, c-format
 msgid "MOTD for %s"
 msgstr "%s 의 MOTD"
@@ -6650,6 +6702,9 @@ msgid "Mean"
 msgstr ""
 
 msgid "Media Initiation Failed"
+msgstr ""
+
+msgid "Media error"
 msgstr ""
 
 msgid "Meebo"
@@ -7055,6 +7110,9 @@ msgstr "네트워크"
 
 msgid "Network Statistics"
 msgstr "네트워크 통계 정보"
+
+msgid "Network error."
+msgstr ""
 
 msgid "Network is empty"
 msgstr ""
@@ -7778,6 +7836,10 @@ msgstr "PING 응답 -- Lag: %lu 초"
 msgid "PONG"
 msgstr "PONG"
 
+#. Letters on the '7' key of a numeric keypad
+msgid "PQRS"
+msgstr ""
+
 msgid "P_auses while typing"
 msgstr "입력을 일시 중지했을 때(_A)"
 
@@ -8001,9 +8063,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
+"Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
+"installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 msgstr ""
 
 msgid "Pidgin++ smileys"
@@ -10237,6 +10298,9 @@ msgstr ""
 msgid "Supported debug options are: plugins version"
 msgstr ""
 
+msgid "Supported debug options are: plugins, version"
+msgstr ""
+
 msgid "Supports"
 msgstr "지원"
 
@@ -10299,6 +10363,10 @@ msgid "TLS 1.3"
 msgstr ""
 
 msgid "TLS/SSL Versions"
+msgstr ""
+
+#. Letters on the '8' key of a numeric keypad
+msgid "TUV"
 msgstr ""
 
 msgid "T_CP Port:"
@@ -12520,6 +12588,10 @@ msgstr ""
 msgid "WATCH"
 msgstr ""
 
+#. Letters on the '9' key of a numeric keypad
+msgid "WXYZ"
+msgstr ""
+
 msgid "Waiting for Handshake Acknowledgement"
 msgstr "핸드쉐이크 응답을 기다리고 있습니다."
 
@@ -13822,6 +13894,8 @@ msgid "_Port:"
 msgstr "포트 번호(_P):"
 
 #. Present conversation method button
+#. Translators: "Present" as used here is a verb. The plugin presents
+#. * the window to the user.
 msgid "_Present conversation window"
 msgstr ""
 

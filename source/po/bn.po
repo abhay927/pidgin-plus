@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 12:55-0300\n"
+"POT-Creation-Date: 2016-01-05 18:33-0200\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -21,17 +21,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-06-02 05:41+0000\n"
-"X-Generator: Launchpad (build 17532)\n"
+"X-Launchpad-Export-Date: 2016-01-06 05:48+0000\n"
+"X-Generator: Launchpad (build 17876)\n"
 "X-Poedit-Country: BANGLADESH\n"
 "Language: Bengali\n"
 "X-Poedit-Language: Bengali\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,213,212,-1\n"
 
+msgid "\tNotify for _System messages"
+msgstr ""
+
+msgid "\t_Notify for System messages"
+msgstr ""
+
 # fix me
 msgid "\t_Only when someone says your username"
 msgstr "\tশুধুমাত্র তখনই যখন কেউ আপনার ব্যবহারকারীর নাম উল্লেখ করে (_O)"
+
+msgid ""
+"\n"
+"\n"
+"Message from Farsight: "
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1789,6 +1801,14 @@ msgstr ""
 msgid "A server is required to connect this account"
 msgstr ""
 
+#. Translators note: These are the letters on the keys of a numeric
+#. keypad; translate according to the tables in §7 of ETSI ES 202 130:
+#. http://webapp.etsi.org/WorkProgram/Report_WorkItem.asp?WKI_ID=11730
+#. 
+#. Letters on the '2' key of a numeric keypad
+msgid "ABC"
+msgstr ""
+
 #, c-format
 msgid "ABI version mismatch %d.%d.x (need %d.%d.x)"
 msgstr "ABI সংস্করণ এ অমিল %d.%d.x (%d.%d.x প্রয়োজন)"
@@ -2950,6 +2970,9 @@ msgstr "ব্রাউজ... (_o)"
 msgid "Brave"
 msgstr "সাহসী"
 
+msgid "Breton"
+msgstr ""
+
 msgid "British English"
 msgstr "ব্রিটিশ ইংরেজী"
 
@@ -3683,6 +3706,11 @@ msgstr "সব স্থানান্তর শেষ হলে এই উই�
 msgid "Co_nversations:"
 msgstr "কথোপকথন (_n):"
 
+msgid ""
+"Codec negotiation failed. This problem might be resolved by installing more "
+"GStreamer codecs."
+msgstr ""
+
 # snigdha
 msgid "Cold"
 msgstr "শীতল"
@@ -4080,6 +4108,9 @@ msgstr ""
 msgid "Could not change nick"
 msgstr "ডাকনাম পরিবর্তন করা সম্ভব হয়নি"
 
+msgid "Could not connect to the remote party"
+msgstr ""
+
 # tithi
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
@@ -4284,6 +4315,10 @@ msgstr "DBus উদাহরণ"
 #. *  description
 msgid "DBus Plugin Example"
 msgstr "DBus প্লাগইন এর উদাহরণ"
+
+#. Letters on the '3' key of a numeric keypad
+msgid "DEF"
+msgstr ""
 
 # Translated by sadia
 msgid "DIR"
@@ -4995,6 +5030,11 @@ msgstr "ফাইল স্থানান্তরের ত্রুটি"
 msgid "Error in chat %s"
 msgstr "%s আড্ডায় ত্রুটি"
 
+msgid ""
+"Error initializing the call. This probably denotes problem in installation "
+"of GStreamer or Farsight."
+msgstr ""
+
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
 msgid ""
@@ -5669,6 +5709,10 @@ msgstr "সম্পূর্ণ কার্যকর ডোমেইন না
 
 msgid "GG server"
 msgstr "GG সার্ভার"
+
+#. Letters on the '4' key of a numeric keypad
+msgid "GHI"
+msgstr ""
 
 msgid "GNOME Default"
 msgstr "জিনোম ডিফল্ট"
@@ -6808,6 +6852,10 @@ msgstr "আইটেম খুঁজে পাওয়া যায়নি"
 msgid "JID"
 msgstr "JID"
 
+#. Letters on the '5' key of a numeric keypad
+msgid "JKL"
+msgstr ""
+
 msgid "Japanese"
 msgstr "জাপানী"
 
@@ -7331,6 +7379,10 @@ msgstr "দুপুরের খাবার"
 msgid "MMS"
 msgstr "MMS"
 
+#. Letters on the '6' key of a numeric keypad
+msgid "MNO"
+msgstr ""
+
 #, c-format
 msgid "MOTD for %s"
 msgstr "%s এর জন্য MOTD"
@@ -7491,6 +7543,9 @@ msgstr "হীনমর্যাদা সম্পন্ন"
 
 msgid "Media Initiation Failed"
 msgstr "মিডিয়া আরম্ভ করা ব্যর্থ হয়েছে"
+
+msgid "Media error"
+msgstr ""
 
 # tithi
 msgid "Meebo"
@@ -7946,6 +8001,9 @@ msgstr "নেটওয়ার্ক"
 
 msgid "Network Statistics"
 msgstr "নেটওয়ার্ক পরিসংখ্যান"
+
+msgid "Network error."
+msgstr ""
 
 msgid "Network is empty"
 msgstr "নেটওয়ার্ক খালি"
@@ -8735,6 +8793,10 @@ msgstr "PING reply -- Lag: %lu seconds"
 msgid "PONG"
 msgstr "PONG"
 
+#. Letters on the '7' key of a numeric keypad
+msgid "PQRS"
+msgstr ""
+
 # tithi
 msgid "P_auses while typing"
 msgstr "টাইপ করার সময় থামে (_a)"
@@ -8975,9 +9037,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
+"Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
+"installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 msgstr ""
 
 msgid "Pidgin++ smileys"
@@ -11460,6 +11521,9 @@ msgstr "বানান পরীক্ষার জন্য সমর্থন
 msgid "Supported debug options are: plugins version"
 msgstr "সমর্থিত ডিবাগ অপশন: প্লাগইন সংস্করণ"
 
+msgid "Supported debug options are: plugins, version"
+msgstr ""
+
 msgid "Supports"
 msgstr "সমর্থন"
 
@@ -11529,6 +11593,10 @@ msgid "TLS 1.3"
 msgstr ""
 
 msgid "TLS/SSL Versions"
+msgstr ""
+
+#. Letters on the '8' key of a numeric keypad
+msgid "TUV"
 msgstr ""
 
 msgid "T_CP Port:"
@@ -14144,6 +14212,10 @@ msgstr "WAP সার্ভার"
 msgid "WATCH"
 msgstr "পর্যবেক্ষণ"
 
+#. Letters on the '9' key of a numeric keypad
+msgid "WXYZ"
+msgstr ""
+
 msgid "Waiting for Handshake Acknowledgement"
 msgstr "হ্যান্ডশেকের প্রাপ্তিস্বীকারের অপেক্ষা করা হচ্ছে"
 
@@ -15676,6 +15748,8 @@ msgid "_Port:"
 msgstr "পোর্ট (_P):"
 
 #. Present conversation method button
+#. Translators: "Present" as used here is a verb. The plugin presents
+#. * the window to the user.
 msgid "_Present conversation window"
 msgstr "বর্তমান কথোপকথন উইন্ডো (_P)"
 

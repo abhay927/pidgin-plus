@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 12:55-0300\n"
+"POT-Creation-Date: 2016-01-05 18:33-0200\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Persian "
@@ -18,12 +18,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2015-06-02 05:50+0000\n"
-"X-Generator: Launchpad (build 17532)\n"
+"X-Launchpad-Export-Date: 2016-01-06 05:57+0000\n"
+"X-Generator: Launchpad (build 17876)\n"
 "Language: Persian\n"
+
+msgid "\tNotify for _System messages"
+msgstr ""
+
+msgid "\t_Notify for System messages"
+msgstr ""
 
 msgid "\t_Only when someone says your username"
 msgstr "\t_فقط وقتی کسی نام کاربری شما را در گپ می‌گوید"
+
+msgid ""
+"\n"
+"\n"
+"Message from Farsight: "
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1593,6 +1605,14 @@ msgstr ""
 msgid "A server is required to connect this account"
 msgstr ""
 
+#. Translators note: These are the letters on the keys of a numeric
+#. keypad; translate according to the tables in §7 of ETSI ES 202 130:
+#. http://webapp.etsi.org/WorkProgram/Report_WorkItem.asp?WKI_ID=11730
+#. 
+#. Letters on the '2' key of a numeric keypad
+msgid "ABC"
+msgstr ""
+
 #, c-format
 msgid "ABI version mismatch %d.%d.x (need %d.%d.x)"
 msgstr ""
@@ -2619,6 +2639,9 @@ msgstr "م_رور..."
 msgid "Brave"
 msgstr "شجاع"
 
+msgid "Breton"
+msgstr ""
+
 msgid "British English"
 msgstr "انگلیسی بریتانیایی"
 
@@ -3296,6 +3319,11 @@ msgstr "وقتی همهٔ انتقالات تمام شد این پنجره بس�
 msgid "Co_nversations:"
 msgstr "_گفتگوها:"
 
+msgid ""
+"Codec negotiation failed. This problem might be resolved by installing more "
+"GStreamer codecs."
+msgstr ""
+
 msgid "Cold"
 msgstr "سرد"
 
@@ -3651,6 +3679,9 @@ msgstr ""
 msgid "Could not change nick"
 msgstr "عوض کردن لقب ممکن نیست"
 
+msgid "Could not connect to the remote party"
+msgstr ""
+
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
 "does not exist."
@@ -3833,6 +3864,10 @@ msgstr "نمونهٔ DBus"
 #. *  description
 msgid "DBus Plugin Example"
 msgstr "نمونهٔ متصل شوندهٔ DBus"
+
+#. Letters on the '3' key of a numeric keypad
+msgid "DEF"
+msgstr ""
 
 msgid "DIR"
 msgstr ""
@@ -4456,6 +4491,11 @@ msgstr "خطا هنگام انتقال پرونده"
 msgid "Error in chat %s"
 msgstr "خطا در گپ %s"
 
+msgid ""
+"Error initializing the call. This probably denotes problem in installation "
+"of GStreamer or Farsight."
+msgstr ""
+
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
 msgid ""
@@ -5076,6 +5116,10 @@ msgstr ""
 
 msgid "GG server"
 msgstr "کارگزار GG"
+
+#. Letters on the '4' key of a numeric keypad
+msgid "GHI"
+msgstr ""
 
 msgid "GNOME Default"
 msgstr "پیش‌فرض گنوم"
@@ -6102,6 +6146,10 @@ msgstr "مورد پیدا نشد"
 msgid "JID"
 msgstr "JID"
 
+#. Letters on the '5' key of a numeric keypad
+msgid "JKL"
+msgstr ""
+
 msgid "Japanese"
 msgstr "ژاپنی"
 
@@ -6578,6 +6626,10 @@ msgstr "ناهار"
 msgid "MMS"
 msgstr "MMS"
 
+#. Letters on the '6' key of a numeric keypad
+msgid "MNO"
+msgstr ""
+
 #, c-format
 msgid "MOTD for %s"
 msgstr "MOTD برای %s"
@@ -6715,6 +6767,9 @@ msgid "Mean"
 msgstr "بدجنس"
 
 msgid "Media Initiation Failed"
+msgstr ""
+
+msgid "Media error"
 msgstr ""
 
 msgid "Meebo"
@@ -7124,6 +7179,9 @@ msgstr "شبکه"
 
 msgid "Network Statistics"
 msgstr "آمار شبکه"
+
+msgid "Network error."
+msgstr ""
 
 msgid "Network is empty"
 msgstr ""
@@ -7849,6 +7907,10 @@ msgstr "پاسخ PING ‐‐ تأخیر: %Ilu ثانیه"
 msgid "PONG"
 msgstr "PONG"
 
+#. Letters on the '7' key of a numeric keypad
+msgid "PQRS"
+msgstr ""
+
 msgid "P_auses while typing"
 msgstr ""
 
@@ -8072,9 +8134,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
+"Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
+"installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 msgstr ""
 
 msgid "Pidgin++ smileys"
@@ -10346,6 +10407,9 @@ msgstr "پشتيبانى غلط‌يابى املايى. (براى نصب اتص
 msgid "Supported debug options are: plugins version"
 msgstr "گزینه‌های اشکال‌زدایی پشتیبانی‌شده عبارتند از: plugins version"
 
+msgid "Supported debug options are: plugins, version"
+msgstr ""
+
 msgid "Supports"
 msgstr ""
 
@@ -10411,6 +10475,10 @@ msgid "TLS 1.3"
 msgstr ""
 
 msgid "TLS/SSL Versions"
+msgstr ""
+
+#. Letters on the '8' key of a numeric keypad
+msgid "TUV"
 msgstr ""
 
 msgid "T_CP Port:"
@@ -12671,6 +12739,10 @@ msgstr ""
 msgid "WATCH"
 msgstr ""
 
+#. Letters on the '9' key of a numeric keypad
+msgid "WXYZ"
+msgstr ""
+
 msgid "Waiting for Handshake Acknowledgement"
 msgstr "در انتظار برای اعلام دست دادن"
 
@@ -14015,6 +14087,8 @@ msgid "_Port:"
 msgstr "_درگاه:"
 
 #. Present conversation method button
+#. Translators: "Present" as used here is a verb. The plugin presents
+#. * the window to the user.
 msgid "_Present conversation window"
 msgstr ""
 

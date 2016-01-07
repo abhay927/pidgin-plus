@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 12:55-0300\n"
+"POT-Creation-Date: 2016-01-05 18:33-0200\n"
 "PO-Revision-Date: 2015-06-21 20:24+0000\n"
 "Last-Translator: Tobias Bannert <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
@@ -20,12 +20,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-06-22 05:31+0000\n"
-"X-Generator: Launchpad (build 17572)\n"
+"X-Launchpad-Export-Date: 2016-01-06 05:51+0000\n"
+"X-Generator: Launchpad (build 17876)\n"
 "Language: German\n"
+
+msgid "\tNotify for _System messages"
+msgstr ""
+
+msgid "\t_Notify for System messages"
+msgstr ""
 
 msgid "\t_Only when someone says your username"
 msgstr "\t_Nur wenn jemand Ihren Benutzernamen nennt"
+
+msgid ""
+"\n"
+"\n"
+"Message from Farsight: "
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1713,6 +1725,14 @@ msgstr "Ein nicht behebbarer Farstream-Fehler ist aufgetreten."
 msgid "A server is required to connect this account"
 msgstr "Es wird ein Server benötigt um dieses Konto zu verbinden"
 
+#. Translators note: These are the letters on the keys of a numeric
+#. keypad; translate according to the tables in §7 of ETSI ES 202 130:
+#. http://webapp.etsi.org/WorkProgram/Report_WorkItem.asp?WKI_ID=11730
+#. 
+#. Letters on the '2' key of a numeric keypad
+msgid "ABC"
+msgstr ""
+
 #, c-format
 msgid "ABI version mismatch %d.%d.x (need %d.%d.x)"
 msgstr "ABI Versionskonflikt %d.%d.x (brauche %d.%d.x)"
@@ -2780,6 +2800,9 @@ msgstr "Auswäh_len..."
 msgid "Brave"
 msgstr "Tapfer"
 
+msgid "Breton"
+msgstr ""
+
 msgid "British English"
 msgstr "Britisches Englisch"
 
@@ -3465,6 +3488,11 @@ msgstr "Fenster schließen, wenn alle Übertragungen abgeschlossen sind"
 msgid "Co_nversations:"
 msgstr "U_nterhaltungen:"
 
+msgid ""
+"Codec negotiation failed. This problem might be resolved by installing more "
+"GStreamer codecs."
+msgstr ""
+
 msgid "Cold"
 msgstr "Unterkühlt"
 
@@ -3836,6 +3864,9 @@ msgstr ""
 msgid "Could not change nick"
 msgstr "Konnte den Spitznamen nicht ändern"
 
+msgid "Could not connect to the remote party"
+msgstr ""
+
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
 "does not exist."
@@ -4023,6 +4054,10 @@ msgstr "DBus-Beispiel"
 #. *  description
 msgid "DBus Plugin Example"
 msgstr "DBus-Plugin-Beispiel"
+
+#. Letters on the '3' key of a numeric keypad
+msgid "DEF"
+msgstr ""
 
 msgid "DIR"
 msgstr "DIR"
@@ -4666,6 +4701,11 @@ msgstr "Fehler bei der Dateiübertragung"
 msgid "Error in chat %s"
 msgstr "Fehler im Chat %s"
 
+msgid ""
+"Error initializing the call. This probably denotes problem in installation "
+"of GStreamer or Farsight."
+msgstr ""
+
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
 msgid ""
@@ -5300,6 +5340,10 @@ msgstr "Der Fully Qualified Domain Name fehlt"
 
 msgid "GG server"
 msgstr "GG-Server"
+
+#. Letters on the '4' key of a numeric keypad
+msgid "GHI"
+msgstr ""
 
 msgid "GNOME Default"
 msgstr "GNOME-Standard"
@@ -6329,6 +6373,10 @@ msgstr "Eintrag nicht gefunden"
 msgid "JID"
 msgstr "JID"
 
+#. Letters on the '5' key of a numeric keypad
+msgid "JKL"
+msgstr ""
+
 msgid "Japanese"
 msgstr "Japanisch"
 
@@ -6814,6 +6862,10 @@ msgstr "Mittagspause"
 msgid "MMS"
 msgstr "MMS"
 
+#. Letters on the '6' key of a numeric keypad
+msgid "MNO"
+msgstr ""
+
 #, c-format
 msgid "MOTD for %s"
 msgstr "MOTD für %s"
@@ -6955,6 +7007,9 @@ msgstr "Gemein"
 
 msgid "Media Initiation Failed"
 msgstr "Medien-Initiierung fehlgeschlagen"
+
+msgid "Media error"
+msgstr ""
 
 msgid "Meebo"
 msgstr "Meebo"
@@ -7394,6 +7449,9 @@ msgstr "Netzwerk"
 
 msgid "Network Statistics"
 msgstr "Netzwerkstatistik"
+
+msgid "Network error."
+msgstr ""
 
 msgid "Network is empty"
 msgstr "Netzwerk ist leer"
@@ -8128,6 +8186,10 @@ msgstr "PING-Antwort -- Verzögerung: %lu Sekunden"
 msgid "PONG"
 msgstr "PONG"
 
+#. Letters on the '7' key of a numeric keypad
+msgid "PQRS"
+msgstr ""
+
 msgid "P_auses while typing"
 msgstr "beim Tippen anh_ält"
 
@@ -8351,9 +8413,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
+"Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
+"installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 msgstr ""
 
 msgid "Pidgin++ smileys"
@@ -10682,6 +10743,9 @@ msgstr ""
 msgid "Supported debug options are: plugins version"
 msgstr "Unterstützte Debug-Optionen sind: plugins version"
 
+msgid "Supported debug options are: plugins, version"
+msgstr ""
+
 msgid "Supports"
 msgstr "Unterstützt"
 
@@ -10747,6 +10811,10 @@ msgid "TLS 1.3"
 msgstr ""
 
 msgid "TLS/SSL Versions"
+msgstr ""
+
+#. Letters on the '8' key of a numeric keypad
+msgid "TUV"
 msgstr ""
 
 msgid "T_CP Port:"
@@ -13172,6 +13240,10 @@ msgstr "WAP-Server"
 msgid "WATCH"
 msgstr "Beobachten"
 
+#. Letters on the '9' key of a numeric keypad
+msgid "WXYZ"
+msgstr ""
+
 msgid "Waiting for Handshake Acknowledgement"
 msgstr "Warte auf Bestätigung des Handshakes"
 
@@ -14592,6 +14664,8 @@ msgid "_Port:"
 msgstr "_Port:"
 
 #. Present conversation method button
+#. Translators: "Present" as used here is a verb. The plugin presents
+#. * the window to the user.
 msgid "_Present conversation window"
 msgstr "Ges_prächsfenster anzeigen"
 

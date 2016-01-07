@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 12:55-0300\n"
+"POT-Creation-Date: 2016-01-05 18:33-0200\n"
 "PO-Revision-Date: 2014-08-31 02:49+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -16,12 +16,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2015-06-02 05:46+0000\n"
-"X-Generator: Launchpad (build 17532)\n"
+"X-Launchpad-Export-Date: 2016-01-06 05:53+0000\n"
+"X-Generator: Launchpad (build 17876)\n"
 "Language: Kannada\n"
+
+msgid "\tNotify for _System messages"
+msgstr ""
+
+msgid "\t_Notify for System messages"
+msgstr ""
 
 msgid "\t_Only when someone says your username"
 msgstr "\tಕೇವಲ ಯಾರಾದರೂ ನಿಮ್ಮ ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಹೇಳಿದಾಗ(_O)"
+
+msgid ""
+"\n"
+"\n"
+"Message from Farsight: "
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1712,6 +1724,14 @@ msgstr ""
 msgid "A server is required to connect this account"
 msgstr ""
 
+#. Translators note: These are the letters on the keys of a numeric
+#. keypad; translate according to the tables in §7 of ETSI ES 202 130:
+#. http://webapp.etsi.org/WorkProgram/Report_WorkItem.asp?WKI_ID=11730
+#. 
+#. Letters on the '2' key of a numeric keypad
+msgid "ABC"
+msgstr ""
+
 #, c-format
 msgid "ABI version mismatch %d.%d.x (need %d.%d.x)"
 msgstr "ABI ಆವೃತ್ತಿಯು %d.%d.x ಗೆ ತಾಳೆಯಾಗುತ್ತಿಲ್ಲ (%d.%d.x ನ ಅಗತ್ಯವಿದೆ)"
@@ -2775,6 +2795,9 @@ msgstr "ಜಾಲವೀಕ್ಷಣೆ(_o)..."
 msgid "Brave"
 msgstr "ಧೈರ್ಯ"
 
+msgid "Breton"
+msgstr ""
+
 msgid "British English"
 msgstr "ಬ್ರಿಟಿಷ್ ಇಂಗ್ಲೀಷ್"
 
@@ -3462,6 +3485,11 @@ msgstr "ಎಲ್ಲಾ ವರ್ಗಾವಣೆಗಳು ಮುಗಿದಾಗ 
 msgid "Co_nversations:"
 msgstr "ಮಾತುಕತೆಗಳು(_n):"
 
+msgid ""
+"Codec negotiation failed. This problem might be resolved by installing more "
+"GStreamer codecs."
+msgstr ""
+
 msgid "Cold"
 msgstr "ತಣ್ಣನೆಯ"
 
@@ -3825,6 +3853,9 @@ msgstr ""
 msgid "Could not change nick"
 msgstr "ಅಡ್ಡಹೆಸರನ್ನು ಬದಲಿಸಲು ಆಗಲಿಲ್ಲ"
 
+msgid "Could not connect to the remote party"
+msgstr ""
+
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
 "does not exist."
@@ -4011,6 +4042,10 @@ msgstr "DBus ಉದಾಹರಣೆ"
 #. *  description
 msgid "DBus Plugin Example"
 msgstr "DBus ಪ್ಲಗ್‌ಇನ್ ಉದಾಹರಣೆ"
+
+#. Letters on the '3' key of a numeric keypad
+msgid "DEF"
+msgstr ""
 
 msgid "DIR"
 msgstr "DIR"
@@ -4653,6 +4688,11 @@ msgstr "ಕಡತ ವರ್ಗಾವಣೆಯಲ್ಲಿ ದೋಷ"
 msgid "Error in chat %s"
 msgstr "%s ಮಾತುಕತೆಯಲ್ಲಿ ದೋಷ"
 
+msgid ""
+"Error initializing the call. This probably denotes problem in installation "
+"of GStreamer or Farsight."
+msgstr ""
+
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
 msgid ""
@@ -5282,6 +5322,10 @@ msgstr "ಸಂಪೂರ್ಣ ಅರ್ಹ ಡೊಮೈನ್ ಹೆಸರು �
 
 msgid "GG server"
 msgstr "GG ಪರಿಚಾರಕದಿಂದ(ಸರ್ವರ್‍)"
+
+#. Letters on the '4' key of a numeric keypad
+msgid "GHI"
+msgstr ""
 
 msgid "GNOME Default"
 msgstr "GNOME ಪೂರ್ವನಿಯೋಜಿತ"
@@ -6313,6 +6357,10 @@ msgstr "ಅಂಶವು ಕಂಡು ಬಂದಿಲ್ಲ"
 msgid "JID"
 msgstr "JID"
 
+#. Letters on the '5' key of a numeric keypad
+msgid "JKL"
+msgstr ""
+
 msgid "Japanese"
 msgstr "ಜಪಾನೀಸ್"
 
@@ -6801,6 +6849,10 @@ msgstr "ಊಟ"
 msgid "MMS"
 msgstr "ಬಹುಮಾಧ್ಯಮ ಸಂದೇಶ(MMS)"
 
+#. Letters on the '6' key of a numeric keypad
+msgid "MNO"
+msgstr ""
+
 #, c-format
 msgid "MOTD for %s"
 msgstr "%s ಗೆ ದಿನದ ಸಂದೇಶ"
@@ -6943,6 +6995,9 @@ msgstr "ಸ್ವಾರ್ಥ"
 
 msgid "Media Initiation Failed"
 msgstr "ಮಾಧ್ಯಮವನ್ನು(ಮೀಡಿಯಾ) ಆರಂಭಿಸುವಿಕೆಯು ವಿಫಲಗೊಂಡಿದೆ"
+
+msgid "Media error"
+msgstr ""
 
 msgid "Meebo"
 msgstr "ಮೀಬೊ"
@@ -7365,6 +7420,9 @@ msgstr "ಜಾಲ"
 
 msgid "Network Statistics"
 msgstr "ಜಾಲದ ಅಂಕಿಸಂಖ್ಯೆ"
+
+msgid "Network error."
+msgstr ""
 
 msgid "Network is empty"
 msgstr "ಜಾಲಬಂಧವು ಖಾಲಿ ಇದೆ"
@@ -8098,6 +8156,10 @@ msgstr "PING ನ ಪ್ರತ್ಯುತ್ತರ -- ಹಿಂದುಳಿಕ�
 msgid "PONG"
 msgstr "PONG"
 
+#. Letters on the '7' key of a numeric keypad
+msgid "PQRS"
+msgstr ""
+
 msgid "P_auses while typing"
 msgstr "ನಮೂದಿಸುತ್ತಿರುವಾಗ ತಡೆದಾಗ(_a)"
 
@@ -8321,9 +8383,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
+"Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
+"installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 msgstr ""
 
 msgid "Pidgin++ smileys"
@@ -10637,6 +10698,9 @@ msgstr ""
 msgid "Supported debug options are: plugins version"
 msgstr "ಬೆಂಬಲಿಸಲಾಗುವ ದೋಷನಿವಾರಣಾ ಆಯ್ಕೆಗಳೆಂದರೆ: ಪ್ಲಗ್‌ಇನ್‌ಗಳ ಆವೃತ್ತಿ"
 
+msgid "Supported debug options are: plugins, version"
+msgstr ""
+
 msgid "Supports"
 msgstr "ಬೆಂಬಲಿಸುತ್ತದೆ"
 
@@ -10703,6 +10767,10 @@ msgid "TLS 1.3"
 msgstr ""
 
 msgid "TLS/SSL Versions"
+msgstr ""
+
+#. Letters on the '8' key of a numeric keypad
+msgid "TUV"
 msgstr ""
 
 msgid "T_CP Port:"
@@ -13098,6 +13166,10 @@ msgstr "WAP ಪರಿಚಾರಕ(ಸರ್ವರ್‍)"
 msgid "WATCH"
 msgstr "ಗಮನಿಸು"
 
+#. Letters on the '9' key of a numeric keypad
+msgid "WXYZ"
+msgstr ""
+
 msgid "Waiting for Handshake Acknowledgement"
 msgstr ""
 "ಹ್ಯಾಂಡ್‌ಶೇಕ್‌ ತಲುಪಿದ್ದನ್ನು ಖಾತ್ರಿಪಡಿಸುವ ಪ್ರತ್ಯುತ್ತರಕ್ಕಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ"
@@ -14501,6 +14573,8 @@ msgid "_Port:"
 msgstr "ಸಂಪರ್ಕಸ್ಥಾನ(_P):"
 
 #. Present conversation method button
+#. Translators: "Present" as used here is a verb. The plugin presents
+#. * the window to the user.
 msgid "_Present conversation window"
 msgstr "ಪ್ರಸಕ್ತ ಮಾತುಕತೆಯ ವಿಂಡೊ(_P)"
 

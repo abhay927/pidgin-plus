@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 12:55-0300\n"
+"POT-Creation-Date: 2016-01-05 18:33-0200\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
@@ -17,12 +17,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2015-06-02 05:44+0000\n"
-"X-Generator: Launchpad (build 17532)\n"
+"X-Launchpad-Export-Date: 2016-01-06 05:51+0000\n"
+"X-Generator: Launchpad (build 17876)\n"
 "Language: Irish\n"
+
+msgid "\tNotify for _System messages"
+msgstr ""
+
+msgid "\t_Notify for System messages"
+msgstr ""
 
 msgid "\t_Only when someone says your username"
 msgstr "\t_Nuair a deir duine éigin d'ainm úsáideora amháin"
+
+msgid ""
+"\n"
+"\n"
+"Message from Farsight: "
+msgstr ""
 
 #, c-format
 msgid ""
@@ -1712,6 +1724,14 @@ msgstr "Tharla earráid dhocheartaithe in Farstream."
 msgid "A server is required to connect this account"
 msgstr "Tá gá le freastalaí chun ceangal leis an gcuntas seo"
 
+#. Translators note: These are the letters on the keys of a numeric
+#. keypad; translate according to the tables in §7 of ETSI ES 202 130:
+#. http://webapp.etsi.org/WorkProgram/Report_WorkItem.asp?WKI_ID=11730
+#. 
+#. Letters on the '2' key of a numeric keypad
+msgid "ABC"
+msgstr ""
+
 #, c-format
 msgid "ABI version mismatch %d.%d.x (need %d.%d.x)"
 msgstr "Leagan mícheart de ABI %d.%d.x (in ionad %d.%d.x)"
@@ -2780,6 +2800,9 @@ msgstr "Bra_bhsáil..."
 msgid "Brave"
 msgstr "Cróga"
 
+msgid "Breton"
+msgstr ""
+
 msgid "British English"
 msgstr "Béarla (An Bhreatain)"
 
@@ -3464,6 +3487,11 @@ msgstr "Dún an fhuinneog seo nuair a bheidh gach aistriú críochnaithe"
 msgid "Co_nversations:"
 msgstr "Co_mhráite:"
 
+msgid ""
+"Codec negotiation failed. This problem might be resolved by installing more "
+"GStreamer codecs."
+msgstr ""
+
 msgid "Cold"
 msgstr "Fuar"
 
@@ -3822,6 +3850,9 @@ msgstr ""
 msgid "Could not change nick"
 msgstr "Níorbh fhéidir an leasainm a athrú"
 
+msgid "Could not connect to the remote party"
+msgstr ""
+
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
 "does not exist."
@@ -4007,6 +4038,10 @@ msgstr "Sampla DBus"
 #. *  description
 msgid "DBus Plugin Example"
 msgstr "Breiseán Samplach DBus"
+
+#. Letters on the '3' key of a numeric keypad
+msgid "DEF"
+msgstr ""
 
 msgid "DIR"
 msgstr "CDLN"
@@ -4649,6 +4684,11 @@ msgstr "Earráid agus comhad á aistriú"
 msgid "Error in chat %s"
 msgstr "Earráid i gcomhrá %s"
 
+msgid ""
+"Error initializing the call. This probably denotes problem in installation "
+"of GStreamer or Farsight."
+msgstr ""
+
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
 msgid ""
@@ -5274,6 +5314,10 @@ msgstr "Ainm láncháilithe an fhearainn ar iarraidh"
 
 msgid "GG server"
 msgstr "Freastalaí GG"
+
+#. Letters on the '4' key of a numeric keypad
+msgid "GHI"
+msgstr ""
 
 msgid "GNOME Default"
 msgstr "Réamhshocrú GNOME"
@@ -6302,6 +6346,10 @@ msgstr "Mír Gan Aimsiú"
 msgid "JID"
 msgstr "JID"
 
+#. Letters on the '5' key of a numeric keypad
+msgid "JKL"
+msgstr ""
+
 msgid "Japanese"
 msgstr "Seapáinis"
 
@@ -6787,6 +6835,10 @@ msgstr "Lón"
 msgid "MMS"
 msgstr "MMS"
 
+#. Letters on the '6' key of a numeric keypad
+msgid "MNO"
+msgstr ""
+
 #, c-format
 msgid "MOTD for %s"
 msgstr "TchtAnLae le haghaidh %s"
@@ -6929,6 +6981,9 @@ msgstr "Suarach"
 
 msgid "Media Initiation Failed"
 msgstr "Níorbh fhéidir na meáin a thúsú"
+
+msgid "Media error"
+msgstr ""
 
 msgid "Meebo"
 msgstr "Meebo"
@@ -7362,6 +7417,9 @@ msgstr "Líonra"
 
 msgid "Network Statistics"
 msgstr "Staitisticí Líonra"
+
+msgid "Network error."
+msgstr ""
 
 msgid "Network is empty"
 msgstr "Tá an líonra folamh"
@@ -8094,6 +8152,10 @@ msgstr "Freagra ar PING -- Moill: %lu soicind"
 msgid "PONG"
 msgstr "PONG"
 
+#. Letters on the '7' key of a numeric keypad
+msgid "PQRS"
+msgstr ""
+
 msgid "P_auses while typing"
 msgstr "_a bhaineann stad de/di clóscríobh"
 
@@ -8317,9 +8379,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Pidgin++ requires a compatible GTK+ Runtime (which doesn't appear to be "
-"already present).$\\rAre you sure you want to skip installing the GTK+ "
-"Runtime?"
+"Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
+"installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 msgstr ""
 
 msgid "Pidgin++ smileys"
@@ -10624,6 +10685,9 @@ msgstr "Seiceáil Litrithe.  (Tá gá le ceangal Idirlín chun é a shuiteáil)"
 msgid "Supported debug options are: plugins version"
 msgstr "Roghanna dífhabhtaithe a dtacaítear leo: plugins version"
 
+msgid "Supported debug options are: plugins, version"
+msgstr ""
+
 msgid "Supports"
 msgstr "Tacaíonn sé"
 
@@ -10688,6 +10752,10 @@ msgid "TLS 1.3"
 msgstr ""
 
 msgid "TLS/SSL Versions"
+msgstr ""
+
+#. Letters on the '8' key of a numeric keypad
+msgid "TUV"
 msgstr ""
 
 msgid "T_CP Port:"
@@ -13102,6 +13170,10 @@ msgstr "Freastalaí WAP"
 msgid "WATCH"
 msgstr "DÉAN FAIRE"
 
+#. Letters on the '9' key of a numeric keypad
+msgid "WXYZ"
+msgstr ""
+
 msgid "Waiting for Handshake Acknowledgement"
 msgstr "Ag fanacht le hadmháil go bhfuarthas an croitheadh láimhe"
 
@@ -14513,6 +14585,8 @@ msgid "_Port:"
 msgstr "_Port:"
 
 #. Present conversation method button
+#. Translators: "Present" as used here is a verb. The plugin presents
+#. * the window to the user.
 msgid "_Present conversation window"
 msgstr "_Taispeáin fuinneog an chomhrá"
 
