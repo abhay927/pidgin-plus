@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:47+0000\n"
+"X-Launchpad-Export-Date: 2016-01-07 05:34+0000\n"
 "X-Generator: Launchpad (build 17876)\n"
 "Language: Assamese\n"
 
@@ -15314,84 +15314,3 @@ msgstr "zl &lt;nick&gt;: ব্যৱহাৰকৰ্তাকে সন্ধ
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: ব্যৱহাৰকৰ্তাকে সন্ধান কৰক"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO REPLY> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">লগাৰত পড়াৰ কোনো ফাংশান উপস্থিত নাই</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO "
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO "
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr "<font color=\"red\"><b>লগৰ পাথ সন্ধান কৰিবলৈ ব্যৰ্থ!</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr "<font color=\"red\"><b>নথিপত্ৰ পড়তে ব্যৰ্থ: %s</b></font>"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO REPLY>: %s\n"
-
-#~ msgid "Pidgin Internet Messenger"
-#~ msgstr "Pidgin ইন্টাৰনেট মেসেঞ্জাৰ"
-
-#~ msgid "The default Pidgin sound theme"
-#~ msgstr "Pidgin ৰ ডিফল্ট শব্দ থিম"
-
-#~ msgid "The default Pidgin buddy list theme"
-#~ msgstr "Pidgin এ ব্যৱহৃত ডিফল্ট বন্ধু তালিকাৰ থিম"
-
-#~ msgid "The default Pidgin status icon theme"
-#~ msgstr "Pidgin এ ব্যৱহৃত ডিফল্ট অৱস্থাসূচক আইকনৰ থিম"
-
-#~ msgid "Pidgin"
-#~ msgstr "Pidgin"
-
-#~ msgid "Pidgin Tooltip"
-#~ msgstr "Pidgin ৰ টুল টিপ"
-
-#~ msgid "Pidgin smileys"
-#~ msgstr "Pidgin ৰ হাসিমুখ"
-
-#~ msgid "You can upgrade to %s %s today."
-#~ msgstr "আপুনি আজ %s %s এ আপগ্ৰেড কৰিবলৈ পাৰিব ।"
-
-#~ msgid "New Version Available"
-#~ msgstr "নতুন সংস্কৰণ উপলব্ধ আছে"
-
-#~ msgid "Later"
-#~ msgstr "পৰে"
-
-#~ msgid "Download Now"
-#~ msgstr "অবিলম্বে ডাউনলোড কৰক"
-
-#~ msgid "Release Notification"
-#~ msgstr "ৰিলিজৰ বিজ্ঞপ্তি"
-
-#~ msgid "Checks periodically for new releases."
-#~ msgstr "নিয়মিতৰূপে, নতুন ৰিলিজৰ উপস্থিতি পৰীক্ষা কৰা হ'ব ।"
-
-#~ msgid ""
-#~ "Checks periodically for new releases and notifies the user with the "
-#~ "ChangeLog."
-#~ msgstr ""
-#~ "নিয়মিত ৰূপে নতুন ৰিলিজৰ উপস্থিতি পৰীক্ষা কৰা হয় আৰু ChangeLog ৰ সহায়ত "
-#~ "ব্যৱহাৰকৰ্তাকে সূচিত কৰা হয় ।"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>প্ৰস্থান কৰা হৈছে ।</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>XMPP ৰ সৈতে সংযুক্ত নয়</font>"

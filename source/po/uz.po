@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:02+0000\n"
+"X-Launchpad-Export-Date: 2016-01-07 05:35+0000\n"
 "X-Generator: Launchpad (build 17876)\n"
 "Language: Uzbek\n"
 
@@ -14511,39 +14511,3 @@ msgstr ""
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr ""
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-REPLY> "
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>Chiqdi.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>XMPP’ga ulanmadi</font>"
-
-#~ msgid ""
-#~ "An instance of Pidgin is currently running.  Please exit Pidgin and try "
-#~ "again."
-#~ msgstr ""
-#~ "Pidgin ishga tushirilgan. Pidgin’dan chiqing va qaytadan urinib ko‘ring."
-
-#~ msgid "Pidgin Instant Messaging Client (required)"
-#~ msgstr "Pidgin to‘g‘ridan-to‘g‘ri xabar almashish mijozi (kerak)"
-
-#~ msgid "Core Pidgin files and dlls"
-#~ msgstr "Asosiy Pidgin fayllari va dll kengaytmalari"
-
-#~ msgid "Shortcuts for starting Pidgin"
-#~ msgstr "Pidgin’ni ishga tushirish yorlig‘i"
-
-#~ msgid "Create a shortcut to Pidgin on the Desktop"
-#~ msgstr "Ish stolida Pidgin yorlig‘ini yaratish"
-
-#~ msgid "Create a Start Menu entry for Pidgin"
-#~ msgstr "Pidgin yorlig‘ini \"Boshlash\" menyusiga o‘rnatish"
-
-#~ msgid "A multi-platform GUI toolkit, used by Pidgin"
-#~ msgstr "Ko‘p platformali GUI asbobi, Pidgin tomonidan foydalaniladi"
-
-#~ msgid "Visit the Pidgin Web Page"
-#~ msgstr "Pidgin veb sahifasiga tashrif buyurish"

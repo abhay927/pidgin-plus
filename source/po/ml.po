@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:56+0000\n"
+"X-Launchpad-Export-Date: 2016-01-07 05:34+0000\n"
 "X-Generator: Launchpad (build 17876)\n"
 "Language: Malayalam\n"
 
@@ -15487,86 +15487,3 @@ msgstr "zl &lt;nick&gt;: ഉപയോക്താവിനെ കണ്ടുപ
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: ഉപയോക്താവിനെ കണ്ടുപിടിക്കുക"
-
-#~ msgid "<AUTO-REPLY> "
-#~ msgstr "<AUTO-REPLY> "
-
-#~ msgid "<b><font color=\"red\">The logger has no read function</font></b>"
-#~ msgstr "<b><font color=\"red\">ലോഗ്ഗറില്‍ റീഡ് ഫംഗ്ഷന്‍ ലഭ്യമല്ല</font></b>"
-
-#~ msgid ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#16569E\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-#~ msgstr ""
-#~ "<font color=\"#A82F2F\"><font size=\"2\">(%s)</font> <b>%s &lt;AUTO-"
-#~ "REPLY&gt;:</b></font> %s<br/>\n"
-
-#~ msgid "<font color=\"red\"><b>Unable to find log path!</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>ലോഗ് പാഥ് ലഭ്യമാക്കുവാന്‍ സാധിച്ചില്ല!</b></font>"
-
-#~ msgid "<font color=\"red\"><b>Could not read file: %s</b></font>"
-#~ msgstr ""
-#~ "<font color=\"red\"><b>ഫയല്‍ ലഭ്യമാക്കുവാന്‍ സാധ്യമല്ല: %s</b></font>"
-
-#~ msgid "(%s) %s <AUTO-REPLY>: %s\n"
-#~ msgstr "(%s) %s <AUTO-REPLY>: %s\n"
-
-#~ msgid "Pidgin Internet Messenger"
-#~ msgstr "പിഡ്ഗിന്‍ ഇന്റര്‍നെറ്റ് മെസഞ്ചര്‍"
-
-#~ msgid "The default Pidgin sound theme"
-#~ msgstr "സ്വതവേയുള്ള പിഡ്ഗിന്‍ ശബ്ദ പ്രമേയം"
-
-#~ msgid "The default Pidgin buddy list theme"
-#~ msgstr "സ്വതവേയുള്ള പിഡ്ഗിന്‍ സുഹൃത്ത് പട്ടികയ്ക്കുള്ള പ്രമേയം"
-
-#~ msgid "The default Pidgin status icon theme"
-#~ msgstr "സ്വതവേയുള്ള പിഡ്ഗിന്‍ അവസ്ഥ ചിഹ്നത്തിനുള്ള പ്രമേയം"
-
-#~ msgid "Pidgin"
-#~ msgstr "പിഡ്ഗിന്‍"
-
-#~ msgid "Pidgin Tooltip"
-#~ msgstr "പിഡ്ഗിന്‍ സഹായസൂചിക"
-
-#~ msgid "Pidgin smileys"
-#~ msgstr "പിഡ്ഗിന്‍ സ്മൈലികള്‍"
-
-#~ msgid "You can upgrade to %s %s today."
-#~ msgstr "നിങ്ങള്‍ക്കു് %s %s-ലേക്ക് ഇന്നു് പരിഷ്കരിക്കാം."
-
-#~ msgid "New Version Available"
-#~ msgstr "പുതിയ പതിപ്പു് ലഭ്യമാണു്"
-
-#~ msgid "Later"
-#~ msgstr "പിന്നീടു്"
-
-#~ msgid "Download Now"
-#~ msgstr "ഇപ്പോള്‍ ഡൌണ്‍ലോഡ് ചെയ്യുക"
-
-#~ msgid "Release Notification"
-#~ msgstr "പതിപ്പിനുള്ള അറിയിപ്പു്"
-
-#~ msgid "Checks periodically for new releases."
-#~ msgstr "പുതിയ പതിപ്പുകള്‍ക്കായി ഇടയ്ക്കിടെ പരിശോധിക്കുന്നു."
-
-#~ msgid ""
-#~ "Checks periodically for new releases and notifies the user with the "
-#~ "ChangeLog."
-#~ msgstr ""
-#~ "പുതിയ പതിപ്പുകള്‍ക്കായി സ്ഥിരമായി പരിശോധിക്കുകയും ChangeLog ഉപയോഗിച്ചു് "
-#~ "ഉപയോക്താവിനെ അറിയിക്കുകയും ചെയ്യുന്നു"
-
-#~ msgid "<font color='#777777'>Logged out.</font>"
-#~ msgstr "<font color='#777777'>ലോഗ് ഔട്ട് ആയിരിക്കുന്നു.</font>"
-
-#~ msgid "<font color='#777777'>Not connected to XMPP</font>"
-#~ msgstr "<font color='#777777'>XMPP-ലേക്ക് കണക്ട് ചെയ്തിട്ടില്ല</font>"
