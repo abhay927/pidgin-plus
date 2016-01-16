@@ -1,3 +1,5 @@
+dist: trusty
+sudo: required
 language: c
 compiler:
     - gcc
@@ -8,11 +10,7 @@ before_install:
 
 install:
     # Build dependencies
-    - sudo apt-get build-dep pidgin
-
-    # Automake 1.14
-    - wget http://de.archive.ubuntu.com/ubuntu/pool/main/a/automake-1.14/automake_1.14.1-2ubuntu1_all.deb
-    - sudo dpkg -i automake_1.14.1-2ubuntu1_all.deb
+    - sudo apt-get build-dep -y pidgin
 
     # Colormake
     - sudo wget https://github.com/renatosilva/colormake/raw/master/colormake.sh -O /usr/local/bin/colormake

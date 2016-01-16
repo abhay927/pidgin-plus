@@ -945,7 +945,7 @@ Function .onInit
   IfErrors 0 +2
   Call RunCheck
 
-  StrCpy $name "Pidgin++ ${DISPLAY_VERSION} (${APPLICATION_BITNESS}-bit)"
+  StrCpy $name "Pidgin++ ${DISPLAY_VERSION}"
 
   ;Try to copy the old Gaim installer Lang Reg. key
   ;(remove it after we're done to prevent this being done more than once)
@@ -1080,7 +1080,7 @@ FunctionEnd
 Function un.onInit
 
   Call un.RunCheck
-  StrCpy $name "Pidgin++ ${DISPLAY_VERSION} (${APPLICATION_BITNESS}-bit)"
+  StrCpy $name "Pidgin++ ${DISPLAY_VERSION}"
 ;LogSet on
 
   ; Get stored language preference

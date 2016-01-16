@@ -2,7 +2,7 @@
 
 ##
 ##     Pidgin++ Changelog Manager
-##     Copyright (c) 2014, 2015 Renato Silva
+##     Copyright (c) 2014-2016 Renato Silva
 ##     Licensed under GNU GPLv2 or later
 ##
 ## This utility converts the XML-based changelog into presentable formats,
@@ -52,9 +52,9 @@ display_version="${full_version%.0}"
 
 # Bump version
 if [[ -n "$bump_major_version" || -n "$bump_minor_version" || -n "$bump_micro_version" ]]; then
-    [[ -n "$bump_major_version" ]] && major_version=$(($major_version + 1))
-    [[ -n "$bump_minor_version" ]] && minor_version=$(($minor_version + 1))
-    [[ -n "$bump_micro_version" ]] && micro_version=$(($micro_version + 1))
+    [[ -n "$bump_major_version" ]] && { major_version=$(($major_version + 1)); micro_version='0'; minor_version='1';}
+    [[ -n "$bump_minor_version" ]] && { minor_version=$(($minor_version + 1)); micro_version='0'; }
+    [[ -n "$bump_micro_version" ]] && { micro_version=$(($micro_version + 1)); }
     full_version="${major_version}.${minor_version}.${micro_version}"
     display_version="${full_version%.0}"
     sed -ri "s/$version_pattern/m4_define([purple_version_suffix], [${suffix_delimiter}${full_version}])/" "$source_dir/configure.ac"

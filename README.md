@@ -1,7 +1,7 @@
 # Pidgin++
 
-[![Build status](https://travis-ci.org/renatosilva/pidgin-plus.svg?branch=master)](https://travis-ci.org/renatosilva/pidgin-plus)
-[![Build status](https://ci.appveyor.com/api/projects/status/nde6buexu5twkug4?svg=true)](https://ci.appveyor.com/project/renatosilva/pidgin-plus)
+[![](https://travis-ci.org/renatosilva/pidgin-plus.svg?branch=master)](https://travis-ci.org/renatosilva/pidgin-plus)
+[![](https://ci.appveyor.com/api/projects/status/e0b8jr7yl921iunb/branch/master?svg=true)](https://ci.appveyor.com/project/renatosilva/pidgin-plus/branch/master)
 
 An improved version of Pidgin.
 
