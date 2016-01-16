@@ -5,29 +5,27 @@
 ##     Copyright (c) 2014, 2015 Renato Silva
 ##     Licensed under GNU GPLv2 or later
 ##
-## This is the builder script for Pidgin++ on Windows. Source code will be
-## exported to an appropriate staging directory within the specified development
-## root. Default output is a standard installer, placed under the distribution
-## subdirectory in the development root.
-##
 ## Usage:
-##     @script.name DEVELOPMENT_ROOT [options]
+##     @script.name [options] BUILD_ROOT
 ##
-##     -p, --prepare        Create the required build environment under
-##                          DEVELOPMENT_ROOT and exit. This is not needed for
-##                          creating an MSYS2 package.
+##     -p, --prepare        Install the required package dependencies and exit.
 ##
-##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
-##         --make=TARGET    Execute an arbitrary makefile target.
-##
-##         --no-update      Disable the application update checking.
-##     -c, --cleanup        Clean up the staging dir then exit.
 ##     -o, --offline        Build both the standard and offline installers. The
 ##                          offline installer includes debug symbols and spell
 ##                          checking dictionaries.
+##
 ##     -s, --source         Build the source code bundle together with the
 ##                          installer, if this source code tree is a Bazaar
 ##                          branch. Requires Bazaar.
+##
+##     -d, --dictionaries   Build the dictionaries bundle instead of installers.
+##         --no-update      Disable the application update checking.
+##     -c, --cleanup        Clean up the build directory and exit.
+##         --make=TARGET    Execute an arbitrary makefile target.
+##
+##         --build=NAME     Custom name for build directory.
+##         --reset          Recreate the build directory from scratch.
+##         --output=DIR     Output to DIR instead of BUILD_ROOT/distribution.
 ##
 ##         --sign           Enable code signing with GnuPG. This applies to the
 ##                          source code and dictionary bundles, as well as to
@@ -39,13 +37,9 @@
 ##                          Requires the signtool utility from Windows SDK.
 ##                          Implies --sign.
 ##
-##         --directory=DIR  Save result to DIR instead of default location
-##                          (DEVELOPMENT_ROOT/distribution).
-##         --staging=DIR    Custom staging directory.
-##     -r, --reset          Recreates the staging directory from scratch.
-##
 ##         --color=SWITCH   Enable or disable colors in output. SWITCH is either
 ##                          on or off. Default is enabling for terminals.
+##
 ##         --encoding=NAME  Convert output from the encoding specified in $LANG
 ##                          to NAME. If NAME is "default" then target encoding
 ##                          is set to that of the current locale.
@@ -53,9 +47,9 @@
 
 # Parse options
 source easyoptions || exit
-devroot="${arguments[0]}"
-if [[ -z "$devroot" ]]; then
-    echo 'No development root specified, see --help.'
+build_root="${arguments[0]}"
+if [[ -z "$build_root" ]]; then
+    echo 'No build root specified, see --help.'
     exit 1
 fi
 
@@ -66,18 +60,15 @@ case "$machine" in
     x86_64-w64-mingw*) architecture="x64"; bitness="64" ;;
     *)                 architecture="$machine"
 esac
-devroot=$(readlink -f "$devroot")
+build_root=$(readlink -f "$build_root")
 base_dir=$(readlink -e "$(dirname "$0")/..")
 source_dir="$base_dir/source"
-build_dir="$base_dir/build"
 sign="${sign:-$cert}"
 sign="${sign:+yes}"
-version=$($build_dir/changelog.sh --version)
-staging="$devroot/build/${staging:-pidgin.${bitness:-$machine}}"
-target_top="${directory:-$devroot/distribution/$version}"
-target="$target_top/$architecture"
-documents="$staging/documents"
-nsis="nsis-2.46"
+version=$("${base_dir}/build/changelog.sh" --version)
+build="$build_root/build/${build:-pidgin.${bitness:-$machine}}"
+target="${output:-$build_root/distribution/$version/$architecture}"
+documents="$build/documents"
 
 # Colored output
 if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
@@ -142,51 +133,45 @@ if [[ -n "$sign" || -n "$cert" ]]; then
     echo
 fi
 
-# Build environment
+# Install dependencies
 source "${source_dir}/pidgin/win32/dependencies.sh"
 if [[ -n "$prepare" ]]; then
-    mkdir -p "${devroot}/downloads" || exit
-    mkdir -p "${devroot}/win32-dev" || exit
-    pacman --color auto --noconfirm --needed --sync "${build_dependencies[@]}" "${runtime_dependencies[@]}" && echo || exit
-    echo 'Downloading NSIS';    wget  -qO  "${devroot}/downloads/${nsis}.zip" "http://sourceforge.net/projects/nsis/files/NSIS%202/2.46/${nsis}.zip/download"
-    echo 'Downloading Nsisunz'; wget  -qO  "${devroot}/downloads/Nsisunz.zip" "http://nsis.sourceforge.net/mediawiki/images/1/1c/Nsisunz.zip"
-    echo 'Extracting NSIS';     unzip -qo  "${devroot}/downloads/${nsis}.zip"                             -d "${devroot}/win32-dev"
-    echo 'Extracting Nsisunz';  unzip -qoj "${devroot}/downloads/Nsisunz.zip" nsisunz/Release/nsisunz.dll -d "${devroot}/win32-dev/${nsis}/Plugins"
+    pacman --color auto --noconfirm --needed --sync "${build_dependencies[@]}" "${runtime_dependencies[@]}"
     exit
 fi
 
 # Cleanup
 if [[ -n "$cleanup" ]]; then
-    step "Cleaning up staging directory"
-    if [[ -d "$staging" ]]; then
-        cd "$staging"
+    step "Cleaning up build directory"
+    if [[ -d "$build" ]]; then
+        cd "$build"
         build uninstall
         build clean
         echo
     else
-        oops "cannot clean up missing directory $staging"
+        oops "cannot clean up missing directory $build"
     fi
     exit
 fi
 
-# Staging dir
-step "Preparing the staging directory"
+# Build directory
+step "Preparing the build directory"
 if [[ -n "$reset" ]]; then
-    echo "Removing $staging"
-    rm -rf "$staging"
+    echo "Removing $build"
+    rm -rf "$build"
 fi
-if [[ ! -d "$staging" ]]; then
-    echo "Creating $staging"
-    mkdir -p "$staging"
+if [[ ! -d "$build" ]]; then
+    echo "Creating $build"
+    mkdir -p "$build"
 else
-    echo "Updating $staging"
-    rm -f "$staging/local.mak"
+    echo "Updating $build"
+    rm -f "$build/local.mak"
 fi
-rsync --recursive --times "$source_dir/"* "$staging" || exit 1
-touch "$staging/pidgin/gtkdialogs.c"
+rsync --recursive --times "$source_dir/"* "$build" || exit 1
+touch "$build/pidgin/gtkdialogs.c"
 rm -rf "$documents"
 mkdir -p "$documents/libraries"
-"$build_dir/changelog.sh" --html --screenshot-prefix "../" --output "$documents/CHANGELOG.html"
+"${base_dir}/build/changelog.sh" --html --screenshot-prefix "../" --output "$documents/CHANGELOG.html"
 
 # Library information
 echo "Creating library manifest"
@@ -199,7 +184,7 @@ rm -rf "$licenses"
 library_licenses "$licenses" || warn "error installing licenses to ${licenses}"
 
 # Code signing
-cd "$staging"
+cd "$build"
 if [[ -n "$cert" || -n "$sign" ]]; then
     echo "Configuring code signing with GnuPG${cert:+ and Authenticode}"
     if [[ -n "$cert" ]]; then
@@ -210,10 +195,6 @@ if [[ -n "$cert" || -n "$sign" ]]; then
         echo "GPG_SIGN = $gpg" > local.mak
     fi
 fi
-
-# System path
-echo "Configuring system path"
-export PATH="${devroot}/win32-dev/${nsis}:${PATH}"
 
 # Arbitrary target
 if [[ -n "$make" ]]; then

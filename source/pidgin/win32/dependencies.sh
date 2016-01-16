@@ -20,6 +20,8 @@ build_dependencies=(base-devel
                     unzip
                     zip
                     ${mingw_package_prefix}-gcc
+                    ${mingw_package_prefix}-nsis
+                    ${mingw_package_prefix}-nsis-nsisunz
                     ${mingw_package_prefix}-xmlstarlet)
 
 runtime_dependencies=(${mingw_package_prefix}-cyrus-sasl

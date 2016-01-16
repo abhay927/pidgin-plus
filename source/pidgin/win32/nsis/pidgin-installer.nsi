@@ -1,9 +1,9 @@
-; Installer script for win32 Pidgin
-; Original Author: Herman Bloggs <hermanator12002@yahoo.com>
-; Updated By: Daniel Atallah <daniel_atallah@yahoo.com>
+; Installer script for Pidgin++
+; Original authors:
+;     Herman Bloggs <hermanator12002@yahoo.com>
+;     Daniel Atallah <daniel_atallah@yahoo.com>
 
-; NOTE: this .NSI script is intended for NSIS 2.27+
-;
+Unicode true
 
 ;--------------------------------
 ;Global Variables
@@ -90,8 +90,8 @@ VIAddVersionKey "FileDescription" "Pidgin++ Installer"
 ;--------------------------------
 ;Reserve files used in .onInit
 ;for faster start-up
-ReserveFile "${NSISDIR}\Plugins\System.dll"
-ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
+ReserveFile "${NSISDIR}\Plugins\unicode\System.dll"
+ReserveFile "${NSISDIR}\Plugins\unicode\UserInfo.dll"
 !insertmacro MUI_RESERVEFILE_INSTALLOPTIONS
 !insertmacro MUI_RESERVEFILE_LANGDLL
 
@@ -891,7 +891,7 @@ Function ${UN}RunCheck
   ; Close the Handle (needed if we're retrying)
   IntCmp $R1 0 +2
     System::Call 'kernel32::CloseHandle(i $R1) i .R1'
-  System::Call 'kernel32::CreateMutexA(i 0, i 0, t "pidgin++_is_running") i .R1 ?e'
+  System::Call 'kernel32::CreateMutex(i 0, i 0, t "pidgin++_is_running") i .R1 ?e'
   Pop $R0
   IntCmp $R0 0 +3 ;This could check for ERROR_ALREADY_EXISTS(183), but lets just assume
     MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(PIDGINISRUNNING) /SD IDCANCEL IDRETRY retry_runcheck
@@ -925,7 +925,7 @@ Function .onInit
   ; Close the Handle (needed if we're retrying)
   IntCmp $R1 0 +2
     System::Call 'kernel32::CloseHandle(i $R1) i .R1'
-  System::Call 'kernel32::CreateMutexA(i 0, i 0, t "pidgin_installer_running") i .R1 ?e'
+  System::Call 'kernel32::CreateMutex(i 0, i 0, t "pidgin_installer_running") i .R1 ?e'
   Pop $R0
   IntCmp $R0 0 +3 ;This could check for ERROR_ALREADY_EXISTS(183), but lets just assume
     MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(INSTALLERISRUNNING) /SD IDCANCEL IDRETRY retry_runcheck
@@ -1222,8 +1222,8 @@ Function ShowChanges
   ${If} $2 > 32
     !define LOCALE_SISO639LANGNAME "0x59"
     !define LOCALE_SISO3166CTRYNAME "0x5A"
-    System::Call "kernel32::GetLocaleInfoA(i $LANGUAGE, i ${LOCALE_SISO639LANGNAME},  t .R0, i ${NSIS_MAX_STRLEN})"
-    System::Call "kernel32::GetLocaleInfoA(i $LANGUAGE, i ${LOCALE_SISO3166CTRYNAME}, t .R1,  i ${NSIS_MAX_STRLEN})"
+    System::Call "kernel32::GetLocaleInfo(i $LANGUAGE, i ${LOCALE_SISO639LANGNAME},  t .R0, i ${NSIS_MAX_STRLEN})"
+    System::Call "kernel32::GetLocaleInfo(i $LANGUAGE, i ${LOCALE_SISO3166CTRYNAME}, t .R1, i ${NSIS_MAX_STRLEN})"
     Exec '"$1" "file:///${CHANGELOG}?full=true&lang=$R0_$R1"'
   ${Else}
     ExecShell "open" "${CHANGELOG}"

@@ -1,17 +1,14 @@
 environment:
     MSYSTEM: MINGW64
 
-cache:
-    - C:\msys64\var\cache\pacman\pkg
-
 build_script:
-    # Oddities
-    - C:\msys64\usr\bin\bash --login -c "rm -rf '/c/Program Files/Git'"
-    - C:\msys64\usr\bin\bash --login -c "pacman --noconfirm --sync pacman-mirrors"
-    - C:\msys64\usr\bin\bash --login -c "pacman --noconfirm --sync openssh"
+    # Update
+    - C:\msys64\usr\bin\bash --login -c "repman add renatosilva http://packages.renatosilva.me"
+    - C:\msys64\usr\bin\bash --login -c "pacman --noconfirm --sync pacboy"
+    - C:\msys64\usr\bin\bash --login -c "pacboy --noconfirm update" # Core
+    - C:\msys64\usr\bin\bash --login -c "pacboy --noconfirm update" # Rest
 
     # Build
-    - C:\msys64\usr\bin\bash --login -c "wget http://packages.renatosilva.me/easyoptions-git-r36.7304200-1-any.pkg.tar.xz"
-    - C:\msys64\usr\bin\bash --login -c "pacman --noconfirm --upgrade easyoptions-git-r36.7304200-1-any.pkg.tar.xz"
-    - C:\msys64\usr\bin\bash --login -c "$(cygpath -ua ${APPVEYOR_BUILD_FOLDER})/build/winbuild.sh . --prepare"
-    - C:\msys64\usr\bin\bash --login -c "$(cygpath -ua ${APPVEYOR_BUILD_FOLDER})/build/winbuild.sh . --offline"
+    - C:\msys64\usr\bin\bash --login -c "pacman --noconfirm --sync easyoptions"
+    - C:\msys64\usr\bin\bash --login -c "$(cygpath ${APPVEYOR_BUILD_FOLDER})/build/winbuild.sh . --prepare"
+    - C:\msys64\usr\bin\bash --login -c "$(cygpath ${APPVEYOR_BUILD_FOLDER})/build/winbuild.sh ."

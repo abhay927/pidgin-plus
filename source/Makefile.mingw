@@ -195,12 +195,10 @@ generate_installer_includes: create_release_install_dir gtk_runtime debug_symbol
 	 -e "s/,/\"\ \"/" -e "s/,/\"\ \"/" -e "s/[\ \t]*$$/\"/" \
 	 -e "s/^/\!insertmacro\ SPELLCHECK_SECTION\ /" \
          pidgin/win32/nsis/available.lst \
-         > pidgin/win32/nsis/pidgin-spellcheck.nsh
+         | iconv -f latin1 -t utf-8 > pidgin/win32/nsis/pidgin-spellcheck.nsh
 	#Convert the lines to "!insertmacro CHECK_SPELLCHECK_SECTION lang"
-	iconv -f latin1 -t utf-8 pidgin/win32/nsis/pidgin-spellcheck.nsh | \
-	 sed -e "s/SPELLCHECK_SECTION/CHECK_SPELLCHECK_SECTION/" \
-	 -e "s/ \"[^\"]*\"\ \"[^\"]*\"[\t\ ]*$$//" | \
-         iconv -f utf-8 -t latin1 \
+	sed -e "s/SPELLCHECK_SECTION/CHECK_SPELLCHECK_SECTION/" \
+	    -e "s/ \"[^\"]*\"\ \"[^\"]*\"[\t\ ]*$$//" pidgin/win32/nsis/pidgin-spellcheck.nsh \
         > pidgin/win32/nsis/pidgin-spellcheck-preselect.nsh
 	#Generate the Installer translations
 	echo "!define GCOMPRIS_NSIS_INCLUDE_PATH \".\"" > $(PIDGIN_TREE_TOP)/pidgin/win32/nsis/langmacros.nsh

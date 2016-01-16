@@ -311,17 +311,11 @@ my $selectTranslationFunction = '
 !macro SELECT_TRANSLATION_FUNCTION
 ';
 
-#
-# Two pass are needed:
-# - create the utf8 file
-# - transform it to the proper windows locale
-#
 print "Creating the nsh locale files\n";
 foreach my $lang (@localeKeys) {
     if ( $lang eq "en" ) { next; }
-    open (DESC, ">$tmp_dir/$lang.nsh.utf8");
+    open (DESC, ">$tmp_dir/$lang.nsh");
     print DESC ";; Auto generated file by create_nsis_translations.pl\n";
-    print DESC ";; Code Page: $localeNames{$lang}[1]\n";
 
     my $text_locale = $result{"$lang"};
     my $total_key_count = 0;
@@ -360,15 +354,6 @@ foreach my $lang (@localeKeys) {
         print "Ignoring language $lang because it is less than 50% translated ($found_key_count of $total_key_count).\n";
         next;
     }
-
-
-    # iconv conversion
-    system("iconv -f UTF-8 -t $localeNames{$lang}[1] $tmp_dir/$lang.nsh.utf8 > $tmp_dir/$lang.nsh");
-    if ($? ne 0)
-    {
-	die("ERROR: Failed to run: iconv -f UTF-8 -t $localeNames{$lang}[1] $lang.nsh.utf8 > $lang.nsh\n");
-    }
-    #`rm $tmp_dir/$lang.nsh.utf8`;
 
 }
 
