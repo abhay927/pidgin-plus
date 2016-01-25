@@ -86,8 +86,12 @@ move_signed() {
     test -n "${sign}" && mv -v "${1}.asc" "${2}.asc"
 }
 domake() {
-    ${PIDGIN_BUILD_COLORS:+color}make -f Makefile.mingw "$1" \
-        BAZAAR_BRANCH="$base_dir" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
+    if [[ -n "${PIDGIN_BUILD_COLORS}" && -n "$(which colormake 2> /dev/null)" ]]
+        then local make='colormake'
+        else local make='make.exe'
+    fi
+    ${make} -f Makefile.mingw "$1" \
+        MAKE="${make}" BAZAAR_BRANCH="$base_dir" SIGNTOOL_PASSWORD="$pfx_password" GPG_PASSWORD="$gpg_password" \
         ${no_update:+DISABLE_UPDATE_CHECK=yes} "${@:2}"
     return $?
 }

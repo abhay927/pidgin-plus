@@ -5,8 +5,6 @@
 # Licensed under GNU GPLv2 or later
 
 if [[ -n "$PIDGIN_BUILD_COLORS" ]]; then
-
-    # Which colors
     normal="\e[0m"
     if [[ "$MSYSCON" = mintty* && "$TERM" = *256color* ]]; then
         red="\e[38;05;9m"
@@ -25,22 +23,6 @@ if [[ -n "$PIDGIN_BUILD_COLORS" ]]; then
         yellow="\e[1;33m"
         gray="\e[1;30m"
     fi
-
-    # Colored make
-    colormake() {
-        # Errors, warnings and notes
-        local error="s/(^error|^.*[^a-z]error:)/$(printf $red)\\1$(printf $normal)/i"
-        local warning="s/(^warning|^.*[^a-z]warning:)/$(printf $yellow)\\1$(printf $normal)/"
-        local make="s/^make(\[[0-9]+\])?:/$(printf $blue)make\\1:$(printf $normal)/"
-
-        # Compiler recipes
-        local source_dir=$(readlink -f "$(dirname "$BASH_SOURCE")")
-        local compiler=$(grep "CC\\s*:=" "$source_dir/libpurple/win32/global.mak" | awk -F':=[[:space:]*]' '{print $2}')
-        local compiler_recipe="s/^($compiler .*)/\n$(printf $gray)\\1$(printf $normal)\n/"
-
-        make "$@" 2> >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe") \
-                   > >(sed -E -e "$warning" -e "$error" -e "$make" -e "$compiler_recipe")
-    }
 fi
 
 # Output functions
