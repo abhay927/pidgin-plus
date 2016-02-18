@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-05 18:33-0200\n"
-"PO-Revision-Date: 2015-06-13 21:53+0000\n"
+"PO-Revision-Date: 2016-02-17 15:03+0000\n"
 "Last-Translator: Andi Chandler <Unknown>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:03+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-02-18 05:58+0000\n"
+"X-Generator: Launchpad (build 17925)\n"
 "Language: English (United Kingdom)\n"
 
 msgid "\tNotify for _System messages"
-msgstr ""
+msgstr "\tNotify for _System messages"
 
 msgid "\t_Notify for System messages"
-msgstr ""
+msgstr "\t_Notify for System messages"
 
 msgid "\t_Only when someone says your username"
 msgstr "\t_Only when someone says your username"
@@ -34,6 +34,9 @@ msgid ""
 "\n"
 "Message from Farsight: "
 msgstr ""
+"\n"
+"\n"
+"Message from Farsight: "
 
 #, c-format
 msgid ""
@@ -1713,7 +1716,7 @@ msgstr "A server is required to connect this account"
 #. 
 #. Letters on the '2' key of a numeric keypad
 msgid "ABC"
-msgstr ""
+msgstr "ABC"
 
 #, c-format
 msgid "ABI version mismatch %d.%d.x (need %d.%d.x)"
@@ -2768,7 +2771,7 @@ msgid "Brave"
 msgstr "Brave"
 
 msgid "Breton"
-msgstr ""
+msgstr "Breton"
 
 msgid "British English"
 msgstr "British English"
@@ -3453,6 +3456,8 @@ msgid ""
 "Codec negotiation failed. This problem might be resolved by installing more "
 "GStreamer codecs."
 msgstr ""
+"Codec negotiation failed. This problem might be resolved by installing more "
+"GStreamer codecs."
 
 msgid "Cold"
 msgstr "Cold"
@@ -3822,7 +3827,7 @@ msgid "Could not change nick"
 msgstr "Could not change nick"
 
 msgid "Could not connect to the remote party"
-msgstr ""
+msgstr "Could not connect to the remote party"
 
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
@@ -4010,7 +4015,7 @@ msgstr "DBus Plug-in Example"
 
 #. Letters on the '3' key of a numeric keypad
 msgid "DEF"
-msgstr ""
+msgstr "DEF"
 
 msgid "DIR"
 msgstr "DIR"
@@ -4651,6 +4656,8 @@ msgid ""
 "Error initializing the call. This probably denotes problem in installation "
 "of GStreamer or Farsight."
 msgstr ""
+"Error initialising the call. This probably denotes problem in installation "
+"of GStreamer or Farsight."
 
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
@@ -5282,7 +5289,7 @@ msgstr "GG server"
 
 #. Letters on the '4' key of a numeric keypad
 msgid "GHI"
-msgstr ""
+msgstr "GHI"
 
 msgid "GNOME Default"
 msgstr "GNOME Default"
@@ -6311,7 +6318,7 @@ msgstr "JID"
 
 #. Letters on the '5' key of a numeric keypad
 msgid "JKL"
-msgstr ""
+msgstr "JKL"
 
 msgid "Japanese"
 msgstr "Japanese"
@@ -6796,7 +6803,7 @@ msgstr "MMS"
 
 #. Letters on the '6' key of a numeric keypad
 msgid "MNO"
-msgstr ""
+msgstr "MNO"
 
 #, c-format
 msgid "MOTD for %s"
@@ -6940,7 +6947,7 @@ msgid "Media Initiation Failed"
 msgstr "Media Initiation Failed"
 
 msgid "Media error"
-msgstr ""
+msgstr "Media error"
 
 msgid "Meebo"
 msgstr "Meebo"
@@ -7359,7 +7366,7 @@ msgid "Network Statistics"
 msgstr "Network Statistics"
 
 msgid "Network error."
-msgstr ""
+msgstr "Network error."
 
 msgid "Network is empty"
 msgstr "Network is empty"
@@ -8091,7 +8098,7 @@ msgstr "PONG"
 
 #. Letters on the '7' key of a numeric keypad
 msgid "PQRS"
-msgstr ""
+msgstr "PQRS"
 
 msgid "P_auses while typing"
 msgstr "P_auses while typing"
@@ -8321,6 +8328,8 @@ msgid ""
 "Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
 "installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 msgstr ""
+"Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
+"installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 
 msgid "Pidgin++ smileys"
 msgstr "Pidgin++ smileys"
@@ -10603,7 +10612,7 @@ msgid "Supported debug options are: plugins version"
 msgstr "Supported debug options are: plugins version"
 
 msgid "Supported debug options are: plugins, version"
-msgstr ""
+msgstr "Supported debug options are: plugins, version"
 
 msgid "Supports"
 msgstr "Supports"
@@ -10674,7 +10683,7 @@ msgstr "TLS/SSL Versions"
 
 #. Letters on the '8' key of a numeric keypad
 msgid "TUV"
-msgstr ""
+msgstr "TUV"
 
 msgid "T_CP Port:"
 msgstr "T_CP Port:"
@@ -13043,7 +13052,7 @@ msgstr "WATCH"
 
 #. Letters on the '9' key of a numeric keypad
 msgid "WXYZ"
-msgstr ""
+msgstr "WXYZ"
 
 msgid "Waiting for Handshake Acknowledgement"
 msgstr "Waiting for Handshake Acknowledgement"
