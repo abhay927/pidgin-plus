@@ -19,14 +19,14 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-05 18:33-0200\n"
-"PO-Revision-Date: 2016-02-24 07:47+0000\n"
+"PO-Revision-Date: 2016-03-02 16:10+0000\n"
 "Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
 "Language-Team: fr <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2016-02-25 05:25+0000\n"
+"X-Launchpad-Export-Date: 2016-03-03 06:15+0000\n"
 "X-Generator: Launchpad (build 17925)\n"
 "Language: Occitan (post 1500)\n"
 
@@ -37,7 +37,7 @@ msgid "\t_Notify for System messages"
 msgstr ""
 
 msgid "\t_Only when someone says your username"
-msgstr ""
+msgstr "\t_Solament quand se ditz vòstre nom d'utilizaire"
 
 msgid ""
 "\n"
@@ -112,6 +112,8 @@ msgid ""
 "\n"
 "Your Preferred Contact Methods"
 msgstr ""
+"\n"
+"Vòstres metòdes de contacte preferits"
 
 #, c-format
 msgid " (%s)"
@@ -134,7 +136,7 @@ msgid ""
 msgstr ""
 
 msgid "\"Attention\" Name Color"
-msgstr ""
+msgstr "Nom de la color dels messatges en susbrilhança"
 
 #. $(^Name) is the current Version name (e.g. Pidgin 2.7.0).  $_CLICK will become a translated version of "Click Next to continue."  DO NOT translate the CLICK in $_CLICK.  It will break the installer.
 msgid ""
@@ -257,7 +259,7 @@ msgstr ""
 
 #, c-format
 msgid "%s %s. Try `%s -h' for more information.\n"
-msgstr ""
+msgstr "%s %s. « %s -h » per mai d'informacions.\n"
 
 #, c-format
 msgid "%s (%s -- %s)"
@@ -269,7 +271,7 @@ msgstr "%s (%s)"
 
 #, c-format
 msgid "%s (%s) changed status from %s to %s"
-msgstr ""
+msgstr "%s (%s) a cambiat son estat de %s en %s."
 
 #, c-format
 msgid "%s (%s) has %d new message."
@@ -310,11 +312,11 @@ msgstr "Informacions sul programa %s"
 
 #, c-format
 msgid "%s Developer Information"
-msgstr ""
+msgstr "Lista dels desvelopaires de %s"
 
 #, c-format
 msgid "%s Plugin Information"
-msgstr ""
+msgstr "Informacions sus l'empeuton %s"
 
 #, c-format
 msgid "%s Tooltip"
@@ -322,7 +324,7 @@ msgstr ""
 
 #, c-format
 msgid "%s Translator Information"
-msgstr ""
+msgstr "Lista dels traductors de %s"
 
 #, c-format
 msgid ""
@@ -447,7 +449,7 @@ msgstr "%s a tampat la discussion."
 
 #, c-format
 msgid "%s has declined to join."
-msgstr ""
+msgstr "%s a declinat la convit."
 
 #, c-format
 msgid "%s has gone away."
@@ -481,11 +483,11 @@ msgstr ""
 
 #, c-format
 msgid "%s has just asked to directly connect to %s"
-msgstr ""
+msgstr "%s demanda una connexion dirècta amb %s"
 
 #, c-format
 msgid "%s has left the conversation."
-msgstr ""
+msgstr "%s a quitat la conversacion."
 
 #, c-format
 msgid "%s has nudged you!"
@@ -530,7 +532,7 @@ msgstr ""
 
 #, c-format
 msgid "%s has set the topic to: %s"
-msgstr ""
+msgstr "%s a cambiat lo subjècte en : %s"
 
 #, c-format
 msgid "%s has signed off (%s)"
