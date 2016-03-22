@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-05 18:33-0200\n"
-"PO-Revision-Date: 2014-08-31 02:37+0000\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"PO-Revision-Date: 2016-03-21 21:42+0000\n"
+"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
 "Language-Team: Polish "
 "(http://www.transifex.com/projects/p/pidgin/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -26,8 +26,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:58+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-03-22 06:02+0000\n"
+"X-Generator: Launchpad (build 17958)\n"
 "Language: Polish\n"
 
 msgid "\tNotify for _System messages"
@@ -44,6 +44,9 @@ msgid ""
 "\n"
 "Message from Farsight: "
 msgstr ""
+"\n"
+"\n"
+"Wiadomość od Farsight: "
 
 #, c-format
 msgid ""
@@ -262,7 +265,7 @@ msgstr ""
 
 #, c-format
 msgid "%s %s %s: %s\n"
-msgstr ""
+msgstr "%s %s %s: %s\n"
 
 #, c-format
 msgid ""
@@ -975,7 +978,7 @@ msgid "(none)"
 msgstr "(brak)"
 
 msgid "(self-signed)"
-msgstr ""
+msgstr "(podpisane przez samego siebie)"
 
 #, c-format
 msgid "+++ %s became idle"
@@ -1221,7 +1224,7 @@ msgid "/Conversation/_Unblock..."
 msgstr "/Rozmowa/Od_blokuj..."
 
 msgid "/Help/Check for _Updates..."
-msgstr ""
+msgstr "/Pomoc/Sprawdź_aktualizacje..."
 
 msgid "/Help/De_veloper Information"
 msgstr "/Pomoc/Infor_macje o programistach"
@@ -1503,16 +1506,20 @@ msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
 "size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 msgstr ""
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#6c2585\" "
+"size=\"2\"> %s %s:</font><font color=\"#585858\" size=\"2\"> %s</font><br/>\n"
 
 #, c-format
 msgid ""
 "<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
 "size=\"2\"> %s %s: %s</font><br/>\n"
 msgstr ""
+"<font color=\"#c8c8c8\" size=\"2\">%s</font><font color=\"#a8a8a8\" "
+"size=\"2\"> %s %s: %s</font><br/>\n"
 
 #, c-format
 msgid "<font color=\"#f80000\"><i>Could not read file: %s</i></font>"
-msgstr ""
+msgstr "<font color=\"#f80000\"><i>Nie można odczytać pliku: %s</i></font>"
 
 msgid "<font color=\"#f80000\"><i>Unable to find log path!</i></font>"
 msgstr ""
@@ -1642,7 +1649,7 @@ msgid "<u>_Underline</u>"
 msgstr "<u>Po_dkreślenie</u>"
 
 msgid "<unknown>"
-msgstr ""
+msgstr "<nieznane>"
 
 msgid "A Little About Me"
 msgstr "Coś o mnie"
@@ -1892,7 +1899,7 @@ msgid "Activate ID..."
 msgstr "Aktywuj identyfikator..."
 
 msgid "Activate which ID?"
-msgstr ""
+msgstr "Który identyfikator aktywować?"
 
 msgid "Ad-Hoc Command Failed"
 msgstr "Polecenie ad-hoc się nie powiodło"
@@ -2044,7 +2051,7 @@ msgstr "Wiek"
 #. Translators: This is a person's name. For most languages we recommend
 #. not translating it.
 msgid "Akmal Khushvakov"
-msgstr ""
+msgstr "Akmal Khushvakov"
 
 msgid "Albanian"
 msgstr "albański"
@@ -2327,7 +2334,7 @@ msgstr "Wygląda na trwały tryb offline"
 
 #. Application update checking
 msgid "Application updates"
-msgstr ""
+msgstr "Aktualizacje programu"
 
 msgid "Apply"
 msgstr "Zastosuj"
@@ -2392,7 +2399,7 @@ msgid "Are you sure you wish to allow %s to contact you?"
 msgstr "Na pewno zezwolić użytkownikowi %s na kontaktowanie się?"
 
 msgid "Argentine Spanish"
-msgstr ""
+msgstr "hiszpański (Argentyna)"
 
 msgid "Armenian"
 msgstr "armeński"
@@ -2793,7 +2800,7 @@ msgid "Brave"
 msgstr "Dzielny"
 
 msgid "Breton"
-msgstr ""
+msgstr "bretoński"
 
 msgid "British English"
 msgstr "brytyjski angielski"
@@ -3374,7 +3381,7 @@ msgid "Check permissions and try again."
 msgstr "Proszę sprawdzić uprawnienia i spróbować ponownie."
 
 msgid "Check your password."
-msgstr ""
+msgstr "Sprawdź swoje hasło."
 
 msgid "Checks for new local mail."
 msgstr "Sprawdza, czy jest nowa lokalna poczta."
@@ -3409,7 +3416,7 @@ msgid "Cipher Test"
 msgstr "Test szyfru"
 
 msgid "Ciphers"
-msgstr ""
+msgstr "Szyfry"
 
 msgid "City"
 msgstr "Miasto"
@@ -3486,6 +3493,8 @@ msgid ""
 "Codec negotiation failed. This problem might be resolved by installing more "
 "GStreamer codecs."
 msgstr ""
+"Negocjacja kodeka zakończona niepowodzeniem. Problem ten może zostać "
+"rozwiązany poprzez zainstalowanie większej ilości kodeków GStreamer."
 
 msgid "Cold"
 msgstr "Zimny"
@@ -3551,6 +3560,14 @@ msgid ""
 "Activation date: %s\n"
 "Expiration date: %s\n"
 msgstr ""
+"Wspólna nazwa: %s\n"
+"\n"
+"Wydane przez: %s\n"
+"\n"
+"Odcisk (SHA1): %s\n"
+"\n"
+"Data aktywacji: %s\n"
+"Data wygaśnięcia: %s\n"
 
 #, c-format
 msgid ""
@@ -3601,7 +3618,7 @@ msgstr "Błąd konfiguracji"
 #. *  summary
 #. *  description
 msgid "Configure Ciphers and other Settings for the NSS SSL/TLS Plugin"
-msgstr ""
+msgstr "Konfiguruje szyfry i inne ustawienia wtyczki SSL/TLS biblioteki NSS"
 
 msgid "Configure IM Forwarding (web)"
 msgstr "Skonfiguruj przekierowanie komunikatora (WWW)"
@@ -3849,7 +3866,7 @@ msgid "Could not change nick"
 msgstr "Nie można zmienić pseudonimu"
 
 msgid "Could not connect to the remote party"
-msgstr ""
+msgstr "Nie można połączyć ze zdalną częścią"
 
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
@@ -4681,6 +4698,8 @@ msgid ""
 "Error initializing the call. This probably denotes problem in installation "
 "of GStreamer or Farsight."
 msgstr ""
+"Błąd podczas inicjowania połączenia. Prawdopodobnie oznacza to problem w "
+"instalacji GStreamer lub Farsight."
 
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
@@ -6119,7 +6138,7 @@ msgid "Instant Messaging"
 msgstr "Komunikator"
 
 msgid "Instant Messaging Client"
-msgstr ""
+msgstr "Komunikator"
 
 msgid ""
 "Instant messages will only be logged if the \"Log all instant messages\" "
@@ -6419,10 +6438,10 @@ msgid "Kannada Translation team"
 msgstr "Zespół tłumaczenia na język kannada"
 
 msgid "Kashmiri"
-msgstr ""
+msgstr "kaszmirski"
 
 msgid "Kazakh"
-msgstr ""
+msgstr "kazachski"
 
 msgid "Key Agreement"
 msgstr "Akceptacja klucza"
@@ -6501,7 +6520,7 @@ msgid "Kurdish"
 msgstr "kurdyjski"
 
 msgid "Kurdish (Sorani)"
-msgstr ""
+msgstr "kurdyjski (sorani)"
 
 msgid "Lao"
 msgstr "laotański"
@@ -6547,7 +6566,7 @@ msgid "Latest News"
 msgstr "Ostatnie aktualności"
 
 msgid "Latvian"
-msgstr ""
+msgstr "łotewski"
 
 #. Launcher integration
 msgid "Launcher Icon"
@@ -6946,7 +6965,7 @@ msgid "Master archive is misconfigured"
 msgstr "Główne archiwum jest błędnie skonfigurowane"
 
 msgid "Maximum Version"
-msgstr ""
+msgstr "Maksymalna wersja"
 
 #. last_seen spinner
 msgid "Maximum last-seen difference:"
@@ -6976,7 +6995,7 @@ msgid "Media Initiation Failed"
 msgstr "Zainicjowanie multimediów się nie powiodło"
 
 msgid "Media error"
-msgstr ""
+msgstr "Błąd nośnika"
 
 msgid "Meebo"
 msgstr "Meebo"
@@ -7175,7 +7194,7 @@ msgid "Minimi_ze new conversation windows"
 msgstr "Minimali_zowanie nowych okien rozmów"
 
 msgid "Minimum Version"
-msgstr ""
+msgstr "Minimalna wersja"
 
 msgid "Minimum input area height in lines:"
 msgstr "Minimalna wysokość pola wprowadzania tekstu w wierszach:"
@@ -7357,7 +7376,7 @@ msgstr "NSS"
 #. *< priority
 #. *< id
 msgid "NSS Preferences"
-msgstr ""
+msgstr "Preferencje biblioteki NSS"
 
 msgid "N_ew conversations:"
 msgstr "Now_e rozmowy:"
@@ -7404,7 +7423,7 @@ msgid "Network Statistics"
 msgstr "Statystyki sieci"
 
 msgid "Network error."
-msgstr ""
+msgstr "Błąd sieci."
 
 msgid "Network is empty"
 msgstr "Sieć jest pusta"
@@ -7701,7 +7720,7 @@ msgstr "Niedostępny"
 
 #. TODO: look into how to do this for older versions?
 msgid "Not Supported for NSS < 3.14"
-msgstr ""
+msgstr "Nie jest obsługiwane dla biblioteki NSS < 3.14"
 
 msgid "Not accepting new users"
 msgstr "Bez akceptowania nowych użytkowników"
@@ -8357,7 +8376,7 @@ msgid "Pidgin++ Instant Messaging Client (required)"
 msgstr ""
 
 msgid "Pidgin++ Internet Messenger"
-msgstr ""
+msgstr "Komunikator internetowy Pidgin++"
 
 msgid ""
 "Pidgin++ is a chat program which lets you log in to accounts on multiple "
@@ -8957,7 +8976,7 @@ msgid "Quietest"
 msgstr "Najciszej"
 
 msgid "Quit message"
-msgstr ""
+msgstr "Komunikat podczas zakończenia"
 
 #. Raise window method button
 msgid "R_aise conversation window"
@@ -9519,10 +9538,10 @@ msgid "SSL"
 msgstr "SSL"
 
 msgid "SSL 2"
-msgstr ""
+msgstr "SSL 2"
 
 msgid "SSL 3"
-msgstr ""
+msgstr "SSL 3"
 
 #. TODO: Probably wrong.
 msgid "SSL Certificate Error"
@@ -10352,7 +10371,7 @@ msgid "Simplified Chinese"
 msgstr "chiński uproszczony"
 
 msgid "Sindhi"
-msgstr ""
+msgstr "sindhi"
 
 msgid "Single"
 msgstr "Singiel"
@@ -10380,7 +10399,7 @@ msgstr "Śpi"
 
 #. Sleepy / Tired
 msgid "Sleepy"
-msgstr "Śenny"
+msgstr "Senny"
 
 msgid "Slovak"
 msgstr "słowacki"
@@ -10730,19 +10749,19 @@ msgid "T.M.Thanh and the Gnome-Vi Team"
 msgstr "T.M. Thanh i Zespół Gnome-Vi"
 
 msgid "TLS 1.0"
-msgstr ""
+msgstr "TLS 1.0"
 
 msgid "TLS 1.1"
-msgstr ""
+msgstr "TLS 1.1"
 
 msgid "TLS 1.2"
-msgstr ""
+msgstr "TLS 1.2"
 
 msgid "TLS 1.3"
-msgstr ""
+msgstr "TLS 1.3"
 
 msgid "TLS/SSL Versions"
-msgstr ""
+msgstr "Wersje TLS/SSL"
 
 #. Letters on the '8' key of a numeric keypad
 msgid "TUV"
@@ -10762,7 +10781,7 @@ msgid "Tamil"
 msgstr "tamilski"
 
 msgid "Tatar"
-msgstr ""
+msgstr "tatarski"
 
 msgid "Tcl Plugin Loader"
 msgstr "Wczytywanie wtyczek języka Tcl"
@@ -12323,7 +12342,7 @@ msgstr ""
 "http://d.pidgin.im/BonjourWindows."
 
 msgid "Unable to find Issuer Certificate"
-msgstr ""
+msgstr "Nie można odnaleźć certyfikatu wydającego"
 
 msgid "Unable to get a valid AIM login hash."
 msgstr "Nie można uzyskać prawidłowej funkcji mieszającej logowania AIM."
@@ -12449,7 +12468,7 @@ msgstr "Nie można uzyskać nazwy komputera"
 
 #, c-format
 msgid "Unable to resolve hostname: %s"
-msgstr ""
+msgstr "Nie można uzyskać nazwy komputera: %s"
 
 msgid "Unable to save icon file to disk."
 msgstr "Nie można zapisać pliku ikony na dysku."
@@ -13031,7 +13050,7 @@ msgid "Using a PDA"
 msgstr "Używa palmtopa"
 
 msgid "Uzbek"
-msgstr ""
+msgstr "uzbecki"
 
 msgid "V_olume:"
 msgstr "Gł_ośność:"
@@ -13084,7 +13103,7 @@ msgid "View Blocked Text..."
 msgstr "Wyświetl zablokowany tekst..."
 
 msgid "View Issuer Certificate"
-msgstr ""
+msgstr "Wyświetl certyfikat wydającego"
 
 msgid "View Locations..."
 msgstr "Wyświetl położenia..."
@@ -13235,7 +13254,7 @@ msgstr "Kamery internetowe"
 
 #, c-format
 msgid "Website: %s"
-msgstr ""
+msgstr "Strona internetowa: %s"
 
 msgid "Welcome back!"
 msgstr "Witaj z powrotem!"
@@ -14118,7 +14137,7 @@ msgstr "Język"
 
 #, c-format
 msgid "Your MSN buddy list is temporarily unavailable: %s"
-msgstr ""
+msgstr "Lista znajomych MSN jest tymczasowo niedostępna: %s"
 
 msgid "Your MXit ID..."
 msgstr "Identyfikator MXit użytkownika..."
