@@ -97,7 +97,7 @@ fi
 if [[ -n "$markdown" ]]; then
     cd "$build_dir"
     output="${output:-$base_dir/changelog.md}"
-    xsl_parameters="${xsl_parameters} -s screenshot.prefix=${screenshot_prefix:-http://pidgin.renatosilva.me/}"
+    xsl_parameters="${xsl_parameters} -s screenshot.prefix=${screenshot_prefix:-http://pidgin.renatosilva.net/}"
     xmlstarlet transform --omit-decl changelog.markdown.xsl $xsl_parameters changelog.xml | dos2unix > "$output"
     echo "Changelog exported to $output"
     exit

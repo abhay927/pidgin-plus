@@ -197,7 +197,7 @@ typedef union
 } common_sockaddr_t;
 
 #define APPLICATION_NAME                  "Pidgin++"
-#define APPLICATION_WEBSITE               "http://pidgin.renatosilva.me"
+#define APPLICATION_WEBSITE               "http://pidgin.renatosilva.net"
 #define APPLICATION_WEBSITE_DEVEL         "https://launchpad.net/pidgin++"
 #define APPLICATION_WEBSITE_TRANSLATIONS  "https://translations.launchpad.net/pidgin++"
 #define APPLICATION_WEBSITE_SUPPORT       "https://answers.launchpad.net/pidgin++"

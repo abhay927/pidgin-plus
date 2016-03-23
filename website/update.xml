@@ -3,20 +3,20 @@
     <channel>
         <language>en</language>
         <title>Pidgin++ updates</title>
-        <link>http://pidgin.renatosilva.me/update.xml</link>
+        <link>http://pidgin.renatosilva.net/update.xml</link>
         <item>
             <title>16.1</title>
             <enclosure sparkle:version="16.1"
                        type="application/octet-stream" sparkle:os="windows"
                        url="https://launchpad.net/pidgin++/trunk/16.1/+download/Pidgin++%2016.1%20x86%20Setup.exe"/>
-            <sparkle:releaseNotesLink>http://pidgin.renatosilva.me/changelog.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://pidgin.renatosilva.net/changelog.html</sparkle:releaseNotesLink>
         </item>
         <item>
             <title>15.1</title>
             <enclosure sparkle:version="15.1"
                        type="application/octet-stream" sparkle:os="windows"
                        url="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++%2015.1%20x86%20Setup.exe"/>
-            <sparkle:releaseNotesLink>http://pidgin.renatosilva.me/changelog.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://pidgin.renatosilva.net/changelog.html</sparkle:releaseNotesLink>
         </item>
   </channel>
 </rss>
