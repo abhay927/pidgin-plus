@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-05 18:33-0200\n"
-"PO-Revision-Date: 2015-05-04 15:56+0000\n"
+"PO-Revision-Date: 2016-03-28 09:39+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:59+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-03-29 05:43+0000\n"
+"X-Generator: Launchpad (build 17967)\n"
 "Language: Croatian\n"
 
 msgid "\tNotify for _System messages"
@@ -2189,17 +2189,17 @@ msgstr ""
 
 #, c-format
 msgid "Are you sure you want to remove %s?"
-msgstr "Dali ste sigurni da elite ukloniti %s?"
+msgstr "Sigurno želite ukloniti %s?"
 
 #, c-format
 msgid "Are you sure you wish to allow %s to contact you?"
-msgstr ""
+msgstr "Sigurno želite dopustiti da vas %s kontaktira?"
 
 msgid "Argentine Spanish"
-msgstr ""
+msgstr "Argentinski španjolski"
 
 msgid "Armenian"
-msgstr ""
+msgstr "Armenski"
 
 msgid "Aroused"
 msgstr ""
