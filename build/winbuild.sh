@@ -53,24 +53,9 @@ if [[ -z "$build_root" ]]; then
     exit 1
 fi
 
-# Other variables
-machine=$(gcc -dumpmachine)
-case "$machine" in
-    i686-w64-mingw*)   architecture="x86"; bitness="32" ;;
-    x86_64-w64-mingw*) architecture="x64"; bitness="64" ;;
-    *)                 architecture="$machine"
-esac
-build_root=$(readlink -f "$build_root")
+# Colored output
 base_dir=$(readlink -e "$(dirname "$0")/..")
 source_dir="$base_dir/source"
-sign="${sign:-$cert}"
-sign="${sign:+yes}"
-version=$("${base_dir}/build/changelog.sh" --version)
-build="$build_root/build/${build:-pidgin.${bitness:-$machine}}"
-target="${output:-$build_root/distribution/$version/$architecture}"
-documents="$build/documents"
-
-# Colored output
 if [[ -n "$color" && ("$color" != on && "$color" != off) ]]; then
     echo "Please specify a valid value for --color, see --help."
     exit 1
@@ -79,6 +64,22 @@ if [[ "$color" = on || (-z "$color" && -t 1) ]]; then
     export PIDGIN_BUILD_COLORS="yes"
 fi
 source "$source_dir/colored.sh"
+
+# Other variables
+machine=$(gcc -dumpmachine)
+case "$machine" in
+    i686-w64-mingw*)   architecture="x86"; bitness="32" ;;
+    x86_64-w64-mingw*) architecture="x64"; bitness="64" ;;
+    *)                 architecture="$machine"
+                       warn "unrecognized architecture ${architecture}"
+esac
+build_root=$(readlink -f "$build_root")
+sign="${sign:-$cert}"
+sign="${sign:+yes}"
+version=$("${base_dir}/build/changelog.sh" --version)
+build="$build_root/build/${build:-pidgin.${bitness:-$machine}}"
+target="${output:-$build_root/distribution/$version/$architecture}"
+documents="$build/documents"
 
 # Functions and output encoding
 move_signed() {
