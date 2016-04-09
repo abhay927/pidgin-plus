@@ -43,6 +43,7 @@ indirect_dependencies=(# Required only by GTK+
                        ${mingw_package_prefix}-harfbuzz
                        ${mingw_package_prefix}-libffi
                        ${mingw_package_prefix}-libiconv
+                       ${mingw_package_prefix}-pcre
                        ${mingw_package_prefix}-pixman
                        ${mingw_package_prefix}-shared-mime-info
 

@@ -62,13 +62,13 @@ files=(bin/gspawn-win${bitness}-helper.exe
        bin/libpangocairo-1.0-0.dll
        bin/libpangoft2-1.0-0.dll
        bin/libpangowin32-1.0-0.dll
+       bin/libpcre-1.dll
        bin/libpixman-1-0.dll
        bin/libpng16-16.dll
        bin/libwinpthread-1.dll
        bin/zlib1.dll
        etc/fonts
        etc/gtk-2.0
-       etc/pango
        lib/gtk-2.0/2.10.0/engines/libpixmap.dll
        lib/gtk-2.0/2.10.0/engines/libwimp.dll
        lib/gtk-2.0/modules/libgail.dll
