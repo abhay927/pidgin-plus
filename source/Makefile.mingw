@@ -75,7 +75,7 @@ EXTERNAL_DLLS = \
 	libenchant.dll \
 	libenchant_ispell.dll \
 	libenchant_myspell.dll \
-	libhunspell-1.3-0.dll \
+	libhunspell-1.4-0.dll \
 	libstdc++-6.dll \
 	libgtkspell-0.dll \
 	libmeanwhile-1.dll \
@@ -144,7 +144,7 @@ endif
 	cp $(GTKSPELL_TOP)/bin/libgtkspell-0.dll $(PIDGIN_INSTALL_DIR)/spellcheck
 	cp $(ENCHANT_TOP)/bin/libenchant.dll $(PIDGIN_INSTALL_DIR)/spellcheck
 	cp $(ENCHANT_TOP)/bin/libstdc++-6.dll $(PIDGIN_INSTALL_DIR)
-	cp $(ENCHANT_TOP)/bin/libhunspell-1.3-0.dll $(PIDGIN_INSTALL_DIR)/spellcheck
+	cp $(ENCHANT_TOP)/bin/libhunspell-1.4-0.dll $(PIDGIN_INSTALL_DIR)/spellcheck
 	cp $(ENCHANT_TOP)/lib/enchant/libenchant_ispell.dll $(PIDGIN_INSTALL_DIR)/spellcheck/lib/enchant
 	cp $(ENCHANT_TOP)/lib/enchant/libenchant_myspell.dll $(PIDGIN_INSTALL_DIR)/spellcheck/lib/enchant
 	cp $(GETTEXT_TOP)/libintl-8.dll $(PIDGIN_INSTALL_DIR)/intl.dll

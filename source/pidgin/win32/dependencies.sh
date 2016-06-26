@@ -40,6 +40,7 @@ indirect_dependencies=(# Required only by GTK+
                        ${mingw_package_prefix}-bzip2
                        ${mingw_package_prefix}-fontconfig
                        ${mingw_package_prefix}-freetype
+                       ${mingw_package_prefix}-graphite2
                        ${mingw_package_prefix}-harfbuzz
                        ${mingw_package_prefix}-libffi
                        ${mingw_package_prefix}-libiconv

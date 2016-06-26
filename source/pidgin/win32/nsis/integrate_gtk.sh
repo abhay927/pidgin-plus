@@ -53,6 +53,7 @@ files=(bin/gspawn-win${bitness}-helper.exe
        bin/libglib-2.0-0.dll
        bin/libgmodule-2.0-0.dll
        bin/libgobject-2.0-0.dll
+       bin/libgraphite2.dll
        bin/libgthread-2.0-0.dll
        bin/libgtk-win32-2.0-0.dll
        bin/libharfbuzz-0.dll
