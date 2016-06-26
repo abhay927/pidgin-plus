@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2016-03-29 09:05+0000\n"
 "Last-Translator: Åka Sikrom <Unknown>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.ui.no>\n"
@@ -22,8 +22,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-03-30 06:27+0000\n"
-"X-Generator: Launchpad (build 17967)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:15+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Norwegian Bokmal\n"
 
 msgid "\tNotify for _System messages"
@@ -2441,6 +2441,9 @@ msgstr "Autentiseringsfeil"
 msgid "Authentication failed"
 msgstr "Autentisering feilet"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Forfatter"
 
@@ -2495,9 +2498,6 @@ msgstr "Automatisk pålogging"
 msgid "Auto-response sent:"
 msgstr "Auto-respons sendt:"
 
-msgid "Auto_join when account connects."
-msgstr "Bli med _automatisk når kontoen er pålogget."
-
 msgid "Autoaccept"
 msgstr "Autoaksepter"
 
@@ -2513,6 +2513,9 @@ msgstr "Autoakseptert filoverføring av \"%s\" fra \"%s\" ferdig."
 
 msgid "Automatic"
 msgstr "Automatisk"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4661,6 +4664,9 @@ msgstr "Feil oppsto under nøkkelavtale"
 msgid "Error parsing HTTP"
 msgstr "Feil under tolkning av HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6362,6 +6368,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Nøkkelavtale"
 
@@ -6761,6 +6770,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7743,6 +7755,7 @@ msgstr ""
 "Gi beskjed med en sprettopp når en autogodta filoverføring er ferdig\n"
 "(kun når det ikke er en samtale med senderen)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Notify with a toaster when"
 
@@ -11683,6 +11696,7 @@ msgstr ""
 "For å legge til kontakten må du importere hans/hennes offentlige nøkkel. "
 "Trykk Import for å importere en offentlig nøkkel."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Toaster tillegg"
 
@@ -12532,6 +12546,9 @@ msgstr "Ukjent feil (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Ukjent feil 52. Koble til igjen for å løse dette."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12711,9 +12728,6 @@ msgstr "Bruk en annen status for noen kontoer"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "Bruk clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Bruk en annen status for følgende kontoer"
@@ -13870,6 +13884,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Du krever kryptering, men ingen støtte for TLS/SSL ble funnet."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14410,8 +14429,8 @@ msgstr "_Mottaker:"
 msgid "_Recurring"
 msgstr "_Gjentar"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Forbli i samtale etter at vinduet er lukket."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "Fje_rn"
@@ -14624,6 +14643,9 @@ msgstr "clear: Renser alle samtaler i tilbakeblikk."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Renser samtale scrollback."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15171,3 +15193,12 @@ msgstr "zl &lt;nick&gt;: Finn bruker"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: Finn bruker"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Bruk clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Bli med _automatisk når kontoen er pålogget."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Forbli i samtale etter at vinduet er lukket."

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Felix <ifelix25@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:00+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:19+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "X-Poedit-Country: INDIA\n"
 "Language: Tamil\n"
 "X-Poedit-Bookmarks: -1,470,-1,-1,-1,-1,-1,-1,-1,1715\n"
@@ -2472,6 +2472,9 @@ msgstr "உரிமையாக்கல் தவறல்"
 msgid "Authentication failed"
 msgstr "அனுமதியாக்கல் தவறியது"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "ஆசிரியர்"
 
@@ -2527,9 +2530,6 @@ msgstr "தானாக-சேர்"
 msgid "Auto-response sent:"
 msgstr "தானான -பதில் அனுப்பப்பட்டது:"
 
-msgid "Auto_join when account connects."
-msgstr "கணக்கு இணைக்கும் போது தானாக இணை (_j)."
-
 msgid "Autoaccept"
 msgstr "தானான ஏற்றுல்"
 
@@ -2547,6 +2547,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "தானியங்கி"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4699,6 +4702,9 @@ msgstr "சாவி ஒப்புதலில் பிழை ஏற்பட
 msgid "Error parsing HTTP"
 msgstr "HTTPஐ பகுப்பதில் பிழை"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6403,6 +6409,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "விசை இசைவு"
 
@@ -6805,6 +6814,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7792,6 +7804,7 @@ msgstr ""
 "முடிவடைகிறதோ அப்போது குறிப்பிடு\n"
 "(எப்போது அனுப்புநருடன் உரையாடல் மட்டும் இல்லையோ)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "எப்போது ஒரு டோஸ்டருடன் உள்ளதோ அப்போது குறிப்பிடவும்"
 
@@ -11738,6 +11751,7 @@ msgstr ""
 "தோழரை சேர்க்க அவரது பொதுச்சாவியை இறக்குமதி செய்ய வேண்டும். பொதுச்சாவியை "
 "இறக்குமதி செய்ய இறக்குமதி ஐ அழுத்தவும்."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "டோஸ்டர் செருகி"
 
@@ -12591,6 +12605,9 @@ msgstr "தெரியாத பிழை (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "தெரியாத பிழை 52.  மறுஇணைத்தல் இதை பொருத்தும்."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12771,9 +12788,6 @@ msgstr "சில கணக்குகளுக்கு வேறுபாட�
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "பயனர் உட்புகுவை பயன்படுத்து"
 
 msgid "Use different status for following accounts"
 msgstr "பின்வரும் கணக்குகளுக்கு வேறுபட்ட நிலையை பயன்படுத்து"
@@ -13956,6 +13970,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "உங்களுக்கு மறைகுறி தேவை, ஆனால் TLS/SSL துணை காணப்படவில்லை."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14499,8 +14518,8 @@ msgstr "பெறுனர் (_R):"
 msgid "_Recurring"
 msgstr "மீண்டும் மீண்டும் நிகழும் (_R)"
 
-msgid "_Remain in chat after window is closed."
-msgstr "சாளரம் மூடப்பட்ட பிறகு அரட்டையில் தங்கியிருக்கும் (_R)."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "நீக்கு (_R)"
@@ -14715,6 +14734,9 @@ msgstr "துடை: உரையாடல் பின் செல்லல�
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "துடை: உரையாடல் பின் செல்லலை சுத்தமாக்குகிறது."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15292,3 +15314,12 @@ msgstr "zl &lt;செல்லப்பெயர்&gt;: பயனாளரை �
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;செல்லப்பெயர்&gt;: பயனாளரை தேடு"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "பயனர் உட்புகுவை பயன்படுத்து"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "கணக்கு இணைக்கும் போது தானாக இணை (_j)."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "சாளரம் மூடப்பட்ட பிறகு அரட்டையில் தங்கியிருக்கும் (_R)."

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CVS Version of Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Nguyen Vu Hung <vuhung16plus@gmail.com>\n"
 "Language-Team: Du an MOST <du-an-most@lists.hanoilug.org>\n"
@@ -21,8 +21,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:02+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:21+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Vietnamese\n"
 
 msgid "\tNotify for _System messages"
@@ -2435,6 +2435,9 @@ msgstr "Lỗi xác thực"
 msgid "Authentication failed"
 msgstr "Không xác thực được"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Tác giả"
 
@@ -2490,9 +2493,6 @@ msgstr "Tự động tham gia"
 msgid "Auto-response sent:"
 msgstr "Gửi trả lời tự động:"
 
-msgid "Auto_join when account connects."
-msgstr "Tự động tham _gia một khi tài khoản kết nối."
-
 msgid "Autoaccept"
 msgstr "Tự động chấp nhận"
 
@@ -2509,6 +2509,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Tự động"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4653,6 +4656,9 @@ msgstr "Có lỗi trong quá trình kiểm tra mã khoá"
 msgid "Error parsing HTTP"
 msgstr "Gặp lỗi khi phân tích cú pháp của mã HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6358,6 +6364,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Kiểm tra mã khoá"
 
@@ -6766,6 +6775,9 @@ msgstr "May mắn"
 
 msgid "Lunch"
 msgstr "Ăn trưa"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7755,6 +7767,7 @@ msgstr ""
 "Tự mở thông báo khi việc truyền tập tin đã chấp nhận tự động đã chạy xong\n"
 "(chỉ khi không có cuộc thoại với người gửi)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Thông báo với lò nướng bánh khi"
 
@@ -11667,6 +11680,7 @@ msgstr ""
 "Để thêm vào bạn chát, bạn phải nhập khẩu khoá công cộng của người đó. Nhấn "
 "nút « Nhập » để nhập khẩu một mã khoá công cộng."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Phần bổ sung lò nướng bánh"
 
@@ -12521,6 +12535,9 @@ msgstr "Lỗi không rõ (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Gặp lỗi không rõ 52. Tái kết nối nên giúp khắc phục."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12701,9 +12718,6 @@ msgstr "Đặt một trạng thái _khác cho một số tài khoản nào đó"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Dùng tài khoản ủy nhiệm cho kết nối HTTP và HTTPS"
-
-msgid "Use clientLogin"
-msgstr "Dùng clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Dùng trạng thái khác cho các tài khoản theo đây"
@@ -13843,6 +13857,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Bạn cần chức năng mật mã còn không tìm thấy hỗ trợ TLS/SSL."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14388,8 +14407,8 @@ msgstr "_Người nhận:"
 msgid "_Recurring"
 msgstr "_Lặp lại"
 
-msgid "_Remain in chat after window is closed."
-msgstr "Còn lại t_rong chát sau khi cửa sổ bị đóng."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Bỏ"
@@ -14610,6 +14629,9 @@ msgstr "clear: Gột mọi vùng cuộn ngược của cuộc thoại"
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: gột vùng cuộn ngược trong cuộc thoại."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15189,3 +15211,12 @@ msgstr "zl &lt;tên hiệu&gt;: (viết tắt) Định vị người dùng"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;tên hiệu&gt;: Định vị người dùng"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Dùng clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Tự động tham _gia một khi tài khoản kết nối."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "Còn lại t_rong chát sau khi cửa sổ bị đóng."

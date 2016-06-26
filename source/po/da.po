@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2015-06-04 20:07+0000\n"
 "Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -50,8 +50,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:50+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:07+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Danish\n"
 "X-Poedit-Language: Danish\n"
 
@@ -2490,6 +2490,9 @@ msgstr "Godkendelsesfejl"
 msgid "Authentication failed"
 msgstr "Godkendelse mislykkedes"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Forfatter"
 
@@ -2544,9 +2547,6 @@ msgstr "Auto-tilslut"
 msgid "Auto-response sent:"
 msgstr "Auto-svar sendt:"
 
-msgid "Auto_join when account connects."
-msgstr "_Tilslut automatisk når kontoen tilkobles."
-
 msgid "Autoaccept"
 msgstr "Acceptér automatisk"
 
@@ -2563,6 +2563,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automatisk"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4709,6 +4712,9 @@ msgstr "Der opstod en fejl under nøgleudveksling"
 msgid "Error parsing HTTP"
 msgstr "Fejl ved fortolkning af HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6412,6 +6418,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Nøgleudveksling"
 
@@ -6813,6 +6822,9 @@ msgstr "Heldig"
 
 msgid "Lunch"
 msgstr "Frokost"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7800,6 +7812,7 @@ msgstr ""
 "fuldført\n"
 "(kun hvis der ikke er nogen konversation med senderen)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Påmind med en toaster når"
 
@@ -11751,6 +11764,7 @@ msgstr ""
 "For at tilføje vennen, skal du importere hendes/hans offentlige nøgle. Tryk "
 "Importér for at importere en offentlig nøgle."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Toaster-udvidelsesmodul"
 
@@ -12602,6 +12616,9 @@ msgstr "Ukendt fejl (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Ukendt fejl 52.  Dette bør kunne løses ved at genforbinde."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12782,10 +12799,6 @@ msgstr "Brug en _anden status for nogle konti"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Brug kontoproxy til HTTP- og HTTPS-forbindelser"
-
-# ?
-msgid "Use clientLogin"
-msgstr "Brug klient-logind"
 
 msgid "Use different status for following accounts"
 msgstr "Brug en anden status for følgende konti"
@@ -13956,6 +13969,11 @@ msgstr ""
 "Du kræver kryptering, men der blev ikke fundet nogen TLS/SSL-understøttelse."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14502,8 +14520,8 @@ msgstr "_Modtager:"
 msgid "_Recurring"
 msgstr "_Gentages"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Forbliv i samtale efter vinduet er lukket."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Fjern"
@@ -14716,6 +14734,9 @@ msgstr "clear: Rydder samtalevinduet for gemt tekst."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Rydder samtalevinduet for tekst."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15270,3 +15291,13 @@ msgstr "zl &lt;navn&gt;: Find bruger"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;navn&gt;: Find bruger"
+
+# ?
+#~ msgid "Use clientLogin"
+#~ msgstr "Brug klient-logind"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "_Tilslut automatisk når kontoen tilkobles."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Forbliv i samtale efter vinduet er lukket."

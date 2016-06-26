@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:43+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Galician <g11n@mancomun.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:52+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:09+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Galician\n"
 
 msgid "\tNotify for _System messages"
@@ -2448,6 +2448,9 @@ msgstr "Fallo de autenticación"
 msgid "Authentication failed"
 msgstr "Fallou a autenticación"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Autor"
 
@@ -2504,9 +2507,6 @@ msgstr "Conectarse automaticamente"
 msgid "Auto-response sent:"
 msgstr "Resposta automática enviada:"
 
-msgid "Auto_join when account connects."
-msgstr ""
-
 msgid "Autoaccept"
 msgstr "Aceptar automaticamente"
 
@@ -2524,6 +2524,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automático"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4672,6 +4675,9 @@ msgstr "Produciuse un erro durante a negociación da chave"
 msgid "Error parsing HTTP"
 msgstr "Erro no procesamento de HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6371,6 +6377,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Acordo de chaves"
 
@@ -6772,6 +6781,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7763,6 +7775,7 @@ msgstr ""
 "ficheiros aceptada automaticamente\n"
 "(só cando non hai unha conversa co remitente)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Notificar cunha \"torradora\" cando"
 
@@ -11698,6 +11711,7 @@ msgstr ""
 "Para engadir o contacto debe importar a súa chave pública. Prema en Importar "
 "para importar unha chave pública."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Complemento Toaster"
 
@@ -12558,6 +12572,9 @@ msgstr "Erro descoñecido (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr ""
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12736,9 +12753,6 @@ msgstr "Usar un estado _diferente para algunhas contas"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "Usar login de cliente"
 
 msgid "Use different status for following accounts"
 msgstr "Usar un estado diferente para as contas seguintes"
@@ -13894,6 +13908,11 @@ msgstr ""
 "Solicitou o cifrado mais non está dispoñíbel a capacidade para TLS/SSL."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14429,8 +14448,8 @@ msgstr "_Destinatario:"
 msgid "_Recurring"
 msgstr "_Recorrente"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Permanecer no chat tras cerrar a xanela."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Eliminar"
@@ -14643,6 +14662,9 @@ msgstr "clear: Limpa todos os historiais de conversas."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Limpa o historial da conversa."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15204,3 +15226,9 @@ msgstr "zl &lt;alias&gt;: Localizar un usuario"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;alias&gt;: Localizar un usuario"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Usar login de cliente"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Permanecer no chat tras cerrar a xanela."

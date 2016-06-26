@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:30+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Panjabi (Punjabi) "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:57+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:16+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Punjabi\n"
 
 msgid "\tNotify for _System messages"
@@ -2442,6 +2442,9 @@ msgstr "ਪਰਮਾਣਿਕਤਾ ਫੇਲ੍ਹ"
 msgid "Authentication failed"
 msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਅਸਫਲ"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "ਲੇਖਕ"
 
@@ -2496,9 +2499,6 @@ msgstr "ਆਟੋ-ਦਾਖਲ"
 msgid "Auto-response sent:"
 msgstr "ਆਟੋ-ਜਵਾਬ ਭੇਜਿਆ:"
 
-msgid "Auto_join when account connects."
-msgstr "ਜਦੋਂ ਅਕਾਊਂਟ ਕੁਨੈਕਟ ਹੋਵੇ ਤਾਂ ਆਟੋ-ਜੁਆਇੰਨ ਕਰੋ(_j)।"
-
 msgid "Autoaccept"
 msgstr "ਆਟੋ-ਮਨਜ਼ੂਰ ਕਰੋ"
 
@@ -2514,6 +2514,9 @@ msgstr "\"%2$s\" ਤੋਂ \"%1$s\" ਲਈ ਆਟੋ-ਮਨਜ਼ੂਰ ਫਾ�
 
 msgid "Automatic"
 msgstr "ਸਵੈ-ਚਾਲਿਤ"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4652,6 +4655,9 @@ msgstr "ਕੁੰਜੀ ਸਹਿਮਤੀ ਦੌਰਾਨ ਗਲਤੀ"
 msgid "Error parsing HTTP"
 msgstr "HTTP ਪਾਰਸ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6349,6 +6355,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "ਕੁੰਜੀ ਸਹਿਮਤੀ"
 
@@ -6745,6 +6754,9 @@ msgstr "ਕਿਸਮਤ ਵਾਲਾ"
 
 msgid "Lunch"
 msgstr "ਦੁਪਹਿਰ ਦਾ ਖਾਣਾ"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7722,6 +7734,7 @@ msgstr ""
 "ਪੋਪਅੱਪ ਨਾਲ ਨੋਟੀਫਾਈ ਕਰੋ, ਜਦੋਂ ਵੀ ਇੱਕ ਆਟੋ-ਮਨਜ਼ੂਰ ਫਾਇਲ ਟਰਾਂਸਫਰ ਪੂਰੀ ਹੋ ਜਾਵੇ\n"
 "(ਕੇਵਲ ਜਦੋਂ ਭੇਜਣ ਵਾਲੇ ਨਾਲ ਕੋਈ ਸੰਵਾਦ ਨਾ ਹੋਵੇ)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "ਇੱਕ ਟੋਸਟਰ ਨਾਲ ਨੋਟੀਫਾਈ ਕਰੋ, ਜਦੋਂ"
 
@@ -11611,6 +11624,7 @@ msgstr ""
 "ਬੱਡੀ ਨੂੰ ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ ਉਸਦੀ ਪਬਲਿਕ ਕੁੰਜੀ ਨੂੰ ਇੰਪੋਰਟ ਕਰਨਾ ਪਵੇਗਾ। ਪਬਲਿਕ ਕੁੰਜੀ "
 "ਨੂੰ ਇੰਪੋਰਟ ਕਰਨ ਕਈ ਇੰਪੋਰਟ ਨੂੰ ਦਬਾਉ।"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "ਟੋਸਟਰ ਪਲੱਗਇਨ"
 
@@ -12442,6 +12456,9 @@ msgstr "ਅਣਜਾਣੀ ਗਲਤੀ (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "ਅਣਜਾਣ ਗਲਤੀ 52। ਇਹ ਠੀਕ ਕਰਨ ਲਈ ਮੁੜ-ਕੁਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12622,9 +12639,6 @@ msgstr "ਕੁਝ ਅਕਾਊਂਟਾਂ ਲਈ ਵੱਖਰੀ ਹਾਲਤ �
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "HTTP ਅਤੇ HTTPS ਕੁਨੈਕਸ਼ਨਾਂ ਲਈ ਅਕਾਊਂਟ ਪਰਾਕਸੀ ਵਰਤੋਂ"
-
-msgid "Use clientLogin"
-msgstr "ਕਲਾਇਟਲਾਗਇਨ ਵਰਤੋਂ"
 
 msgid "Use different status for following accounts"
 msgstr "ਅੱਗੇ ਦਿੱਤੇ ਅਕਾਊਂਟਾਂ ਲਈ ਵੱਖਰਾ ਹਾਲਤ ਵਰਤੋਂ"
@@ -13779,6 +13793,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "ਤੁਹਾਨੂੰ ਇੰਕ੍ਰਿਪਸ਼ਨ ਦੀ ਲੋੜ ਹੈ, ਪਰ ਕੋਈ TLS/SSL ਸਹਿਯੋਗ ਨਹੀਂ ਲੱਭਿਆ।"
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14318,8 +14337,8 @@ msgstr "ਸੁਨੇਹੀ(_R):"
 msgid "_Recurring"
 msgstr "ਆਵਰਤੀ(_R)"
 
-msgid "_Remain in chat after window is closed."
-msgstr "ਜਦੋਂ ਵਿੰਡੋ ਬੰਦ ਕੀਤੀ ਜਾਵੇ ਤਾਂ ਗੱਲਬਾਤ ਵਿੱਚ ਰਹੋ(_R)|"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "ਹਟਾਓ(_R)"
@@ -14531,6 +14550,9 @@ msgstr "ਸਾਫ਼: ਪਿਛਲੀਆਂ ਗੱਲਾਂ-ਬਾਤਾਂ ਸ�
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: ਪਿਛਲੀਆਂ ਗੱਲਾਂ-ਬਾਤਾਂ ਸਾਫ਼ ਕਰੋ ਦਿਓ।"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15076,3 +15098,12 @@ msgstr "zl &lt;nick&gt;: ਯੂਜ਼ਰ ਖੋਜੋ"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: ਯੂਜ਼ਰ ਖੋਜ"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "ਕਲਾਇਟਲਾਗਇਨ ਵਰਤੋਂ"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "ਜਦੋਂ ਅਕਾਊਂਟ ਕੁਨੈਕਟ ਹੋਵੇ ਤਾਂ ਆਟੋ-ਜੁਆਇੰਨ ਕਰੋ(_j)।"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "ਜਦੋਂ ਵਿੰਡੋ ਬੰਦ ਕੀਤੀ ਜਾਵੇ ਤਾਂ ਗੱਲਬਾਤ ਵਿੱਚ ਰਹੋ(_R)|"

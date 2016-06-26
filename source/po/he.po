@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Hebrew "
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:52+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:10+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Hebrew\n"
 
 msgid "\tNotify for _System messages"
@@ -2407,6 +2407,9 @@ msgstr "כשל באימות"
 msgid "Authentication failed"
 msgstr "האימות נכשל"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "מחבר"
 
@@ -2461,9 +2464,6 @@ msgstr "הצטרף אוטומטית"
 msgid "Auto-response sent:"
 msgstr "נשלחה תגובה אוטומטית:"
 
-msgid "Auto_join when account connects."
-msgstr "הצט_רף אוטומטית כשהחשבון נעשה מקוון."
-
 msgid "Autoaccept"
 msgstr "אשר אוטומטית"
 
@@ -2479,6 +2479,9 @@ msgstr "אחרי אישור-קבלה אוטומטי, הסתיימה העברת \
 
 msgid "Automatic"
 msgstr "אוטומטי"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4610,6 +4613,9 @@ msgstr "ארעה שגיאה בעת ההסכמה על מפתחות"
 msgid "Error parsing HTTP"
 msgstr "שגיאה בפיענוח HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6302,6 +6308,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "הסכמה על מפתחות"
 
@@ -6697,6 +6706,9 @@ msgstr "בר-מזל"
 
 msgid "Lunch"
 msgstr "ארוחת-צהריים"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7671,6 +7683,7 @@ msgstr ""
 "הצג התרעה לאחר שהעברת קובץ שאושר אוטומטית הסתיימה\n"
 "(רק כאשר אין שיחה עם השולח)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "התרעה עם טוסטר כאשר"
 
@@ -11519,6 +11532,7 @@ msgstr ""
 "להוסיף את איש הקשר, עליך לייבא את המפתח הציבורי שלו.ניתן ללחוץ על \"ייבא\" "
 "לייבא מפתח ציבורי."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "תוסף טוסטר"
 
@@ -12339,6 +12353,9 @@ msgstr "שגיאה לא מוכרת (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "שגיאה לא-מוכרת מספר 52. התחברות מחדש אמורה לתקן זאת."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12516,9 +12533,6 @@ msgstr "השתמש בסטטוס שונה עבור חשבונות מסויימי�
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "התשמש במתווך עבור החשבון בשביל חיבורי HTTP ו-HTTPS"
-
-msgid "Use clientLogin"
-msgstr "השתמש ב-clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "השתמש בסטטוס שונה עבור החשבונות הבאים"
@@ -13642,6 +13656,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "הגדרת דרישה להצפנה, אך לא נמצאה תמיכה ב-TLS/SSL."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr "דרשת הצפנה בהגדרות החשבון שלך, אך המחשב שלך אינו תומך בהצפנה."
@@ -14171,8 +14190,8 @@ msgstr "_נמען:"
 msgid "_Recurring"
 msgstr "_שוב ושוב"
 
-msgid "_Remain in chat after window is closed."
-msgstr "הש_אר בצ'אט אחרי שהחלון נסגר."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_הסר"
@@ -14383,6 +14402,9 @@ msgstr "clear: נקה את תוכן הגלילה-לאחור של כל השיחו
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: נקה את תוכן חלון השיחה."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -14910,3 +14932,12 @@ msgstr "zl &lt;שם כינוי&gt;: איתור משתמש"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;שם כינוי&gt;: איתור משתמש"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "השתמש ב-clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "הצט_רף אוטומטית כשהחשבון נעשה מקוון."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "הש_אר בצ'אט אחרי שהחלון נסגר."

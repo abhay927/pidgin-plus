@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Dutch "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:50+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:07+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Dutch\n"
 
 msgid "\tNotify for _System messages"
@@ -2474,6 +2474,9 @@ msgstr "Waarmerking mislukt"
 msgid "Authentication failed"
 msgstr "Waarmerking mislukt"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Auteur"
 
@@ -2529,9 +2532,6 @@ msgstr "Automatisch deelnemen"
 msgid "Auto-response sent:"
 msgstr "Automatisch antwoord verstuurd:"
 
-msgid "Auto_join when account connects."
-msgstr "Automatisch _deelnemen wanneer account online komt."
-
 msgid "Autoaccept"
 msgstr "Automatisch accepteren"
 
@@ -2548,6 +2548,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automatisch"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4698,6 +4701,9 @@ msgstr "Fout opgetreden bij uitwisseling van sleutels"
 msgid "Error parsing HTTP"
 msgstr "Fout bij ontleden HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6398,6 +6404,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Sleutels uitwisselen"
 
@@ -6798,6 +6807,9 @@ msgstr "heb geluk"
 
 msgid "Lunch"
 msgstr "Lunch"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7789,6 +7801,7 @@ msgstr ""
 "gereed is\n"
 "(alleen als er geen conversatie is met de verzender)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Waarschuwen met een toaster wanneer"
 
@@ -11758,6 +11771,7 @@ msgstr ""
 "Om de gebruiker toe te voegen moet u de openbare sleutel importeren. Klik op "
 "\"Importeren\" om de openbare sleutel te importeren."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Toaster plug-in"
 
@@ -12626,6 +12640,9 @@ msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr ""
 "Onbekende fout 52. Opnieuw verbinding maken zou dit moeten herstellen."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12806,9 +12823,6 @@ msgstr "Een _andere status gebruiken voor sommige accounts"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Gebruik account proxy voor HTTP en HTTPS verbindingen"
-
-msgid "Use clientLogin"
-msgstr "Gebruik clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Een andere status gebruiken voor de volgende accounts"
@@ -13981,6 +13995,11 @@ msgstr ""
 "Versleuteling vereist, maar er is geen ondersteuning voor TLS/SSL gevonden."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14524,8 +14543,8 @@ msgstr "_Ontvanger:"
 msgid "_Recurring"
 msgstr "_Terugkerend"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Blijf in chat nadat venster is gesloten."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Verwijderen"
@@ -14741,6 +14760,9 @@ msgstr "clear: Maakt alle gespreksvensters schoon."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: wist de gespreksgeschiedenis."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15310,3 +15332,12 @@ msgstr "zl &lt;nick&gt;: Gebruiker zoeken"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: Gebruiker zoeken"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Gebruik clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Automatisch _deelnemen wanneer account online komt."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Blijf in chat nadat venster is gesloten."

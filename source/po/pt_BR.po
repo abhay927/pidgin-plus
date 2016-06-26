@@ -9,16 +9,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
-"PO-Revision-Date: 2016-01-06 18:32+0000\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
+"PO-Revision-Date: 2016-06-26 04:57+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Renato Silva <br.renatosilva@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2016-01-07 05:35+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:22+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Brazilian Portuguese\n"
 
 msgid "\tNotify for _System messages"
@@ -2503,6 +2503,9 @@ msgstr "Falha na autenticação"
 msgid "Authentication failed"
 msgstr "Autenticação mal sucedida"
 
+msgid "Authentication method"
+msgstr "Método de autenticação"
+
 msgid "Author"
 msgstr "Autor"
 
@@ -2559,9 +2562,6 @@ msgstr "Entrar automaticamente"
 msgid "Auto-response sent:"
 msgstr "Auto-resposta enviada:"
 
-msgid "Auto_join when account connects."
-msgstr "Entrar automaticamente ao conectar."
-
 msgid "Autoaccept"
 msgstr "Aceitar automaticamente"
 
@@ -2579,6 +2579,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automático"
+
+msgid "Automatically _join when account connects"
+msgstr "_Entrar automaticamente ao conectar"
 
 msgid "Automatically check for _new versions"
 msgstr "Verificar automaticamente por _novas versões"
@@ -4755,6 +4758,9 @@ msgstr "Erro ao fazer o acordo de chaves"
 msgid "Error parsing HTTP"
 msgstr "Erro ao processar HTTP."
 
+msgid "Error parsing response from authentication server"
+msgstr "Erro analisando resposta do servidor de autenticação"
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6456,6 +6462,9 @@ msgstr "Caxemira"
 msgid "Kazakh"
 msgstr "Cazaque"
 
+msgid "Kerberos"
+msgstr "Kerberos"
+
 msgid "Key Agreement"
 msgstr "Acordo de chaves"
 
@@ -6859,6 +6868,9 @@ msgstr "Sortudo"
 
 msgid "Lunch"
 msgstr "Almoço"
+
+msgid "MD5-based"
+msgstr "Baseado em MD5"
 
 msgid "MMS"
 msgstr "MMS"
@@ -7854,6 +7866,7 @@ msgstr ""
 "automaticamente for concluída\n"
 "(apenas quando não há conversa com o remetente)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Notificação com mensagem do tipo \"torradeira\" quando"
 
@@ -11841,6 +11854,7 @@ msgstr ""
 "Para adicionar um amigo você precisa importar a chave pública desde. "
 "Pressione importar para importar uma chave pública."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Plug-in para notificações do tipo \"torradeira\""
 
@@ -12715,6 +12729,9 @@ msgstr "Erro desconhecido (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Erro desconhecido 52. Reconectar-se deve corrigir isso."
 
+msgid "Unknown error during authentication"
+msgstr "Erro desconhecido durante autenticação"
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12895,9 +12912,6 @@ msgstr "Use um status _diferente para algumas contas"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Usar o proxy da conta para conexões HTTP e HTTPS"
-
-msgid "Use clientLogin"
-msgstr "Usar clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Usar status diferente para as seguintes contas"
@@ -14076,6 +14090,13 @@ msgstr ""
 "Você requer criptografia, mas nenhum suporte a TLS/SSL foi encontrado."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+"Você requisitou autenticação Kerberos mas a criptografia está desabilitada "
+"nas configurações de conta."
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14623,8 +14644,8 @@ msgstr "Destinatá_rio:"
 msgid "_Recurring"
 msgstr "_Recorrente"
 
-msgid "_Remain in chat after window is closed."
-msgstr "Continuar no chat quando a janela for fechada."
+msgid "_Remain in chat after window is closed"
+msgstr "Continua_r no chat quando a janela for fechada"
 
 msgid "_Remove"
 msgstr "_Remover"
@@ -14837,6 +14858,9 @@ msgstr "clear: Limpa todas as janela de conversa."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Limpa a janela de conversa."
+
+msgid "clientLogin"
+msgstr "clientLogin"
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15401,3 +15425,12 @@ msgstr "zl &lt;usuário&gt;:  Localiza o usuário"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;usuário&gt;: Localiza o usuário"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Usar clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Entrar automaticamente ao conectar."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "Continuar no chat quando a janela for fechada."

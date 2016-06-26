@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:10+0000\n"
 "Last-Translator: Josep Puigdemont <josep.puigdemont@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.net>\n"
@@ -39,8 +39,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:49+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:07+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Catalan\n"
 
 msgid "\tNotify for _System messages"
@@ -2509,6 +2509,9 @@ msgstr "S'ha produït un error en l'autenticació"
 msgid "Authentication failed"
 msgstr "Ha fallat l'autenticació"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Autor"
 
@@ -2565,9 +2568,6 @@ msgstr "Entra automàticament"
 msgid "Auto-response sent:"
 msgstr "Resposta automàtica enviada:"
 
-msgid "Auto_join when account connects."
-msgstr "_Entra automàticament quant es connecti el compte."
-
 msgid "Autoaccept"
 msgstr "Accepta automàticament"
 
@@ -2585,6 +2585,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automàtic"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4761,6 +4764,9 @@ msgstr "S'ha produït un error en l'acord sobre la clau"
 msgid "Error parsing HTTP"
 msgstr "S'ha produït un error en analitzar HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6479,6 +6485,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Acord sobre la clau"
 
@@ -6881,6 +6890,9 @@ msgstr "Sortós"
 
 msgid "Lunch"
 msgstr "Dinar"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7885,6 +7897,7 @@ msgstr ""
 "s'hagi transferit completament (només quan no hi ha conversa amb qui\n"
 "l'envia)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Notifica amb un missatge emergent quan"
 
@@ -11869,6 +11882,7 @@ msgstr ""
 "Per afegir un amic heu d'importar la seva clau pública. Feu clic a Importa "
 "per importar la clau pública."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Connector per a missatges emergents"
 
@@ -12737,6 +12751,9 @@ msgstr "Error desconegut (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Error desconegut 52. Es pot sol·lucionar connectant de nou."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12923,9 +12940,6 @@ msgstr "Utilitza un estat _diferent per a determinats comptes"
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
 "Empra un compte per al servidor intermediari per a connexions HTTP i HTTPS"
-
-msgid "Use clientLogin"
-msgstr "Empra clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Utilitza un estat diferent per a aquests comptes"
@@ -14080,6 +14094,11 @@ msgstr ""
 "Heu requerit que es xifri, però no s'ha trobat cap implementació de TLS/SSL."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14627,8 +14646,8 @@ msgstr "Destinata_ri:"
 msgid "_Recurring"
 msgstr "_Recurrent"
 
-msgid "_Remain in chat after window is closed."
-msgstr "Co_ntinua al xat quan la finestra es tanqui."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "Sup_rimeix"
@@ -14842,6 +14861,9 @@ msgstr "clear: neteja la conversa."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Neteja la conversa."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15404,3 +15426,12 @@ msgstr "zl &lt;sobrenom&gt;: localitza l'usuari"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;sobrenom&gt;: localitza l'usuari"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Empra clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "_Entra automàticament quant es connecti el compte."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "Co_ntinua al xat quan la finestra es tanqui."

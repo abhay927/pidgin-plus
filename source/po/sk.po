@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:36+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:59+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:18+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Slovak\n"
 
 msgid "\tNotify for _System messages"
@@ -2457,6 +2457,9 @@ msgstr "Zlyhanie počas autentifikácie"
 msgid "Authentication failed"
 msgstr "Autentifikácia zlyhala"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Autor"
 
@@ -2511,9 +2514,6 @@ msgstr "Prihlásiť automaticky"
 msgid "Auto-response sent:"
 msgstr "Odoslaná automatická odpoveď:"
 
-msgid "Auto_join when account connects."
-msgstr "Znovu_pripojiť keď sa účet prihlási."
-
 msgid "Autoaccept"
 msgstr "Automatické potvrdzovanie"
 
@@ -2530,6 +2530,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automaticky"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4673,6 +4676,9 @@ msgstr "Počas odsúhlasenia kľúčov sa vyskytla chyba"
 msgid "Error parsing HTTP"
 msgstr "Chyba pri spracovávaní HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6372,6 +6378,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Odsúhlasenie kľúčov"
 
@@ -6775,6 +6784,9 @@ msgstr "Šťastný"
 
 msgid "Lunch"
 msgstr "Obed"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7760,6 +7772,7 @@ msgstr ""
 "súboru\n"
 "(len ak neexistuje rozhovor s odosielateľom)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Upozorniť vysúvacím oknom keď"
 
@@ -11699,6 +11712,7 @@ msgstr ""
 "Ak chcete pridať priateľa, musíte importovať jeho verejný kľúč. Press Import "
 "to import a public key."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Modul vysúvacieho okna"
 
@@ -12552,6 +12566,9 @@ msgstr "Neznáma chyba (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Neznáma chyba 52.  Malo by sa napraviť pri opätovnom pripojení."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12731,9 +12748,6 @@ msgstr "Pre niektoré účty používať odlišný status"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Používať proxy účtu pre HTTP a HTTPS pripojenia"
-
-msgid "Use clientLogin"
-msgstr "Použiť clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Pre nasledujúce účty používať iný status"
@@ -13895,6 +13909,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Požadujete šifrovanie, ale podpora pre TLS/SSL nebola nájdená."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14435,8 +14454,8 @@ msgstr "_Príjemca:"
 msgid "_Recurring"
 msgstr "_Opakujúce sa"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Zostať v chate pri zatvorení okna."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "Odst_rániť"
@@ -14649,6 +14668,9 @@ msgstr "clear: Vyčistí všetky záznamy rozhovoru."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Vyčistí záznam rozhovoru."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15207,3 +15229,12 @@ msgstr "zl &lt;prezývka&gt;: Nájsť používateľa"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;prezývka&gt;: Nájsť používateľa"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Použiť clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Znovu_pripojiť keď sa účet prihlási."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Zostať v chate pri zatvorení okna."

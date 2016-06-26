@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Estonian "
@@ -22,8 +22,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:50+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:08+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Estonian\n"
 
 msgid "\tNotify for _System messages"
@@ -2414,6 +2414,9 @@ msgstr "Tõrge autentimisel"
 msgid "Authentication failed"
 msgstr "Tõrge autentimisel"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Autor"
 
@@ -2469,9 +2472,6 @@ msgstr "Automaatühendumine"
 msgid "Auto-response sent:"
 msgstr "Saadetud automaatvastus:"
 
-msgid "Auto_join when account connects."
-msgstr "Liitu automaatselt konto ühendamisel."
-
 msgid "Autoaccept"
 msgstr "Automaatne nõustumine"
 
@@ -2488,6 +2488,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automaatne"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4610,6 +4613,9 @@ msgstr ""
 msgid "Error parsing HTTP"
 msgstr "Viga HTTP analüüsimisel"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6303,6 +6309,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr ""
 
@@ -6701,6 +6710,9 @@ msgid "Lucky"
 msgstr "Õnnelik"
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7673,6 +7685,7 @@ msgstr ""
 "Automaatselt nõustutud faili täielikust ülekandmisest teavitatakse\n"
 "hüpikakna abil (seda juhul, kui saatjaga pole vestlust käimas)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Röstri abil teavitatakse kui"
 
@@ -11514,6 +11527,7 @@ msgstr ""
 "Sõbra lisamiseks pead sa importima tema avaliku võtme. Avaliku võtme "
 "importimiseks vajuta nuppu \"Impordi\"."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Röstriplugin"
 
@@ -12352,6 +12366,9 @@ msgstr "Tundmatu viga (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr ""
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12531,9 +12548,6 @@ msgstr "Teistsu_guse oleku kasutamine mõne konto jaoks"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Konto proksit kasutatakse HTTP- ja HTTPS-ühendusteks"
-
-msgid "Use clientLogin"
-msgstr ""
 
 msgid "Use different status for following accounts"
 msgstr "Järgnevate kontode jaoks kasutatakse teistsugust olekut"
@@ -13658,6 +13672,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Sul on vaja TLS/SSL-i tuge, kuid seda ei leitud."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14187,8 +14206,8 @@ msgstr ""
 msgid "_Recurring"
 msgstr "Ko_rduv"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Jää jututuppa peale akna sulgemist."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Eemalda"
@@ -14398,6 +14417,9 @@ msgstr "clear: Vestluse kogu tagasikerimispuhvri puhastamine."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Vestluse tagasikerimise puhastamine."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -14927,3 +14949,9 @@ msgstr ""
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr ""
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Liitu automaatselt konto ühendamisel."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Jää jututuppa peale akna sulgemist."

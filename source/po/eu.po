@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: <en@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:48+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:05+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Basque\n"
 
 msgid "\tNotify for _System messages"
@@ -2436,6 +2436,9 @@ msgstr "Balioztatze-Errorea"
 msgid "Authentication failed"
 msgstr "Ezin balioztatu"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Egilea"
 
@@ -2490,9 +2493,6 @@ msgstr "Automatikoki batu"
 msgid "Auto-response sent:"
 msgstr "Auto-erantzun bidalia:"
 
-msgid "Auto_join when account connects."
-msgstr "Auto-_batu kontua konektatzean."
-
 msgid "Autoaccept"
 msgstr "Auto-onartu"
 
@@ -2508,6 +2508,9 @@ msgstr "\"%s\"(e)ri \"%s\"(e)tik auto-onartutako transferentzia burutu da."
 
 msgid "Automatic"
 msgstr "Automatikoa"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4656,6 +4659,9 @@ msgstr "Errorea gako-hitzarmen bitartean"
 msgid "Error parsing HTTP"
 msgstr "HTTP-arazketa errorea"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6354,6 +6360,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Gako-Hitzarmena"
 
@@ -6758,6 +6767,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7739,6 +7751,7 @@ msgstr ""
 "burutzean\n"
 "(igorlearekin solasaldirik ez badago bakarrik)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "'Toaster' batekin jakinarazi"
 
@@ -11650,6 +11663,7 @@ msgstr ""
 "Laguna gehitzeko, bere gako publikoa inportatu behar duzu. 'Inportatu' "
 "sakatu ezazu gako publikoa inportatzeko."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "'Toaster' plugina"
 
@@ -12499,6 +12513,9 @@ msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr ""
 "52 errore ezezaguna.  Berriro konektatzean konpondu beharko litzateke."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12679,9 +12696,6 @@ msgid "Use a _different status for some accounts"
 msgstr "Egoera _ezberdina erabili kontu batzuetarako"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
-msgstr ""
-
-msgid "Use clientLogin"
 msgstr ""
 
 msgid "Use different status for following accounts"
@@ -13833,6 +13847,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Enkripzioa behar duzu, baina ez da TLS/SSL euskarririk aurkitu."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14366,8 +14385,8 @@ msgstr "_Hartzailea:"
 msgid "_Recurring"
 msgstr "_Errepikakorra"
 
-msgid "_Remain in chat after window is closed."
-msgstr "Solasaldian _jarraitu leihoa itxi ondoren."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Kendu"
@@ -14580,6 +14599,9 @@ msgstr "clear: Solasaldiak garbitu."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Solasaldia garbitu."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15139,3 +15161,9 @@ msgstr "zl &lt;ezizena&gt;: Erabiltzailea kokatu"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ezizena&gt;: Erabiltzailea kokatu"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Auto-_batu kontua konektatzean."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "Solasaldian _jarraitu leihoa itxi ondoren."

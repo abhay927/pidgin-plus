@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:41+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Hindi <Indlinux>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:52+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:10+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Hindi\n"
 
 msgid "\tNotify for _System messages"
@@ -2436,6 +2436,9 @@ msgstr "प्रमाणीकरण विफलता"
 msgid "Authentication failed"
 msgstr "सत्यापन असफल"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "लेखक"
 
@@ -2490,9 +2493,6 @@ msgstr "स्वतः शामिल होएं"
 msgid "Auto-response sent:"
 msgstr "स्वचालित उत्तर भेजा:"
 
-msgid "Auto_join when account connects."
-msgstr "जब खाता कनेक्ट होता है स्वतः शामिल होएँ (_j)"
-
 msgid "Autoaccept"
 msgstr "स्वतः स्वीकारें"
 
@@ -2508,6 +2508,9 @@ msgstr "\"%s\" का स्वतः स्वीकार फाइल हस�
 
 msgid "Automatic"
 msgstr "स्वचालित"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4647,6 +4650,9 @@ msgstr "कुंजी अनुबंध के दौरान त्रु�
 msgid "Error parsing HTTP"
 msgstr "ऐच टी टी पी पढ़ने में त्रुटि"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6345,6 +6351,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "कुंजी मसौदा"
 
@@ -6742,6 +6751,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7722,6 +7734,7 @@ msgstr ""
 "पॉपअप के साथ सूचित करें जब स्वतः स्वीकृत फाइल हस्तांतरण पूरा हो जाता है\n"
 "(सिर्फ तभी जब प्रेषक के साथ कोई वार्तालाप नहीं होता है)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "टोस्टर के साथ सूचित करें जब"
 
@@ -11641,6 +11654,7 @@ msgstr ""
 "बड्डी जोड़ने लिए उसकी सार्वजनिक कुंजी आयात करें. सार्वजनिक कुंजी आयात करने "
 "लिए आयात दबाएं."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "टोस्टर प्लगिन"
 
@@ -12492,6 +12506,9 @@ msgstr "अज्ञात त्रुटि (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "अज्ञात त्रुटि 52.  इससे फिर कनेक्ट होना इसे ठीक करेगा."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12672,9 +12689,6 @@ msgstr "कुछ खाता के लिए भिन्न वस्तु�
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "क्लाइंटलॉगिन का उपयोग करें"
 
 msgid "Use different status for following accounts"
 msgstr "नीचे दिए खाता के लिए भिन्न स्थिति का प्रयोग करें"
@@ -13828,6 +13842,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "आपको गोपन चाहिए, लेकिन कोई TLS/SSL समर्थन नहीं मिला."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14366,8 +14385,8 @@ msgstr "प्राप्तकर्ता (_R):"
 msgid "_Recurring"
 msgstr "आवृति (_R)"
 
-msgid "_Remain in chat after window is closed."
-msgstr "विंडो बंद होने के बाद भी चैट में बने रहें (_R)"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "हटाएं (_R)"
@@ -14580,6 +14599,9 @@ msgstr "साफ करें: सभी वार्तालाप स्क�
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "साफ करें: वार्तालाप स्क्रॉलबैक साफ करता है."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15127,3 +15149,12 @@ msgstr "zl &lt;nick&gt;: प्रयोक्ता खोजें"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: प्रयोक्ता खोजें"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "क्लाइंटलॉगिन का उपयोग करें"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "जब खाता कनेक्ट होता है स्वतः शामिल होएँ (_j)"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "विंडो बंद होने के बाद भी चैट में बने रहें (_R)"

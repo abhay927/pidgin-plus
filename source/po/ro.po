@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Romanian "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
 "== 0) && (n != 0))) ? 2: 1));\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:58+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:17+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Romanian\n"
 
 msgid "\tNotify for _System messages"
@@ -2482,6 +2482,9 @@ msgstr "Eroare de autentificare"
 msgid "Authentication failed"
 msgstr "Autentificare eșuată"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Autor"
 
@@ -2536,9 +2539,6 @@ msgstr "Intră automat"
 msgid "Auto-response sent:"
 msgstr "Răspuns automat trimis:"
 
-msgid "Auto_join when account connects."
-msgstr "I_ntră automat la autentificarea contului."
-
 msgid "Autoaccept"
 msgstr "Auto-acceptare"
 
@@ -2555,6 +2555,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automat"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4703,6 +4706,9 @@ msgstr "A intervenit o eroare în cursul schimbului de chei"
 msgid "Error parsing HTTP"
 msgstr "Eroare la prelucrarea datelor HTTP."
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6409,6 +6415,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Schimb de chei"
 
@@ -6814,6 +6823,9 @@ msgstr "Noroos"
 
 msgid "Lunch"
 msgstr "Prânz"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7800,6 +7812,7 @@ msgstr ""
 "Notifică printr-o fereastră popup când se finalizează un transfer de\n"
 "fișiere acceptat automat și nu există o discuție deschisă cu expeditorul"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Notificare animată atunci când:"
 
@@ -11758,6 +11771,7 @@ msgstr ""
 "Pentru a adăuga contactul trebuie să importați cheia sa publică. Utilizați "
 "pentru aceasta comandă „Importă”."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Modul de notificare animată"
 
@@ -12612,6 +12626,9 @@ msgstr "Eroare necunoscută (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Eroare necunoscută 52. Reconectarea ar trebui să rezolve asta."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12792,9 +12809,6 @@ msgstr "Utilizează un status _diferit pentru unele conturi"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Utilizează proxy-ul contului pentru conexiuni HTTP și HTTPS"
-
-msgid "Use clientLogin"
-msgstr "Utilizează clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Activează un status diferit pentru conturile de mai jos"
@@ -13989,6 +14003,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Ați cerut criptare, dar nu s-a găsit niciun fel de suport TLS/SSL."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14533,8 +14552,8 @@ msgstr "_Destinatar:"
 msgid "_Recurring"
 msgstr "Re_curentă"
 
-msgid "_Remain in chat after window is closed."
-msgstr "Rămâi în chat _după închiderea ferestrei."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "Șt_erge"
@@ -14750,6 +14769,9 @@ msgstr "clear: Golește conținutul ferestrei de discuții."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Șterge istoricul ferestrei de discuții."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15323,3 +15345,12 @@ msgstr "zl &lt;nume ales&gt;:  Localizați un utilizator"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nume ales&gt;:  Localizați un utilizator"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Utilizează clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "I_ntră automat la autentificarea contului."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "Rămâi în chat _după închiderea ferestrei."

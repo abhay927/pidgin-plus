@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:47+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:04+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:23+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Chinese (Simplified)\n"
 
 msgid "\tNotify for _System messages"
@@ -2343,6 +2343,9 @@ msgstr "认证失败"
 msgid "Authentication failed"
 msgstr "认证失败"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "作者"
 
@@ -2397,9 +2400,6 @@ msgstr "自动加入"
 msgid "Auto-response sent:"
 msgstr "自动响应发送："
 
-msgid "Auto_join when account connects."
-msgstr "帐号上线时自动加入(_J)。"
-
 msgid "Autoaccept"
 msgstr "自动接受"
 
@@ -2415,6 +2415,9 @@ msgstr "从“%2$s”自动接受的文件传送“%1$s”已完成。"
 
 msgid "Automatic"
 msgstr "自动"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4520,6 +4523,9 @@ msgstr "密钥协议中发生了错误"
 msgid "Error parsing HTTP"
 msgstr "解析 HTTP 出错。"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6209,6 +6215,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "密钥协议"
 
@@ -6602,6 +6611,9 @@ msgstr "幸运"
 
 msgid "Lunch"
 msgstr "午餐"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "彩信"
@@ -7560,6 +7572,7 @@ msgstr ""
 "当自动接受的文件传输完成时弹出提示\n"
 "(仅当没有与发送者进行聊天时)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr ""
 
@@ -11337,6 +11350,7 @@ msgid ""
 "a public key."
 msgstr "要添加好友，您必须导入他/她的公钥。请按[导入]以导入公钥。"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr ""
 
@@ -12142,6 +12156,9 @@ msgstr "未知错误 (%d)： %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "未知错误 52。重新连接应可以修复此问题。"
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12316,9 +12333,6 @@ msgstr "为某些帐号使用不同的状态(_D)"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "为 HTTP 和 HTTPS 连接使用帐号代理"
-
-msgid "Use clientLogin"
-msgstr "使用客户端登录"
 
 msgid "Use different status for following accounts"
 msgstr "为下列帐号使用不同的状态"
@@ -13411,6 +13425,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "您要求 TLS/SSL 登录，但未找到 TLS/SSL 支持。"
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -13933,8 +13952,8 @@ msgstr "接收者(_R)："
 msgid "_Recurring"
 msgstr "重复(_R)"
 
-msgid "_Remain in chat after window is closed."
-msgstr "窗口关闭后继续保持聊天状态(_R)。"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "删除(_R)"
@@ -14142,6 +14161,9 @@ msgstr "clear：清除全部对话回滚。"
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear：清除对话回滚。"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -14628,3 +14650,12 @@ msgstr "zl &lt;昵称&gt;：定位用户"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;昵称&gt;：定位用户"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "使用客户端登录"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "帐号上线时自动加入(_J)。"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "窗口关闭后继续保持聊天状态(_R)。"

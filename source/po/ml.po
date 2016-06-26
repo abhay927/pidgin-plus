@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2016-01-06 05:27+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Malayalam "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-07 05:34+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:14+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Malayalam\n"
 
 msgid "\tNotify for _System messages"
@@ -2489,6 +2489,9 @@ msgstr "ആധികാരികത ഉറപ്പാക്കല്‍ പര�
 msgid "Authentication failed"
 msgstr "ആധികാരികത ഉറപ്പാക്കല്‍ പരാജയപ്പെട്ടു"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "രചയിതാവു്"
 
@@ -2545,9 +2548,6 @@ msgstr "സ്വയേ ചേരുക"
 msgid "Auto-response sent:"
 msgstr "സ്വയം മറുപടി അയച്ചു:"
 
-msgid "Auto_join when account connects."
-msgstr "അക്കൌണ്ട് കണക്ട് ചെയ്യുമ്പോള്‍ സ്വയമേ _പങ്കു് ചേരുക."
-
 msgid "Autoaccept"
 msgstr "Autoaccept"
 
@@ -2565,6 +2565,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "ഓട്ടോമാറ്റിക്"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4735,6 +4738,9 @@ msgstr "കീ എഗ്രീമെന്റ് സമയത്തു് പി
 msgid "Error parsing HTTP"
 msgstr "HTTP പാഴ്സ് ചെയ്യുന്നതില്‍ പിശക്"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6448,6 +6454,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "കീ എഗ്രീമെന്റ്"
 
@@ -6853,6 +6862,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7854,6 +7866,7 @@ msgstr ""
 "പോപ്പപ്പ് വഴി അറിയിക്കുക (അയയ്ക്കുന്ന ആളില്‍ നിന്നും ഒരു സംഭാഷണവും "
 "ലഭ്യമല്ലാത്തപ്പോള്‍ മാത്രം)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "ഒരു ടോസ്റ്ററിനു് അറിയിപ്പു് നല്‍കേണ്ടതു് എപ്പോള്‍"
 
@@ -11864,6 +11877,7 @@ msgstr ""
 "ചെയ്യേണ്ടതുണ്ടു്. പബ്ലിക് കീ ഇംപോര്‍ട്ട് ചെയ്യുന്നതിനായി ഇംപോര്‍ട്ട് ചെയ്യുക "
 "അമര്‍ത്തുക."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "ടോസ്റ്റര്‍ പ്ലഗിന്‍"
 
@@ -12737,6 +12751,9 @@ msgstr "അപരിചിതമായ പിശക് (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "അപരിചിതമായ പിശക് 52.  വീണ്ടും കണക്ട് ചെയ്താല്‍ ഇതു് പരിഹരിക്കാം."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12920,9 +12937,6 @@ msgstr "ചില അക്കൌണ്ടുകള്‍ക്കുള്ള _
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "clientLogin ഉപയോഗിക്കുക"
 
 msgid "Use different status for following accounts"
 msgstr "താഴെ പറയുന്ന അക്കൌണ്ടുകള്‍ക്കു് മറ്റൊരു അവസ്ഥ ഉപയോഗിക്കുക"
@@ -14142,6 +14156,11 @@ msgstr ""
 "നിങ്ങള്‍ക്കു് എന്‍ക്രിപ്ഷന്‍ ആവശ്യമുണ്ടു്, പക്ഷേ TLS/SSL പിന്തുണ ലഭ്യമല്ല"
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14688,8 +14707,8 @@ msgstr "_മെയില്‍ അയയ്ക്കേണ്ടതു്:"
 msgid "_Recurring"
 msgstr "_ആവര്‍ത്തിക്കുന്നു"
 
-msgid "_Remain in chat after window is closed."
-msgstr "ജാലകം അടച്ചതിനു് ശേഷം ചാറ്റില്‍ _നില്‍ക്കുക."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_നീക്കം ചെയ്യുക"
@@ -14903,6 +14922,9 @@ msgstr "clear: എല്ലാ സംഭഷണങ്ങളുടെ സ്ക്
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: സംഭാഷണ സ്ക്രോള്‍ബാക്ക് വെടിപ്പാക്കുന്നു."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15487,3 +15509,12 @@ msgstr "zl &lt;nick&gt;: ഉപയോക്താവിനെ കണ്ടുപ
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: ഉപയോക്താവിനെ കണ്ടുപിടിക്കുക"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "clientLogin ഉപയോഗിക്കുക"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "അക്കൌണ്ട് കണക്ട് ചെയ്യുമ്പോള്‍ സ്വയമേ _പങ്കു് ചേരുക."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "ജാലകം അടച്ചതിനു് ശേഷം ചാറ്റില്‍ _നില്‍ക്കുക."

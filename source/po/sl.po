@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:45+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Slovenian "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:59+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:18+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Slovenian\n"
 
 msgid "\tNotify for _System messages"
@@ -2490,6 +2490,9 @@ msgstr "Napaka pri overovitvi"
 msgid "Authentication failed"
 msgstr "Overovitev ni uspela"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Avtor"
 
@@ -2545,9 +2548,6 @@ msgstr "Samodejno spoji"
 msgid "Auto-response sent:"
 msgstr "Samodejni odgovor poslan:"
 
-msgid "Auto_join when account connects."
-msgstr "Samode_jno se pridruži, ko račun postane povezan."
-
 msgid "Autoaccept"
 msgstr "Samodejno sprejmi"
 
@@ -2564,6 +2564,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Samodejno"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4714,6 +4717,9 @@ msgstr "Prišlo je do napake med pogodbo"
 msgid "Error parsing HTTP"
 msgstr "Napaka pri razčlenjevanju HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6414,6 +6420,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Pogodba"
 
@@ -6817,6 +6826,9 @@ msgstr "Srečko"
 
 msgid "Lunch"
 msgstr "Kosilo"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7798,6 +7810,7 @@ msgstr ""
 "datoteke\n"
 "(le če ni pomenka s pošiljateljem)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Obvesti z opekačem, ko"
 
@@ -11753,6 +11766,7 @@ msgstr ""
 "Če želite dodati prijatelja, morate uvoziti njegov javni ključ. Kliknite "
 "Uvozi za uvoz javnega ključa."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Vtičnik Toaster"
 
@@ -12611,6 +12625,9 @@ msgstr "Neznana napaka (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Neznana napaka 52. Ponovno povezovanje jo bo najbrž odpravilo."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12791,9 +12808,6 @@ msgstr "Za nekatere račune uporabi _različno stanje"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Pri povezavah HTTP in HTTPS uporabi posredovalni strežnik za račune"
-
-msgid "Use clientLogin"
-msgstr "Uporabi prijavo clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Za naslednje račune uporabi različno stanje"
@@ -13976,6 +13990,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Vi zahtevate šifriranje, podpore za TLS/SSL pa ni mogoče najti."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14516,8 +14535,8 @@ msgstr "_Prejemnik:"
 msgid "_Recurring"
 msgstr "Ponavl_jajoč"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Nadaljuj klepet, ko je okno zaprto."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "Odst_rani"
@@ -14730,6 +14749,9 @@ msgstr "clear: Počisti vse izpisane replike pomenka."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Počisti izpisane replike pomenka."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15293,3 +15315,12 @@ msgstr "zl &lt;vzdevek&gt;: Najdi uporabnika"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;vzdevek&gt;: Najdi uporabnika"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Uporabi prijavo clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Samode_jno se pridruži, ko račun postane povezan."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Nadaljuj klepet, ko je okno zaprto."

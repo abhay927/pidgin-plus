@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:03+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Hungarian "
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:53+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:11+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Hungarian\n"
 
 msgid "\tNotify for _System messages"
@@ -2458,6 +2458,9 @@ msgstr "Hitelesítési hiba"
 msgid "Authentication failed"
 msgstr "Hitelesítés sikertelen"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Szerző"
 
@@ -2512,9 +2515,6 @@ msgstr "Automatikus csatlakozás"
 msgid "Auto-response sent:"
 msgstr "Automatikus válasz elküldve:"
 
-msgid "Auto_join when account connects."
-msgstr "Automatikus _csatlakozás a fiók csatlakozásakor."
-
 msgid "Autoaccept"
 msgstr "Automatikus elfogadás"
 
@@ -2532,6 +2532,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automatikus"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4681,6 +4684,9 @@ msgstr "Hiba lépett fel a kulcscsere közben"
 msgid "Error parsing HTTP"
 msgstr "Hiba a HTTP feldolgozása közben"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6380,6 +6386,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Kulcscsere"
 
@@ -6780,6 +6789,9 @@ msgstr "Szerencsés"
 
 msgid "Lunch"
 msgstr "Ebéd"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7766,6 +7778,7 @@ msgstr ""
 "befejeződésekor\n"
 "(csak ha nem társalog a küldővel)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Értesítsen egy kenyérpirítóval ha:"
 
@@ -11723,6 +11736,7 @@ msgstr ""
 "Partner hozzáadásához importálnia kell a nyilvános kulcsát, ehhez kattintson "
 "az Importálásra."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Kenyérpirító bővítmény"
 
@@ -12593,6 +12607,9 @@ msgstr "Ismeretlen hiba (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Ismeretlen hiba: 52. Próbáljon újracsatlakozni."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12774,9 +12791,6 @@ msgstr "_Eltérő állapot használata egyes fiókokhoz"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Fiókproxy használata HTTP és HTTPS kapcsolatokhoz"
-
-msgid "Use clientLogin"
-msgstr "Kliensbejelentkezés használata"
 
 msgid "Use different status for following accounts"
 msgstr "Eltérő állapot használata a következő fiókokhoz"
@@ -13951,6 +13965,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Megköveteli a titkosítást, de a TLS/SSL támogatás nem található."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14491,8 +14510,8 @@ msgstr "_Címzett:"
 msgid "_Recurring"
 msgstr "_Ismétlődő"
 
-msgid "_Remain in chat after window is closed."
-msgstr "Csevegésben mara_dás az ablak bezárásakor."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Eltávolítás"
@@ -14706,6 +14725,9 @@ msgstr "clear: Törli a társalgás előzményeit."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Törli a társalgás előzményeit."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15284,3 +15306,12 @@ msgstr "zl &lt;becenév&gt;: Felhasználó keresése"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;becenév&gt;: Felhasználó keresése"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Kliensbejelentkezés használata"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Automatikus _csatlakozás a fiók csatlakozásakor."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "Csevegésben mara_dás az ablak bezárásakor."

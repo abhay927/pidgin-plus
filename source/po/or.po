@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: or\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:16+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:57+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:15+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Oriya\n"
 
 msgid "\tNotify for _System messages"
@@ -2462,6 +2462,9 @@ msgstr "ପ୍ରମାଣିତ କରଣ ବିଫଳ"
 msgid "Authentication failed"
 msgstr "ବୈଧିକରଣ ବିଫଳ"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "ଲେଖକ"
 
@@ -2517,9 +2520,6 @@ msgstr "ସ୍ବଯଂ-ୟୋଗ"
 msgid "Auto-response sent:"
 msgstr "ସ୍ବଯଂଚାଳିତ-ପ୍ରତିକ୍ରିଯା ପଠାଗଲା:"
 
-msgid "Auto_join when account connects."
-msgstr "ଖାତା ସଂଯୁକ୍ତ ହେବା ସମୟରେ ସ୍ୱୟଂ ଯୋଗଦାନ କରନ୍ତୁ। (_j)"
-
 msgid "Autoaccept"
 msgstr "ସ୍ବଯଂସ୍ବୀକାର କର"
 
@@ -2535,6 +2535,9 @@ msgstr "\"%s\"ରୁ \"%s\"ର ସ୍ବଯଂସ୍ବୀକୃତ ଫାଇଲ
 
 msgid "Automatic"
 msgstr "ସ୍ବୟଂଚାଳିତ"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4687,6 +4690,9 @@ msgstr "କି ଚୁକ୍ତିପତ୍ର ସମଯରେ ତ୍ରୁଟି
 msgid "Error parsing HTTP"
 msgstr "HTTP ବିଶ୍ଳେଷଣ କରିବାରେ ତ୍ରୁଟି"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6387,6 +6393,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "କି ଚୁକ୍ତିପତ୍ର"
 
@@ -6784,6 +6793,9 @@ msgstr "ଭାଗ୍ୟବାନ"
 
 msgid "Lunch"
 msgstr "ଆରମ୍ଭ କରନ୍ତୁ"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7770,6 +7782,7 @@ msgstr ""
 "ସାହାୟ୍ଯରେ ବିଜ୍ଞପ୍ତି ଦିଅ\n"
 "(କେବଳ ସେତେବେଳେ ୟେତେବେଳେ ପ୍ରେରକ ସହିତ ସଂଭାଷଣ ନାହିଁ )"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "ଏକ ଟୋଷ୍ଟରରେ ବିଜ୍ଞପ୍ତି ଦିଅ ୟେତେବେଳେ"
 
@@ -11724,6 +11737,7 @@ msgstr ""
 "ବନ୍ଧୁ ୟୋଗ କରିବା ପାଇଁ ଆପଣ ତାଙ୍କର (ପୁଅ/ଝିଅ) ସାର୍ବଜନୀନ କି ଆମଦାନୀ କରିବାକୁ ପଡିବ ୤ "
 "ଏକ ସାର୍ବଜନୀନ କି ଆମଦାନୀ କରିବା ପାଇଁ ଆମଦାନୀକୁ ଦବାଅ ୤"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "ଟୋଷ୍ଟର ପ୍ଲଗ୍ଇନ"
 
@@ -12580,6 +12594,9 @@ msgstr "ଅଜଣା ତ୍ରୁଟି (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "ଅଜଣା ତ୍ରୁଟି 52.  ପୁନଃସଂଯୋଗ ଏହାକୁ ସମାଧାନ କରିବ।"
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12759,9 +12776,6 @@ msgstr "କେତେକ ଆକାଉଣ୍ଟ ପାଇଁ ଏକ ଭିନ୍�
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "clientLogin କୁ ବ୍ୟବହାର କରନ୍ତୁ"
 
 msgid "Use different status for following accounts"
 msgstr "ନିମ୍ନଲିଖିତ ଆକାଉଣ୍ଟଗୁଡିକ ପାଇଁ  ଅଲଗା ସ୍ଥିତି ବ୍ଯବହାର କର"
@@ -13932,6 +13946,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "ଆପଣ ସଂଗୁପ୍ତ ଆବଶ୍ୟକ କରନ୍ତି, କିନ୍ତୁ କୌଣସି TLS/SSL ସମର୍ଥନ ମିଳିଲା ନାହିଁ।"
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14473,8 +14492,8 @@ msgstr "_ଗ୍ରହୀତା:"
 msgid "_Recurring"
 msgstr "_ପୁନଃଘଟୁଛି"
 
-msgid "_Remain in chat after window is closed."
-msgstr "ୱିଣ୍ଡୋ ବନ୍ଦ ହେବା ପରେ ଚାର୍ଟରେ ରୁହନ୍ତୁ। (_R)"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "ଅପସାରଣ କରନ୍ତୁ (_R)"
@@ -14686,6 +14705,9 @@ msgstr "ସଫାକରନ୍ତୁ: ସମସ୍ତ ବାର୍ତ୍ତାଳ
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "ପରିଷ୍କାର କର: ସଂଭାଷଣ  ପଛକୁସ୍କ୍ରୋଲ ପରିଷ୍କାର କରେ ୤"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15247,3 +15269,12 @@ msgstr "zl &lt;ନିକ&gt;: ଉପୟୋଗକର୍ତ୍ତା ସ୍ଥି�
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ନିକ &gt;: ଉପୟୋଗକର୍ତ୍ତା ସ୍ଥିତି ନିଶ୍ଚଯ କର"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "clientLogin କୁ ବ୍ୟବହାର କରନ୍ତୁ"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "ଖାତା ସଂଯୁକ୍ତ ହେବା ସମୟରେ ସ୍ୱୟଂ ଯୋଗଦାନ କରନ୍ତୁ। (_j)"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "ୱିଣ୍ଡୋ ବନ୍ଦ ହେବା ପରେ ଚାର୍ଟରେ ରୁହନ୍ତୁ। (_R)"

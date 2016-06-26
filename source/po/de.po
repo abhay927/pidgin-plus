@@ -12,16 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2015-06-21 20:24+0000\n"
-"Last-Translator: Tobias Bannert <Unknown>\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:51+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:09+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: German\n"
 
 msgid "\tNotify for _System messages"
@@ -2499,6 +2499,9 @@ msgstr "Authentifizierungsfehler"
 msgid "Authentication failed"
 msgstr "Legitimierung fehlgeschlagen"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Autor"
 
@@ -2553,9 +2556,6 @@ msgstr "Automatisch beitreten"
 msgid "Auto-response sent:"
 msgstr "Automatische Antwort gesendet:"
 
-msgid "Auto_join when account connects."
-msgstr "Automatisch _beitreten, wenn sich das Konto verbindet."
-
 msgid "Autoaccept"
 msgstr "Auto-Akzeptieren"
 
@@ -2572,6 +2572,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automatisch"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4745,6 +4748,9 @@ msgstr "Beim Schlüsselaustausch ist ein Fehler aufgetreten"
 msgid "Error parsing HTTP"
 msgstr "Fehler beim Verarbeiten von HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6455,6 +6461,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Schlüsselaustausch"
 
@@ -6858,6 +6867,9 @@ msgstr "Glücklich"
 
 msgid "Lunch"
 msgstr "Mittagspause"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7868,6 +7880,7 @@ msgstr ""
 "Dateiübertragung abgeschlossen ist\n"
 "(nur, wenn es keine Unterhaltung mit dem Sender gibt)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Mit einem Toaster benachrichtigen, wenn"
 
@@ -11877,6 +11890,7 @@ msgstr ""
 "Schlüssel importieren. Drücken Sie auf Import, um den öffentlichen Schlüssel "
 "zu importieren."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Toaster-Plugin"
 
@@ -12754,6 +12768,9 @@ msgstr "Unbekannter Fehler (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Unbekannter Fehler 52. Ein Neu-Verbinden sollte dies beheben."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12935,9 +12952,6 @@ msgstr "Benutze einen _anderen Status für einige Konten"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Proxy-Zugang für HTTP- und HTTPS-Verbindungen benutzen"
-
-msgid "Use clientLogin"
-msgstr "clientLogin benutzen"
 
 msgid "Use different status for following accounts"
 msgstr "Benutze einen anderen Status für die folgenden Konten"
@@ -14129,6 +14143,11 @@ msgstr ""
 "gefunden."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14678,8 +14697,8 @@ msgstr "_Empfänger:"
 msgid "_Recurring"
 msgstr "_Wiederkehrend"
 
-msgid "_Remain in chat after window is closed."
-msgstr "In _Chat bleiben, nachdem das Fenster geschlossen wird."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "E_ntfernen"
@@ -14892,6 +14911,9 @@ msgstr "clear: Leert alle Gesprächsfenster."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Leert das Gesprächsfenster."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15471,3 +15493,12 @@ msgstr "zl &lt;Spitzname&gt;: Benutzer suchen"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;Spitzname&gt;: Benutzer suchen"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "clientLogin benutzen"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Automatisch _beitreten, wenn sich das Konto verbindet."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "In _Chat bleiben, nachdem das Fenster geschlossen wird."

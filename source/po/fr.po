@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2016-04-09 23:07+0000\n"
 "Last-Translator: Jean-Marc <Unknown>\n"
 "Language-Team: fr <fr@li.org>\n"
@@ -29,8 +29,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2016-04-10 05:46+0000\n"
-"X-Generator: Launchpad (build 17990)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:09+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: French\n"
 
 msgid "\tNotify for _System messages"
@@ -2483,6 +2483,9 @@ msgstr "Échec de l'authentification"
 msgid "Authentication failed"
 msgstr "Échec de l'authentification"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Auteur"
 
@@ -2539,9 +2542,6 @@ msgstr "Connexion auto"
 msgid "Auto-response sent:"
 msgstr "Réponse automatique envoyée :"
 
-msgid "Auto_join when account connects."
-msgstr "Rejoindre _automatiquement quand le compte est activé."
-
 msgid "Autoaccept"
 msgstr "Accepter automatiquement"
 
@@ -2557,6 +2557,9 @@ msgstr "Transfert automatique de « %s » de la part de « %s » terminé."
 
 msgid "Automatic"
 msgstr "Automatique"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4713,6 +4716,9 @@ msgstr "Erreur pendant l'accord de clé"
 msgid "Error parsing HTTP"
 msgstr "Erreur à l'analyse du HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6419,6 +6425,9 @@ msgstr "Cachemiri"
 msgid "Kazakh"
 msgstr "Kazakh"
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Accord de clé"
 
@@ -6820,6 +6829,9 @@ msgstr "Chanceux"
 
 msgid "Lunch"
 msgstr "Déjeuner"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7814,6 +7826,7 @@ msgstr ""
 "terminé\n"
 "(seulement quand aucune conversation n'est ouverte avec l'expéditeur)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Alerter par grille-pain quand"
 
@@ -11797,6 +11810,7 @@ msgstr ""
 "Vous devez importer la clé publique d'un contact pour pouvoir l'ajouter à la "
 "liste de contacts. Choisissez « Importer » pour ce faire."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Plugin grille-pain"
 
@@ -12668,6 +12682,9 @@ msgstr "Erreur inconnue (%d) : %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Erreur inconnue 52. Se reconnecter devrait corriger ce problème."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12849,9 +12866,6 @@ msgstr "Utiliser un état _différent pour certains comptes"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Utiliser le proxy du compte pour les connexions HTTP et HTTPS"
-
-msgid "Use clientLogin"
-msgstr "Utiliser clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Utiliser un état différent pour les comptes suivants"
@@ -14027,6 +14041,11 @@ msgstr ""
 "trouvé."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14573,8 +14592,8 @@ msgstr "_Destinataire :"
 msgid "_Recurring"
 msgstr "_Récurrente"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Rester dans le salon de discussions quand la fenêtre est fermée."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Supprimer"
@@ -14788,6 +14807,9 @@ msgstr "clear : Effacer le contenu de la fenêtre de conversation."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear : Effacer le contenu de la fenêtre de conversation."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15360,3 +15382,12 @@ msgstr "zl &lt;pseudo&gt; : Localiser d'une personne."
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;pseudo&gt; : Localiser d'une personne."
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Utiliser clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Rejoindre _automatiquement quand le compte est activé."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Rester dans le salon de discussions quand la fenêtre est fermée."

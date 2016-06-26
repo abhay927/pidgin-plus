@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-07-20 06:23+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Burmese (Myanmar) "
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:46+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:03+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: my_MM\n"
 
 msgid "\tNotify for _System messages"
@@ -2464,6 +2464,9 @@ msgstr "ခွင့်ပြုချက် မအောင်မြင်ပ�
 msgid "Authentication failed"
 msgstr "အတည်ပြုချက်  မအောင်မြင်ပါ"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "ရေးသားသူ"
 
@@ -2520,9 +2523,6 @@ msgstr "အလိုအလျောက် ပါဝင်မှု"
 msgid "Auto-response sent:"
 msgstr "အလိုအလျောက်-တုံ့ပြန်မှု ပေးပို့ချက် -"
 
-msgid "Auto_join when account connects."
-msgstr "_J အကောင့် ဆက်သွယ်မိသည်နှင့် အလိုအလျောက် ၀င်ရောက်သည်။"
-
 msgid "Autoaccept"
 msgstr "Autoaccept"
 
@@ -2538,6 +2538,9 @@ msgstr "အလိုအလျောက်လက်ခံသော \"%s\" သိ�
 
 msgid "Automatic"
 msgstr "အလိုအလျောက်"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4696,6 +4699,9 @@ msgstr "ကီး သဘောတူညီချက် အတွင်း ချ
 msgid "Error parsing HTTP"
 msgstr "HTTP ခွဲဖြာစိစစ်မှု ချို့ယွင်းချက်"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6406,6 +6412,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "ကီး သဘောတူညီချက်"
 
@@ -6807,6 +6816,9 @@ msgstr "ကံကောင်းသည်"
 
 msgid "Lunch"
 msgstr "နေ့လည်စာ"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7794,6 +7806,7 @@ msgstr ""
 "အကြောင်းကြားပါ။ \n"
 " (ပေးပို့သူနှင့် စကားပြောဆိုမှု မရှိသောအခါမှသာ)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Toaster ဖြင့် အသိပေးမည့် အချိန်"
 
@@ -11759,6 +11772,7 @@ msgstr ""
 "မိတ်ဆွေကို ထည့်သွင်းရန် သူ/သူမ၏ public key ကို တင်သွင်းရမည်။ public key ကို "
 "တင်သွင်းရန် 'တင်သွင်းရန်' ခလုတ်ကို နှိပ်ပါ။"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Toaster ပလပ်အင်"
 
@@ -12618,6 +12632,9 @@ msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr ""
 "အမည်မသိ ချို့ယွင်းချက် ၅၂ ခု။ ပြန်လည်ဆက်သွယ်ခြင်းဖြင့် ဖြေရှင်းနိုင်သည်။"
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12800,9 +12817,6 @@ msgstr "_D အချို့ အကောင့်များအတွက် �
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
 "HTTP နှင့် HTTPS ဆက်သွယ်မှုလိုင်းများအတွက် အကောင့် ပရောက်ဆီ သုံးစွဲပါ"
-
-msgid "Use clientLogin"
-msgstr "သုံးစွဲသူဝင်ရောက်မှု ပုံစံကို သုံးစွဲရန်"
 
 msgid "Use different status for following accounts"
 msgstr "အောက်ပါ အကောင့်များအတွက် အခြား အနေအထားကို သုံးစွဲရန်"
@@ -13971,6 +13985,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "သင် စာဝှက်စနစ် လိုအပ်သည်၊ သို့သော် TLS/SSL အထောက်အပံ့ကို မတွေ့ရပါ။"
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14515,8 +14534,8 @@ msgstr "_R လက်ခံရရှိသူ -"
 msgid "_Recurring"
 msgstr "_R အကြိမ်ကြိမ် ဖြစ်ပေါ်နေသည်"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_R ဝင်းဒိုး ပိတ်သွားပြီးနောက် စကားပြောခန်း၌ ကျန်ရစ်ရန်။"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_R ဖယ်ထုတ်ရန်"
@@ -14731,6 +14750,9 @@ msgstr "ရှင်းလင်း - စကားပြောဆိုမှု
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "ရှင်းလင်းရန် - scrollback.စကားပြောဆိုမှုကို ရှင်းလင်းရန်"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15310,3 +15332,12 @@ msgstr "zl &lt;nick&gt;: သုံးစွဲသူကို ရှာရန်
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: သုံးစွဲသူကို ရှာရန်"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "သုံးစွဲသူဝင်ရောက်မှု ပုံစံကို သုံးစွဲရန်"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "_J အကောင့် ဆက်သွယ်မိသည်နှင့် အလိုအလျောက် ၀င်ရောက်သည်။"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_R ဝင်းဒိုး ပိတ်သွားပြီးနောက် စကားပြောခန်း၌ ကျန်ရစ်ရန်။"

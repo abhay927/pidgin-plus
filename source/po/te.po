@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:39+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Telugu <en@li.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:01+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:19+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Telugu\n"
 
 msgid "\tNotify for _System messages"
@@ -2455,6 +2455,9 @@ msgstr "ప్రమాణీకరణలో వైఫల్యం"
 msgid "Authentication failed"
 msgstr "ధృవీకరణము విఫలమైంది"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "మూలకర్త"
 
@@ -2511,9 +2514,6 @@ msgstr "ఆటో-జాయిన్"
 msgid "Auto-response sent:"
 msgstr "ఆటో-రెస్పాన్స్ పంపబడినది:"
 
-msgid "Auto_join when account connects."
-msgstr "ఖాతా అనుసంధానమైనప్పుడు స్వయంచాలకంగా జేర్చుము (_j)."
-
 msgid "Autoaccept"
 msgstr "ఆటోమేటిక్ గా అంగీకరించు"
 
@@ -2530,6 +2530,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "స్వయంచాలక"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4683,6 +4686,9 @@ msgstr "కీ ఎగ్రిమెంట్ జరుగుతుండగా"
 msgid "Error parsing HTTP"
 msgstr "HTTP పార్శింగ్ చేయుటలో దోషము"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6382,6 +6388,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "మీట ఒప్పందం"
 
@@ -6782,6 +6791,9 @@ msgstr ""
 
 msgid "Lunch"
 msgstr "మధ్యాహ్నభోజనము"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7768,6 +7780,7 @@ msgstr ""
 "తెలియచేయండి. \n"
 "(పంపినవారితో సంభాషణలో లేనప్పుడు మాత్రమే)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "అప్పుడు టోస్టర్ తో తెలియజేయండి"
 
@@ -11700,6 +11713,7 @@ msgstr ""
 "మిత్రుని చేర్చాలంటే అతడు/లేక ఆమె పబ్లిక్ కీని మీరు తప్పక ఇంపోర్ట్ "
 "చేసుకోవాలి. పబ్లిక్ కీని ఇంపోర్ట్ చేసుకోడానికి Import ను నొక్కండి."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "టోస్టర్ ప్లగ్ ఇన్"
 
@@ -12552,6 +12566,9 @@ msgstr "తెలియని దోషము (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "తెలియని దోషము 52.  పునఃఅనుసంధానము దీనిని పరిష్కరించాలి."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12732,9 +12749,6 @@ msgstr "అవే ఖాతాల కోసం భిన్న స్థాయ�
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "క్లైంట్‌లాగిన్ వుపయోగించుము"
 
 msgid "Use different status for following accounts"
 msgstr "కింది ఖాతాలకోసం భిన్న స్థాయిని ఉపయోగించండి"
@@ -13902,6 +13916,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "మీకు ఎన్క్రిప్షన్ అవసరము, అయితే యే TLS/SSL మద్దతు కనబడలేదు."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14441,8 +14460,8 @@ msgstr "స్వీకర్త (_R):"
 msgid "_Recurring"
 msgstr "రికరింగ్ (_R)"
 
-msgid "_Remain in chat after window is closed."
-msgstr "విండో మూయబడినతర్వాత చాట్‌నందే వుండుము (_R)."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "తీసివేయి (_R)"
@@ -14657,6 +14676,9 @@ msgstr "clear: సంభాషణ స్క్రోల్ బ్యాక్ �
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "క్లియర్: సంభాషణ స్క్రోల్ బ్యాక్ ను క్లియర్ చేస్తుంది."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15216,3 +15238,12 @@ msgstr "zl &lt;ఉపనామం&gt;: వినియోగదారుని �
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ఉపనామం&gt;: వినియోగదారుని అన్వేషించుము."
+
+#~ msgid "Use clientLogin"
+#~ msgstr "క్లైంట్‌లాగిన్ వుపయోగించుము"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "ఖాతా అనుసంధానమైనప్పుడు స్వయంచాలకంగా జేర్చుము (_j)."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "విండో మూయబడినతర్వాత చాట్‌నందే వుండుము (_R)."

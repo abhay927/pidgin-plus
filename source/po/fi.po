@@ -13,16 +13,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:51+0000\n"
-"Last-Translator: Timo Jyrinki <timo.jyrinki@canonical.com>\n"
+"Last-Translator: Timo Jyrinki <Unknown>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:51+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:08+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Finnish\n"
 
 msgid "\tNotify for _System messages"
@@ -2448,6 +2448,9 @@ msgstr "Todennus epäonnistui"
 msgid "Authentication failed"
 msgstr "Todennus epäonnistui"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Tekijä"
 
@@ -2503,9 +2506,6 @@ msgstr "Liity automaattisesti"
 msgid "Auto-response sent:"
 msgstr "Automaattinen vastaus lähetetty:"
 
-msgid "Auto_join when account connects."
-msgstr "Liity automaattisesti kun käyttä_jätili pääsee linjoille."
-
 msgid "Autoaccept"
 msgstr "Automaattihyväksyminen"
 
@@ -2522,6 +2522,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automaattinen"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4669,6 +4672,9 @@ msgstr "Virhe tapahtui avainsopimuksen aikana"
 msgid "Error parsing HTTP"
 msgstr "Virhe jäsennettäessä HTTP:tä"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6367,6 +6373,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Avainsopimus"
 
@@ -6771,6 +6780,9 @@ msgstr ""
 
 msgid "Lunch"
 msgstr "Lounas"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7754,6 +7766,7 @@ msgstr ""
 "valmis\n"
 "(vain kun keskustelua lähettäjän kanssa ei avoinna)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Huomauta leivänpaahtimella kun"
 
@@ -11658,6 +11671,7 @@ msgstr ""
 "Lisätäksesi tuttavan tarvitsen hänen julkisen avaimensa. Paina Tuo "
 "tuodaksesi julkisen avaimen."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Leivänpaahdin-liitännäinen"
 
@@ -12508,6 +12522,9 @@ msgstr "Tuntematon virhe (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Tuntematon virhe 52. Yhdistäminen uudelleen pitäisi auttaa."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12688,9 +12705,6 @@ msgstr "Käytä eri tilaa joillekin käyttäjätileille"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "Käytä clientLoginia"
 
 msgid "Use different status for following accounts"
 msgstr "Käytä eri tilaa seuraaville käyttäjätileille"
@@ -13848,6 +13862,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Salausta vaadittu, mutta TLS/SSL-tukea ei löydy."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14386,8 +14405,8 @@ msgstr "_Vastaanottaja:"
 msgid "_Recurring"
 msgstr "_Toistuva"
 
-msgid "_Remain in chat after window is closed."
-msgstr "Pysy _ryhmäkeskustelussa ikkunan sulkemisen jälkeen."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Poista"
@@ -14599,6 +14618,9 @@ msgstr "clear: Tyhjentää kaikki keskustelut"
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Tyhjentää keskustelun"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15148,3 +15170,12 @@ msgstr "zl &lt;nimi&gt;: Paikanna käyttäjä"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nimi&gt;: Paikanna käyttäjä"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Käytä clientLoginia"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Liity automaattisesti kun käyttä_jätili pääsee linjoille."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "Pysy _ryhmäkeskustelussa ikkunan sulkemisen jälkeen."

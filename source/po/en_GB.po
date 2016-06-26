@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2016-02-17 15:03+0000\n"
 "Last-Translator: Andi Chandler <Unknown>\n"
 "Language-Team: English (United Kingdom) "
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-02-18 05:58+0000\n"
-"X-Generator: Launchpad (build 17925)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:22+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: English (United Kingdom)\n"
 
 msgid "\tNotify for _System messages"
@@ -2470,6 +2470,9 @@ msgstr "Authentication Failure"
 msgid "Authentication failed"
 msgstr "Authentication failed"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Author"
 
@@ -2524,9 +2527,6 @@ msgstr "Auto-join"
 msgid "Auto-response sent:"
 msgstr "Auto-response sent:"
 
-msgid "Auto_join when account connects."
-msgstr "Auto_join when account connects."
-
 msgid "Autoaccept"
 msgstr "Autoaccept"
 
@@ -2542,6 +2542,9 @@ msgstr "Autoaccepted file transfer of \"%s\" from \"%s\" completed."
 
 msgid "Automatic"
 msgstr "Automatic"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr "Automatically check for _new versions"
@@ -4702,6 +4705,9 @@ msgstr "Error occurred during key agreement"
 msgid "Error parsing HTTP"
 msgstr "Error parsing HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6398,6 +6404,9 @@ msgstr "Kashmiri"
 msgid "Kazakh"
 msgstr "Kazakh"
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Key Agreement"
 
@@ -6797,6 +6806,9 @@ msgstr "Lucky"
 
 msgid "Lunch"
 msgstr "Lunch"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7778,6 +7790,7 @@ msgstr ""
 "Notify with a popup when an autoaccepted file transfer is complete\n"
 "(only when there's no conversation with the sender)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Notify with a toaster when"
 
@@ -11717,6 +11730,7 @@ msgstr ""
 "To add the buddy you must import their public key. Press Import to import a "
 "public key."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Toaster plug-in"
 
@@ -12568,6 +12582,9 @@ msgstr "Unknown error (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Unknown error 52.  Reconnecting should fix this."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12747,9 +12764,6 @@ msgstr "Use a _different status for some accounts"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Use account proxy for HTTP and HTTPS connections"
-
-msgid "Use clientLogin"
-msgstr "Use clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Use different status for the following accounts"
@@ -13908,6 +13922,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "You require encryption, but no TLS/SSL support was found."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14450,8 +14469,8 @@ msgstr "_Recipient:"
 msgid "_Recurring"
 msgstr "_Recurring"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Remain in chat after window is closed."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Remove"
@@ -14663,6 +14682,9 @@ msgstr "clear: Clears all conversation scrollbacks."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Clears the conversation scrollback."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15211,3 +15233,12 @@ msgstr "zl &lt;nick&gt;: Locate user"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: Locate user"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Use clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Auto_join when account connects."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Remain in chat after window is closed."

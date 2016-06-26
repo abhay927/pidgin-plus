@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:52+0000\n"
 "Last-Translator: Panos Bouklis <panos@echidna-band.com>\n"
 "Language-Team: Greek "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:52+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:10+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Greek\n"
 
 msgid "\tNotify for _System messages"
@@ -2505,6 +2505,9 @@ msgstr "Αποτυχία ταυτοποίησης"
 msgid "Authentication failed"
 msgstr "Η ταυτοποίηση απέτυχε"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Συγγραφέας"
 
@@ -2560,9 +2563,6 @@ msgstr "Αυτόματη συμμετοχή"
 msgid "Auto-response sent:"
 msgstr "Στάλθηκε αυτόματη-απάντηση:"
 
-msgid "Auto_join when account connects."
-msgstr "Αυτόματη _συμμετοχή όταν ο λογαριασμός συνδέεται."
-
 msgid "Autoaccept"
 msgstr "Αυτόματη αποδοχή"
 
@@ -2579,6 +2579,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Αυτόματο"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4751,6 +4754,9 @@ msgstr "Συνέβη ένα σφάλμα κατά τη συμφωνία κλει
 msgid "Error parsing HTTP"
 msgstr "Σφάλμα ανάλυσης HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6459,6 +6465,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Συμφωνία κλειδιού"
 
@@ -6864,6 +6873,9 @@ msgstr "Τυχερός"
 
 msgid "Lunch"
 msgstr "Μεσημεριανό"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7858,6 +7870,7 @@ msgstr ""
 "αρχείου\n"
 "(μόνο όταν δεν υπάρχει συνομιλία με τον αποστολέα)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Ειδοποίηση σε στυλ τοστιέρας όταν"
 
@@ -11889,6 +11902,7 @@ msgstr ""
 "Για να προσθέσετε ένα φίλο πρέπει να εισάγετε το δημόσιο κλειδί του. Πατήστε "
 "Εισαγωγή για να εισάγετε το δημόσιο κλειδί του."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Πρόσθετο ειδοποήσεων σε στυλ τοστιέρας"
 
@@ -12765,6 +12779,9 @@ msgstr "Άγνωστο σφάλμα (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Άγνωστο σφάλμα 52. Πιθανώς να διορθωθεί με επανασύνδεση."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12948,9 +12965,6 @@ msgstr "Χρήση _διαφορετικών καταστάσεων για με�
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Χρήση διαμεσολαβητή λογαριασμού για συνδέσεις HTTP και HTTPS"
-
-msgid "Use clientLogin"
-msgstr "Χρήση clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Χρήση διαφορετικών καταστάσεων για τους ακόλουθους λογαριασμούς"
@@ -14133,6 +14147,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Θέλετε κρυπτογράφηση, όμως δε βρέθηκε υποστήριξη TLS/SSL."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14681,8 +14700,8 @@ msgstr "_Παραλήπτης:"
 msgid "_Recurring"
 msgstr "_Κατ' επανάληψη"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Να μένει στη συζήτηση μετά το κλείσιμο του παραθύρου"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Αφαίρεση"
@@ -14898,6 +14917,9 @@ msgstr "clear: Καθαρίζει όλες τις αναδιφήσεις συν�
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Καθαρίζει την αναδίφηση της συζήτησης."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15481,3 +15503,12 @@ msgstr "zl &lt;ψευδώνυμο&gt;: Εντοπισμός χρήστη"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ψευδώνυμο&gt;: Εντοπισμός χρήστη"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Χρήση clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Αυτόματη _συμμετοχή όταν ο λογαριασμός συνδέεται."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Να μένει στη συζήτηση μετά το κλείσιμο του παραθύρου"
