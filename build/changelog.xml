@@ -2,13 +2,8 @@
 <changelog xmlns:en-us="en_US" xmlns:pt-br="pt_BR">
 
     <version id="16.1">
-        <change en-us:description="Upstream version 2.10.12"
-                pt-br:description="Atualizações da versão original 2.10.12"/>
-
-        <change platform="Windows"
-                en-us:description="Support for IPv6 addresses"
-                pt-br:description="Suporte a endereços IPv6"
-                bug="1075"/>
+        <change en-us:description="Upstream version 2.11.0"
+                pt-br:description="Atualizações da versão original 2.11.0"/>
     </version>
 
     <version id="15.1">

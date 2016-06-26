@@ -7,10 +7,9 @@ targeted at end users, please see the XML changelog or its resulting formats.
 ## 16.1
 
 **All platforms**
-* Upstream version 2.10.12.
+* Upstream version 2.11.0.
 
 **Windows**
-* Support for IPv6 addresses ([#1075][9]).
 * Generation of single source bundle with application and libraries.
 * Installer migrated to NSIS 3.x provided by MSYS2.
 
@@ -74,4 +73,3 @@ Differences between the first release and Pidgin 2.10.11.
 [6]: https://developer.pidgin.im/ticket/14970
 [7]: https://developer.pidgin.im/ticket/16502
 [8]: https://developer.pidgin.im/ticket/3692
-[9]: https://developer.pidgin.im/ticket/1075

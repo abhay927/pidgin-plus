@@ -84,6 +84,7 @@ typedef struct
 } PurpleAccountRequestInfo;
 
 static PurpleAccountUiOps *account_ui_ops = NULL;
+static PurpleAccountPrefsUiOps *account_prefs_ui_ops = NULL;
 
 static GList   *accounts = NULL;
 static GList   *temporary_accounts = NULL;
@@ -481,6 +482,7 @@ accounts_to_xmlnode(void)
 static void
 sync_accounts(void)
 {
+	PurpleAccountPrefsUiOps *ui_ops;
 	xmlnode *node;
 	char *data;
 
@@ -488,6 +490,13 @@ sync_accounts(void)
 	{
 		purple_debug_error("account", "Attempted to save accounts before "
 						 "they were read!\n");
+		return;
+	}
+
+	ui_ops = purple_account_prefs_get_ui_ops();
+
+	if (ui_ops != NULL && ui_ops->save != NULL) {
+		ui_ops->save();
 		return;
 	}
 
@@ -509,6 +518,15 @@ save_cb(gpointer data)
 static void
 schedule_accounts_save(void)
 {
+	PurpleAccountPrefsUiOps *ui_ops;
+
+	ui_ops = purple_account_prefs_get_ui_ops();
+
+	if (ui_ops != NULL && ui_ops->schedule_save != NULL) {
+		ui_ops->schedule_save();
+		return;
+	}
+
 	if (save_timer == 0)
 		save_timer = purple_timeout_add_seconds(5, save_cb, NULL);
 }
@@ -1020,9 +1038,18 @@ parse_account(xmlnode *node)
 static void
 load_accounts(void)
 {
+	PurpleAccountPrefsUiOps *ui_ops;
 	xmlnode *node, *child;
 
 	accounts_loaded = TRUE;
+
+	ui_ops = purple_account_prefs_get_ui_ops();
+
+	if (ui_ops != NULL && ui_ops->load != NULL) {
+		ui_ops->load();
+		_purple_buddy_icons_account_loaded_cb();
+		return;
+	}
 
 	node = purple_util_read_xml_from_file("accounts.xml", _("accounts"));
 
@@ -2037,6 +2064,7 @@ void
 purple_account_set_int(PurpleAccount *account, const char *name, int value)
 {
 	PurpleAccountSetting *setting;
+	PurpleAccountPrefsUiOps *ui_ops;
 
 	g_return_if_fail(account != NULL);
 	g_return_if_fail(name    != NULL);
@@ -2048,6 +2076,12 @@ purple_account_set_int(PurpleAccount *account, const char *name, int value)
 
 	g_hash_table_insert(account->settings, g_strdup(name), setting);
 
+	ui_ops = purple_account_prefs_get_ui_ops();
+
+	if (ui_ops != NULL && ui_ops->set_int != NULL) {
+		ui_ops->set_int(account, name, value);
+	}
+
 	schedule_accounts_save();
 }
 
@@ -2056,6 +2090,7 @@ purple_account_set_string(PurpleAccount *account, const char *name,
 						const char *value)
 {
 	PurpleAccountSetting *setting;
+	PurpleAccountPrefsUiOps *ui_ops;
 
 	g_return_if_fail(account != NULL);
 	g_return_if_fail(name    != NULL);
@@ -2067,6 +2102,12 @@ purple_account_set_string(PurpleAccount *account, const char *name,
 
 	g_hash_table_insert(account->settings, g_strdup(name), setting);
 
+	ui_ops = purple_account_prefs_get_ui_ops();
+
+	if (ui_ops != NULL && ui_ops->set_string != NULL) {
+		ui_ops->set_string(account, name, value);
+	}
+
 	schedule_accounts_save();
 }
 
@@ -2074,6 +2115,7 @@ void
 purple_account_set_bool(PurpleAccount *account, const char *name, gboolean value)
 {
 	PurpleAccountSetting *setting;
+	PurpleAccountPrefsUiOps *ui_ops;
 
 	g_return_if_fail(account != NULL);
 	g_return_if_fail(name    != NULL);
@@ -2084,6 +2126,12 @@ purple_account_set_bool(PurpleAccount *account, const char *name, gboolean value
 	setting->value.boolean = value;
 
 	g_hash_table_insert(account->settings, g_strdup(name), setting);
+
+	ui_ops = purple_account_prefs_get_ui_ops();
+
+	if (ui_ops != NULL && ui_ops->set_bool != NULL) {
+		ui_ops->set_bool(account, name, value);
+	}
 
 	schedule_accounts_save();
 }
@@ -3222,6 +3270,18 @@ purple_accounts_get_ui_ops(void)
 	return account_ui_ops;
 }
 
+void
+purple_account_prefs_set_ui_ops(PurpleAccountPrefsUiOps *ops)
+{
+	account_prefs_ui_ops = ops;
+}
+
+PurpleAccountPrefsUiOps *
+purple_account_prefs_get_ui_ops(void)
+{
+	return account_prefs_ui_ops;
+}
+
 void *
 purple_accounts_get_handle(void)
 {
@@ -3278,6 +3338,15 @@ purple_accounts_init(void)
 	purple_signal_register(handle, "account-removed",
 						 purple_marshal_VOID__POINTER, NULL, 1,
 						 purple_value_new(PURPLE_TYPE_SUBTYPE, PURPLE_SUBTYPE_ACCOUNT));
+
+	purple_signal_register(handle, "account-status-changing",
+						 purple_marshal_VOID__POINTER_POINTER_POINTER, NULL, 3,
+						 purple_value_new(PURPLE_TYPE_SUBTYPE,
+										PURPLE_SUBTYPE_ACCOUNT),
+						 purple_value_new(PURPLE_TYPE_SUBTYPE,
+										PURPLE_SUBTYPE_STATUS),
+						 purple_value_new(PURPLE_TYPE_SUBTYPE,
+										PURPLE_SUBTYPE_STATUS));
 
 	purple_signal_register(handle, "account-status-changed",
 						 purple_marshal_VOID__POINTER_POINTER_POINTER, NULL, 3,
