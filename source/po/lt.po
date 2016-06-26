@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2015-11-23 14:47+0000\n"
 "Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
 "Language-Team: Lithuanian "
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:55+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:13+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Lithuanian\n"
 
 msgid "\tNotify for _System messages"
@@ -2468,6 +2468,9 @@ msgstr "Prieigos suteikimo nesėkmė"
 msgid "Authentication failed"
 msgstr "Nepavyko nustatyti tapatybę"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Autorius"
 
@@ -2522,9 +2525,6 @@ msgstr "Automatiškai prisijungti"
 msgid "Auto-response sent:"
 msgstr "Nusiųstas automatinis atsakymas:"
 
-msgid "Auto_join when account connects."
-msgstr "Automatiškai prisi_jungti, kai paskyra aktyvuojama."
-
 msgid "Autoaccept"
 msgstr "Automatinis priėmimas"
 
@@ -2540,6 +2540,9 @@ msgstr "Automatiškai priimtas failo „%s“ siuntimas iš „%s“ baigtas."
 
 msgid "Automatic"
 msgstr "automatinis"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4689,6 +4692,9 @@ msgstr "Susitarimo dėl raktų metu įvyko klaida"
 msgid "Error parsing HTTP"
 msgstr "HTTP sintaksinės analizės klaida"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6390,6 +6396,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Susitarimas dėl raktų"
 
@@ -6792,6 +6801,9 @@ msgstr "Sėkmingas"
 
 msgid "Lunch"
 msgstr "Pietūs"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7772,6 +7784,7 @@ msgstr ""
 "perdavimas\n"
 "(tik jei nevyko pokalbis su siuntėju)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Informuoti iššokančiu langeliu, kai:"
 
@@ -11735,6 +11748,7 @@ msgstr ""
 "Norėdami pridėti bičiulį, privalote importuoti jo viešąjį raktą.  Tam "
 "paspauskite „Importuoti...“."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Iššokančių langelių papildinys"
 
@@ -12586,6 +12600,9 @@ msgstr "Nežinoma klaida (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Nežinoma klaida 52.  Prisijungimas iš naujo turėtų ją pataisyti."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12766,9 +12783,6 @@ msgstr "Kai kurioms paskyroms naudoti kitokią būseną"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "HTTP ir HTTPS prisijungimams naudoti paskyros įgaliotąjį serverį"
-
-msgid "Use clientLogin"
-msgstr "Naudoti „clientLogin“"
 
 msgid "Use different status for following accounts"
 msgstr "Šioms paskyroms naudoti kitą būseną"
@@ -13961,6 +13975,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Jūs reikalaujate šifravimo, bet TLS/SSL palaikymas nerastas."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14507,8 +14526,8 @@ msgstr "_Gavėjas:"
 msgid "_Recurring"
 msgstr "_Reakcija yra pasikartojanti"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Pasilikti pokalbyje ir uždarius langą."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Pašalinti"
@@ -14724,6 +14743,9 @@ msgstr "clear: išvalo visus pokalbių žinučių langus."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: išvalo pokalbių žinučių langą."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15298,3 +15320,12 @@ msgstr "zl &lt;slapyvardis&gt;:  surasti naudotoją"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;slapyvardis&gt;:  surasti naudotoją"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Naudoti „clientLogin“"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Automatiškai prisi_jungti, kai paskyra aktyvuojama."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Pasilikti pokalbyje ir uždarius langą."

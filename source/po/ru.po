@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:51+0000\n"
 "Last-Translator: Tony Sam <samant.ua@mail.ru>\n"
 "Language-Team: \n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:58+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:17+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Russian\n"
 
 msgid "\tNotify for _System messages"
@@ -2470,6 +2470,9 @@ msgstr "Ошибка аутентификации"
 msgid "Authentication failed"
 msgstr "Аутентификация завершилась неудачно"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Автор"
 
@@ -2526,9 +2529,6 @@ msgstr "Присоединяться автоматически"
 msgid "Auto-response sent:"
 msgstr "Автоматический отклик отправлен:"
 
-msgid "Auto_join when account connects."
-msgstr "Автоматически _присоединиться, когда подключится учётная запись."
-
 msgid "Autoaccept"
 msgstr "Автоматический приём"
 
@@ -2544,6 +2544,9 @@ msgstr "Автоматический приём файла \"%s\" от \"%s\" з
 
 msgid "Automatic"
 msgstr "Автоматически"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4691,6 +4694,9 @@ msgstr "Произошла ошибка во время согласования
 msgid "Error parsing HTTP"
 msgstr "Ошибка разбора HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6394,6 +6400,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Согласование ключей"
 
@@ -6798,6 +6807,9 @@ msgstr "Удачливый"
 
 msgid "Lunch"
 msgstr "Ланч"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7791,6 +7803,7 @@ msgstr ""
 "файлов\n"
 "(только при отсутствии беседы с отправителем)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Когда уведомлять"
 
@@ -11756,6 +11769,7 @@ msgstr ""
 "Чтобы добавить собеседника, вы должны импортировать его публичный ключ. "
 "Нажмите \"Импортировать...\" для импортирования публичного ключа."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Модуль уведомлений"
 
@@ -12613,6 +12627,9 @@ msgstr "Неизвестная ошибка (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Неизвестная ошибка 52.  Пересоединение должно исправить это."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12792,9 +12809,6 @@ msgstr "Использовать _отличающийся статус для �
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Используйте прокси учётной записи для HTTP и HTTPS соединений"
-
-msgid "Use clientLogin"
-msgstr "Использовать clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Использовать отличающийся статус для следующих учётных записей"
@@ -13978,6 +13992,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Вы требуете шифрования, но поддержка TLS/SSL не найдена."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14523,8 +14542,8 @@ msgstr "_Получатель:"
 msgid "_Recurring"
 msgstr "_Повторение"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Остаться в чате, после закрытия окна."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Удалить"
@@ -14738,6 +14757,9 @@ msgstr "clear: Очистить все окна бесед."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Очистить окно беседы."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15313,3 +15335,12 @@ msgstr "zl &lt;псевдоним&gt;: Найти пользователя"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;псевдоним&gt;: Найти пользователя"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Использовать clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Автоматически _присоединиться, когда подключится учётная запись."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Остаться в чате, после закрытия окна."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin.ne\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:52+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:56+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:15+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Nepali\n"
 
 msgid "\tNotify for _System messages"
@@ -2310,6 +2310,9 @@ msgstr "प्रमाणीकरण असफलता"
 msgid "Authentication failed"
 msgstr "प्रमाणीकरण असफल भयो"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr ""
 
@@ -2364,9 +2367,6 @@ msgstr ""
 msgid "Auto-response sent:"
 msgstr ""
 
-msgid "Auto_join when account connects."
-msgstr ""
-
 msgid "Autoaccept"
 msgstr ""
 
@@ -2382,6 +2382,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "स्वचालित"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4491,6 +4494,9 @@ msgstr "सम्झौता व्याख्या गर्दा त्र
 msgid "Error parsing HTTP"
 msgstr ""
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6170,6 +6176,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "सम्झौता व्याख्या"
 
@@ -6560,6 +6569,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7519,6 +7531,7 @@ msgid ""
 "(only when there's no conversation with the sender)"
 msgstr ""
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr ""
 
@@ -11355,6 +11368,7 @@ msgstr ""
 "साथी थप्न तपाईँले उसको/उनको सार्वजनिक कुञ्जी आयात गर्नुपर्छ । एउटा सार्वजनिक "
 "कुञ्जी आयात गर्न 'आयात गर्नुहोस्' थिच्नुहोस् ।"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr ""
 
@@ -12160,6 +12174,9 @@ msgstr ""
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr ""
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12333,9 +12350,6 @@ msgid "Use a _different status for some accounts"
 msgstr ""
 
 msgid "Use account proxy for HTTP and HTTPS connections"
-msgstr ""
-
-msgid "Use clientLogin"
 msgstr ""
 
 msgid "Use different status for following accounts"
@@ -13454,6 +13468,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr ""
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -13980,7 +13999,7 @@ msgstr "प्रापक:"
 msgid "_Recurring"
 msgstr ""
 
-msgid "_Remain in chat after window is closed."
+msgid "_Remain in chat after window is closed"
 msgstr ""
 
 msgid "_Remove"
@@ -14192,6 +14211,9 @@ msgstr ""
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "सफा गर्नुहोस्: स्क्रोल ब्याक वार्तालाप सफा गर्दछ ।"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "

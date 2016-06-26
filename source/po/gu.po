@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:52+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Gujarati\n"
@@ -14,8 +14,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:52+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:10+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Gujarati\n"
 
 msgid "\tNotify for _System messages"
@@ -2443,6 +2443,9 @@ msgstr "સત્તાધિકરણ નિષ્ફળતા"
 msgid "Authentication failed"
 msgstr "સત્તાધિકરણ નિષ્ફળ"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "લેખક"
 
@@ -2497,9 +2500,6 @@ msgstr "આપોઆપ-જોડાવ"
 msgid "Auto-response sent:"
 msgstr "સ્વયં-પ્રત્યુત્તર મોકલેલ છે:"
 
-msgid "Auto_join when account connects."
-msgstr "જ્યારે ખાતુ જોડાય ત્યારે આપોઆપ જોડાવ (_j)."
-
 msgid "Autoaccept"
 msgstr "સ્વયં-સ્વીકારો"
 
@@ -2515,6 +2515,9 @@ msgstr "સ્વયંસ્વીકારેલ \"%s\" માંથી \"%s\"
 
 msgid "Automatic"
 msgstr "આપમેળે"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4664,6 +4667,9 @@ msgstr "કી મંજૂરી દરમ્યાન ક્ષતિ ઉદ�
 msgid "Error parsing HTTP"
 msgstr "HTTP ને પદચ્છેદન કરતી વખતે ભૂલ"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6365,6 +6371,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "કી મંજૂરી"
 
@@ -6761,6 +6770,9 @@ msgstr "નસીબદાર"
 
 msgid "Lunch"
 msgstr "બપોરનું ભોજન"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7742,6 +7754,7 @@ msgstr ""
 "પોપઅપ સાથે સૂચિત કરો જ્યારે સ્વયંસ્વીકારેલ ફાઇલ પરિવહન સમાપ્ત થાય છે\n"
 "(ફક્ત જ્યારે ત્યાં મોકલનાર સાથે વાર્તાલાપ થતો નથી)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "ટોસ્ટર સાથે સૂચવો જ્યારે"
 
@@ -11667,6 +11680,7 @@ msgstr ""
 "મિત્ર ઉમેરવા માટે તમારે તે/તેણીની જાહેર કી આયાત કરવી જ પડશે. જાહેર કી આયાત "
 "કરવા માટે આયાત કરો દબાવો."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "ટોસ્ટર પ્લગઇન"
 
@@ -12518,6 +12532,9 @@ msgstr "અજ્ઞાત ભૂલ (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "અજ્ઞાત ભૂલ 52.  ફરીથી જોડાવવાથી આ સુધરી જવુ જોઇએ."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12697,9 +12714,6 @@ msgstr "કેટલાક ખાતાઓ માટે જુદી સ્થ�
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "ક્લાયન્ટ પ્રવેશને વાપરો"
 
 msgid "Use different status for following accounts"
 msgstr "નીચેનાં ખાતાઓ માટે વિવિધ પરિસ્થિતિને વાપરો"
@@ -13860,6 +13874,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "એનક્રિપ્શન જરૂરી છે. પરંતુ કોઈ TLS/SSL આધાર મળ્યો નહિં."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14401,8 +14420,8 @@ msgstr "મેળવનાર (_R):"
 msgid "_Recurring"
 msgstr "આવૃત્તિ (_R)"
 
-msgid "_Remain in chat after window is closed."
-msgstr "વિન્ડો બંધ થાય પછી ચેટમાં રહો (_R)."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "દૂર કરો (_R)"
@@ -14614,6 +14633,9 @@ msgstr "સાફ કરો: બધા વાર્તાલાપ સ્ક્�
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: વાર્તાલાપ સાફ કરે છે."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15162,3 +15184,12 @@ msgstr "zl &lt;nick&gt;: વપરાશકર્તા સ્થાનીકૃ
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: વપરાશકર્તા સ્થાનીકૃત કરો"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "ક્લાયન્ટ પ્રવેશને વાપરો"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "જ્યારે ખાતુ જોડાય ત્યારે આપોઆપ જોડાવ (_j)."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "વિન્ડો બંધ થાય પછી ચેટમાં રહો (_R)."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2015-07-23 15:34+0000\n"
 "Last-Translator: Josef Andersson <Unknown>\n"
 "Language-Team: \n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:00+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:19+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Swedish\n"
 
 msgid "\tNotify for _System messages"
@@ -2449,6 +2449,9 @@ msgstr "Autentiseringen misslyckades"
 msgid "Authentication failed"
 msgstr "Autentisering misslyckades"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Författare"
 
@@ -2503,9 +2506,6 @@ msgstr "Anslut automatiskt"
 msgid "Auto-response sent:"
 msgstr "Auto-svar skickat:"
 
-msgid "Auto_join when account connects."
-msgstr "_Gå med automatiskt då kontot ansluter."
-
 msgid "Autoaccept"
 msgstr "Autoacceptera"
 
@@ -2522,6 +2522,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Automatiskt"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4674,6 +4677,9 @@ msgstr "Fel uppstod under nyckelöverenskommelse"
 msgid "Error parsing HTTP"
 msgstr "Fel vid avkodning av HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6376,6 +6382,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Nyckelöverenskommelse"
 
@@ -6780,6 +6789,9 @@ msgstr "Tursam"
 
 msgid "Lunch"
 msgstr "Lunch"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7766,6 +7778,7 @@ msgstr ""
 "Rapportera med en popupp när en autoaccepterad filöverföring är avslutad\n"
 "(endast när det inte är någon konversation med sändaren)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Notifiera med en toaster då"
 
@@ -11706,6 +11719,7 @@ msgstr ""
 "För att lägga till kompisen måste du importera dennes publika nyckel. Tryck "
 "på \"importera\" för att importera publik nyckel."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Toastermodul"
 
@@ -12546,6 +12560,9 @@ msgstr "Okänt fel (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Okänt fel 52. En återanslutning borde fixa detta."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12724,9 +12741,6 @@ msgstr "Använd en _annan status för vissa konton"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Använd kontoproxy för HTTP och HTTPS-anslutningar"
-
-msgid "Use clientLogin"
-msgstr "Använd klientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Använd en annan status för vissa konton"
@@ -13890,6 +13904,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Du kräver kryptering, men inget stöd för TLS/SSL hittades."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14431,8 +14450,8 @@ msgstr "_Mottagare:"
 msgid "_Recurring"
 msgstr "Åte_rkommande"
 
-msgid "_Remain in chat after window is closed."
-msgstr "Va_r kvar i chattfönster efter att det stängts."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Ta bort"
@@ -14645,6 +14664,9 @@ msgstr "clear: Rensar alla konversationers tillbakablickar."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Rensar konversationens tillbakablick."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15218,3 +15240,12 @@ msgstr "zl &lt;nick&gt;: Lokalisera användare"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: Lokalisera användare"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Använd klientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "_Gå med automatiskt då kontot ansluter."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "Va_r kvar i chattfönster efter att det stängts."

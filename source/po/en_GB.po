@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
-"PO-Revision-Date: 2015-06-13 21:53+0000\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
+"PO-Revision-Date: 2016-02-17 15:03+0000\n"
 "Last-Translator: Andi Chandler <Unknown>\n"
 "Language-Team: English (United Kingdom) "
 "(http://www.transifex.com/projects/p/pidgin/language/en_GB/)\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:03+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:22+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: English (United Kingdom)\n"
 
 msgid "\tNotify for _System messages"
-msgstr ""
+msgstr "\tNotify for _System messages"
 
 msgid "\t_Notify for System messages"
-msgstr ""
+msgstr "\t_Notify for System messages"
 
 msgid "\t_Only when someone says your username"
 msgstr "\t_Only when someone says your username"
@@ -34,6 +34,9 @@ msgid ""
 "\n"
 "Message from Farsight: "
 msgstr ""
+"\n"
+"\n"
+"Message from Farsight: "
 
 #, c-format
 msgid ""
@@ -1713,7 +1716,7 @@ msgstr "A server is required to connect this account"
 #. 
 #. Letters on the '2' key of a numeric keypad
 msgid "ABC"
-msgstr ""
+msgstr "ABC"
 
 #, c-format
 msgid "ABI version mismatch %d.%d.x (need %d.%d.x)"
@@ -2467,6 +2470,9 @@ msgstr "Authentication Failure"
 msgid "Authentication failed"
 msgstr "Authentication failed"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Author"
 
@@ -2521,9 +2527,6 @@ msgstr "Auto-join"
 msgid "Auto-response sent:"
 msgstr "Auto-response sent:"
 
-msgid "Auto_join when account connects."
-msgstr "Auto_join when account connects."
-
 msgid "Autoaccept"
 msgstr "Autoaccept"
 
@@ -2539,6 +2542,9 @@ msgstr "Autoaccepted file transfer of \"%s\" from \"%s\" completed."
 
 msgid "Automatic"
 msgstr "Automatic"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr "Automatically check for _new versions"
@@ -2768,7 +2774,7 @@ msgid "Brave"
 msgstr "Brave"
 
 msgid "Breton"
-msgstr ""
+msgstr "Breton"
 
 msgid "British English"
 msgstr "British English"
@@ -3453,6 +3459,8 @@ msgid ""
 "Codec negotiation failed. This problem might be resolved by installing more "
 "GStreamer codecs."
 msgstr ""
+"Codec negotiation failed. This problem might be resolved by installing more "
+"GStreamer codecs."
 
 msgid "Cold"
 msgstr "Cold"
@@ -3822,7 +3830,7 @@ msgid "Could not change nick"
 msgstr "Could not change nick"
 
 msgid "Could not connect to the remote party"
-msgstr ""
+msgstr "Could not connect to the remote party"
 
 msgid ""
 "Could not find any information in the user's profile. The user most likely "
@@ -4010,7 +4018,7 @@ msgstr "DBus Plug-in Example"
 
 #. Letters on the '3' key of a numeric keypad
 msgid "DEF"
-msgstr ""
+msgstr "DEF"
 
 msgid "DIR"
 msgstr "DIR"
@@ -4651,6 +4659,8 @@ msgid ""
 "Error initializing the call. This probably denotes problem in installation "
 "of GStreamer or Farsight."
 msgstr ""
+"Error initialising the call. This probably denotes problem in installation "
+"of GStreamer or Farsight."
 
 #. $R3 will display the URL that the Dictionary failed to download from
 #, no-c-format
@@ -4694,6 +4704,9 @@ msgstr "Error occurred during key agreement"
 
 msgid "Error parsing HTTP"
 msgstr "Error parsing HTTP"
+
+msgid "Error parsing response from authentication server"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -5282,7 +5295,7 @@ msgstr "GG server"
 
 #. Letters on the '4' key of a numeric keypad
 msgid "GHI"
-msgstr ""
+msgstr "GHI"
 
 msgid "GNOME Default"
 msgstr "GNOME Default"
@@ -6311,7 +6324,7 @@ msgstr "JID"
 
 #. Letters on the '5' key of a numeric keypad
 msgid "JKL"
-msgstr ""
+msgstr "JKL"
 
 msgid "Japanese"
 msgstr "Japanese"
@@ -6390,6 +6403,9 @@ msgstr "Kashmiri"
 
 msgid "Kazakh"
 msgstr "Kazakh"
+
+msgid "Kerberos"
+msgstr ""
 
 msgid "Key Agreement"
 msgstr "Key Agreement"
@@ -6791,12 +6807,15 @@ msgstr "Lucky"
 msgid "Lunch"
 msgstr "Lunch"
 
+msgid "MD5-based"
+msgstr ""
+
 msgid "MMS"
 msgstr "MMS"
 
 #. Letters on the '6' key of a numeric keypad
 msgid "MNO"
-msgstr ""
+msgstr "MNO"
 
 #, c-format
 msgid "MOTD for %s"
@@ -6940,7 +6959,7 @@ msgid "Media Initiation Failed"
 msgstr "Media Initiation Failed"
 
 msgid "Media error"
-msgstr ""
+msgstr "Media error"
 
 msgid "Meebo"
 msgstr "Meebo"
@@ -7359,7 +7378,7 @@ msgid "Network Statistics"
 msgstr "Network Statistics"
 
 msgid "Network error."
-msgstr ""
+msgstr "Network error."
 
 msgid "Network is empty"
 msgstr "Network is empty"
@@ -7771,6 +7790,7 @@ msgstr ""
 "Notify with a popup when an autoaccepted file transfer is complete\n"
 "(only when there's no conversation with the sender)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Notify with a toaster when"
 
@@ -8091,7 +8111,7 @@ msgstr "PONG"
 
 #. Letters on the '7' key of a numeric keypad
 msgid "PQRS"
-msgstr ""
+msgstr "PQRS"
 
 msgid "P_auses while typing"
 msgstr "P_auses while typing"
@@ -8321,6 +8341,8 @@ msgid ""
 "Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
 "installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 msgstr ""
+"Pidgin++ requires a compatible GTK+ Runtime (which does not appear to be "
+"installed).$\\rAre you sure you want to skip installing the GTK+ Runtime?"
 
 msgid "Pidgin++ smileys"
 msgstr "Pidgin++ smileys"
@@ -10603,7 +10625,7 @@ msgid "Supported debug options are: plugins version"
 msgstr "Supported debug options are: plugins version"
 
 msgid "Supported debug options are: plugins, version"
-msgstr ""
+msgstr "Supported debug options are: plugins, version"
 
 msgid "Supports"
 msgstr "Supports"
@@ -10674,7 +10696,7 @@ msgstr "TLS/SSL Versions"
 
 #. Letters on the '8' key of a numeric keypad
 msgid "TUV"
-msgstr ""
+msgstr "TUV"
 
 msgid "T_CP Port:"
 msgstr "T_CP Port:"
@@ -11708,6 +11730,7 @@ msgstr ""
 "To add the buddy you must import their public key. Press Import to import a "
 "public key."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Toaster plug-in"
 
@@ -12559,6 +12582,9 @@ msgstr "Unknown error (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Unknown error 52.  Reconnecting should fix this."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12738,9 +12764,6 @@ msgstr "Use a _different status for some accounts"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Use account proxy for HTTP and HTTPS connections"
-
-msgid "Use clientLogin"
-msgstr "Use clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Use different status for the following accounts"
@@ -13043,7 +13066,7 @@ msgstr "WATCH"
 
 #. Letters on the '9' key of a numeric keypad
 msgid "WXYZ"
-msgstr ""
+msgstr "WXYZ"
 
 msgid "Waiting for Handshake Acknowledgement"
 msgstr "Waiting for Handshake Acknowledgement"
@@ -13899,6 +13922,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "You require encryption, but no TLS/SSL support was found."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14441,8 +14469,8 @@ msgstr "_Recipient:"
 msgid "_Recurring"
 msgstr "_Recurring"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Remain in chat after window is closed."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Remove"
@@ -14654,6 +14682,9 @@ msgstr "clear: Clears all conversation scrollbacks."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Clears the conversation scrollback."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15202,3 +15233,12 @@ msgstr "zl &lt;nick&gt;: Locate user"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: Locate user"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Use clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Auto_join when account connects."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Remain in chat after window is closed."

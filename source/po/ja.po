@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pidgin trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:12+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:53+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:11+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Japanese\n"
 
 msgid "\tNotify for _System messages"
@@ -2329,6 +2329,9 @@ msgstr "認証に失敗しました"
 msgid "Authentication failed"
 msgstr "認証に失敗しました"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "作者"
 
@@ -2383,9 +2386,6 @@ msgstr "自動参加"
 msgid "Auto-response sent:"
 msgstr "自動応答の送信:"
 
-msgid "Auto_join when account connects."
-msgstr "アカウントが接続されたら自動的に参加する(_J)"
-
 msgid "Autoaccept"
 msgstr "自動受け入れ"
 
@@ -2401,6 +2401,9 @@ msgstr "\"%2$s\" さんから \"%1$s\" のファイル転送の受け入れを�
 
 msgid "Automatic"
 msgstr "自動選択"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4509,6 +4512,9 @@ msgstr "キーに同意する際にエラーが発生しました"
 msgid "Error parsing HTTP"
 msgstr ""
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6197,6 +6203,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "キーの同意"
 
@@ -6589,6 +6598,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7549,6 +7561,7 @@ msgstr ""
 "自動受け入れによるファイルの転送が完了したらポップアップで知らせる\n"
 "(ファイルを送信した側と会話が無い場合にのみ)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Notify with a toaster when"
 
@@ -11337,6 +11350,7 @@ msgid ""
 "a public key."
 msgstr "仲間を追加するには公開鍵を取り込まなければなりません。公開鍵を取り込む際は、ボタン [インポートする...] をクリックしてください。"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "\"トースター\" プラグイン"
 
@@ -12139,6 +12153,9 @@ msgstr "原因不明のエラー (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "不明なエラー 52 です。再接続すると修正されるかもしれません。"
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12314,9 +12331,6 @@ msgstr "同じアカウントで別の状態を利用する(_D)"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "HTTP や HTTPS 接続でアカウントのプロキシを使用する"
-
-msgid "Use clientLogin"
-msgstr ""
 
 msgid "Use different status for following accounts"
 msgstr "次のアカウントで別の状態を使用する"
@@ -13412,6 +13426,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr ""
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -13934,8 +13953,8 @@ msgstr "受取人(_R):"
 msgid "_Recurring"
 msgstr "繰り返す(_R)"
 
-msgid "_Remain in chat after window is closed."
-msgstr "ウィンドウを閉じた後もチャットに残る(_R)"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "削除(_R)"
@@ -14143,6 +14162,9 @@ msgstr ""
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "クリア: 会話ウィンドウにある以前のメッセージをクリアします"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -14646,3 +14668,9 @@ msgstr "zl &lt;あだ名&gt;: ユーザの所在地を確認します"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;あだ名&gt;: ユーザの所在地を確認します"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "アカウントが接続されたら自動的に参加する(_J)"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "ウィンドウを閉じた後もチャットに残る(_R)"

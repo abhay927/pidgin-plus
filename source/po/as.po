@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2016-01-06 05:16+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Assamese "
@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2016-01-07 05:34+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:05+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Assamese\n"
 
 msgid "\tNotify for _System messages"
@@ -2470,6 +2470,9 @@ msgstr "অনুমোদন বিফল"
 msgid "Authentication failed"
 msgstr "অনুমোদন কৰিবলৈ ব্যৰ্থ"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "লেখক"
 
@@ -2526,9 +2529,6 @@ msgstr "স্বয়ংক্ৰিয়ভাবে যোগ কৰা হ'ব"
 msgid "Auto-response sent:"
 msgstr "স্বয়ংক্ৰিয় উত্তৰ প্ৰেৰিত হৈছে:"
 
-msgid "Auto_join when account connects."
-msgstr "হিচাপ সংযুক্ত হ'লে স্বয়ংক্ৰিয়ভাবে যোগ দিয়া হ'ব (_j)"
-
 msgid "Autoaccept"
 msgstr "Autoaccept"
 
@@ -2546,6 +2546,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "স্বয়ংক্ৰিয়"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4701,6 +4704,9 @@ msgstr "কি সংক্ৰান্ত চুক্তি পালন ক�
 msgid "Error parsing HTTP"
 msgstr "HTTP পাৰ্স কৰিবলৈ ত্ৰুটি"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6403,6 +6409,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "কি সংক্ৰান্ত চুক্তি"
 
@@ -6805,6 +6814,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7793,6 +7805,7 @@ msgstr ""
 "হ'ব\n"
 "(প্ৰৰকেৰ সৈতে কোনো সম্বাদ চলমান না থাকিলে)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "নিম্নলিখিত পৰিস্থিতিত টোস্টাৰ সহ সূচিত কৰা হ'ব"
 
@@ -11751,6 +11764,7 @@ msgstr ""
 "বন্ধু যোগ কৰাৰ বাবে সংশ্লিষ্ট ব্যৱহাৰকৰ্তাৰ সাৰ্বজনীন কি আমদানি কৰা আৱশ্যক । "
 "সাৰ্বজনীন কি আমদানি কৰাৰ বাবে Import টিপক ।"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Toaster প্লাগ ইন"
 
@@ -12611,6 +12625,9 @@ msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr ""
 "অজ্ঞাত ত্ৰুটি ৫২ । পুনঃ সংযোগ কৰা হ'লে সম্ভৱত এই সমস্যা সমাধান কৰা যাব ।"
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12793,9 +12810,6 @@ msgstr "কয়েকটি হিচাপৰ বাবে ভিন্ন অ�
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "clientLogin ব্যৱহাৰ কৰা হ'ব"
 
 msgid "Use different status for following accounts"
 msgstr "নিম্নলিখিত হিচাপৰ বাবে ভিন্ন অৱস্থাসূচক সম্বাদ প্ৰয়োগ কৰা হ'ব"
@@ -13979,6 +13993,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "এনক্ৰিপশন প্ৰয়োজন, কিন্তু TLS/SSL সমৰ্থন পোৱা নাযায় ।"
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14520,8 +14539,8 @@ msgstr "প্ৰাপক: (_R)"
 msgid "_Recurring"
 msgstr "পুনৰাবৃত্তিমূলক (_R)"
 
-msgid "_Remain in chat after window is closed."
-msgstr "সংযোগক্ষেত্ৰ বন্ধ কৰাৰ পৰেও সম্বাদে উপস্থিত থাকুন । (_R)"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "আঁতৰাওক (_R)"
@@ -14736,6 +14755,9 @@ msgstr "clear: পিছৰ সম্বাদ আঁতৰুৱা হয়"
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: পৰ্দাৰ পৰা পিছৰ সম্বাদ আঁতৰুৱা হয় ।"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15314,3 +15336,12 @@ msgstr "zl &lt;nick&gt;: ব্যৱহাৰকৰ্তাকে সন্ধ
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: ব্যৱহাৰকৰ্তাকে সন্ধান কৰক"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "clientLogin ব্যৱহাৰ কৰা হ'ব"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "হিচাপ সংযুক্ত হ'লে স্বয়ংক্ৰিয়ভাবে যোগ দিয়া হ'ব (_j)"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "সংযোগক্ষেত্ৰ বন্ধ কৰাৰ পৰেও সম্বাদে উপস্থিত থাকুন । (_R)"

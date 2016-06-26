@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:25+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Mari <muter@lists.linux-ink.ru>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:05+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:24+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "Language: Mari (Meadow)\n"
 "X-Poedit-Language: mhr\n"
@@ -2396,6 +2396,9 @@ msgstr "Чылык тергымаш йоҥылыш"
 msgid "Authentication failed"
 msgstr "Чылык тергымаш йоҥылыш мучашлалтын"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Серышоза"
 
@@ -2451,9 +2454,6 @@ msgstr "Вигак ушнаш"
 msgid "Auto-response sent:"
 msgstr "Вигак вашмутым колтымо:"
 
-msgid "Auto_join when account connects."
-msgstr "Вигак _ушнаш, кунам шотыш налме возыш ушна."
-
 msgid "Autoaccept"
 msgstr "Вигак кумылаҥдаш"
 
@@ -2469,6 +2469,9 @@ msgstr "\"%s\" деч \"%s\" дек файл колтымаш налмаш ви�
 
 msgid "Automatic"
 msgstr "Вигак"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4610,6 +4613,9 @@ msgstr "Сравоч-влакым ваш келыштарыме жапыште �
 msgid "Error parsing HTTP"
 msgstr ""
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6309,6 +6315,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Сравоч-влакым ваш келыштараш"
 
@@ -6711,6 +6720,9 @@ msgstr "Цӓшӓн"
 
 msgid "Lunch"
 msgstr "Кечвал кочкыш"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7691,6 +7703,7 @@ msgstr ""
 "каласымаш дене палдараш\n"
 "(колтышо дене мутланымаш уке улмо гына)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Кунам шижтараш"
 
@@ -11581,6 +11594,7 @@ msgstr ""
 "Мутланышын публичне сравочшым пуртыде, тый тудым ешарен от керт. Публичне "
 "сравочым пурташлан \"Пурташ...\" темдал."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Шижтарымаш плагин"
 
@@ -12410,6 +12424,9 @@ msgstr "Палыдыме йоҥылыш (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Палыдыме йоҥылыш - 52.  Угыч ушымаш тидым тӧрлатышаш."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12589,9 +12606,6 @@ msgid "Use a _different status for some accounts"
 msgstr "_Ойыртемалтше могай улмым южо шотыш налме возышлан кучылташ"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
-msgstr ""
-
-msgid "Use clientLogin"
 msgstr ""
 
 msgid "Use different status for following accounts"
@@ -13725,6 +13739,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Тый кодироватлаш кӱштет, TLS/SSL-лан эҥертыме огыл."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14257,8 +14276,8 @@ msgstr "_Налше:"
 msgid "_Recurring"
 msgstr "_Ушештарымаш"
 
-msgid "_Remain in chat after window is closed."
-msgstr "Тӧрзам петырмеке тототлымверыште _кодаш."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Кораҥдаш"
@@ -14472,6 +14491,9 @@ msgstr "clear: Чыла мутланымаш тӧрзам эрыкташ."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Мутланымаш тӧрзам эрыкташ."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15041,3 +15063,9 @@ msgstr "zl &lt;шолыплӱм&gt;: Пайдаланышым муаш"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;шолыплӱм&gt;: Пайдаланышым муаш"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Вигак _ушнаш, кунам шотыш налме возыш ушна."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "Тӧрзам петырмеке тототлымверыште _кодаш."

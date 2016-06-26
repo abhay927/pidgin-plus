@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin 2.10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: Chinese (Traditional) <zh-l10n@linux.org.tw>\n"
@@ -68,8 +68,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-01-06 06:04+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:22+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Chinese (Traditional)\n"
 
 msgid "\tNotify for _System messages"
@@ -2485,6 +2485,9 @@ msgstr "認證失敗"
 msgid "Authentication failed"
 msgstr "認證失敗"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "作者"
 
@@ -2556,9 +2559,6 @@ msgstr "自動加入"
 msgid "Auto-response sent:"
 msgstr "自動回應送出："
 
-msgid "Auto_join when account connects."
-msgstr "帳號連線後隨即自動加入(_J)。"
-
 msgid "Autoaccept"
 msgstr "自動接受"
 
@@ -2575,6 +2575,9 @@ msgstr "「%s」要求傳輸檔案「%s」，已獲自動接受。"
 
 msgid "Automatic"
 msgstr "自動"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4802,6 +4805,9 @@ msgstr "交換密鑰中出現錯誤"
 msgid "Error parsing HTTP"
 msgstr "解析 HTTP 途中發生錯誤"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6642,6 +6648,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "交換密鑰"
 
@@ -7054,6 +7063,9 @@ msgstr "幸運"
 
 msgid "Lunch"
 msgstr "午飯"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -8096,6 +8108,7 @@ msgstr ""
 "（只發生在未與傳送者進行交談的情況下）"
 
 #  NOTE「GntGf」意為「Gnt 版的 Guifications」，「Toaster」指 MSN 風格的彈出式通知好像多士爐彈出烘好的麵包一樣
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "以下情況下使用多士爐式彈出通知"
 
@@ -12115,6 +12128,7 @@ msgid ""
 msgstr "要新增好友，必須匯入他（她）的公鑰。要匯入公鑰，請按「匯入」。"
 
 #  NOTE「GntGf」意為「Gnt 版的 Guifications」，「Toaster」指 MSN 風格的彈出式通知好像多士爐彈出烘好的麪包一樣
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "多士爐式彈出通知模組"
 
@@ -12952,6 +12966,9 @@ msgstr "不明錯誤（代碼 %d）：%s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "發生了代碼 52 的不明錯誤，重新連線應可清除這個錯誤。"
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -13139,9 +13156,6 @@ msgstr "為部份帳號設定不同的狀態(_D)"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "使用 HTTP 和 HTTPS 連線時，使用帳號的代理伺服器"
-
-msgid "Use clientLogin"
-msgstr "使用 clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "為部份帳號設定不同的狀態"
@@ -14267,6 +14281,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "您要求加密，但找不到 TLS/SSL 支援。"
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr "您在帳號設定中指定了使用加密，但您的系統不支援加密功能。"
@@ -14817,8 +14836,8 @@ msgstr "接受者(_R)："
 msgid "_Recurring"
 msgstr "重覆發生(_R)"
 
-msgid "_Remain in chat after window is closed."
-msgstr "關閉視窗時只將聊天隱藏(_R)。"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "移除(_R)"
@@ -15034,6 +15053,9 @@ msgstr "clear：清空所有交談的回捲緩衝區"
 # XXX
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear：清空交談的回捲緩衝區"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15543,3 +15565,12 @@ msgstr "zl &lt;暱稱&gt;：尋找使用者"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;暱稱&gt;：尋找使用者"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "使用 clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "帳號連線後隨即自動加入(_J)。"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "關閉視窗時只將聊天隱藏(_R)。"

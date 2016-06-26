@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:48+0000\n"
 "Last-Translator: Renato Silva <Unknown>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:46+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:04+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "X-Project-Style: gnome\n"
 "Language: Afrikaans\n"
 
@@ -2442,6 +2442,9 @@ msgstr "Stawingmislukking"
 msgid "Authentication failed"
 msgstr "Stawing het misluk"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Outeur"
 
@@ -2497,9 +2500,6 @@ msgstr "Outoaansluit"
 msgid "Auto-response sent:"
 msgstr "Outo-respons gestuur:"
 
-msgid "Auto_join when account connects."
-msgstr "Sluit _outomaties aan wanneer rekening koppel."
-
 msgid "Autoaccept"
 msgstr "Outoaanvaar"
 
@@ -2515,6 +2515,9 @@ msgstr "Outomaties aanvaarde lêeroordrag van \"%s\" vanaf \"%s\" voltooi."
 
 msgid "Automatic"
 msgstr "Outomaties"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4661,6 +4664,9 @@ msgstr "'n Fout het plaasgevind tydens sleutelooreenkoms"
 msgid "Error parsing HTTP"
 msgstr "Kon nie HTTP ontleed nie"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6358,6 +6364,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Sleutelooreenkoms"
 
@@ -6759,6 +6768,9 @@ msgstr ""
 
 msgid "Lunch"
 msgstr "Middagete"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7747,6 +7759,7 @@ msgstr ""
 "Laat weet met opspringvenster wanneer outoaanvaarde lêeroordrag voltooi het\n"
 "(net as daar geen gesprek met sender is nie)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Stel met oploer in kennis wanneer"
 
@@ -11693,6 +11706,7 @@ msgstr ""
 "Om die vriend by te voeg, moet u sy/haar publieke sleutel invoer. Druk "
 "Invoer om 'n publieke sleutel in te voer."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Oploer-inprop"
 
@@ -12550,6 +12564,9 @@ msgstr "Onbekende fout (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Onbekende fout 52.  Herkoppeling behoort dit op te los."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12730,9 +12747,6 @@ msgstr "Gebruik 'n _ander status vir sekere rekenings"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Gebruik rekening se instaanbediener vir HTTP- en HTTPS-koppelings"
-
-msgid "Use clientLogin"
-msgstr ""
 
 msgid "Use different status for following accounts"
 msgstr "Gebruik 'n ander status vir die volgende rekenings"
@@ -13890,6 +13904,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "U vereis enkripsie, maar geen TLS/SSL-steun is gevind nie."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14431,8 +14450,8 @@ msgstr "_Ontvanger:"
 msgid "_Recurring"
 msgstr "He_rhalend"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Bly in geselsie ná venster gesluit word."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Verwyder"
@@ -14645,6 +14664,9 @@ msgstr "clear: Maak die gesprekvenster skoon."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Maak die gesprekvenster skoon."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15208,3 +15230,9 @@ msgstr "zl &lt;bynaam&gt;: Vind gebruiker"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;bynaam&gt;: Vind gebruiker"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Sluit _outomaties aan wanneer rekening koppel."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Bly in geselsie ná venster gesluit word."

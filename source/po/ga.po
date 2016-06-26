@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:42+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Irish "
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:51+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:09+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Irish\n"
 
 msgid "\tNotify for _System messages"
@@ -2496,6 +2496,9 @@ msgstr "Theip ar fhíordheimhniú"
 msgid "Authentication failed"
 msgstr "Theip ar fhíordheimhniú"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "Údar"
 
@@ -2552,9 +2555,6 @@ msgstr "Glac páirt go huathoibríoch"
 msgid "Auto-response sent:"
 msgstr "Uath-fhreagra seolta:"
 
-msgid "Auto_join when account connects."
-msgstr "Glac _páirt go huathoibríoch nuair a cheanglaíonn cuntas."
-
 msgid "Autoaccept"
 msgstr "Glacadh Uathoibríoch"
 
@@ -2572,6 +2572,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "Uathoibríoch"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4728,6 +4731,9 @@ msgstr "Tharla earráid le linn an chonartha eochrach"
 msgid "Error parsing HTTP"
 msgstr "Earráid agus HTTP á pharsáil"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6428,6 +6434,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "Conradh Eochrach"
 
@@ -6831,6 +6840,9 @@ msgstr "Ádh Orm"
 
 msgid "Lunch"
 msgstr "Lón"
+
+msgid "MD5-based"
+msgstr ""
 
 msgid "MMS"
 msgstr "MMS"
@@ -7834,6 +7846,7 @@ msgstr ""
 "huathoibríoch críochnaithe\n"
 "(nuair nach bhfuil comhrá ar siúl leis an seoltóir)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "Cuir in iúl dom le tóstaer nuair"
 
@@ -11816,6 +11829,7 @@ msgstr ""
 "Chun cara a chur leis, caithfidh tú a (h)eochair phoiblí a iompórtáil. "
 "Brúigh 'Iompórtáil' chun eochair phoiblí a iompórtáil."
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "Breiseán Toaster"
 
@@ -12687,6 +12701,9 @@ msgstr "Earráid anaithnid (%d): %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "Earráid anaithnid 52.  Réitigh an fhadhb trí cheangal nua a bhunú."
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12867,9 +12884,6 @@ msgstr "Úsáid stádas _difriúil do chuntais áirithe"
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr "Úsáid seachfhreastalaí cuntais le haghaidh ceangail HTTP agus HTTPS"
-
-msgid "Use clientLogin"
-msgstr "Úsáid clientLogin"
 
 msgid "Use different status for following accounts"
 msgstr "Úsáid stádas difriúil do na cuntais seo a leanas"
@@ -14056,6 +14070,11 @@ msgid "You require encryption, but no TLS/SSL support was found."
 msgstr "Éilíonn tú criptiú, ach níl tacaíocht TLS/SSL ann."
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14599,8 +14618,8 @@ msgstr "_Faighteoir:"
 msgid "_Recurring"
 msgstr "_Atarlú"
 
-msgid "_Remain in chat after window is closed."
-msgstr "_Fan sa chomhrá tar éis go ndúntar an fhuinneog."
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "_Bain"
@@ -14814,6 +14833,9 @@ msgstr "clear: Glan stair iomlán an chomhrá."
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "clear: Glan iarscrollú an chomhrá."
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15383,3 +15405,12 @@ msgstr "zl &lt;leasainm&gt;: Aimsigh úsáideoir"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;leasainm&gt;: Aimsigh úsáideoir"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "Úsáid clientLogin"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "Glac _páirt go huathoibríoch nuair a cheanglaíonn cuntas."
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "_Fan sa chomhrá tar éis go ndúntar an fhuinneog."

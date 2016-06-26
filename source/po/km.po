@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pidgin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-05 18:33-0200\n"
+"POT-Creation-Date: 2016-06-25 22:40-0300\n"
 "PO-Revision-Date: 2014-08-31 02:37+0000\n"
 "Last-Translator: Richard Laager <rlaager@wiktel.com>\n"
 "Language-Team: Khmer "
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-01-06 05:54+0000\n"
-"X-Generator: Launchpad (build 17876)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:12+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 "Language: Khmer\n"
 
 msgid "\tNotify for _System messages"
@@ -2447,6 +2447,9 @@ msgstr "ភាព​បរាជ័យ​ក្នុងការ​ផ្ទៀ
 msgid "Authentication failed"
 msgstr "បាន​បរាជ័យ​ក្នុងកា​រផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ"
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Author"
 msgstr "អ្នកនិពន្ធ ​"
 
@@ -2503,9 +2506,6 @@ msgstr "ចូល​ស្វ័យ​ប្រវត្តិ"
 msgid "Auto-response sent:"
 msgstr "បានផ្ញើ​ការ​ឆ្លើយតប​ដោយ​ស្វ័យ​ប្រវត្តិ ៖"
 
-msgid "Auto_join when account connects."
-msgstr "ចូល​ដោយ​ស្វ័យ​ប្រវត្តិ នៅពេល​គនណី​តភ្ជាប់ ។​"
-
 msgid "Autoaccept"
 msgstr "ព្រម​ទទួល​ដោយ​ស្វ័យ​ប្រវត្តិ"
 
@@ -2523,6 +2523,9 @@ msgstr ""
 
 msgid "Automatic"
 msgstr "ស្វ័យ​​​ប្រវត្តិ"
+
+msgid "Automatically _join when account connects"
+msgstr ""
 
 msgid "Automatically check for _new versions"
 msgstr ""
@@ -4686,6 +4689,9 @@ msgstr "កំហុស​បាន​កើតឡើង​កំឡុង​ព
 msgid "Error parsing HTTP"
 msgstr "កំហុស​ក្នុងកា​រញែក HTTP"
 
+msgid "Error parsing response from authentication server"
+msgstr ""
+
 #, c-format
 msgid ""
 "Error reading %s: \n"
@@ -6388,6 +6394,9 @@ msgstr ""
 msgid "Kazakh"
 msgstr ""
 
+msgid "Kerberos"
+msgstr ""
+
 msgid "Key Agreement"
 msgstr "ការ​ព្រមព្រៀង​សំខាន់"
 
@@ -6792,6 +6801,9 @@ msgid "Lucky"
 msgstr ""
 
 msgid "Lunch"
+msgstr ""
+
+msgid "MD5-based"
 msgstr ""
 
 msgid "MMS"
@@ -7788,6 +7800,7 @@ msgstr ""
 "នៅពេល​ការ​​ផ្ទេរ​ឯកសារ​ព្រមទទួល​ដោយ​ស្វ័យ​ប្រវត្តិ​បានបញ្ចប់\n"
 "(តែ​នៅពេល​ដែល​គ្មាន​ការ​សន្ទនា​ជា​មួយ​អ្នក​ផ្ញើ)"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Notify with a toaster when"
 msgstr "ជូន​ដំណឹង​ដោយ​សញ្ញា​​នៅ​ពេល"
 
@@ -11745,6 +11758,7 @@ msgstr ""
 "ដើម្បី​បន្ថែម​មិត្តភក្ដិ​ អ្នក​ត្រូវ​តែ​នាំចូល​សោសាធារណៈ​របស់​គាត់ ។ "
 "ចុច​នាំចូល ដើម្បីនាំចូល​សោ​សាធារណៈ ។"
 
+#. Translators: "toaster" here means "pop-up".
 msgid "Toaster plugin"
 msgstr "កម្មវិធី​ជំនួយ Toaster"
 
@@ -12608,6 +12622,9 @@ msgstr "មិន​ស្គាល់​កំហុស (%d) ៖ %s"
 msgid "Unknown error 52.  Reconnecting should fix this."
 msgstr "មិន​ស្គាល់កំហុស ៥២ ។ កា​រតភ្ជាប់ឡើងវិញ​គួរតែ​កែ​វា​បាន ។"
 
+msgid "Unknown error during authentication"
+msgstr ""
+
 #, c-format
 msgid ""
 "Unknown error number %d. Logging into the Yahoo! website may fix this."
@@ -12786,9 +12803,6 @@ msgstr "ប្រើ​ស្ថានភាព​ផ្សេង​សម្រ
 
 msgid "Use account proxy for HTTP and HTTPS connections"
 msgstr ""
-
-msgid "Use clientLogin"
-msgstr "ប្រើការ​​ចូល​ម៉ាស៊ីន​ភ្ញៀវ"
 
 msgid "Use different status for following accounts"
 msgstr "ប្រើ​ស្ថានភាព​ផ្សេង​សម្រាប់​គណនី​ដូច​ខាង​ក្រោម"
@@ -13954,6 +13968,11 @@ msgstr ""
 "អ្នក​ត្រូវការ​ការ​អ៊ិនគ្រីប ប៉ុន្តែ​រក​មិនឃើញ​ការគាំទ្រ TLS/SSL នោះ​ទេ។"
 
 msgid ""
+"You required Kerberos authentication but encryption is disabled in your "
+"account settings."
+msgstr ""
+
+msgid ""
 "You required encryption in your account settings, but encryption is not "
 "supported by your system."
 msgstr ""
@@ -14500,8 +14519,8 @@ msgstr "អ្នក​ទទួល ៖"
 msgid "_Recurring"
 msgstr "កើតឡើង​វិញ"
 
-msgid "_Remain in chat after window is closed."
-msgstr "នៅ​ក្នុង​ការជជែក​បន្ទាប់​ពី​បង្អួច​ត្រូវ​បានបិទ ។"
+msgid "_Remain in chat after window is closed"
+msgstr ""
 
 msgid "_Remove"
 msgstr "យក​ចេញ"
@@ -14715,6 +14734,9 @@ msgstr "ជម្រះ ៖ ជម្រះ​ការ​សន្ទនា​�
 
 msgid "clear: Clears the conversation scrollback."
 msgstr "ជម្រះ ៖ ជម្រះ​ការ​សន្ទនា ។"
+
+msgid "clientLogin"
+msgstr ""
 
 msgid ""
 "cmode &lt;channel&gt; [+|-&lt;modes&gt;] [arguments]:  Change or display "
@@ -15272,3 +15294,12 @@ msgstr "zl &lt;nick&gt; ៖ កំណត់​ទីតាំង​អ្នក�
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt; ៖ កំណត់​ទីតាំង​អ្នកប្រើ"
+
+#~ msgid "Use clientLogin"
+#~ msgstr "ប្រើការ​​ចូល​ម៉ាស៊ីន​ភ្ញៀវ"
+
+#~ msgid "Auto_join when account connects."
+#~ msgstr "ចូល​ដោយ​ស្វ័យ​ប្រវត្តិ នៅពេល​គនណី​តភ្ជាប់ ។​"
+
+#~ msgid "_Remain in chat after window is closed."
+#~ msgstr "នៅ​ក្នុង​ការជជែក​បន្ទាប់​ពី​បង្អួច​ត្រូវ​បានបិទ ។"
