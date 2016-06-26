@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="ISO-8859-1"/>
+        <meta charset="UTF-8"/>
         <link rel="shortcut icon" type="image/png" href="https://pidgin.im/shared/img/favicon.png"/>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:400,400italic">
         <title>Pidgin++</title>
@@ -25,9 +25,10 @@
                 background-color: #eee;
                 text-decoration: none;
                 display: inline-block;
-                margin-right: 20px;
+                text-align: center;
+                margin-right: 15px;
+                min-width: 80px;
                 padding: 10px;
-
             }
             a.pressed, a.main:hover {
                 color: #f8f8f8;
@@ -112,7 +113,7 @@
             <h1 class="logo"><i>Pidgin</i>++</h1>
             <p>
                 <span class="translation en_US">An improved version of Pidgin.</span>
-                <span class="translation pt_BR">Uma versão melhorada do Pidgin.</span>
+                <span class="translation pt_BR">Uma versÃ£o melhorada do Pidgin.</span>
                 <span class="build">
                     <a target="_blank" href="https://travis-ci.org/renatosilva/pidgin-plus"><img class="build" alt="" src="https://travis-ci.org/renatosilva/pidgin-plus.svg?branch=master"/></a>
                     <a target="_blank" href="https://ci.appveyor.com/project/renatosilva/pidgin-plus"><img class="build" alt="" src="https://ci.appveyor.com/api/projects/status/e0b8jr7yl921iunb/branch/master?svg=true"/></a>
@@ -125,11 +126,11 @@
                     <span class="translation pt_BR">Melhorias para o protocolo IRC</span></li>
 
                 <li><span class="translation en_US">New colors and formatting for conversations</span>
-                    <span class="translation pt_BR">Novas cores e formatação para as conversas</span></li>
+                    <span class="translation pt_BR">Novas cores e formataÃ§Ã£o para as conversas</span></li>
 
                 <li><div class="tag">Windows</div>
                     <span class="translation en_US">Automated update checking</span>
-                    <span class="translation pt_BR">Verificação automática de atualizações</span></li>
+                    <span class="translation pt_BR">VerificaÃ§Ã£o automÃ¡tica de atualizaÃ§Ãµes</span></li>
 
                 <li><div class="tag">Windows</div>
                     <span class="translation en_US">More recent GTK+ 2.24</span>
@@ -152,7 +153,7 @@
                     <span class="translation pt_BR">Melhor suporte a Unicode</span></li>
 
                 <li><span class="translation en_US">Refined appearance including new status icons</span>
-                    <span class="translation pt_BR">Aparência aprimorada incluindo novos ícones de status</span>
+                    <span class="translation pt_BR">AparÃªncia aprimorada incluindo novos Ã­cones de status</span>
                     <div>
                         <img src="pixmaps/pidgin/status/48/invisible.png"/>
                         <img src="pixmaps/pidgin/status/48/available.png"/>
@@ -180,10 +181,6 @@
                     <span class="translation en_US">For Windows</span>
                     <span class="translation pt_BR">Para Windows</span>
                 </a>
-                <a class="main" href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 Source.zip">
-                    <span class="translation en_US">Source code</span>
-                    <span class="translation pt_BR">Código fonte</span>
-                </a>
                 <a class="main" href="https://github.com/renatosilva/pidgin-plus" target="_blank">
                     <span class="translation en_US">GitHub mirror</span>
                     <span class="translation pt_BR">Mirror no GitHub</span>
@@ -192,17 +189,21 @@
                     <span class="translation en_US">Development</span>
                     <span class="translation pt_BR">Desenvolvimento</span>
                 </a>
+                <a class="main" href="irc://irc.oftc.net/pidgin++">
+                    <span class="translation en_US">Chat</span>
+                    <span class="translation pt_BR">Conversar</span>
+                </a>
             </p>
 
         </div><div id="windows">
             <p class="translation en_US">Note that the 64-bit edition requires 64-bit versions of the third-party plugins.</p>
-            <p class="translation pt_BR">Note que a edição de 64 bits requer versões de 64-bits dos plugins adicionais.</p><br>
+            <p class="translation pt_BR">Note que a ediÃ§Ã£o de 64 bits requer versÃµes de 64-bits dos plugins adicionais.</p><br>
             <ul>
                 <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x86 Setup.exe">Current release 15.1 as 32-bit</a></span>
-                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x86 Setup.exe">Versão atual 15.1 em 32 bits</a></span></li>
+                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x86 Setup.exe">VersÃ£o atual 15.1 em 32 bits</a></span></li>
 
                 <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x64 Setup.exe">Current release 15.1 as 64-bit</a></span>
-                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x64 Setup.exe">Versão atual 15.1 em 64 bits</a></span></li>
+                    <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/trunk/15.1/+download/Pidgin++ 15.1 x64 Setup.exe">VersÃ£o atual 15.1 em 64 bits</a></span></li>
 
                 <li><span class="translation en_US"><a href="https://launchpad.net/pidgin++/+download" target="_blank">All downloads</a></span>
                     <span class="translation pt_BR"><a href="https://launchpad.net/pidgin++/+download" target="_blank">Todos os downloads</a></span></li>
