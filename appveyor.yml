@@ -3,10 +3,8 @@ environment:
 
 build_script:
     # Update
-    - C:\msys64\usr\bin\bash --login -c "repman add renatosilva http://packages.renatosilva.net"
-    - C:\msys64\usr\bin\bash --login -c "pacman --noconfirm --sync pacboy"
-    - C:\msys64\usr\bin\bash --login -c "pacboy --noconfirm update" # Core
-    - C:\msys64\usr\bin\bash --login -c "pacboy --noconfirm update" # Rest
+    - C:\msys64\usr\bin\pacman --noconfirm --sync --refresh --sysupgrade --sysupgrade # Core
+    - C:\msys64\usr\bin\pacman --noconfirm --sync --refresh --sysupgrade --sysupgrade # Rest
 
     # Build
     - C:\msys64\usr\bin\bash --login -c "pacman --noconfirm --sync easyoptions"
