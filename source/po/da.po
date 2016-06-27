@@ -50,8 +50,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:07+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:19+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Danish\n"
 "X-Poedit-Language: Danish\n"
 
@@ -15291,13 +15291,3 @@ msgstr "zl &lt;navn&gt;: Find bruger"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;navn&gt;: Find bruger"
-
-# ?
-#~ msgid "Use clientLogin"
-#~ msgstr "Brug klient-logind"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "_Tilslut automatisk når kontoen tilkobles."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "_Forbliv i samtale efter vinduet er lukket."

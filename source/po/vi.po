@@ -21,8 +21,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:21+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:32+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Vietnamese\n"
 
 msgid "\tNotify for _System messages"
@@ -15211,12 +15211,3 @@ msgstr "zl &lt;tên hiệu&gt;: (viết tắt) Định vị người dùng"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;tên hiệu&gt;: Định vị người dùng"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "Dùng clientLogin"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "Tự động tham _gia một khi tài khoản kết nối."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "Còn lại t_rong chát sau khi cửa sổ bị đóng."

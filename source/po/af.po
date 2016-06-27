@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:04+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:15+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "X-Project-Style: gnome\n"
 "Language: Afrikaans\n"
 
@@ -15230,9 +15230,3 @@ msgstr "zl &lt;bynaam&gt;: Vind gebruiker"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;bynaam&gt;: Vind gebruiker"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "Sluit _outomaties aan wanneer rekening koppel."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "_Bly in geselsie ná venster gesluit word."

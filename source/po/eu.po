@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:05+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:17+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Basque\n"
 
 msgid "\tNotify for _System messages"
@@ -15161,9 +15161,3 @@ msgstr "zl &lt;ezizena&gt;: Erabiltzailea kokatu"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;ezizena&gt;: Erabiltzailea kokatu"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "Auto-_batu kontua konektatzean."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "Solasaldian _jarraitu leihoa itxi ondoren."

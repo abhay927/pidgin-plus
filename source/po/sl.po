@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:18+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:29+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Slovenian\n"
 
 msgid "\tNotify for _System messages"
@@ -15315,12 +15315,3 @@ msgstr "zl &lt;vzdevek&gt;: Najdi uporabnika"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;vzdevek&gt;: Najdi uporabnika"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "Uporabi prijavo clientLogin"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "Samode_jno se pridruži, ko račun postane povezan."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "_Nadaljuj klepet, ko je okno zaprto."

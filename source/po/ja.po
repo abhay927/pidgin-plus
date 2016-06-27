@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:11+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:23+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Japanese\n"
 
 msgid "\tNotify for _System messages"
@@ -14668,9 +14668,3 @@ msgstr "zl &lt;あだ名&gt;: ユーザの所在地を確認します"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;あだ名&gt;: ユーザの所在地を確認します"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "アカウントが接続されたら自動的に参加する(_J)"
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "ウィンドウを閉じた後もチャットに残る(_R)"

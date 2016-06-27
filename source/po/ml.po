@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:14+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:25+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Malayalam\n"
 
 msgid "\tNotify for _System messages"
@@ -15509,12 +15509,3 @@ msgstr "zl &lt;nick&gt;: ഉപയോക്താവിനെ കണ്ടുപ
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: ഉപയോക്താവിനെ കണ്ടുപിടിക്കുക"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "clientLogin ഉപയോഗിക്കുക"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "അക്കൌണ്ട് കണക്ട് ചെയ്യുമ്പോള്‍ സ്വയമേ _പങ്കു് ചേരുക."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "ജാലകം അടച്ചതിനു് ശേഷം ചാറ്റില്‍ _നില്‍ക്കുക."

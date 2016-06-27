@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:21+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:33+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Bengali (India)\n"
 
 msgid "\tNotify for _System messages"
@@ -15365,12 +15365,3 @@ msgstr "zl &lt;nick&gt;: ব্যবহারকারীকে সন্ধা
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: ব্যবহারকারীকে সন্ধান করুন"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "clientLogin ব্যবহার করা হবে"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "অ্যাকাউন্ট সংযুক্ত হলে স্বয়ংক্রিয়ভাবে যোগ দেওয়া হবে (_j)"
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "উইন্ডো বন্ধ করার পরেও আলাপনে উপস্থিত থাকুন। (_R)"

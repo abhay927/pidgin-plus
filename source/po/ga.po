@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:09+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:21+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Irish\n"
 
 msgid "\tNotify for _System messages"
@@ -15405,12 +15405,3 @@ msgstr "zl &lt;leasainm&gt;: Aimsigh úsáideoir"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;leasainm&gt;: Aimsigh úsáideoir"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "Úsáid clientLogin"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "Glac _páirt go huathoibríoch nuair a cheanglaíonn cuntas."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "_Fan sa chomhrá tar éis go ndúntar an fhuinneog."

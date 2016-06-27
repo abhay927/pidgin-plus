@@ -19,8 +19,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:19+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:30+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "X-Poedit-Country: INDIA\n"
 "Language: Tamil\n"
 "X-Poedit-Bookmarks: -1,470,-1,-1,-1,-1,-1,-1,-1,1715\n"
@@ -15314,12 +15314,3 @@ msgstr "zl &lt;செல்லப்பெயர்&gt;: பயனாளரை �
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;செல்லப்பெயர்&gt;: பயனாளரை தேடு"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "பயனர் உட்புகுவை பயன்படுத்து"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "கணக்கு இணைக்கும் போது தானாக இணை (_j)."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "சாளரம் மூடப்பட்ட பிறகு அரட்டையில் தங்கியிருக்கும் (_R)."

@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:07+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:18+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Czech\n"
 
 msgid "\tNotify for _System messages"
@@ -15168,12 +15168,3 @@ msgstr "zl &lt;přezdívka&gt;: Najít uživatele"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;přezdívka&gt;: Najít uživatele"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "Použít clientLogin"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "Automaticky _připojit při připojení účtu."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "_Zůstat na chatu po zavření okna."

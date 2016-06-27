@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:16+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:27+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Punjabi\n"
 
 msgid "\tNotify for _System messages"
@@ -15098,12 +15098,3 @@ msgstr "zl &lt;nick&gt;: ਯੂਜ਼ਰ ਖੋਜੋ"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt;: ਯੂਜ਼ਰ ਖੋਜ"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "ਕਲਾਇਟਲਾਗਇਨ ਵਰਤੋਂ"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "ਜਦੋਂ ਅਕਾਊਂਟ ਕੁਨੈਕਟ ਹੋਵੇ ਤਾਂ ਆਟੋ-ਜੁਆਇੰਨ ਕਰੋ(_j)।"
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "ਜਦੋਂ ਵਿੰਡੋ ਬੰਦ ਕੀਤੀ ਜਾਵੇ ਤਾਂ ਗੱਲਬਾਤ ਵਿੱਚ ਰਹੋ(_R)|"

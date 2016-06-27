@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:04+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:15+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Albanian\n"
 
 msgid "\tNotify for _System messages"
@@ -15310,12 +15310,3 @@ msgstr "zl &lt;nofkë&gt;: Pikas përdorues"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nofkë&gt;: Pikas përdorues"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "Përdor \"clientLogin\""
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "_Vetëfutu kur llogaria kalon në linjë."
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "_Qëndro në fjalosje kur mbyllet dritarja."

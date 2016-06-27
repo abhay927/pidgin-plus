@@ -22,8 +22,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 :    "
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:17+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:28+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Serbian\n"
 
 msgid "\tNotify for _System messages"
@@ -15049,6 +15049,3 @@ msgstr "zl &lt;надимак&gt;: Лоцирај корисника"
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;надимак&gt;: Лоцирај корисника"
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "_Настави ћаскање након затварања прозора."

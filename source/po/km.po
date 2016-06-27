@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:12+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-06-27 06:23+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 "Language: Khmer\n"
 
 msgid "\tNotify for _System messages"
@@ -15294,12 +15294,3 @@ msgstr "zl &lt;nick&gt; ៖ កំណត់​ទីតាំង​អ្នក�
 
 msgid "zlocate &lt;nick&gt;: Locate user"
 msgstr "zlocate &lt;nick&gt; ៖ កំណត់​ទីតាំង​អ្នកប្រើ"
-
-#~ msgid "Use clientLogin"
-#~ msgstr "ប្រើការ​​ចូល​ម៉ាស៊ីន​ភ្ញៀវ"
-
-#~ msgid "Auto_join when account connects."
-#~ msgstr "ចូល​ដោយ​ស្វ័យ​ប្រវត្តិ នៅពេល​គនណី​តភ្ជាប់ ។​"
-
-#~ msgid "_Remain in chat after window is closed."
-#~ msgstr "នៅ​ក្នុង​ការជជែក​បន្ទាប់​ពី​បង្អួច​ត្រូវ​បានបិទ ។"
