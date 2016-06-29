@@ -48,7 +48,7 @@ static PurplePluginInfo info = {
 	N_("IRC Away Nick"),
 	N_("Changes your nick to indicate you are away."),
 	"Renato Silva",
-	"http://launchpad.net/pidgin-ircaway",
+	APPLICATION_WEBSITE,
 	plugin_load,
 	plugin_unload,
 	NULL,
