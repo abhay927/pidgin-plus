@@ -1,3 +1,4 @@
+It's very helpful code
 # Pidgin++
 
 [![](https://travis-ci.org/renatosilva/pidgin-plus.svg?branch=master)](https://travis-ci.org/renatosilva/pidgin-plus)
